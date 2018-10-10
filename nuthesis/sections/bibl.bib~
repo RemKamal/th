@@ -1,0 +1,15 @@
+@article {Della Negra1560,
+	author = {Della Negra, M. and Jenni, P. and Virdee, T. S.},
+	title = {Journey in the Search for the Higgs Boson: The ATLAS and CMS Experiments at the Large Hadron Collider},
+	volume = {338},
+	number = {6114},
+	pages = {1560--1568},
+	year = {2012},
+	doi = {10.1126/science.1230827},
+	publisher = {American Association for the Advancement of Science},
+	abstract = {The search for the standard model Higgs boson at the Large Hadron Collider (LHC) started more than two decades ago. Much innovation was required and diverse challenges had to be overcome during the conception and construction of the LHC and its experiments. The ATLAS and CMS Collaboration experiments at the LHC have discovered a heavy boson that could complete the standard model of particle physics.},
+	issn = {0036-8075},
+	URL = {http://science.sciencemag.org/content/338/6114/1560},
+	eprint = {http://science.sciencemag.org/content/338/6114/1560.full.pdf},
+	journal = {Science}
+}
