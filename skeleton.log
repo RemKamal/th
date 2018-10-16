@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  10 OCT 2018 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  16 OCT 2018 15:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1057,84 +1057,114 @@ Overfull \hbox (0.16273pt too wide) detected at line 3
 ] (./skeleton.lot) [8
 
 ]
-(./nuthesis/sections/Introduction.tex [1
+(./nuthesis/sections/Introduction.tex
+<nuthesis/images/atom_structure.jpg, id=95, 614.295pt x 614.295pt>
+File: nuthesis/images/atom_structure.jpg Graphic file (type jpg)
+
+<use nuthesis/images/atom_structure.jpg>
+Package pdftex.def Info: nuthesis/images/atom_structure.jpg used on input line 
+10.
+(pdftex.def)             Requested size: 303.53268pt x 303.538pt.
+ [1
 
 
-] [2]
+] [2 <./nuthesis/images/atom_structure.jpg>] [3]
+<nuthesis/images/sm_interactions2.png, id=129, 1065.9825pt x 778.91pt>
+File: nuthesis/images/sm_interactions2.png Graphic file (type png)
 
-LaTeX Warning: Citation `Chandrasekhar:1187874' on page 3 undefined on input li
-ne 12.
+<use nuthesis/images/sm_interactions2.png>
+Package pdftex.def Info: nuthesis/images/sm_interactions2.png used on input lin
+e 24.
+(pdftex.def)             Requested size: 390.25537pt x 285.14958pt.
+ [4] [5 <./nuthesis/images/sm_interactions2.png>] [6]
+<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=162, 595.22375
+pt x 609.27625pt>
+File: nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png Graphic file 
+(type png)
+
+<use nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png>
+Package pdftex.def Info: nuthesis/images/Standard_Model_Feynman_Diagram_Vertice
+s.png used on input line 40.
+(pdftex.def)             Requested size: 346.89734pt x 355.08177pt.
+ [7 <./nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png (PNG copy)>]
 
 
-LaTeX Warning: Citation `Gutfreund:1980674' on page 3 undefined on input line 1
-2.
-
-
-LaTeX Warning: Citation `butterworth2014smashing' on page 3 undefined on input 
-line 12.
-
-[3]
-
-LaTeX Warning: Citation `Cottingham:1026625' on page 4 undefined on input line 
-17.
-
-
-LaTeX Warning: Reference `ch:theory' on page 4 undefined on input line 27.
-
-[4]
-
-LaTeX Warning: Reference `ch:theory' on page 5 undefined on input line 31.
+LaTeX Font Warning: Command \small invalid in math mode on input line 51.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 32.
+(Font)              <10.95> on input line 53.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 32.
+(Font)              <> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 32.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 32.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 32.
+(Font)              <0.7> on input line 62.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <0.5> on input line 62.
 
-LaTeX Warning: Reference `ch:cms' on page 5 undefined on input line 32.
-
-[5]
-
-LaTeX Warning: Reference `ch:gensimreco' on page 6 undefined on input line 36.
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 62.
 
 
-LaTeX Warning: Reference `ch:stat' on page 6 undefined on input line 38.
-
-[6]
-
-LaTeX Warning: Reference `ch:analysis' on page 7 undefined on input line 42.
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 62.
 
 
-LaTeX Warning: Reference `ch:pixel' on page 7 undefined on input line 44.
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 62.
 
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 62.
 
-LaTeX Warning: Reference `ch:Conclusions' on page 7 undefined on input line 46.
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 62.
 
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 62.
 
-) [7]
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 62.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 62.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 62.
+
+[8] [9] <nuthesis/images/coupling_ff.png, id=202, 569.12625pt x 546.04pt>
+File: nuthesis/images/coupling_ff.png Graphic file (type png)
+
+<use nuthesis/images/coupling_ff.png>
+Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 107
+.
+(pdftex.def)             Requested size: 346.89734pt x 332.84229pt.
+ [10] [11 <./nuthesis/images/coupling_ff.png (PNG copy)>]
+<nuthesis/images/higgs_production.jpg, id=214, 559.8516pt x 414.348pt>
+File: nuthesis/images/higgs_production.jpg Graphic file (type jpg)
+
+<use nuthesis/images/higgs_production.jpg>
+Package pdftex.def Info: nuthesis/images/higgs_production.jpg used on input lin
+e 118.
+(pdftex.def)             Requested size: 390.25537pt x 288.82771pt.
+ [12 <./nuthesis/images/higgs_production.jpg>]
+<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=220, 569.12625pt x 436.63126pt>
+File: nuthesis/images/Higgs_BR_LM_RECT.pdf Graphic file (type pdf)
+
+<use nuthesis/images/Higgs_BR_LM_RECT.pdf>
+Package pdftex.def Info: nuthesis/images/Higgs_BR_LM_RECT.pdf used on input lin
+e 131.
+(pdftex.def)             Requested size: 390.25537pt x 299.41707pt.
+) (./skeleton.bbl [13 <./nuthesis/images/Higgs_BR_LM_RECT.pdf>]
 bibitemlist
+[14
 
-LaTeX Warning: Empty `thebibliography' environment on input line 296.
-
-(./skeleton.bbl [8
-
-]
-bibitemlist
-[9
-
-])
+] [15])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 307.
+(in both cases you will find help in the memoir manual). on input line 305.
 
-[10]
+[16]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -1144,48 +1174,50 @@ either increase the foot skip or redesign the fotoer
 \tf@lot=\write7
 \openout7 = `skeleton.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
  (./skeleton.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: 8DE497B50ABC01A5B4AED51CDFC974A1;287.
+(rerunfilecheck)             Checksum: 40963EE8C45F74AD1B3BFEF3A91FA8DD;249.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 4.5pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 305.
  ) 
 Here is how much of TeX's memory you used:
- 14002 strings out of 493014
- 206782 string characters out of 6133350
- 345368 words of memory out of 5000000
- 17210 multiletter control sequences out of 15000+600000
- 96222 words of font info for 89 fonts, out of 8000000 for 9000
+ 14091 strings out of 493014
+ 208905 string characters out of 6133350
+ 349616 words of memory out of 5000000
+ 17267 multiletter control sequences out of 15000+600000
+ 103672 words of font info for 96 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 52i,11n,46p,3238b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
-st, replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
-xlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/tex
-mf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fo
-nts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/
-public/lm/lmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
-lmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/lm/lmri10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on skeleton.pdf (18 pages, 221472 bytes).
+ 52i,11n,46p,2034b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
+dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
+m/lmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb>
+Output written on skeleton.pdf (24 pages, 1116176 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 269 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{strassler}
+Matt Strassler.
+\newblock Of particular significance: Conversations about science with
+  theoretical physicist matt strassler.
+
 \bibitem{Feynman_atoms}
 Richard~Phillips Feynman, Robert~Benjamin Leighton, and Matthew Sands.
 \newblock {\em {The Feynman lectures on physics; New millennium ed.}}
@@ -31,6 +36,10 @@ Oreste Piccioni.
 \newblock {\em The Discovery of the Muon}, pages 143--162.
 \newblock Springer US, Boston, MA, 1996.
 
+\bibitem{Bender}
+Carl Bender.
+\newblock Mathematical physics.
+
 \bibitem{PhysRevLett.9.36}
 G.~Danby, J-M. Gaillard, K.~Goulianos, L.~M. Lederman, N.~Mistry, M.~Schwartz,
   and J.~Steinberger.
@@ -39,13 +48,7 @@ G.~Danby, J-M. Gaillard, K.~Goulianos, L.~M. Lederman, N.~Mistry, M.~Schwartz,
 \newblock {\em Phys. Rev. Lett.}, 9:36--44, Jul 1962.
 
 \bibitem{PhysRevLett.35.1489}
-M.~L. Perl, G.~S. Abrams, A.~M. Boyarski, M.~Breidenbach, D.~D. Briggs,
-  F.~Bulos, W.~Chinowsky, J.~T. Dakin, G.~J. Feldman, C.~E. Friedberg,
-  D.~Fryberger, G.~Goldhaber, G.~Hanson, F.~B. Heile, B.~Jean-Marie, J.~A.
-  Kadyk, R.~R. Larsen, A.~M. Litke, D.~L\"uke, B.~A. Lulu, V.~L\"uth, D.~Lyon,
-  C.~C. Morehouse, J.~M. Paterson, F.~M. Pierre, T.~P. Pun, P.~A. Rapidis,
-  B.~Richter, B.~Sadoulet, R.~F. Schwitters, W.~Tanenbaum, G.~H. Trilling,
-  F.~Vannucci, J.~S. Whitaker, F.~C. Winkelmann, and J.~E. Wiss.
+M.~L. Perl, G.~S. Abrams, and et~al Boyarski.
 \newblock Evidence for anomalous lepton production in
   ${e}^{+}\ensuremath{-}{e}^{\ensuremath{-}}$ annihilation.
 \newblock {\em Phys. Rev. Lett.}, 35:1489--1492, Dec 1975.
@@ -59,6 +62,77 @@ K.~Kodama et~al.
 S.~M. Bilenky.
 \newblock {Neutrino in Standard Model and beyond}.
 \newblock {\em Phys. Part. Nucl.}, 46(4):475--496, 2015.
+
+\bibitem{Chandrasekhar:1187874}
+S~Chandrasekhar.
+\newblock {\em {Newton's principia for the common reader}}.
+\newblock Oxford Univ., Oxford, 2003.
+\newblock The book can be consulted by contacting: PH-AID: Wallet, Lionel.
+
+\bibitem{Gutfreund:1980674}
+Hanoch Gutfreund and Jürgen Renn.
+\newblock {\em {The road to relativity: the history and meaning of Einstein's
+  "The foundation of general relativity" : featuring the original manuscript of
+  Einstein's masterpiece}}.
+\newblock Princeton University Press, Princeton, NJ, Apr 2015.
+
+\bibitem{butterworth2014smashing}
+J.~Butterworth.
+\newblock {\em Smashing Physics}.
+\newblock Headline Publishing Group, 2014.
+
+\bibitem{Cottingham:1026625}
+W~N Cottingham and D~A Greenwood.
+\newblock {\em {An Introduction to the Standard Model of Particle Physics; 2nd
+  ed.}}
+\newblock Cambridge Univ. Press, Cambridge, 2007.
+
+\bibitem{wolfram}
+Eric~W. Weisstein.
+\newblock Fundamental forces.
+
+\bibitem{qed_fathers}
+Andrew Wayne.
+\newblock {QED and the Men Who Made It: Dyson, Feynman, Schwinger, and Tomonaga
+  by Silvan S. Schweber}.
+\newblock {\em The British Journal for the Philosophy of Science},
+  46(4):624--627, 1995.
+
+\bibitem{pdg}
+C.~Patrignani et~al.
+\newblock {Review of Particle Physics}.
+\newblock {\em Chin. Phys.}, C40(10):100001, 2016.
+
+\bibitem{Mangano:454171}
+Michelangelo~L Mangano.
+\newblock {Introduction to QCD}.
+\newblock (CERN-OPEN-2000-255), 1999.
+
+\bibitem{Glashow:1961tr}
+S.~L. Glashow.
+\newblock {Partial Symmetries of Weak Interactions}.
+\newblock {\em Nucl. Phys.}, 22:579--588, 1961.
+
+\bibitem{PhysRevLett.13.321}
+F.~Englert and R.~Brout.
+\newblock Broken symmetry and the mass of gauge vector mesons.
+\newblock {\em Phys. Rev. Lett.}, 13:321--323, Aug 1964.
+
+\bibitem{PhysRevLett.13.508}
+Peter~W. Higgs.
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock {\em Phys. Rev. Lett.}, 13:508--509, Oct 1964.
+
+\bibitem{PhysRevLett.13.585}
+G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble.
+\newblock Global conservation laws and massless particles.
+\newblock {\em Phys. Rev. Lett.}, 13:585--587, Nov 1964.
+
+\bibitem{who_cares}
+Pauline Gagnon.
+\newblock {\em Who cares about particle physics? : making sense of the Higgs
+  boson, the Large Hadron Collider and CERN}.
+\newblock Oxford University Press, 2016.
 
 \bibitem{DellaNegra1560}
 M.~Della~Negra, P.~Jenni, and T.~S. Virdee.
