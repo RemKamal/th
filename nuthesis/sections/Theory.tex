@@ -10,354 +10,80 @@
 
 %______________________ INTRODUCCION ______________________
 \section{Introduction}
-\label{secc:Intro_th}
+The SM uses the Lagrangian formalism to describe the interactions of elementary particles and fields. The SM Lagrangian can be split into four main terms:
 
-The physical description of the universe is a challenge that physicists have faced by making theories that refine existing principles and proposing new ones in an attempt to embrace emerging facts and phenomena.
-%% By early 1800's, there were separate theories describing electric and magnetic phenomena, gravitational force and light. The invention of the electric battery by Alessandro Volta in 1800, the discovery of the magnetic effects of the electric current by Oersted and Ampere (1820), and the generation of electric current using changing magnetic fields by Faraday (1831) represent the first steps in the way to create a unified theory describing electric and magnetic phenomena, the theory of electromagnetism \cite{griffiths}.\\
-
-%% The unification was carried out by James Clerk Maxwell who was able to merge electricity and magnetism in a set of 20 equations known as \ti{general equations of the electromagnetic field,} relating the observables that describe the experimental laws of the electromagnetism. By combining these equations, Maxwell found a wave equation and propose the existence of the \ti{electromagnetic waves.} The predicted propagation speed of the electromagnetic waves turned out to be the same as the speed of light, therefore, the natural conclusion was that light is an electromagnetic wave\cite{maxwell}.
-
-%% %By 1900, waves were considered a perturbation of a material medium which in the case of the electromagnetic waves was identified as the \textit{``Luminiferous Ether}}.
-%% By 1900, Max Planck came out with the idea that radiation is quantized\cite{planck} and Albert Einstein in 1905 made use of that hypothesis to propose the existence of the light quantum, the \textit{``photon}}, in order to explain the photoelectric effect\cite{photoeffect}. The well-known quantum revolution in physics started and the idea of particle-wave duality of photons as a natural behavior was developed and later extended to electrons and to all kind of particles in nature. The development of a quantum theory allowed to predict a set of non-common sense effects like the quantum tunneling and quantum entanglement, however, quantum theory was separated from the recently unified electromagnetism.\\
-
-%% In 1905, Einstein also published two more papers; one aimed to describe his statistical molecular theory of liquids and how it can be used to describe Brownian motion\cite{brownian}. At that time the existence of the atoms and molecules were not fully demonstrated but Einstein's theory provided an explanation as well as predictions based on the their existence. Jean Perrin in 1908 conducted experiments that confirmed Einstein's predictions. The other paper described the relationship between space and time \cite{relativity}, unifying the notion of space and time into one entity known as \textit{spacetime} that treats space and time at the same level and then discards the absoluteness of time. The new theory known as special relativity, supersedes the Galilean relativity principle and postulates exceptional effects like the time dilation, length contraction and mass-energy equivalence through the most famous formula in physics\cite{energy}
-%% \beqn
-%% E=mc^2.
-%% \eeqn
-%% Generalization of the special relativity was presented in 1916 and includes a generalization of Newton's law of universal gravitation, becoming a unified description of gravity as a geometric property of space and time. Einstein's predictions include the existence of black holes and the recently observed \textit{gravitational waves}\cite{ligo}.  
-
-At the end of 1940s Julian Schwinger\cite{schwinger} and Richard P. Feynman\cite{feynman}, based on the work of Sin-Itiro Tomonaga\cite{tomonaga}, developed an electromagnetic theory consistent with special relativity and quantum mechanics that describes how matter and light interact; the so-called \ti{quantum electrodynamics} (QED) was born.% Despite the incredible success of general relativity in describing the macroworld where gravity dominates and quantum mechanics in describing the microworld where other forces dominates, a self-consistent theory of quantum gravity is not yet available.
-
-QED has become the blueprint for developing theories that describe the universe. It was the first example of a quantum field theory (QFT), which is the theoretical framework for building quantum mechanical models that describes particles and their interactions. QFT is composed of a set of mathematical tools that combines classical fields, special relativity and quantum mechanics, while keeping the quantum point particles and locality ideas.
-
-This chapter gives an overview of the standard model of particle physics, starting with a description of the particles and their interactions, followed by a description of the electroweak interaction, the Higgs boson and the associated production of Higgs boson and a single top quark (\tH). The description contained in this chapter is based on References \cite{griffiths, mandl, halzen}.  % The last section gives an overview of the CP-mixing implications in tH processes.      
-
-%______________________ SM  ______________________
-\section{Standard model of particle physics}
-\label{secc:SM}
-
-The \ti{standard model of particle physics (SM)} describes particle physics at the fundamental level in terms of a collection of interacting particles and fields. The full picture of the SM is composed of three fields\footnote{The formal and complete treatment of the SM is out of the scope of this document, however a plenty of textbooks describing it at several levels are available in the literature. The treatment in References \cite{mandl,halzen} is quite comprehensive and detailed. Note that gravitational field is not included in the standard model formulation} whose excitations are interpreted as particles called mediators or force-carriers, a set of fields whose excitations are interpreted as elementary particles interacting through the exchange of those mediators, and a field that gives the mass to elementary particles. Figure \ref{sm} shows a scheme of the SM particles' organization. In addition, for each of the particles in the scheme there exits an antiparticle with the same mass and opposite quantum numbers. The existence of antiparticles is a prediction of the relativistic quantum mechanics from the solution of the Dirac equation for which a negative energy solution is also possible. In some cases a particle is its own anti-particle, like photon or Higgs boson.
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[scale=0.4]{sm}
-  \caption[Standard Model of particle physics.]{Schematic representation of the Standard Model of particle physics. The SM is a theoretical model intended to describe three of the four fundamental forces of the universe in terms of a set of particles and their interactions. \cite{smpicture}.}
-  \label{sm}
-\end{figure}
-
-The mathematical formulation of the SM is based on group theory and the use of Noether's theorem\cite{noether} which states that for a physical system modeled by a Lagrangian that is invariant under a group of transformations a conservation law is expected. For instance, a system described by a time-independent Lagrangian is invariant (symmetric) under time changes (transformations) with the total energy conservation law as the expected conservation law. In QED, the charge operator (Q) is the generator of the U(1) symmetry which according to the Noether's theorem means that there is a conserved quantity; this conserved quantity is the electric charge and thus the law conservation of electric charge is established.
-
-In the SM, the symmetry group $SU(3)_C\otimes SU(2)_L\otimes U(1)_Y$ describes three of the four fundamental interactions in nature (see Section \ref{fund_inter}): strong interaction (SI), weak interaction (WI) and electromagnetic interactions (EI) in terms of symmetries associated to physical quantities:
 \begin{itemize}
-\item Strong: $SU(3)_C$ associated to color charge
-\item Weak: $SU(2)_L$ associated to weak isospin and chirality
-\item Electromagnetic: $U(1)_Y$ associated to weak hypercharge and electric charge
+\item Gause bosons and their interactions
+\item Higgs boson, its self-interaction, and interaction with the gauge bosons to give them mass, which is not possible solely by the $\Lagr_{YM}$
+\item Fermions and their interactions with the gauge bosons
+\item Fermions and their interactions with the Higgs boson, which through the Yukawa mechanism gives mass to fermions
 \end{itemize}
-
-It will be shown that the electromagnetic and weak interactions are combined in the so-called electroweak interaction where chirality, hypercharge, weak isospin and electric charge are the central concepts.
-
-\subsection{Fermions}\label{fermions}
-
-The basic constituents of the ordinary matter at the lowest level, which form the set of elementary particles in the SM formulation, are quarks and leptons. All of them have spin 1/2, therefore they are classified as fermions since they obey Fermi-Dirac statistics. There are six \ti{flavors} of quarks and three of leptons organized in three generations, or families, as shown in Table \ref{flav_gen}.
  
-\begin{table}[h!]
-\centering
-\footnotesize
-\begin{tabular}{ccccc} \hline
-                         &         & \multicolumn{3}{c}{Generation}                                                           \\ \hline
-                         &Type     & 1st                          & 2nd                        & 3rd                          \\ \hline
-\multirow{2}{*}{Leptons} &Charged  & Electron (e)                 & Muon($\mu$)                & Tau ($\tau$)                 \\%\hline
-                         &Neutral  & Electron neutrino ($\nu_e$)  & Muon neutrino ($\nu_{\mu}$) & Tau neutrino ($\nu_{\tau}$) \\\hline
-\multirow{2}{*}{Quarks}  &Up-type  & Up (u)                       & Charm (c)                & Top (t)                        \\%\hline
-                         &Down-type& Down (d)                     & Strange (s)              & Bottom (b)                     \\\hline
-\end{tabular}
-\caption[Fermions of the SM.]{Fermions of the SM. There are six flavors of quarks and three of leptons, organized in three generations, or families, composed of two pairs of closely related particles. The close relationship is motivated by the fact that each pair of particles is a member of an $SU(2)_L$ doublet that has an associated invariance under isospin transformations. WI between leptons is limited to the members of the same generation; WI between quarks is not limited but greatly favored, to same generation members. }\label{flav_gen}
-\end{table}
-
-There is a mass hierarchy between generations (see Table \ref{f_masses}), where the higher generation particles decays to the lower one, which can explain why the ordinary matter is made of particles from the first generation. In the SM, neutrinos are modeled as massless particles so they are not subject to this mass hierarchy; however, today it is known that neutrinos are massive so the hierarchy could be restated. The reason behind this mass hierarchy is one of the most important open questions in particle physics, and it becomes more puzzling when noticing that the mass difference between first and second generation fermions is small compared to the mass difference with respect to the third generation.
-
-\begin{table}[h]
-\centering
-\footnotesize
-\begin{tabular}{lclc} \hline
-Lepton    & Mass (MeV/c$^2$) & Quark  & Mass (MeV/c$^2$)       \\ \hline
-e         & 0.51             & u      & $ 2.2$             \\ %\hline
-$\mu$     & 105.65           & c      & $ 1.28\times 10^3$ \\ %\hline
-$\tau$    & 1776.86          & t      & $ 173.1\times 10^3$\\ %\hline
-$\nu_e$   & Unknown          & d      & $ 4.7$             \\ %\hline
-$\nu_\mu$ & Unknown          & s      & $ 96$              \\ %\hline
-$\tau_\mu$& Unknown          & b      & $ 4.18\times 10^3$ \\ \hline
-\end{tabular}
-\caption[Fermion masses.]{Fermion masses\cite{pdg}. Generations differ by mass in a way that has been interpreted as a mass hierarchy. Approximate values with no uncertainties are used, for comparison purpose.}\label{f_masses}
-\end{table}
-
-Usually, the second and third generation fermions are produced in high energy processes, like the ones recreated in particle accelerators.         
-
-\subsubsection*{Leptons}
-
-A lepton is an elementary particle that is not subject to the SI. As seen in Table \ref{flav_gen}, there are two types of leptons, the charged ones (electron, muon and tau) and the neutral ones (the three neutrinos). The electric charge (Q) is the property that gives leptons the ability to participate in the EI. From the classical point of view, Q plays a central role determining, among others, the strength of the electric field through which the electromagnetic force is exerted. It is clear that neutrinos are not affected by EI because they don't carry electric charge.
-
-Another feature of the leptons that is fundamental in the mathematical description of the SM is the chirality, which is closely related to spin and helicity. Helicity defines the handedness of a particle by relating its spin and momentum such that if they are parallel then the particle is right-handed; if spin and momentum are antiparallel the particle is said to be left-handed. The study of parity conservation (or violation) in $\beta$-decay has shown that only left-handed electrons/neutrinos or right-handed positrons/anti-neutrinos are created\cite{goldhaber}; the inclusion of that feature in the theory was achieved by using projection operators for helicity, however, helicity is frame dependent for massive particles which makes it not Lorentz invariant and then another related attribute has to be used: \textit{chirality}.
-
-Chirality is a purely quantum attribute which makes it not so easy to describe in graphical terms but it defines how the wave function of a particle transforms under certain rotations. As with helicity, there are two chiral states, left-handed chiral (L) and right-handed chiral (R). In the highly relativistic limit where $E\approx p \gg m$ helicity and chirality converge, becoming exactly the same for massless particles.
-
-In the following, when referring to left-handed (right-handed) it will mean left-handed chiral (right-handed chiral). The fundamental fact about chirality is that while EI and SI are not sensitive to chirality, in WI left-handed and right-handed fermions are treated asymmetrically, such that only left-handed fermions and right-handed anti-fermions are allowed to couple to WI mediators, which is a violation of parity. The way to translate this statement in a formal mathematical formulation is based on the isospin symmetry group $SU(2)_L$.
-
-Each generation of leptons is seen as a weak isospin doublet.\footnote{The weak isospin is an analogy of the isospin symmetry in strong interaction where neutron and proton are affected equally by strong force but differ in their charge.} The left-handed charged lepton and its associated left-handed neutrino are arranged in doublets of weak isospin T=1/2 while their right-handed partners are singlets:
-
-\begin{equation}
-\binom{\nu_l}{l}_L , l_R := \binom{\nu_e}{e}_L , \binom{\nu_\mu}{\mu}_L, \binom{\nu_\tau}{\tau}_L, e_R, \mu_R, \tau_R, \nu_{eR}, \nu_{\mu R}, \nu_{\tau R}
-\label{lepton_multiplets}
+or equivalently:
+\begin{equation}\label{lagr_SM}
+\Lagr_{SM} = \Lagr_{YM} + \Lagr_{H} + \Lagr_{ferm} + \Lagr_{Yuk} 
 \end{equation}
 
-The isospin third component refers to the eigenvalues of the weak isospin operator which for doublets is $T_3 = \pm 1/2$, while for singlets it is $T_3=0$. The physical meaning of this doublet-singlet arrangement falls in that the WI couples the two particles in the doublet by exchanging the interaction mediator while the singlet member is not involved in WI. The main properties of the leptons are summarized in Table \ref{leptons}.
+The first term in the SM Lagrangian:
+\beqn\label{lagr_YM}
+\Lagr_{YM} = 	-\frac{1}{4}W^i_{\mu\nu}(x)W_i^{\mu\nu}(x) -\frac{1}{4}B_{\mu\nu}(x)B^{\mu\nu}(x) -\frac{1}{4}G^a_{\mu\nu}(x)G_a^{\mu\nu}(x)
+\eeqn
 
-%% When two leptons interact, the interaction involves only one kind of lepton \ie at the vertex both lepton lines refers to the same kind of lepton (see Figure. \ref{lepton_int}), therefore EI does not change flavor; the so-called \ti{Lepton number} was assigned to each lepton flavor: 
+where
+\begin{align}
+B_{\mu\nu}(x)   \equiv & \partial_\mu B_\nu -  \partial_\nu B_\mu \label{B_tensor} \\ 
+W^i_{\mu\nu}(x) \equiv & \partial_\mu W^i_\nu(x) - \partial_\nu W^i_\mu(x) - g\varepsilon^{ijk}W^j_\mu W^k_\nu \label{W_tensor}\\
+G^a_{\mu\nu}(x) \equiv & \partial_\mu G^a_\nu(x) - \partial_\nu G^a_\mu(x) - g_s f^{abc}G^b_\mu G^c_\nu \label{G_tensor}\\
+\end{align}
+with $i,j,k = 1,2,3$ and $a,b,c = 1, ..., 8$. The fields have the following connections to their underlying symmetries: $B_{\mu\nu}$ corresponds to $U(1)$ symmetry of the weak hypercharge $Y_k$ and "B" term is simply a kinematic term while "W" and "G" terms describe interactions among the corresponding bosons, where $W^i_{\mu\nu}$ corresponds to $SU(2)_I$ symmetry of the weak isospin $I^i_{w}$, and $G^a_{\mu\nu}$ corresponds to $SU(3)_c$ symmetry of the QCD color charge. $g$ and $\varepsilon$ are $SU(2)$ coupling and structure constants, while $g_s$ and $f$ are coupling and structure constants for $SU(3)$.
 
-%% \begin{itemize}    
-%% \item Electron number: $N_e=N(e^-) - N(e^+)$
-%% \item Muon number    : $N_\mu=N(\mu^-) - N(\mu^+)$
-%% \item Tau number     : $N_\tau=N(\tau^-) - N(\tau^+)$
-%% \end{itemize}
+The next term in the SM Lagrangian explains how fermions interact with the gauge bosons, however, mass terms are absent:
+\beqn\label{lagr_ferm}
+\Lagr_{ferm}= i \bar{\Psi}_L \slashed{D} \Psi_L  + i \bar{\psi}_{l_{R}}  \slashed{D} \psi_{l_{R}} +
+i \bar{\Psi}_Q \slashed{D} \Psi_Q  + i \bar{\psi}_{u_{R}}  \slashed{D} \psi_{u_{R}} +
+ i \bar{\psi}_{d_{R}}  \slashed{D} \psi_{d_{R}}
+\eeqn
 
-%% representing the number of leptons plus the number of anti-leptons of each flavor entering in a process. These lepton number are conserved in EI and SI since those interactions don't change flavor. 
+Above $\Psi$ represents a doublet of a charged lepton and a corresponding neutral lepton within the same lepton family of $SU(2)_L$, a letter Q is reserved for a family of quarks, and $\psi_R$ describes a right-handed leptonic singlet.
 
-%% \begin{figure}[h!]
-%%   \centering
-%%   \includegraphics[scale=0.4]{lepton_int}
-%%   \caption[Leptons interactions]{Diagrams representing the leptons interactions with the gauge fields; a: EI-electron and photon; b,c,d: WI - first generation leptons.}
-%%   \label{lepton_int}
-%% \end{figure}
-
-%% The lepton number definition has to be extended when considering the WI. The new definition is given in terms of the generation's weak isospin doublets, thus, electron and electron neutrino have electron number $L_e=1$, muon and muon neutrino have muon number $L_\mu=1$, tau and tau neutrino have tau number $L_\tau=1$. Lepton number conservation, which now is SM wide, implies that leptons have to be created in pairs.
-
-\begin{table}[h]
-\centering
-\footnotesize
-\begin{tabular}{lcccccc} \hline
-Lepton                      & Q(e) & $T_3$&$L_e$ & $L_\mu$ & $L_\tau$ & Lifetime (s)                \\ \hline
-Electron (e)                & -1   & -1/2 & 1    & 0       & 0        & Stable                      \\ %\hline
-Electron neutrino($\nu_e$)  & 0    &  1/2 & 1    & 0       & 0        & Unknown                     \\ %\hline
-Muon ($\mu$)                & -1   & -1/2 & 0    & 1       & 0        & $2.19\times10^{-6}$\\ %\hline
-Muon neutrino ($\nu_\mu$)   & 0    &  1/2 & 0    & 1       & 0        & Unknown                     \\ %\hline
-Tau ($\tau$)                & -1   & -1/2 & 0    & 0       & 1        & $290.3\times10^{-15}$    \\ %\hline
-Tau neutrino ($\tau_\mu$)   & 0    &  1/2 & 0    & 0       & 1        & Unknown                     \\ \hline
-\end{tabular}
-\caption[Lepton properties.]{Lepton properties\cite{pdg}. Q: electric charge, $T_3$: weak isospin. Only left-handed leptons and right-handed anti-leptons participate in the WI. Anti-particles with inverted $T_3$, Q and lepton number complete the leptons set but are not listed. Right-handed leptons and left-handed anti-leptons, neither listed, form weak isospin singlets with $T_3=0$ and do not take part in the weak interaction.}\label{leptons}
-\end{table}
-
-Although all three flavor neutrinos have been observed, their masses remain unknown and only some estimations have been made\cite{nu_mass}. The main reason is that the flavor eigenstates are not the same as the mass eigenstates which implies that when a neutrino is created its mass state is a linear combination of the three mass eigenstates and experiments can only probe the squared difference of the masses. The Pontecorvo-Maki-Nakagawa-Sakata (PMNS) mixing matrix encodes the relationship between flavor and mass eigenstates.
-
-\subsubsection*{Quarks}
-
-Quarks are the basic constituents of protons and neutrons. The way quarks join to form bound states, called \ti{hadrons}, is through the SI. Quarks are affected by all the fundamental interactions which means that they carry all the four types of charges: color, electric charge, weak isospin and mass.
-
-
-\begin{table}[h!]
-\centering
-\footnotesize
-\begin{tabular}{lcccccccccc} \hline
-Flavor     & Q(e) & $I_3$ & $T_3$  & B   & C & S  & T & B'  & Y    & Color \\ \hline
-Up (u)     & 2/3  & 1/2   &  1/2   & 1/3 & 0 & 0  & 0 & 0   & 1/3  & r,b,g \\ %\hline
-Charm (c)  & 2/3  & 0     &  1/2   & 1/3 & 1 & 0  & 0 & 0   & 4/3  & r,b,g \\ %\hline
-Top(t)     & 2/3  & 0     &  1/2   & 1/3 & 0 & 0  & 1 & 0   & 4/3  & r,b,g \\ \hline
-Down(d)    & -1/3 & -1/2  & -1/2   & 1/3 & 0 & 0  & 0 & 0   & 1/3  & r,b,g \\ %\hline
-Strange(s) & -1/3 & 0     & -1/2   & 1/3 & 0 & -1 & 0 & 0   & -2/3 & r,b,g \\ %\hline
-Bottom(b)  & -1/3 & 0     & -1/2   & 1/3 & 0 & 0  & 0 & -1  & -2/3 & r,b,g \\ \hline
-\end{tabular}
-\caption[Quark properties.]{Quark properties \cite{pdg}. Q: electric charge, $I_3$: isospin, $T_3$: weak isospin, B: baryon number, C: charmness, S: strangeness, T: topness, B': bottomness, Y: hypercharge. Anti-quarks posses the same mass and spin as quarks but all charges (color, flavor numbers) have opposite sign.}\label{quarks}
-\end{table}
-
-
-Table \ref{quarks} summarizes the features of quarks, among which the most remarkable is their fractional electric charge. Note that fractional charge is not a problem, given that quarks are not found isolated, but serves to explain how composite particles are formed out of two or more valence quarks\footnote{Hadrons can contain an indefinite number of virtual quarks and gluons, known as the quark and gluon sea, but only the valence quarks determine hadrons' quantum numbers.}.
-
-Color charge is responsible for the SI between quarks and is the symmetry ($SU(3)_C$) that defines the formalism to describe SI. There are three colors: red (r), blue (b) and green (g) and their corresponding three anti-colors; thus each quark carries one color unit while anti-quarks carries one anti-color unit. As explained in Section \ref{fund_inter}, quarks are not allowed to be isolated due to the color confinement effect, hence, their features have been studied indirectly by observing their bound states created when
-
-\begin{itemize}
-\item one quark with a color charge is attracted by an anti-quark with the corresponding anti-color charge forming a colorless particle called a \ti{meson.}
-\item three quarks (anti-quarks) with different color (anti-color) charges are attracted among them forming a colorless particle called a \ti{baryon (anti-baryon).}          
-\end{itemize}
-
-In practice, when a quark is left alone isolated a process called \ti{hadronization} occurs where the quark emits gluons (see Section \ref{sec:gb}) which eventually will generate new quark-antiquark pairs and so on; those quarks will recombine to form hadrons that will decay into leptons. This proliferation of particles looks like a \ti{jet} coming from the isolated quark. More details about the hadronization process and jet structure will be given in chapter\ref{ch:gensimreco}.         
-
-In the first version of the quark model (1964), M. Gell-Mann\cite{gellman} and G. Zweig\cite{zweig,zweig2} developed a consistent way to classify hadrons according to their properties. Only three quarks (u, d, s) were involved in a scheme in which all baryons have baryon number B=1 and therefore quarks have B=1/3; non-baryons have B=0. Baryon number is conserved in SI, WI and EI which means that single quarks cannot be created but in pairs $q-\bar{q}$.
-
-The scheme organizes baryons in a two-dimensional space ($I_3$ - Y); Y (hypercharge) and $I_3$ (isospin) are quantum numbers related by the Gell-Mann-Nishijima formula\cite{gell_ni,gell_ni2}:
-\begin{equation}
-Q=I_3 + \frac{Y}{2}
-\label{gmn}
-\end{equation}
-
-\noindent where $Y=B+S+C+T+B'$ are the quantum numbers listed in Table \ref{quarks}. 
-
-\begin{table}[hb]
-\centering
-\footnotesize
-\begin{tabular}{ccccccccccc} \hline
-                          &     \multicolumn{3}{c}{Quarks}                       & $T_3$              & $Y_W$&  \multicolumn{3}{c}{Leptons}                                              & $T_3$                    & $Y_W$\\\hline
-Doublets                  & $\binom{u}{d'}_L$& $\binom{c}{s'}_L$& $\binom{t}{b'}_L$& $\binom{1/2}{-1/2}$& 1/3  & $\binom{\nu_e}{e}_L$ & $\binom{\nu_\mu}{\mu}_L$& $\binom{\nu_\tau}{\tau}_L$& $\binom{1/2}{-1/2}$ & -1    \\ %\hline \\%\hline 
-\multirow{2}{*}{Singlets} & $u_R$            & $c_R$            & $t_R$            & 0                  & 4/3 & $\nu_{eR}$           & $\nu_{\mu R}$           & $\nu_{\tau R}$            &                     &       \\ % \\
-                          & $d'_R$           & $s'_R$           & $b'_R$           & 0                  & -2/3 & $e_R$                & $\mu_R$                 & $\tau_R$                  & 0                   & -2   \\ \hline % \\ \hline
-%% Leptons                   &                      &                         &                           &                     &       \\ \hline
-%% Doublets                  & $\binom{\nu_e}{e}_L$ & $\binom{\nu_\mu}{\mu}_L$& $\binom{\nu_\tau}{\tau}_L$& $\binom{1/2}{-1/2}$ & -1    \\%\hline 
-%% \multirow{2}{*}{Singlets} & $\nu_{eR}$           & $\nu_{\mu R}$           & $\nu_{\tau R}$            &                     &       \\
-%%                           & $e_R$                & $\mu_R$                 & $\tau_R$                  & 0                   & -2   \\ \hline
-\end{tabular}
-\caption[Fermion weak isospin and weak hypercharge multiplets.]{Fermion weak isospin and weak hypercharge multiplets. Weak hypercharge is calculated through the Gell-Mann-Nishijima formula \ref{gmn} but using the weak isospin and charge for quarks.}\label{T3Y}
-\end{table}
-
-There are six quark flavors organized in three generations (see Table \ref{flav_gen}) following a mass hierarchy which, again, implies that higher generations decay to first generation quarks.
-
-Isospin doublets of quarks are also defined (see Table \ref{T3Y}), and same as for neutrinos, the WI eigenstates are not the same as the mass eigenstates which means that members of different quark generations are connected by the WI mediator; thus, ${\textrm{up-type}}$ quarks are coupled not to down-type quarks (the mass eigenstates) directly but to a superposition of down-type quarks ($q'_d$; the weak eigenstates) via WI according to:
-
-\begin{equation}
-\centering
-q'_d = V_{CKM}q_d
-\end{equation}
-
-\begin{equation}
-\begin{pmatrix}
-d'\\ s'\\ b'
-\end{pmatrix}
- =
-\begin{pmatrix}
-V_{ud} & V_{us} & V_{ub}\\ V_{cd} & V_{cs} & V_{cb}\\ V_{td} & V_{ts} & V_{tb}\end{pmatrix}
-\begin{pmatrix}
-d\\s\\b
-\end{pmatrix}
-\label{eq:qmixing}
-\end{equation}
-
-\noindent where $V_{CKM}$ is known as Cabibbo-Kobayashi-Maskawa (CKM) mixing matrix\cite{C,KM} given by  
-
-\begin{equation}
-\small
-\begin{pmatrix}
-|V_{ud}| & |V_{us}| & |V_{ub}| \\
-|V_{cd}| & |V_{cs}| & |V_{cb}| \\
-|V_{td}| & |V_{ts}| & |V_{tb}|
-\end{pmatrix} = \begin{pmatrix}
-0.97427 \pm 0.00015 & 0.22534 \pm 0.00065 & 0.00351^{+0.00015}_{-0.00014} \\
-0.22520 \pm 0.00065 & 0.97344 \pm 0.00016 & 0.0412^{+0.0011}_{-0.0005} \\
-0.00867^{+0.00029}_{-0.00031} & 0.0404^{+0.0011}_{-0.0005} & 0.999146^{+0.000021}_{-0.000046}
-\end{pmatrix}.
-\label{eq:ckm}
-\end{equation}
-
-\begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.45\textwidth]{quarks_decay}
-  %\includegraphics[width=0.45\textwidth]{ckm}
-  \caption[Transformations between quarks]{Transformations between quarks through the exchange of a WI. Higher generations quarks decay to first generation quarks by emitting a W boson. The arrow color indicates the likelihood of the transition according to the grey scale in the top left side which represent the CKM matrix parameters\cite{ckm}.}
-  \label{quarks_decay}
-\end{figure}
-
-The weak decays of quarks are represented in the diagram of Figure \ref{quarks_decay}; again, the CKM matrix plays a central role since it contains the probabilities for the different quark decay channels, in particular, note that quark decays are greatly favored between generation members.
-
-CKM matrix is a $3\times3$ unitary matrix parametrized by three mixing angles and the \textit{CP-mixing phase}; the latter is the parameter responsible for the Charge-Parity symmetry violation (CP-violation) in the SM. The fact that the top quark decays almost all the time to a bottom quark is exploited in this thesis when making the selection of the signal events by requiring the presence of a jet tagged as a jet coming from a $b$ quark in the final state.
-
-\subsection{Fundamental interactions}\label{fund_inter}
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.65\textwidth]{fund_interac}
-  \caption[Fundamental interactions in nature.]{Fundamental interactions in nature. Despite the many manifestations of forces in nature, we can track all of them back to one of the fundamental interactions. The most common forces are gravity and electromagnetic given that all of us are subject and experience them in everyday life.}
-  \label{fund_interac}
-\end{figure}
-
-Even though there are many manifestations of force in nature, like the ones represented in Figure \ref{fund_interac}, we can classify all of them in four fundamental interactions:
-\begin{itemize}
-
-\item \textit{Electromagnetic interaction (EI)} affects particles that are \ti{electrically charged,} like electrons and protons.
-%It is described by QED, combining quantum mechanics, special relativity and electromagnetism in order to explain how particles with electric charge interact through the exchange of photons, therefore, one says that \ti{Electomagnetic Force} is mediated by \ti{photons}.
-Figure \ref{fi_scatt}a. shows a graphical representation, known as \ti{Feynman diagram}, of electron-electron scattering.    
-
-\item \textit{Strong interaction (SI)} described by Quantum Chromodynamics (QCD). Hadrons like the proton and the neutron have internal structure given that they are composed of two or more valence quarks\footnote{Particles made of four and five quarks are exotic states not so common.}. Quarks have fractional electric charge which means that they are subject to electromagnetic interaction and in the case of the proton they should break apart due to electrostatic repulsion; however, quarks are held together inside the hadrons against their electrostatic repulsion by the \ti{Strong Force} through the exchange of \ti{gluons.} The analog to the electric charge is the \ti{color charge}. Electrons and photons are elementary particles as quarks but they don't carry color charge, therefore they are not subject to SI. A Feynman diagram for gluon exchange between quarks is shown in Figure \ref{fi_scatt}b.  
-
-\begin{figure}[h!]
-\centering
-    \includegraphics[width=\textwidth]{fi_scatt}
-\caption[SM interactions diagrams]{Feynman diagrams representing the interactions in SM; a) EI: e-e scattering; b) SI: gluon exchange between quarks ; c) WI: $\beta$-decay }
-\label{fi_scatt}
-\end{figure}
-
-\item \textit{Weak interaction (WI)} described by the weak theory (WT), is responsible, for instance, for the radioactive decay in atoms and the deuterium production within the sun. Quarks and leptons are the particles affected by the weak interaction; they possess a property called \ti{flavor charge} (see \ref{fermions}) which can be changed by emitting or absorbing one weak force mediator. There are three mediators of the \ti{weak force} known as \ti{Z} boson in the case of electrically neutral flavor changes and \ti{$W^\pm$} bosons in the case of electrically charged flavor changes. The \ti{weak isospin} is the WI analog to electric charge in EI, and color charge in SI, and defines how quarks and leptons are affected by the weak force. Figure \ref{fi_scatt}c. shows the Feynman diagram of $\beta$-decay where a neutron (n) is transformed in a proton (p) by emitting a $W^-$ particle. %Since this thesis is in the frame of the electroweak interaction, a more detailed description of it will be given in Section \ref{sec:EWI}
-
-\item \textit{Gravitational interaction (GI)} described by General Theory of Relativity (GR). It is responsible for the structure of galaxies and black holes as well as the expansion of the universe. As a classical theory, in the sense that it can be formulated without even appeal to the concept of quantization, it implies that the space-time is a continuum and predictions can be made without limitation to the precision of the measurement tools. The latter represents a direct contradiction of the quantum mechanics principles. Gravity is deterministic while quantum mechanics is probabilistic; despite that, efforts to develop a quantum theory of gravity have predicted the \ti{graviton} as mediator of the gravitational force\footnote{Actually a wide variety of theories have been developed in an attempt to describe gravity; some famous examples are string theory and supergravity.}.     
-\end{itemize}
-
-\begin{table}[htb!]
-\centering
-\scriptsize
-\begin{tabular}{llm{1.2cm}ll}\hline%\hline
-Interaction            & Acts on                         & Relative strength & Range (m)  & Mediators \\ \hline
-Electromagnetic (QED)  & Electrically charged particles  & $10^{-2}$         & Infinite   & Photon    \\%\hline
-Strong          (QCD)  & Quarks and gluons               & 1                 & $10^{-15}$ & Gluon     \\%\hline
-Weak            (WI)   & Leptons and quarks              & $10^{-6}$         & $10^{-18}$ & \wpm, Z   \\%\hline
-Gravitational   (GI)   & Massive particles               & $10^{-39}$        & Infinite   & Graviton  \\\hline
-\end{tabular}
-\caption[Fundamental interactions features.]{Fundamental interactions features\cite{hyperphys}. }\label{fund_inter_feat}
-\end{table}
-
-Table \ref{fund_inter_feat} summarizes the main features of the fundamental interactions. The strength of the interactions is represented by the coupling constants which depend on the energy scale at which the interaction is evaluated, therefore, if the SI is used as reference to compare the strength of the fundamental forces ,\ie, the relative strength of the SI is 1, the EI is about hundred times weaker and WI is about million times weaker than the SI, thus, it is the relative strength of the fundamental forces what reveals the meaning of strong and weak; A good description on how the relative strength and range of the fundamental interactions are calculated can be found in References \cite{hyperphys,matt}. In the everyday life, only EI and GI are explicitly experienced due to the range of these interactions; \ie, at the human scale distances only EI and GI have appreciable effects, in contrast to SI which at distances greater than $10^{-15}$m become negligible. Is it important to clarify that the weakness of the WI is attributed to the fact that its mediators are highly massive which affects the propagators of the interaction, as a result, the effect of the coupling constant is reduced.                        
-
-\subsection{Gauge invariance.}
-QED was built successfully on the basis of the classical electrodynamics theory (CED) of Maxwell and Lorentz, following theoretical and experimental requirements imposed by
-
-\begin{itemize}
-\item Lorentz invariance: independence on the reference frame.  
-\item Locality: interacting fields are evaluated at the same space-time point to avoid action at a distance. 
-\item Renormalizability: physical predictions are finite and well defined. 
-\item Particle spectrum, symmetries and conservation laws already known must emerge from the theory.
-\item Local gauge invariance.
-\end{itemize}
-
-The gauge invariance requirement reflects the fact that the fundamental fields cannot be directly measured but associated fields which are the observables. Electric (\textbf{E}) and magnetic (\textbf{B}) fields in CED are associated with the electric scalar potential \ti{V} and the vector potential \textbf{A}. In particular, \textbf{E} can be obtained by measuring the change in the space of the scalar potential (\textbf{$\Delta$}V); however, two scalar potentials differing by a constant \ti{f} correspond to the same electric field. The same happens in the case of the vector potential \textbf{A}; thus, different configurations of the associated fields result in the same set of values of the observables. The freedom in choosing one particular configuration is known as \ti{gauge freedom}; the transformation law connecting two configurations is known as \ti{gauge transformation} and the fact that the observables are not affected by a gauge transformation is called \ti{gauge invariance}.
-
-When the gauge transformation:  
-
-\begin{align}\label{cov_der}
-\textbf{A} \to &\textbf{A} + \nabla f\nonumber\\
-V \to & V - \frac{\partial f}{\partial t}
+\begin{align}\label{cov_der2}
+D_\mu = \partial_\mu + ig I_w^i W_\mu^i+ ig' Y_w B_\mu + ig_s T_c^a G_\mu^a\\ 
 \end{align}
 
-\noindent is applied to Maxwell equations, they are still satisfied and the fields remain invariant. Thus, CED is invariant under gauge transformations and is called a \ti{gauge theory}. The set of all gauge transformations form the \ti{symmetry group} of the theory, which according to the group theory, has a set of \ti{group generators}. The number of group generators determine the number of \ti{gauge fields} of the theory.
+\begin{align}\label{neutral_fields}
+A_\mu = &  B_\mu \cos\theta_W + W^3_\mu \sin\theta_W \\ 
+Z_\mu = & -B_\mu \sin\theta_W + W^3_\mu \cos\theta_W \nonumber 
+\end{align}
+\noindent where $\theta_W$ is known as the \ti{Weinberg angle}.
 
-As mentioned in the first lines of Section \ref{secc:SM}, QED has one symmetry group (U(1)) with one group generator (the Q operator) and one gauge field (the electromagnetic field $A^\mu$). In CED there is not a clear definition, beyond the historical convention, of which fields are the fundamental and which are the associated, but in QED the fundamental field is $A^\mu$. When a gauge theory is quantized, the gauge fields are quantized and their quanta are called \ti{gauge bosons}. The word boson characterizes particles with integer spin which obey Bose-Einstein statistics.     
+\noindent the Higgs Lagrangian is given by 
+\beqn\label{lagr_higgs}
+\Lagr_H=(D_\mu\Phi)^\dagger(D^\mu\Phi) - V(\Phi) , \qquad V(\Phi)= - \mu^2(\Phi^\dagger\Phi) + \frac{\lambda}{4}(\Phi^\dagger\Phi)^2
+\eeqn
 
-As will be detailed in Section \ref{sec:EWI}, interactions between particles in a system can be obtained by considering first the Lagrangian density of free particles in the system, which of course is incomplete because the interaction terms have been left out, and demanding global phase transformation invariance. Global phase transformation invariance means that a gauge transformation is performed identically to every point in the space\footnote{Here space corresponds to the 4-dimensional space \ie space-time.} and the Lagrangian remains invariant. Then, the global transformation is promoted to a local phase transformation (this time the gauge transformation depends on the position in space) and again invariance is required.
+\beqn\label{lagr_Yuk}
+\Lagr_{Yuk}=  - i \bar{\Psi}_{L}  G_l  \psi_{l_{R}} \Phi
+- i \bar{\Psi}_{Q}  G_u  \psi_{u_{R}} \tilde{\Phi}
+- i \bar{\Psi}_{Q}  G_d \psi_{d_{R}} \Phi + h.c.
+\eeqn
+where $\tilde{\Phi} = i \sigma^2 \Phi^*$
 
-Due to the space dependence of the local transformation, the Lagrangian density is not invariant anymore. In order to reinstate the gauge invariance, the gauge covariant derivative is introduced in the Lagrangian and with it the gauge field responsible for the interaction between particles in the system. The new Lagrangian density is gauge invariant, includes the interaction terms needed to account for the interactions and provides a way to explain the interaction between particles through the exchange of the gauge boson.
+\beqn
+\Phi = \binom{\phi^+}{\phi^0 = (v+H + i\chi)/ \sqrt{2}}
+\eeqn
 
-This recipe was used to build QED and the theories that aim to explain the fundamental interactions.   
+ 
+\beqn
+\Phi_0^{\dagger} \Phi_0= \frac{v^2}{2}, \quad v = 2 \sqrt{\frac{\mu^2}{\lambda}}
+\eeqn
 
-\subsection{Gauge bosons}\label{sec:gb}
+\beqn
+M_W = \frac{gv}{2}, \quad  M_Z = \frac{M_W}{\cos{\theta_W}}, \quad M_H = \sqrt{2\mu^2}
+\eeqn
 
-The importance of the gauge bosons comes from the fact that they are the force mediators or force carriers. The features of the gauge bosons reflect those of the fields they represent and they are extracted from the Lagrangian density used to describe the interactions. In Section \ref{sec:EWI}, it will be shown how the gauge bosons of the EI and WI emerge from the electroweak Lagrangian. The SI gauge bosons features are also extracted from the SI Lagrangian but it is not detailed in this document. The main features of the SM gauge bosons will be briefly presented below and summarized in Table \ref{gauge_boson}.
 
-\begin{itemize} 
-\item \textbf{Photon}.
-EI occurs when the photon couples to (is exchanged between) particles carrying electric charge; however,
-The photon itself does not carry electric charge, therefore, there is no coupling between photons. Given that the photon is massless the EI is of infinite range, \ie, electrically charged particles interact even if they are located far away one from each other; this also implies that photons always move with the speed of light. 
+\label{secc:lagrangian}
 
-\item \textbf{Gluon}. SI is mediated by gluons which just as photons are massless. They carry one unit of color charge and one unit of anticolor charge, hence, gluons can couple to other gluons. As a result, the range of the SI is not infinite but very short due to the attraction between gluons, giving rise to the \ti{color confinement} which explains why color charged particles cannot be isolated but live within composite particles, like quarks inside protons. 
-
-\item  \textbf{W, Z}. %The WI mediators,
-$\wpm$ and Z, are massive which explains their short-range. Given that the WI is the only interaction that can change the flavor of the interacting particles, the W boson is the responsible for the nuclear transmutation where a neutron is converted into a proton or vice versa with the involvement of an electron and a neutrino (see Figure \ref{fi_scatt}c). The Z boson is the responsible for the neutral weak processes like neutrino elastic scattering where no electric charge but momentum transference is involved. WI gauge bosons carry isospin charge which makes interaction between them possible.  
-\end{itemize}
-
-\begin{table}[h!]
-\centering
-\scriptsize
-\begin{tabular}{llllll}\hline%\hline
-Interaction            & Mediator          & Electric charge (e) & Color charge & Weak Isospin & mass (GeV/c$^2$)   \\ \hline
-Electromagnetic        & Photon ($\gamma$) & 0                   & No           & 0            & 0                  \\%\hline
-Strong                 & Gluon (g)         & 0                   & Yes -octet   & No           & 0                  \\%\hline
-\multirow{2}{*}{Weak}  & \wpm              & $\pm 1$             & No           & $\pm 1$      & 80.385 $\pm$ 0.015 \\%\hline
-                       & Z                 & 0                   & No           & 0            & 91.188 $\pm$ 0.002 \\\hline
-\end{tabular}
-\caption[SM gauge bosons.]{SM gauge bosons main features\cite{pdg}.}\label{gauge_boson}
-\end{table}
 
 
 \section{Electroweak unification and the Higgs mechanism}\label{sec:EWI}
