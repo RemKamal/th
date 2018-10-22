@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  22 OCT 2018 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  22 OCT 2018 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -886,7 +886,14 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-(./skeleton.aux)
+(./skeleton.aux
+
+LaTeX Warning: Label `lagr_Yuk' multiply defined.
+
+
+LaTeX Warning: Label `lagr_Yuk' multiply defined.
+
+)
 \openout1 = `skeleton.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
@@ -1072,7 +1079,7 @@ h through the Yukawa
 [1
 
 
-] [2] <nuthesis/images/hp2d.pdf, id=108, 668.97928pt x 384.95819pt>
+] [2] <nuthesis/images/hp2d.pdf, id=124, 668.97928pt x 384.95819pt>
 File: nuthesis/images/hp2d.pdf Graphic file (type pdf)
 
 <use nuthesis/images/hp2d.pdf>
@@ -1084,18 +1091,97 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 LaTeX Warning: Reference `coupling_ff' on page 4 undefined on input line 95.
 
-[4 <./nuthesis/images/hp2d.pdf>]) (./skeleton.bbl [5]
-bibitemlist
-[6
+[4 <./nuthesis/images/hp2d.pdf>] [5]
+<nuthesis/images/hh_nonresonant_eft_02.pdf, id=173, 364.1906pt x 273.1505pt>
+File: nuthesis/images/hh_nonresonant_eft_02.pdf Graphic file (type pdf)
 
-] [7] [8] [9])
+<use nuthesis/images/hh_nonresonant_eft_02.pdf>
+Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_02.pdf used on inpu
+t line 120.
+(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
+
+<nuthesis/images/hh_nonresonant_eft_01.pdf, id=174, 364.1906pt x 273.1505pt>
+File: nuthesis/images/hh_nonresonant_eft_01.pdf Graphic file (type pdf)
+
+<use nuthesis/images/hh_nonresonant_eft_01.pdf>
+Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_01.pdf used on inpu
+t line 121.
+(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
+
+
+LaTeX Warning: Citation `' on page 6 undefined on input line 126.
+
+[6 <./nuthesis/images/hh_nonresonant_eft_02.pdf> <./nuthesis/images/hh_nonreson
+ant_eft_01.pdf>]
+<nuthesis/images/hh_14_100_comparison.png, id=219, 776.9025pt x 573.14125pt>
+File: nuthesis/images/hh_14_100_comparison.png Graphic file (type png)
+
+<use nuthesis/images/hh_14_100_comparison.png>
+Package pdftex.def Info: nuthesis/images/hh_14_100_comparison.png used on input
+ line 131.
+(pdftex.def)             Requested size: 212.47618pt x 156.74416pt.
+
+<nuthesis/images/hh_sm_comparison.png, id=221, 780.9175pt x 622.325pt>
+File: nuthesis/images/hh_sm_comparison.png Graphic file (type png)
+
+<use nuthesis/images/hh_sm_comparison.png>
+Package pdftex.def Info: nuthesis/images/hh_sm_comparison.png used on input lin
+e 132.
+(pdftex.def)             Requested size: 212.47618pt x 169.32143pt.
+
+<nuthesis/images/hh_nonresonant_eft_03.pdf, id=225, 364.1906pt x 273.1505pt>
+File: nuthesis/images/hh_nonresonant_eft_03.pdf Graphic file (type pdf)
+
+<use nuthesis/images/hh_nonresonant_eft_03.pdf>
+Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_03.pdf used on inpu
+t line 142.
+(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
+
+<nuthesis/images/hh_nonresonant_eft_04.pdf, id=226, 364.1906pt x 273.1505pt>
+File: nuthesis/images/hh_nonresonant_eft_04.pdf Graphic file (type pdf)
+
+<use nuthesis/images/hh_nonresonant_eft_04.pdf>
+Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_04.pdf used on inpu
+t line 143.
+(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
+
+<nuthesis/images/hh_nonresonant_eft_05.pdf, id=227, 364.1906pt x 273.1505pt>
+File: nuthesis/images/hh_nonresonant_eft_05.pdf Graphic file (type pdf)
+
+<use nuthesis/images/hh_nonresonant_eft_05.pdf>
+Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_05.pdf used on inpu
+t line 144.
+(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
+ [7 <./nuthesis/images/hh_14_100_comparison.png> <./nuthesis/images/hh_sm_compa
+rison.png>]
+<nuthesis/images/HH_signature.png, id=237, 364.18057pt x 273.12038pt>
+File: nuthesis/images/HH_signature.png Graphic file (type png)
+
+<use nuthesis/images/HH_signature.png>
+Package pdftex.def Info: nuthesis/images/HH_signature.png used on input line 15
+5.
+(pdftex.def)             Requested size: 216.81001pt x 162.59824pt.
+ [8 <./nuthesis/images/hh_nonresonant_eft_03.pdf> <./nuthesis/images/hh_nonreso
+nant_eft_04.pdf> <./nuthesis/images/hh_nonresonant_eft_05.pdf>]
+<nuthesis/images/BR.pdf, id=292, 569.12625pt x 546.04pt>
+File: nuthesis/images/BR.pdf Graphic file (type pdf)
+
+<use nuthesis/images/BR.pdf>
+Package pdftex.def Info: nuthesis/images/BR.pdf used on input line 164.
+(pdftex.def)             Requested size: 216.81001pt x 208.01393pt.
+) (./skeleton.bbl [9 <./nuthesis/images/HH_signature.png> <./nuthesis/images/BR
+.pdf, page is rotated 90 degrees>]
+bibitemlist
+[10
+
+] [11] [12] [13])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
 (in both cases you will find help in the memoir manual). on input line 305.
 
-[10]
+[14]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -1111,43 +1197,52 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: EC69D392CA41E91A493A9E20966D0C8F;386.
+(rerunfilecheck)             Checksum: E50743EBE45948A11E23E4A9E4B4B324;392.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 305.
  ) 
 Here is how much of TeX's memory you used:
- 14079 strings out of 493014
- 208254 string characters out of 6133350
- 347984 words of memory out of 5000000
- 17248 multiletter control sequences out of 15000+600000
+ 14146 strings out of 493014
+ 210230 string characters out of 6133350
+ 350435 words of memory out of 5000000
+ 17293 multiletter control sequences out of 15000+600000
  86824 words of font info for 73 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
  52i,12n,46p,1871b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/20
-16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
-ist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
-dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
-m/lmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
-lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/lm/lmsy8.pfb>
-Output written on skeleton.pdf (18 pages, 557145 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2016/texmf-dist/
+fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
+dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmss10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmss8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx
+10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic
+/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8
+a.pfb>
+Output written on skeleton.pdf (22 pages, 1312723 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 475 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
 

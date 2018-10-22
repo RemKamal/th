@@ -4,5 +4,5 @@
 \contentsline {chapter}{\chapternumberline {1}Theoretical approach}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Standard Model}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Beyond the Standard Model}{4}{section.1.2}
-\contentsline {chapter}{Bibliography}{5}{section.1.2}
-\contentsline {chapter}{References}{6}{section*.5}
+\contentsline {chapter}{Bibliography}{9}{figure.caption.8}
+\contentsline {chapter}{References}{10}{section*.10}
