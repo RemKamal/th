@@ -1,12 +1,39 @@
 %\setcounter{chapter}{2}
-\chapter{The CMS experiment at the LHC}\label{ch:cms}
+\chapter{LHC and the CMS experiment}
+\label{ch:cms}
 
 \section{Introduction}\label{sec:cms_intro}
-Located on the Swiss-French border, the European Council for Nuclear Research (CERN) is the largest scientific organization leading particle physics research. About 13000 people in a broad range of roles including users, students, scientists, engineers, among others, contribute to the data taking and analysis, with the goal of unveiling the secrets of nature and revealing the fundamental structure of the universe. CERN is also the home of the Large Hadron Collider (LHC), the largest particle accelerator around the world, where protons (or heavy ions) traveling close to the speed of light, are made to collide. These collisions open a window to investigate how particles (and their constituents if they are composite) interact with each other, providing clues about the laws of nature. This chapter presents an overview of the LHC structure and operation. A detailed description of the CMS detector is offered, given that the data used in this thesis have been taken with this detector.     
+Large Hadron Collider (LHC) (see Fig. \ref{lhcmap}) is the most powerful particle accelerator that has ever been built. It is located at the border of the France and Switzerland, reutilising the tunnel used previously by the Large Electron Positron collider. The whole LHC story begins in 1977, when CERN director general Sir John Adams suggested that LEP tunnel can be reused to accommodate the future hadron collider of more than 3 TeV energies \ref{Sadenius}. At the 1984 ECFA-CERN workshop on a "Large Hadron Collider in the LEP Tunnel" \ref{LHC1984}, the plans for LHC were stated, where the primary ones were the BEH mechanism, Higgs boson, and the origin of masses of W and Z bosons". The parameters of the LHC were very ambitious, the centre-of-mass energy of 10 to 20 TeV, and a target luminosity of 10$^{33-34}\frac{1}{cm^{2}s}$. Luminosity is the coefficient which refers the cross section of the event under study to the number of events that will be generated in the LHC collision: $N_{events} = L \sigma_{event}$. Luminosity is the parameter control by the machine and for Gaussian beams \ref{Evans} can be written as:
+
+$L=\frac{N^2_bn_bf_{rev}\gamma_r}{4\pi\varepsilon_n\beta^\star}F$
+
+where $N_b$ is the number of particle in the colliding bunch, $n_b$ is the number of colliding bunches in the beam, $f_{rev}$ is the revolution frequency, $\gamma_r$ is the relativistic factor, $\varepsilon_n$ is the normalised transverse beam emittance, $\beta^\star$ is the beta function at the collision point, and $F$ is the factor related to the crossing angle at the interaction point (IP). The luminosity is not constant and decays with time due to the degradation of the initial circulating beams. Decay time is approximately 45 h with 29 h to reach $1/e$ level. Adding contribution from the intrabeam scattering, scattering on the residual gas, etc, the final luminosity lifetime is about 15 h. Another useful variation of the luminosity parameter is an integrated luminosity. Integrating over the yield of a single run we get: 
+
+$L_{int} = L_0 \tau_L \left[  1- e^{\frac{-T_{run}}{\tau_L}}  \right]$, 
+where $L_0$ is the initial luminosity, $T_L$ is the total length of the run, and $\tau_L$ is the luminosity lifetime. The optimum runtime thus is either 5.5 or 12 hours, which potentially leads to $80-120/fb$ of data with barn $b$ denoting a unit area of 10$^{28}$ $m^2$. 
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{LHC-beam-permit-loops}\\
+  \includegraphics[width=0.75\textwidth]{LHC_default.jpg}
+  \caption {Schematic layout of the LHC.}
+  \label{lhcmap}
+\end{figure}
+
 
 \section{The LHC}\label{sec:lhc}
+The first LHC budget plan was approved in 1996 and the final cost sum was completed in 2008. And as we already mentioned, the Higgs discovery happened in 2012, quite fast for such a huge project! Now we will talk about the most important parts of the LHC complex. 
 
-With 27 km of circumference, the LHC is currently the most powerful circular accelerator in the world. It is installed in the same tunnel where the Large Electron-Positron (LEP) collider was located, taking advantage of the existing infrastructure. The LHC is part of the CERN's accelerator complex composed of several successive accelerating stages before the particles are injected into the LHC ring where they reach their maximum energy (see Figure \ref{fig:cern}).
+
+
+
+
+
+
+
+ 	 
+
 
 \begin{figure}[!h]
   \centering

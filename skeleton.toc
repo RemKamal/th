@@ -1,8 +1,18 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{vii}{section*.1}
-\contentsline {chapter}{List of Tables}{viii}{section*.2}
-\contentsline {chapter}{\chapternumberline {1}Theory}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Lagrangian formalism of the Standard Model}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Beyond the Standard Model}{5}{section.1.2}
-\contentsline {chapter}{Bibliography}{10}{figure.caption.8}
-\contentsline {chapter}{References}{11}{section*.10}
+\contentsline {chapter}{List of Figures}{viii}{section*.1}
+\contentsline {chapter}{List of Tables}{x}{section*.2}
+\contentsline {chapter}{\chapternumberline {1}LHC and the CMS experiment}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}The LHC}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}The CMS experiment}{14}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}CMS coordinate system}{18}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Tracking system}{19}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Silicon strip tracker}{22}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Electromagnetic calorimeter}{24}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Hadronic calorimeter}{26}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Superconducting solenoid magnet}{27}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.7}Muon system }{28}{subsection.1.3.7}
+\contentsline {subsection}{\numberline {1.3.8}CMS trigger system}{29}{subsection.1.3.8}
+\contentsline {subsection}{\numberline {1.3.9}CMS computing}{31}{subsection.1.3.9}
+\contentsline {chapter}{Bibliography}{34}{figure.caption.25}
+\contentsline {chapter}{References}{35}{section*.27}

@@ -1,8 +1,24 @@
 \select@language {english}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces SSB Potential form}}{4}{figure.caption.3}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces SM double Higgs boson production.\relax }}{7}{figure.caption.4}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Left: comparison of the double Higgs boson mass distribution at the LO at 14 and 100 TeV center-of-mass energy, Right: the total SM HH cross section and the box and the triangular contributions ("box" and "tri" at the plots).\relax }}{8}{figure.caption.5}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces BSM double Higgs boson production.\relax }}{9}{figure.caption.6}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Double Higgs decay in the 2 b, 2 lepton, and 2 neutrino final state. \relax }}{10}{figure.caption.7}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Double Higgs decay channels according to the SM branching fractions.\relax }}{10}{figure.caption.8}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic layout of the LHC .\relax }}{3}{figure.caption.3}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces CERN accelerator complex}}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces LHC protons source. First acceleration stage.}}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces The LINAC2 accelerating system at CERN.}}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces LHC layout and RF cavities module.}}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces LHC dipole magnet.}}{9}{figure.caption.8}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Integrated luminosity delivered by LHC and recorded by CMS during 2016}}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces LHC interaction points}}{13}{figure.caption.10}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Multiple \ensuremath {pp}\xspace collision bunch crossing at CMS.}}{14}{figure.caption.11}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Layout of the CMS detector}}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces CMS detector transverse slice}}{16}{figure.caption.13}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces CMS detector coordinate system}}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces CMS tracking system schematic view.}}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces CMS pixel detector}}{21}{figure.caption.17}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces SST Schematic view.}}{23}{figure.caption.18}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces CMS ECAL schematic view}}{25}{figure.caption.19}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces CMS HCAL schematic view}}{26}{figure.caption.20}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces CMS solenoid magnet}}{27}{figure.caption.21}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces CMS Muon system schematic view}}{28}{figure.caption.22}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces CMS Level-1 trigger architecture}}{30}{figure.caption.23}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces WLCG structure}}{32}{figure.caption.24}
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Data flow from CMS detector through hardware Tiers}}{34}{figure.caption.25}
