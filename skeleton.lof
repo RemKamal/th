@@ -1,24 +1,26 @@
 \select@language {english}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic layout of the LHC .\relax }}{3}{figure.caption.3}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces CERN accelerator complex}}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces LHC protons source. First acceleration stage.}}{5}{figure.caption.5}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces The LINAC2 accelerating system at CERN.}}{6}{figure.caption.6}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces LHC layout and RF cavities module.}}{7}{figure.caption.7}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces LHC dipole magnet.}}{9}{figure.caption.8}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Integrated luminosity delivered by LHC and recorded by CMS during 2016}}{11}{figure.caption.9}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces LHC interaction points}}{13}{figure.caption.10}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Multiple \ensuremath {pp}\xspace collision bunch crossing at CMS.}}{14}{figure.caption.11}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Layout of the CMS detector}}{15}{figure.caption.12}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces CMS detector transverse slice}}{16}{figure.caption.13}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces CMS detector coordinate system}}{18}{figure.caption.14}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces CMS tracking system schematic view.}}{20}{figure.caption.15}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces CMS pixel detector}}{21}{figure.caption.17}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces SST Schematic view.}}{23}{figure.caption.18}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces CMS ECAL schematic view}}{25}{figure.caption.19}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces CMS HCAL schematic view}}{26}{figure.caption.20}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces CMS solenoid magnet}}{27}{figure.caption.21}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces CMS Muon system schematic view}}{28}{figure.caption.22}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces CMS Level-1 trigger architecture}}{30}{figure.caption.23}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces WLCG structure}}{32}{figure.caption.24}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Data flow from CMS detector through hardware Tiers}}{34}{figure.caption.25}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic layout of the LHC.\relax }}{3}{figure.caption.3}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The cross section of the LHC dipole}}{5}{figure.caption.4}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Cables of the dipole magnet}}{6}{figure.caption.5}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces RF cavities module.}}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces CERN accelerator complex}}{9}{figure.caption.7}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces LHC protons source. First acceleration stage.}}{10}{figure.caption.8}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces The LINAC2 accelerating system at CERN.}}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces LHC dipole magnet.}}{13}{figure.caption.10}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Integrated luminosity delivered by LHC and recorded by CMS during 2016}}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces LHC interaction points}}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Multiple \ensuremath {pp}\xspace collision bunch crossing at CMS.}}{18}{figure.caption.13}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Layout of the CMS detector}}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces CMS detector transverse slice}}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces CMS detector coordinate system}}{22}{figure.caption.16}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces CMS tracking system schematic view.}}{23}{figure.caption.17}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces CMS pixel detector}}{24}{figure.caption.19}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces SST Schematic view.}}{26}{figure.caption.20}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces CMS ECAL schematic view}}{28}{figure.caption.21}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces CMS HCAL schematic view}}{30}{figure.caption.22}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces CMS solenoid magnet}}{31}{figure.caption.23}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces CMS Muon system schematic view}}{32}{figure.caption.24}
+\contentsline {figure}{\numberline {1.22}{\ignorespaces CMS Level-1 trigger architecture}}{34}{figure.caption.25}
+\contentsline {figure}{\numberline {1.23}{\ignorespaces WLCG structure}}{35}{figure.caption.26}
+\contentsline {figure}{\numberline {1.24}{\ignorespaces Data flow from CMS detector through hardware Tiers}}{37}{figure.caption.27}

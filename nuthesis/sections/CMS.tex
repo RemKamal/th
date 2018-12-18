@@ -23,7 +23,83 @@ where $L_0$ is the initial luminosity, $T_L$ is the total length of the run, and
 
 
 \section{The LHC}\label{sec:lhc}
-The first LHC budget plan was approved in 1996 and the final cost sum was completed in 2008. And as we already mentioned, the Higgs discovery happened in 2012, quite fast for such a huge project! Now we will talk about the most important parts of the LHC complex. 
+The first LHC budget plan was approved in 1996 and the final cost sum was completed in 2008. 4 years later the Higgs discovery happened, in 2012, quite fast for such a huge project! 
+Now we will talk about the most important parts of the LHC complex one-by-one. Let us start with magnets. 
+
+ 
+\subsection{The Magnets}\label{sec:magnets}
+To keep the beam of protons on a circular orbit LHC needs strong magnets. The proven technology existed since Tevatron and relied on $NbTi$ superconductors. 1232 dipoles at 8 $T$, which are cooled to the below 2 $K$ temperature using superfluid Helium, bend the beam \ref{lhcDipole}. The dipole cold mass is in the so-called Helium bath and is cooled down to 1.9 $K$. Each of the 16.5 $m$ (with ancillaries) long and 570 $mm$ in diameter dipoles is slightly curved by 5.1 $mrad$ to help a chain of dipoles complete 360 degrees. The dipole is located inside of the dipole cryostat, which is a long cylindrical tube 914 $mm$ in diameter made of low-carbon steel. During the standard operation time the vessel contains the vacuum. 
+
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{lhcDipole}
+  \caption[The cross section of the LHC dipole]{The cross section of the LHC dipole.}\label{lhcDipole}
+\end{figure}
+
+
+The material and the properties of the cables for the dipoles had to be carefully chosen. Each dipole coil is 56 $mm$ in diameter and is made of cables of two types. The cable in the inner layer contains 28 strands 1.065 $mm$ each. The outer layer contains 36 strands 0.825 $mm$ each \ref{cables}. 
+
+To correct the orbit, higher order correctors are used with about 3800 single aperture and 1000 twin aperture magnets evenly spaces around the circular trajectory. 
+
+Another important task that is performed with the use of magnets is the beam insertion, which is done at eight specific insertion locations. LHC also uses $NbTi$ magnets to accomplish this work. 
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{cables}
+  \caption[Cables of the dipole magnet]{Cables of the dipole magnet. Left: cross section view. Right: Strand and cables}\label{cables}
+\end{figure}
+
+
+
+\subsection{Radio Frequency System}\label{sec:rf}
+
+The beam that comes from injectors will be placed, accelerated and kept on the orbit with the help of Radio Frequency (RF) cavities. The same system will be used to correct for injection errors in the beam direction. RF will be operating at the 400 $MHz$, which is 10 times more than the revolution frequency of 40 $MHz$. 
+
+Four RF cavities grouped together into one cryomodule constitute an important accelerating module. If something happens to this module, it can be easily replaced in short period of time. 
+
+
+\begin{figure}[H]
+\centering
+%\includegraphics[scale=0.6]{lep}
+\includegraphics[width=7cm,height=4.2cm]{lhc_rfc}
+\includegraphics[scale=0.15]{rfc_lhc}
+\caption[RF cavities module.]{LHC RF cavities. Right: a single RF cavity schematic drawing. The colour field is used to highlight the fact of two field of the different polarity. Left: a cryomodule with four RF cavities.}
+\end{figure}
+
+
+\subsection{Vacuum System}\label{sec:vacuum}
+
+
+Three types of vacuum systems are necessary for the LHC proper operation. The vacuum system for the cryomagnets, the insulation vacuum for helium distribution, and, of course, the vacuum for the beam (VBS). As a convention, taking into account ionisation cross sections for gasses of the interests, cryogenic temperatures are expressed as corresponding gas densities normalised to the hydrogen. 
+VBS, to ensure the 100 hours long run time, requires the equivalent hydrogen densities (EHD) to be below $10^{15} H_2 \frac{1}{m^3}$. To minimise the backgrounds from the experiments, the EHD at the interaction points should be $10^{13} H_2 \frac{1}{m^3}$. Those parts of the beam system, which operate under room temperatures, are under the pressure of $10^{-10}$ to $ 10^{-11} m$bar. All the vacuum section are subdivided into smaller modules to allow easy repair and fine tuning. 
+VBS, as the most demanding in terms of the vacuum quality, have to be properly designed and must address a number of challenges, such as synchrotron radiation that significantly affects vacuum chambers in the arcs around the tunnel, as well as an electron cloud effect which exists along the length of the whole circle of the LHC. After the beam is inserted and is stabilised, the final adjustment of the VBS is needed to guarantee the perfect performance.
+
+To finish the discussion of the VBS, let us discuss which heat sources have the main effect on the vacuum of the beam that must exist at the 1.9 K. 
+
+\begin{itemize}
+\item Synchrotron radiation (0.2 $W/m$ per beam)
+\item Energy loss by nuclear scattering (30 $mW/m$ per beam)
+\item Image currents (0.2 $W/m$ per beam)
+\item Electron cloud related effects (vary)
+\end{itemize}
+
+To obstruct the heat sources mentioned above, specific beam screens are developed. Screens have elliptical shape, so-called racetrack shape, which gives extra space for cooling while optimises the aperture. 
+Finally, the lifetime of the vacuum is mostly determined by the interactions of the vacuum gas nuclei with the protons of the beam. Values of the cross sections of such processes are given in \ref{Eggert:260711, Gröbner:356437}.
+
+\subsection{Powering}\label{sec:power}
+To power the LHC, 1612 electrical circuits of 131 types are used. The magnets are powered in eight symmetrical sections. Some sections rely on all 131 types of circuits, while others may use only specific ones. To power the main quadrupoles which focus the beam, the power converters are located in the underground area. 
+A total of 3286 current leads is needed to connect all the circuits and power cables. 1070 of the leads operate between 600 A and 13 kA. The other leads work in the range 60 to 120 A. 
+
+\subsection{Cryogenic system}\label{sec:cryogenic}
+The cryogenic system must supply the LHC cold mass of 37 Mkg within 15 days with the necessary temperature settings and work with the temperatures different by 75 K. The system must also be able to deal with the fast pressure raises and flow surges, and should be able to recover in a short period of time from such perturbations not to affect the run of the whole LHC. Another important point during the cryogenic design that had to be addressed is the fact that the LHC tunnel is inclined in the horizontal plane by 1.41 $^\circ$. 
+\newpage
+
+
+
+
 
 
 
@@ -35,7 +111,7 @@ The first LHC budget plan was approved in 1996 and the final cost sum was comple
  	 
 
 
-\begin{figure}[!h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{cern_ac}
   \caption[CERN accelerator complex]{CERN accelerator complex. Blue arrows show the path followed by protons along the acceleration process \cite{cern}.}\label{fig:cern}
@@ -77,13 +153,14 @@ The beam coming from LINAC2 is injected into the proton synchrotron booster (PSB
 
 PSB, PS, SPS and LHC accelerate protons using the same RF acceleration technique described before. 
 
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.6]{lep}
-\includegraphics[width=7cm,height=4.2cm]{lhc_rfc}
-\includegraphics[scale=0.15]{rfc_lhc}
-\caption[LHC layout and RF cavities module.]{Top: LHC layout. The red zones indicate the infrastructure additions to the LEP installations, built to accommodate the ATLAS and CMS experiments which exceed the size of the former experiments located there \cite{lep}. Bottom: LHC RF cavities. A module (left picture) accommodates 4 cavities, each like the one in the right drawing, that accelerate protons and preserve the bunch structure of the beam. The color gradient pattern represents the strenght of the electric field inside the cavity; red zone corresponds to the maximum of the oscillation electric field while the blue zore corresponds to the minimum.\cite{video,lhc_rfc}}\label{fig:lep_rfc}
-\end{figure}
+
+
+
+
+
+
+
+
 
 The LHC has a system of 16 RF cavities located in the so-called point 4, as shown in Figure \ref{fig:lep_rfc} top, tuned at a frequency of 400 MHz. The bottom side of Figure \ref{fig:lep_rfc} shows a picture of a RF module composed of 4 RF cavities working in a superconducting state at 4.5 K; also, a representation of the accelerating electric field that accelerates the protons in the bunch is shown. The maximum of the oscillating electric field (red region) picks the proton bunches at the the entrance of the cavity and keeps accelerating them through the whole cavity. The protons are carefully timed so that in addition to the acceleration effect the bunch structure of the beam is preserved.    
 
