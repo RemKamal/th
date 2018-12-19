@@ -74,7 +74,7 @@ Four RF cavities grouped together into one cryomodule constitute an important ac
 
 
 Three types of vacuum systems are necessary for the LHC proper operation. The vacuum system for the cryomagnets, the insulation vacuum for helium distribution, and, of course, the vacuum for the beam (VBS). As a convention, taking into account ionisation cross sections for gasses of the interests, cryogenic temperatures are expressed as corresponding gas densities normalised to the hydrogen. 
-VBS, to ensure the 100 hours long run time, requires the equivalent hydrogen densities (EHD) to be below $10^{15} H_2 \frac{1}{m^3}$. To minimise the backgrounds from the experiments, the EHD at the interaction points should be $10^{13} H_2 \frac{1}{m^3}$. Those parts of the beam system, which operate under room temperatures, are under the pressure of $10^{-10}$ to $ 10^{-11} m$bar. All the vacuum section are subdivided into smaller modules to allow easy repair and fine tuning. 
+VBS, to ensure the 100 hours long run time, requires the equivalent hydrogen densities (EHD) to be below $10^{15} H_2 \frac{1}{m^3}$. To minimise the backgrounds from the experiments, the EHD at the interaction points should be $10^{13} H_2 \frac{1}{m^3}$. Those parts of the beam system, which operate under room temperatures, are under the pressure of $10^{-10}$ to $ 10^{-11}$ $ m$bar. All the vacuum section are subdivided into smaller modules to allow easy repair and fine tuning. 
 VBS, as the most demanding in terms of the vacuum quality, have to be properly designed and must address a number of challenges, such as synchrotron radiation that significantly affects vacuum chambers in the arcs around the tunnel, as well as an electron cloud effect which exists along the length of the whole circle of the LHC. After the beam is inserted and is stabilised, the final adjustment of the VBS is needed to guarantee the perfect performance.
 
 To finish the discussion of the VBS, let us discuss which heat sources have the main effect on the vacuum of the beam that must exist at the 1.9 K. 
@@ -89,13 +89,62 @@ To finish the discussion of the VBS, let us discuss which heat sources have the 
 To obstruct the heat sources mentioned above, specific beam screens are developed. Screens have elliptical shape, so-called racetrack shape, which gives extra space for cooling while optimises the aperture. 
 Finally, the lifetime of the vacuum is mostly determined by the interactions of the vacuum gas nuclei with the protons of the beam. Values of the cross sections of such processes are given in \ref{Eggert:260711, Gröbner:356437}.
 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{beam_screen}
+  \caption{Beam screen.}\label{fig:beam_screen}
+\end{figure}
+
 \subsection{Powering}\label{sec:power}
 To power the LHC, 1612 electrical circuits of 131 types are used. The magnets are powered in eight symmetrical sections. Some sections rely on all 131 types of circuits, while others may use only specific ones. To power the main quadrupoles which focus the beam, the power converters are located in the underground area. 
 A total of 3286 current leads is needed to connect all the circuits and power cables. 1070 of the leads operate between 600 A and 13 kA. The other leads work in the range 60 to 120 A. 
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{13kA_lead}
+  \caption{13 kA high-temperature superconducting current lead.}\label{fig:13kA_lead}
+\end{figure}
+
+
 \subsection{Cryogenic system}\label{sec:cryogenic}
-The cryogenic system must supply the LHC cold mass of 37 Mkg within 15 days with the necessary temperature settings and work with the temperatures different by 75 K. The system must also be able to deal with the fast pressure raises and flow surges, and should be able to recover in a short period of time from such perturbations not to affect the run of the whole LHC. Another important point during the cryogenic design that had to be addressed is the fact that the LHC tunnel is inclined in the horizontal plane by 1.41 $^\circ$. 
+The cryogenic system must supply the LHC cold mass of 37 Mkg within 15 days with the necessary temperature settings and work with the temperatures different by 75 K. The system must also be able to deal with the fast pressure raises and flow surges, and should be able to recover in a short period of time from such perturbations not to affect the run of the whole LHC. Another important point during the cryogenic design that had to be addressed is the fact that the LHC tunnel is inclined in the horizontal plane by 1.41 $^\circ$. This equals to 120 m difference in the vertical location of two diametrically opposite points of the tunnel with respect to the surface level and results in the additional hydrostatic pressure that can affect the flow of the cryogen. To avoid any instability of the LHC work like this, the gas is transported in the super-heated-vapour state. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{cryo}
+  \caption{Cross section of the LHC tunnel}\label{fig:cryo}
+\end{figure}
+
+
+Since the cost of the production of 1.8 K temperature is high, several temperature levels are employed:
+ 
+\begin{itemize}
+\item 50 to 75 K to the thermal shielding that protects the cold masses
+\item 4.6 to 20 K for lower temperature interception and to cool the beam screens
+\item 1.9 K for quasi-isotermal helium in the superfluid state to cool the magnet cold mass
+\item 4 K for the transportation system that directs the 1.8 K helium from the exchanger to the 1.8 K refrigerator 
+\item 4.5 K for RF cavities and lower sections of the high-temperature superconducting current leads
+\item 20 to 300 K for upper sections of the high-temperature superconducting current leads
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{cryo_T_scale}
+  \caption{LHC cryogenic states and the temperature scale.}\label{fig:cryo_T_scale}
+\end{figure}
+
 \newpage
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -8,16 +8,16 @@
 \contentsline {subsection}{\numberline {1.2.2}Radio Frequency System}{6}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Vacuum System}{7}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Powering}{8}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Cryogenic system}{8}{subsection.1.2.5}
-\contentsline {section}{\numberline {1.3}The CMS experiment}{18}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}CMS coordinate system}{21}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Tracking system}{23}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Silicon strip tracker}{26}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Electromagnetic calorimeter}{27}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Hadronic calorimeter}{29}{subsection.1.3.5}
-\contentsline {subsection}{\numberline {1.3.6}Superconducting solenoid magnet}{30}{subsection.1.3.6}
-\contentsline {subsection}{\numberline {1.3.7}Muon system }{32}{subsection.1.3.7}
-\contentsline {subsection}{\numberline {1.3.8}CMS trigger system}{33}{subsection.1.3.8}
-\contentsline {subsection}{\numberline {1.3.9}CMS computing}{34}{subsection.1.3.9}
-\contentsline {chapter}{Bibliography}{38}{figure.caption.27}
-\contentsline {chapter}{References}{39}{section*.29}
+\contentsline {subsection}{\numberline {1.2.5}Cryogenic system}{9}{subsection.1.2.5}
+\contentsline {section}{\numberline {1.3}The CMS experiment}{21}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}CMS coordinate system}{24}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Tracking system}{26}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Silicon strip tracker}{29}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Electromagnetic calorimeter}{30}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Hadronic calorimeter}{32}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Superconducting solenoid magnet}{33}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.7}Muon system }{35}{subsection.1.3.7}
+\contentsline {subsection}{\numberline {1.3.8}CMS trigger system}{36}{subsection.1.3.8}
+\contentsline {subsection}{\numberline {1.3.9}CMS computing}{37}{subsection.1.3.9}
+\contentsline {chapter}{Bibliography}{41}{figure.caption.31}
+\contentsline {chapter}{References}{42}{section*.33}
