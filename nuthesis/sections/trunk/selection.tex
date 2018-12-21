@@ -1,0 +1,368 @@
+%Two analysis methods are pursued to select samples that can be 
+%used to extract the signal yield from the data in an optimal way.
+\subsection{Higgs and Z Boson Selection}
+
+Only dilepton pairs having net charge of zero are considered as \ZtoLL~ candidates. 
+Pairs of prompt isolated leptons have to have a dilepton mass greater \
+than 76 GeV. This ensures the orthogonality with HIG-17-006 bbVV analysis (later also referred to as bbWW analysis) as well as helps selecting decays of real Z bosons.
+
+Higgs boson decays are reconstructed from the b jet pairs utilising only the two with the highest CMVAv2 discriminant value. We do not veto additional b jets. 
+
+Double Higgs object is computed as a sum of Lorentz vectors of the \ZtoLL~ candidate, MET, and a \HBB~ candidate. Then, we compute the transverse mass of that object.
+
+Transverse mass definition that we follow is one of the commonly used and is logical in the sense that we subtract the longitudinal momentum component which leaves us with the transverse momentum components only (while the energy remains the total energy).
+
+More precisely, as the z-component of the neutrinos' momentum is unknown, we form a pseudo transverse mass:
+
+%$M_T...with-tilda = $ (further referred as transverse mass for brevity), where E and pz are the energy and momentum of the candidate defined above.''                \
+                                                                                                                                                                       
+
+$\tilde{M}_T(HH) = \sqrt{E^2 - p_{z}^2}$ (further referred as transverse mass for brevity), where $E$ and \
+$p_z$ are the energy and the Z-axis component of the Lorentz energy-momentum vector of the HH candidate.
+
+The resulting distribution is what will be used in the binned shape analysis with the Higgs Combination Tool following the section ``Binned shape analysis'' as described at the twiki~\cite{CombinedLimit}.
+
+%:
+%\begin{center}
+%    \small{\texttt{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHiggsAnalysisCombinedLimit}}
+%\end{center}
+
+Analysis preselection to reduce ntuples size starts with the requirement on dilepton mass to be greater than 50 GeV and the event to contain at least two jets with $p_{T} > 30$ GeV and $|\eta| < 2.4$. In addition to requirements on Higgs bosons decaying to b quarks mentioned above, we define Z bosons as two opposite sign muons with $p_{T} > 20/15$ GeV or two opposite sign electrons with $p_{T} > 25/15$ GeV. 
+
+
+
+Later analysis cuts to improve signal-background separation include: the requirement on at least two b jets in the event, out of which two with the highest CMVAv2 score are used to define \HBB ~candidate. The lower end cut on the \HBB mass is set to 20 GeV to remove the low mass resonances while giving BDT as many events in the CRDY as possible at the same time. The upper end cut is not explicitly set for the same purpose. The actual \HBB mass distribution after the analysis selection is concentrated in the range 30 to 220 GeV. Then the Z boson selection cut takes the most energetic two leptons of the opposite sign and requires the their dilepton mass to pass 76 GeV < Z mass < 106 GeV selection used for the signal region definition. This is a standard +- 15 GeV window for Z boson selection whose lower end also preserves othogonality with the existing HIG-17-006 bbVV analysis. HH candidate is approximated by the sum of \ETslash, Z, and \HBB decays. A loose cut on HH transverse \textgreater~ 100 GeV removes evidently background events. Finally, an additional set of \ETslash cuts is used to ensure orthogonality with the existing HIG-18-013 bbZZ analysis focusing on the 2b jets + 2 leptons + 2 quarks, see Table \ref{metCuts}:
+
+
+\begin{table}
+\begin{center}
+\caption{\ETslash cut to orthogonalise the analysis with respect to HIG-18-013.}
+\begin{tabular}{|c|c|} \hline
+{Signal mass, GeV} &  \ETslash cut, GeV\\\hline
+260-300     &                                \textgreater~40 \\
+350-600     &                                \textgreater~75 \\
+650-1000    &                                \textgreater~100 \\
+\hline
+\end{tabular}
+\label{metCuts}
+\end{center}
+\end{table}
+
+
+
+\subsection{\HBB ~and \ZtoLL ~variables to define signal and control regions}
+
+In this analysis we define three regions in the \HBB ~and \ZtoLL
+~space. Two regions, CRDY and CRTT, are used to extract the
+normalization of corresponding backgrounds. Signal region (Fig. ~\ref{fig:regions}) is chosen by
+the set of \HBB~and \ZtoLL ~cuts \ref{fig:regions}. To reduce background contamination in this region, an additional cut on the MVA output is used. Boosted decision trees (BDT) MVA technique is employed to
+separate background from signal. Below we describe in details
+selection of each region and BDT construction. 
+
+%% Skimming is applied
+%% before building BDT to remove unnecessary background, while still
+%% keeping a lot of events for BDT training. The set of "HH loose
+%% common-sense" \label{hhSelection} skimming/preselection cuts includes: Dilepton (ee/mm)
+%% mass $>$ 50 GeV, 2 or more jets: pt $>$ 30 GeV and $|\eta| < 2.4GeV$. Then, we
+%% select two or more b-jets, \HBB~ mass should be greater than 20 GeV,
+%% exactly two leptons, dilepton mass higher than 76 GeV, transverse mass
+%% of HH higher than 100 GeV. The definition of the signal and control regions is illustrated in Fig. \ref{fig:regions}. The signal region is selected in the range of
+%% 76 $<$ \mll~ $<$ 106 GeV and %75 $<$ \mbb~ $<$ 175 GeV. This corresponds to the
+%% 90 $<$ \mbb~ $<$ 150 GeV. This corresponds to the
+%% Z mass +- 15 GeV window. OA
+For CRDY we invert \HBB ~cut, keeping in the lower sideband only events
+with the mass of Higgs boson higher than 20 GeV to avoid fakes from
+QCD. For CRTT we invert \ZtoLL ~cut, keeping only high mass sideband to
+ensure the orthogonality with the existing HIG-17-006 bbVV analysis.
+
+
+\begin{figure}[!htb]%hbpt?                                                                       
+  \begin{center}
+    %\raisebox{0.17\height}                                                                      
+    \includegraphics[width=0.45\textwidth]{figures/regions.png}
+    \caption{ Signal region, control region \ttbar, and control region Drell-Yan in the phase space of \ZtoLL \ ~and ~\HBB ~masses.    }
+    \label{fig:regions}
+  \end{center}
+\end{figure}
+
+
+%% \begin{table}
+%% \begin{center}
+%% \caption{Efficiency of the BDT selection requirement. Dielectron channel. Left: 300 GeV signal mass hypothesis. Right: 900 GeV case.}
+%% \begin{tabular}{|c|c|c|} \hline
+%% {Process} &  Efficiency at 300 GeV, \% &  Efficiency at 900 GeV, \% \\\hline
+
+%% signal (bbZZ) &                       85 &                       86 \\
+%% signal (bbWW) &                       60 &                       82 \\
+%% \ttbar        &                       28 &                       $\sim$ 0 \\
+%% Drell-Yan     &                       64 &                       $\sim$ 0 \\
+%% Single top    &                       33 &                        1 \\
+%% ZH            &                       76 &                        4 \\
+%% Dibosons      &                       76 &                        2 \\\hline
+
+%% \end{tabular}
+%% \label{EfficiencyBDT}
+%% \end{center}
+%% \end{table}
+
+
+\begin{table}                                                                                                                                                                          
+\begin{center}                                                                                                                                                                         
+\caption{Efficiency of the BDT selection requirement. ee channel (top) and mm channel (bottom). }
+\begin{tabular}{|c|c|c|}
+\hline
+sample & Efficiency at 300 GeV, [\%] &  Efficiency at 900 GeV, [\%] \\
+\hline
+signal (bbZZ) &                        89.2 &                        94.9 \\
+signal (bbWW) &                        75.0 &                        88.4 \\
+\ttbar        &                        28.8 &                         0.2 \\
+Drell-Yan     &                        74.2 &                         1.2 \\
+Single top    &                        33.1 &                         1.1 \\
+ZH            &                        88.8 &                        10.7 \\
+Dibosons      &                        90.0 &                         5.0 \\
+\hline
+\end{tabular}
+
+\begin{tabular}{|c|c|c|}
+\hline
+sample &  Efficiency at 300 GeV, [\%] &  Efficiency at 900 GeV, [\%] \\
+\hline
+signal (bbZZ) &                        58.1 &                        91.1 \\
+signal (bbWW) &                        25.9 &                        96.3 \\
+\ttbar        &                        13.6 &                         0.2 \\
+Drell-Yan     &                        39.0 &                         0.8 \\
+Single top    &                        13.0 &                         0.2 \\
+ZH            &                        56.0 &                         8.4 \\
+Dibosons      &                        51.4 &                         6.2 \\
+\hline
+\end{tabular}
+\label{EfficiencyBDT}                                                                                                                                                                  
+\end{center}                                                                                                                                                                           
+\end{table} 
+
+
+
+
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.91\textwidth]{figures/ee_yields.png}
+    \caption{Yields for ee channel before and after the tight isolation bug fix in the HEPPY. The effect is minimal as can be seen in the final limit. }
+    \label{fig:yields_ee}
+  \end{center}
+\end{figure}
+
+
+
+\subsection{Signal and background characteristics}
+
+The signal region is further purified applying the cut in the BDT
+output (Table ~\ref{EfficiencyBDT} contains the efficiency numbers for the BDT cut). 
+The first set of BDT variables in the early version of the analysis included 30-50 variables, which could potentially discriminate signal from the background. The set containe\
+d variables related to the kinematical properties of the signature, as well as a dozen of angular variables. After the first optimization, nine best variables were determined and chosen \
+to be used for the analysis. Removal or addition of other variables did not improve the performance. %The same set of nine variables is used in both low and high mass trainings.
+
+
+Following the procedure adopted by matured HH analyses, we
+split the mass range into two: low mass and high mass (\`a la HIG-17-002 and HIG-17-008). These simplification costs some performance loss but allows analysis to proceed with just two BDTs instead of training one BDT per mass point, which would require more than a dozen of trainings per heavy resonance, though, training a dedicated BDT for each
+signal mass hypothesis would give a better performance. However, the adopted path saves computational resources. Another reason is impracticality, bbZZ
+signature is not the most sensitive, bb$\gamma$$\gamma$ is and the difference in sensitivity is a factor of 30-100 depending on the mass. More in the chapter \ref{sec:mva}.
+%In addition, it would require a training of 16 BDTs per particle (BulkGraviton in our case). 
+The low/high mass boundary value for HH analyses is chosen typically in the range 300-450
+GeV. In our case the performance of the boundary around 300 GeV (area under the ROC curve
+for low mass BDT is 0.9138 and 0.9805 for high mass BDT) is
+similar to the boundary option at the 450 GeV (area under the ROC curve
+for low mass BDT is 0.9086 and 0.9957 for high mass BDT), and to the one in the
+middle of the range (area under the ROC curve
+for 400 GeV for low mass BDT is 0.9074 and 0.9928 for high mass BDT). 
+%https://indico.cern.ch/event/628835/contributions/2639777/attachments/1483653/2302207/Rami_HH_27June2017_v3.pdf
+Therefore, we chose the value of 450 GeV, which
+is also a choice of the bbbb analysis \cite{bbbb}. Upon running the full chain up to analysis limits, the choice of 450 GeV was confirmed to be the best split point option. As a result, the low
+mass BDT includes a mix (with the weight '1') of seven signal samples:
+250, 260, 270, 300, 350 400, 450 GeV. The high mass training includes nine
+masses: 500, 550, 600, 650, 700, 750, 800, 900, 1000. In each case the
+composition of the background is the same, it is a mix (by cross
+section) of \ttbar and Drell-Yan plus jets.
+
+
+Cut flow for ee and mm channels from the gen level up to before the BDT selection is shown on the figures ~\ref{fig:cutFlow}. In the cut flow table ~\ref{fig:cutFlow} the following definitions are used: very loose selection means all GsfElectrons and Muons from the basic collections that match gen-level electrons/muons and pass the very minimal kinematic cuts; loose selection means loose POG selection consisting of kinematic, dxy/dz, iso cuts. The final efficiency values represent these numbers in terms of events ~\ref{cutFlowEvents}:
+
+\begin{table}
+\begin{center}
+\caption{Number of events surviving analysis cuts corresponding to the last entry in the ~\ref{fig:cutFlow} .}
+\begin{tabular}{|c|c|c|} \hline
+{Process, mass point} &  ee channel, \% &  mm channel, \% \\\hline
+bbZZ, 300 GeV &                    2256     &                    4511 \\
+bbWW, 300 GeV &                    53       &                    85 \\
+bbZZ, 900 GeV &                    8034     &                    12963 \\
+bbWW, 900 GeV &                    12       &                    23 \\\hline
+\end{tabular}
+\label{cutFlowEvents}
+\end{center}
+\end{table}
+
+
+
+
+
+
+\subsubsection{Data and MC comparison\label{sec:compareDataMC}}
+Signal region BDT side-band plots as well as unblind signal region plots show good data-MC agreements.
+We are not cutting on BDT for control regions, therefore, all the mass
+point have the same background and data distributions. 
+That is
+why we provide below plots for two mass points: one mass point representing low mass region, 300 GeV, and one mass point representing high mass region, 900 geV. 
+% for other pass point only signal distribution will change,
+%however, data/background comparison and their ratio will not. At the same time, BDT outputs are mass point specific, because are trained for two different mass regions - low and high mass regions, and are evaluated for each mass point separately. Thus, we show all the BDT plots. 
+Signal bbZZ and bbWW rates for all plots are multiplied by some high factors depending on the mass point purely for the visualization purpose and do not go in the real analysis. 
+
+Prefit plots are available in the Appendix ~\ref{sec:datamc}. Control regions only postfit plots have been produced during an extensive discussion with Higgs conveners at HyperNews, and it was shows that upon inclusion of the SR in the fit the data-MC agreement is slightly better. Postfit plots that include SR in simultaneous fit, hence a common jargon name ``Full postfit`` plots, are presented at the figures ~\ref{fig:MCcomparison_mm_300} - ~\ref{fig:MCcomparison_ee_900} and show data and MC comparison in the SR, CRDY, and CRTT. For both ee and mm channels, low and high mass regions. The latest style plots produced for the PAS can be found at Fig.~\ref{fig:MCcomparisons} for the graviton case and Fig.~\ref{fig:MCcomparisons_radion} for the radion case. 
+
+
+
+Distributions of nine variables that go into the BDT have been studied in depth during the pre-approval process and are available in the Appendix ~\ref{sec:datamc}. After the tight isolation cut fix in the HEPPY framework the results/shapes are almost unchanged (it is also can be observed from the table of yields ~\ref{fig:yields_ee}).  At the yields table ~\ref{fig:yields_ee}, 450 GeV mass point, since evaluated using the high mass BDT, is called 451 GeV for clarity purposes. 
+
+
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.91\textwidth]{figures/cutflow_mm.png}\\
+    \includegraphics[width=0.91\textwidth]{figures/cutflow_ee.png}\\
+    \caption{Cut flow for mm (top) and ee (bottom) channels. }
+    \label{fig:cutFlow}
+  \end{center}
+\end{figure}
+
+
+
+%% \begin{figure}[tbp]                                                                                                                                           
+%%   \begin{center}                                                                                                                                              
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_300_july20/hhMt_mm_SR_FullPostfit_plot_july20.png}                                                  
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_300_july20/hhMt_mm_CRDY_FullPostfit_plot_july20.png}
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_300_july20/hhMt_mm_CRTT_FullPostfit_plot_july20.png}\\                                              
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_300_july20/bdt_response_mm_SR_FullPostfit_plot_july20.png}                                         
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_300_july20/bdt_response_mm_CRDY_FullPostfit_plot_july20.png}                                           
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_300_july20/bdt_response_mm_CRTT_FullPostfit_plot_july20.png}\\                                
+%%     \caption{Comparison of data and MC samples. 300 GeV, mm channel, Full Postfit plots. Top: hhMt, bottom: BDT distributions. From left to right: SR, CRDY, CRTT.}
+%%     \label{fig:MCcomparison_mm_300}                                                                                                                   
+%%   \end{center}                                                                                                                                                
+%% \end{figure}                                                                                                                                                  
+
+
+%% \begin{figure}[tbp]                                                                                                                                           
+%%   \begin{center}                                                                                                                                              
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_300_july20/hhMt_ee_SR_FullPostfit_plot_july20.png}                                                  
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_300_july20/hhMt_ee_CRDY_FullPostfit_plot_july20.png}
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_300_july20/hhMt_ee_CRTT_FullPostfit_plot_july20.png}\\                                              
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_300_july20/bdt_response_ee_SR_FullPostfit_plot_july20.png}                                         
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_300_july20/bdt_response_ee_CRDY_FullPostfit_plot_july20.png}                                           
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_300_july20/bdt_response_ee_CRTT_FullPostfit_plot_july20.png}\\                                
+%%     \caption{Comparison of data and MC samples. 300 GeV, ee channel, Full Postfit plots. Top: hhMt, bottom: BDT distributions. From left to right: SR, CRDY, CRTT.}
+%%     \label{fig:MCcomparison_ee_300}                                                                                                                   
+%%   \end{center}                                                                                                                                                
+%% \end{figure}                                                                                                                                                  
+
+
+
+
+%% \begin{figure}[tbp]                                                                                                                                           
+%%   \begin{center}                                                                                                                                              
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_900_july20/hhMt_mm_SR_FullPostfit_plot_july20.png}                                                  
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_900_july20/hhMt_mm_CRDY_FullPostfit_plot_july20.png}
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_900_july20/hhMt_mm_CRTT_FullPostfit_plot_july20.png}\\                                              
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_900_july20/bdt_response_mm_SR_FullPostfit_plot_july20.png}                                         
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_900_july20/bdt_response_mm_CRDY_FullPostfit_plot_july20.png}                                           
+%%     \includegraphics[width=0.31\textwidth]{figures/mm_900_july20/bdt_response_mm_CRTT_FullPostfit_plot_july20.png}\\                                
+%%     \caption{Comparison of data and MC samples. 900 GeV, mm channel, Full Postfit plots. Top: hhMt, bottom: BDT distributions. From left to right: SR, CRDY, CRTT.}
+%%     \label{fig:MCcomparison_mm_900}                                                                                                                   
+%%   \end{center}                                                                                                                                                
+%% \end{figure}                                                                                                                                                  
+
+
+%% \begin{figure}[tbp]                                                                                                                                           
+%%   \begin{center}                                                                                                                                              
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_900_july20/hhMt_ee_SR_FullPostfit_plot_july20.png}                                                  
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_900_july20/hhMt_ee_CRDY_FullPostfit_plot_july20.png}
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_900_july20/hhMt_ee_CRTT_FullPostfit_plot_july20.png}\\                                              
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_900_july20/bdt_response_ee_SR_FullPostfit_plot_july20.png}                                         
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_900_july20/bdt_response_ee_CRDY_FullPostfit_plot_july20.png}                                           
+%%     \includegraphics[width=0.31\textwidth]{figures/ee_900_july20/bdt_response_ee_CRTT_FullPostfit_plot_july20.png}\\                                
+%%     \caption{Comparison of data and MC samples. 900 GeV, ee channel, Full Postfit plots. Top: hhMt, bottom: BDT distributions. From left to right: SR, CRDY, CRTT.}
+%%     \label{fig:MCcomparison_ee_900}                                                                                                                   
+%%   \end{center}                                                                                                                                                
+%% \end{figure}                                                                                                                                                  
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf}
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf}
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf} \\
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf}
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf}
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf}
+    \caption{Transverse mass of the reconstructed HH candidates for data, the simulated signal graviton sample
+    for the 300 GeV mass hypothesis, and simulated backgrounds scaled according to the fit results. The top
+    row shows the figures for the muon channel while the bottom row is for the electron channel. For each row,
+    the left plot is for the Drell-Yan control region, the middle is for the \ttbar control region, and the right
+    is for the signal region. Signal normalization choice is discussed in the text. The crosshatched area represe\
+nts
+    the sum of statistical and systematic uncertainties.}
+    \label{fig:MCcomparisons}
+%                                                                                                                 
+% Comparison of data and simulation.  Transverse mass of                                                          
+%      the reconstructed HH candidate for 300 GeV signal mass                                                     
+%      hypothesis, electron channel. Left: Drell-Yan control region. Middle: \ttbar                               
+%      control region. Right: signal region. }                                                                    
+%    \label{MCcomparisons_electrons}                                                                              
+  \end{center}
+\end{figure}
+
+
+
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf}
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf}
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf} \\
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf}
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf}
+    \includegraphics[width=0.31\textwidth]{figures/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf}
+    \caption{Transverse mass of the reconstructed HH candidates for data, the simulated signal radion sample
+    for the 300 GeV mass hypothesis, and simulated backgrounds scaled according to the fit results. The top
+    row shows the figures for the muon channel while the bottom row is for the electron channel. For each row,
+    the left plot is for the Drell-Yan control region, the middle is for the \ttbar control region, and the right
+    is for the signal region. Signal normalization choice is discussed in the text. The crosshatched area represe\
+nts
+    the sum of statistical and systematic uncertainties.}
+    \label{fig:MCcomparisons_radion}
+%                                                                                                                 
+% Comparison of data and simulation.  Transverse mass of                                                          
+%      the reconstructed HH candidate for 300 GeV signal mass                                                     
+%      hypothesis, electron channel. Left: Drell-Yan control region. Middle: \ttbar                               
+%      control region. Right: signal region. }                                                                    
+%    \label{MCcomparisons_electrons}                                                                              
+  \end{center}
+\end{figure}
+
+
+
+
+
+%are presented (See Figs.  ~\ref{fig:MCcomparisons_ee_low_SR_bdt_sideband}, ~\ref{fig:MCcomparisons_ee_low_SR_bdt_sideband_2}, ~\ref{fig:MCcomparisons_ee_low_CRDY}, ~\ref{fig:MCcomparisons_ee_low_CRDY_2}, ~\ref{fig:MCcomparisons_ee_low_CRTT}, ~\ref{fig:MCcomparisons_ee_low_CRTT_2} . Unblinded ee distributions are shown in the Fig. ~\ref{fig:MCcomparisons_ee_low_SR}, ~\ref{fig:MCcomparisons_ee_low_SR_2}.
+%Muon channel plots are also shown.(See Figs. ~\ref{fig:MCcomparisons_mm_low_SR_bdt_sideband}, ~\ref{fig:MCcomparisons_mm_low_SR_bdt_sideband_2}, ~\ref{fig:MCcomparisons_mm_low_CRDY}, ~\ref{fig:MCcomparisons_mm_low_CRDY_2}, ~\ref{fig:MCcomparisons_mm_low_CRTT}, ~\ref{fig:MCcomparisons_mm_low_CRTT_2}.  Unblinded mm distributions are shown in the Fig. ~\ref{fig:MCcomparisons_mm_low_SR}, ~\ref{fig:MCcomparisons_mm_low_SR_2}.
+
+%BDT plots for all mass hypotheses for SR can be found on the Fig. ~\ref{fig:bdt_ee_SR} for electron channel and ~\ref{fig:bdt_mm_SR} for the muon channel. BDT distributions in CRDY and CRTT for electon channel are shown on the Figs. ~\ref{fig:bdt_ee_CRDY}, ~\ref{fig:bdt_ee_CRTT}, and for muon channel on the Figs.  ~\ref{fig:bdt_mm_CRDY}, ~\ref{fig:bdt_mm_CRTT}.
+
+%BDT plots in the case of electrons are shown at ~\ref{fig:bdt_ee} and in case case of muons at ~\ref{fig:bdt_mm}.
+% for the muon channel. BDT distributions in CRDY and CRTT for electon channel are shown on the Figs. ~\ref{fig:bdt_ee_CRDY}, ~\ref{fig:bdt_ee_CRTT}, and for muon channel on the Figs.  ~\ref{fig:bdt_mm_CRDY}, ~\ref{fig:bdt_mm_CRTT}.
+
+
+\subsubsection{Scale Factors}
+%\subsubsection{HLT Lepton Scale Factors}
+
+Electron ID and ISO scale factors, as well as HLT scale factors (Fig.~\ref{fig:trigger_eff_diele}), have been computed by VHbb group and presented at the EGamma physics object groups (POG) meeting~\cite{egSF}.
+Muon ID scale factors, as well as ISO scale factors, have been derived separately for runs G/H and B/C/D/E/F runs and then luminosity averaged ~\cite{muonIDnISO}. Tracker scale factors (~\ref{fig:trigger_eff_diele}) are taken from the Muon POG twiki~\cite{muonTRK}. HLT dimuon scale factors were derived by VHbb group and further approved by the muon POG. These scale factors were derived separately for run H (Fig.~\ref{fig:trigger_SF_dimu_H}) and B/C/D/E/F/G (Fig.~\ref{fig:trigger_SF_dimu_BCDEFG}) runs and then luminosity averaged ~\cite{muonTrigger}. On top, separate scale factors are calculated for the dZ requirement of HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVV\
+L\_DZ\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_DZ\_v* triggers, using dilepton events that have already passed the HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v*\
+ OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_v* triggers (Fig. ~\ref{fig:trigger_SF_dimu_dZ_H}).
+

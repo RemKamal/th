@@ -1,0 +1,31 @@
+Since the analysis in performed in two channels, dimuons and dielectron, we have a set of different triggers for that.
+
+The table below lists used triggers \ref{tab:trgs2015}:
+
+\begin{table}[b]
+\caption{Triggers for dimuon and dielectron analysis channels both at L1 and HLT levels.}
+% In parenthesis we report the threshold used for data after run2016D.
+}
+\label{tab:trgs2015}
+\begin{center}
+\scalebox{0.75}{
+\begin{tabular}{ccc} \hline\hline
+
+ Channel                    & L1 Seeds                 & HLT Paths                                                         \\ \hline
+ Z$(\Pgm\Pgm)$\Znn\HBB               & {\tt L1\_SingleMu20}          & {\tt HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v* OR}                    \\
+                              & {\tt }                        & {\tt HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_v* OR}         \\ 
+                              & {\tt }                        & {\tt HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_DZ\_v* OR}         \\ 
+                              & {\tt }                        & {\tt HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_DZ\_v*}         \\ \hline
+
+ Z$(\Pe\Pe)$\Znn\HBB                 & {\tt L1\_SingleEG30      OR}  & {\tt HLT\_Ele23\_Ele12\_CaloIdL\_TrackIdL\_IsoVL\_DZ } \\ 
+                              & {\tt L1\_SingleIsoEG22er OR}  & {\tt  }         \\ 
+                              & {\tt L1\_SingleIsoEG24   OR}  & {\tt  }         \\ 
+                              & {\tt L1\_DoubleEG\_15\_10  }  & {\tt  }         \\ \hline
+\hline\hline
+\end{tabular}
+}
+\end{center}
+\end{table}
+
+Lepton scale factor were derived by VHbb group and further approved by the dedicated physics object groups (POG). All the other POG recommendations, e.g., splitting runs for muons into run H and the rest for calculating HLT scale factors, etc, were properly taken into account. 
+

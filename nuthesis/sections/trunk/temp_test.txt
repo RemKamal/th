@@ -1,0 +1,10 @@
+"dR_bjets_SR_300_log.pdf",
+"dR_leps_SR_300_log.pdf",
+"hhMt_SR_300_log.pdf",
+"hmass0_SR_300_log.pdf",
+"hmass1_SR_300_log.pdf",
+"hpt0_SR_300_log.pdf",
+"hpt1_SR_300_log.pdf",
+"met_SR_300_log.pdf",
+"zmass_SR_300_log.pdf",
+"zpt0_SR_300_log.pdf"
