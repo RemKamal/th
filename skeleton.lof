@@ -1,13 +1,9 @@
 \select@language {english}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic layout of the LHC.\relax }}{3}{figure.caption.3}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces The cross section of the LHC dipole}}{5}{figure.caption.4}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Cables of the dipole magnet}}{6}{figure.caption.5}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces RF cavities module.}}{6}{figure.caption.6}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Beam screen.\relax }}{8}{figure.caption.7}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces 13 kA high-temperature superconducting current lead.\relax }}{9}{figure.caption.8}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Cross section of the LHC tunnel\relax }}{10}{figure.caption.9}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces LHC cryogenic states and the temperature scale.\relax }}{11}{figure.caption.10}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces LHC injection complex.\relax }}{13}{figure.caption.11}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces CMS experiment with all sub-detectors shown.\relax }}{14}{figure.caption.12}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Coordinate system of the CMS detector}}{18}{figure.caption.13}
+\contentsline {figure}{\numberline {0.1}{\ignorespaces The Feynman diagram of the graviton production with the subsequent decay to a pair of the Higgs bosons. What follows is a decay to a pair of b quarks and Z bosons. Shown is 2 b quarks, 2 leptons, and 2 neutrinos final state. \relax }}{2}{figure.caption.3}
+\contentsline {figure}{\numberline {0.2}{\ignorespaces Electron scale factors in $p_{T}$ and $\eta $ bins for 2016 data set for the HLT\_Ele23\_Ele12\_CaloIdL\_TrackIdL\_IsoVL\_DZ trigger. ID cut (general purpose MVA WP90) and ISO cuts are applied, then the scale factors are measured. Taken from ~\cite {vhbbAN}\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {0.3}{\ignorespaces Muon scale factors in $p_{T}$ and $\eta $ bins for 2016 data runs B, C, D, E, F, G for the HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIs\ oVVL\_v* triggers. Left: Scale factors for 8 GeV leg. Right: Scale factors for 17 GeV leg, provided that the subleading leg passed 8 GeV cut.\relax }}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {0.4}{\ignorespaces Muon scale factors in $p_{T}$ and $\eta $ bins for 2016 data run H for the HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIs\ oVVL\_v* triggers. Left: Scale factors for 8 GeV leg. Right: Scale factors for 17 GeV leg, provided that the subleading leg passed 8 GeV cut.\relax }}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {0.5}{\ignorespaces Scale factors in $\eta $ bins of the leading and subleading muons for 2016 data set for dZ requirement, measured after muons have passed the HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_v* triggers. \relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {0.6}{\ignorespaces Muon ID scale factors in $p_{T}$ and $\eta $ bins. Left: runs B to F. Right: runs G and H.\relax }}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {0.7}{\ignorespaces Muon ISO scale factors in $p_{T}$ and $\eta $ bins. Left: runs B to F. Right: runs G and H.\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {0.8}{\ignorespaces Electron ID+ISO scale factors in $p_{T}$ and $\eta $ bins.\relax }}{11}{figure.caption.12}
