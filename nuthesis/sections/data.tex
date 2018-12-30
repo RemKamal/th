@@ -1,12 +1,12 @@
 
 \subsection{Data}
 This measurement uses the full dataset of 2016 collected with the CMS detector in pp collisions
-at 13 TeV center-of-mass energy with the corresponding integrated lumonocity of 35.9 ~\fbinv. 
+at 13 TeV center-of-mass energy with the corresponding integrated luminocity of 35.9 ~\fbinv. 
 
 As the measurement is based on dilepton signatures, the DoubleMuon and DoubleElectron primary
-datasets are analyzed and only on-shell \Zll decays are considered, where $\ell=\Pe, \Pgm$.
+datasets are analyzed and only on-shell \Zll~decays are considered, where $\ell=\Pe, \Pgm$.
  
-The run periods and the corresponding integrated luminosities are listed in Table ~\ref{tab:datasets} for DoubleMuon channel, DoubleElectron channel is similar.
+The run periods and the corresponding integrated luminosities are listed in Table ~\ref{tab:datasets} for DoubleMuon channel, DoubleElectron channel numbers are similar.
 \begin{table}[htbp]
 \caption{List of used 2016 DoubleMuon data sets.
 %\lumi16  across all modes.  
@@ -41,8 +41,7 @@ Total Lumi                        & 35.9 \\
 %% HLT level are listed in table ~\\ref{tab:trgs2015}. Dielectron trigger requires the leading electron to pass $23$ GeV $p_{T}$ cut and $12$ GeV $p_{T}$ cut for the subleading electron. Offline cuts are $25$ GeV $p_{T}$ cut and $15$ GeV $p_{T}$ cut correspondinly. Dimuon triggers require the leading muon to pass $17$ GeV $p_{T}$ cut and $8$ GeV $p_{T}$ cut for the subleading muon with the $20$ GeV $p_{T}$ cut and $15$ GeV $p_{T}$ cut for offline selection correspondinly. $\eta$ region in the gap is excluded (1.4442 to 1.566). 
 
 Because the analysis is performed in the dielectron and dimuon channels, unprescaled dilepton
-triggers with the lowest available transverse momentum thresholds are utilized. The triggers at the L1 and
-HLT level are listed in Table ~\ref{tab:trgs2015}. Dielectron trigger requires the leading electron to pass $23$ GeV $p_{T}$ cut and $12$ GeV $p_{T}$ cut for the subleading electron, both electrons should be within $\eta < $ 2.5. Dimuon triggers require the leading muon to pass $17$ GeV $p_{T}$ cut and $8$ GeV $p_{T}$ cut for the subleading muon, both muons should be within $\eta < $  2.4. $\eta$ region in the gap is excluded (1.4442 to 1.566).
+triggers with the lowest available transverse momentum thresholds are utilized. The triggers at the level 1 (L1) and high level trigger (HLT) are listed in Table ~\ref{tab:trgs2015}. Dielectron trigger requires the leading electron to pass $23$ GeV $p_{T}$ cut and the trailing (subleading) electron to pass $12$ GeV $p_{T}$ cut, both electrons should be within $\eta < $ 2.5. Dimuon triggers require the leading muon to pass $17$ GeV $p_{T}$ cut and $8$ GeV $p_{T}$ cut for the subleading muon, both muons should be within $\eta < $  2.4. The $\eta$ region (1.4442 to 1.566) in the gap between the barrel and endcap is excluded.
 
 
 
@@ -72,14 +71,14 @@ HLT level are listed in Table ~\ref{tab:trgs2015}. Dielectron trigger requires t
 \end{center}
 \end{table}
 
-Before measuring trigger scale factors, ID and ISO cuts are applied, as well as $p_{T}$ cuts of the offline selection. For dielectron trigger leading and subleading electrons have to pass $25$ GeV $p_{T}$ cut and $15$ GeV $p_{T}$ cut correspondinly. Dimuon triggers require the leading muon to pass $20$ GeV $p_{T}$ cut and $15$ GeV $p_{T}$ cut for the subleading muon. 
-Dilepton scale factor have been computed for each leg separately, since the cuts on each leg vary (Fig. ~\ref{fig:trigger_eff_diele}). Following the recommendations from the Muon POG, scale factors have been computed separately for two groups: run H and other runs, and then the luminosity averaged scale factors are calculated (Figs. ~\ref{fig:trigger_SF_dimu_BCDEFG}, ~\ref{fig:trigger_SF_dimu_H}, ~\ref{fig:trigger_SF_dimu_dZ_H}). 
+Before measuring trigger scale factors, identification (ID) and isolation (ISO) cuts are applied, as well as $p_{T}$ cuts of the offline selection. For dielectron trigger leading and subleading electrons have to pass $25$ GeV $p_{T}$ cut and $15$ GeV $p_{T}$ cut correspondinly. Dimuon triggers require the leading muon to pass $20$ GeV $p_{T}$ cut and $15$ GeV $p_{T}$ cut for the subleading muon. 
+Dilepton scale factor have been computed for each leg separately, since the cuts on each leg vary (Fig. ~\ref{fig:trigger_eff_diele}). Following the recommendations from the Muon POG, scale factors have been computed separately for two groups: run H and other runs, and then the final scale factors are determined as luminosity averaged scale factors (Figs. ~\ref{fig:trigger_SF_dimu_BCDEFG}, ~\ref{fig:trigger_SF_dimu_H}, ~\ref{fig:trigger_SF_dimu_dZ_H}). 
 
 \begin{figure}
 \centering
-\subfloat[][Leg 1]
+\subfloat Leg 1
 {\includegraphics[width=1.0\textwidth]{trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_Leg1_WP90_2016.png} } \\
-\subfloat[][Leg 2]
+\subfloat Leg 2
 {\includegraphics[width=1.0\textwidth]{trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_Leg2_WP90_2016.png} } \\
 \caption{Electron scale factors in $p_{T}$ and $\eta$ bins for 2016 data set for the HLT\_Ele23\_Ele12\_CaloIdL\_TrackIdL\_IsoVL\_DZ trigger. ID cut (general purpose MVA WP90) and ISO cuts are applied, then the scale factors are measured. Taken from ~\cite{vhbbAN}}
 \label{fig:trigger_eff_diele}

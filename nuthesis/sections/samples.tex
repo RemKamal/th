@@ -3,24 +3,21 @@
 
 \subsection{Signal simulation\label{sec:signalMC}}
 
-The resonant Monte Carlo (MC) signal samples of the Higgs boson pair production have been generated at the Leading Order (LO) using the \MADGRAPH~5 version\ ~2.2.2.0  generator ~\cite{Alwall:2014hca}. The gluon fusion production of a heavy narrow resonance is followed by the decay of the resonance into two Higgs bosons whose mass is set to 125~GeV.
+MC signal samples of the resonant Higgs boson pair production have been generated at the Leading Order (LO) using the \MADGRAPH~5 version\ ~2.2.2.0  generator ~\cite{Alwall:2014hca}. The gluon fusion production of a heavy narrow resonance is followed by the decay of the resonance into two SM Higgs bosons whose mass is fixed at 125~GeV.
 
-Two signal MC samples are generated to cover the Higgs decay modes contributing to the final state of this measurement. In the first sample (``bbZZ''), one Higgs boson decays to a pair of b-quarks and the second decays into two Z bosons. In the second sample (``bbVV''), one of the Higgs bosons decays to two b-quarks while the other decays into a pair of W or a pair of Z bosons. For both samples, both the Z boson-pair and the W boson-pair are set to decay leptonically to two leptons and two neutrinos, where a lepton could be an electron or a muon. The second, bbVV, sample is filtered according to the generator level information and only the events with a W-boson pair (``bbWW'') are kept, while the Z-pair events are dropped as there are very few of them in the bbVV sample.
+Two signal MC samples are generated to cover the Higgs decay modes contributing to the 2 b jets 2 leptons 2 neutrinos final state of this measurement. The first sample type is a HH decay in to bbZZ channel, where one Higgs boson decays to a pair of b-quarks and the second Higgs boson decays into two Z bosons. In the second sample type bbVV events are generated, where HH can decay through bbWW and bbZZ channels. For both samples, the Z boson-pair and the W boson-pair are set to decay leptonically to two leptons and two neutrinos, where a lepton could be an electron or a muon. The second, bbVV, sample is filtered using the generator level information such that only the events with a W-boson pair (bbWW) are kept, while the Z-pair events are dropped: there are very few of them in the bbVV sample, and most importantly, high statistics bbZZ is taken from the dedicated bbZZ sample of the first type.
 
-Events in the  bbZZ and bbWW MC samples are assigned weights to obtain predicted signal yields for the integrated luminosity of the data set of this measurement using the value for the HH production cross section of 2~pb, a value of the order of predicted enhanced cross sections in typical BSM theories with such resonances. The weights incorporate the branching ratios of the Higgs boson decays contributing to the final state studied here: 0.0012 and 0.0266 for $HH\to bbZZ\to bb\ell\ell\nu\nu$ and $HH\to bbWW\to bb\ell\nu\ell\nu$, respectively \cite{CERNYR4}.
+Events in the signal bbZZ and bbWW MC samples are normalised to 2~pb HH production cross section, which is a typical value of the heavy resonance production at 300 GeV predicted by the WED. Additionally the normalization includes the branching ratios of the Higgs boson decays contributing to the final state studied here: 0.0012 and 0.0266 for $HH\to bbZZ\to bb\ell\ell\nu\nu$ and $HH\to bbWW\to bb\ell\nu\ell\nu$, respectively \cite{CERNYR4}.
 
 %%There are ten samples in the mass range of 260 to 1000 GeV generated for bbVV analysis and 16 samples for bbZZ from 250 GeV to 1000 GeV. Therefore, this document presents results for the masses where both signals are present. In the future we would consider doing approximations of the bbWW contribution where we have missing samples or generate them privately.
 
-
-Unless mentioned otherwise, throughout the text plots and numbers represent the graviton study. The data and backgrounds for the radion measurement are the same, thus distributions also show the same good Data MC behavior and can be found for at Figs. ~\ref{fig:MCcomparisons} for the graviton case and ~\ref{fig:MCcomparisons_radion} for the rad\
-ion case.
-
+Unless mentioned otherwise, throughout the text plots and numbers represent the graviton study. The data and backgrounds for the radion measurement are the same, thus distributions also show the same good Data MC agreement and can be found for at Figs. ~\ref{fig:MCcomparisons} for the graviton case and ~\ref{fig:MCcomparisons_radion} for the radion case.
 
 \subsection{Background simulation\label{sec:bkgMC}}
 
 In this analysis the main backgrounds are \ttbar and Drell-Yan plus
 jets with the mass of the boson greater than 50 GeV. Not all the
-background pass our preselection (see section %~\ref{hhSelection}),
+background processes pass our tight preselection (see section ~\ref{hhSelection}),
 those which do, are single top, dibosons, and ZH backgrounds that are
 listed in the Table \ref{tab:bg_mcsamples}:
 
@@ -78,18 +75,20 @@ listed in the Table \ref{tab:bg_mcsamples}:
 
 
 
-The simulated samples of the background processes,
+The simulated samples of the background processes such as 
 ~\ttbar~\cite{Frixione:2007nw} and the single top tW and t-channel
-production processes~\cite{Frederix:2012dh}, are generated at the
+production processes~\cite{Frederix:2012dh} are generated at the
 next-to-leading order (NLO) with POWHEG~\cite{Alioli:2009je}, while
 single top s-channel production process is generated at NLO with
 \MADGRAPH. \ttbar and single top production cross sections are
-rescaled to the next-to-next-to-leading order (NNLO). Drell-Yan (DY)
-process samples in association with 1, 2, 3 or 4 jets, are generated
+rescaled to the next-to-next-to-leading order (NNLO). 
+Drell-Yan (DY)
+process samples in association with 1, 2, 3 or 4 jets are generated
 at the leading order using \MADGRAPH with the MLM
 matching~\cite{Alwall:2007fs} and rescaled to NNLO using~\textsc{fewz}
 program~\cite{Gavin:2010az,Li:2012wna,Gavin:2012sy}. 
-As for the EWK order, DY samples have been rescaled to EWK NLO order with the NLO/LO k-factor of 1.23~\cite{DYkfactor}. Diboson samples
+
+As for the electroweak (EWK) order, DY samples have been rescaled to EWK NLO order with the NLO/LO k-factor of 1.23~\cite{DYkfactor}. Diboson samples
 are generated at LO with {\PYTHIA}8.212~\cite{Sjostrand:2007gs}.
 
 The main background
@@ -112,10 +111,9 @@ CUETP9M1 set derived in \cite{Khachatryan:2015pea} is
 used. \GEANTfour~\cite{GEANT4} is used to model the response of the
 CMS detector.
 
-All the final cross sections denoted as NNLO are calculated at NNLO QCD accuracies and have been computed with the tool they were generated with. They found to be in agreement with the values from the\
- LHC Higgs cross section working group ~\cite{LHCHXSWG, xsecZH, xsecTT, xsecST, xsecVV}.
+All the final cross sections denoted as NNLO are calculated at NNLO QCD accuracies and have been computed with the tool they were generated with. They found to be in agreement with the values from the LHC Higgs cross section working group ~\cite{LHCHXSWG, xsecZH, xsecTT, xsecST, xsecVV}.
 
-During the data taking in 2016 the average number of proton-proton intercations per bunch crossing was 24 (denoted as pile up later), and MC samples contain this information overlaping these interactions with the events of interest.
+During the data taking in 2016 the average number of proton-proton interactions per bunch crossing was 24 (denoted as pile up later), and in MC samples this information has been introduced overlapping these interactions with the events of interest.
 
 
 
