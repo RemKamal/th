@@ -11,15 +11,15 @@
 \contentsline {subsection}{\numberline {0.3.2}Background simulation}{14}{subsection.0.3.2}
 \contentsline {section}{\numberline {0.4}Physics Objects Reconstruction}{16}{section.0.4}
 \contentsline {subsection}{\numberline {0.4.1}Electrons}{16}{subsection.0.4.1}
-\contentsline {subsection}{\numberline {0.4.2}Muons}{16}{subsection.0.4.2}
-\contentsline {subsection}{\numberline {0.4.3}Jets}{17}{subsection.0.4.3}
-\contentsline {subsection}{\numberline {0.4.4}Identification of b jets}{17}{subsection.0.4.4}
-\contentsline {subsection}{\numberline {0.4.5}Missing transverse energy}{17}{subsection.0.4.5}
-\contentsline {section}{\numberline {0.5}Event Selection}{18}{section.0.5}
-\contentsline {section}{\numberline {0.6}BDT Discriminant}{18}{section.0.6}
-\contentsline {section}{\numberline {0.7}Systematic Uncertainties}{18}{section.0.7}
-\contentsline {section}{\numberline {0.8}Statistical Analysis}{18}{section.0.8}
-\contentsline {section}{\numberline {0.9}Limits Extraction}{18}{section.0.9}
-\contentsline {section}{\numberline {0.10}Conclusions}{18}{section.0.10}
-\contentsline {chapter}{Bibliography}{18}{section.0.10}
-\contentsline {chapter}{References}{19}{section*.15}
+\contentsline {subsection}{\numberline {0.4.2}Muons}{17}{subsection.0.4.2}
+\contentsline {subsection}{\numberline {0.4.3}Jets}{18}{subsection.0.4.3}
+\contentsline {subsection}{\numberline {0.4.4}Identification of b jets}{19}{subsection.0.4.4}
+\contentsline {subsection}{\numberline {0.4.5}Missing transverse energy}{19}{subsection.0.4.5}
+\contentsline {section}{\numberline {0.5}Event Selection}{21}{section.0.5}
+\contentsline {section}{\numberline {0.6}BDT Discriminant}{21}{section.0.6}
+\contentsline {section}{\numberline {0.7}Systematic Uncertainties}{21}{section.0.7}
+\contentsline {section}{\numberline {0.8}Statistical Analysis}{21}{section.0.8}
+\contentsline {section}{\numberline {0.9}Limits Extraction}{21}{section.0.9}
+\contentsline {section}{\numberline {0.10}Conclusions}{21}{section.0.10}
+\contentsline {chapter}{Bibliography}{21}{section.0.10}
+\contentsline {chapter}{References}{22}{section*.16}
