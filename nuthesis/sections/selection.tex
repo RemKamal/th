@@ -3,39 +3,44 @@
 \subsection{Higgs and Z Boson Selection}
 
 Only dilepton pairs having net charge of zero are considered as \ZtoLL~ candidates. 
-Pairs of prompt isolated leptons have to have a dilepton mass greater \
-than 76 GeV. This ensures the orthogonality with HIG-17-006 bbVV analysis (later also referred to as bbWW analysis) as well as helps selecting decays of real Z bosons.
+Pairs of prompt isolated leptons must have a dilepton mass greater than 76 GeV. This ensures the orthogonality with HIG-17-006 bbVV analysis (later also referred to as bbWW analysis) as well as helps selecting decays of real Z bosons.
 
-Higgs boson decays are reconstructed from the b jet pairs utilising only the two with the highest CMVAv2 discriminant value. We do not veto additional b jets. 
+Higgs boson candidates are reconstructed from the b jet pairs utilising the two b jets with the highest CMVAv2 discriminant value. We do not veto additional b jets as with the increased PU growths the probability to have more b jets. 
 
-Double Higgs object is computed as a sum of Lorentz vectors of the \ZtoLL~ candidate, MET, and a \HBB~ candidate. Then, we compute the transverse mass of that object.
+Double Higgs boson candidate is computed as a sum of Lorentz vectors of the \ZtoLL~ candidate, MET, and a \HBB~ candidate. Then, we compute the transverse mass of that object. 
 
 Transverse mass definition that we follow is one of the commonly used and is logical in the sense that we subtract the longitudinal momentum component which leaves us with the transverse momentum components only (while the energy remains the total energy).
 
-More precisely, as the z-component of the neutrinos' momentum is unknown, we form a pseudo transverse mass:
+More precisely, as the z-component of the neutrinos' momentum is unknown and for various reasons we do not attempt to reconstruct it, we form a pseudo transverse mass:
 
 %$M_T...with-tilda = $ (further referred as transverse mass for brevity), where E and pz are the energy and momentum of the candidate defined above.''                \
                                                                                                                                                                        
 
-$\tilde{M}_T(HH) = \sqrt{E^2 - p_{z}^2}$ (further referred as transverse mass for brevity), where $E$ and \
-$p_z$ are the energy and the Z-axis component of the Lorentz energy-momentum vector of the HH candidate.
+\noindent $\tilde{M}_T(HH) = \sqrt{E^2 - p_{z}^2}$ (further referred as transverse mass for brevity), where $E$ and $p_z$ are the energy and the z-axis component of the Lorentz energy-momentum vector of the HH candidate.
 
-The resulting distribution is what will be used in the binned shape analysis with the Higgs Combination Tool following the section ``Binned shape analysis'' as described at the twiki~\cite{CombinedLimit}.
+The resulting distribution, $\tilde{M}_T(HH)$, is what will be used in the binned shape analysis with the Higgs Combination Tool following the section "Binned shape analysis" as described at the twiki~\cite{CombinedLimit}. Shape analysis is more sensitive than the simple cut-and-count experiment (one bin distributions) since more information/discrimination power is given to the likelihood function. 
 
 %:
 %\begin{center}
 %    \small{\texttt{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHiggsAnalysisCombinedLimit}}
 %\end{center}
-
-Analysis preselection to reduce ntuples size starts with the requirement on dilepton mass \toprule
- be greater than 50 GeV and the event to contain at least two jets with $p_{T} > 30$ GeV and $|\eta| < 2.4$. In addition to requirements on Higgs bosons decaying to b quarks mentioned above, we define Z bosons as two opposite sign muons with $p_{T} > 20/15$ GeV or two opposite sign electrons with $p_{T} > 25/15$ GeV. 
-
+Initial data files, called ntuples, have enormous size of the order of more than a Terabyte per background process. To reduce the size of the ntuples and remove obvious background events (to remove signal-like events we apply a sophisticated selection and use a BDT), we apply a "common-sense" HH preselection. It starts with the requirement on dilepton mass 
+ be greater than 50 GeV and the event to contain at least two "good" jets - with $p_{T} > 30$ GeV and $|\eta| < 2.4$. In addition to requirements on Higgs bosons decaying to b quarks mentioned above, we define Z bosons as two opposite sign muons with $p_{T} > 20/15$ GeV (leading/subleading lepton) or two opposite sign electrons with $p_{T} > 25/15$ GeV (leading/subleading lepton). 
 
 
-Later analysis cuts to improve signal-background separation include: the requirement on at least two b jets in the event, out of which two with the highest CMVAv2 score are used to define \HBB ~candidate. The lower end cut on the \HBB mass is set to 20 GeV to remove the low mass resonances while giving BDT as many events in the CRDY as possible at the same time. The upper end cut is not explicitly set for the same purpose. The actual \HBB mass distribution after the analysis selection is concentrated in the range 30 to 220 GeV. Then the Z boson selection cut takes the most energetic two leptons of the opposite sign and requires the their dilepton mass to pass 76 GeV < Z mass < 106 GeV selection used for the signal region definition. This is a standard +- 15 GeV window for Z boson selection whose lower end also preserves othogonality with the existing HIG-17-006 bbVV analysis. HH candidate is approximated by the sum of \ETslash, Z, and \HBB decays. A loose cut on HH transverse \textgreater~ 100 GeV removes evidently background events. Finally, an additional set of \ETslash cuts is used to ensure orthogonality with the existing HIG-18-013 bbZZ analysis focusing on the 2b jets + 2 leptons + 2 quarks, see Table \ref{metCuts}:
+
+Later analysis cuts, the selection chain to improve signal-background separation, include: 
+
+ \begin{itemize}
+ \item  the requirement of at least two b jets in the event, out of which two with the highest CMVAv2 score are used to define \HBB ~candidate
+ \item  the lower end cut on the \HBB mass set to 20 GeV to remove the low mass resonances, while giving BDT as many events in the CRDY as possible at the same time. The upper end cut is not explicitly set for the same purpose. The actual \HBB mass distribution after the analysis selection is concentrated in the range 30 to 220 GeV
+ \item  the Z boson selection takes the most energetic two leptons of the opposite sign and requires their dilepton mass to pass 76 GeV < Z mass < 106 GeV condition used for the signal region definition. This is a standard $\pm$ 15 GeV window for Z boson selection whose lower end also preserves othogonality with the existing HIG-17-006 bbVV analysis
+ \item  HH candidate is approximated by the sum of \ETslash, Z, and \HBB~decays. A loose cut on HH transverse \textgreater~ 100 GeV removes evidently background events
+ \item  finally, an additional set of \ETslash cuts is used to ensure orthogonality with the existing HIG-18-013 bbZZ analysis focusing on the 2b jets + 2 leptons + 2 quarks, see Table \ref{metCuts}. The MET cuts have been optimised by both analysis to yield the best limit when the results of two measurements are combined. 
+ \end{itemize}
 
 
-\begin{table}
+\begin{table}[H]
 \begin{center}
 \caption{\ETslash cut to orthogonalise the analysis with respect to HIG-18-013.}
 \begin{tabular}{|c|c|} \hline
@@ -50,13 +55,53 @@ Later analysis cuts to improve signal-background separation include: the require
 \end{table}
 
 
+\begin{figure}[H]%hbpt?                                                                       
+  \begin{center}
+    \includegraphics[width=0.45\textwidth]{ee_300_met.png}
+    \includegraphics[width=0.45\textwidth]{mm_300_met.png}\\
+    \includegraphics[width=0.45\textwidth]{ee_600_met.png}
+    \includegraphics[width=0.45\textwidth]{mm_600_met.png}\\
+    \includegraphics[width=0.45\textwidth]{ee_900_met.png}
+    \includegraphics[width=0.45\textwidth]{mm_900_met.png}\\
+    \caption{ Significance-like ($\sqrt{S}/B$) figure of merit as a function of the MET cut. Green curve shows the significance for our analysis keepings event above the cut, red curve is for HIG-18-013 analysis and their phase space is below the cut value. Top: 300 GeV cut. Middle: 600 GeV cut. Bottom: 900 GeV cut. On the left dielectron channel is shown, while dimuon plots are on the right. }
+    \label{fig:met_cuts}
+  \end{center}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \subsection{\HBB ~and \ZtoLL ~variables to define signal and control regions}
 
 In this analysis we define three regions in the \HBB ~and \ZtoLL
 ~space. Two regions, CRDY and CRTT, are used to extract the
-normalization of corresponding backgrounds. Signal region (Fig. ~\ref{fig:regions}) is chosen by
-the set of \HBB~and \ZtoLL ~cuts \ref{fig:regions}. To reduce background contamination in this region, an additional cut on the MVA output is used. Boosted decision trees (BDT) MVA technique is employed to
+normalizations of corresponding backgrounds. Signal region (Fig. ~\ref{fig:regions}) is chosen by
+the set of \HBB~and \ZtoLL ~cuts \ref{fig:regions}. To further reduce background contamination in this region, an additional cut on the MVA output is used. Boosted decision trees (BDT) MVA technique is employed to
 separate background from signal. Below we describe in details
 selection of each region and BDT construction. 
 
@@ -74,13 +119,13 @@ selection of each region and BDT construction.
 For CRDY we invert \HBB ~cut, keeping in the lower sideband only events
 with the mass of Higgs boson higher than 20 GeV to avoid fakes from
 QCD. For CRTT we invert \ZtoLL ~cut, keeping only high mass sideband to
-ensure the orthogonality with the existing HIG-17-006 bbVV analysis.
+ensure the orthogonality with the existing HIG-17-006 bbVV analysis, since the lower sideband is included in the phase space used by them. 
 
 
 \begin{figure}[!htb]%hbpt?                                                                       
   \begin{center}
-    %\raisebox{0.17\height}                                                                      
-    \includegraphics[width=0.45\textwidthz{regions.png}
+    %\raisebox{0.17\height}                                                                     
+    \includegraphics[width=0.45\textwidth]{regions.png}
     \caption{ Signal region, control region \ttbar, and control region Drell-Yan in the phase space of \ZtoLL \ ~and ~\HBB ~masses.    }
     \label{fig:regions}
   \end{center}
@@ -108,7 +153,8 @@ ensure the orthogonality with the existing HIG-17-006 bbVV analysis.
 
 
 \begin{table}                                                                                                                                                                          
-\begin{center}                                                                                                                                                                         
+\begin{center}      
+                                                                                                                                                                   
 \caption{Efficiency of the BDT selection requirement. ee channel (top) and mm channel (bottom). }
 \begin{tabular}{|c|c|c|}
 \hline
@@ -123,7 +169,7 @@ ZH            &                        88.8 &                        10.7 \\
 Dibosons      &                        90.0 &                         5.0 \\
 \hline
 \end{tabular}
-
+%\vspace*{1cm}
 \begin{tabular}{|c|c|c|}
 \hline
 sample &  Efficiency at 300 GeV, [\%] &  Efficiency at 900 GeV, [\%] \\
@@ -137,6 +183,7 @@ ZH            &                        56.0 &                         8.4 \\
 Dibosons      &                        51.4 &                         6.2 \\
 \hline
 \end{tabular}
+
 \label{EfficiencyBDT}                                                                                                                                                                  
 \end{center}                                                                                                                                                                           
 \end{table} 
@@ -159,13 +206,12 @@ Dibosons      &                        51.4 &                         6.2 \\
 
 The signal region is further purified applying the cut in the BDT
 output (Table ~\ref{EfficiencyBDT} contains the efficiency numbers for the BDT cut). 
-The first set of BDT variables in the early version of the analysis included 30-50 variables, which could potentially discriminate signal from the background. The set containe\
-d variables related to the kinematical properties of the signature, as well as a dozen of angular variables. After the first optimization, nine best variables were determined and chosen \
+The first set of BDT variables in the early version of the analysis included 30-50 variables, which could potentially discriminate signal from the background. The set contained variables related to the kinematical properties of the signature, as well as a dozen of angular variables. After the first optimization, nine best variables were determined and chosen \
 to be used for the analysis. Removal or addition of other variables did not improve the performance. %The same set of nine variables is used in both low and high mass trainings.
 
 
 Following the procedure adopted by matured HH analyses, we
-split the mass range into two: low mass and high mass (\`a la HIG-17-002 and HIG-17-008). These simplification costs some performance loss but allows analysis to proceed with just two BDTs instead of training one BDT per mass point, which would require more than a dozen of trainings per heavy resonance, though, training a dedicated BDT for each
+split the mass range into two: low mass and high mass (\'a la HIG-17-002 and HIG-17-008). These simplification costs some performance loss but allows analysis to proceed with just two BDTs instead of training one BDT per mass point, which would require more than a dozen of trainings per heavy resonance, though, training a dedicated BDT for each
 signal mass hypothesis would give a better performance. However, the adopted path saves computational resources. Another reason is impracticality, bbZZ
 signature is not the most sensitive, bb$\gamma$$\gamma$ is and the difference in sensitivity is a factor of 30-100 depending on the mass. More in the chapter \ref{sec:mva}.
 %In addition, it would require a training of 16 BDTs per particle (BulkGraviton in our case). 
