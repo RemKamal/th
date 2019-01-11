@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  3 JAN 2019 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  11 JAN 2019 13:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -935,25 +935,27 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-(./skeleton.aux)
+(./nuthesis/sections/pennames-pazo.sty)
+(./nuthesis/sections/ptdr-definitions.sty) (./skeleton.aux)
 \openout1 = `skeleton.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 184.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 183.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1006,7 +1008,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \everyMPtoPDFconversion=\toks43
 )
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 184.
+Package hyperref Info: Link coloring OFF on input line 183.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1017,65 +1019,65 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 184.
-LaTeX Info: Redefining \ref on input line 184.
-LaTeX Info: Redefining \pageref on input line 184.
-LaTeX Info: Redefining \nameref on input line 184.
+LaTeX Info: Redefining \nameref on input line 183.
+LaTeX Info: Redefining \ref on input line 183.
+LaTeX Info: Redefining \pageref on input line 183.
+LaTeX Info: Redefining \nameref on input line 183.
 (./skeleton.out) (./skeleton.out)
 \@outlinefile=\write4
 \openout4 = `skeleton.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 218.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 217.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 218.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 217.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 218
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 217
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 218
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 217
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 218.
+(Font)              <12> on input line 217.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 218.
+(Font)              <8> on input line 217.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 218.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 218.
+(Font)              <6> on input line 217.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 217.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 218.
+LaTeX Font Info:    Try loading font information for U+msa on input line 217.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 218.
+LaTeX Font Info:    Try loading font information for U+msb on input line 217.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 218.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 217.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 218.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 217.
  [1
 
 
@@ -1139,43 +1141,40 @@ LaTeX Warning: Citation `lumiUnc' on page xi undefined on input line 2.
 
 ) [11
 
-] [1
+] (./nuthesis/sections/Hbb-definitions.tex) (./nuthesis/sections/intro.tex
 
-] (./nuthesis/sections/Hbb-definitions.tex)
-(./nuthesis/sections/intro.tex
-
-LaTeX Warning: Citation `HiggsCMS' on page 2 undefined on input line 1.
+LaTeX Warning: Citation `HiggsCMS' on page 1 undefined on input line 1.
 
 
-LaTeX Warning: Citation `HiggsAtlas' on page 2 undefined on input line 2.
+LaTeX Warning: Citation `HiggsAtlas' on page 1 undefined on input line 2.
 
 
-LaTeX Warning: Citation `Salam:1961en' on page 2 undefined on input line 3.
+LaTeX Warning: Citation `Salam:1961en' on page 1 undefined on input line 3.
 
 
-LaTeX Warning: Citation `Weinberg:1967tq' on page 2 undefined on input line 3.
+LaTeX Warning: Citation `Weinberg:1967tq' on page 1 undefined on input line 3.
 
 
-LaTeX Warning: Citation `HHXsec' on page 2 undefined on input line 14.
+LaTeX Warning: Citation `HHXsec' on page 1 undefined on input line 14.
 
 
-LaTeX Warning: Citation `WED' on page 2 undefined on input line 17.
+LaTeX Warning: Citation `WED' on page 1 undefined on input line 17.
 
 
-LaTeX Warning: Citation `WED' on page 2 undefined on input line 22.
+LaTeX Warning: Citation `WED' on page 1 undefined on input line 22.
 
 
-LaTeX Warning: Citation `BG1' on page 2 undefined on input line 27.
+LaTeX Warning: Citation `BG1' on page 1 undefined on input line 27.
 
 
-LaTeX Warning: Citation `BG2' on page 2 undefined on input line 27.
+LaTeX Warning: Citation `BG2' on page 1 undefined on input line 27.
 
 
-LaTeX Warning: Citation `BG3' on page 2 undefined on input line 27.
+LaTeX Warning: Citation `BG3' on page 1 undefined on input line 27.
 
-[2
+[1
 
-] <nuthesis/images/BGtoHH.pdf, id=306, 324.21124pt x 236.885pt>
+] <nuthesis/images/BGtoHH.pdf, id=301, 324.21124pt x 236.885pt>
 File: nuthesis/images/BGtoHH.pdf Graphic file (type pdf)
 
 <use nuthesis/images/BGtoHH.pdf>
@@ -1183,33 +1182,26 @@ Package pdftex.def Info: nuthesis/images/BGtoHH.pdf used on input line 40.
 (pdftex.def)             Requested size: 195.12769pt x 142.57306pt.
 
 
-LaTeX Warning: Citation `VHbb_inspire' on page 3 undefined on input line 50.
+LaTeX Warning: Citation `VHbb_inspire' on page 2 undefined on input line 50.
 
 
-LaTeX Warning: Citation `CMSreco' on page 3 undefined on input line 50.
+LaTeX Warning: Citation `CMSreco' on page 2 undefined on input line 50.
 
 
-LaTeX Warning: Citation `PFalgo' on page 3 undefined on input line 50.
+LaTeX Warning: Citation `PFalgo' on page 2 undefined on input line 50.
 
 
-LaTeX Warning: Citation `BTagtwiki' on page 3 undefined on input line 50.
+LaTeX Warning: Citation `BTagtwiki' on page 2 undefined on input line 50.
 
-[3 <./nuthesis/images/BGtoHH.pdf>]) [4] (./nuthesis/sections/data.tex
-./nuthesis/sections/data.tex:7: Undefined control sequence.
-l.7 ...\Zll~decays are considered, where $\ell=\Pe
-                                                  , \Pgm$.
-? 
-./nuthesis/sections/data.tex:7: Undefined control sequence.
-l.7 ...ecays are considered, where $\ell=\Pe, \Pgm
-                                                  $.
-? 
+[2 <./nuthesis/images/BGtoHH.pdf>]) [3] (./nuthesis/sections/data.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 13.
 
-LaTeX Warning: Citation `lumiUnc' on page 5 undefined on input line 13.
+
+LaTeX Warning: Citation `lumiUnc' on page 4 undefined on input line 13.
 
 
-LaTeX Warning: Citation `lumiUnc' on page 5 undefined on input line 13.
+LaTeX Warning: Citation `lumiUnc' on page 4 undefined on input line 13.
 
 
 ./nuthesis/sections/data.tex:34: Class memoir Error: Font command \cal is not s
@@ -1299,33 +1291,9 @@ Type  H <return>  for immediate help.
 l.34 }
       
 ? 
-[5
+[4
 
 ]
-./nuthesis/sections/data.tex:69: Undefined control sequence.
-<argument> ...Seeds & HLT Paths \\ \hline Z$(\Pgm 
-                                                  \Pgm )$~\Znn \HBB & {\tt L...
-l.69 }
-      
-? 
-./nuthesis/sections/data.tex:69: Undefined control sequence.
-<argument> ... & HLT Paths \\ \hline Z$(\Pgm \Pgm 
-                                                  )$~\Znn \HBB & {\tt L1\_Si...
-l.69 }
-      
-? 
-./nuthesis/sections/data.tex:69: Undefined control sequence.
-<argument> \mathrm {Z}(\cPgn 
-                             \cPgn )
-l.69 }
-      
-? 
-./nuthesis/sections/data.tex:69: Undefined control sequence.
-<argument> \mathrm {Z}(\cPgn \cPgn 
-                                   )
-l.69 }
-      
-? 
 
 ./nuthesis/sections/data.tex:69: Class memoir Error: Font command \tt is not su
 pported.
@@ -1411,30 +1379,6 @@ See the memoir class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 }
-      
-? 
-./nuthesis/sections/data.tex:69: Undefined control sequence.
-<argument> ...oVVL\_DZ\_v*} \\ \hline \par Z$(\Pe 
-                                                  \Pe )$~\Znn \HBB & {\tt L1...
-l.69 }
-      
-? 
-./nuthesis/sections/data.tex:69: Undefined control sequence.
-<argument> ...\_DZ\_v*} \\ \hline \par Z$(\Pe \Pe 
-                                                  )$~\Znn \HBB & {\tt L1\_Si...
-l.69 }
-      
-? 
-./nuthesis/sections/data.tex:69: Undefined control sequence.
-<argument> \mathrm {Z}(\cPgn 
-                             \cPgn )
-l.69 }
-      
-? 
-./nuthesis/sections/data.tex:69: Undefined control sequence.
-<argument> \mathrm {Z}(\cPgn \cPgn 
-                                   )
 l.69 }
       
 ? 
@@ -1528,7 +1472,7 @@ l.69 }
 ? 
 
 <nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_
-Leg1_WP90_2016.png, id=346, 1031.855pt x 652.4375pt>
+Leg1_WP90_2016.png, id=342, 1031.855pt x 652.4375pt>
 File: nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficienc
 yHLT_Leg1_WP90_2016.png Graphic file (type png)
 
@@ -1539,7 +1483,7 @@ ronTriggerEfficiencyHLT_Leg1_WP90_2016.png used on input line 80.
 (pdftex.def)             Requested size: 433.62003pt x 274.1712pt.
 
 <nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_
-Leg2_WP90_2016.png, id=348, 1035.87pt x 647.41875pt>
+Leg2_WP90_2016.png, id=344, 1035.87pt x 647.41875pt>
 File: nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficienc
 yHLT_Leg2_WP90_2016.png Graphic file (type png)
 
@@ -1550,17 +1494,17 @@ ronTriggerEfficiencyHLT_Leg2_WP90_2016.png used on input line 82.
 (pdftex.def)             Requested size: 433.62003pt x 271.01505pt.
 
 
-LaTeX Warning: Citation `vhbbAN' on page 6 undefined on input line 83.
+LaTeX Warning: Citation `vhbbAN' on page 5 undefined on input line 83.
 
 
-LaTeX Warning: Citation `vhbbAN' on page 6 undefined on input line 83.
+LaTeX Warning: Citation `vhbbAN' on page 5 undefined on input line 83.
 
 
 LaTeX Warning: Float too large for page by 9.36314pt on input line 85.
 
 
 <nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_M
-u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=349, 5
+u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=345, 5
 69.12625pt x 385.44pt>
 File: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_
 hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graph
@@ -1574,7 +1518,7 @@ eta_ratio.pdf used on input line 90.
 (pdftex.def)             Requested size: 205.97215pt x 139.49345pt.
 
 <nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_le
-g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=350, 569.12625pt x 385.4
+g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=346, 569.12625pt x 385.4
 4pt>
 File: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17M
 u8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic file (type pdf)
@@ -1601,7 +1545,7 @@ OR
 
 
 <nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_Mu17_M
-u8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=351, 569.12
+u8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=347, 569.12
 625pt x 385.44pt>
 File: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_M
 u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic fi
@@ -1615,7 +1559,7 @@ atio.pdf used on input line 99.
 (pdftex.def)             Requested size: 205.97215pt x 139.49345pt.
 
 <nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_leg17_D
-EN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=352, 569.12625pt x 385.44pt>
+EN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=348, 569.12625pt x 385.44pt>
 File: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_le
 g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic file (type pdf)
 
@@ -1639,7 +1583,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--102
 
 
 <nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_PAR_e
-ta1_eta2_abseta_tag_abseta_ratio.pdf, id=353, 569.12625pt x 385.44pt>
+ta1_eta2_abseta_tag_abseta_ratio.pdf, id=349, 569.12625pt x 385.44pt>
 File: nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_
 PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf Graphic file (type pdf)
 
@@ -1668,9 +1612,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--110
 
 
 LaTeX Warning: Reference `fig:muonID_SF, fig:muonISO_SF, fig:eleIDnISO_SF' on p
-age 6 undefined on input line 115.
+age 5 undefined on input line 115.
 
-<nuthesis/images/muon_ID_BCDEFv2.png, id=354, 555.07375pt x 566.115pt>
+<nuthesis/images/muon_ID_BCDEFv2.png, id=350, 555.07375pt x 566.115pt>
 File: nuthesis/images/muon_ID_BCDEFv2.png Graphic file (type png)
 
 <use nuthesis/images/muon_ID_BCDEFv2.png>
@@ -1678,7 +1622,7 @@ Package pdftex.def Info: nuthesis/images/muon_ID_BCDEFv2.png used on input line
  118.
 (pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
 
-<nuthesis/images/muon_ID_GHv2.png, id=355, 555.07375pt x 566.115pt>
+<nuthesis/images/muon_ID_GHv2.png, id=351, 555.07375pt x 566.115pt>
 File: nuthesis/images/muon_ID_GHv2.png Graphic file (type png)
 
 <use nuthesis/images/muon_ID_GHv2.png>
@@ -1686,72 +1630,32 @@ Package pdftex.def Info: nuthesis/images/muon_ID_GHv2.png used on input line 12
 0.
 (pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
 
-
-./nuthesis/sections/data.tex:125: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 \newline
-              
-? 
-
-./nuthesis/sections/data.tex:126: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126 \newline
-              
-? 
-<nuthesis/images/muon_ISO_BCDEFv2.png, id=356, 555.07375pt x 566.115pt>
+<nuthesis/images/muon_ISO_BCDEFv2.png, id=352, 555.07375pt x 566.115pt>
 File: nuthesis/images/muon_ISO_BCDEFv2.png Graphic file (type png)
 
 <use nuthesis/images/muon_ISO_BCDEFv2.png>
 Package pdftex.def Info: nuthesis/images/muon_ISO_BCDEFv2.png used on input lin
-e 130.
+e 128.
 (pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
 
-<nuthesis/images/muon_ISO_GHv2.png, id=357, 555.07375pt x 566.115pt>
+<nuthesis/images/muon_ISO_GHv2.png, id=353, 555.07375pt x 566.115pt>
 File: nuthesis/images/muon_ISO_GHv2.png Graphic file (type png)
 
 <use nuthesis/images/muon_ISO_GHv2.png>
 Package pdftex.def Info: nuthesis/images/muon_ISO_GHv2.png used on input line 1
-32.
+30.
 (pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
 
-
-./nuthesis/sections/data.tex:137: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137 \newline
-              
-? 
-
-./nuthesis/sections/data.tex:138: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 \newline
-              
-? 
-<nuthesis/images/EIDISO_ZH_out.png, id=358, 1071.00125pt x 1144.275pt>
+<nuthesis/images/EIDISO_ZH_out.png, id=354, 1071.00125pt x 1144.275pt>
 File: nuthesis/images/EIDISO_ZH_out.png Graphic file (type png)
 
 <use nuthesis/images/EIDISO_ZH_out.png>
 Package pdftex.def Info: nuthesis/images/EIDISO_ZH_out.png used on input line 1
-42.
+37.
 (pdftex.def)             Requested size: 390.25537pt x 416.94977pt.
-) [6] [7 <./nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEff
+) [5] [6 <./nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEff
 iciencyHLT_Leg1_WP90_2016.png> <./nuthesis/images/trigger/electronTriggerEffici
-encyelectronTriggerEfficiencyHLT_Leg2_WP90_2016.png>] [8 <./nuthesis/images/tri
+encyelectronTriggerEfficiencyHLT_Leg2_WP90_2016.png>] [7 <./nuthesis/images/tri
 gger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_Mu17_Mu8_OR_TkMu8_leg
 8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, page is rotated 90 degrees> <
 ./nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_l
@@ -1760,198 +1664,144 @@ eg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, page is rotated 90 degrees
 17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, page is ro
 tated 90 degrees> <./nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM
 _hlt_Mu17Mu8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, page is rota
-ted 90 degrees>] [9 <./nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu
+ted 90 degrees>] [8 <./nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu
 8_OR_TkMu8_loose_PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf, page is rotated 90 
-degrees>] [10 <./nuthesis/images/muon_ID_BCDEFv2.png> <./nuthesis/images/muon_I
-D_GHv2.png>] [11 <./nuthesis/images/muon_ISO_BCDEFv2.png> <./nuthesis/images/mu
-on_ISO_GHv2.png>] [12 <./nuthesis/images/EIDISO_ZH_out.png>] (./nuthesis/sectio
-ns/samples.tex
-./nuthesis/sections/samples.tex:6: Undefined control sequence.
-l.6 ... the Leading Order (LO) using the \MADGRAPH
-                                                  ~5 version\ ~2.2.2.0  gene...
+degrees>] [9 <./nuthesis/images/muon_ID_BCDEFv2.png> <./nuthesis/images/muon_ID
+_GHv2.png>] [10 <./nuthesis/images/muon_ISO_BCDEFv2.png> <./nuthesis/images/muo
+n_ISO_GHv2.png>] [11 <./nuthesis/images/EIDISO_ZH_out.png>] (./nuthesis/section
+s/samples.tex
 
-? 
-
-LaTeX Warning: Citation `Alwall:2014hca' on page 13 undefined on input line 6.
+LaTeX Warning: Citation `Alwall:2014hca' on page 12 undefined on input line 6.
 
 
-LaTeX Warning: Citation `CERNYR4' on page 13 undefined on input line 10.
+LaTeX Warning: Citation `CERNYR4' on page 12 undefined on input line 10.
 
-[13
+[12
 
 ]
 
-LaTeX Warning: Reference `hhSelection' on page 14 undefined on input line 20.
+LaTeX Warning: Reference `hhSelection' on page 13 undefined on input line 20.
 
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 34.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-LaTeX Warning: Citation `Frixione:2007nw' on page 14 undefined on input line 94
+LaTeX Warning: Citation `Frixione:2007nw' on page 13 undefined on input line 94
 .
 
 
-LaTeX Warning: Citation `Frederix:2012dh' on page 14 undefined on input line 95
+LaTeX Warning: Citation `Frederix:2012dh' on page 13 undefined on input line 95
 .
 
 
-LaTeX Warning: Citation `Alioli:2009je' on page 14 undefined on input line 96.
+LaTeX Warning: Citation `Alioli:2009je' on page 13 undefined on input line 96.
 
-./nuthesis/sections/samples.tex:98: Undefined control sequence.
-l.98 \MADGRAPH
-              . \ttbar and single top production cross sections are
-? 
-./nuthesis/sections/samples.tex:102: Undefined control sequence.
-l.102 at the leading order using \MADGRAPH
-                                           with the MLM
-? 
 
-LaTeX Warning: Citation `Alwall:2007fs' on page 14 undefined on input line 103.
+LaTeX Warning: Citation `Alwall:2007fs' on page 13 undefined on input line 103.
 
 
 
-LaTeX Warning: Citation `Gavin:2010az' on page 14 undefined on input line 104.
+LaTeX Warning: Citation `Gavin:2010az' on page 13 undefined on input line 104.
 
 
-LaTeX Warning: Citation `Li:2012wna' on page 14 undefined on input line 104.
+LaTeX Warning: Citation `Li:2012wna' on page 13 undefined on input line 104.
 
 
-LaTeX Warning: Citation `Gavin:2012sy' on page 14 undefined on input line 104.
+LaTeX Warning: Citation `Gavin:2012sy' on page 13 undefined on input line 104.
 
-[14]
+[13]
 
-LaTeX Warning: Citation `DYkfactor' on page 15 undefined on input line 106.
+LaTeX Warning: Citation `DYkfactor' on page 14 undefined on input line 106.
 
-./nuthesis/sections/samples.tex:107: Undefined control sequence.
-l.107 are generated at LO with {\PYTHIA
-                                       }8.212~\cite{Sjostrand:2007gs}.
-? 
 
-LaTeX Warning: Citation `Sjostrand:2007gs' on page 15 undefined on input line 1
+LaTeX Warning: Citation `Sjostrand:2007gs' on page 14 undefined on input line 1
 07.
 
 
-LaTeX Warning: Citation `cite_aMC@NLO' on page 15 undefined on input line 115.
+LaTeX Warning: Citation `cite_aMC@NLO' on page 14 undefined on input line 115.
 
 
-LaTeX Warning: Citation `Frederix:2012ps' on page 15 undefined on input line 11
+LaTeX Warning: Citation `Frederix:2012ps' on page 14 undefined on input line 11
 6.
 
-./nuthesis/sections/samples.tex:118: Undefined control sequence.
-l.118 {\MCFM
-            } generator~\cite{Campbell:2010ff}.
-? 
 
-LaTeX Warning: Citation `Campbell:2010ff' on page 15 undefined on input line 11
+LaTeX Warning: Citation `Campbell:2010ff' on page 14 undefined on input line 11
 8.
 
-./nuthesis/sections/samples.tex:122: Undefined control sequence.
-l.122 set is used. {\POWHEG
-                           } and {\MADGRAPH} interfaced with
-? 
-./nuthesis/sections/samples.tex:122: Undefined control sequence.
-l.122 set is used. {\POWHEG} and {\MADGRAPH
-                                           } interfaced with
-? 
-./nuthesis/sections/samples.tex:123: Undefined control sequence.
-l.123 {\PYTHIA
-              }8.212~\cite{Sjostrand:2007gs} are used for the parton
-? 
 
-LaTeX Warning: Citation `Sjostrand:2007gs' on page 15 undefined on input line 1
+LaTeX Warning: Citation `Sjostrand:2007gs' on page 14 undefined on input line 1
 23.
 
 
-LaTeX Warning: Citation `Khachatryan:2015pea' on page 15 undefined on input lin
+LaTeX Warning: Citation `Khachatryan:2015pea' on page 14 undefined on input lin
 e 125.
 
-./nuthesis/sections/samples.tex:126: Undefined control sequence.
-l.126 used. \GEANTfour
-                      ~\cite{GEANT4} is used to model the response of the
-? 
 
-LaTeX Warning: Citation `GEANT4' on page 15 undefined on input line 126.
+LaTeX Warning: Citation `GEANT4' on page 14 undefined on input line 126.
 
 
-LaTeX Warning: Citation `LHCHXSWG' on page 15 undefined on input line 129.
+LaTeX Warning: Citation `LHCHXSWG' on page 14 undefined on input line 129.
 
 
-LaTeX Warning: Citation `xsecZH' on page 15 undefined on input line 129.
+LaTeX Warning: Citation `xsecZH' on page 14 undefined on input line 129.
 
 
-LaTeX Warning: Citation `xsecTT' on page 15 undefined on input line 129.
+LaTeX Warning: Citation `xsecTT' on page 14 undefined on input line 129.
 
 
-LaTeX Warning: Citation `xsecST' on page 15 undefined on input line 129.
+LaTeX Warning: Citation `xsecST' on page 14 undefined on input line 129.
 
 
-LaTeX Warning: Citation `xsecVV' on page 15 undefined on input line 129.
+LaTeX Warning: Citation `xsecVV' on page 14 undefined on input line 129.
 
-) [15] (./nuthesis/sections/objects.tex
+) [14] (./nuthesis/sections/objects.tex
 
-LaTeX Warning: Citation `Khachatryan:2015hwa' on page 16 undefined on input lin
+LaTeX Warning: Citation `Khachatryan:2015hwa' on page 15 undefined on input lin
 e 9.
 
 
-LaTeX Warning: Citation `GSF' on page 16 undefined on input line 10.
+LaTeX Warning: Citation `GSF' on page 15 undefined on input line 10.
 
-./nuthesis/sections/objects.tex:10: Undefined control sequence.
-l.10 ...ng selection: leading electron $\pt>25\GeV
-                                                  $ and subleading electron ...
 
-? 
-./nuthesis/sections/objects.tex:10: Undefined control sequence.
-l.10 ...5\GeV$ and subleading electron $\pt>15\GeV
-                                                  $, $|\eta|<2.5$,
-? 
+LaTeX Warning: Citation `vhbbAN' on page 15 undefined on input line 37.
 
-LaTeX Warning: Citation `vhbbAN' on page 16 undefined on input line 37.
-
-[16
+[15
 
 ]
 
-LaTeX Warning: Citation `CMS-PAS-MUO-10-002' on page 17 undefined on input line
+LaTeX Warning: Citation `CMS-PAS-MUO-10-002' on page 16 undefined on input line
  44.
 
 
-LaTeX Warning: Citation `Chatrchyan:2012xi' on page 17 undefined on input line 
+LaTeX Warning: Citation `Chatrchyan:2012xi' on page 16 undefined on input line 
 44.
 
 
-LaTeX Warning: Citation `Lenzi:2013xpa' on page 17 undefined on input line 44.
+LaTeX Warning: Citation `Lenzi:2013xpa' on page 16 undefined on input line 44.
 
-./nuthesis/sections/objects.tex:46: Undefined control sequence.
-l.46 leading muon $\pt>20\GeV
-                             $ and subleading muon $\pt>15\GeV$, $|\eta|<2.4$,
-? 
-./nuthesis/sections/objects.tex:46: Undefined control sequence.
-l.46 ...pt>20\GeV$ and subleading muon $\pt>15\GeV
-                                                  $, $|\eta|<2.4$,
-? 
 
-LaTeX Warning: Citation `CMS-PAS-MUO-10-002' on page 17 undefined on input line
+LaTeX Warning: Citation `CMS-PAS-MUO-10-002' on page 16 undefined on input line
  50.
 
 
-LaTeX Warning: Citation `MuonsRun2' on page 17 undefined on input line 50.
+LaTeX Warning: Citation `MuonsRun2' on page 16 undefined on input line 50.
 
-[17]
+[16]
 
-LaTeX Warning: Citation `CMS-PAS-PFT-09-001' on page 18 undefined on input line
+LaTeX Warning: Citation `CMS-PAS-PFT-09-001' on page 17 undefined on input line
  61.
 
 
-LaTeX Warning: Citation `CMS-PAS-PFT-10-001' on page 18 undefined on input line
+LaTeX Warning: Citation `CMS-PAS-PFT-10-001' on page 17 undefined on input line
  61.
 
 
-LaTeX Warning: Citation `Cacciari:2005hq' on page 18 undefined on input line 61
+LaTeX Warning: Citation `Cacciari:2005hq' on page 17 undefined on input line 61
 .
 
 
-LaTeX Warning: Citation `Cacciari:2008gp' on page 18 undefined on input line 61
+LaTeX Warning: Citation `Cacciari:2008gp' on page 17 undefined on input line 61
 .
 
 ./nuthesis/sections/objects.tex:61: Missing $ inserted.
@@ -1961,357 +1811,306 @@ l.61 ...entify the initial partons. \text{anti}-k_
                                                   T$ is a sequential cluster...
 
 ? 
-./nuthesis/sections/objects.tex:61: Missing $ inserted.
-<inserted text> 
-                $
-l.61 ... whole procedure continues. \text{anti}-k_
-                                                  T$ is known to be insensit...
 
-? 
-./nuthesis/sections/objects.tex:63: Undefined control sequence.
-l.63 ...s passing $|\eta|<2.4$ and  $(\pt > 30\GeV
-                                                  )$ are considered for the ...
+LaTeX Warning: Citation `JetMETgroup' on page 17 undefined on input line 64.
 
-? 
+[17]
 
-LaTeX Warning: Citation `JetMETgroup' on page 18 undefined on input line 64.
-
-[18]
-
-LaTeX Warning: Citation `MissingETRun2Corrections' on page 19 undefined on inpu
+LaTeX Warning: Citation `MissingETRun2Corrections' on page 18 undefined on inpu
 t line 85.
 
 
-LaTeX Warning: Citation `MissingETOptionalFiltersRun2' on page 19 undefined on 
+LaTeX Warning: Citation `MissingETOptionalFiltersRun2' on page 18 undefined on 
 input line 85.
 
-<nuthesis/images/MET.png, id=642, 1100.11pt x 249.93375pt>
+<nuthesis/images/MET.png, id=638, 1100.11pt x 249.93375pt>
 File: nuthesis/images/MET.png Graphic file (type png)
 
 <use nuthesis/images/MET.png>
 Package pdftex.def Info: nuthesis/images/MET.png used on input line 89.
 (pdftex.def)             Requested size: 411.9377pt x 93.58763pt.
- [19]) [20 <./nuthesis/images/MET.png>]
+ [18]) [19 <./nuthesis/images/MET.png>]
 (./nuthesis/sections/selection.tex
 
-LaTeX Warning: Citation `CombinedLimit' on page 21 undefined on input line 21.
+LaTeX Warning: Citation `CombinedLimit' on page 20 undefined on input line 18.
 
-[21
+[20
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 35.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 32.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 35.
-
-./nuthesis/sections/selection.tex:38: Undefined control sequence.
-l.38 ...ate is approximated by the sum of \ETslash
-                                                  , Z, and \HBB~decays. A lo...
-
-? 
-[22]
-./nuthesis/sections/selection.tex:39: Undefined control sequence.
-l.39 ...em  finally, an additional set of \ETslash
-                                                   cuts is used to ensure or...
-
-? 
-./nuthesis/sections/selection.tex:45: Undefined control sequence.
-<argument> \ETslash 
-                    cut to orthogonalise the analysis with respect to HIG-18...
-l.45 ... the analysis with respect to HIG-18-013.}
-                                                  
-? 
-./nuthesis/sections/selection.tex:45: Undefined control sequence.
-<argument> ...{thetable}}}{\ignorespaces \ETslash 
-                                                  cut to orthogonalise the a...
-l.45 ... the analysis with respect to HIG-18-013.}
-                                                  
-? 
-./nuthesis/sections/selection.tex:45: Undefined control sequence.
-<argument> \ETslash 
-                    cut to orthogonalise the analysis with respect to HIG-18...
-l.45 ... the analysis with respect to HIG-18-013.}
-                                                  
-? 
-./nuthesis/sections/selection.tex:45: Undefined control sequence.
-<argument> \ETslash 
-                    cut to orthogonalise the analysis with respect to HIG-18...
-l.45 ... the analysis with respect to HIG-18-013.}
-                                                  
-? 
-./nuthesis/sections/selection.tex:47: Undefined control sequence.
-l.47 {Signal mass, GeV} &  \ETslash
-                                    cut, GeV\\\hline
-? 
-<nuthesis/images/ee_300_met.png, id=662, 642.4pt x 481.8pt>
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 32.
+ [21]
+<nuthesis/images/ee_300_met.png, id=658, 642.4pt x 481.8pt>
 File: nuthesis/images/ee_300_met.png Graphic file (type png)
 
 <use nuthesis/images/ee_300_met.png>
-Package pdftex.def Info: nuthesis/images/ee_300_met.png used on input line 60.
+Package pdftex.def Info: nuthesis/images/ee_300_met.png used on input line 57.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/mm_300_met.png, id=663, 642.4pt x 481.8pt>
+<nuthesis/images/mm_300_met.png, id=659, 642.4pt x 481.8pt>
 File: nuthesis/images/mm_300_met.png Graphic file (type png)
 
 <use nuthesis/images/mm_300_met.png>
-Package pdftex.def Info: nuthesis/images/mm_300_met.png used on input line 61.
+Package pdftex.def Info: nuthesis/images/mm_300_met.png used on input line 58.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/ee_600_met.png, id=664, 642.4pt x 481.8pt>
+<nuthesis/images/ee_600_met.png, id=660, 642.4pt x 481.8pt>
 File: nuthesis/images/ee_600_met.png Graphic file (type png)
 
 <use nuthesis/images/ee_600_met.png>
-Package pdftex.def Info: nuthesis/images/ee_600_met.png used on input line 62.
+Package pdftex.def Info: nuthesis/images/ee_600_met.png used on input line 59.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/mm_600_met.png, id=665, 642.4pt x 481.8pt>
+<nuthesis/images/mm_600_met.png, id=661, 642.4pt x 481.8pt>
 File: nuthesis/images/mm_600_met.png Graphic file (type png)
 
 <use nuthesis/images/mm_600_met.png>
-Package pdftex.def Info: nuthesis/images/mm_600_met.png used on input line 63.
+Package pdftex.def Info: nuthesis/images/mm_600_met.png used on input line 60.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/ee_900_met.png, id=666, 642.4pt x 481.8pt>
+<nuthesis/images/ee_900_met.png, id=662, 642.4pt x 481.8pt>
 File: nuthesis/images/ee_900_met.png Graphic file (type png)
 
 <use nuthesis/images/ee_900_met.png>
-Package pdftex.def Info: nuthesis/images/ee_900_met.png used on input line 64.
+Package pdftex.def Info: nuthesis/images/ee_900_met.png used on input line 61.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/mm_900_met.png, id=667, 642.4pt x 481.8pt>
+<nuthesis/images/mm_900_met.png, id=663, 642.4pt x 481.8pt>
 File: nuthesis/images/mm_900_met.png Graphic file (type png)
 
 <use nuthesis/images/mm_900_met.png>
-Package pdftex.def Info: nuthesis/images/mm_900_met.png used on input line 65.
+Package pdftex.def Info: nuthesis/images/mm_900_met.png used on input line 62.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
- [23]
+ [22]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 71.
+(Font)              <14.4> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 71.
+(Font)              <10> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 71.
+(Font)              <7> on input line 96.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 71.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 71.
+(hyperref)                removing `\to' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 71.
+(hyperref)                removing `\to' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 71.
+(hyperref)                removing `\ell' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 71.
+(hyperref)                removing `\ell' on input line 96.
 
-[24 <./nuthesis/images/ee_300_met.png> <./nuthesis/images/mm_300_met.png> <./nu
+[23 <./nuthesis/images/ee_300_met.png> <./nuthesis/images/mm_300_met.png> <./nu
 thesis/images/ee_600_met.png> <./nuthesis/images/mm_600_met.png> <./nuthesis/im
 ages/ee_900_met.png> <./nuthesis/images/mm_900_met.png>]
-<nuthesis/images/regions.png, id=685, 396.48125pt x 331.2375pt>
+<nuthesis/images/regions.png, id=681, 396.48125pt x 331.2375pt>
 File: nuthesis/images/regions.png Graphic file (type png)
 
 <use nuthesis/images/regions.png>
-Package pdftex.def Info: nuthesis/images/regions.png used on input line 100.
+Package pdftex.def Info: nuthesis/images/regions.png used on input line 125.
 (pdftex.def)             Requested size: 195.12769pt x 163.02043pt.
 
-<nuthesis/images/ee_yields.png, id=686, 770.88pt x 293.095pt>
+<nuthesis/images/ee_yields.png, id=682, 770.88pt x 293.095pt>
 File: nuthesis/images/ee_yields.png Graphic file (type png)
 
 <use nuthesis/images/ee_yields.png>
-Package pdftex.def Info: nuthesis/images/ee_yields.png used on input line 169.
+Package pdftex.def Info: nuthesis/images/ee_yields.png used on input line 194.
 (pdftex.def)             Requested size: 394.59581pt x 150.02655pt.
- [25 <./nuthesis/images/regions.png>]
-[26 <./nuthesis/images/ee_yields.png>]
+ [24 <./nuthesis/images/regions.png>]
+[25 <./nuthesis/images/ee_yields.png>]
 
-LaTeX Warning: Citation `bbbb' on page 27 undefined on input line 199.
+LaTeX Warning: Citation `bbbb' on page 26 undefined on input line 224.
+
+[26]
+
+LaTeX Warning: Reference `sec:datamc' on page 27 undefined on input line 263.
+
+
+LaTeX Warning: Reference `fig:MCcomparison_mm_300' on page 27 undefined on inpu
+t line 263.
+
+
+LaTeX Warning: Reference `fig:MCcomparison_ee_900' on page 27 undefined on inpu
+t line 263.
 
 [27]
 
-LaTeX Warning: Reference `sec:datamc' on page 28 undefined on input line 238.
+LaTeX Warning: Reference `sec:datamc' on page 28 undefined on input line 267.
 
-
-LaTeX Warning: Reference `fig:MCcomparison_mm_300' on page 28 undefined on inpu
-t line 238.
-
-
-LaTeX Warning: Reference `fig:MCcomparison_ee_900' on page 28 undefined on inpu
-t line 238.
-
-[28]
-
-LaTeX Warning: Reference `sec:datamc' on page 29 undefined on input line 242.
-
-<nuthesis/images/cutflow_mm.png, id=717, 963.6pt x 162.6075pt>
+<nuthesis/images/cutflow_mm.png, id=713, 963.6pt x 162.6075pt>
 File: nuthesis/images/cutflow_mm.png Graphic file (type png)
 
 <use nuthesis/images/cutflow_mm.png>
-Package pdftex.def Info: nuthesis/images/cutflow_mm.png used on input line 248.
+Package pdftex.def Info: nuthesis/images/cutflow_mm.png used on input line 273.
 
 (pdftex.def)             Requested size: 394.59581pt x 66.58762pt.
 
-<nuthesis/images/cutflow_ee.png, id=718, 999.735pt x 185.69376pt>
+<nuthesis/images/cutflow_ee.png, id=714, 999.735pt x 185.69376pt>
 File: nuthesis/images/cutflow_ee.png Graphic file (type png)
 
 <use nuthesis/images/cutflow_ee.png>
-Package pdftex.def Info: nuthesis/images/cutflow_ee.png used on input line 249.
+Package pdftex.def Info: nuthesis/images/cutflow_ee.png used on input line 274.
 
 (pdftex.def)             Requested size: 394.59581pt x 73.29297pt.
 
-<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=719, 56
+<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=715, 56
 9.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 316.
+graviton.pdf used on input line 341.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=720, 56
+<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=716, 56
 9.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 317.
+graviton.pdf used on input line 342.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=721, 569.
+<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=717, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_gr
-aviton.pdf used on input line 318.
+aviton.pdf used on input line 343.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=722, 56
+<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=718, 56
 9.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 319.
+graviton.pdf used on input line 344.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=723, 56
+<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=719, 56
 9.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 320.
+graviton.pdf used on input line 345.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=724, 569.
+<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=720, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_gr
-aviton.pdf used on input line 321.
+aviton.pdf used on input line 346.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=725, 569.
+<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=721, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 344.
+radion.pdf used on input line 369.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=726, 569.
+<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=722, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 345.
+radion.pdf used on input line 370.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=727, 569.12
+<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=723, 569.12
 625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf Graphic fi
 le (type pdf)
 
 <use nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_ra
-dion.pdf used on input line 346.
+dion.pdf used on input line 371.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=728, 569.
+<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=724, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 347.
+radion.pdf used on input line 372.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=729, 569.
+<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=725, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 348.
+radion.pdf used on input line 373.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=730, 569.12
+<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=726, 569.12
 625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf Graphic fi
 le (type pdf)
 
 <use nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_ra
-dion.pdf used on input line 349.
+dion.pdf used on input line 374.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
 
-LaTeX Warning: Citation `egSF' on page 29 undefined on input line 383.
+LaTeX Warning: Citation `egSF' on page 28 undefined on input line 408.
 
 
-LaTeX Warning: Citation `muonIDnISO' on page 29 undefined on input line 384.
+LaTeX Warning: Citation `muonIDnISO' on page 28 undefined on input line 409.
 
 
-LaTeX Warning: Citation `muonTRK' on page 29 undefined on input line 384.
+LaTeX Warning: Citation `muonTRK' on page 28 undefined on input line 409.
 
 
-LaTeX Warning: Citation `muonTrigger' on page 29 undefined on input line 384.
+LaTeX Warning: Citation `muonTrigger' on page 28 undefined on input line 409.
 
 
-Overfull \hbox (56.38542pt too wide) in paragraph at lines 383--387
+Overfull \hbox (56.38542pt too wide) in paragraph at lines 408--412
 \T1/lmr/m/n/12 ing dilep-ton events that have al-ready passed the HLT_Mu17_TrkI
 soVVL_Mu8_TrkIsoVVL_v*
  []
 
-[29 <./nuthesis/images/cutflow_mm.png> <./nuthesis/images/cutflow_ee.png>]
-[30 <./nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, page
+[28 <./nuthesis/images/cutflow_mm.png> <./nuthesis/images/cutflow_ee.png>]
+[29 <./nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, page
  is rotated 90 degrees> <./nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_
 2_graviton.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt_mm_SR_FullP
 ostfit_plot_nov16_2_graviton.pdf, page is rotated 90 degrees> <./nuthesis/image
 s/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, page is rotated 90 degree
 s> <./nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, page 
 is rotated 90 degrees> <./nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_g
-raviton.pdf, page is rotated 90 degrees>]) [31 <./nuthesis/images/hhMt_mm_CRDY_
+raviton.pdf, page is rotated 90 degrees>]) [30 <./nuthesis/images/hhMt_mm_CRDY_
 FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degrees> <./nuthesis/im
 ages/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degre
 es> <./nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, page is 
@@ -2319,20 +2118,20 @@ rotated 90 degrees> <./nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_ra
 dion.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt_ee_CRTT_FullPostf
 it_plot_nov16_2_radion.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt
 _ee_SR_FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degrees>]
-(./skeleton.bbl [32
+(./skeleton.bbl [31
 
 ]
 bibitemlist
-[33
+[32
 
-] [34] [35] [36])
+] [33] [34] [35])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 662.
+(in both cases you will find help in the memoir manual). on input line 350.
 
-[37]
+[36]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -2342,24 +2141,24 @@ either increase the foot skip or redesign the fotoer
 \tf@lot=\write7
 \openout7 = `skeleton.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 662.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 662.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
  (./skeleton.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 662.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 662.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
 (rerunfilecheck)             Checksum: 38CB98F68A142A1B5269CBB21A45BBF1;1971.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 662.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
  ) 
 Here is how much of TeX's memory you used:
- 14791 strings out of 493014
- 225706 string characters out of 6133350
- 369961 words of memory out of 5000000
- 17841 multiletter control sequences out of 15000+600000
+ 15376 strings out of 493014
+ 228465 string characters out of 6133350
+ 379240 words of memory out of 5000000
+ 18421 multiletter control sequences out of 15000+600000
  110529 words of font info for 103 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  52i,14n,46p,1871b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2381,10 +2180,10 @@ texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/lm/lmtt12.pfb>
-Output written on skeleton.pdf (48 pages, 1410241 bytes).
+Output written on skeleton.pdf (47 pages, 1415661 bytes).
 PDF statistics:
- 1422 PDF objects out of 1440 (max. 8388607)
- 864 compressed objects within 9 object streams
- 141 named destinations out of 1000 (max. 500000)
+ 1418 PDF objects out of 1440 (max. 8388607)
+ 861 compressed objects within 9 object streams
+ 140 named destinations out of 1000 (max. 500000)
  413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
