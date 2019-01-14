@@ -3,5 +3,5 @@
 \contentsline {table}{\numberline {0.2}{\ignorespaces Triggers for dimuon and dielectron analysis channels both at L1 and HLT levels.\relax }}{5}{table.caption.5}
 \contentsline {table}{\numberline {0.3}{\ignorespaces Background Monte Carlo samples\relax }}{13}{table.caption.13}
 \contentsline {table}{\numberline {0.4}{\ignorespaces \ensuremath {E_{\mathrm {T}}\hspace {-1.1em}/\kern 0.45em}\xspace cut to orthogonalise the analysis with respect to HIG-18-013.\relax }}{22}{table.caption.15}
-\contentsline {table}{\numberline {0.5}{\ignorespaces Efficiency of the BDT selection requirement. ee channel (top) and mm channel (bottom). \relax }}{25}{table.caption.18}
-\contentsline {table}{\numberline {0.6}{\ignorespaces Number of events surviving analysis cuts corresponding to the last entry in the ~\ref {fig:cutFlow} .\relax }}{27}{table.caption.20}
+\contentsline {table}{\numberline {0.5}{\ignorespaces Efficiency of the BDT selection requirement. $ee$ channel (top) and $\mu \mu $ channel (bottom). \relax }}{25}{table.caption.18}
+\contentsline {table}{\numberline {0.6}{\ignorespaces Number of events surviving analysis cuts corresponding to the last entry in the ~\ref {fig:cutFlow} .\relax }}{27}{table.caption.19}

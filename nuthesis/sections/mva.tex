@@ -1,12 +1,13 @@
-TMVA package is used to perform BDT training~\cite{Hocker:2007ht}.
-The same set of nine variables is used in both low and high mass
-trainings.
-In the low mass regime MET and \HBB~ mass are powerful discriminators against Drell-Yan to leptons plus jets. That is why these
-observables are located in the top three variables of the ranking for low mass BDT (Figs. ~\ref{fig:ranking}). In the high mass regime the leverage is in the
-boost, therefore, $\Delta R = \sqrt{\Delta \phi^2 + \Delta \eta^2}$ variables, as well as $p_{T}$-related variables show high
-performance (Figs. ~\ref{fig:ranking}). Namely, $p_{T}$ of both Higgs bosons, Z boson, and also
-separation $\Delta R $  between two b-jets and also $\Delta R $ between  two leptons.
-It is worth noticing that \HBB~ mass is ranked highly for all mass regimes and both channels. Plots of input variables and correlations are shown on the Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:muon_lowVars}, ~\ref{fig:ele_cors_low}, ~\ref{fig:ele_cors_high}, ~\ref{fig:muon_cors_low}, ~\ref{fig:muon_cors_high}.
+The Toolkit for Multivariate Data Analysis with ROOT (TMVA) package is used to perform BDT training~\cite{Hocker:2007ht}. This ROOT-integrated library enables the usage of the machine learning techniques for the physics data analysis. 
+
+In this analysis we use the same set of nine variables in both low and high mass
+trainings and for both heavy resonances.
+
+In the low mass regime \ETmiss and \HBB~ mass are powerful discriminators against Drell-Yan to leptons plus jets. That is why these
+observables are located in the top three variables of the ranking for low mass BDT (Figs. ~\ref{fig:ranking}). In the high mass regime the leverage is in the boost, therefore, $\Delta R = \sqrt{\Delta \phi^2 + \Delta \eta^2}$ variables, as well as $p_{T}$-related variables show high performance (Figs. ~\ref{fig:ranking}). Namely, $p_{T}$ of both Higgs bosons, Z boson, and also
+separation $\Delta R $  between two b-jets and also $\Delta R$ between  two leptons.
+
+It is worth noticing that \HBB~ mass is a powerful discriminator ranked highly for all mass regimes and both channels. Plots of input variables and correlations are shown on the Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:muon_lowVars}, ~\ref{fig:ele_cors_low}, ~\ref{fig:ele_cors_high}, ~\ref{fig:muon_cors_low}, ~\ref{fig:muon_cors_high}.
 
 \begin{figure}[tbp]
   \begin{center}
@@ -36,7 +37,7 @@ It is worth noticing that \HBB~ mass is ranked highly for all mass regimes and b
   \begin{center}
    \includegraphics[width=0.95\textwidth]{bdtPlots_eles/low_vars1.pdf}
    \includegraphics[width=0.95\textwidth]{bdtPlots_eles/low_vars2.pdf}
-    \caption{ Variables used in the low mass training for electron channel. Index '1' refers to bb and index '0' refers to ZZ.}
+    \caption{ Variables used in the low mass training for electron channel. Index '1' refers to \bbbar and index '0' refers to ZZ.}
     \label{fig:ele_lowVars}
   \end{center}
 \end{figure}
@@ -54,8 +55,9 @@ It is worth noticing that \HBB~ mass is ranked highly for all mass regimes and b
 
 
 It is hard to get high performance in the low mass training, since
-this is where all the backgrounds are concentrated (Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:muon_lowVars}). However, BDT performance is noticeably better than what can be achieved using a
-simple linear discriminant method (Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}, ~\ref{fig:muon_BDTs}, ~\ref{fig:muon_ROCs}). Earlier versions of the analysis tried more granular approach to the number of BDTs, up to 4 to cover the whole region from 250 to 1000 GeV. But it was shown that this extra complexity added almost no improvement, while is error prone and is computationally twice more expensive. This is why other HH analyses also split the whole mass range only in two subranges. The BTD plots for radion case in the signal regions and 300 GeV mass hypothesis are shown at Fig. \ref{fig:BDTs}.
+this is where all the backgrounds are concentrated (Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:muon_lowVars}). The rate of background in this region is enormous and most variables have similar distributions for signal and backgrounds. However, BDT performance is noticeably better than what can be achieved using a simple linear discriminant method (Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}, ~\ref{fig:muon_BDTs}, ~\ref{fig:muon_ROCs}). 
+
+Earlier versions of the analysis tried more granular approach to the number of BDTs, up to four BDTs to cover the whole range from 250 to 1000 GeV. But it was shown that this added extra complexity brings almost no improvement, while in fact is error prone and computationally twice more expensive. This is why other HH analyses also split the whole mass range only in two subranges and we followed the same suggestion. The BTD plots for radion case in the signal regions for 300 GeV mass hypothesis are shown at Fig. \ref{fig:BDTs}.
 
 
 
@@ -68,7 +70,7 @@ simple linear discriminant method (Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs
   \end{center}
 \end{figure}
 
-Performance of the high mass training is perfect (Figs. ~\ref{fig:ele_highVars}, ~\ref{fig:muon_highVars}, ). This is due to the
+Performance of the high mass training is perfect (Figs. ~\ref{fig:ele_highVars}, ~\ref{fig:muon_highVars}, ). The ROC curves are close to the top right corner of the efficiencies space, which means a high signal efficiency is achieved along side with the low efficiency of the background. This is due to the
 fact that most backgrounds peak in the low mass region. Even linear
 discriminant is performing well in this situation (Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}, ~\ref{fig:muon_BDTs}, ~\ref{fig:muon_ROCs}).
 
@@ -101,15 +103,11 @@ discriminant is performing well in this situation (Figs. ~\ref{fig:ele_BDTs}, ~\
 \end{figure}
 
 
-We use the following almost default parameters for the BDT training:
-NTrees = 800, BoostType=Grad, Shrinkage=0.1, UseBaggedBoost=True,
-GradBaggingFraction=0.5, SeparationType= GiniIndex, nCuts=30, and
-MaxDepth=3. Few modifications did not improve much the performance.
+For completeness purpose and research reproducibility, the following technical parameters have been used for the BDT training (most parameters are default ones since no significant improvement was observed when varying the parameters one at a time): NTrees = 800, BoostType=Grad, Shrinkage=0.1, UseBaggedBoost=True, GradBaggingFraction=0.5, SeparationType= GiniIndex, nCuts=30, and MaxDepth=3. %Few modifications did not improve much the performance.
 
 
-BDT training in the muon channel shows similar performance to the one in electron channel.
-BDT distributions for data and MC comparison are created with the nominal values for the lepton and b jet scale factors (Fig. ~\ref{fig:bdt_ee} and ~\ref{fig:bdt_mm}). When shape systematics is considered to produce final limits, BDT shapes are
-varied using 'Up' or 'Down' versions of the scale factors and all the input variables are modified as well. The BDT plots shown below are further modified using post-fit values of DY and \ttbar normalizations returned from the Maximum Likelihood fit performed with the real data. 
+Electrons and muons have been optimised separately but BDT trainings show similar performance (Fig. ~\ref{fig:ele_ROCs} and ~\ref{fig:muon_ROCs}). BDT distributions for data and MC comparison are created with the nominal values for the lepton and b jet scale factors. When shape systematics is considered to produce final limits, BDT shapes are
+varied using 'Up' or 'Down' versions of the scale factors and all the input variables to the BDT are modified in the similar fashion as well. The BDT plots shown below are further modified applying postfit values of DY and \ttbar normalizations returned from the Maximum Likelihood fit performed with the real data. 
 
 
 
@@ -128,7 +126,7 @@ varied using 'Up' or 'Down' versions of the scale factors and all the input vari
   \begin{center}
    \includegraphics[width=0.95\textwidth]{bdtPlots_muons/low_vars1.pdf}
    \includegraphics[width=0.95\textwidth]{bdtPlots_muons/low_vars2.pdf}
-    \caption{ Variables used in the low mass training for muon channel. Index '1' refers to bb and index '0' refers to ZZ.}
+    \caption{Variables used in the low mass training for muon channel. Index '1' refers to \bbbar and index '0' refers to ZZ.}
     \label{fig:muon_lowVars}
   \end{center}
 \end{figure}
@@ -182,7 +180,4 @@ varied using 'Up' or 'Down' versions of the scale factors and all the input vari
   \end{center}
 \end{figure}
 
-
-
-%\definecolor{mycolor1}{rgb}{0., 0., 1.}
 

@@ -1,6 +1,6 @@
 \select@language {english}
 \contentsline {chapter}{List of Figures}{viii}{section*.1}
-\contentsline {chapter}{List of Tables}{xi}{section*.2}
+\contentsline {chapter}{List of Tables}{xii}{section*.2}
 \contentsline {section}{\numberline {0.1}Introduction}{1}{section.0.1}
 \contentsline {subsection}{\numberline {0.1.1}Analysis Strategy}{2}{subsection.0.1.1}
 \contentsline {section}{\numberline {0.2}Data and Triggers}{4}{section.0.2}
@@ -18,13 +18,15 @@
 \contentsline {section}{\numberline {0.5}Event Selection}{20}{section.0.5}
 \contentsline {subsection}{\numberline {0.5.1}Higgs and Z Boson Selection}{20}{subsection.0.5.1}
 \contentsline {subsection}{\numberline {0.5.2}\ensuremath {\mathrm {H}\to \ensuremath {b\mathaccentV {bar}016{b}}\xspace }~and \ensuremath {\mathrm {Z}\to \ell \ell }~variables to define signal and control regions}{24}{subsection.0.5.2}
-\contentsline {subsection}{\numberline {0.5.3}Signal and background characteristics}{26}{subsection.0.5.3}
+\contentsline {subsection}{\numberline {0.5.3}Signal and background characteristics}{25}{subsection.0.5.3}
 \contentsline {subsubsection}{\numberline {0.5.3.1}Data and MC comparison}{27}{subsubsection.0.5.3.1}
 \contentsline {subsubsection}{\numberline {0.5.3.2}Scale Factors}{29}{subsubsection.0.5.3.2}
 \contentsline {section}{\numberline {0.6}BDT Discriminant}{31}{section.0.6}
-\contentsline {section}{\numberline {0.7}Systematic Uncertainties}{31}{section.0.7}
-\contentsline {section}{\numberline {0.8}Statistical Analysis}{31}{section.0.8}
-\contentsline {section}{\numberline {0.9}Limits Extraction}{31}{section.0.9}
-\contentsline {section}{\numberline {0.10}Conclusions}{31}{section.0.10}
-\contentsline {chapter}{Bibliography}{31}{section.0.10}
-\contentsline {chapter}{References}{32}{section*.25}
+\contentsline {section}{\numberline {0.7}Systematic Uncertainties}{47}{section.0.7}
+\contentsline {subsection}{\numberline {0.7.1}Normalization uncertainties}{47}{subsection.0.7.1}
+\contentsline {subsection}{\numberline {0.7.2}Shape uncertainties}{49}{subsection.0.7.2}
+\contentsline {section}{\numberline {0.8}Statistical Analysis}{53}{section.0.8}
+\contentsline {section}{\numberline {0.9}Limits Extraction}{53}{section.0.9}
+\contentsline {section}{\numberline {0.10}Conclusions}{53}{section.0.10}
+\contentsline {chapter}{Bibliography}{53}{section.0.10}
+\contentsline {chapter}{References}{54}{section*.38}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  11 JAN 2019 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  14 JAN 2019 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -935,25 +935,348 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks42
+\inpenc@posthook=\toks43
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
 (./nuthesis/sections/pennames-pazo.sty)
 (./nuthesis/sections/ptdr-definitions.sty) (./skeleton.aux)
 \openout1 = `skeleton.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 183.
-LaTeX Font Info:    ... okay on input line 183.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 183.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 187.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1000,15 +1323,15 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \scratchbox=\box64
 \nofMPsegments=\count276
 \nofMParguments=\count277
-\everyMPshowfont=\toks42
+\everyMPshowfont=\toks44
 \MPscratchCnt=\count278
 \MPscratchDim=\dimen269
 \MPnumerator=\count279
 \makeMPintoPDFobject=\count280
-\everyMPtoPDFconversion=\toks43
+\everyMPtoPDFconversion=\toks45
 )
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 183.
+Package hyperref Info: Link coloring OFF on input line 187.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1019,65 +1342,65 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 183.
-LaTeX Info: Redefining \ref on input line 183.
-LaTeX Info: Redefining \pageref on input line 183.
-LaTeX Info: Redefining \nameref on input line 183.
+LaTeX Info: Redefining \nameref on input line 187.
+LaTeX Info: Redefining \ref on input line 187.
+LaTeX Info: Redefining \pageref on input line 187.
+LaTeX Info: Redefining \nameref on input line 187.
 (./skeleton.out) (./skeleton.out)
 \@outlinefile=\write4
 \openout4 = `skeleton.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 217.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 221.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 217.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 221.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 217
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 221
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 217
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 221
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 217.
+(Font)              <12> on input line 221.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 217.
+(Font)              <8> on input line 221.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 217.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 217.
+(Font)              <6> on input line 221.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 221.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 217.
+LaTeX Font Info:    Try loading font information for U+msa on input line 221.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 217.
+LaTeX Font Info:    Try loading font information for U+msb on input line 221.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 217.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 221.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 217.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 221.
  [1
 
 
@@ -1089,7 +1412,7 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 236.
+(in both cases you will find help in the memoir manual). on input line 240.
 
 [4
 
@@ -1135,11 +1458,15 @@ e HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v*
 
 [8
 
-]) [9] [10] (./skeleton.lot
+] [9]
 
-LaTeX Warning: Citation `lumiUnc' on page xi undefined on input line 2.
+LaTeX Warning: Reference `suboptCut' on page x undefined on input line 17.
 
-) [11
+[10]) [11] (./skeleton.lot
+
+LaTeX Warning: Citation `lumiUnc' on page xii undefined on input line 2.
+
+) [12
 
 ] (./nuthesis/sections/Hbb-definitions.tex) (./nuthesis/sections/intro.tex
 
@@ -1174,7 +1501,7 @@ LaTeX Warning: Citation `BG3' on page 1 undefined on input line 27.
 
 [1
 
-] <nuthesis/images/BGtoHH.pdf, id=301, 324.21124pt x 236.885pt>
+] <nuthesis/images/BGtoHH.pdf, id=345, 324.21124pt x 236.885pt>
 File: nuthesis/images/BGtoHH.pdf Graphic file (type pdf)
 
 <use nuthesis/images/BGtoHH.pdf>
@@ -1472,7 +1799,7 @@ l.69 }
 ? 
 
 <nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_
-Leg1_WP90_2016.png, id=342, 1031.855pt x 652.4375pt>
+Leg1_WP90_2016.png, id=384, 1031.855pt x 652.4375pt>
 File: nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficienc
 yHLT_Leg1_WP90_2016.png Graphic file (type png)
 
@@ -1483,7 +1810,7 @@ ronTriggerEfficiencyHLT_Leg1_WP90_2016.png used on input line 80.
 (pdftex.def)             Requested size: 433.62003pt x 274.1712pt.
 
 <nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_
-Leg2_WP90_2016.png, id=344, 1035.87pt x 647.41875pt>
+Leg2_WP90_2016.png, id=386, 1035.87pt x 647.41875pt>
 File: nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficienc
 yHLT_Leg2_WP90_2016.png Graphic file (type png)
 
@@ -1504,7 +1831,7 @@ LaTeX Warning: Float too large for page by 9.36314pt on input line 85.
 
 
 <nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_M
-u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=345, 5
+u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=387, 5
 69.12625pt x 385.44pt>
 File: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_
 hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graph
@@ -1518,7 +1845,7 @@ eta_ratio.pdf used on input line 90.
 (pdftex.def)             Requested size: 205.97215pt x 139.49345pt.
 
 <nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_le
-g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=346, 569.12625pt x 385.4
+g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=388, 569.12625pt x 385.4
 4pt>
 File: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17M
 u8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic file (type pdf)
@@ -1545,7 +1872,7 @@ OR
 
 
 <nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_Mu17_M
-u8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=347, 569.12
+u8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=389, 569.12
 625pt x 385.44pt>
 File: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_M
 u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic fi
@@ -1559,7 +1886,7 @@ atio.pdf used on input line 99.
 (pdftex.def)             Requested size: 205.97215pt x 139.49345pt.
 
 <nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_leg17_D
-EN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=348, 569.12625pt x 385.44pt>
+EN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=390, 569.12625pt x 385.44pt>
 File: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_le
 g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic file (type pdf)
 
@@ -1583,7 +1910,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--102
 
 
 <nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_PAR_e
-ta1_eta2_abseta_tag_abseta_ratio.pdf, id=349, 569.12625pt x 385.44pt>
+ta1_eta2_abseta_tag_abseta_ratio.pdf, id=391, 569.12625pt x 385.44pt>
 File: nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_
 PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf Graphic file (type pdf)
 
@@ -1614,7 +1941,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--110
 LaTeX Warning: Reference `fig:muonID_SF, fig:muonISO_SF, fig:eleIDnISO_SF' on p
 age 5 undefined on input line 115.
 
-<nuthesis/images/muon_ID_BCDEFv2.png, id=350, 555.07375pt x 566.115pt>
+<nuthesis/images/muon_ID_BCDEFv2.png, id=392, 555.07375pt x 566.115pt>
 File: nuthesis/images/muon_ID_BCDEFv2.png Graphic file (type png)
 
 <use nuthesis/images/muon_ID_BCDEFv2.png>
@@ -1622,7 +1949,7 @@ Package pdftex.def Info: nuthesis/images/muon_ID_BCDEFv2.png used on input line
  118.
 (pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
 
-<nuthesis/images/muon_ID_GHv2.png, id=351, 555.07375pt x 566.115pt>
+<nuthesis/images/muon_ID_GHv2.png, id=393, 555.07375pt x 566.115pt>
 File: nuthesis/images/muon_ID_GHv2.png Graphic file (type png)
 
 <use nuthesis/images/muon_ID_GHv2.png>
@@ -1630,7 +1957,7 @@ Package pdftex.def Info: nuthesis/images/muon_ID_GHv2.png used on input line 12
 0.
 (pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
 
-<nuthesis/images/muon_ISO_BCDEFv2.png, id=352, 555.07375pt x 566.115pt>
+<nuthesis/images/muon_ISO_BCDEFv2.png, id=394, 555.07375pt x 566.115pt>
 File: nuthesis/images/muon_ISO_BCDEFv2.png Graphic file (type png)
 
 <use nuthesis/images/muon_ISO_BCDEFv2.png>
@@ -1638,7 +1965,7 @@ Package pdftex.def Info: nuthesis/images/muon_ISO_BCDEFv2.png used on input lin
 e 128.
 (pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
 
-<nuthesis/images/muon_ISO_GHv2.png, id=353, 555.07375pt x 566.115pt>
+<nuthesis/images/muon_ISO_GHv2.png, id=395, 555.07375pt x 566.115pt>
 File: nuthesis/images/muon_ISO_GHv2.png Graphic file (type png)
 
 <use nuthesis/images/muon_ISO_GHv2.png>
@@ -1646,7 +1973,7 @@ Package pdftex.def Info: nuthesis/images/muon_ISO_GHv2.png used on input line 1
 30.
 (pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
 
-<nuthesis/images/EIDISO_ZH_out.png, id=354, 1071.00125pt x 1144.275pt>
+<nuthesis/images/EIDISO_ZH_out.png, id=396, 1071.00125pt x 1144.275pt>
 File: nuthesis/images/EIDISO_ZH_out.png Graphic file (type png)
 
 <use nuthesis/images/EIDISO_ZH_out.png>
@@ -1804,13 +2131,6 @@ LaTeX Warning: Citation `Cacciari:2005hq' on page 17 undefined on input line 61
 LaTeX Warning: Citation `Cacciari:2008gp' on page 17 undefined on input line 61
 .
 
-./nuthesis/sections/objects.tex:61: Missing $ inserted.
-<inserted text> 
-                $
-l.61 ...entify the initial partons. \text{anti}-k_
-                                                  T$ is a sequential cluster...
-
-? 
 
 LaTeX Warning: Citation `JetMETgroup' on page 17 undefined on input line 64.
 
@@ -1823,7 +2143,7 @@ t line 85.
 LaTeX Warning: Citation `MissingETOptionalFiltersRun2' on page 18 undefined on 
 input line 85.
 
-<nuthesis/images/MET.png, id=638, 1100.11pt x 249.93375pt>
+<nuthesis/images/MET.png, id=681, 1100.11pt x 249.93375pt>
 File: nuthesis/images/MET.png Graphic file (type png)
 
 <use nuthesis/images/MET.png>
@@ -1832,277 +2152,251 @@ Package pdftex.def Info: nuthesis/images/MET.png used on input line 89.
  [18]) [19 <./nuthesis/images/MET.png>]
 (./nuthesis/sections/selection.tex
 
-LaTeX Warning: Citation `CombinedLimit' on page 20 undefined on input line 18.
+LaTeX Warning: Citation `CombinedLimit' on page 20 undefined on input line 16.
 
 [20
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 30.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 32.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 30.
  [21]
-<nuthesis/images/ee_300_met.png, id=658, 642.4pt x 481.8pt>
+<nuthesis/images/ee_300_met.png, id=701, 642.4pt x 481.8pt>
 File: nuthesis/images/ee_300_met.png Graphic file (type png)
 
 <use nuthesis/images/ee_300_met.png>
-Package pdftex.def Info: nuthesis/images/ee_300_met.png used on input line 57.
+Package pdftex.def Info: nuthesis/images/ee_300_met.png used on input line 55.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/mm_300_met.png, id=659, 642.4pt x 481.8pt>
+<nuthesis/images/mm_300_met.png, id=702, 642.4pt x 481.8pt>
 File: nuthesis/images/mm_300_met.png Graphic file (type png)
 
 <use nuthesis/images/mm_300_met.png>
-Package pdftex.def Info: nuthesis/images/mm_300_met.png used on input line 58.
+Package pdftex.def Info: nuthesis/images/mm_300_met.png used on input line 56.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/ee_600_met.png, id=660, 642.4pt x 481.8pt>
+<nuthesis/images/ee_600_met.png, id=703, 642.4pt x 481.8pt>
 File: nuthesis/images/ee_600_met.png Graphic file (type png)
 
 <use nuthesis/images/ee_600_met.png>
-Package pdftex.def Info: nuthesis/images/ee_600_met.png used on input line 59.
+Package pdftex.def Info: nuthesis/images/ee_600_met.png used on input line 57.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/mm_600_met.png, id=661, 642.4pt x 481.8pt>
+<nuthesis/images/mm_600_met.png, id=704, 642.4pt x 481.8pt>
 File: nuthesis/images/mm_600_met.png Graphic file (type png)
 
 <use nuthesis/images/mm_600_met.png>
-Package pdftex.def Info: nuthesis/images/mm_600_met.png used on input line 60.
+Package pdftex.def Info: nuthesis/images/mm_600_met.png used on input line 58.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/ee_900_met.png, id=662, 642.4pt x 481.8pt>
+<nuthesis/images/ee_900_met.png, id=705, 642.4pt x 481.8pt>
 File: nuthesis/images/ee_900_met.png Graphic file (type png)
 
 <use nuthesis/images/ee_900_met.png>
-Package pdftex.def Info: nuthesis/images/ee_900_met.png used on input line 61.
+Package pdftex.def Info: nuthesis/images/ee_900_met.png used on input line 59.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/mm_900_met.png, id=663, 642.4pt x 481.8pt>
+<nuthesis/images/mm_900_met.png, id=706, 642.4pt x 481.8pt>
 File: nuthesis/images/mm_900_met.png Graphic file (type png)
 
 <use nuthesis/images/mm_900_met.png>
-Package pdftex.def Info: nuthesis/images/mm_900_met.png used on input line 62.
+Package pdftex.def Info: nuthesis/images/mm_900_met.png used on input line 60.
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
  [22]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 96.
+(Font)              <14.4> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 96.
+(Font)              <10> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 96.
+(Font)              <7> on input line 69.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 96.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 96.
+(hyperref)                removing `\to' on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 96.
+(hyperref)                removing `\to' on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 96.
+(hyperref)                removing `\ell' on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 96.
+(hyperref)                removing `\ell' on input line 69.
 
 [23 <./nuthesis/images/ee_300_met.png> <./nuthesis/images/mm_300_met.png> <./nu
 thesis/images/ee_600_met.png> <./nuthesis/images/mm_600_met.png> <./nuthesis/im
 ages/ee_900_met.png> <./nuthesis/images/mm_900_met.png>]
-<nuthesis/images/regions.png, id=681, 396.48125pt x 331.2375pt>
+<nuthesis/images/regions.png, id=723, 396.48125pt x 331.2375pt>
 File: nuthesis/images/regions.png Graphic file (type png)
 
 <use nuthesis/images/regions.png>
-Package pdftex.def Info: nuthesis/images/regions.png used on input line 125.
+Package pdftex.def Info: nuthesis/images/regions.png used on input line 98.
 (pdftex.def)             Requested size: 195.12769pt x 163.02043pt.
+ [24 <./nuthesis/images/regions.png>] [25]
 
-<nuthesis/images/ee_yields.png, id=682, 770.88pt x 293.095pt>
-File: nuthesis/images/ee_yields.png Graphic file (type png)
+LaTeX Warning: Citation `bbbb' on page 26 undefined on input line 197.
 
-<use nuthesis/images/ee_yields.png>
-Package pdftex.def Info: nuthesis/images/ee_yields.png used on input line 194.
-(pdftex.def)             Requested size: 394.59581pt x 150.02655pt.
- [24 <./nuthesis/images/regions.png>]
-[25 <./nuthesis/images/ee_yields.png>]
+[26] [27]
 
-LaTeX Warning: Citation `bbbb' on page 26 undefined on input line 224.
+LaTeX Warning: Citation `bbZZAN' on page 28 undefined on input line 241.
 
-[26]
-
-LaTeX Warning: Reference `sec:datamc' on page 27 undefined on input line 263.
-
-
-LaTeX Warning: Reference `fig:MCcomparison_mm_300' on page 27 undefined on inpu
-t line 263.
-
-
-LaTeX Warning: Reference `fig:MCcomparison_ee_900' on page 27 undefined on inpu
-t line 263.
-
-[27]
-
-LaTeX Warning: Reference `sec:datamc' on page 28 undefined on input line 267.
-
-<nuthesis/images/cutflow_mm.png, id=713, 963.6pt x 162.6075pt>
+<nuthesis/images/cutflow_mm.png, id=755, 963.6pt x 162.6075pt>
 File: nuthesis/images/cutflow_mm.png Graphic file (type png)
 
 <use nuthesis/images/cutflow_mm.png>
-Package pdftex.def Info: nuthesis/images/cutflow_mm.png used on input line 273.
+Package pdftex.def Info: nuthesis/images/cutflow_mm.png used on input line 247.
 
 (pdftex.def)             Requested size: 394.59581pt x 66.58762pt.
 
-<nuthesis/images/cutflow_ee.png, id=714, 999.735pt x 185.69376pt>
+<nuthesis/images/cutflow_ee.png, id=756, 999.735pt x 185.69376pt>
 File: nuthesis/images/cutflow_ee.png Graphic file (type png)
 
 <use nuthesis/images/cutflow_ee.png>
-Package pdftex.def Info: nuthesis/images/cutflow_ee.png used on input line 274.
+Package pdftex.def Info: nuthesis/images/cutflow_ee.png used on input line 248.
 
 (pdftex.def)             Requested size: 394.59581pt x 73.29297pt.
 
-<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=715, 56
+<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=757, 56
 9.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 341.
+graviton.pdf used on input line 259.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=716, 56
+<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=758, 56
 9.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 342.
+graviton.pdf used on input line 260.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=717, 569.
+<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=759, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_gr
-aviton.pdf used on input line 343.
+aviton.pdf used on input line 261.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=718, 56
+<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=760, 56
 9.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 344.
+graviton.pdf used on input line 262.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=719, 56
+<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=761, 56
 9.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 345.
+graviton.pdf used on input line 263.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=720, 569.
+<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=762, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_gr
-aviton.pdf used on input line 346.
+aviton.pdf used on input line 264.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=721, 569.
+<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=763, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 369.
+radion.pdf used on input line 286.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=722, 569.
+<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=764, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 370.
+radion.pdf used on input line 287.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=723, 569.12
+<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=765, 569.12
 625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf Graphic fi
 le (type pdf)
 
 <use nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_ra
-dion.pdf used on input line 371.
+dion.pdf used on input line 288.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=724, 569.
+<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=766, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 372.
+radion.pdf used on input line 289.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=725, 569.
+<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=767, 569.
 12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 373.
+radion.pdf used on input line 290.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=726, 569.12
+<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=768, 569.12
 625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf Graphic fi
 le (type pdf)
 
 <use nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_ra
-dion.pdf used on input line 374.
+dion.pdf used on input line 291.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
 
-LaTeX Warning: Citation `egSF' on page 28 undefined on input line 408.
-
-
-LaTeX Warning: Citation `muonIDnISO' on page 28 undefined on input line 409.
-
-
-LaTeX Warning: Citation `muonTRK' on page 28 undefined on input line 409.
-
-
-LaTeX Warning: Citation `muonTrigger' on page 28 undefined on input line 409.
-
-
-Overfull \hbox (56.38542pt too wide) in paragraph at lines 408--412
-\T1/lmr/m/n/12 ing dilep-ton events that have al-ready passed the HLT_Mu17_TrkI
-soVVL_Mu8_TrkIsoVVL_v*
- []
+LaTeX Warning: Citation `egSF' on page 28 undefined on input line 317.
 
 [28 <./nuthesis/images/cutflow_mm.png> <./nuthesis/images/cutflow_ee.png>]
+
+LaTeX Warning: Citation `muonIDnISO' on page 29 undefined on input line 319.
+
+
+LaTeX Warning: Citation `muonTRK' on page 29 undefined on input line 319.
+
+
+LaTeX Warning: Citation `muonTrigger' on page 29 undefined on input line 319.
+
 [29 <./nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, page
  is rotated 90 degrees> <./nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_
 2_graviton.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt_mm_SR_FullP
@@ -2118,20 +2412,669 @@ rotated 90 degrees> <./nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_ra
 dion.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt_ee_CRTT_FullPostf
 it_plot_nov16_2_radion.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt
 _ee_SR_FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degrees>]
-(./skeleton.bbl [31
+(./nuthesis/sections/mva.tex
+
+LaTeX Warning: Citation `Hocker:2007ht' on page 31 undefined on input line 1.
+
+<nuthesis/images/ee_low.png, id=1314, 290.08376pt x 418.56375pt>
+File: nuthesis/images/ee_low.png Graphic file (type png)
+
+<use nuthesis/images/ee_low.png>
+Package pdftex.def Info: nuthesis/images/ee_low.png used on input line 14.
+(pdftex.def)             Requested size: 151.76965pt x 218.98923pt.
+
+<nuthesis/images/ee_high.png, id=1315, 284.06125pt x 411.5375pt>
+File: nuthesis/images/ee_high.png Graphic file (type png)
+
+<use nuthesis/images/ee_high.png>
+Package pdftex.def Info: nuthesis/images/ee_high.png used on input line 15.
+(pdftex.def)             Requested size: 151.76965pt x 219.88467pt.
+
+<nuthesis/images/mm_low.png, id=1316, 263.98625pt x 411.5375pt>
+File: nuthesis/images/mm_low.png Graphic file (type png)
+
+<use nuthesis/images/mm_low.png>
+Package pdftex.def Info: nuthesis/images/mm_low.png used on input line 16.
+(pdftex.def)             Requested size: 151.76965pt x 236.59454pt.
+
+<nuthesis/images/mm_high.png, id=1317, 265.99374pt x 422.57875pt>
+File: nuthesis/images/mm_high.png Graphic file (type png)
+
+<use nuthesis/images/mm_high.png>
+Package pdftex.def Info: nuthesis/images/mm_high.png used on input line 17.
+(pdftex.def)             Requested size: 151.76965pt x 241.11742pt.
+
+<nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=131
+8, 569.12625pt x 546.04pt>
+File: nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf Gr
+aphic file (type pdf)
+
+<use nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf>
+Package pdftex.def Info: nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_no
+v16_2_radion.pdf used on input line 26.
+(pdftex.def)             Requested size: 260.17465pt x 249.63171pt.
+
+<nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=131
+9, 569.12625pt x 546.04pt>
+File: nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf Gr
+aphic file (type pdf)
+
+<use nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf>
+Package pdftex.def Info: nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_no
+v16_2_radion.pdf used on input line 27.
+(pdftex.def)             Requested size: 260.17465pt x 249.63171pt.
+
+
+LaTeX Warning: Reference `suboptCut' on page 31 undefined on input line 28.
+
+
+LaTeX Warning: Reference `suboptCut' on page 31 undefined on input line 28.
+
+
+<nuthesis/images/bdtPlots_eles/low_vars1.pdf, id=1320, 569.12625pt x 295.1025pt
+>
+File: nuthesis/images/bdtPlots_eles/low_vars1.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_eles/low_vars1.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_vars1.pdf used on in
+put line 38.
+(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
+
+<nuthesis/images/bdtPlots_eles/low_vars2.pdf, id=1321, 569.12625pt x 295.1025pt
+>
+File: nuthesis/images/bdtPlots_eles/low_vars2.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_eles/low_vars2.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_vars2.pdf used on in
+put line 39.
+(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
+
+<nuthesis/images/bdtPlots_eles/high_vars1.pdf, id=1322, 569.12625pt x 295.1025p
+t>
+File: nuthesis/images/bdtPlots_eles/high_vars1.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_eles/high_vars1.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_vars1.pdf used on i
+nput line 49.
+(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
+
+<nuthesis/images/bdtPlots_eles/high_vars2.pdf, id=1323, 569.12625pt x 295.1025p
+t>
+File: nuthesis/images/bdtPlots_eles/high_vars2.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_eles/high_vars2.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_vars2.pdf used on i
+nput line 50.
+(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
+ [31
+
+] [32 <./nuthesis/images/ee_low.png> <./nuthesis/images/ee_high.png> <./nuthesi
+s/images/mm_low.png> <./nuthesis/images/mm_high.png>] [33 <./nuthesis/images/bd
+t_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degree
+s> <./nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, p
+age is rotated 90 degrees>] [34 <./nuthesis/images/bdtPlots_eles/low_vars1.pdf,
+ page is rotated 90 degrees> <./nuthesis/images/bdtPlots_eles/low_vars2.pdf, pa
+ge is rotated 90 degrees>] [35 <./nuthesis/images/bdtPlots_eles/high_vars1.pdf,
+ page is rotated 90 degrees> <./nuthesis/images/bdtPlots_eles/high_vars2.pdf, p
+age is rotated 90 degrees>]
+<nuthesis/images/bdtPlots_eles/low_bdt.pdf, id=1617, 569.12625pt x 420.57124pt>
+File: nuthesis/images/bdtPlots_eles/low_bdt.pdf Graphic file (type pdf)
+<use nuthesis/images/bdtPlots_eles/low_bdt.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_bdt.pdf used on inpu
+t line 66.
+(pdftex.def)             Requested size: 325.21501pt x 240.33775pt.
+
+<nuthesis/images/bdtPlots_eles/high_bdt.pdf, id=1618, 569.12625pt x 420.57124pt
+>
+File: nuthesis/images/bdtPlots_eles/high_bdt.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_eles/high_bdt.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_bdt.pdf used on inp
+ut line 67.
+(pdftex.def)             Requested size: 325.21501pt x 240.33775pt.
+
+<nuthesis/images/bdtPlots_eles/low_roc.pdf, id=1625, 569.12625pt x 416.55624pt>
+File: nuthesis/images/bdtPlots_eles/low_roc.pdf Graphic file (type pdf)
+<use nuthesis/images/bdtPlots_eles/low_roc.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_roc.pdf used on inpu
+t line 79.
+(pdftex.def)             Requested size: 325.21501pt x 238.04335pt.
+
+<nuthesis/images/bdtPlots_eles/high_roc.pdf, id=1626, 569.12625pt x 416.55624pt
+>
+File: nuthesis/images/bdtPlots_eles/high_roc.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_eles/high_roc.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_roc.pdf used on inp
+ut line 80.
+(pdftex.def)             Requested size: 325.21501pt x 238.04335pt.
+
+<nuthesis/images/bdtPlots_eles/low_corS.pdf, id=1627, 569.12625pt x 546.04pt>
+File: nuthesis/images/bdtPlots_eles/low_corS.pdf Graphic file (type pdf)
+
+<use nuthesis/images/bdtPlots_eles/low_corS.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_corS.pdf used on inp
+ut line 88.
+(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
+
+<nuthesis/images/bdtPlots_eles/low_corB.pdf, id=1628, 569.12625pt x 546.04pt>
+File: nuthesis/images/bdtPlots_eles/low_corB.pdf Graphic file (type pdf)
+
+<use nuthesis/images/bdtPlots_eles/low_corB.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_corB.pdf used on inp
+ut line 89.
+(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
+
+
+LaTeX Warning: Float too large for page by 58.78604pt on input line 93.
+
+
+<nuthesis/images/bdtPlots_eles/high_corS.pdf, id=1629, 569.12625pt x 546.04pt>
+File: nuthesis/images/bdtPlots_eles/high_corS.pdf Graphic file (type pdf)
+
+<use nuthesis/images/bdtPlots_eles/high_corS.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_corS.pdf used on in
+put line 98.
+(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
+
+<nuthesis/images/bdtPlots_eles/high_corB.pdf, id=1630, 569.12625pt x 546.04pt>
+File: nuthesis/images/bdtPlots_eles/high_corB.pdf Graphic file (type pdf)
+
+<use nuthesis/images/bdtPlots_eles/high_corB.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_corB.pdf used on in
+put line 99.
+(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
+
+
+LaTeX Warning: Float too large for page by 58.78604pt on input line 103.
+
+
+<nuthesis/images/bdtPlots_muons/low_vars1.pdf, id=1633, 569.12625pt x 295.1025p
+t>
+File: nuthesis/images/bdtPlots_muons/low_vars1.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_muons/low_vars1.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_vars1.pdf used on i
+nput line 127.
+(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
+
+<nuthesis/images/bdtPlots_muons/low_vars2.pdf, id=1634, 569.12625pt x 295.1025p
+t>
+File: nuthesis/images/bdtPlots_muons/low_vars2.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_muons/low_vars2.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_vars2.pdf used on i
+nput line 128.
+(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
+
+<nuthesis/images/bdtPlots_muons/high_vars1.pdf, id=1635, 569.12625pt x 295.1025
+pt>
+File: nuthesis/images/bdtPlots_muons/high_vars1.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_muons/high_vars1.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_vars1.pdf used on 
+input line 138.
+(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
+
+<nuthesis/images/bdtPlots_muons/high_vars2.pdf, id=1636, 569.12625pt x 295.1025
+pt>
+File: nuthesis/images/bdtPlots_muons/high_vars2.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_muons/high_vars2.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_vars2.pdf used on 
+input line 139.
+(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
+
+<nuthesis/images/bdtPlots_muons/low_bdt.pdf, id=1637, 569.12625pt x 420.57124pt
+>
+File: nuthesis/images/bdtPlots_muons/low_bdt.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_muons/low_bdt.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_bdt.pdf used on inp
+ut line 148.
+(pdftex.def)             Requested size: 325.21501pt x 240.33775pt.
+
+<nuthesis/images/bdtPlots_muons/high_bdt.pdf, id=1638, 569.12625pt x 420.57124p
+t>
+File: nuthesis/images/bdtPlots_muons/high_bdt.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_muons/high_bdt.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_bdt.pdf used on in
+put line 149.
+(pdftex.def)             Requested size: 325.21501pt x 240.33775pt.
+
+<nuthesis/images/bdtPlots_muons/low_roc.pdf, id=1639, 569.12625pt x 416.55624pt
+>
+File: nuthesis/images/bdtPlots_muons/low_roc.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_muons/low_roc.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_roc.pdf used on inp
+ut line 157.
+(pdftex.def)             Requested size: 325.21501pt x 238.04335pt.
+
+<nuthesis/images/bdtPlots_muons/high_roc.pdf, id=1640, 569.12625pt x 416.55624p
+t>
+File: nuthesis/images/bdtPlots_muons/high_roc.pdf Graphic file (type pdf)
+ <use nuthesis/images/bdtPlots_muons/high_roc.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_roc.pdf used on in
+put line 158.
+(pdftex.def)             Requested size: 325.21501pt x 238.04335pt.
+
+<nuthesis/images/bdtPlots_muons/low_corS.pdf, id=1641, 569.12625pt x 546.04pt>
+File: nuthesis/images/bdtPlots_muons/low_corS.pdf Graphic file (type pdf)
+
+<use nuthesis/images/bdtPlots_muons/low_corS.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_corS.pdf used on in
+put line 166.
+(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
+
+<nuthesis/images/bdtPlots_muons/low_corB.pdf, id=1642, 569.12625pt x 546.04pt>
+File: nuthesis/images/bdtPlots_muons/low_corB.pdf Graphic file (type pdf)
+
+<use nuthesis/images/bdtPlots_muons/low_corB.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_corB.pdf used on in
+put line 167.
+(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
+
+
+LaTeX Warning: Float too large for page by 58.78604pt on input line 171.
+
+
+<nuthesis/images/bdtPlots_muons/high_corS.pdf, id=1643, 569.12625pt x 546.04pt>
+File: nuthesis/images/bdtPlots_muons/high_corS.pdf Graphic file (type pdf)
+<use nuthesis/images/bdtPlots_muons/high_corS.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_corS.pdf used on i
+nput line 176.
+(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
+
+<nuthesis/images/bdtPlots_muons/high_corB.pdf, id=1644, 569.12625pt x 546.04pt>
+File: nuthesis/images/bdtPlots_muons/high_corB.pdf Graphic file (type pdf)
+<use nuthesis/images/bdtPlots_muons/high_corB.pdf>
+Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_corB.pdf used on i
+nput line 177.
+(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
+
+
+LaTeX Warning: Float too large for page by 58.78604pt on input line 181.
+
+) [36] [37 <./nuthesis/images/bdtPlots_eles/low_bdt.pdf, page is rotated 90 deg
+rees> <./nuthesis/images/bdtPlots_eles/high_bdt.pdf, page is rotated 90 degrees
+>] [38 <./nuthesis/images/bdtPlots_eles/low_roc.pdf, page is rotated 90 degrees
+> <./nuthesis/images/bdtPlots_eles/high_roc.pdf, page is rotated 90 degrees>]
+[39 <./nuthesis/images/bdtPlots_eles/low_corS.pdf, page is rotated 90 degrees> 
+<./nuthesis/images/bdtPlots_eles/low_corB.pdf, page is rotated 90 degrees>]
+[40 <./nuthesis/images/bdtPlots_eles/high_corS.pdf, page is rotated 90 degrees>
+ <./nuthesis/images/bdtPlots_eles/high_corB.pdf, page is rotated 90 degrees>]
+[41 <./nuthesis/images/bdtPlots_muons/low_vars1.pdf, page is rotated 90 degrees
+> <./nuthesis/images/bdtPlots_muons/low_vars2.pdf, page is rotated 90 degrees>]
+[42 <./nuthesis/images/bdtPlots_muons/high_vars1.pdf, page is rotated 90 degree
+s> <./nuthesis/images/bdtPlots_muons/high_vars2.pdf, page is rotated 90 degrees
+>] [43 <./nuthesis/images/bdtPlots_muons/low_bdt.pdf, page is rotated 90 degree
+s> <./nuthesis/images/bdtPlots_muons/high_bdt.pdf, page is rotated 90 degrees>]
+[44 <./nuthesis/images/bdtPlots_muons/low_roc.pdf, page is rotated 90 degrees> 
+<./nuthesis/images/bdtPlots_muons/high_roc.pdf, page is rotated 90 degrees>]
+[45 <./nuthesis/images/bdtPlots_muons/low_corS.pdf, page is rotated 90 degrees>
+ <./nuthesis/images/bdtPlots_muons/low_corB.pdf, page is rotated 90 degrees>]
+[46 <./nuthesis/images/bdtPlots_muons/high_corS.pdf, page is rotated 90 degrees
+> <./nuthesis/images/bdtPlots_muons/high_corB.pdf, page is rotated 90 degrees>]
+(./nuthesis/sections/systematics.tex
+./nuthesis/sections/systematics.tex:23: Undefined control sequence.
+<argument> \cmsSymbolFace 
+                          {Z}
+l.23 ...y channel of the leptonically decaying \PZ
+                                                   boson, in which cases
+? 
+
+./nuthesis/sections/systematics.tex:30: Class memoir Error: Font command \bf is
+ not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \item{\bf
+               Luminosity} - The estimated uncertainty on the integrated
+? 
+
+LaTeX Warning: Citation `CMS-PAS-LUM-17-001' on page 47 undefined on input line
+ 32.
+
+
+./nuthesis/sections/systematics.tex:38: Class memoir Error: Font command \bf is
+ not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \item{\bf
+               Pileup} - Signal and background event yields depend on the
+? 
+[47
+
+]
+
+./nuthesis/sections/systematics.tex:46: Class memoir Error: Font command \bf is
+ not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \item{\bf
+               Proton PDF} - The systematic bias associated with the limited
+? 
+
+LaTeX Warning: Citation `Ball:2014uwa' on page 48 undefined on input line 48.
+
+
+LaTeX Warning: Citation `Botje:2011sn' on page 48 undefined on input line 49.
+
+
+LaTeX Warning: Citation `Alekhin:2011sk' on page 48 undefined on input line 49.
+
+
+
+./nuthesis/sections/systematics.tex:53: Class memoir Error: Font command \bf is
+ not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \item{\bf
+               QCD scales} - Theoretical uncertainties in the QCD
+? 
+
+./nuthesis/sections/systematics.tex:66: Class memoir Error: Font command \bf is
+ not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \item{\bf
+               Theoretical cross sections} - The theoretical cross section is
+? 
+
+./nuthesis/sections/systematics.tex:77: Class memoir Error: Font command \bf is
+ not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \item{\bf
+               Missing transverse momentum} - While the clustered energy in
+? 
+[48]
+
+./nuthesis/sections/systematics.tex:112: Class memoir Error: Font command \bf i
+s not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 \item{\bf
+                Lepton efficiency} - The efficiencies for leptons to be
+? 
+./nuthesis/sections/systematics.tex:116: Undefined control sequence.
+<argument> \cmsSymbolFace 
+                          {Z}
+l.116   from large samples of \PZ
+                                  boson decays and are themselves known with
+? 
+[49]
+
+./nuthesis/sections/systematics.tex:122: Class memoir Error: Font command \bf i
+s not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \item{\bf
+                Jet energy scale} - The uncertainty on the jet energy scale
+? 
+./nuthesis/sections/systematics.tex:124: Undefined control sequence.
+l.124   mass of \Hbb
+                     as well as through the \ETslash magnitude. Several
+? 
+
+./nuthesis/sections/systematics.tex:135: Class memoir Error: Font command \bf i
+s not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \item{\bf
+                Jet energy resolution} - The difference between the energy
+? 
+./nuthesis/sections/systematics.tex:138: Undefined control sequence.
+l.138   mass for \Hbb
+                      and its effect on the \ETslash. Jet energy resolution
+? 
+
+./nuthesis/sections/systematics.tex:143: Class memoir Error: Font command \bf i
+s not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 \item{\bf
+                b-tagging} - The efficiency to tag a \PQb-jet and the
+? 
+./nuthesis/sections/systematics.tex:143: Undefined control sequence.
+<argument> \cmsSymbolFace 
+                          {b}
+l.143 ...b-tagging} - The efficiency to tag a \PQb
+                                                  -jet and the
+? 
+./nuthesis/sections/systematics.tex:145: Undefined control sequence.
+<argument> \cmsSymbolFace 
+                          {b}
+l.145   \PQb
+            -jet in MC samples is corrected by factors derived from
+? 
+./nuthesis/sections/systematics.tex:148: Undefined control sequence.
+<argument> \cmsSymbolFace 
+                          {b}
+l.148   \PQb
+            -tagging efficiency (flavor misidentification) is about 5\% (7--...
+
+? 
+[50]
+
+./nuthesis/sections/systematics.tex:151: Class memoir Error: Font command \bf i
+s not supported.
+
+See the memoir class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 \item{\bf
+                Bin-by-bin uncertainties} - Limited size of simulated samples
+? 
+
+./nuthesis/sections/systematics.tex:163: LaTeX Error: Environment sidewaystable
+ undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \begin{sidewaystable}
+                           
+? 
+
+./nuthesis/sections/systematics.tex:165: Package caption Error: \caption outsid
+e float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 \caption
+              {Yield variations, ee channel, 300 GeV.}
+? 
+
+Overfull \hbox (167.72032pt too wide) in paragraph at lines 166--174
+ [] 
+ []
+
+
+./nuthesis/sections/systematics.tex:178: Package caption Error: \caption outsid
+e float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \caption
+              {Yield variations, mm channel, 300 GeV.}
+? 
+
+Overfull \hbox (169.68042pt too wide) in paragraph at lines 179--187
+ [] 
+ []
+
+
+./nuthesis/sections/systematics.tex:189: LaTeX Error: \begin{document} ended by
+ \end{sidewaystable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \end{sidewaystable}
+                         
+? 
+
+./nuthesis/sections/systematics.tex:190: LaTeX Error: Environment sidewaystable
+ undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.190 \begin{sidewaystable}
+                           
+? 
+
+./nuthesis/sections/systematics.tex:192: Package caption Error: \caption outsid
+e float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \caption
+              {Yield variations, ee channel, 300 GeV.}
+? 
+
+Overfull \hbox (167.72032pt too wide) in paragraph at lines 193--201
+ [] 
+ []
+
+[51]
+
+./nuthesis/sections/systematics.tex:205: Package caption Error: \caption outsid
+e float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \caption
+              {Yield variations, mm channel, 300 GeV.}
+? 
+
+Overfull \hbox (169.68042pt too wide) in paragraph at lines 206--214
+ [] 
+ []
+
+
+./nuthesis/sections/systematics.tex:216: LaTeX Error: \begin{document} ended by
+ \end{sidewaystable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.216 \end{sidewaystable}
+                         
+? 
+
+./nuthesis/sections/systematics.tex:217: LaTeX Error: Environment sidewaystable
+ undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 \begin{sidewaystable}
+                           
+? 
+
+./nuthesis/sections/systematics.tex:219: Package caption Error: \caption outsid
+e float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 \caption
+              {Yield variations, ee channel, 300 GeV.}
+? 
+
+Overfull \hbox (167.72032pt too wide) in paragraph at lines 220--228
+ [] 
+ []
+
+
+./nuthesis/sections/systematics.tex:232: Package caption Error: \caption outsid
+e float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 \caption
+              {Yield variations, mm channel, 300 GeV.}
+? 
+
+Overfull \hbox (169.68042pt too wide) in paragraph at lines 233--241
+ [] 
+ []
+
+
+./nuthesis/sections/systematics.tex:243: LaTeX Error: \begin{document} ended by
+ \end{sidewaystable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.243 \end{sidewaystable}
+                         
+? 
+) [52] (./skeleton.bbl [53
 
 ]
 bibitemlist
-[32
+[54
 
-] [33] [34] [35])
+] [55] [56]
+
+./skeleton.bbl:161: Package inputenc Error: Keyboard character used is undefine
+d
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 Hanoch Gutfreund and Jü
+                             rgen Renn.
+? 
+[57])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 350.
+(in both cases you will find help in the memoir manual). on input line 354.
 
-[36]
+[58]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -2141,24 +3084,33 @@ either increase the foot skip or redesign the fotoer
 \tf@lot=\write7
 \openout7 = `skeleton.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
  (./skeleton.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
-Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: 38CB98F68A142A1B5269CBB21A45BBF1;1971.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 354.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 354.
 
+
+Package rerunfilecheck Warning: File `skeleton.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `skeleton.out':
+(rerunfilecheck)             Before: 03E5F8338BE38B03F114C110C05578B0;1971
+(rerunfilecheck)             After:  4EE7C4225228A4313280AA88C92A15ED;2125.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 354.
  ) 
 Here is how much of TeX's memory you used:
- 15376 strings out of 493014
- 228465 string characters out of 6133350
- 379240 words of memory out of 5000000
- 18421 multiletter control sequences out of 15000+600000
+ 15895 strings out of 493014
+ 238282 string characters out of 6133350
+ 391176 words of memory out of 5000000
+ 18856 multiletter control sequences out of 15000+600000
  110529 words of font info for 103 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  52i,14n,46p,1871b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2180,10 +3132,10 @@ texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/lm/lmtt12.pfb>
-Output written on skeleton.pdf (47 pages, 1415661 bytes).
+Output written on skeleton.pdf (70 pages, 1939771 bytes).
 PDF statistics:
- 1418 PDF objects out of 1440 (max. 8388607)
- 861 compressed objects within 9 object streams
- 140 named destinations out of 1000 (max. 500000)
- 413 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2744 PDF objects out of 2984 (max. 8388607)
+ 1476 compressed objects within 15 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 558 words of extra memory for PDF output out of 10000 (max. 10000000)
 

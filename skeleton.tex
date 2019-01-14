@@ -63,9 +63,13 @@
 \usepackage[normalem]{ulem}
 \usepackage{pdflscape}
 
+%for French https://www.overleaf.com/learn/latex/French
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
 
 
-
+\newcommand\mTHH{\ensuremath{\tilde{M}_{T}}(HH)\xspace}
 \newcommand{\tHq}{\ensuremath{tHq}\xspace}
 \newcommand{\tHW}{\ensuremath{tHW}\xspace}
 \newcommand{\tH}{\ensuremath{tH}\xspace}
@@ -293,10 +297,10 @@
 \input{nuthesis/sections/selection}\clearpage
 
 \section{BDT Discriminant}\label{sec:mva}
-%\input{nuthesis/sections/mva}\clearpage
+\input{nuthesis/sections/mva}\clearpage
 
 \section{Systematic Uncertainties}\label{sec:systematics}
-%\input{nuthesis/sections/systematics}\clearpage
+\input{nuthesis/sections/systematics}\clearpage
 
 \section{Statistical Analysis}\label{sec:statistics}
 %\input{nuthesis/sections/Results}\clearpage
