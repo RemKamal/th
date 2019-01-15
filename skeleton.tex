@@ -13,6 +13,8 @@
 %\usepackage{mathptmx} % times new roman
 \usepackage{multicol}
 
+\usepackage{nuthesis/sections/pennames-pazo}
+\usepackage{nuthesis/sections/ptdr-definitions}
 
 
 \usepackage{graphicx}
@@ -181,11 +183,13 @@
     {Table of Contents}%
 }
 
-\input{nuthesis/sections/pennames-pazo.sty}
-\input{nuthesis/sections/ptdr-definitions.sty}
 
 
 \begin{document}
+
+% commented out since put the same two lines at the top using usepackage command
+%\input{nuthesis/sections/pennames-pazo.sty}
+%\input{nuthesis/sections/ptdr-definitions.sty}
 
 %\linenumbers
 
@@ -304,18 +308,16 @@
 \input{nuthesis/sections/systematics}\clearpage
 
 \section{Statistical Analysis}\label{sec:statistics}
-%\input{nuthesis/sections/Results}\clearpage
+\input{nuthesis/sections/Results}\clearpage
 
 \section{Limits Extraction}\label{sec:limits}
-%\input{nuthesis/sections/limits}\clearpage
+\input{nuthesis/sections/limits}\clearpage
 
-\section{Conclusions}\label{sec:conclusion}
-%\input{nuthesis/sections/conclusion}\clearpage
+\section{Combination of $bbZZ$ results}\label{sec:bbZZcombination}
+\input{nuthesis/sections/bbZZcombination.tex}\clearpage
 
-
-%\input{nuthesis/sections/Analysis.tex}
-%\input{nuthesis/sections/bbZZcombination.tex}
-%\input{nuthesis/sections/Conclusions.tex}
+\section{Conclusions}\label{sec:conclusions}
+%\input{nuthesis/sections/Conclusions.tex}\clearpage
 
 \backmatter
 
