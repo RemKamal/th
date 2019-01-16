@@ -1,9 +1,19 @@
 \select@language {english}
-\contentsline {table}{\numberline {0.1}{\ignorespaces List of used 2016 DoubleMuon data sets. An uncertainty of $2.5\%$ is assigned for the 2016 data set luminosity~\cite {lumiUnc}\relax }}{4}{table.caption.4}
-\contentsline {table}{\numberline {0.2}{\ignorespaces Triggers for dimuon and dielectron analysis channels both at L1 and HLT levels.\relax }}{5}{table.caption.5}
-\contentsline {table}{\numberline {0.3}{\ignorespaces Background Monte Carlo samples\relax }}{13}{table.caption.13}
-\contentsline {table}{\numberline {0.4}{\ignorespaces \ensuremath {E_{\mathrm {T}}\hspace {-1.1em}/\kern 0.45em}\xspace cut to orthogonalise the analysis with respect to HIG-18-013.\relax }}{22}{table.caption.15}
-\contentsline {table}{\numberline {0.5}{\ignorespaces Efficiency of the BDT selection requirement. $ee$ channel (top) and $\mu \mu $ channel (bottom). \relax }}{25}{table.caption.18}
-\contentsline {table}{\numberline {0.6}{\ignorespaces Number of events surviving analysis cuts corresponding to the last entry in the ~\ref {fig:cutFlow} .\relax }}{27}{table.caption.19}
-\contentsline {table}{\numberline {0.7}{\ignorespaces Suboptimal BDT cuts used in the analysis\relax }}{55}{table.caption.37}
-\contentsline {table}{\numberline {0.8}{\ignorespaces The expected and observed HH production cross section upper limits at 95\% CL for different narrow resonance graviton (top) and radion (bottom) mass hypotheses for both dielectron and dimuon channels combined.\relax }}{57}{table.caption.41}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {2.1}{\ignorespaces List of used 2016 DoubleMuon data sets. An uncertainty of $2.5\%$ is assigned for the 2016 data set luminosity~\cite {lumiUnc}\relax }}{4}{table.caption.4}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Triggers for dimuon and dielectron analysis channels both at L1 and HLT levels.\relax }}{5}{table.caption.5}
+\addvspace {10pt}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Background Monte Carlo samples\relax }}{15}{table.caption.13}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {5.1}{\ignorespaces \ensuremath {E_{\mathrm {T}}\hspace {-1.1em}/\kern 0.45em}\xspace cut to orthogonalise the analysis with respect to HIG-18-013.\relax }}{24}{table.caption.15}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Efficiency of the BDT selection requirement. $ee$ channel (top) and $\mu \mu $ channel (bottom). \relax }}{27}{table.caption.18}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Number of events surviving analysis cuts corresponding to the last entry in the ~\ref {fig:cutFlow} .\relax }}{29}{table.caption.19}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {9.1}{\ignorespaces Suboptimal BDT cuts used in the analysis\relax }}{58}{table.caption.37}
+\contentsline {table}{\numberline {9.2}{\ignorespaces The expected and observed HH production cross section upper limits at 95\% CL for different narrow resonance graviton (top) and radion (bottom) mass hypotheses for both dielectron and dimuon channels combined.\relax }}{60}{table.caption.41}
+\addvspace {10pt}

@@ -1,35 +1,35 @@
 \select@language {english}
 \contentsline {chapter}{List of Figures}{viii}{section*.1}
 \contentsline {chapter}{List of Tables}{xii}{section*.2}
-\contentsline {section}{\numberline {0.1}Introduction}{1}{section.0.1}
-\contentsline {subsection}{\numberline {0.1.1}Analysis Strategy}{2}{subsection.0.1.1}
-\contentsline {section}{\numberline {0.2}Data and Triggers}{4}{section.0.2}
-\contentsline {subsection}{\numberline {0.2.1}Data}{4}{subsection.0.2.1}
-\contentsline {subsection}{\numberline {0.2.2}Triggers}{4}{subsection.0.2.2}
-\contentsline {section}{\numberline {0.3}Simulated Samples}{12}{section.0.3}
-\contentsline {subsection}{\numberline {0.3.1}Signal simulation}{12}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {0.3.2}Background simulation}{13}{subsection.0.3.2}
-\contentsline {section}{\numberline {0.4}Physics Objects Reconstruction}{15}{section.0.4}
-\contentsline {subsection}{\numberline {0.4.1}Electrons}{15}{subsection.0.4.1}
-\contentsline {subsection}{\numberline {0.4.2}Muons}{16}{subsection.0.4.2}
-\contentsline {subsection}{\numberline {0.4.3}Jets}{17}{subsection.0.4.3}
-\contentsline {subsection}{\numberline {0.4.4}Identification of b jets}{18}{subsection.0.4.4}
-\contentsline {subsection}{\numberline {0.4.5}Missing transverse energy}{18}{subsection.0.4.5}
-\contentsline {section}{\numberline {0.5}Event Selection}{20}{section.0.5}
-\contentsline {subsection}{\numberline {0.5.1}Higgs and Z Boson Selection}{20}{subsection.0.5.1}
-\contentsline {subsection}{\numberline {0.5.2}\ensuremath {\mathrm {H}\to \ensuremath {b\mathaccentV {bar}016{b}}\xspace }~and \ensuremath {\mathrm {Z}\to \ell \ell }~variables to define signal and control regions}{24}{subsection.0.5.2}
-\contentsline {subsection}{\numberline {0.5.3}Signal and background characteristics}{25}{subsection.0.5.3}
-\contentsline {subsubsection}{\numberline {0.5.3.1}Data and MC comparison}{27}{subsubsection.0.5.3.1}
-\contentsline {subsubsection}{\numberline {0.5.3.2}Scale Factors}{29}{subsubsection.0.5.3.2}
-\contentsline {section}{\numberline {0.6}BDT Discriminant}{31}{section.0.6}
-\contentsline {section}{\numberline {0.7}Systematic Uncertainties}{47}{section.0.7}
-\contentsline {subsection}{\numberline {0.7.1}Normalization uncertainties}{47}{subsection.0.7.1}
-\contentsline {subsection}{\numberline {0.7.2}Shape uncertainties}{49}{subsection.0.7.2}
-\contentsline {section}{\numberline {0.8}Statistical Analysis}{52}{section.0.8}
-\contentsline {section}{\numberline {0.9}Limits Extraction}{54}{section.0.9}
-\contentsline {subsection}{\numberline {0.9.1}Optimization for the best limit}{54}{subsection.0.9.1}
-\contentsline {subsection}{\numberline {0.9.2}Results from the fit}{55}{subsection.0.9.2}
-\contentsline {section}{\numberline {0.10}Combination of $bbZZ$ results}{61}{section.0.10}
-\contentsline {section}{\numberline {0.11}Conclusions}{64}{section.0.11}
-\contentsline {chapter}{Bibliography}{64}{section.0.11}
-\contentsline {chapter}{References}{65}{section*.44}
+\contentsline {chapter}{\chapternumberline {1}Analysis overview}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Analysis Strategy}{2}{section.1.1}
+\contentsline {chapter}{\chapternumberline {2}Data and Triggers}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Data}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Triggers}{5}{section.2.2}
+\contentsline {chapter}{\chapternumberline {3}Simulated Samples}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Signal simulation}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Background simulation}{14}{section.3.2}
+\contentsline {chapter}{\chapternumberline {4}Physics Objects Reconstruction}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Electrons}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Muons}{18}{section.4.2}
+\contentsline {section}{\numberline {4.3}Jets}{19}{section.4.3}
+\contentsline {section}{\numberline {4.4}Identification of b jets}{20}{section.4.4}
+\contentsline {section}{\numberline {4.5}Missing transverse energy}{20}{section.4.5}
+\contentsline {chapter}{\chapternumberline {5}Event Selection}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}Higgs and Z Boson Selection}{22}{section.5.1}
+\contentsline {section}{\numberline {5.2}\ensuremath {\mathrm {H}\to \ensuremath {b\mathaccentV {bar}016{b}}\xspace }~and \ensuremath {\mathrm {Z}\to \ell \ell }~variables to define signal and control regions}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}Signal and background characteristics}{27}{section.5.3}
+\contentsline {section}{\numberline {5.4}Data and MC comparison}{29}{section.5.4}
+\contentsline {section}{\numberline {5.5}Scale Factors}{31}{section.5.5}
+\contentsline {chapter}{\chapternumberline {6}BDT Discriminant}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Construction of the BDT}{33}{section.6.1}
+\contentsline {chapter}{\chapternumberline {7}Systematic Uncertainties}{49}{chapter.7}
+\contentsline {section}{\numberline {7.1}Normalization uncertainties}{49}{section.7.1}
+\contentsline {section}{\numberline {7.2}Shape uncertainties}{51}{section.7.2}
+\contentsline {chapter}{\chapternumberline {8}Statistical Analysis}{54}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Limits Extraction}{57}{chapter.9}
+\contentsline {section}{\numberline {9.1}Optimization for the best limit}{57}{section.9.1}
+\contentsline {section}{\numberline {9.2}Results from the fit}{58}{section.9.2}
+\contentsline {chapter}{\chapternumberline {10}$bbZZ$ measurements and combination of all HH channels}{64}{chapter.10}
+\contentsline {chapter}{Bibliography}{67}{figure.caption.42}
+\contentsline {chapter}{References}{67}{section*.44}

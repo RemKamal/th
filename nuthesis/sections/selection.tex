@@ -1,6 +1,13 @@
+\chapter{Event Selection}
+\label{ch:selection}
+
 %Two analysis methods are pursued to select samples that can be 
 %used to extract the signal yield from the data in an optimal way.
-\subsection{Higgs and Z Boson Selection}
+The resonances in search decay to two SM Higgs bosons. However, Higgs bosons further decay almost immediately. Therefore, it is critical to reconstruct Higgs bosons decay products with the high precision. 
+
+\section{Higgs and Z Boson Selection}
+
+
 
 Only dilepton pairs having net charge of zero are considered as \ZtoLL~ candidates. 
 Pairs of prompt isolated leptons must have a dilepton mass greater than 76 GeV. This ensures the orthogonality with HIG-17-006 bbVV analysis (later also referred to as bbWW analysis) as well as helps selecting decays of real Z bosons.
@@ -9,9 +16,7 @@ Higgs boson candidates are reconstructed from the b jet pairs utilising the two 
 
 Double Higgs boson candidate is computed as a sum of Lorentz vectors of the \ZtoLL~ candidate, MET, and a \HBB~ candidate. Then, we compute the transverse mass of that object. 
 
-Transverse mass definition that we follow is one of the commonly used and is logical in the sense that we subtract the longitudinal momentum component which leaves us with the transverse momentum components only (while the energy remains the total energy).
-
-More precisely, as the z-component of the neutrinos' momentum is unknown and we decided not to reconstruct it, we form a pseudo transverse mass: $\tilde{M}_T(HH) = \sqrt{E^2 - p_{z}^2}$ (further referred as transverse mass for brevity), where $E$ and $p_z$ are the energy and the z-axis component of the Lorentz energy-momentum vector of the HH candidate.
+This transverse mass definition that we follow is one of the commonly used and is logical in the sense that we subtract the longitudinal momentum component which leaves us with the transverse momentum components only (while the energy remains the total energy). More precisely, as the z-component of the neutrinos' momentum is unknown and we decided not to reconstruct it, we form a pseudo transverse mass: $\tilde{M}_T(HH) = \sqrt{E^2 - p_{z}^2}$ (further referred as transverse mass for brevity), where $E$ and $p_z$ are the energy and the z-axis component of the Lorentz energy-momentum vector of the HH candidate.
 
 The resulting distribution, $\tilde{M}_T(HH)$, is what will be used in the binned shape analysis with the Higgs Combination Tool following the section "Binned shape analysis" as described at the twiki page~\cite{CombinedLimit}. Shape analysis is more sensitive than the simple cut-and-count experiment (one bin distributions) since more information/discrimination power is given to the likelihood function. 
 
@@ -19,8 +24,7 @@ The resulting distribution, $\tilde{M}_T(HH)$, is what will be used in the binne
 %\begin{center}
 %    \small{\texttt{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHiggsAnalysisCombinedLimit}}
 %\end{center}
-Initial data files, called ntuples, have enormous size of the order of more than a Terabyte per background process. To reduce the size of the ntuples and remove obvious background events (to remove signal-like events we apply a sophisticated selection and use a BDT), we apply a "common-sense" HH preselection. It starts with the requirement on dilepton mass 
- be greater than 50 GeV and the event to contain at least two "good" jets - with $p_{T} > 30$ GeV and $|\eta| < 2.4$. In addition to requirements on Higgs bosons decaying to b quarks mentioned above, we define Z bosons as two opposite sign muons with $p_{T} > 20/15$ GeV (leading/subleading lepton) or two opposite sign electrons with $p_{T} > 25/15$ GeV (leading/subleading lepton). 
+Initial data files, called ntuples, have enormous size of the order of more than a Terabyte per background process. To reduce the size of the ntuples and remove clear background events (on the other hand, to remove signal-like events we apply a sophisticated selection and use a BDT), we apply a "common-sense" HH preselection, which starts with the requirement on dilepton mass to be greater than 50 GeV and the event to contain at least two "good" jets - with $p_{T} > 30$ GeV and $|\eta| < 2.4$. In addition to requirements on Higgs bosons decaying to b quarks mentioned above, we define Z bosons as two opposite sign muons with $p_{T} > 20/15$ GeV (leading/subleading lepton) or two opposite sign electrons with $p_{T} > 25/15$ GeV (leading/subleading lepton). 
 
 
 
@@ -28,10 +32,10 @@ Later analysis cuts, the selection chain to improve signal-background separation
 
  \begin{itemize}
  \item  the requirement of at least two b jets in the event, out of which two with the highest CMVAv2 score are used to define \HBB ~candidate
- \item  the lower end cut on the \HBB mass set to 20 GeV to remove the low mass resonances, while giving BDT as many events in the CRDY as possible at the same time. The upper end cut is not explicitly set for the same purpose. The actual \HBB mass distribution after the analysis selection is concentrated in the range 30 to 220 GeV
+ \item  the lower end cut on the \HBB ~mass set to 20 GeV to remove the low mass resonances, while giving BDT as many events in the CRDY as possible at the same time. The upper end cut is not explicitly set for the same purpose. The actual \HBB ~mass distribution after the analysis selection is concentrated in the range 30 to 220 GeV
  \item  the Z boson selection takes the most energetic two leptons of the opposite sign and requires their dilepton mass to pass 76 GeV < Z mass < 106 GeV condition used for the signal region definition. This is a standard $\pm$ 15 GeV window for Z boson selection whose lower end also preserves othogonality with the existing HIG-17-006 bbVV analysis
- \item  HH candidate is approximated by the sum of \ETslash, Z, and \HBB~decays. A loose cut on HH transverse \textgreater~ 100 GeV removes evidently background events
- \item  finally, an additional set of \ETslash cuts is used to ensure orthogonality with the existing HIG-18-013 bbZZ analysis focusing on the 2b jets + 2 leptons + 2 quarks, see Table \ref{metCuts}. The MET cuts have been optimised by both analysis to yield the best limit when the results of two measurements are combined. 
+ \item  HH candidate is approximated by the sum of \ETslash, Z, and \HBB~decays. A loose cut on HH transverse  $>100$ GeV removes evidently background events
+ \item  finally, an additional set of \ETslash cuts is used to ensure orthogonality with the existing HIG-18-013 bbZZ analysis focusing on the 2b jets + 2 leptons + 2 quarks, see Table \ref{metCuts}. The MET cuts have been optimised by both analyses to yield the best limit when the results of two measurements are combined. 
  \end{itemize}
 
 
@@ -66,7 +70,7 @@ Later analysis cuts, the selection chain to improve signal-background separation
 
 
 
-\subsection{\HBB ~and \ZtoLL ~variables to define signal and control regions}
+\section{\HBB ~and \ZtoLL ~variables to define signal and control regions}
 
 In this analysis we define three regions in the \HBB ~and \ZtoLL
 ~space. Two regions, CRDY and CRTT, are used to extract the
@@ -171,14 +175,14 @@ Dibosons      &                        51.4 &                         6.2 \\
 %
 
 
-\subsection{Signal and background characteristics}
+\section{Signal and background characteristics}
 
-The signal region is further purified removing backgrounds further by applying the cut on the BDT
+The signal region is further purified removing backgrounds by applying the cut on the BDT
 output (Table ~\ref{EfficiencyBDT} contains the efficiency numbers for the BDT cut). 
 The first set of BDT variables in the early version of the analysis included 30-50 variables, which could potentially discriminate signal from the background. The set contained variables related to the kinematic properties of the signature, as well as a dozen of angular variables. After the first optimization of the BDT training and produced ranking of variables, nine best variables were determined and chosen to be used for the final analysis. Removal or addition of other variables did not improve the performance significantly. To simplify the analysis, the same set of nine variables is used in both low and high mass trainings and for both spin hypotheses.
 
 With 16 masses points in the range from 250 to 1000 GeV, one can: train 16 discriminants, train one complex hyperparametrised neural network, split the mass range into regions with the similar kinematics and thus train only few BDTs. The latter is the approach that has been adopted by mature (legacy) HH analyses, and we are following the same procedure. We split the mass range into two: low mass and high mass (\`a la HIG-17-002 and HIG-17-008). These simplification costs some performance loss but allows analysis to proceed with just two BDTs instead of training one BDT per mass point, which would require more than a dozen of trainings per heavy resonance. In case of the infinite statistics, training a dedicated BDT for each
-signal mass hypothesis would give a better performance, but in our case we are statistics dominated, thus training only two BDTs also has benefits in terms of the size of the signal sample, absence of the overtraining etc. In addition, the adopted path saves computational resources. Lastly, physics-wise, bbZZ signature is not the most sensitive, bb$\gamma$$\gamma$ is due to an excellent CMS diphoton mass resolution. Thus, the difference in sensitivity is a factor of 30-100 depending on the mass. Therefore, training a dozen of BDTs is clearly impractical. For more discussion on the topic please refer to the chapter \ref{sec:mva}.
+signal mass hypothesis would give a better performance, but in our case we are statistics dominated, thus training only two BDTs also has benefits in terms of the size of the signal sample, absence of the overtraining etc. In addition, the adopted path saves computational resources. Lastly, physics-wise, bbZZ signature is not the most sensitive, bb$\gamma$$\gamma$ is due to an excellent CMS diphoton mass resolution. Thus, the difference in sensitivity is a factor of 30-100 depending on the mass. Therefore, training a dozen of BDTs is clearly impractical. For more discussion on the topic please refer to the chapter \ref{ch:BDT}.
 
 
 
@@ -222,7 +226,7 @@ bbWW, 900 GeV &                    12       &                    23 \\\hline
 
 
 
-\subsubsection{Data and MC comparison\label{sec:compareDataMC}}
+\section{Data and MC comparison\label{sec:compareDataMC}}
 %Signal region BDT sideband plots as well as unblind signal region plots show good data-MC agreements.
 BDT selection is applied in the signal region only, we are not cutting on BDT for control regions, therefore, all the mass
 points belonging to the low mass region (and separately to the high mass region) have the same background and data distributions. Thus, we provide plots for two mass points: one mass point representing low mass region, 300 GeV, and one mass point representing high mass region, 900 GeV. 
@@ -232,14 +236,14 @@ Signal bbZZ and bbWW rates for all plots are multiplied additionally by a factor
 
 %Prefit plots are available in the Appendix ~\ref{sec:datamc}. Control regions only postfit plots have been produced during an extensive discussion with Higgs conveners at HyperNews, and it was shows that upon inclusion of the SR in the fit the data-MC agreement is slightly better. 
 
-Postfit plots that include SR in the simultaneous fit with control regions, hence a common jargon name "Full postfit" plots, in contrast to the control regions only type of the fit, or a control regions plus signal region sideband. Figures ~\ref{fig:MCcomparisons} - ~\ref{fig:MCcomparisons_radion} show data and MC comparison in the SR, CRDY, and CRTT. For both $ee$ and $\mu\mu$ channels, low and high mass regions. The latest style plots produced for the analysis public document (physics analysis summary called "PAS") can be found at Fig.~\ref{fig:MCcomparisons} for the graviton case and Fig.~\ref{fig:MCcomparisons_radion} for the radion case. 
+Postfit plots that include SR in the simultaneous fit with control regions, hence a common jargon name "Full postfit" plots, in contrast to the control regions only type of the fit, or a control regions plus signal region sideband. Figures ~\ref{fig:MCcomparisons} - ~\ref{fig:MCcomparisons_radion} show data and MC comparison in the SR, CRDY, and CRTT. For both $ee$ and $\mu\mu$ channels, low and high mass regions. The latest style plots produced for the analysis public document (Physics Analysis Summary called "PAS") can be found at Fig.~\ref{fig:MCcomparisons} for the graviton case and Fig.~\ref{fig:MCcomparisons_radion} for the radion case. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Distributions of nine variables that go into the BDT have been studied in depth during the pre-approval process and are available in the Appendix of the analysis note ~\cite{bbZZAN}. All variables show good data/MC agreement after applying postfit scale factors (not to be confused with the POG recommended scale factors in the section below). %After the tight isolation cut fix in the HEPPY framework the results/shapes are almost unchanged (it is also can be observed from the table of yields ~\ref{fig:yields_ee}).  At the yields table ~\ref{fig:yields_ee}, 450 GeV mass point, since evaluated using the high mass BDT, is called 451 GeV for clarity purposes. 
-The most important variables in this analysis, namely the BDT itself and the variable that we fit, \mTHH, are shown in the Figs.\ref{fig:MCcomparisons} for graviton and in Figs.\ref{fig:MCcomparisons_radion} for the radion. 
+The most important variables in this analysis, namely the BDT itself and the variable that we fit, \mTHH, are shown in the Fig.~\ref{fig:MCcomparisons} for graviton and in Fig.~\ref{fig:MCcomparisons_radion} for the radion. 
 
 
 \begin{figure}[tbp]
@@ -311,8 +315,8 @@ The most important variables in this analysis, namely the BDT itself and the var
 
 
 
-\subsubsection{Scale Factors}
-%\subsubsection{HLT Lepton Scale Factors}
+\section{Scale Factors}
+%\section{HLT Lepton Scale Factors}
 
 Electron ID and ISO scale factors, as well as HLT scale factors (Fig.~\ref{fig:trigger_eff_diele}), have been computed by VHbb group, which ntuples and analysis setup we reutilise. Scale factors have been presented at the EGamma physics object groups (POG) meeting~\cite{egSF} and fully approved. We reuse those scale factors and apply them to our MC samples. 
 

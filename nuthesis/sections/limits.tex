@@ -1,7 +1,14 @@
-Prior to the derivation of the expected limits, we had to make sure their values are the most sensitive limits that our analysis can set. For that, we have done an optimization study finding the best cut value on the BDT discriminant with the idea to yield the lowest (the most sensitive) limit. For this study, before combination of electron and muon channels, we have optimized two channels separately. Systematical uncertainties were present only of the normalization type (lnN), since we are statistically limited and systematics plays a secondary role. %The latter can be seen running the fit with the "-S 0" option, which ignores systematics entirely. 
-As an example, for a specific analysis setup the 300 GeV fit in the muon channel yields the limit ('r-value') 255.25 (with the systematics but neglecting BBB uncertainties), without systematics the 'r-value' is 238.25. The difference is 17 parts in 255.25, which is just 6.7 $\%$.
+\chapter{Limits Extraction}
+\label{ch:limits}
 
-\subsection{Optimization for the best limit}
+Prior to the derivation of the expected limits, we had to make sure their values are the most sensitive limits that our analysis can set. For that, we have done an optimization study finding the best cut value on the BDT discriminant with the idea to yield the lowest (the most sensitive) limit. 
+
+
+
+\section{Optimization for the best limit}
+
+For this study, before doing the combination of electron and muon channels, we have optimized each of the channels separately. Systematical uncertainties were present only of the normalization type (lnN), since we are statistically limited and systematics plays a secondary role. %The latter can be seen running the fit with the "-S 0" option, which ignores systematics entirely. 
+As an example, for a specific analysis setup the 300 GeV fit in the muon channel yields the limit ('r-value') 255.25 (with the systematics but neglecting BBB uncertainties), without systematics the 'r-value' is 238.25. The difference is 17 parts in 255.25, which is just 6.7 $\%$.
 
 As can be seen from the plots ~\ref{fig:ele_bdt_vs_r} and ~\ref{fig:muon_bdt_vs_r}, for high mass region the best cut to use is 0.99 for both electron and muon channels. For low mass region, the situation is more complicated. Depending on the mass point (and channel!) one cut is better than the other. For electron channel for 400 and 450 GeV mass points the best cut is 0.925. In the lower region, the situation changes, 0.2 for 260 GeV, 0.4 for 270 and 300 GeV, 0.825 for 350 GeV. 
 
@@ -64,8 +71,8 @@ For instance, for muons the best cuts are: 0.1 for 260 and 270 GeV, 0.5 for 300 
 \end{figure}
 
  
-\subsection{Results from the fit}
-The extraction of the results is performed by what is called at CMS "Binned shape analysis". We used Higgs Combination Tool ("HiggsCombine")~\cite{HiggsCombine}, which is a framework with the help of which the Higgs boson has been discovered. HiggsCombine is based on the RooStats package that has been very popular in the HEP community for years. 
+\section{Results from the fit}
+The extraction of the results is performed by what is called at CMS "Binned shape analysis". We used Higgs Combination Tool ("HiggsCombine")~\cite{HiggsCombine}, which is a framework with the help of which the Higgs boson had been discovered. HiggsCombine is based on the RooStats package that has been very popular in the HEP community for years. 
 
 We do a simultaneous fit (\mTHH transverse mass distribution is used) of all three
 regions: signal region and two control regions, to extract both
@@ -79,10 +86,10 @@ comb\_card\_massValue.txt}$.
 
 
 
-The results in the Table ~\ref{finalLimits} are final limits produced with the combined data of electron and muon channels. The corresponding plots, from which these number were extracted, are shown on the Figs. ~\ref{fig:HHlimits}. %Separately limits for electron and muon channels are shown at the Figs. ~\ref{fig:HHlimits}. 
+The results in the Table ~\ref{tab:finalLimits} are final limits produced with the combined data of electron and muon channels. The corresponding plots, from which these numbers were extracted, are shown on the Figs. ~\ref{fig:HHlimits}. %Separately limits for electron and muon channels are shown at the Figs. ~\ref{fig:HHlimits}. 
 
 %The values of the DY and \ttbar normalizations in control regions extracted during the simultaneous fit of signal and control regions are shown in the Tables ~\ref{normalization_electron}, ~\ref{normalization_muon}.%, and ~\ref{normalization_comb}. 
-Full postfit distributions (the naming emphasises that all regions are used in the fit, signal region included) are shown on the Figs. ~\ref{fig:MCcomparisons} for the graviton case and ~\ref{fig:MCcomparisons_radion} for the radion case. 
+Full postfit distributions (the naming emphasises that all regions are used in the fit, signal region included) are shown on the Figs. ~\ref{fig:MCcomparisons} for the graviton case and Figs. ~\ref{fig:MCcomparisons_radion} for the radion case. 
 %Comprehensive study with per channel distributions and for different mass regions can be found on Figs. ~\ref{fig:MCcomparison_mm_300} - ~\ref{fig:MCcomparison_ee_900}.
 
 %The corresponding values of the DY and \ttbar normalizations in the unblinded SR control regions are shown in the Tables ~\ref{normalization_electron_SR}, ~\ref{normalization_muon_SR}.
@@ -117,7 +124,7 @@ Full postfit distributions (the naming emphasises that all regions are used in t
 \begin{center}
 \caption{The expected and observed HH production cross section upper limits at 95\% CL for different
 narrow resonance graviton (top) and radion (bottom) mass hypotheses for both dielectron and dimuon channels combined.}
-\label{finalLimits}
+\label{tab:finalLimits}
 \begin{tabular}{|c|c|c|}
 %\toprule                                                                                                                                        
 \hline

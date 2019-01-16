@@ -1,3 +1,6 @@
+\chapter{Analysis overview}
+\label{ch:an_overview}
+
 In 2012, CMS~\cite{HiggsCMS} and
 ATLAS~\cite{HiggsAtlas} collaborations officially discovered a Higgs-like particle and with that breakthrough the picture of the
 SM \cite{Salam:1961en,Glashow:1961tr,Weinberg:1967tq}
@@ -45,9 +48,11 @@ Model.
 \end{figure}
 
 
-\subsection{Analysis Strategy}
+\section{Analysis Strategy}
 
 The analysis is based on ntuples and object selection from the approved VHbb sister analysis~\cite{VHbb_inspire}. Leptons, b jets, and the missing transverse energy (MET) are reconstructed using the standard CMS procedures~\cite{CMSreco} and the Particle Flow (PF) algorithm~\cite{PFalgo}. b-jets are identified using the Combined MVA v2 (CMVA) algorithm~\cite{BTagtwiki}. Then, on shell Z boson candidates are selected of dilepton pairs of the same flavour with a net charge zero for a pair. Higgs boson candidate decaying to b quarks (Hbb) is reconstructed as a pair of b jets with the highest CMVA output value. Finally, double Higgs boson pseudo-transverse mass, which is used in the shape analysis to extract limits, is constructed computing the transverse mass of the sum of the Lorentz vectors of the two leptons forming the on-shell Z, MET, and a pair of the b jets forming the \HBB. Additionally, a cut on the missing transverse energy is introduced to preserves the orthogonality with the existing HIG-18-013 ``2b 2l 2q'' analysis, which also works with the $bbZZ$ decays. In a similar fashion, the cut on the Z mass ($m_Z > 76$ GeV) is used to orthogonalise the analysis with respect to the HH phase space used in the legacy $bbWW$ analysis where the final signature is identical to ours. Lastly, the cut on the BDT is used to reduce the background contamination in the signal region.
 
 Main backgrounds are \ttbar and Drell-Yan in association with jets. To determine their normalization, we construct two dedicated control region, which are correspondingly \ttbar and Drell-Yan dominated. Then, during the the simultaneous fit of signal region (SR), as well as control region \ttbar (CRTT), and control region Drell-Yan (CRDY), we obtain rates for these processes. Others, minor backgrounds, are single top production, diboson samples (WW, WZ, ZZ), and ZH production and are determined from the Monte Carlo (MC) simulation. 
 %We assign systematics uncertainties on the QCD scale corresponding to each process. Also uncertainty associated with the imperfect knowledge of the single top cross section is added.
+
+In the next chapters we will discuss all of the aspects of the analysis in details starting with the chapter on Data. 

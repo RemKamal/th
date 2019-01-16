@@ -1,5 +1,8 @@
 %\section{Results}
 %\label{sec:results}
+\chapter{Statistical Analysis}
+\label{ch:statistics}
+
 
 The results in this measurement are obtained with the maximum likelihood fit. We perform a simultaneous fit of the SR and both CRs for both dielectron and dimuon channels using the likelihood function constructed as a product
 of Poisson terms over all bins of the input \mTHH distributions in the three regions (SR, CRDY, CRTT) with Gaussian terms to constrain the nuisance parameters:
@@ -9,7 +12,7 @@ of Poisson terms over all bins of the input \mTHH distributions in the three reg
 \cdot \prod_{j=1}^{N_{\mathrm{nuisances}}} e^{-\frac{1}{2}\theta_{j}^{2}}
 \end{align*}
 
-where the product index $i$ refers to the bin of the input distributions, the product index $j$
+\noindent where the product index $i$ refers to the bin of the input distributions, the product index $j$
 refers to uncertainties accounted for by the fit model, and $n_i$ is the number of observed data
 events in the bin $i$. The mean value for each of the Poisson distributions is computed as:
 
@@ -19,9 +22,9 @@ events in the bin $i$. The mean value for each of the Poisson distributions is c
 \end{align*}
 
 
-where $k$ refers to the background process $k$, and $B_{k,i}$ is the content of the bin $i$ of the background
+\noindent where $k$ refers to the background process $k$, and $B_{k,i}$ is the content of the bin $i$ of the background
 shape for a process $k$, while $S_i$ is the content of the bin $i$ of the signal shape. The parameter $r_k$
-sets the normalization of the background process $k$ while $r_{signal}$ is the signal strength parameter, all parameters $r$ are left free to float in the fit.
+sets the normalization of the background process $k$ while $r_{signal}$ is the signal strength parameter, all $r$ parameters are floating freely in the fit.
 Two values of the signal strength parameter are of special interest:  $r_{signal} = 0$ describes the
 background-only hypothesis, while $r_{signal} = 1$ corresponds to the case when the HH cross section
 matches the cross section used for the initial signal normalization inspired by BSM models, 2pb in our case. 
@@ -46,9 +49,9 @@ HH production cross section are set using the modified
 frequentist CL$_s$ approach (asymptotic CL$_s$)~\cite{Junk:1999kv,LEP-CLs, HIG-11-011, Cowan:2010js}.
 
 The observed and expected 95\% upper CL limits for the full mass range
-and both resonances are listed in Table~\ref{tab:finalLimits}. We produce standard CMS Brazilian-flag type plots for the limits, we are shown in Fig.~\ref{fig:HHlimits}. The green and yellow
+and both resonances are listed in Table~\ref{tab:finalLimits}. We produce the standard CMS Brazilian-flag type of plot for the limits, shown in Fig.~\ref{fig:HHlimits}. The green and yellow
 bands correspond to one and two standard deviations around
-the expected limit, respectively. Since 450 GeV is the separation boundary between two mass regions: low mass and high mass, the limit calculation is performed with both of the BDTs at 450 GeV, where the discontinuity is
+the expected limit respectively. Since 450 GeV is the separation boundary between two mass regions: low mass and high mass, the limit calculation is performed with both of the BDTs at 450 GeV, where the discontinuity is
 seen in the figure. The Figure also shows the expected production
 cross section for a RS1 KK graviton/RS1 radion in WED models. %For a scenario with the curvature parameter $k/\overline{M}_{Pl}=0.1$ and the size of the extra dimension $kL=35$.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 This cross section is computed in \cite{Oliveira:2014kla}
