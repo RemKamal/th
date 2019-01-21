@@ -66,7 +66,7 @@
 \usepackage{pdflscape}
 
 %for French https://www.overleaf.com/learn/latex/French
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}  %maybe uncomment this one?
 \usepackage[T1]{fontenc}
 \usepackage{babel}
 
@@ -198,7 +198,7 @@
 %% frontmatter is needed to set the page numbering correctly
 \frontmatter
 
-\title{Search for resonant double Higgs production with bbZZ decays in the $\MakeLowercase{\bbbar\ell\ell\nu\bar{\nu}}$ final state in \MakeLowercase{pp} collisions at ${\sqrt{\MakeLowercase{s}}=\textrm{13 T\MakeLowercase{e}V}}$}
+\title{Search for resonant double Higgs production with \MakeLowercase{bb}ZZ decays in the $\MakeLowercase{\bbbar\ell\ell\nu\bar{\nu}}$ final state in \MakeLowercase{pp} collisions at ${\sqrt{\MakeLowercase{s}}=\textrm{13 T\MakeLowercase{e}V}}$}
 
 \author{Rami Kamalieddin}
 \adviser{Professor Ilya Kravchenko}
@@ -246,9 +246,6 @@
 
 %% Optional
 \begin{acknowledgments}
-
-%\input{nuthesis/sections/Introduction.tex}
-
 \end{acknowledgments}
 
 %% Optional
@@ -280,7 +277,7 @@
 \def\bbar{{\mathchar'26\mkern-9mu b}}
 
 
-%\input{nuthesis/sections/Introduction.tex}
+\input{nuthesis/sections/Introduction.tex}
 
 %\input{nuthesis/sections/Theory.tex}
 
@@ -288,6 +285,10 @@
 
 \input{nuthesis/sections/Hbb-definitions}
 
+
+
+
+\iffalse  % do not forget to end this with "\fi" to have a block invisible for LaTex
 \input{nuthesis/sections/intro} \clearpage
 
 \input{nuthesis/sections/data} \clearpage
@@ -307,6 +308,9 @@
 \input{nuthesis/sections/limits}\clearpage
 
 \input{nuthesis/sections/bbZZcombination.tex}\clearpage
+\fi
+
+
 
 %\input{nuthesis/sections/Conclusions.tex}\clearpage
 
