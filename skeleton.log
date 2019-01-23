@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  21 JAN 2019 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  23 JAN 2019 13:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1127,73 +1127,80 @@ Package pdftex.def Info: nuthesis/images/atom_structure.jpg used on input line
  [1
 
 
-] [2 <./nuthesis/images/atom_structure.jpg>] [3]
-<nuthesis/images/sm_interactions2.png, id=127, 1065.9825pt x 778.91pt>
-File: nuthesis/images/sm_interactions2.png Graphic file (type png)
+] [2 <./nuthesis/images/atom_structure.jpg>]
 
-<use nuthesis/images/sm_interactions2.png>
-Package pdftex.def Info: nuthesis/images/sm_interactions2.png used on input lin
-e 25.
-(pdftex.def)             Requested size: 390.25537pt x 285.14958pt.
- [4] [5 <./nuthesis/images/sm_interactions2.png>] [6]
-<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=158, 595.22375
+LaTeX Warning: Citation `statmech' on page 3 undefined on input line 20.
+
+[3] [4] [5]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 44.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 46.
+[6]
+LaTeX Font Info:    Calculating math sizes for size <> on input line 55.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <> on input line 55.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <0.7> on input line 55.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <0.5> on input line 55.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 55.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 55.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 55.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 55.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 55.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 55.
+
+[7]
+<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=171, 595.22375
 pt x 609.27625pt>
 File: nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png Graphic file 
 (type png)
 
 <use nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png>
 Package pdftex.def Info: nuthesis/images/Standard_Model_Feynman_Diagram_Vertice
-s.png used on input line 41.
+s.png used on input line 69.
 (pdftex.def)             Requested size: 346.89734pt x 355.08177pt.
- [7 <./nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png (PNG copy)>]
+ [8 <./nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png (PNG copy)>]
 
+<nuthesis/images/sm_interactions2.png, id=187, 1065.9825pt x 778.91pt>
+File: nuthesis/images/sm_interactions2.png Graphic file (type png)
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 52.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 54.
-LaTeX Font Info:    Calculating math sizes for size <> on input line 63.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <> on input line 63.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <0.7> on input line 63.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <0.5> on input line 63.
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 63.
-
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 63.
-
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 63.
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 63.
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 63.
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 63.
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 63.
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 63.
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 63.
-
-[8] [9] <nuthesis/images/coupling_ff.png, id=200, 569.12625pt x 546.04pt>
+<use nuthesis/images/sm_interactions2.png>
+Package pdftex.def Info: nuthesis/images/sm_interactions2.png used on input lin
+e 82.
+(pdftex.def)             Requested size: 346.89734pt x 253.47554pt.
+ [9 <./nuthesis/images/sm_interactions2.png>] <nuthesis/images/coupling_ff.png,
+ id=200, 569.12625pt x 546.04pt>
 File: nuthesis/images/coupling_ff.png Graphic file (type png)
 
 <use nuthesis/images/coupling_ff.png>
-Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 108
+Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 106
 .
 (pdftex.def)             Requested size: 346.89734pt x 332.84229pt.
  [10] [11 <./nuthesis/images/coupling_ff.png (PNG copy)>]
@@ -1202,7 +1209,7 @@ File: nuthesis/images/higgs_production.jpg Graphic file (type jpg)
 
 <use nuthesis/images/higgs_production.jpg>
 Package pdftex.def Info: nuthesis/images/higgs_production.jpg used on input lin
-e 119.
+e 117.
 (pdftex.def)             Requested size: 390.25537pt x 288.82771pt.
  [12 <./nuthesis/images/higgs_production.jpg>]
 <nuthesis/images/Higgs_BR_LM_RECT.pdf, id=218, 569.12625pt x 436.63126pt>
@@ -1210,7 +1217,7 @@ File: nuthesis/images/Higgs_BR_LM_RECT.pdf Graphic file (type pdf)
 
 <use nuthesis/images/Higgs_BR_LM_RECT.pdf>
 Package pdftex.def Info: nuthesis/images/Higgs_BR_LM_RECT.pdf used on input lin
-e 132.
+e 130.
 (pdftex.def)             Requested size: 390.25537pt x 299.41707pt.
 )
 (./nuthesis/sections/Hbb-definitions.tex) (./skeleton.bbl [13 <./nuthesis/image
@@ -1443,16 +1450,22 @@ Package rerunfilecheck Info: File `skeleton.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 352.
  ) 
 Here is how much of TeX's memory you used:
- 15249 strings out of 493014
- 219588 string characters out of 6133350
- 368596 words of memory out of 5000000
- 18272 multiletter control sequences out of 15000+600000
+ 15250 strings out of 493014
+ 219598 string characters out of 6133350
+ 368595 words of memory out of 5000000
+ 18273 multiletter control sequences out of 15000+600000
  112522 words of font info for 99 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 52i,11n,46p,2034b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,12n,46p,1978b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
@@ -1470,13 +1483,14 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/lm/lmtt12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-symbols/msbm10.pfb>
-Output written on skeleton.pdf (37 pages, 1186167 bytes).
+ype1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb>
+Output written on skeleton.pdf (37 pages, 1189751 bytes).
 PDF statistics:
- 569 PDF objects out of 1000 (max. 8388607)
- 499 compressed objects within 5 object streams
+ 573 PDF objects out of 1000 (max. 8388607)
+ 501 compressed objects within 6 object streams
  197 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
