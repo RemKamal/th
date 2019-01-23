@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  23 JAN 2019 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  23 JAN 2019 15:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1171,7 +1171,7 @@ LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
 (Font)              size <5> substituted on input line 56.
 
 [7]
-<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=174, 595.22375
+<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=176, 595.22375
 pt x 609.27625pt>
 File: nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png Graphic file 
 (type png)
@@ -1190,7 +1190,7 @@ Package pdftex.def Info: nuthesis/images/sm_interactions2.png used on input lin
 e 84.
 (pdftex.def)             Requested size: 346.89734pt x 253.47554pt.
  [9 <./nuthesis/images/sm_interactions2.png>] <nuthesis/images/coupling_ff.png,
- id=203, 569.12625pt x 546.04pt>
+ id=204, 569.12625pt x 546.04pt>
 File: nuthesis/images/coupling_ff.png Graphic file (type png)
 
 <use nuthesis/images/coupling_ff.png>
@@ -1198,7 +1198,7 @@ Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 108
 .
 (pdftex.def)             Requested size: 346.89734pt x 332.84229pt.
  [10] [11 <./nuthesis/images/coupling_ff.png (PNG copy)>]
-<nuthesis/images/higgs_production.jpg, id=216, 559.8516pt x 414.348pt>
+<nuthesis/images/higgs_production.jpg, id=217, 559.8516pt x 414.348pt>
 File: nuthesis/images/higgs_production.jpg Graphic file (type jpg)
 
 <use nuthesis/images/higgs_production.jpg>
@@ -1206,7 +1206,7 @@ Package pdftex.def Info: nuthesis/images/higgs_production.jpg used on input lin
 e 120.
 (pdftex.def)             Requested size: 390.25537pt x 288.82771pt.
  [12 <./nuthesis/images/higgs_production.jpg>]
-<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=222, 569.12625pt x 436.63126pt>
+<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=223, 569.12625pt x 436.63126pt>
 File: nuthesis/images/Higgs_BR_LM_RECT.pdf Graphic file (type pdf)
 
 <use nuthesis/images/Higgs_BR_LM_RECT.pdf>
@@ -1453,7 +1453,7 @@ Here is how much of TeX's memory you used:
  18274 multiletter control sequences out of 15000+600000
  112522 words of font info for 99 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 52i,12n,46p,1978b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,11n,46p,1978b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
@@ -1475,10 +1475,10 @@ ype1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on skeleton.pdf (38 pages, 1190316 bytes).
+Output written on skeleton.pdf (38 pages, 1190388 bytes).
 PDF statistics:
- 584 PDF objects out of 1000 (max. 8388607)
- 511 compressed objects within 6 object streams
+ 585 PDF objects out of 1000 (max. 8388607)
+ 512 compressed objects within 6 object streams
  200 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
