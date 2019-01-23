@@ -56,6 +56,7 @@ You're missing a field name---line 1931 of file nuthesis/sections/bibl.bib
 I'm skipping whatever remains of this entry
 Warning--empty journal in Mangano:454171
 Warning--there's a number but no volume in Mangano:454171
+Warning--empty author in CMS-PAS-HIG-14-009
 Warning--all relevant fields are empty in ...
 Warning--empty author in HIG-11-011
 Warning--empty journal in Huang:2017nnw
@@ -74,45 +75,45 @@ Warning--empty journal in Gröbner:356437
 Warning--there's a number but no volume in Gröbner:356437
 Warning--empty author in CMS-PAS-FTR-18-019
 Warning--empty author in CMS-PAS-HIG-17-030
-You've used 144 entries,
+You've used 146 entries,
             1791 wiz_defined-function locations,
-            1249 strings with 26310 characters,
-and the built_in function-call counts, 25563 in all, are:
-= -- 2158
-> -- 1077
-< -- 16
-+ -- 431
-- -- 287
-* -- 1426
-:= -- 4183
-add.period$ -- 422
-call.type$ -- 144
-change.case$ -- 130
+            1256 strings with 26541 characters,
+and the built_in function-call counts, 25824 in all, are:
+= -- 2182
+> -- 1082
+< -- 17
++ -- 434
+- -- 288
+* -- 1438
+:= -- 4223
+add.period$ -- 427
+call.type$ -- 146
+change.case$ -- 131
 chr.to.int$ -- 0
-cite$ -- 164
-duplicate$ -- 1151
-empty$ -- 2742
-format.name$ -- 287
-if$ -- 5699
+cite$ -- 167
+duplicate$ -- 1168
+empty$ -- 2773
+format.name$ -- 288
+if$ -- 5760
 int.to.chr$ -- 0
-int.to.str$ -- 144
-missing$ -- 106
-newline$ -- 708
-num.names$ -- 129
-pop$ -- 426
+int.to.str$ -- 146
+missing$ -- 108
+newline$ -- 717
+num.names$ -- 130
+pop$ -- 434
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 497
+skip$ -- 501
 stack$ -- 0
 substring$ -- 1214
-swap$ -- 148
-text.length$ -- 16
+swap$ -- 150
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 20
-while$ -- 210
-width$ -- 147
-write$ -- 1480
+warning$ -- 21
+while$ -- 211
+width$ -- 149
+write$ -- 1501
 (There were 10 error messages)

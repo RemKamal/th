@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  23 JAN 2019 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  23 JAN 2019 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1127,104 +1127,98 @@ Package pdftex.def Info: nuthesis/images/atom_structure.jpg used on input line
  [1
 
 
-] [2 <./nuthesis/images/atom_structure.jpg>]
+] [2 <./nuthesis/images/atom_structure.jpg>] [3] [4] [5] [6]
 
-LaTeX Warning: Citation `statmech' on page 3 undefined on input line 20.
-
-[3] [4] [5]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 44.
+LaTeX Font Warning: Command \small invalid in math mode on input line 45.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 46.
-[6]
-LaTeX Font Info:    Calculating math sizes for size <> on input line 55.
+(Font)              <10.95> on input line 47.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 56.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <> on input line 55.
+(Font)              <> on input line 56.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <0.7> on input line 55.
+(Font)              <0.7> on input line 56.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <0.5> on input line 55.
-
+(Font)              <0.5> on input line 56.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 55.
+(Font)              size <5> substituted on input line 56.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 55.
+(Font)              size <5> substituted on input line 56.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 55.
+(Font)              size <5> substituted on input line 56.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 56.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 55.
+(Font)              size <5> substituted on input line 56.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 56.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 55.
+(Font)              size <5> substituted on input line 56.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 56.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 55.
+(Font)              size <5> substituted on input line 56.
 
 [7]
-<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=171, 595.22375
+<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=174, 595.22375
 pt x 609.27625pt>
 File: nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png Graphic file 
 (type png)
 
 <use nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png>
 Package pdftex.def Info: nuthesis/images/Standard_Model_Feynman_Diagram_Vertice
-s.png used on input line 69.
+s.png used on input line 71.
 (pdftex.def)             Requested size: 346.89734pt x 355.08177pt.
  [8 <./nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png (PNG copy)>]
 
-<nuthesis/images/sm_interactions2.png, id=187, 1065.9825pt x 778.91pt>
+<nuthesis/images/sm_interactions2.png, id=188, 1065.9825pt x 778.91pt>
 File: nuthesis/images/sm_interactions2.png Graphic file (type png)
 
 <use nuthesis/images/sm_interactions2.png>
 Package pdftex.def Info: nuthesis/images/sm_interactions2.png used on input lin
-e 82.
+e 84.
 (pdftex.def)             Requested size: 346.89734pt x 253.47554pt.
  [9 <./nuthesis/images/sm_interactions2.png>] <nuthesis/images/coupling_ff.png,
- id=200, 569.12625pt x 546.04pt>
+ id=203, 569.12625pt x 546.04pt>
 File: nuthesis/images/coupling_ff.png Graphic file (type png)
 
 <use nuthesis/images/coupling_ff.png>
-Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 106
+Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 108
 .
 (pdftex.def)             Requested size: 346.89734pt x 332.84229pt.
  [10] [11 <./nuthesis/images/coupling_ff.png (PNG copy)>]
-<nuthesis/images/higgs_production.jpg, id=212, 559.8516pt x 414.348pt>
+<nuthesis/images/higgs_production.jpg, id=216, 559.8516pt x 414.348pt>
 File: nuthesis/images/higgs_production.jpg Graphic file (type jpg)
 
 <use nuthesis/images/higgs_production.jpg>
 Package pdftex.def Info: nuthesis/images/higgs_production.jpg used on input lin
-e 117.
+e 120.
 (pdftex.def)             Requested size: 390.25537pt x 288.82771pt.
  [12 <./nuthesis/images/higgs_production.jpg>]
-<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=218, 569.12625pt x 436.63126pt>
+<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=222, 569.12625pt x 436.63126pt>
 File: nuthesis/images/Higgs_BR_LM_RECT.pdf Graphic file (type pdf)
 
 <use nuthesis/images/Higgs_BR_LM_RECT.pdf>
 Package pdftex.def Info: nuthesis/images/Higgs_BR_LM_RECT.pdf used on input lin
-e 130.
+e 133.
 (pdftex.def)             Requested size: 390.25537pt x 299.41707pt.
 )
 (./nuthesis/sections/Hbb-definitions.tex) (./skeleton.bbl [13 <./nuthesis/image
 s/Higgs_BR_LM_RECT.pdf>]
 bibitemlist
 
-Underfull \hbox (badness 1490) in paragraph at lines 39--44
+Underfull \hbox (badness 1490) in paragraph at lines 44--49
 []\T1/lmr/m/n/12 G. Danby, J-M. Gail-lard, K. Gou-lianos, L. M. Le-d-er-man, N.
  Mis-try,
  []
@@ -1232,203 +1226,203 @@ Underfull \hbox (badness 1490) in paragraph at lines 39--44
 [14
 
 ] [15] [16]
-Overfull \hbox (113.26103pt too wide) in paragraph at lines 187--190
+Overfull \hbox (113.26103pt too wide) in paragraph at lines 197--200
 \T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
 es_expectedSignal0_350.html. 
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 192--195
+Underfull \hbox (badness 5446) in paragraph at lines 202--205
 []\T1/lmr/m/n/12 Comparison of nui-sances for s+b case, 350 GeV mass hy-poth-e-
 sis.
  []
 
 
-Overfull \hbox (113.26103pt too wide) in paragraph at lines 192--195
+Overfull \hbox (113.26103pt too wide) in paragraph at lines 202--205
 \T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
 es_expectedSignal1_350.html. 
  []
 
-
-Overfull \hbox (104.27762pt too wide) in paragraph at lines 197--200
+[17]
+Overfull \hbox (104.27762pt too wide) in paragraph at lines 207--210
 []\T1/lmr/m/n/12 k-factor for DY/Z.  https://twiki.cern.ch/twiki/bin/viewauth/C
 MS/SummaryTable1G25ns#DY_Z. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
 []\T1/lmr/m/n/12 The LHC Higgs cross-section work-ing group.
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 206--209
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--219
 []\T1/lmr/m/n/12 Standard Model Cross Sec-tions for CMS at 13 TeV.
  []
 
 
-Overfull \hbox (85.97568pt too wide) in paragraph at lines 206--209
+Overfull \hbox (85.97568pt too wide) in paragraph at lines 216--219
 \T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossS
 ectionsat13TeVInclusive. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--214
+Underfull \hbox (badness 10000) in paragraph at lines 221--224
 []\T1/lmr/m/n/12 SM Higgs pro-duc-tion cross sec-tions at sqrt(s) = 13 TeV.
  []
 
 
-Overfull \hbox (187.9129pt too wide) in paragraph at lines 211--214
+Overfull \hbox (187.9129pt too wide) in paragraph at lines 221--224
 \T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReport
 PageAt13TeV#ZHllH_H_l_e_or_Process. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--219
+Underfull \hbox (badness 10000) in paragraph at lines 226--229
 []\T1/lmr/m/n/12 NNLO+NNLL top-quark-pair cross sec-tions.
  []
 
 
-Overfull \hbox (126.06226pt too wide) in paragraph at lines 216--219
+Overfull \hbox (126.06226pt too wide) in paragraph at lines 226--229
 \T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO#Top_qu
 ark_pair_cross_sections_at. 
  []
 
 
-Overfull \hbox (64.26439pt too wide) in paragraph at lines 221--223
+Overfull \hbox (64.26439pt too wide) in paragraph at lines 231--233
 []\T1/lmr/m/n/12 Single Top Cross sec-tions.  https://twiki.cern.ch/twiki/bin/v
 iewauth/CMS/SingleTopSigma. 
  []
 
 
-Overfull \hbox (298.41599pt too wide) in paragraph at lines 225--228
+Overfull \hbox (298.41599pt too wide) in paragraph at lines 235--238
 []\T1/lmr/m/n/12 CMS GEN XSEC Task Force.  https://twiki.cern.ch/twiki/bin/view
 auth/CMS/GenXsecTaskForce#Space_for_Various_Processes_Welc. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--234
+Underfull \hbox (badness 10000) in paragraph at lines 240--244
 []\T1/lmr/m/n/12 SM Higgs Branch-ing Ra-tios and To-tal De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--234
+Underfull \hbox (badness 10000) in paragraph at lines 240--244
 \T1/lmr/m/n/12 cay Widths (up-date in CERN Re-port4 2016).
  []
 
 
-Overfull \hbox (142.47328pt too wide) in paragraph at lines 230--234
+Overfull \hbox (142.47328pt too wide) in paragraph at lines 240--244
 \T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReport
 PageBR#Higgs_2_gauge_bosons. 
  []
 
 [18]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 297.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 307.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+Underfull \hbox (badness 10000) in paragraph at lines 304--308
 \T1/lmtt/m/n/12 contributions / 2465881 / attachments / 1407735 / 2151747 / TnP
  _ 06 _ 02 _ 2017 .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--304
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 310--314
 \T1/lmtt/m/n/12 ch / twiki / bin / view / CMS / MuonWorkInProgressAndPagResults
  # Results _ on _
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 306--310
+Underfull \hbox (badness 4608) in paragraph at lines 316--320
 []\T1/lmr/m/n/12 Gael L. Per-rin.  Dou-ble Muon trig-ger ef-fi-ciency per-leg a
 p-proach.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--310
+Underfull \hbox (badness 10000) in paragraph at lines 316--320
 []$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 636555 / contributi
 ons / 2577291 /
  []
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 357--361
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/lmtt/m/n/12 twiki . cern . ch / twiki / bin / viewauth / CMS / BtagRecommen
 dation80XReReco #
  []
 
-[20] [21] [22] [23]
-Underfull \hbox (badness 4132) in paragraph at lines 554--558
+[21] [22] [23]
+Underfull \hbox (badness 4132) in paragraph at lines 564--568
 []\T1/lmr/m/n/12 CMS Muon POG.  Ref-er-ence muon id, iso-la-tion and trig-ger e
 f-fi-
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 554--558
+Underfull \hbox (badness 1259) in paragraph at lines 564--568
 \T1/lmr/m/n/12 cien-cies for Run-II.  []$\T1/lmtt/m/n/12 https : / / twiki . ce
 rn . ch / twiki / bin / viewauth / CMS /
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 618--622
+[24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 628--632
 []$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 604949 / contributi
 ons / 2543520 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--622
+Underfull \hbox (badness 10000) in paragraph at lines 628--632
 \T1/lmtt/m/n/12 attachments / 1439974 / 2216426 / VHbb _ TnP _ SFs _ egamma _ a
 pril . pdf #
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--622
+Underfull \hbox (badness 10000) in paragraph at lines 628--632
 \T1/lmtt/m/n/12 search = vhbb % 20AND % 20cerntaxonomy % 3A % 22Indico % 2FExpe
 riments % 2FCMS %
  []
 
-[25]
-Underfull \hbox (badness 6995) in paragraph at lines 641--645
+
+Underfull \hbox (badness 6995) in paragraph at lines 651--655
 []\T1/lmr/m/n/12 CMS EGM POG.  Mul-ti-vari-ate Elec-tron Iden-ti-fi-ca-tion for
  Run2.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 641--645
+Underfull \hbox (badness 10000) in paragraph at lines 651--655
 []$\T1/lmtt/m/n/12 https : / / twiki . cern . ch / twiki / bin / viewauth / CMS
  / Multivari \
  []
 
-
-Underfull \hbox (badness 3354) in paragraph at lines 653--658
+[26]
+Underfull \hbox (badness 3354) in paragraph at lines 663--668
 []\T1/lmr/m/n/12 CMS Higgs WG.  Doc-u-men-ta-tion of the RooSt-ats -based stati
 s-tics
  []
 
 
-Underfull \hbox (badness 3525) in paragraph at lines 653--658
+Underfull \hbox (badness 3525) in paragraph at lines 663--668
 \T1/lmr/m/n/12 tools for Higgs PAG.  []$\T1/lmtt/m/n/12 https : / / twiki . cer
 n . ch / twiki / bin / view / CMS /
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 660--664
+Underfull \hbox (badness 6641) in paragraph at lines 670--674
 []\T1/lmr/m/n/12 CMS Higgs WG.  Binned shape anal-y-sis with the Higgs Com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--664
+Underfull \hbox (badness 10000) in paragraph at lines 670--674
 \T1/lmr/m/n/12 bi-na-tion Tool.  []$\T1/lmtt/m/n/12 https : / / twiki . cern . 
 ch / twiki / bin / view / CMS /
  []
 
-[26] [27] [28])
+[27] [28] [29])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
 (in both cases you will find help in the memoir manual). on input line 352.
 
-[29]
+[30]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -1450,19 +1444,13 @@ Package rerunfilecheck Info: File `skeleton.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 352.
  ) 
 Here is how much of TeX's memory you used:
- 15250 strings out of 493014
- 219598 string characters out of 6133350
- 368595 words of memory out of 5000000
- 18273 multiletter control sequences out of 15000+600000
+ 15254 strings out of 493014
+ 219661 string characters out of 6133350
+ 368668 words of memory out of 5000000
+ 18274 multiletter control sequences out of 15000+600000
  112522 words of font info for 99 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  52i,12n,46p,1978b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1487,10 +1475,10 @@ ype1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on skeleton.pdf (37 pages, 1189751 bytes).
+Output written on skeleton.pdf (38 pages, 1190316 bytes).
 PDF statistics:
- 573 PDF objects out of 1000 (max. 8388607)
- 501 compressed objects within 6 object streams
- 197 named destinations out of 1000 (max. 500000)
+ 584 PDF objects out of 1000 (max. 8388607)
+ 511 compressed objects within 6 object streams
+ 200 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

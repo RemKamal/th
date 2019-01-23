@@ -21,6 +21,11 @@ Jennifer Ouellette.
 \newblock Einstein's quest for a unified theory.
 \newblock {\em APS}, 2015.
 
+\bibitem{statmech}
+Erwin Schrödinger.
+\newblock {\em {Statistical thermodynamics; 2nd ed.}}
+\newblock Cambridge Univ. Press, Cambridge, 1952.
+
 \bibitem{Davis:1989898}
 E~A Davis and Isabel Falconer.
 \newblock {\em {J.J. Thompson and the discovery of the electron}}.
@@ -58,6 +63,10 @@ S.~M. Bilenky.
 \newblock {Neutrino in Standard Model and beyond}.
 \newblock {\em Phys. Part. Nucl.}, 46(4):475--496, 2015.
 
+\bibitem{wolfram}
+Eric~W. Weisstein.
+\newblock Fundamental forces.
+
 \bibitem{Chandrasekhar:1187874}
 S~Chandrasekhar.
 \newblock {\em {Newton's principia for the common reader}}.
@@ -81,10 +90,6 @@ W~N Cottingham and D~A Greenwood.
 \newblock {\em {An Introduction to the Standard Model of Particle Physics; 2nd
   ed.}}
 \newblock Cambridge Univ. Press, Cambridge, 2007.
-
-\bibitem{wolfram}
-Eric~W. Weisstein.
-\newblock Fundamental forces.
 
 \bibitem{qed_fathers}
 Andrew Wayne.
@@ -133,6 +138,11 @@ Pauline Gagnon.
 \newblock {\em Who cares about particle physics? : making sense of the Higgs
   boson, the Large Hadron Collider and CERN}.
 \newblock Oxford University Press, 2016.
+
+\bibitem{CMS-PAS-HIG-14-009}
+{Precise determination of the mass of the Higgs boson and studies of the
+  compatibility of its couplings with the standard model}.
+\newblock Technical Report CMS-PAS-HIG-14-009, CERN, Geneva, 2014.
 
 \bibitem{...}
 
