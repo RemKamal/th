@@ -2,5 +2,5 @@
 \contentsline {chapter}{List of Figures}{vii}{section*.1}
 \contentsline {chapter}{List of Tables}{viii}{section*.2}
 \contentsline {chapter}{\chapternumberline {1}Conclusions}{1}{chapter.1}
-\contentsline {chapter}{Bibliography}{5}{figure.caption.4}
-\contentsline {chapter}{References}{5}{section*.6}
+\contentsline {chapter}{Bibliography}{6}{figure.caption.4}
+\contentsline {chapter}{References}{6}{section*.6}

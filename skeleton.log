@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  11 FEB 2019 16:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  27 FEB 2019 11:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1124,7 +1124,7 @@ LaTeX Warning: Citation `CMS-PAS-HIG-17-032' on page 1 undefined on input line
 [1
 
 
-] [2] <nuthesis/images/uni_of_geneva.png, id=81, 4087.27pt x 2322.6775pt>
+] [2] <nuthesis/images/uni_of_geneva.png, id=85, 4087.27pt x 2322.6775pt>
 File: nuthesis/images/uni_of_geneva.png Graphic file (type png)
 
 <use nuthesis/images/uni_of_geneva.png>
@@ -1132,49 +1132,49 @@ Package pdftex.def Info: nuthesis/images/uni_of_geneva.png used on input line 4
 1.
 (pdftex.def)             Requested size: 234.1519pt x 133.04611pt.
 
-<nuthesis/images/scoollab3.png, id=83, 1445.4pt x 903.375pt>
+<nuthesis/images/scoollab3.png, id=87, 1445.4pt x 903.375pt>
 File: nuthesis/images/scoollab3.png Graphic file (type png)
 
 <use nuthesis/images/scoollab3.png>
 Package pdftex.def Info: nuthesis/images/scoollab3.png used on input line 42.
 (pdftex.def)             Requested size: 234.1519pt x 146.33492pt.
 
-<nuthesis/images/finance1.png, id=84, 1319.93124pt x 728.7225pt>
+<nuthesis/images/finance1.png, id=88, 1319.93124pt x 728.7225pt>
 File: nuthesis/images/finance1.png Graphic file (type png)
 
 <use nuthesis/images/finance1.png>
 Package pdftex.def Info: nuthesis/images/finance1.png used on input line 43.
 (pdftex.def)             Requested size: 234.1519pt x 129.26297pt.
 
-<nuthesis/images/finance2.jpg, id=85, 7797.13pt x 3888.5275pt>
+<nuthesis/images/finance2.jpg, id=89, 7797.13pt x 3888.5275pt>
 File: nuthesis/images/finance2.jpg Graphic file (type jpg)
 
 <use nuthesis/images/finance2.jpg>
 Package pdftex.def Info: nuthesis/images/finance2.jpg used on input line 44.
 (pdftex.def)             Requested size: 234.1519pt x 116.76945pt.
 
-<nuthesis/images/finance3.png, id=86, 1147.28625pt x 872.25874pt>
+<nuthesis/images/finance3.png, id=90, 1147.28625pt x 872.25874pt>
 File: nuthesis/images/finance3.png Graphic file (type png)
 
 <use nuthesis/images/finance3.png>
 Package pdftex.def Info: nuthesis/images/finance3.png used on input line 45.
 (pdftex.def)             Requested size: 234.1519pt x 178.01563pt.
 
-<nuthesis/images/boxing1.jpg, id=87, 786.94pt x 524.96124pt>
+<nuthesis/images/boxing1.jpg, id=91, 786.94pt x 524.96124pt>
 File: nuthesis/images/boxing1.jpg Graphic file (type jpg)
 
 <use nuthesis/images/boxing1.jpg>
 Package pdftex.def Info: nuthesis/images/boxing1.jpg used on input line 46.
 (pdftex.def)             Requested size: 234.1519pt x 156.19994pt.
 
-<nuthesis/images/boxing2.png, id=88, 930.47626pt x 471.7625pt>
+<nuthesis/images/boxing2.png, id=92, 930.47626pt x 471.7625pt>
 File: nuthesis/images/boxing2.png Graphic file (type png)
 
 <use nuthesis/images/boxing2.png>
 Package pdftex.def Info: nuthesis/images/boxing2.png used on input line 47.
 (pdftex.def)             Requested size: 234.1519pt x 118.71776pt.
 
-<nuthesis/images/boxing4.jpg, id=89, 1084.05pt x 721.69624pt>
+<nuthesis/images/boxing4.jpg, id=93, 1084.05pt x 721.69624pt>
 File: nuthesis/images/boxing4.jpg Graphic file (type jpg)
 
 <use nuthesis/images/boxing4.jpg>
@@ -1206,25 +1206,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--49
  []
 
 
-LaTeX Warning: Float too large for page by 10.93475pt on input line 50.
+LaTeX Warning: Float too large for page by 61.73476pt on input line 51.
 
+[3
+
+]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [3
-
-] [4 <./nuthesis/images/uni_of_geneva.png> <./nuthesis/images/scoollab3.png> <.
-/nuthesis/images/finance1.png> <./nuthesis/images/finance2.jpg> <./nuthesis/ima
-ges/finance3.png> <./nuthesis/images/boxing1.jpg> <./nuthesis/images/boxing2.pn
-g> <./nuthesis/images/boxing4.jpg>] (./skeleton.bbl
+) [4] [5 <./nuthesis/images/uni_of_geneva.png> <./nuthesis/images/scoollab3.png
+> <./nuthesis/images/finance1.png> <./nuthesis/images/finance2.jpg> <./nuthesis
+/images/finance3.png> <./nuthesis/images/boxing1.jpg> <./nuthesis/images/boxing
+2.png> <./nuthesis/images/boxing4.jpg>] (./skeleton.bbl
 bibitemlist
-[5
+[6
 
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 53.
- [6] [7]
+ [7] [8]
 Overfull \hbox (76.56113pt too wide) in paragraph at lines 197--200
 \T1/lmr/m/n/10.95 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuis
 ances_expectedSignal0_350.html. 
@@ -1294,13 +1295,13 @@ Overfull \hbox (249.21623pt too wide) in paragraph at lines 235--238
 iewauth/CMS/GenXsecTaskForce#Space_for_Various_Processes_Welc. 
  []
 
-[8]
+[9]
 Overfull \hbox (103.75352pt too wide) in paragraph at lines 240--244
 \T1/lmr/m/n/10.95 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowRep
 ortPageBR#Higgs_2_gauge_bosons. 
  []
 
-[9]
+[10]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 307.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1329,7 +1330,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--320
 77291 / attachments /
  []
 
-[10]
+[11]
 Underfull \hbox (badness 2245) in paragraph at lines 367--371
 []\T1/lmr/m/n/10.95 CMS BTV POG.  Sup-ported Al-go-rithms and Op-er-at-ing Poin
 ts.  []$\T1/lmtt/m/n/10.95 https :
@@ -1341,7 +1342,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--371
 ecommendation80XReReco #
  []
 
-[11] [12] [13] [14]
+[12] [13] [14] [15]
 Underfull \hbox (badness 3078) in paragraph at lines 628--632
 []\T1/lmr/m/n/10.95 Chris Palmer.  VHbb Elec-tron Trig-ger and ID+ISO SFs for 2
 016 data.
@@ -1365,7 +1366,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 628--632
 eetings % 2FPH % 20 %
  []
 
-[15]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 651--655
 []\T1/lmr/m/n/10.95 CMS EGM POG.  Mul-ti-vari-ate Elec-tron Iden-ti-fi-ca-tion 
 for
@@ -1395,14 +1396,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 670--674
 ggsAnalysisCombinedLimit #
  []
 
-[16] [17] [18])
+[17] [18] [19])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
 (in both cases you will find help in the memoir manual). on input line 351.
 
-[19]
+[20]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -1426,33 +1427,34 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
- 15195 strings out of 493014
- 218859 string characters out of 6133350
- 365997 words of memory out of 5000000
- 18242 multiletter control sequences out of 15000+600000
- 96943 words of font info for 76 fonts, out of 8000000 for 9000
+ 15200 strings out of 493014
+ 218920 string characters out of 6133350
+ 366415 words of memory out of 5000000
+ 18245 multiletter control sequences out of 15000+600000
+ 99938 words of font info for 77 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  52i,11n,46p,1356b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
 fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/lm/lmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
-m/lmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/lm/lmri10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr
-i12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri8.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on skeleton.pdf (27 pages, 33533454 bytes).
+1/public/lm/lmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
+m/lmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr
+i10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/lm/lmtt10.pfb>
+Output written on skeleton.pdf (28 pages, 33556599 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 391 compressed objects within 4 object streams
- 181 named destinations out of 1000 (max. 500000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 401 compressed objects within 5 object streams
+ 182 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
