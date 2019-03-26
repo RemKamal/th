@@ -75,45 +75,46 @@ Warning--empty journal in Gröbner:356437
 Warning--there's a number but no volume in Gröbner:356437
 Warning--empty author in CMS-PAS-FTR-18-019
 Warning--empty author in CMS-PAS-HIG-17-030
-You've used 146 entries,
+Warning--empty author in CMS-PAS-HIG-17-032
+You've used 148 entries,
             1791 wiz_defined-function locations,
-            1256 strings with 26541 characters,
-and the built_in function-call counts, 25824 in all, are:
-= -- 2182
-> -- 1082
-< -- 17
-+ -- 434
-- -- 288
-* -- 1438
-:= -- 4223
-add.period$ -- 427
-call.type$ -- 146
-change.case$ -- 131
+            1265 strings with 26754 characters,
+and the built_in function-call counts, 26154 in all, are:
+= -- 2216
+> -- 1087
+< -- 18
++ -- 437
+- -- 289
+* -- 1462
+:= -- 4273
+add.period$ -- 432
+call.type$ -- 148
+change.case$ -- 133
 chr.to.int$ -- 0
-cite$ -- 167
-duplicate$ -- 1168
-empty$ -- 2773
-format.name$ -- 288
-if$ -- 5760
+cite$ -- 170
+duplicate$ -- 1184
+empty$ -- 2808
+format.name$ -- 289
+if$ -- 5832
 int.to.chr$ -- 0
-int.to.str$ -- 146
-missing$ -- 108
-newline$ -- 717
-num.names$ -- 130
-pop$ -- 434
+int.to.str$ -- 148
+missing$ -- 109
+newline$ -- 726
+num.names$ -- 131
+pop$ -- 437
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 501
+skip$ -- 506
 stack$ -- 0
-substring$ -- 1214
-swap$ -- 150
-text.length$ -- 17
+substring$ -- 1239
+swap$ -- 152
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 21
-while$ -- 211
-width$ -- 149
-write$ -- 1501
+warning$ -- 22
+while$ -- 214
+width$ -- 151
+write$ -- 1522
 (There were 10 error messages)

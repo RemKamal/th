@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  27 FEB 2019 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  26 MAR 2019 13:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1116,294 +1116,311 @@ Overfull \hbox (0.16273pt too wide) detected at line 3
 ] (./skeleton.lot) [8
 
 ]
-(./nuthesis/sections/Hbb-definitions.tex) (./nuthesis/sections/Conclusions.tex
+(./nuthesis/sections/Introduction.tex
+<nuthesis/images/atom_structure.jpg, id=85, 614.295pt x 614.295pt>
+File: nuthesis/images/atom_structure.jpg Graphic file (type jpg)
 
-LaTeX Warning: Citation `CMS-PAS-HIG-17-032' on page 1 undefined on input line 
-16.
-
-[1
-
-
-] [2] <nuthesis/images/uni_of_geneva.png, id=85, 4087.27pt x 2322.6775pt>
-File: nuthesis/images/uni_of_geneva.png Graphic file (type png)
-
-<use nuthesis/images/uni_of_geneva.png>
-Package pdftex.def Info: nuthesis/images/uni_of_geneva.png used on input line 4
-1.
-(pdftex.def)             Requested size: 234.1519pt x 133.04611pt.
-
-<nuthesis/images/scoollab3.png, id=87, 1445.4pt x 903.375pt>
-File: nuthesis/images/scoollab3.png Graphic file (type png)
-
-<use nuthesis/images/scoollab3.png>
-Package pdftex.def Info: nuthesis/images/scoollab3.png used on input line 42.
-(pdftex.def)             Requested size: 234.1519pt x 146.33492pt.
-
-<nuthesis/images/finance1.png, id=88, 1319.93124pt x 728.7225pt>
-File: nuthesis/images/finance1.png Graphic file (type png)
-
-<use nuthesis/images/finance1.png>
-Package pdftex.def Info: nuthesis/images/finance1.png used on input line 43.
-(pdftex.def)             Requested size: 234.1519pt x 129.26297pt.
-
-<nuthesis/images/finance2.jpg, id=89, 7797.13pt x 3888.5275pt>
-File: nuthesis/images/finance2.jpg Graphic file (type jpg)
-
-<use nuthesis/images/finance2.jpg>
-Package pdftex.def Info: nuthesis/images/finance2.jpg used on input line 44.
-(pdftex.def)             Requested size: 234.1519pt x 116.76945pt.
-
-<nuthesis/images/finance3.png, id=90, 1147.28625pt x 872.25874pt>
-File: nuthesis/images/finance3.png Graphic file (type png)
-
-<use nuthesis/images/finance3.png>
-Package pdftex.def Info: nuthesis/images/finance3.png used on input line 45.
-(pdftex.def)             Requested size: 234.1519pt x 178.01563pt.
-
-<nuthesis/images/boxing1.jpg, id=91, 786.94pt x 524.96124pt>
-File: nuthesis/images/boxing1.jpg Graphic file (type jpg)
-
-<use nuthesis/images/boxing1.jpg>
-Package pdftex.def Info: nuthesis/images/boxing1.jpg used on input line 46.
-(pdftex.def)             Requested size: 234.1519pt x 156.19994pt.
-
-<nuthesis/images/boxing2.png, id=92, 930.47626pt x 471.7625pt>
-File: nuthesis/images/boxing2.png Graphic file (type png)
-
-<use nuthesis/images/boxing2.png>
-Package pdftex.def Info: nuthesis/images/boxing2.png used on input line 47.
-(pdftex.def)             Requested size: 234.1519pt x 118.71776pt.
-
-<nuthesis/images/boxing4.jpg, id=93, 1084.05pt x 721.69624pt>
-File: nuthesis/images/boxing4.jpg Graphic file (type jpg)
-
-<use nuthesis/images/boxing4.jpg>
-Package pdftex.def Info: nuthesis/images/boxing4.jpg used on input line 48.
-(pdftex.def)             Requested size: 234.1519pt x 155.87746pt.
-
-Overfull \hbox (37.29485pt too wide) in paragraph at lines 41--49
-[][] [] 
- []
+<use nuthesis/images/atom_structure.jpg>
+Package pdftex.def Info: nuthesis/images/atom_structure.jpg used on input line 
+14.
+(pdftex.def)             Requested size: 303.53268pt x 303.538pt.
+ [1
 
 
-Overfull \hbox (37.29485pt too wide) in paragraph at lines 41--49
-[] [] 
- []
+] [2 <./nuthesis/images/atom_structure.jpg>] [3] [4] [5] [6]
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 50.
 
-Overfull \hbox (37.29485pt too wide) in paragraph at lines 41--49
-[] [] 
- []
-
-
-Overfull \hbox (37.29485pt too wide) in paragraph at lines 41--49
-[] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--49
-
- []
-
-
-LaTeX Warning: Float too large for page by 61.73476pt on input line 51.
-
-[3
-
-]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [4] [5 <./nuthesis/images/uni_of_geneva.png> <./nuthesis/images/scoollab3.png
-> <./nuthesis/images/finance1.png> <./nuthesis/images/finance2.jpg> <./nuthesis
-/images/finance3.png> <./nuthesis/images/boxing1.jpg> <./nuthesis/images/boxing
-2.png> <./nuthesis/images/boxing4.jpg>] (./skeleton.bbl
-bibitemlist
-[6
-
-
-]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 53.
- [7] [8]
-Overfull \hbox (76.56113pt too wide) in paragraph at lines 197--200
-\T1/lmr/m/n/10.95 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuis
-ances_expectedSignal0_350.html. 
+(Font)              <10.95> on input line 52.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 61.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <> on input line 61.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <0.7> on input line 61.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <0.5> on input line 61.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 61.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 61.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 61.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 61.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 61.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 61.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 61.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 61.
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 61.
+
+[7]
+<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=163, 595.22375
+pt x 609.27625pt>
+File: nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png Graphic file 
+(type png)
+
+<use nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png>
+Package pdftex.def Info: nuthesis/images/Standard_Model_Feynman_Diagram_Vertice
+s.png used on input line 77.
+(pdftex.def)             Requested size: 346.89734pt x 355.08177pt.
+ [8]
+<nuthesis/images/sm_interactions2.png, id=176, 1065.9825pt x 778.91pt>
+File: nuthesis/images/sm_interactions2.png Graphic file (type png)
+
+<use nuthesis/images/sm_interactions2.png>
+Package pdftex.def Info: nuthesis/images/sm_interactions2.png used on input lin
+e 89.
+(pdftex.def)             Requested size: 346.89734pt x 253.47554pt.
+ [9 <./nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png (PNG copy)>]
+ [10 <./nuthesis/images/sm_interactions2.png>] <nuthesis/images/coupling_ff.png
+, id=197, 569.12625pt x 546.04pt>
+File: nuthesis/images/coupling_ff.png Graphic file (type png)
+
+<use nuthesis/images/coupling_ff.png>
+Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 113
+.
+(pdftex.def)             Requested size: 346.89734pt x 332.84229pt.
+ [11 <./nuthesis/images/coupling_ff.png (PNG copy)>]
+<nuthesis/images/higgs_production.jpg, id=206, 559.8516pt x 414.348pt>
+File: nuthesis/images/higgs_production.jpg Graphic file (type jpg)
+
+<use nuthesis/images/higgs_production.jpg>
+Package pdftex.def Info: nuthesis/images/higgs_production.jpg used on input lin
+e 125.
+(pdftex.def)             Requested size: 346.89734pt x 256.74136pt.
+ [12] [13 <./nuthesis/images/higgs_production.jpg>]
+<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=216, 569.12625pt x 436.63126pt>
+File: nuthesis/images/Higgs_BR_LM_RECT.pdf Graphic file (type pdf)
+
+<use nuthesis/images/Higgs_BR_LM_RECT.pdf>
+Package pdftex.def Info: nuthesis/images/Higgs_BR_LM_RECT.pdf used on input lin
+e 138.
+(pdftex.def)             Requested size: 390.25537pt x 299.41707pt.
+) (./skeleton.bbl [14 <./nuthesis/images/Higgs_BR_LM_RECT.pdf>]
+bibitemlist
+
+Underfull \hbox (badness 1490) in paragraph at lines 34--39
+[]\T1/lmr/m/n/12 G. Danby, J-M. Gail-lard, K. Gou-lianos, L. M. Le-d-er-man, N.
+ Mis-try,
+ []
+
+[15
+
+] [16] [17]
+Overfull \hbox (113.26103pt too wide) in paragraph at lines 197--200
+\T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
+es_expectedSignal0_350.html. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
-[]\T1/lmr/m/n/10.95 Comparison of nui-sances for s+b case, 350 GeV mass hy-poth
--e-sis.
+Underfull \hbox (badness 5446) in paragraph at lines 202--205
+[]\T1/lmr/m/n/12 Comparison of nui-sances for s+b case, 350 GeV mass hy-poth-e-
+sis.
  []
 
 
-Overfull \hbox (76.56113pt too wide) in paragraph at lines 202--205
-\T1/lmr/m/n/10.95 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuis
-ances_expectedSignal1_350.html. 
+Overfull \hbox (113.26103pt too wide) in paragraph at lines 202--205
+\T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
+es_expectedSignal1_350.html. 
+ []
+
+[18]
+Overfull \hbox (104.27762pt too wide) in paragraph at lines 207--210
+[]\T1/lmr/m/n/12 k-factor for DY/Z.  https://twiki.cern.ch/twiki/bin/viewauth/C
+MS/SummaryTable1G25ns#DY_Z. 
  []
 
 
-Overfull \hbox (68.19366pt too wide) in paragraph at lines 207--210
-[]\T1/lmr/m/n/10.95 k-factor for DY/Z.  https://twiki.cern.ch/twiki/bin/viewaut
-h/CMS/SummaryTable1G25ns#DY_Z. 
- []
-
-
-Overfull \hbox (119.90135pt too wide) in paragraph at lines 212--214
-[]\T1/lmr/m/n/10.95 The LHC Higgs cross-section work-ing group.  https://twiki.
-cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG. 
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+[]\T1/lmr/m/n/12 The LHC Higgs cross-section work-ing group.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 216--219
-[]\T1/lmr/m/n/10.95 Standard Model Cross Sec-tions for CMS at 13 TeV.
+[]\T1/lmr/m/n/12 Standard Model Cross Sec-tions for CMS at 13 TeV.
  []
 
 
-Overfull \hbox (51.10414pt too wide) in paragraph at lines 216--219
-\T1/lmr/m/n/10.95 https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCro
-ssSectionsat13TeVInclusive. 
+Overfull \hbox (85.97568pt too wide) in paragraph at lines 216--219
+\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossS
+ectionsat13TeVInclusive. 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 221--224
-[]\T1/lmr/m/n/10.95 SM Higgs pro-duc-tion cross sec-tions at sqrt(s) = 13 TeV.
+[]\T1/lmr/m/n/12 SM Higgs pro-duc-tion cross sec-tions at sqrt(s) = 13 TeV.
  []
 
 
-Overfull \hbox (146.18524pt too wide) in paragraph at lines 221--224
-\T1/lmr/m/n/10.95 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowRep
-ortPageAt13TeV#ZHllH_H_l_e_or_Process. 
+Overfull \hbox (187.9129pt too wide) in paragraph at lines 221--224
+\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReport
+PageAt13TeV#ZHllH_H_l_e_or_Process. 
  []
 
 
-Overfull \hbox (302.08392pt too wide) in paragraph at lines 226--229
-[]\T1/lmr/m/n/10.95 NNLO+NNLL top-quark-pair cross sec-tions.  https://twiki.ce
-rn.ch/twiki/bin/view/LHCPhysics/TtbarNNLO#Top_quark_pair_cross_sections_at. 
+Underfull \hbox (badness 10000) in paragraph at lines 226--229
+[]\T1/lmr/m/n/12 NNLO+NNLL top-quark-pair cross sec-tions.
  []
 
 
-Overfull \hbox (30.8269pt too wide) in paragraph at lines 231--233
-[]\T1/lmr/m/n/10.95 Single Top Cross sec-tions.  https://twiki.cern.ch/twiki/bi
-n/viewauth/CMS/SingleTopSigma. 
+Overfull \hbox (126.06226pt too wide) in paragraph at lines 226--229
+\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO#Top_qu
+ark_pair_cross_sections_at. 
  []
 
 
-Overfull \hbox (249.21623pt too wide) in paragraph at lines 235--238
-[]\T1/lmr/m/n/10.95 CMS GEN XSEC Task Force.  https://twiki.cern.ch/twiki/bin/v
-iewauth/CMS/GenXsecTaskForce#Space_for_Various_Processes_Welc. 
+Overfull \hbox (64.26439pt too wide) in paragraph at lines 231--233
+[]\T1/lmr/m/n/12 Single Top Cross sec-tions.  https://twiki.cern.ch/twiki/bin/v
+iewauth/CMS/SingleTopSigma. 
  []
 
-[9]
-Overfull \hbox (103.75352pt too wide) in paragraph at lines 240--244
-\T1/lmr/m/n/10.95 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowRep
-ortPageBR#Higgs_2_gauge_bosons. 
+
+Overfull \hbox (298.41599pt too wide) in paragraph at lines 235--238
+[]\T1/lmr/m/n/12 CMS GEN XSEC Task Force.  https://twiki.cern.ch/twiki/bin/view
+auth/CMS/GenXsecTaskForce#Space_for_Various_Processes_Welc. 
  []
 
-[10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--244
+[]\T1/lmr/m/n/12 SM Higgs Branch-ing Ra-tios and To-tal De-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--244
+\T1/lmr/m/n/12 cay Widths (up-date in CERN Re-port4 2016).
+ []
+
+
+Overfull \hbox (142.47328pt too wide) in paragraph at lines 240--244
+\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReport
+PageBR#Higgs_2_gauge_bosons. 
+ []
+
+[19]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 307.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1590) in paragraph at lines 304--308
-[]\T1/lmr/m/n/10.95 Gael L. Per-rin, Pe-dro Fer-nan-dez Man-teca.  Muon Iden-ti
--fi-ca-tion and Iso-la-
+Underfull \hbox (badness 10000) in paragraph at lines 304--308
+\T1/lmtt/m/n/12 contributions / 2465881 / attachments / 1407735 / 2151747 / TnP
+ _ 06 _ 02 _ 2017 .
  []
 
-
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 310--314
-\T1/lmtt/m/n/10.95 ch / twiki / bin / view / CMS / MuonWorkInProgressAndPagResu
-lts # Results _ on _ the _
+\T1/lmtt/m/n/12 ch / twiki / bin / view / CMS / MuonWorkInProgressAndPagResults
+ # Results _ on _
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 316--320
-[]\T1/lmr/m/n/10.95 Gael L. Per-rin.  Dou-ble Muon trig-ger ef-fi-ciency per-le
-g ap-proach.  []$\T1/lmtt/m/n/10.95 https :
+Underfull \hbox (badness 4608) in paragraph at lines 316--320
+[]\T1/lmr/m/n/12 Gael L. Per-rin.  Dou-ble Muon trig-ger ef-fi-ciency per-leg a
+p-proach.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 316--320
-\T1/lmtt/m/n/10.95 / / indico . cern . ch / event / 636555 / contributions / 25
-77291 / attachments /
+[]$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 636555 / contributi
+ons / 2577291 /
  []
 
-[11]
-Underfull \hbox (badness 2245) in paragraph at lines 367--371
-[]\T1/lmr/m/n/10.95 CMS BTV POG.  Sup-ported Al-go-rithms and Op-er-at-ing Poin
-ts.  []$\T1/lmtt/m/n/10.95 https :
- []
-
-
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 367--371
-\T1/lmtt/m/n/10.95 / / twiki . cern . ch / twiki / bin / viewauth / CMS / BtagR
-ecommendation80XReReco #
+\T1/lmtt/m/n/12 twiki . cern . ch / twiki / bin / viewauth / CMS / BtagRecommen
+dation80XReReco #
  []
 
-[12] [13] [14] [15]
-Underfull \hbox (badness 3078) in paragraph at lines 628--632
-[]\T1/lmr/m/n/10.95 Chris Palmer.  VHbb Elec-tron Trig-ger and ID+ISO SFs for 2
-016 data.
+[22] [23] [24]
+Underfull \hbox (badness 4132) in paragraph at lines 564--568
+[]\T1/lmr/m/n/12 CMS Muon POG.  Ref-er-ence muon id, iso-la-tion and trig-ger e
+f-fi-
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 564--568
+\T1/lmr/m/n/12 cien-cies for Run-II.  []$\T1/lmtt/m/n/12 https : / / twiki . ce
+rn . ch / twiki / bin / viewauth / CMS /
+ []
+
+[25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 628--632
+[]$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 604949 / contributi
+ons / 2543520 /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 628--632
-[]$\T1/lmtt/m/n/10.95 https : / / indico . cern . ch / event / 604949 / contrib
-utions / 2543520 / attachments /
+\T1/lmtt/m/n/12 attachments / 1439974 / 2216426 / VHbb _ TnP _ SFs _ egamma _ a
+pril . pdf #
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 628--632
-\T1/lmtt/m/n/10.95 1439974 / 2216426 / VHbb _ TnP _ SFs _ egamma _ april . pdf 
-# search = vhbb % 20AND %
+\T1/lmtt/m/n/12 search = vhbb % 20AND % 20cerntaxonomy % 3A % 22Indico % 2FExpe
+riments % 2FCMS %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--632
-\T1/lmtt/m/n/10.95 20cerntaxonomy % 3A % 22Indico % 2FExperiments % 2FCMS % 20m
-eetings % 2FPH % 20 %
+Underfull \hbox (badness 6995) in paragraph at lines 651--655
+[]\T1/lmr/m/n/12 CMS EGM POG.  Mul-ti-vari-ate Elec-tron Iden-ti-fi-ca-tion for
+ Run2.
  []
 
-[16]
+
 Underfull \hbox (badness 10000) in paragraph at lines 651--655
-[]\T1/lmr/m/n/10.95 CMS EGM POG.  Mul-ti-vari-ate Elec-tron Iden-ti-fi-ca-tion 
-for
+[]$\T1/lmtt/m/n/12 https : / / twiki . cern . ch / twiki / bin / viewauth / CMS
+ / Multivari \
+ []
+
+[27]
+Underfull \hbox (badness 3354) in paragraph at lines 663--668
+[]\T1/lmr/m/n/12 CMS Higgs WG.  Doc-u-men-ta-tion of the RooSt-ats -based stati
+s-tics
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--655
-\T1/lmr/m/n/10.95 Run2.  []$\T1/lmtt/m/n/10.95 https : / / twiki . cern . ch / 
-twiki / bin / viewauth / CMS / Multivari \
+Underfull \hbox (badness 3525) in paragraph at lines 663--668
+\T1/lmr/m/n/12 tools for Higgs PAG.  []$\T1/lmtt/m/n/12 https : / / twiki . cer
+n . ch / twiki / bin / view / CMS /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--668
-[]\T1/lmr/m/n/10.95 CMS Higgs WG.  Doc-u-men-ta-tion of the RooSt-ats -based st
-atis-tics
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 663--668
-\T1/lmr/m/n/10.95 tools for Higgs PAG.  []$\T1/lmtt/m/n/10.95 https : / / twiki
- . cern . ch / twiki / bin / view / CMS /
+Underfull \hbox (badness 6641) in paragraph at lines 670--674
+[]\T1/lmr/m/n/12 CMS Higgs WG.  Binned shape anal-y-sis with the Higgs Com-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 670--674
-\T1/lmtt/m/n/10.95 / / twiki . cern . ch / twiki / bin / view / CMS / SWGuideHi
-ggsAnalysisCombinedLimit #
+\T1/lmr/m/n/12 bi-na-tion Tool.  []$\T1/lmtt/m/n/12 https : / / twiki . cern . 
+ch / twiki / bin / view / CMS /
  []
 
-[17] [18] [19])
+[28] [29] [30])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 351.
+(in both cases you will find help in the memoir manual). on input line 357.
 
-[20]
+[31]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -1413,48 +1430,53 @@ either increase the foot skip or redesign the fotoer
 \tf@lot=\write7
 \openout7 = `skeleton.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
  (./skeleton.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: ACB25EF776A29477C54D24661064F486;247.
+(rerunfilecheck)             Checksum: 40963EE8C45F74AD1B3BFEF3A91FA8DD;249.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 4.5pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
  ) 
 Here is how much of TeX's memory you used:
- 15200 strings out of 493014
- 218920 string characters out of 6133350
- 366415 words of memory out of 5000000
- 18245 multiletter control sequences out of 15000+600000
- 99938 words of font info for 77 fonts, out of 8000000 for 9000
- 1142 hyphenation exceptions out of 8191
- 52i,11n,46p,1356b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 15131 strings out of 493014
+ 218937 string characters out of 6133350
+ 366727 words of memory out of 5000000
+ 18151 multiletter control sequences out of 15000+600000
+ 112522 words of font info for 99 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 52i,11n,46p,1682b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
-fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/lm/lmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
-m/lmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr
-i10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/lm/lmtt10.pfb>
-Output written on skeleton.pdf (28 pages, 33556599 bytes).
+fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
+dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
+m/lmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb>
+Output written on skeleton.pdf (39 pages, 1191447 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 401 compressed objects within 5 object streams
- 182 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 584 PDF objects out of 1000 (max. 8388607)
+ 510 compressed objects within 6 object streams
+ 203 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

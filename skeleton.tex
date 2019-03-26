@@ -237,7 +237,7 @@
 \begin{dedication}
 %  \vspace{0.3\textheight}
   % \centering
-  {\huge \textit{``... a place for a smart quote!''}}\\{\footnotesize Lenin, 1922.}\\ \ \\
+  {\huge \textit{``... a place for a smart quote''}}\\{\footnotesize Lenin, 1922.}\\ \ \\
   %{\huge \textit{``...we only get what we give.''}}\\ {\footnotesize Gregg Alexander, Rick Nowels, New Radicals,  1998.}\\ \ \\
   %{\huge \textit{``...we will be victorious.''}}\\ {\footnotesize Matt Bellamy, Muse, 2009.}\\
   \vspace{4cm}
@@ -277,19 +277,22 @@
 \def\bbar{{\mathchar'26\mkern-9mu b}}
 
 
-%\input{nuthesis/sections/Introduction.tex}
+\input{nuthesis/sections/Introduction.tex}
 
-%\input{nuthesis/sections/Theory.tex}
+\iffalse  % do not forget to end this with "\fi" to have a block invisible for LaTex
 
-%\input{nuthesis/sections/CMS.tex} 
+\input{nuthesis/sections/Theory.tex}
+
+\input{nuthesis/sections/CMS.tex} 
 
 \input{nuthesis/sections/Hbb-definitions}
 
 
 
 
-\iffalse  % do not forget to end this with "\fi" to have a block invisible for LaTex
 \input{nuthesis/sections/intro} \clearpage
+
+
 
 \input{nuthesis/sections/data} \clearpage
 
@@ -308,10 +311,13 @@
 \input{nuthesis/sections/limits}\clearpage
 
 \input{nuthesis/sections/bbZZcombination.tex}\clearpage
+
+\input{nuthesis/sections/Conclusions.tex}\clearpage
+
+
 \fi
 
 
-\input{nuthesis/sections/Conclusions.tex}\clearpage
 
 \backmatter
 

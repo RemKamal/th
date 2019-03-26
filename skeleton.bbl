@@ -6,20 +6,10 @@ Richard~Phillips Feynman, Robert~Benjamin Leighton, and Matthew Sands.
 \newblock Basic Books, New York, NY, 2010.
 \newblock Originally published 1963-1965.
 
-\bibitem{DIMOPOULOS1982133}
-Savas Dimopoulos, Stuart Raby, and Frank Wilczek.
-\newblock Proton decay in supersymmetric models.
-\newblock {\em Physics Letters B}, 112(2):133 -- 136, 1982.
-
 \bibitem{griffiths_hep}
 David~J Griffiths.
 \newblock {\em {Introduction to elementary particles; 2nd rev. version}}.
 \newblock Physics textbook. Wiley, New York, NY, 2008.
-
-\bibitem{aps_einstein}
-Jennifer Ouellette.
-\newblock Einstein's quest for a unified theory.
-\newblock {\em APS}, 2015.
 
 \bibitem{statmech}
 Erwin Schrödinger.
@@ -57,11 +47,6 @@ M.~L. Perl, G.~S. Abrams, and et~al Boyarski.
 K.~Kodama et~al.
 \newblock {Observation of tau neutrino interactions}.
 \newblock {\em Phys. Lett.}, B504:218--224, 2001.
-
-\bibitem{Bilenky:2014ema}
-S.~M. Bilenky.
-\newblock {Neutrino in Standard Model and beyond}.
-\newblock {\em Phys. Part. Nucl.}, 46(4):475--496, 2015.
 
 \bibitem{wolfram}
 Eric~W. Weisstein.
@@ -108,6 +93,11 @@ Michelangelo~L Mangano.
 \newblock {Introduction to QCD}.
 \newblock (CERN-OPEN-2000-255), 1999.
 
+\bibitem{feynman_diagrams}
+R.~P. Feynman.
+\newblock The theory of positrons.
+\newblock {\em Phys. Rev.}, 76:749--759, Sep 1949.
+
 \bibitem{strassler}
 Matt Strassler.
 \newblock Of particular significance: Conversations about science with
@@ -143,6 +133,16 @@ Pauline Gagnon.
 {Precise determination of the mass of the Higgs boson and studies of the
   compatibility of its couplings with the standard model}.
 \newblock Technical Report CMS-PAS-HIG-14-009, CERN, Geneva, 2014.
+
+\bibitem{aps_einstein}
+Jennifer Ouellette.
+\newblock Einstein's quest for a unified theory.
+\newblock {\em APS}, 2015.
+
+\bibitem{Bilenky:2014ema}
+S.~M. Bilenky.
+\newblock {Neutrino in Standard Model and beyond}.
+\newblock {\em Phys. Part. Nucl.}, 46(4):475--496, 2015.
 
 \bibitem{...}
 
@@ -695,6 +695,11 @@ C.~Giunti and M.~Laveder.
 \newblock In F.~Columbus and V.~Krasnoholovets, editors, {\em Developments in
   Quantum Physics}. Nova Science Publishers, Inc., 2004.
 
+\bibitem{DIMOPOULOS1982133}
+Savas Dimopoulos, Stuart Raby, and Frank Wilczek.
+\newblock Proton decay in supersymmetric models.
+\newblock {\em Physics Letters B}, 112(2):133 -- 136, 1982.
+
 \bibitem{DellaNegra1560}
 M.~Della~Negra, P.~Jenni, and T.~S. Virdee.
 \newblock Journey in the search for the higgs boson: The atlas and cms
@@ -822,5 +827,10 @@ Thomas Lenzi.
 The~CMS collaboration.
 \newblock Missing transverse energy performance of the cms detector.
 \newblock {\em Journal of Instrumentation}, 6(09):P09001, 2011.
+
+\bibitem{CMS-PAS-HIG-17-032}
+{Search for resonant double Higgs production with $bbZZ$ decays in the
+  $b\bar{b} \ell\ell\nu\nu$ final state}.
+\newblock Technical Report CMS-PAS-HIG-17-032, CERN, Geneva, 2018.
 
 \end{thebibliography}
