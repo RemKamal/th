@@ -6,3 +6,65 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Coupling of particles to SM Higgs boson}}{11}{figure.caption.6}
 \contentsline {figure}{\numberline {1.5}{\ignorespaces SM Higgs boson production modes}}{13}{figure.caption.7}
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Higgs boson decay channels}}{14}{figure.caption.8}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces SSB Potential form}}{18}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces SM double Higgs boson production.\relax }}{21}{figure.caption.10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Left: comparison of the double Higgs boson mass distribution at the LO at 14 and 100 TeV center-of-mass energy, Right: the total SM HH cross section and the box and the triangular contributions ("box" and "tri" at the plots).\relax }}{22}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces BSM double Higgs boson production.\relax }}{23}{figure.caption.12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Double Higgs decay in the 2 b, 2 lepton, and 2 neutrino final state. \relax }}{24}{figure.caption.13}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Double Higgs decay channels according to the SM branching fractions.\relax }}{24}{figure.caption.14}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic layout of the LHC.\relax }}{27}{figure.caption.15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The cross section of the LHC dipole}}{29}{figure.caption.16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cables of the dipole magnet}}{30}{figure.caption.17}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces RF cavities module.}}{30}{figure.caption.18}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Beam screen.\relax }}{32}{figure.caption.19}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 13 kA high-temperature superconducting current lead.\relax }}{33}{figure.caption.20}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Cross section of the LHC tunnel\relax }}{34}{figure.caption.21}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces LHC cryogenic states and the temperature scale.\relax }}{35}{figure.caption.22}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces LHC injection complex.\relax }}{37}{figure.caption.23}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces CMS experiment with all sub-detectors shown.\relax }}{38}{figure.caption.24}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Coordinate system of the CMS detector}}{42}{figure.caption.25}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The Feynman diagram of the graviton/radion production with the subsequent decay to HH. HH system decays to a pair of b quarks and Z bosons. Shown is 2 b quarks, 2 leptons, and 2 neutrinos final state. \relax }}{44}{figure.caption.26}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Electron scale factors in $p_{T}$ and $\eta $ bins for 2016 data set for the HLT\_Ele23\_Ele12\_CaloIdL\_TrackIdL\_IsoVL\_DZ trigger. ID cut (general purpose MVA WP90) and ISO cuts are applied, then the scale factors are measured. Taken from ~\cite {vhbbAN}\relax }}{49}{figure.caption.29}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Muon scale factors in $p_{T}$ and $\eta $ bins for 2016 data runs B, C, D, E, F, G for the HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIs\ oVVL\_v* triggers. Left: Scale factors for 8 GeV leg. Right: Scale factors for 17 GeV leg, provided that the subleading leg passed 8 GeV cut.\relax }}{50}{figure.caption.30}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Muon scale factors in $p_{T}$ and $\eta $ bins for 2016 data run H for the HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIs\ oVVL\_v* triggers. Left: Scale factors for 8 GeV leg. Right: Scale factors for 17 GeV leg, provided that the subleading leg passed 8 GeV cut.\relax }}{50}{figure.caption.31}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Scale factors in $\eta $ bins of the leading and subleading muons for 2016 data set for dZ requirement, measured after muons have passed the HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_v* triggers. \relax }}{51}{figure.caption.32}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Muon ID scale factors in $p_{T}$ and $\eta $ bins. Left: runs B to F. Right: runs G and H.\relax }}{52}{figure.caption.33}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Muon ISO scale factors in $p_{T}$ and $\eta $ bins. Left: runs B to F. Right: runs G and H.\relax }}{53}{figure.caption.34}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Electron ID+ISO scale factors in $p_{T}$ and $\eta $ bins.\relax }}{54}{figure.caption.35}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Z boson (left) and photon (right) kinematics with the vector of all the visible objects (denoted by u) and a resulting MET.\relax }}{63}{figure.caption.37}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Significance-like ($\sqrt {S}/B$) figure of merit as a function of the MET cut. Green curve shows the significance for our analysis keepings event above the cut, red curve is for HIG-18-013 analysis and their phase space is below the cut value. Top: 300 GeV cut. Middle: 600 GeV cut. Bottom: 900 GeV cut. On the left dielectron channel is shown, while dimuon plots are on the right. \relax }}{67}{figure.caption.39}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Signal region, control region \ensuremath {t\mathaccentV {bar}016{t}}\xspace , and control region Drell-Yan in the phase space of \ensuremath {\mathrm {Z}\to \ell \ell }\ ~and ~\ensuremath {\mathrm {H}\to \ensuremath {b\mathaccentV {bar}016{b}}\xspace }~masses. \relax }}{68}{figure.caption.40}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Cut flow for mm (top) and ee (bottom) channels. \relax }}{72}{figure.caption.43}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Transverse mass of the reconstructed HH candidates for data, the simulated signal graviton sample for the 300 GeV mass hypothesis, and simulated backgrounds scaled according to the fit results. The top row shows the figures for the muon channel while the bottom row is for the electron channel. For each row, the left plot is for the Drell-Yan control region, the middle is for the \ensuremath {t\mathaccentV {bar}016{t}}\xspace control region, and the right is for the signal region. Signal normalization choice is discussed in the text. The crosshatched area represents the sum of statistical and systematic uncertainties.\relax }}{73}{figure.caption.44}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Transverse mass of the reconstructed HH candidates for data, the simulated signal radion sample for the 300 GeV mass hypothesis, and simulated backgrounds scaled according to the fit results. The top row shows the figures for the muon channel while the bottom row is for the electron channel. For each row, the left plot is for the Drell-Yan control region, the middle is for the \ensuremath {t\mathaccentV {bar}016{t}}\xspace control region, and the right is for the signal region. Signal normalization choice is discussed in the text. The crosshatched area represents the sum of statistical and systematic uncertainties.\relax }}{74}{figure.caption.45}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Ranking of variables in the BDT training for electron(muon) channel at the top(bottom). Left: low mass BDT. Right: high mass BDT.\relax }}{76}{figure.caption.46}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces BDT plots for radion case, electron(muon) channel at the top(bottom). Signal region, 300 GeV mass hypothesis. For electrons cut is at 0.4, for muons at 0.7. More details at the table \ref {suboptCut}.\relax }}{77}{figure.caption.47}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Variables used in the low mass training for electron channel. Index '1' refers to \ensuremath {b\mathaccentV {bar}016{b}}\xspace and index '0' refers to ZZ.\relax }}{78}{figure.caption.48}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Variables used in the high mass training for electron channel.\relax }}{79}{figure.caption.49}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces BDT discriminants for electron channel. Top: low mass training. Bottom: high mass training. \relax }}{81}{figure.caption.50}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces ROC curves for electron channel. Top: low mass training. Bottom: high mass training. \relax }}{82}{figure.caption.51}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Input variables correlations for electron channel, low mass training. Top: signal sample mix. Bottom: background sample mix. \relax }}{83}{figure.caption.52}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Input variables correlations for electron channel, high mass training. Top: signal sample mix. Bottom: background sample mix. \relax }}{84}{figure.caption.53}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Variables used in the low mass training for muon channel. Index '1' refers to \ensuremath {b\mathaccentV {bar}016{b}}\xspace and index '0' refers to ZZ.\relax }}{85}{figure.caption.54}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Variables used in the high mass training for muon channel.\relax }}{86}{figure.caption.55}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces BDT discriminants for muon channel. Top: low mass training. Bottom: high mass training. \relax }}{87}{figure.caption.56}
+\contentsline {figure}{\numberline {9.12}{\ignorespaces ROC curves for muon channel. Top: low mass training. Bottom: high mass training. \relax }}{88}{figure.caption.57}
+\contentsline {figure}{\numberline {9.13}{\ignorespaces Input variables correlations for muon channel, low mass training. Top: signal sample mix. Bottom: background sample mix. \relax }}{89}{figure.caption.58}
+\contentsline {figure}{\numberline {9.14}{\ignorespaces Input variables correlations for muon channel, high mass training. Top: signal sample mix. Bottom: background sample mix. \relax }}{90}{figure.caption.59}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Cut on the BDT output vs 'r-value' from Combine. Electron channel.\relax }}{103}{figure.caption.61}
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Cut on the BDT output vs 'r-value' from Combine. Muon channel.\relax }}{104}{figure.caption.62}
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Expected (dashed line) and observed (solid line) limits on the cross section of a resonant HH production as a function of the mass of the narrow resonance for both leptonic channels combined. Graviton case is shown at the top and radion case at the bottom. The red line shows a theoretical prediction for the production of a WED particle with certain model assumptions \cite {Oliveira:2014kla}. \relax }}{105}{figure.caption.63}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Combination of HH channels using 2016 data. Expected (dashed) and observed (solid line) 95\% CL exclusion limits are shown. The results describe the production cross section of a narrow width spin 0 (top) and spin 2 (bottom) resonance decaying into a pair of SM Higgs bosons. \relax }}{108}{figure.caption.65}
+\addvspace {10pt}

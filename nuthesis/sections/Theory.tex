@@ -8,22 +8,24 @@
 \chapter{Theory}
 \label{ch:theory}
 
+In the previous chapter we introduced the SM and discussed particles and interactions that the SM as a theory describes. In this chapter we will discuss first the general mathematical formalism of the SM and in the second part we will focus on the double Higgs theory in the BSM	.
+
+
 %______________________ INTRODUCCION ______________________
 \section{Lagrangian formalism of the Standard Model}
-We already introduced SM in the previous chapter and have discussed particles and interactions that SM as a theory describes. In this chapter we will introduce the Lagrangian formalism, the mathematical approach to describe quantitatively the interactions of elementary particles and fields. Then for the second part we will move to the double Higgs theory in the BSM.
-
+The SM uses the Lagrangian mechanics as the mathematical approach to describe quantitatively the interactions of elementary particles and fields. 
 The SM Lagrangian can be split into four main contributions \cite{Mozer:2016wzi}:
 \begin{equation}\label{lagr_SM}
 \Lagr_{SM} = \Lagr_{YM} + \Lagr_{ferm} + \Lagr_{H} + \Lagr_{Yuk} 
 \end{equation}
 
-or equivalently:
+This equation contains the following terms:
 
 \begin{itemize}
 \item gause bosons and their interactions, $\Lagr_{YM} $
 \item fermions and their interactions with the gauge bosons, $\Lagr_{ferm}$
-\item Higgs boson, its self-interaction, and interaction with the gauge bosons to give them mass, $\Lagr_{H}$, which is not possible solely by the $\Lagr_{YM}$
-\item fermions and their interactions with the Higgs boson, which through the Yukawa mechanism gives mass to fermions $\Lagr_{Yuk} $
+\item Higgs boson, its self-interaction, and interaction with the gauge bosons to give them mass, $\Lagr_{H}$%, which is not possible solely by the $\Lagr_{YM}$
+\item fermions and their interactions with the Higgs boson, which through the Yukawa mechanism give mass to fermions $\Lagr_{Yuk} $
 \end{itemize}
  
 
@@ -41,7 +43,7 @@ W^i_{\mu\nu}(x) \equiv & \partial_\mu W^i_\nu(x) - \partial_\nu W^i_\mu(x) - g\v
 G^a_{\mu\nu}(x) \equiv & \partial_\mu G^a_\nu(x) - \partial_\nu G^a_\mu(x) - g_s f^{abc}G^b_\mu G^c_\nu \label{G_tensor}
 \end{align}
 
-with indexes $i,j,k = 1,2,3$ and $a,b,c = 1, ..., 8$. According to the Noether's theorem, each symmetry is intrinsically connected to the conservation law \cite{Sardanashvily:2143630}. The fields in the $\Lagr_{YM} $ have the following connections to their underlying symmetries: $B_{\mu\nu}$ corresponds to $U(1)$ symmetry of the weak hypercharge $Y_k$ and "B" term is simply a kinematic term while "W" and "G" terms describe interactions among the bosons, where $W^i_{\mu\nu}$ corresponds to $SU(2)_I$ symmetry of the weak isospin $I^i_{w}$, and $G^a_{\mu\nu}$ corresponds to $SU(3)_c$ symmetry of the QCD color charge. $g$ and $\varepsilon$ are $SU(2)$ coupling and structure constants, while $g_s$ and $f$ are coupling and structure constants for $SU(3)$.
+\noindent with indexes $i,j,k = 1,2,3$ and $a,b,c = 1, ..., 8$. According to the Noether's theorem, each symmetry is intrinsically connected to the conservation law \cite{Sardanashvily:2143630}. The fields in the $\Lagr_{YM} $ are connected to their corresponding underlying symmetries. For instance, $B_{\mu\nu}$ corresponds to $U(1)$ symmetry of the weak hypercharge $Y_k$, $W^i_{\mu\nu}$ corresponds to $SU(2)_I$ symmetry of the weak isospin $I^i_{w}$, and $G^a_{\mu\nu}$ corresponds to $SU(3)_c$ symmetry of the QCD color charge. The "B" field is a kinematic term, "W" and "G" terms describe interactions among the bosons, $g$ and $\varepsilon$ are $SU(2)$ coupling and structure constants, finally $g_s$ and $f$ are coupling and structure constants for $SU(3)$.
 
 The second term in the SM Lagrangian shows how fermions interact with the gauge bosons. Notice, that the mass terms are still absent:
 \beqn\label{lagr_ferm}
@@ -50,9 +52,9 @@ i \bar{\Psi}_Q \slashed{D} \Psi_Q  + i \bar{\psi}_{u_{R}}  \slashed{D} \psi_{u_{
  i \bar{\psi}_{d_{R}}  \slashed{D} \psi_{d_{R}}
 \eeqn
 
-Above $\Psi$ represents a doublet of a charged lepton and a corresponding neutral lepton within the same lepton family of $SU(2)_L$, a letter Q is reserved for a family of quarks, and $\psi_R$ describes a right-handed leptonic singlet.
+Above $\Psi$ represents a doublet of a charged lepton and a corresponding neutral lepton within the same lepton family of $SU(2)_L$, the letter Q is reserved for a family of quarks, and $\psi_R$ describes a right-handed leptonic singlet.
 
-Gauge bosons interactions are present due to the derivative term:
+Gauge boson interactions are present due to the derivative term:
 \begin{align}\label{cov_der2}
 D_\mu = \partial_\mu + ig I_w^i W_\mu^i+ ig' Y_w B_\mu + ig_s T_c^a G_\mu^a\\ 
 \end{align}
@@ -62,21 +64,20 @@ Physical fields in this notation are represented by a linear combination of W an
 A_\mu = &  B_\mu \cos\theta_W + W^3_\mu \sin\theta_W \\ 
 Z_\mu = & -B_\mu \sin\theta_W + W^3_\mu \cos\theta_W \nonumber 
 \end{align}
-\noindent where $\theta_W$ is known as the \ti{Weinberg} angle \cite{Weinberg:799984}.
+\noindent where $\theta_W$ is known as the \ti{Weinberg angle} \cite{Weinberg:799984}.
 
-These two first terms of the SM Lagrangian is enough to have a theory of fermions and bosons, but they have no mass \cite{Wolf:2015kua}, and this does not represent the reality. As discussed in the previous chapter, to ensure that weak bosons are massive, we need a Higgs term. Higgs mechanism enters the SM Lagrangian through the corresponding Higgs Lagrangian term given by 
-
+With the first two terms of the SM Lagrangian we obtain a valid theory of fermions and bosons, however, these particles are massless in this theory \cite{Wolf:2015kua}, which evidently contradicts the reality. To solve this issue and to ensure that weak bosons are massive, we need to introduce a Higgs field. Higgs mechanism enters the SM Lagrangian through the corresponding Higgs Lagrangian term given by 
 \beqn\label{lagr_higgs}
 \Lagr_H=(D_\mu\Phi)^\dagger(D^\mu\Phi) - V(\Phi) , \qquad V(\Phi)= - \mu^2(\Phi^\dagger\Phi) + \frac{\lambda}{4}(\Phi^\dagger\Phi)^2
 \eeqn
 
-where
+\noindent where
 
 \beqn
 \Phi = \binom{\phi^+}{\phi^0 = (v+H + i\chi)/ \sqrt{2}} \quad \text{with} \quad v = 2 \sqrt{\frac{\mu^2}{\lambda}}
 \eeqn
 
-Here $\mu$ and $\lambda$ are parameters of the Higgs potential. The discovery of the single Higgs boson started with the mass measurements, and the mass is proportional to the $\mu$ parameter. On the other hand, non-resonant double Higgs boson measurements target $\lambda$ parameter to know more precisely what the shape of Higgs potential is. 
+Here $\mu$ and $\lambda$ are parameters of the Higgs potential. The Higgs boson mass is proportional to the $\mu$ parameter. In 2012 with precise single Higgs boson mass measurements from both ATLAS and CMS experiments we determined the value of $\mu$. Since that time many analyses at CERN have been targeting the measurement of the $\lambda$ parameter, because it is related to the shape of Higgs potential. The simplest interaction that is probing the Higgs potential directly is the Higgs boson self-coupling. One of such processes is the non-resonant double Higgs boson production. With double Higgs boson physics being such a valuable tool to determine the  
 
 After the SSB, the value of the Higgs field vacuum expectation value $v$ shown above can be expressed in terms of $\mu$ and $\lambda$ \cite{MonroyMontanez:2639240}. See Fig. \ref{hp2d} for an illustration for the Higgs potential before and after SSB.
 
