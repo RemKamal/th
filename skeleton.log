@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  11 APR 2019 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  16 APR 2019 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1103,1464 +1103,118 @@ either increase the foot skip or redesign the fotoer
 
 ] (./nuthesis/sections/acknowledgments.tex) [5
 
-] (./skeleton.toc [6
-
-
-] [7]
-Overfull \hbox (2.03773pt too wide) detected at line 51
- \T1/lmr/bx/n/12 106
+] (./skeleton.toc
+Overfull \hbox (0.16273pt too wide) detected at line 3
+ \T1/lmr/bx/n/12 viii
  []
 
-
-Overfull \hbox (2.03773pt too wide) detected at line 52
- \T1/lmr/bx/n/12 109
- []
+) [6
 
 
-Overfull \hbox (2.03773pt too wide) detected at line 53
- \T1/lmr/bx/n/12 111
- []
+] (./skeleton.lof) [7
 
-
-Overfull \hbox (2.03773pt too wide) detected at line 54
- \T1/lmr/bx/n/12 111
- []
-
-) [8] (./skeleton.lof [9
+] (./skeleton.lot) [8
 
 ]
-Overfull \hbox (204.0954pt too wide) in paragraph at lines 31--31
- [][] [][]\T1/lmr/m/n/12 Electron scale fac-tors in $\OML/lmm/m/it/12 p[]$ \T1/
-lmr/m/n/12 and $\OML/lmm/m/it/12 ^^Q$ \T1/lmr/m/n/12 bins for 2016 data set for
- the HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ 
- []
+(./nuthesis/sections/Introduction.tex [1
 
-
-Overfull \hbox (124.18526pt too wide) in paragraph at lines 32--32
- \T1/lmr/m/n/12 the HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v* OR HLT_Mu17_TrkIsoVVL_T
-kMu8_TrkIs 
- []
-
-
-Overfull \hbox (184.3387pt too wide) in paragraph at lines 33--33
- [][] [][]\T1/lmr/m/n/12 Muon scale fac-tors in $\OML/lmm/m/it/12 p[]$ \T1/lmr/
-m/n/12 and $\OML/lmm/m/it/12 ^^Q$ \T1/lmr/m/n/12 bins for 2016 data run H for t
-he HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v* 
- []
-
-
-Overfull \hbox (182.63004pt too wide) in paragraph at lines 34--34
- \T1/lmr/m/n/12 set for dZ re-quire-ment, mea-sured af-ter muons have passed th
-e HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v* 
- []
-
-[10] [11] [12] [13]) [14] (./skeleton.lot) [15
 
 ]
-(./nuthesis/sections/Introduction.tex
-<nuthesis/images/atom_structure.jpg, id=545, 614.295pt x 614.295pt>
+<nuthesis/images/atom_structure.jpg, id=107, 614.295pt x 614.295pt>
 File: nuthesis/images/atom_structure.jpg Graphic file (type jpg)
 
 <use nuthesis/images/atom_structure.jpg>
 Package pdftex.def Info: nuthesis/images/atom_structure.jpg used on input line 
-14.
+23.
 (pdftex.def)             Requested size: 303.53268pt x 303.538pt.
- [1
+ [2] [3 <./nuthesis/images/atom_structure.jpg>] [4] [5] [6] [7]
 
-
-] [2 <./nuthesis/images/atom_structure.jpg>] [3] [4] [5] [6]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 50.
+LaTeX Font Warning: Command \small invalid in math mode on input line 59.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 52.
-LaTeX Font Info:    Calculating math sizes for size <> on input line 61.
+(Font)              <10.95> on input line 61.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <> on input line 61.
+(Font)              <> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <0.7> on input line 61.
+(Font)              <0.7> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <0.5> on input line 61.
+(Font)              <0.5> on input line 70.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 61.
+(Font)              size <5> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 61.
+(Font)              size <5> substituted on input line 70.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 61.
+(Font)              size <5> substituted on input line 70.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 61.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 70.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 61.
+(Font)              size <5> substituted on input line 70.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 61.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 70.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 61.
+(Font)              size <5> substituted on input line 70.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 61.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 70.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 61.
+(Font)              size <5> substituted on input line 70.
 
-[7]
-<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=622, 595.22375
+[8]
+<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=183, 595.22375
 pt x 609.27625pt>
 File: nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png Graphic file 
 (type png)
 
 <use nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png>
 Package pdftex.def Info: nuthesis/images/Standard_Model_Feynman_Diagram_Vertice
-s.png used on input line 77.
+s.png used on input line 87.
 (pdftex.def)             Requested size: 346.89734pt x 355.08177pt.
- [8]
-<nuthesis/images/sm_interactions2.png, id=635, 1065.9825pt x 778.91pt>
+ [9] [10 <./nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png (PNG co
+py)>]
+<nuthesis/images/sm_interactions2.png, id=208, 1065.9825pt x 778.91pt>
 File: nuthesis/images/sm_interactions2.png Graphic file (type png)
 
 <use nuthesis/images/sm_interactions2.png>
 Package pdftex.def Info: nuthesis/images/sm_interactions2.png used on input lin
-e 89.
+e 120.
 (pdftex.def)             Requested size: 346.89734pt x 253.47554pt.
- [9 <./nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png (PNG copy)>]
- [10 <./nuthesis/images/sm_interactions2.png>] <nuthesis/images/coupling_ff.png
-, id=657, 569.12625pt x 546.04pt>
+ [11]
+<nuthesis/images/coupling_ff.png, id=220, 569.12625pt x 546.04pt>
 File: nuthesis/images/coupling_ff.png Graphic file (type png)
 
 <use nuthesis/images/coupling_ff.png>
-Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 113
+Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 132
 .
 (pdftex.def)             Requested size: 346.89734pt x 332.84229pt.
- [11 <./nuthesis/images/coupling_ff.png (PNG copy)>]
-<nuthesis/images/higgs_production.jpg, id=665, 559.8516pt x 414.348pt>
+ [12 <./nuthesis/images/sm_interactions2.png>] <nuthesis/images/higgs_productio
+n.jpg, id=225, 559.8516pt x 414.348pt>
 File: nuthesis/images/higgs_production.jpg Graphic file (type jpg)
 
 <use nuthesis/images/higgs_production.jpg>
 Package pdftex.def Info: nuthesis/images/higgs_production.jpg used on input lin
-e 125.
+e 143.
 (pdftex.def)             Requested size: 346.89734pt x 256.74136pt.
- [12] [13 <./nuthesis/images/higgs_production.jpg>]
-<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=675, 569.12625pt x 436.63126pt>
+ [13 <./nuthesis/images/coupling_ff.png (PNG copy)>] [14 <./nuthesis/images/hig
+gs_production.jpg>]
+<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=235, 569.12625pt x 436.63126pt>
 File: nuthesis/images/Higgs_BR_LM_RECT.pdf Graphic file (type pdf)
 
 <use nuthesis/images/Higgs_BR_LM_RECT.pdf>
 Package pdftex.def Info: nuthesis/images/Higgs_BR_LM_RECT.pdf used on input lin
-e 138.
+e 156.
 (pdftex.def)             Requested size: 390.25537pt x 299.41707pt.
-) (./nuthesis/sections/Theory.tex
-[14 <./nuthesis/images/Higgs_BR_LM_RECT.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 25.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 25.
- [15
-
-] [16] [17]
-<nuthesis/images/hp2d.pdf, id=730, 668.97928pt x 384.95819pt>
-File: nuthesis/images/hp2d.pdf Graphic file (type pdf)
-
-<use nuthesis/images/hp2d.pdf>
-Package pdftex.def Info: nuthesis/images/hp2d.pdf used on input line 86.
-(pdftex.def)             Requested size: 260.17465pt x 149.71603pt.
- [18 <./nuthesis/images/hp2d.pdf>] [19] [20]
-<nuthesis/images/hh_nonresonant_eft_02.pdf, id=773, 364.1906pt x 273.1505pt>
-File: nuthesis/images/hh_nonresonant_eft_02.pdf Graphic file (type pdf)
-
-<use nuthesis/images/hh_nonresonant_eft_02.pdf>
-Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_02.pdf used on inpu
-t line 131.
-(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
-
-<nuthesis/images/hh_nonresonant_eft_01.pdf, id=774, 364.1906pt x 273.1505pt>
-File: nuthesis/images/hh_nonresonant_eft_01.pdf Graphic file (type pdf)
-
-<use nuthesis/images/hh_nonresonant_eft_01.pdf>
-Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_01.pdf used on inpu
-t line 132.
-(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
-
-
-LaTeX Warning: Citation `' on page 21 undefined on input line 137.
-
-<nuthesis/images/hh_14_100_comparison.png, id=780, 776.9025pt x 573.14125pt>
-File: nuthesis/images/hh_14_100_comparison.png Graphic file (type png)
-
-<use nuthesis/images/hh_14_100_comparison.png>
-Package pdftex.def Info: nuthesis/images/hh_14_100_comparison.png used on input
- line 142.
-(pdftex.def)             Requested size: 212.47618pt x 156.74416pt.
-
-<nuthesis/images/hh_sm_comparison.png, id=782, 780.9175pt x 622.325pt>
-File: nuthesis/images/hh_sm_comparison.png Graphic file (type png)
-
-<use nuthesis/images/hh_sm_comparison.png>
-Package pdftex.def Info: nuthesis/images/hh_sm_comparison.png used on input lin
-e 143.
-(pdftex.def)             Requested size: 212.47618pt x 169.32143pt.
- [21 <./nuthesis/images/hh_nonresonant_eft_02.pdf> <./nuthesis/images/hh_nonres
-onant_eft_01.pdf>]
-<nuthesis/images/hh_nonresonant_eft_03.pdf, id=825, 364.1906pt x 273.1505pt>
-File: nuthesis/images/hh_nonresonant_eft_03.pdf Graphic file (type pdf)
-
-<use nuthesis/images/hh_nonresonant_eft_03.pdf>
-Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_03.pdf used on inpu
-t line 153.
-(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
-
-<nuthesis/images/hh_nonresonant_eft_04.pdf, id=826, 364.1906pt x 273.1505pt>
-File: nuthesis/images/hh_nonresonant_eft_04.pdf Graphic file (type pdf)
-
-<use nuthesis/images/hh_nonresonant_eft_04.pdf>
-Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_04.pdf used on inpu
-t line 154.
-(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
-
-<nuthesis/images/hh_nonresonant_eft_05.pdf, id=827, 364.1906pt x 273.1505pt>
-File: nuthesis/images/hh_nonresonant_eft_05.pdf Graphic file (type pdf)
-
-<use nuthesis/images/hh_nonresonant_eft_05.pdf>
-Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_05.pdf used on inpu
-t line 155.
-(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
- [22 <./nuthesis/images/hh_14_100_comparison.png> <./nuthesis/images/hh_sm_comp
-arison.png>]
-<nuthesis/images/HH_signature.png, id=837, 364.18057pt x 273.12038pt>
-File: nuthesis/images/HH_signature.png Graphic file (type png)
-
-<use nuthesis/images/HH_signature.png>
-Package pdftex.def Info: nuthesis/images/HH_signature.png used on input line 16
-6.
-(pdftex.def)             Requested size: 216.81001pt x 162.59824pt.
- [23 <./nuthesis/images/hh_nonresonant_eft_03.pdf> <./nuthesis/images/hh_nonres
-onant_eft_04.pdf> <./nuthesis/images/hh_nonresonant_eft_05.pdf>]
-<nuthesis/images/BR.pdf, id=892, 569.12625pt x 546.04pt>
-File: nuthesis/images/BR.pdf Graphic file (type pdf)
-
-<use nuthesis/images/BR.pdf>
-Package pdftex.def Info: nuthesis/images/BR.pdf used on input line 175.
-(pdftex.def)             Requested size: 216.81001pt x 208.01393pt.
-) (./nuthesis/sections/CMS.tex [24 <./nuthesis/images/HH_signature.png> <./nuth
-esis/images/BR.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `Sadenius' on page 25 undefined on input line 7.
-
-
-LaTeX Warning: Reference `LHC1984' on page 25 undefined on input line 7.
-
-
-LaTeX Warning: Reference `Evans' on page 25 undefined on input line 7.
-
-[25
-
-]
-<nuthesis/images/LHC-beam-permit-loops.png, id=948, 227.51666pt x 226.51292pt>
-File: nuthesis/images/LHC-beam-permit-loops.png Graphic file (type png)
-
-<use nuthesis/images/LHC-beam-permit-loops.png>
-Package pdftex.def Info: nuthesis/images/LHC-beam-permit-loops.png used on inpu
-t line 22.
-(pdftex.def)             Requested size: 325.21501pt x 323.8004pt.
-
-<nuthesis/images/LHC_default.jpg, id=949, 2125.9425pt x 1619.04875pt>
-File: nuthesis/images/LHC_default.jpg Graphic file (type jpg)
-
-<use nuthesis/images/LHC_default.jpg>
-Package pdftex.def Info: nuthesis/images/LHC_default.jpg used on input line 23.
-
-(pdftex.def)             Requested size: 325.21501pt x 247.66425pt.
- [26] [27 <./nuthesis/images/LHC-beam-permit-loops.png> <./nuthesis/images/LHC_
-default.jpg>]
-<nuthesis/images/lhcDipole.png, id=960, 690.9012pt x 540.5796pt>
-File: nuthesis/images/lhcDipole.png Graphic file (type png)
-
-<use nuthesis/images/lhcDipole.png>
-Package pdftex.def Info: nuthesis/images/lhcDipole.png used on input line 41.
-(pdftex.def)             Requested size: 390.25537pt x 305.3538pt.
- [28]
-<nuthesis/images/cables.png, id=967, 1318.9275pt x 503.8825pt>
-File: nuthesis/images/cables.png Graphic file (type png)
-
-<use nuthesis/images/cables.png>
-Package pdftex.def Info: nuthesis/images/cables.png used on input line 55.
-(pdftex.def)             Requested size: 390.25537pt x 149.08998pt.
- [29 <./nuthesis/images/lhcDipole.png>]
-<nuthesis/images/lhc_rfc.png, id=974, 810.52812pt x 530.98375pt>
-File: nuthesis/images/lhc_rfc.png Graphic file (type png)
-
-<use nuthesis/images/lhc_rfc.png>
-Package pdftex.def Info: nuthesis/images/lhc_rfc.png used on input line 71.
-(pdftex.def)             Requested size: 199.16858pt x 119.49858pt.
-
-<nuthesis/images/rfc_lhc.png, id=975, 1435.61343pt x 800.23969pt>
-File: nuthesis/images/rfc_lhc.png Graphic file (type png)
-
-<use nuthesis/images/rfc_lhc.png>
-Package pdftex.def Info: nuthesis/images/rfc_lhc.png used on input line 72.
-(pdftex.def)             Requested size: 215.33272pt x 120.03076pt.
- [30 <./nuthesis/images/cables.png> <./nuthesis/images/lhc_rfc.png> <./nuthesis
-/images/rfc_lhc.png>]
-
-LaTeX Warning: Reference `Eggert:260711, Gröbner:356437' on page 31 undefined o
-n input line 95.
-
-[31] <nuthesis/images/beam_screen.png, id=987, 934.49126pt x 495.8525pt>
-File: nuthesis/images/beam_screen.png Graphic file (type png)
-
-<use nuthesis/images/beam_screen.png>
-Package pdftex.def Info: nuthesis/images/beam_screen.png used on input line 100
-.
-(pdftex.def)             Requested size: 303.53268pt x 161.05936pt.
-
-<nuthesis/images/13kA_lead.png, id=989, 575.14874pt x 703.62875pt>
-File: nuthesis/images/13kA_lead.png Graphic file (type png)
-
-<use nuthesis/images/13kA_lead.png>
-Package pdftex.def Info: nuthesis/images/13kA_lead.png used on input line 110.
-(pdftex.def)             Requested size: 303.53268pt x 371.3432pt.
- [32 <./nuthesis/images/beam_screen.png>]
-[33 <./nuthesis/images/13kA_lead.png>]
-<nuthesis/images/cryo.png, id=1001, 1230.5975pt x 860.21375pt>
-File: nuthesis/images/cryo.png Graphic file (type png)
-
-<use nuthesis/images/cryo.png>
-Package pdftex.def Info: nuthesis/images/cryo.png used on input line 120.
-(pdftex.def)             Requested size: 303.53268pt x 212.16522pt.
- [34 <./nuthesis/images/cryo.png>]
-<nuthesis/images/cryo_T_scale.png, id=1009, 1036.87375pt x 861.2175pt>
-File: nuthesis/images/cryo_T_scale.png Graphic file (type png)
-
-<use nuthesis/images/cryo_T_scale.png>
-Package pdftex.def Info: nuthesis/images/cryo_T_scale.png used on input line 13
-8.
-(pdftex.def)             Requested size: 303.53268pt x 252.11208pt.
- [35 <./nuthesis/images/cryo_T_scale.png>] <nuthesis/images/lhc_complex.jpg, id
-=1015, 782.17218pt x 574.39594pt>
-File: nuthesis/images/lhc_complex.jpg Graphic file (type jpg)
-
-<use nuthesis/images/lhc_complex.jpg>
-Package pdftex.def Info: nuthesis/images/lhc_complex.jpg used on input line 164
-.
-(pdftex.def)             Requested size: 303.53268pt x 222.9004pt.
- [36] [37 <./nuthesis/images/lhc_complex.jpg>]
-<nuthesis/images/cms_cross_section.png, id=1026, 3189.9175pt x 2253.41875pt>
-File: nuthesis/images/cms_cross_section.png Graphic file (type png)
-
-<use nuthesis/images/cms_cross_section.png>
-Package pdftex.def Info: nuthesis/images/cms_cross_section.png used on input li
-ne 185.
-(pdftex.def)             Requested size: 390.25537pt x 275.6594pt.
- [38 <./nuthesis/images/cms_cross_section.png>] [39]
-Overfull \hbox (15.2399pt too wide) in paragraph at lines 212--214
-[]\T1/lmr/m/n/12 The ECAL is sur-rounded by the HCAL sys-tem which is based on 
-the brass/scintillator
- []
-
-[40]
-
-LaTeX Warning: Reference `MonroyMontanez:2639240' on page 41 undefined on input
- line 224.
-
-<nuthesis/images/coord.png, id=1043, 855.195pt x 502.87875pt>
-File: nuthesis/images/coord.png Graphic file (type png)
-
-<use nuthesis/images/coord.png>
-Package pdftex.def Info: nuthesis/images/coord.png used on input line 234.
-(pdftex.def)             Requested size: 342.07195pt x 201.14793pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./nuthesis/sections/Hbb-definitions.tex) (./nuthesis/sections/intro.tex
-[41] [42 <./nuthesis/images/coord.png>] [43
-
-]
-<nuthesis/images/BGtoHH.pdf, id=1080, 324.21124pt x 236.885pt>
-File: nuthesis/images/BGtoHH.pdf Graphic file (type pdf)
-
-<use nuthesis/images/BGtoHH.pdf>
-Package pdftex.def Info: nuthesis/images/BGtoHH.pdf used on input line 43.
-(pdftex.def)             Requested size: 195.12769pt x 142.57306pt.
-
-
-LaTeX Warning: Citation `VHbb_inspire' on page 44 undefined on input line 53.
-
-[44 <./nuthesis/images/BGtoHH.pdf>]) [45] (./nuthesis/sections/data.tex
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 34.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [46
-
-
-] [47]
-<nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_
-Leg1_WP90_2016.png, id=1133, 1031.855pt x 652.4375pt>
-File: nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficienc
-yHLT_Leg1_WP90_2016.png Graphic file (type png)
-
-<use nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiency
-HLT_Leg1_WP90_2016.png>
-Package pdftex.def Info: nuthesis/images/trigger/electronTriggerEfficiencyelect
-ronTriggerEfficiencyHLT_Leg1_WP90_2016.png used on input line 77.
-(pdftex.def)             Requested size: 433.62003pt x 274.1712pt.
-
-<nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_
-Leg2_WP90_2016.png, id=1134, 1035.87pt x 647.41875pt>
-File: nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficienc
-yHLT_Leg2_WP90_2016.png Graphic file (type png)
-
-<use nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiency
-HLT_Leg2_WP90_2016.png>
-Package pdftex.def Info: nuthesis/images/trigger/electronTriggerEfficiencyelect
-ronTriggerEfficiencyHLT_Leg2_WP90_2016.png used on input line 79.
-(pdftex.def)             Requested size: 433.62003pt x 271.01505pt.
-
-
-LaTeX Warning: Float too large for page by 9.36314pt on input line 82.
-
-
-<nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_M
-u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=1137, 
-569.12625pt x 385.44pt>
-File: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_
-hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graph
-ic file (type pdf)
-
-<use nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_h
-lt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf>
-Package pdftex.def Info: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8
-_OR_TkMu8_leg8_NUM_hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abs
-eta_ratio.pdf used on input line 87.
-(pdftex.def)             Requested size: 205.97215pt x 139.49345pt.
-
-<nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_le
-g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=1138, 569.12625pt x 385.
-44pt>
-File: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17M
-u8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic file (type pdf)
-
-
-<use nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu
-8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf>
-Package pdftex.def Info: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_
-leg17_NUM_hlt_Mu17Mu8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf used
- on input line 88.
-(pdftex.def)             Requested size: 205.97215pt x 139.49345pt.
-
-Underfull \hbox (badness 6268) in paragraph at lines 90--90
-[]\T1/lmr/bx/n/10.95 Figure 5.2: |\T1/lmr/m/n/10.95 Muon scale fac-tors in $\OM
-L/lmm/m/it/10.95 p[]$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 ^^Q$ \T1/lmr/m
-/n/10.95 bins for 2016 data runs
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 90--90
-\T1/lmr/m/n/10.95 B, C, D, E, F, G for the HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v* 
-OR
- []
-
-
-<nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_Mu17_M
-u8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=1139, 569.1
-2625pt x 385.44pt>
-File: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_M
-u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic fi
-le (type pdf)
-
-<use nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_Mu
-17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf>
-Package pdftex.def Info: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_T
-kMu8_leg8_NUM_hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_r
-atio.pdf used on input line 96.
-(pdftex.def)             Requested size: 205.97215pt x 139.49345pt.
-
-<nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_leg17_D
-EN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=1140, 569.12625pt x 385.44pt>
-File: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_le
-g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic file (type pdf)
-
-<use nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_leg
-17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf>
-Package pdftex.def Info: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17
-_NUM_hlt_Mu17Mu8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf used on i
-nput line 97.
-(pdftex.def)             Requested size: 205.97215pt x 139.49345pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-[]\T1/lmr/bx/n/10.95 Figure 5.3: |\T1/lmr/m/n/10.95 Muon scale fac-tors in $\OM
-L/lmm/m/it/10.95 p[]$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 ^^Q$ \T1/lmr/m
-/n/10.95 bins for 2016 data
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-\T1/lmr/m/n/10.95 run H for the HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v* OR
- []
-
-
-<nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_PAR_e
-ta1_eta2_abseta_tag_abseta_ratio.pdf, id=1141, 569.12625pt x 385.44pt>
-File: nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_
-PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf Graphic file (type pdf)
-
-<use nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_P
-AR_eta1_eta2_abseta_tag_abseta_ratio.pdf>
-Package pdftex.def Info: nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_
-Mu8_OR_TkMu8_loose_PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf used on input line
- 106.
-(pdftex.def)             Requested size: 368.57967pt x 249.63318pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-[]\T1/lmr/bx/n/10.95 Figure 5.4: |\T1/lmr/m/n/10.95 Scale fac-tors in $\OML/lmm
-/m/it/10.95 ^^Q$ \T1/lmr/m/n/10.95 bins of the lead-ing and sub-lead-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\T1/lmr/m/n/10.95 ing muons for 2016 data set for dZ re-quire-ment, mea-sured a
-f-ter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\T1/lmr/m/n/10.95 muons have passed the HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v* OR
- []
-
-<nuthesis/images/muon_ID_BCDEFv2.png, id=1142, 555.07375pt x 566.115pt>
-File: nuthesis/images/muon_ID_BCDEFv2.png Graphic file (type png)
-
-<use nuthesis/images/muon_ID_BCDEFv2.png>
-Package pdftex.def Info: nuthesis/images/muon_ID_BCDEFv2.png used on input line
- 116.
-(pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
-
-<nuthesis/images/muon_ID_GHv2.png, id=1143, 555.07375pt x 566.115pt>
-File: nuthesis/images/muon_ID_GHv2.png Graphic file (type png)
-
-<use nuthesis/images/muon_ID_GHv2.png>
-Package pdftex.def Info: nuthesis/images/muon_ID_GHv2.png used on input line 11
-8.
-(pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
-
-<nuthesis/images/muon_ISO_BCDEFv2.png, id=1144, 555.07375pt x 566.115pt>
-File: nuthesis/images/muon_ISO_BCDEFv2.png Graphic file (type png)
-
-<use nuthesis/images/muon_ISO_BCDEFv2.png>
-Package pdftex.def Info: nuthesis/images/muon_ISO_BCDEFv2.png used on input lin
-e 126.
-(pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
-
-<nuthesis/images/muon_ISO_GHv2.png, id=1145, 555.07375pt x 566.115pt>
-File: nuthesis/images/muon_ISO_GHv2.png Graphic file (type png)
-
-<use nuthesis/images/muon_ISO_GHv2.png>
-Package pdftex.def Info: nuthesis/images/muon_ISO_GHv2.png used on input line 1
-28.
-(pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
-
-<nuthesis/images/EIDISO_ZH_out.png, id=1146, 1071.00125pt x 1144.275pt>
-File: nuthesis/images/EIDISO_ZH_out.png Graphic file (type png)
-
-<use nuthesis/images/EIDISO_ZH_out.png>
-Package pdftex.def Info: nuthesis/images/EIDISO_ZH_out.png used on input line 1
-35.
-(pdftex.def)             Requested size: 390.25537pt x 416.94977pt.
-) [48] [49 <./nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerE
-fficiencyHLT_Leg1_WP90_2016.png> <./nuthesis/images/trigger/electronTriggerEffi
-ciencyelectronTriggerEfficiencyHLT_Leg2_WP90_2016.png>] [50 <./nuthesis/images/
-trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_Mu17_Mu8_OR_TkMu8_
-leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, page is rotated 90 degrees
-> <./nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu
-8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, page is rotated 90 degr
-ees> <./nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt
-_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, page is
- rotated 90 degrees> <./nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_
-NUM_hlt_Mu17Mu8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, page is r
-otated 90 degrees>] [51 <./nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu1
-7_Mu8_OR_TkMu8_loose_PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf, page is rotated
- 90 degrees>] [52 <./nuthesis/images/muon_ID_BCDEFv2.png> <./nuthesis/images/mu
-on_ID_GHv2.png>] [53 <./nuthesis/images/muon_ISO_BCDEFv2.png> <./nuthesis/image
-s/muon_ISO_GHv2.png>] [54 <./nuthesis/images/EIDISO_ZH_out.png>] (./nuthesis/se
-ctions/samples.tex [55
-
-
-] [56] [57])
-[58] (./nuthesis/sections/objects.tex [59
-
-
-] [60] [61] [62]
-<nuthesis/images/MET.png, id=1504, 1100.11pt x 249.93375pt>
-File: nuthesis/images/MET.png Graphic file (type png)
-
-<use nuthesis/images/MET.png>
-Package pdftex.def Info: nuthesis/images/MET.png used on input line 95.
-(pdftex.def)             Requested size: 411.9377pt x 93.58763pt.
-) [63 <./nuthesis/images/MET.png>]
-(./nuthesis/sections/selection.tex [64
-
-
-] [65]
-<nuthesis/images/ee_300_met.png, id=1525, 642.4pt x 481.8pt>
-File: nuthesis/images/ee_300_met.png Graphic file (type png)
-
-<use nuthesis/images/ee_300_met.png>
-Package pdftex.def Info: nuthesis/images/ee_300_met.png used on input line 59.
-(pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
-
-<nuthesis/images/mm_300_met.png, id=1526, 642.4pt x 481.8pt>
-File: nuthesis/images/mm_300_met.png Graphic file (type png)
-
-<use nuthesis/images/mm_300_met.png>
-Package pdftex.def Info: nuthesis/images/mm_300_met.png used on input line 60.
-(pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
-
-<nuthesis/images/ee_600_met.png, id=1527, 642.4pt x 481.8pt>
-File: nuthesis/images/ee_600_met.png Graphic file (type png)
-
-<use nuthesis/images/ee_600_met.png>
-Package pdftex.def Info: nuthesis/images/ee_600_met.png used on input line 61.
-(pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
-
-<nuthesis/images/mm_600_met.png, id=1528, 642.4pt x 481.8pt>
-File: nuthesis/images/mm_600_met.png Graphic file (type png)
-
-<use nuthesis/images/mm_600_met.png>
-Package pdftex.def Info: nuthesis/images/mm_600_met.png used on input line 62.
-(pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
-
-<nuthesis/images/ee_900_met.png, id=1529, 642.4pt x 481.8pt>
-File: nuthesis/images/ee_900_met.png Graphic file (type png)
-
-<use nuthesis/images/ee_900_met.png>
-Package pdftex.def Info: nuthesis/images/ee_900_met.png used on input line 63.
-(pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
-
-<nuthesis/images/mm_900_met.png, id=1530, 642.4pt x 481.8pt>
-File: nuthesis/images/mm_900_met.png Graphic file (type png)
-
-<use nuthesis/images/mm_900_met.png>
-Package pdftex.def Info: nuthesis/images/mm_900_met.png used on input line 64.
-(pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
- [66]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 73.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 73.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 73.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 73.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 73.
-
-[67 <./nuthesis/images/ee_300_met.png> <./nuthesis/images/mm_300_met.png> <./nu
-thesis/images/ee_600_met.png> <./nuthesis/images/mm_600_met.png> <./nuthesis/im
-ages/ee_900_met.png> <./nuthesis/images/mm_900_met.png>]
-<nuthesis/images/regions.png, id=1547, 396.48125pt x 331.2375pt>
-File: nuthesis/images/regions.png Graphic file (type png)
-
-<use nuthesis/images/regions.png>
-Package pdftex.def Info: nuthesis/images/regions.png used on input line 102.
-(pdftex.def)             Requested size: 195.12769pt x 163.02043pt.
- [68 <./nuthesis/images/regions.png>] [69]
-[70] [71] <nuthesis/images/cutflow_mm.png, id=1584, 963.6pt x 162.6075pt>
-File: nuthesis/images/cutflow_mm.png Graphic file (type png)
-
-<use nuthesis/images/cutflow_mm.png>
-Package pdftex.def Info: nuthesis/images/cutflow_mm.png used on input line 251.
-
-(pdftex.def)             Requested size: 394.59581pt x 66.58762pt.
-
-<nuthesis/images/cutflow_ee.png, id=1585, 999.735pt x 185.69376pt>
-File: nuthesis/images/cutflow_ee.png Graphic file (type png)
-
-<use nuthesis/images/cutflow_ee.png>
-Package pdftex.def Info: nuthesis/images/cutflow_ee.png used on input line 252.
-
-(pdftex.def)             Requested size: 394.59581pt x 73.29297pt.
-
-<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=1586, 5
-69.12625pt x 546.04pt>
-File: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf Graphi
-c file (type pdf)
-
-<use nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 263.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=1587, 5
-69.12625pt x 546.04pt>
-File: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf Graphi
-c file (type pdf)
-
-<use nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 264.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=1588, 569
-.12625pt x 546.04pt>
-File: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf Graphic 
-file (type pdf)
-
-<use nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_gr
-aviton.pdf used on input line 265.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=1589, 5
-69.12625pt x 546.04pt>
-File: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf Graphi
-c file (type pdf)
-
-<use nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 266.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=1590, 5
-69.12625pt x 546.04pt>
-File: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf Graphi
-c file (type pdf)
-
-<use nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 267.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=1591, 569
-.12625pt x 546.04pt>
-File: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf Graphic 
-file (type pdf)
-
-<use nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_gr
-aviton.pdf used on input line 268.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=1592, 569
-.12625pt x 546.04pt>
-File: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf Graphic 
-file (type pdf)
-
-<use nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 290.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=1593, 569
-.12625pt x 546.04pt>
-File: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf Graphic 
-file (type pdf)
-
-<use nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 291.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=1594, 569.1
-2625pt x 546.04pt>
-File: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf Graphic fi
-le (type pdf)
-
-<use nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_ra
-dion.pdf used on input line 292.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=1595, 569
-.12625pt x 546.04pt>
-File: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf Graphic 
-file (type pdf)
-
-<use nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 293.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=1596, 569
-.12625pt x 546.04pt>
-File: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf Graphic 
-file (type pdf)
-
-<use nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 294.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
-
-<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=1597, 569.1
-2625pt x 546.04pt>
-File: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf Graphic fi
-le (type pdf)
-
-<use nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf>
-Package pdftex.def Info: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_ra
-dion.pdf used on input line 295.
-(pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
- [72 <./nuthesis/images/cutflow_mm.png> <./nuthesis/images/cutflow_ee.png>] [73
- <./nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, page is
- rotated 90 degrees> <./nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_g
-raviton.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt_mm_SR_FullPost
-fit_plot_nov16_2_graviton.pdf, page is rotated 90 degrees> <./nuthesis/images/h
-hMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, page is rotated 90 degrees> 
-<./nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, page is 
-rotated 90 degrees> <./nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_grav
-iton.pdf, page is rotated 90 degrees>]) [74 <./nuthesis/images/hhMt_mm_CRDY_Ful
-lPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degrees> <./nuthesis/image
-s/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degrees>
- <./nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, page is rot
-ated 90 degrees> <./nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radio
-n.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt_ee_CRTT_FullPostfit_
-plot_nov16_2_radion.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt_ee
-_SR_FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degrees>]
-(./nuthesis/sections/mva.tex
-<nuthesis/images/ee_low.png, id=2153, 290.08376pt x 418.56375pt>
-File: nuthesis/images/ee_low.png Graphic file (type png)
-
-<use nuthesis/images/ee_low.png>
-Package pdftex.def Info: nuthesis/images/ee_low.png used on input line 15.
-(pdftex.def)             Requested size: 151.76965pt x 218.98923pt.
-
-<nuthesis/images/ee_high.png, id=2154, 284.06125pt x 411.5375pt>
-File: nuthesis/images/ee_high.png Graphic file (type png)
-
-<use nuthesis/images/ee_high.png>
-Package pdftex.def Info: nuthesis/images/ee_high.png used on input line 16.
-(pdftex.def)             Requested size: 151.76965pt x 219.88467pt.
-
-<nuthesis/images/mm_low.png, id=2155, 263.98625pt x 411.5375pt>
-File: nuthesis/images/mm_low.png Graphic file (type png)
-
-<use nuthesis/images/mm_low.png>
-Package pdftex.def Info: nuthesis/images/mm_low.png used on input line 17.
-(pdftex.def)             Requested size: 151.76965pt x 236.59454pt.
-
-<nuthesis/images/mm_high.png, id=2156, 265.99374pt x 422.57875pt>
-File: nuthesis/images/mm_high.png Graphic file (type png)
-
-<use nuthesis/images/mm_high.png>
-Package pdftex.def Info: nuthesis/images/mm_high.png used on input line 18.
-(pdftex.def)             Requested size: 151.76965pt x 241.11742pt.
- [75
-
-
-]
-<nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=216
-3, 569.12625pt x 546.04pt>
-File: nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf Gr
-aphic file (type pdf)
-
-<use nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf>
-Package pdftex.def Info: nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_no
-v16_2_radion.pdf used on input line 27.
-(pdftex.def)             Requested size: 260.17465pt x 249.63171pt.
-
-<nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=216
-4, 569.12625pt x 546.04pt>
-File: nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf Gr
-aphic file (type pdf)
-
-<use nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf>
-Package pdftex.def Info: nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_no
-v16_2_radion.pdf used on input line 28.
-(pdftex.def)             Requested size: 260.17465pt x 249.63171pt.
-
-<nuthesis/images/bdtPlots_eles/low_vars1.pdf, id=2167, 569.12625pt x 295.1025pt
->
-File: nuthesis/images/bdtPlots_eles/low_vars1.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_eles/low_vars1.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_vars1.pdf used on in
-put line 39.
-(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
-
-<nuthesis/images/bdtPlots_eles/low_vars2.pdf, id=2168, 569.12625pt x 295.1025pt
->
-File: nuthesis/images/bdtPlots_eles/low_vars2.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_eles/low_vars2.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_vars2.pdf used on in
-put line 40.
-(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
-
-<nuthesis/images/bdtPlots_eles/high_vars1.pdf, id=2169, 569.12625pt x 295.1025p
-t>
-File: nuthesis/images/bdtPlots_eles/high_vars1.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_eles/high_vars1.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_vars1.pdf used on i
-nput line 50.
-(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
-
-<nuthesis/images/bdtPlots_eles/high_vars2.pdf, id=2170, 569.12625pt x 295.1025p
-t>
-File: nuthesis/images/bdtPlots_eles/high_vars2.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_eles/high_vars2.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_vars2.pdf used on i
-nput line 51.
-(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
- [76 <./nuthesis/images/ee_low.png> <./nuthesis/images/ee_high.png> <./nuthesis
-/images/mm_low.png> <./nuthesis/images/mm_high.png>] [77 <./nuthesis/images/bdt
-_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degrees
-> <./nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, pa
-ge is rotated 90 degrees>] [78 <./nuthesis/images/bdtPlots_eles/low_vars1.pdf, 
-page is rotated 90 degrees> <./nuthesis/images/bdtPlots_eles/low_vars2.pdf, pag
-e is rotated 90 degrees>]
-[79 <./nuthesis/images/bdtPlots_eles/high_vars1.pdf, page is rotated 90 degrees
-> <./nuthesis/images/bdtPlots_eles/high_vars2.pdf, page is rotated 90 degrees>]
-
-<nuthesis/images/bdtPlots_eles/low_bdt.pdf, id=2458, 569.12625pt x 420.57124pt>
-File: nuthesis/images/bdtPlots_eles/low_bdt.pdf Graphic file (type pdf)
-<use nuthesis/images/bdtPlots_eles/low_bdt.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_bdt.pdf used on inpu
-t line 67.
-(pdftex.def)             Requested size: 325.21501pt x 240.33775pt.
-
-<nuthesis/images/bdtPlots_eles/high_bdt.pdf, id=2459, 569.12625pt x 420.57124pt
->
-File: nuthesis/images/bdtPlots_eles/high_bdt.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_eles/high_bdt.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_bdt.pdf used on inp
-ut line 68.
-(pdftex.def)             Requested size: 325.21501pt x 240.33775pt.
-
-<nuthesis/images/bdtPlots_eles/low_roc.pdf, id=2466, 569.12625pt x 416.55624pt>
-File: nuthesis/images/bdtPlots_eles/low_roc.pdf Graphic file (type pdf)
-<use nuthesis/images/bdtPlots_eles/low_roc.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_roc.pdf used on inpu
-t line 80.
-(pdftex.def)             Requested size: 325.21501pt x 238.04335pt.
-
-<nuthesis/images/bdtPlots_eles/high_roc.pdf, id=2467, 569.12625pt x 416.55624pt
->
-File: nuthesis/images/bdtPlots_eles/high_roc.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_eles/high_roc.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_roc.pdf used on inp
-ut line 81.
-(pdftex.def)             Requested size: 325.21501pt x 238.04335pt.
-
-<nuthesis/images/bdtPlots_eles/low_corS.pdf, id=2468, 569.12625pt x 546.04pt>
-File: nuthesis/images/bdtPlots_eles/low_corS.pdf Graphic file (type pdf)
-
-<use nuthesis/images/bdtPlots_eles/low_corS.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_corS.pdf used on inp
-ut line 89.
-(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
-
-<nuthesis/images/bdtPlots_eles/low_corB.pdf, id=2469, 569.12625pt x 546.04pt>
-File: nuthesis/images/bdtPlots_eles/low_corB.pdf Graphic file (type pdf)
-
-<use nuthesis/images/bdtPlots_eles/low_corB.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_corB.pdf used on inp
-ut line 90.
-(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
-
-
-LaTeX Warning: Float too large for page by 58.78604pt on input line 94.
-
-
-<nuthesis/images/bdtPlots_eles/high_corS.pdf, id=2470, 569.12625pt x 546.04pt>
-File: nuthesis/images/bdtPlots_eles/high_corS.pdf Graphic file (type pdf)
-
-<use nuthesis/images/bdtPlots_eles/high_corS.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_corS.pdf used on in
-put line 99.
-(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
-
-<nuthesis/images/bdtPlots_eles/high_corB.pdf, id=2471, 569.12625pt x 546.04pt>
-File: nuthesis/images/bdtPlots_eles/high_corB.pdf Graphic file (type pdf)
-
-<use nuthesis/images/bdtPlots_eles/high_corB.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_corB.pdf used on in
-put line 100.
-(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
-
-
-LaTeX Warning: Float too large for page by 58.78604pt on input line 104.
-
-[80] [81 <./nuthesis/images/bdtPlots_eles/low_bdt.pdf, page is rotated 90 degre
-es> <./nuthesis/images/bdtPlots_eles/high_bdt.pdf, page is rotated 90 degrees>]
-[82 <./nuthesis/images/bdtPlots_eles/low_roc.pdf, page is rotated 90 degrees> <
-./nuthesis/images/bdtPlots_eles/high_roc.pdf, page is rotated 90 degrees>]
-[83 <./nuthesis/images/bdtPlots_eles/low_corS.pdf, page is rotated 90 degrees> 
-<./nuthesis/images/bdtPlots_eles/low_corB.pdf, page is rotated 90 degrees>]
-[84 <./nuthesis/images/bdtPlots_eles/high_corS.pdf, page is rotated 90 degrees>
- <./nuthesis/images/bdtPlots_eles/high_corB.pdf, page is rotated 90 degrees>]
-<nuthesis/images/bdtPlots_muons/low_vars1.pdf, id=2841, 569.12625pt x 295.1025p
-t>
-File: nuthesis/images/bdtPlots_muons/low_vars1.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_muons/low_vars1.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_vars1.pdf used on i
-nput line 128.
-(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
-
-<nuthesis/images/bdtPlots_muons/low_vars2.pdf, id=2842, 569.12625pt x 295.1025p
-t>
-File: nuthesis/images/bdtPlots_muons/low_vars2.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_muons/low_vars2.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_vars2.pdf used on i
-nput line 129.
-(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
-
-<nuthesis/images/bdtPlots_muons/high_vars1.pdf, id=2843, 569.12625pt x 295.1025
-pt>
-File: nuthesis/images/bdtPlots_muons/high_vars1.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_muons/high_vars1.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_vars1.pdf used on 
-input line 139.
-(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
-
-<nuthesis/images/bdtPlots_muons/high_vars2.pdf, id=2844, 569.12625pt x 295.1025
-pt>
-File: nuthesis/images/bdtPlots_muons/high_vars2.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_muons/high_vars2.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_vars2.pdf used on 
-input line 140.
-(pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
-
-<nuthesis/images/bdtPlots_muons/low_bdt.pdf, id=2845, 569.12625pt x 420.57124pt
->
-File: nuthesis/images/bdtPlots_muons/low_bdt.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_muons/low_bdt.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_bdt.pdf used on inp
-ut line 149.
-(pdftex.def)             Requested size: 325.21501pt x 240.33775pt.
-
-<nuthesis/images/bdtPlots_muons/high_bdt.pdf, id=2846, 569.12625pt x 420.57124p
-t>
-File: nuthesis/images/bdtPlots_muons/high_bdt.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_muons/high_bdt.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_bdt.pdf used on in
-put line 150.
-(pdftex.def)             Requested size: 325.21501pt x 240.33775pt.
-
-<nuthesis/images/bdtPlots_muons/low_roc.pdf, id=2847, 569.12625pt x 416.55624pt
->
-File: nuthesis/images/bdtPlots_muons/low_roc.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_muons/low_roc.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_roc.pdf used on inp
-ut line 158.
-(pdftex.def)             Requested size: 325.21501pt x 238.04335pt.
-
-<nuthesis/images/bdtPlots_muons/high_roc.pdf, id=2848, 569.12625pt x 416.55624p
-t>
-File: nuthesis/images/bdtPlots_muons/high_roc.pdf Graphic file (type pdf)
- <use nuthesis/images/bdtPlots_muons/high_roc.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_roc.pdf used on in
-put line 159.
-(pdftex.def)             Requested size: 325.21501pt x 238.04335pt.
-
-<nuthesis/images/bdtPlots_muons/low_corS.pdf, id=2849, 569.12625pt x 546.04pt>
-File: nuthesis/images/bdtPlots_muons/low_corS.pdf Graphic file (type pdf)
-
-<use nuthesis/images/bdtPlots_muons/low_corS.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_corS.pdf used on in
-put line 167.
-(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
-
-<nuthesis/images/bdtPlots_muons/low_corB.pdf, id=2850, 569.12625pt x 546.04pt>
-File: nuthesis/images/bdtPlots_muons/low_corB.pdf Graphic file (type pdf)
-
-<use nuthesis/images/bdtPlots_muons/low_corB.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/low_corB.pdf used on in
-put line 168.
-(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
-
-
-LaTeX Warning: Float too large for page by 58.78604pt on input line 172.
-
-
-<nuthesis/images/bdtPlots_muons/high_corS.pdf, id=2851, 569.12625pt x 546.04pt>
-File: nuthesis/images/bdtPlots_muons/high_corS.pdf Graphic file (type pdf)
-<use nuthesis/images/bdtPlots_muons/high_corS.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_corS.pdf used on i
-nput line 177.
-(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
-
-<nuthesis/images/bdtPlots_muons/high_corB.pdf, id=2852, 569.12625pt x 546.04pt>
-File: nuthesis/images/bdtPlots_muons/high_corB.pdf Graphic file (type pdf)
-<use nuthesis/images/bdtPlots_muons/high_corB.pdf>
-Package pdftex.def Info: nuthesis/images/bdtPlots_muons/high_corB.pdf used on i
-nput line 178.
-(pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
-
-
-LaTeX Warning: Float too large for page by 58.78604pt on input line 182.
-
-) [85 <./nuthesis/images/bdtPlots_muons/low_vars1.pdf, page is rotated 90 degre
-es> <./nuthesis/images/bdtPlots_muons/low_vars2.pdf, page is rotated 90 degrees
->] [86 <./nuthesis/images/bdtPlots_muons/high_vars1.pdf, page is rotated 90 deg
-rees> <./nuthesis/images/bdtPlots_muons/high_vars2.pdf, page is rotated 90 degr
-ees>] [87 <./nuthesis/images/bdtPlots_muons/low_bdt.pdf, page is rotated 90 deg
-rees> <./nuthesis/images/bdtPlots_muons/high_bdt.pdf, page is rotated 90 degree
-s>] [88 <./nuthesis/images/bdtPlots_muons/low_roc.pdf, page is rotated 90 degre
-es> <./nuthesis/images/bdtPlots_muons/high_roc.pdf, page is rotated 90 degrees>
-] [89 <./nuthesis/images/bdtPlots_muons/low_corS.pdf, page is rotated 90 degree
-s> <./nuthesis/images/bdtPlots_muons/low_corB.pdf, page is rotated 90 degrees>]
-[90 <./nuthesis/images/bdtPlots_muons/high_corS.pdf, page is rotated 90 degrees
-> <./nuthesis/images/bdtPlots_muons/high_corB.pdf, page is rotated 90 degrees>]
-(./nuthesis/sections/systematics.tex [91
-
-
-]
-
-LaTeX Warning: Citation `CMS-PAS-LUM-17-001' on page 92 undefined on input line
- 32.
-
-
-LaTeX Warning: Citation `Ball:2014uwa' on page 92 undefined on input line 43.
-
-
-LaTeX Warning: Citation `Botje:2011sn' on page 92 undefined on input line 44.
-
-
-LaTeX Warning: Citation `Alekhin:2011sk' on page 92 undefined on input line 44.
-
-
-[92] [93] [94]) [95] (./nuthesis/sections/Results.tex [96
-
-
-] [97]) [98]
-(./nuthesis/sections/limits.tex [99
-
-
-]
-Overfull \hbox (50.26305pt too wide) in paragraph at lines 22--28
- [] 
- []
-
-
-<nuthesis/images/eles_bdt_vs_r/gr_limits__260GeV.pdf, id=3448, 569.12625pt x 38
-6.44376pt>
-File: nuthesis/images/eles_bdt_vs_r/gr_limits__260GeV.pdf Graphic file (type pd
-f)
- <use nuthesis/images/eles_bdt_vs_r/gr_limits__260GeV.pdf>
-Package pdftex.def Info: nuthesis/images/eles_bdt_vs_r/gr_limits__260GeV.pdf us
-ed on input line 40.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/eles_bdt_vs_r/gr_limits__270GeV.pdf, id=3449, 569.12625pt x 38
-6.44376pt>
-File: nuthesis/images/eles_bdt_vs_r/gr_limits__270GeV.pdf Graphic file (type pd
-f)
- <use nuthesis/images/eles_bdt_vs_r/gr_limits__270GeV.pdf>
-Package pdftex.def Info: nuthesis/images/eles_bdt_vs_r/gr_limits__270GeV.pdf us
-ed on input line 41.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/eles_bdt_vs_r/gr_limits__300GeV.pdf, id=3450, 569.12625pt x 38
-6.44376pt>
-File: nuthesis/images/eles_bdt_vs_r/gr_limits__300GeV.pdf Graphic file (type pd
-f)
- <use nuthesis/images/eles_bdt_vs_r/gr_limits__300GeV.pdf>
-Package pdftex.def Info: nuthesis/images/eles_bdt_vs_r/gr_limits__300GeV.pdf us
-ed on input line 42.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/eles_bdt_vs_r/gr_limits__350GeV.pdf, id=3451, 569.12625pt x 38
-6.44376pt>
-File: nuthesis/images/eles_bdt_vs_r/gr_limits__350GeV.pdf Graphic file (type pd
-f)
- <use nuthesis/images/eles_bdt_vs_r/gr_limits__350GeV.pdf>
-Package pdftex.def Info: nuthesis/images/eles_bdt_vs_r/gr_limits__350GeV.pdf us
-ed on input line 43.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/eles_bdt_vs_r/gr_limits__400GeV.pdf, id=3452, 569.12625pt x 38
-6.44376pt>
-File: nuthesis/images/eles_bdt_vs_r/gr_limits__400GeV.pdf Graphic file (type pd
-f)
- <use nuthesis/images/eles_bdt_vs_r/gr_limits__400GeV.pdf>
-Package pdftex.def Info: nuthesis/images/eles_bdt_vs_r/gr_limits__400GeV.pdf us
-ed on input line 44.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/eles_bdt_vs_r/gr_limits__450GeV.pdf, id=3453, 569.12625pt x 38
-6.44376pt>
-File: nuthesis/images/eles_bdt_vs_r/gr_limits__450GeV.pdf Graphic file (type pd
-f)
- <use nuthesis/images/eles_bdt_vs_r/gr_limits__450GeV.pdf>
-Package pdftex.def Info: nuthesis/images/eles_bdt_vs_r/gr_limits__450GeV.pdf us
-ed on input line 45.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/eles_bdt_vs_r/gr_limits__600GeV.pdf, id=3454, 569.12625pt x 38
-6.44376pt>
-File: nuthesis/images/eles_bdt_vs_r/gr_limits__600GeV.pdf Graphic file (type pd
-f)
- <use nuthesis/images/eles_bdt_vs_r/gr_limits__600GeV.pdf>
-Package pdftex.def Info: nuthesis/images/eles_bdt_vs_r/gr_limits__600GeV.pdf us
-ed on input line 46.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/eles_bdt_vs_r/gr_limits__650GeV.pdf, id=3455, 569.12625pt x 38
-6.44376pt>
-File: nuthesis/images/eles_bdt_vs_r/gr_limits__650GeV.pdf Graphic file (type pd
-f)
- <use nuthesis/images/eles_bdt_vs_r/gr_limits__650GeV.pdf>
-Package pdftex.def Info: nuthesis/images/eles_bdt_vs_r/gr_limits__650GeV.pdf us
-ed on input line 47.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/eles_bdt_vs_r/gr_limits__900GeV.pdf, id=3456, 569.12625pt x 38
-6.44376pt>
-File: nuthesis/images/eles_bdt_vs_r/gr_limits__900GeV.pdf Graphic file (type pd
-f)
- <use nuthesis/images/eles_bdt_vs_r/gr_limits__900GeV.pdf>
-Package pdftex.def Info: nuthesis/images/eles_bdt_vs_r/gr_limits__900GeV.pdf us
-ed on input line 48.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/eles_bdt_vs_r/gr_limits__1000GeV.pdf, id=3457, 569.12625pt x 3
-86.44376pt>
-File: nuthesis/images/eles_bdt_vs_r/gr_limits__1000GeV.pdf Graphic file (type p
-df)
- <use nuthesis/images/eles_bdt_vs_r/gr_limits__1000GeV.pdf>
-Package pdftex.def Info: nuthesis/images/eles_bdt_vs_r/gr_limits__1000GeV.pdf u
-sed on input line 50.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--51
-[][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--51
-[] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--51
-[] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--51
-[] []
- []
-
-
-LaTeX Warning: Float too large for page by 27.59618pt on input line 53.
-
-
-<nuthesis/images/muons_bdt_vs_r/gr_limits__260GeV.pdf, id=3458, 569.12625pt x 3
-86.44376pt>
-File: nuthesis/images/muons_bdt_vs_r/gr_limits__260GeV.pdf Graphic file (type p
-df)
- <use nuthesis/images/muons_bdt_vs_r/gr_limits__260GeV.pdf>
-Package pdftex.def Info: nuthesis/images/muons_bdt_vs_r/gr_limits__260GeV.pdf u
-sed on input line 58.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/muons_bdt_vs_r/gr_limits__270GeV.pdf, id=3459, 569.12625pt x 3
-86.44376pt>
-File: nuthesis/images/muons_bdt_vs_r/gr_limits__270GeV.pdf Graphic file (type p
-df)
- <use nuthesis/images/muons_bdt_vs_r/gr_limits__270GeV.pdf>
-Package pdftex.def Info: nuthesis/images/muons_bdt_vs_r/gr_limits__270GeV.pdf u
-sed on input line 59.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/muons_bdt_vs_r/gr_limits__300GeV.pdf, id=3460, 569.12625pt x 3
-86.44376pt>
-File: nuthesis/images/muons_bdt_vs_r/gr_limits__300GeV.pdf Graphic file (type p
-df)
- <use nuthesis/images/muons_bdt_vs_r/gr_limits__300GeV.pdf>
-Package pdftex.def Info: nuthesis/images/muons_bdt_vs_r/gr_limits__300GeV.pdf u
-sed on input line 60.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/muons_bdt_vs_r/gr_limits__350GeV.pdf, id=3461, 569.12625pt x 3
-86.44376pt>
-File: nuthesis/images/muons_bdt_vs_r/gr_limits__350GeV.pdf Graphic file (type p
-df)
- <use nuthesis/images/muons_bdt_vs_r/gr_limits__350GeV.pdf>
-Package pdftex.def Info: nuthesis/images/muons_bdt_vs_r/gr_limits__350GeV.pdf u
-sed on input line 61.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/muons_bdt_vs_r/gr_limits__400GeV.pdf, id=3462, 569.12625pt x 3
-86.44376pt>
-File: nuthesis/images/muons_bdt_vs_r/gr_limits__400GeV.pdf Graphic file (type p
-df)
- <use nuthesis/images/muons_bdt_vs_r/gr_limits__400GeV.pdf>
-Package pdftex.def Info: nuthesis/images/muons_bdt_vs_r/gr_limits__400GeV.pdf u
-sed on input line 62.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/muons_bdt_vs_r/gr_limits__450GeV.pdf, id=3463, 569.12625pt x 3
-86.44376pt>
-File: nuthesis/images/muons_bdt_vs_r/gr_limits__450GeV.pdf Graphic file (type p
-df)
- <use nuthesis/images/muons_bdt_vs_r/gr_limits__450GeV.pdf>
-Package pdftex.def Info: nuthesis/images/muons_bdt_vs_r/gr_limits__450GeV.pdf u
-sed on input line 63.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/muons_bdt_vs_r/gr_limits__600GeV.pdf, id=3464, 569.12625pt x 3
-86.44376pt>
-File: nuthesis/images/muons_bdt_vs_r/gr_limits__600GeV.pdf Graphic file (type p
-df)
- <use nuthesis/images/muons_bdt_vs_r/gr_limits__600GeV.pdf>
-Package pdftex.def Info: nuthesis/images/muons_bdt_vs_r/gr_limits__600GeV.pdf u
-sed on input line 64.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/muons_bdt_vs_r/gr_limits__650GeV.pdf, id=3465, 569.12625pt x 3
-86.44376pt>
-File: nuthesis/images/muons_bdt_vs_r/gr_limits__650GeV.pdf Graphic file (type p
-df)
- <use nuthesis/images/muons_bdt_vs_r/gr_limits__650GeV.pdf>
-Package pdftex.def Info: nuthesis/images/muons_bdt_vs_r/gr_limits__650GeV.pdf u
-sed on input line 65.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/muons_bdt_vs_r/gr_limits__900GeV.pdf, id=3466, 569.12625pt x 3
-86.44376pt>
-File: nuthesis/images/muons_bdt_vs_r/gr_limits__900GeV.pdf Graphic file (type p
-df)
- <use nuthesis/images/muons_bdt_vs_r/gr_limits__900GeV.pdf>
-Package pdftex.def Info: nuthesis/images/muons_bdt_vs_r/gr_limits__900GeV.pdf u
-sed on input line 66.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-<nuthesis/images/muons_bdt_vs_r/gr_limits__1000GeV.pdf, id=3467, 569.12625pt x 
-386.44376pt>
-File: nuthesis/images/muons_bdt_vs_r/gr_limits__1000GeV.pdf Graphic file (type 
-pdf)
- <use nuthesis/images/muons_bdt_vs_r/gr_limits__1000GeV.pdf>
-Package pdftex.def Info: nuthesis/images/muons_bdt_vs_r/gr_limits__1000GeV.pdf 
-used on input line 68.
-(pdftex.def)             Requested size: 181.45544pt x 123.21048pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--69
-[][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--69
-[] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--69
-[] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--69
-[] []
- []
-
-
-LaTeX Warning: Float too large for page by 27.59618pt on input line 71.
-
-[100]
-Overfull \hbox (13.77538pt too wide) in paragraph at lines 77--84
-[]$\T1/lmr/m/n/12 . 
- []
-
-
-<nuthesis/images/limitHH_Nov16_graviton.pdf, id=3480, 569.12625pt x 552.0625pt>
-File: nuthesis/images/limitHH_Nov16_graviton.pdf Graphic file (type pdf)
-<use nuthesis/images/limitHH_Nov16_graviton.pdf>
-Package pdftex.def Info: nuthesis/images/limitHH_Nov16_graviton.pdf used on inp
-ut line 107.
-(pdftex.def)             Requested size: 281.85036pt x 273.41077pt.
-
-<nuthesis/images/limitHH_Nov16_radion.pdf, id=3481, 569.12625pt x 552.0625pt>
-File: nuthesis/images/limitHH_Nov16_radion.pdf Graphic file (type pdf)
-
-<use nuthesis/images/limitHH_Nov16_radion.pdf>
-Package pdftex.def Info: nuthesis/images/limitHH_Nov16_radion.pdf used on input
- line 108.
-(pdftex.def)             Requested size: 281.85036pt x 273.41077pt.
-
-
-LaTeX Warning: Float too large for page by 22.33246pt on input line 117.
-
-) [101] [102] [103 <./nuthesis/images/eles_bdt_vs_r/gr_limits__260GeV.pdf, page
- is rotated 90 degrees> <./nuthesis/images/eles_bdt_vs_r/gr_limits__270GeV.pdf,
- page is rotated 90 degrees> <./nuthesis/images/eles_bdt_vs_r/gr_limits__300GeV
-.pdf, page is rotated 90 degrees> <./nuthesis/images/eles_bdt_vs_r/gr_limits__3
-50GeV.pdf, page is rotated 90 degrees> <./nuthesis/images/eles_bdt_vs_r/gr_limi
-ts__400GeV.pdf, page is rotated 90 degrees> <./nuthesis/images/eles_bdt_vs_r/gr
-_limits__450GeV.pdf, page is rotated 90 degrees> <./nuthesis/images/eles_bdt_vs
-_r/gr_limits__600GeV.pdf, page is rotated 90 degrees> <./nuthesis/images/eles_b
-dt_vs_r/gr_limits__650GeV.pdf, page is rotated 90 degrees> <./nuthesis/images/e
-les_bdt_vs_r/gr_limits__900GeV.pdf, page is rotated 90 degrees> <./nuthesis/ima
-ges/eles_bdt_vs_r/gr_limits__1000GeV.pdf, page is rotated 90 degrees>] [104 <./
-nuthesis/images/muons_bdt_vs_r/gr_limits__260GeV.pdf, page is rotated 90 degree
-s> <./nuthesis/images/muons_bdt_vs_r/gr_limits__270GeV.pdf, page is rotated 90 
-degrees> <./nuthesis/images/muons_bdt_vs_r/gr_limits__300GeV.pdf, page is rotat
-ed 90 degrees> <./nuthesis/images/muons_bdt_vs_r/gr_limits__350GeV.pdf, page is
- rotated 90 degrees> <./nuthesis/images/muons_bdt_vs_r/gr_limits__400GeV.pdf, p
-age is rotated 90 degrees> <./nuthesis/images/muons_bdt_vs_r/gr_limits__450GeV.
-pdf, page is rotated 90 degrees> <./nuthesis/images/muons_bdt_vs_r/gr_limits__6
-00GeV.pdf, page is rotated 90 degrees> <./nuthesis/images/muons_bdt_vs_r/gr_lim
-its__650GeV.pdf, page is rotated 90 degrees> <./nuthesis/images/muons_bdt_vs_r/
-gr_limits__900GeV.pdf, page is rotated 90 degrees> <./nuthesis/images/muons_bdt
-_vs_r/gr_limits__1000GeV.pdf, page is rotated 90 degrees>] [105 <./nuthesis/ima
-ges/limitHH_Nov16_graviton.pdf, page is rotated 90 degrees> <./nuthesis/images/
-limitHH_Nov16_radion.pdf, page is rotated 90 degrees>]
-(./nuthesis/sections/bbZZcombination.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 1.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-[106
-
-
-] <nuthesis/images/HH_combo_spin0.png, id=4465, 1194.4625pt x 820.06375pt>
-File: nuthesis/images/HH_combo_spin0.png Graphic file (type png)
-
-<use nuthesis/images/HH_combo_spin0.png>
-Package pdftex.def Info: nuthesis/images/HH_combo_spin0.png used on input line 
-16.
-(pdftex.def)             Requested size: 281.85036pt x 193.50333pt.
-
-<nuthesis/images/HH_combo_spin2.png, id=4466, 1207.51125pt x 825.0825pt>
-File: nuthesis/images/HH_combo_spin2.png Graphic file (type png)
-
-<use nuthesis/images/HH_combo_spin2.png>
-Package pdftex.def Info: nuthesis/images/HH_combo_spin2.png used on input line 
-17.
-(pdftex.def)             Requested size: 281.85036pt x 192.58508pt.
- [107]) [108 <./nuthesis/images/HH_combo_spin0.png> <./nuthesis/images/HH_combo
-_spin2.png>]
-(./nuthesis/sections/Conclusions.tex [109
-
-
-] [110]) (./skeleton.bbl
+) (./skeleton.bbl [15 <./nuthesis/images/Higgs_BR_LM_RECT.pdf>]
 bibitemlist
 
 Underfull \hbox (badness 1490) in paragraph at lines 34--39
@@ -2568,11 +1222,9 @@ Underfull \hbox (badness 1490) in paragraph at lines 34--39
  Mis-try,
  []
 
-[111
+[16
 
-
-
-] [112] [113]
+] [17] [18]
 Overfull \hbox (113.26103pt too wide) in paragraph at lines 197--200
 \T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
 es_expectedSignal0_350.html. 
@@ -2590,7 +1242,7 @@ Overfull \hbox (113.26103pt too wide) in paragraph at lines 202--205
 es_expectedSignal1_350.html. 
  []
 
-[114]
+[19]
 Overfull \hbox (104.27762pt too wide) in paragraph at lines 207--210
 []\T1/lmr/m/n/12 k-factor for DY/Z.  https://twiki.cern.ch/twiki/bin/viewauth/C
 MS/SummaryTable1G25ns#DY_Z. 
@@ -2662,13 +1314,18 @@ Overfull \hbox (142.47328pt too wide) in paragraph at lines 240--244
 PageBR#Higgs_2_gauge_bosons. 
  []
 
-[115]
+[20]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 307.
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 Underfull \hbox (badness 10000) in paragraph at lines 304--308
 \T1/lmtt/m/n/12 contributions / 2465881 / attachments / 1407735 / 2151747 / TnP
  _ 06 _ 02 _ 2017 .
  []
 
-[116]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 310--314
 \T1/lmtt/m/n/12 ch / twiki / bin / view / CMS / MuonWorkInProgressAndPagResults
  # Results _ on _
@@ -2686,13 +1343,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--320
 ons / 2577291 /
  []
 
-[117]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/lmtt/m/n/12 twiki . cern . ch / twiki / bin / viewauth / CMS / BtagRecommen
 dation80XReReco #
  []
 
-[118] [119] [120]
+[23] [24] [25]
 Underfull \hbox (badness 4132) in paragraph at lines 564--568
 []\T1/lmr/m/n/12 CMS Muon POG.  Ref-er-ence muon id, iso-la-tion and trig-ger e
 f-fi-
@@ -2704,7 +1361,7 @@ Underfull \hbox (badness 1259) in paragraph at lines 564--568
 rn . ch / twiki / bin / viewauth / CMS /
  []
 
-[121] [122]
+[26] [27]
 Underfull \hbox (badness 10000) in paragraph at lines 628--632
 []$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 604949 / contributi
 ons / 2543520 /
@@ -2734,7 +1391,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 651--655
  / Multivari \
  []
 
-[123]
+[28]
 Underfull \hbox (badness 3354) in paragraph at lines 663--668
 []\T1/lmr/m/n/12 CMS Higgs WG.  Doc-u-men-ta-tion of the RooSt-ats -based stati
 s-tics
@@ -2757,14 +1414,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 670--674
 ch / twiki / bin / view / CMS /
  []
 
-[124] [125] [126])
+[29] [30] [31])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 358.
+(in both cases you will find help in the memoir manual). on input line 359.
 
-[127]
+[32]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -2774,64 +1431,56 @@ either increase the foot skip or redesign the fotoer
 \tf@lot=\write7
 \openout7 = `skeleton.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
  (./skeleton.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: E6CEA3EB9CC0EC94A0AD0E1D168ACC69;3396.
+(rerunfilecheck)             Checksum: 7AC5FCFD081BB82F98A7DD432B92E07B;468.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 16353 strings out of 493014
- 253705 string characters out of 6133350
- 398568 words of memory out of 5000000
- 18991 multiletter control sequences out of 15000+600000
- 160151 words of font info for 149 fonts, out of 8000000 for 9000
- 1150 hyphenation exceptions out of 8191
- 52i,14n,46p,1811b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 15142 strings out of 493014
+ 219069 string characters out of 6133350
+ 366734 words of memory out of 5000000
+ 18157 multiletter control sequences out of 15000+600000
+ 118535 words of font info for 101 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 52i,12n,46p,1679b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
 fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
-dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmss10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmss8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx
-10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/lm/lmri10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri
-8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on skeleton.pdf (142 pages, 16837133 bytes).
+dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
+m/lmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb>
+Output written on skeleton.pdf (40 pages, 1194792 bytes).
 PDF statistics:
- 4820 PDF objects out of 5155 (max. 8388607)
- 2799 compressed objects within 28 object streams
- 428 named destinations out of 1000 (max. 500000)
- 1015 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 604 PDF objects out of 1000 (max. 8388607)
+ 529 compressed objects within 6 object streams
+ 207 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
