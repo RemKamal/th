@@ -8,9 +8,9 @@
 \chapter{Theory}
 \label{ch:theory}
 
-In the previous chapter we introduced the SM and discussed particles and interactions that the SM as a theory describes. In this chapter we will discuss first the general mathematical formalism of the SM and in the second part we will focus on the double Higgs theory in the BSM	.
+In the previous chapter we introduced the SM and discussed particles and interactions that the SM as a theory describes. In this chapter we will discuss first the general mathematical formalism of the SM and in the second part we will focus on the double Higgs boson physics in the Beyond the Standard Model (BSM) theory.
 
-SM is the only accepted mathematical theory that has been extremely successful describing the interactions of elementary particles and fields. SM includes all known interactions except gravity. 
+%SM is the only accepted mathematical theory that has been extremely successful describing the interactions of elementary particles and fields. SM includes all known interactions except gravity. 
 
 %______________________ INTRODUCCION ______________________
 \section{Lagrangian formalism of the Standard Model}
@@ -28,7 +28,7 @@ This equation contains the following terms:
 \item gause bosons and their interactions, $\Lagr_{YM} $
 \item fermions and their interactions with the gauge bosons, $\Lagr_{ferm}$
 \item Higgs boson, its self-interaction, and interaction with the gauge bosons to give them mass, $\Lagr_{H}$%, which is not possible solely by the $\Lagr_{YM}$
-\item fermions and their interactions with the Higgs boson, which through the Yukawa mechanism give mass to fermions $\Lagr_{Yuk} $
+\item fermions and their interactions with the Higgs boson, which through the Yukawa mechanism give mass to fermions, $\Lagr_{Yuk} $
 \end{itemize}
  
 
@@ -46,7 +46,7 @@ W^i_{\mu\nu}(x) \equiv & \partial_\mu W^i_\nu(x) - \partial_\nu W^i_\mu(x) - g\v
 G^a_{\mu\nu}(x) \equiv & \partial_\mu G^a_\nu(x) - \partial_\nu G^a_\mu(x) - g_s f^{abc}G^b_\mu G^c_\nu \label{G_tensor}
 \end{align}
 
-\noindent with indexes $i,j,k = 1,2,3$ and $a,b,c = 1, ..., 8$. According to the Noether's theorem, each symmetry is intrinsically connected to the conservation law \cite{Sardanashvily:2143630}. The fields in the $\Lagr_{YM} $ are connected to their corresponding underlying symmetries. For instance, $B_{\mu\nu}$ corresponds to $U(1)$ symmetry of the weak hypercharge $Y_k$, $W^i_{\mu\nu}$ corresponds to $SU(2)_I$ symmetry of the weak isospin $I^i_{w}$, and $G^a_{\mu\nu}$ corresponds to $SU(3)_c$ symmetry of the QCD color charge. The "B" field is a kinematic term, "W" and "G" terms describe interactions among the bosons, $g$ and $\varepsilon$ are $SU(2)$ coupling and structure constants, finally $g_s$ and $f$ are coupling and structure constants for $SU(3)$.
+\noindent with indexes $i,j,k = 1,2,3$ and $a,b,c = 1, ..., 8$. According to the Noether's theorem, each symmetry is intrinsically connected to the conservation law \cite{Sardanashvily:2143630}. The fields in the $\Lagr_{YM} $ are connected to their corresponding underlying symmetries in the following way: $B_{\mu\nu}$ corresponds to $U(1)$ symmetry of the weak hypercharge $Y_k$, $W^i_{\mu\nu}$ corresponds to $SU(2)_I$ symmetry of the weak isospin $I^i_{w}$, and $G^a_{\mu\nu}$ corresponds to $SU(3)_c$ symmetry of the QCD color charge. The "B" field is a kinematic term, "W" and "G" terms describe interactions among the bosons, $g$ and $\varepsilon$ are $SU(2)$ coupling and structure constants, $g_s$ and $f$ are coupling and structure constants for $SU(3)$.
 
 The second term in the SM Lagrangian shows how fermions interact with the gauge bosons. Notice, that the mass terms are still absent:
 \beqn\label{lagr_ferm}
@@ -69,7 +69,7 @@ Z_\mu = & -B_\mu \sin\theta_W + W^3_\mu \cos\theta_W \nonumber
 \end{align}
 \noindent where $\theta_W$ is known as the \ti{Weinberg angle} \cite{Weinberg:799984}.
 
-With the first two terms of the SM Lagrangian we obtain a valid theory of fermions and bosons, however, these particles are massless in this theory \cite{Wolf:2015kua}, which evidently contradicts the reality. To solve this issue and to ensure that weak bosons are massive, we need to introduce a Higgs field. Higgs mechanism enters the SM Lagrangian through the corresponding Higgs Lagrangian term given by 
+With the first two terms of the SM Lagrangian one obtains a valid theory of fermions and bosons, however, these particles are massless in this theory \cite{Wolf:2015kua}, which evidently contradicts the reality. To solve this issue and to ensure that weak bosons are massive, one has to introduce a Higgs field. Higgs mechanism enters the SM Lagrangian through the corresponding Higgs Lagrangian term given by 
 \beqn\label{lagr_higgs}
 \Lagr_H=(D_\mu\Phi)^\dagger(D^\mu\Phi) - V(\Phi) , \qquad V(\Phi)= - \mu^2(\Phi^\dagger\Phi) + \frac{\lambda}{4}(\Phi^\dagger\Phi)^2
 \eeqn
@@ -80,14 +80,15 @@ With the first two terms of the SM Lagrangian we obtain a valid theory of fermio
 \Phi = \binom{\phi^+}{\phi^0 = (v+H + i\chi)/ \sqrt{2}} \quad \text{with} \quad v = 2 \sqrt{\frac{\mu^2}{\lambda}}
 \eeqn
 
-Here $\mu$ and $\lambda$ are parameters of the Higgs potential. The Higgs boson mass is proportional to the $\mu$ parameter. In 2012 with precise single Higgs boson mass measurements from both ATLAS and CMS experiments we determined the value of $\mu$. Since that time many analyses at CERN have been targeting the measurement of the $\lambda$ parameter, because it is related to the shape of Higgs potential. The simplest interaction that is probing the Higgs potential directly is the Higgs boson self-coupling. One of such processes is the non-resonant double Higgs boson production. With double Higgs boson physics being such a valuable tool to determine the  
+\noindent here $\mu$ and $\lambda$ are parameters of the Higgs potential. The Higgs boson mass is proportional to the $\mu$ parameter. In 2012, with precise single Higgs boson mass measurements from both ATLAS and CMS experiments, the value of $\mu$ was determined. Since that time many analyses at CERN have been targeting the measurement of the $\lambda$ parameter, because it is related to the shape of Higgs potential. The simplest interaction that is probing the Higgs potential directly is the one where the Higgs boson self-coupling is present. That is why double Higgs (HH) process is the main topic of this thesis.
 
-After the SSB, the value of the Higgs field vacuum expectation value $v$ shown above can be expressed in terms of $\mu$ and $\lambda$ \cite{MonroyMontanez:2639240}. See Fig. \ref{hp2d} for an illustration for the Higgs potential before and after SSB.
+
+The value of the Higgs field vacuum expectation value $v$, after the SSB, can be expressed in terms of $\mu$ and $\lambda$ and is shown at \ref{lagr_higgs} \cite{MonroyMontanez:2639240}. See Fig. \ref{hp2d} for an illustration of the Higgs potential before and after the SSB.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{hp2d}
-\caption[SSB Potential form]{Shape of the Higgs potential before and after SSB that is determined at the leading orders by $\mu$ and $\lambda$ parameters. }
+\caption[SSB Potential form]{Shape of the Higgs potential before and after the SSB that is determined at the leading orders by $\mu$ and $\lambda$ parameters. }
 \label{hp2d}
 \end{figure}
 
@@ -97,7 +98,7 @@ After adding $\Lagr_H$ and rearranging terms, bosons have masses given by:
 M_W = \frac{gv}{2}, \quad  M_Z = \frac{M_W}{\cos{\theta_W}}, \quad M_H = \sqrt{2\mu^2}
 \eeqn
  
-The final contribution to the SM Lagrangian is the Yukawa term, and Yukawa Lagrangian is given by:
+The final contribution to the SM Lagrangian is the Yukawa term, with Yukawa Lagrangian given by:
 \beqn\label{lagr_Yuk}
 \Lagr_{Yuk}=  - i \bar{\Psi}_{L}  G_l  \psi_{l_{R}} \Phi
 - i \bar{\Psi}_{Q}  G_u  \psi_{u_{R}} \tilde{\Phi}
@@ -106,26 +107,37 @@ The final contribution to the SM Lagrangian is the Yukawa term, and Yukawa Lagra
 
 where $\tilde{\Phi} = i \sigma^2 \Phi^*$
 
-The masses of fermions enter the equations through the $3 \times 3$ matrices G, which are not known from the theory and are the parameters of the SM. The mass of each fermion is proportional to the Yukawa coupling of the corresponding fermion to the Higgs boson, see Fig. \ref{coupling_ff}.
+The masses of fermions enter the equations through the $3 \times 3$ matrices G, which are free parameters in the SM and have to be determined from the experiment. The mass of each fermion is proportional to the Yukawa coupling of the corresponding fermion to the Higgs boson, see Fig. \ref{coupling_ff}.
 
-\section{Beyond the Standard Model}
 
-Several BSM theories \cite{Huang:2017nnw, Dolan:2012ac, Kanemura:2016tan} predict a resonant production of the double Higgs boson events through a heavy narrow width ($\sim O(1-10)$ GeV) resonance, which could be spin 0 or spin 2 particle \cite{Sirunyan:2018iwt}. In this particular analysis data is compared with respect to predictions from the Warped Extra Dimensions theory (WED) \cite{Oliveira:2014kla}. WED theory to address the hierarchy problem adds additional fifth dimension to the 4-dimensional (4D) space-time. In the framework that Randall and Sundrum (RS) \cite{Randall:1999ee} followed, 4D space is nothing but an EFT approximation of the higher dimensional space, where the radion or graviton may exist as Kaluza-Klein (KK) \cite{Uzawa:1999pg} excitation modes at the TeV scale. Since LHC had provided us with no evidence of the SM particles interacting with the additional RS dimensions, it is postulated that they are confined to 3-brane, or a so-called wall. At the same time, gravity, which is not in the SM, can propagate freely in the full higher-dimensional space, so-called bulk. If/when the bulk is compactified, it may produce KK modes of the gravitons. In this analysis RS model with parameter k of the order of Planck scale and $\bar{M}_{Pl}$, a reduced 4D $M_{Pl}$ which is a function of the 5D Planck scale M and a parameter k with $k<M$, are assumed to satisfy the constraint $0.01 \leq k / \bar{M}_{Pl} \leq 1$, because values outside of this range are not applicable/or overcomplicate the theory \cite{Davoudiasl:1999jd}. Considered in this measurement graviton and radion are thus RS KK graviton and RS radion particles that emerge in RS scenario with the excitation or a KK state mass of the order of TeV. 
+In the SM the simplest Higgs potential is characterised by $\mu$ and $\lambda$ parameters. Having this "Mexican hat" potential in the SM is sufficient to obtain the SSB phenomenon. This gives mass to fermions and bosons. However, the shape of the Higgs potential may be different and direct precise determination of the $\mu$ and $\lambda$ parameters is a sensitive tool to test the limitations of the SM and may open doors to the BSM effects. All this makes HH physics one of the main goals for the future High Luminosity LHC (HL-LHC).
 
-If we denote a part of the KK 5D wave function, often called a profile, as $f^{(n)}_X(\phi)$, where n is referred to the KK$^{th}$ mode, then the graviton 4D profile wave-function can be expressed as $h^{(n)}_{\mu\nu}(x_\mu)(f^{(n)}_X(\phi))$ and the zero-th mode of this function would correspond to the graviton that is a gravity mediator. Its effective mass is of the order of TeV. The Lagrangian describing the interaction of the graviton with the SM fields is given then by 
+While mass parameter has been measured fairly accurately, $\lambda$ parameter requires even HL-LHC to run for many years to get enough statistics since HH processes are rare and are of almost three orders of magnitude lower rate than the single Higgs boson production. Technically, the amount of the HL-LHC data is not enough to reach the sensitivity of the SM for HH processes. At the same time, several BSM models predict resonant HH production to which even the current LHC data could be sensitive. In this theories, HH is produced through the decay of a heavy narrow width resonance, which is not a part of the SM. Thus, if such processes are found, this will open a new chapter in the HEP physics. In this thesis we focus on the resonant production of the HH system, which further decays to leptons and quarks. With the available CMS data, resonant HH analyses are starting approaching the needed sensitivity to rule out some BSM theories and test further the most promising ones.
+
+\section{Double Higgs in Beyond the Standard Model}
+
+Several BSM theories \cite{Huang:2017nnw, Dolan:2012ac, Kanemura:2016tan} predict a resonant production of the double Higgs boson events through a heavy resonance of a narrow width ($\sim O(1-10)$ GeV) \cite{Sirunyan:2018iwt}. In this dissertation data is compared with respect to predictions from the Warped Extra Dimensions theory (WED) \cite{Oliveira:2014kla}. WED theory to address the hierarchy problem adds additional fifth dimension to the 4-dimensional (4D) space-time. In the framework that Randall and Sundrum (RS) \cite{Randall:1999ee} introduced, 4D space is an EFT approximation of the higher dimensional space, where two heavy BSM particles may exist as Kaluza-Klein (KK) \cite{Uzawa:1999pg} excitation modes at the TeV scale. Those two particles are called a radion (spin 0) and a graviton (spin 2). 
+
+Since LHC had provided us with no evidence of the SM particles interacting with the RS particles, it is postulated that the latter are confined to a 3-brane, or a so-called wall. At the same time, gravity, which the SM does not address but enters the RS theory, can propagate freely in the full higher-dimensional space, the so-called bulk. When the bulk is compactified, it may produce KK modes of the gravitons. In this thesis RS model with parameter $k$ of the order of Planck scale and $\bar{M}_{Pl}$, a reduced 4D $M_{Pl}$ which is a function of the 5D Planck scale $M$ and a parameter $k$ with $k<M$, are assumed to satisfy the constraint $0.01 \leq k / \bar{M}_{Pl} \leq 1$, because values outside of this range overcomplicate the theory \cite{Davoudiasl:1999jd}. Considered in this measurement graviton and radion are RS KK graviton and RS radion particles that emerge in RS scenario with a KK state mass of the order of TeV. 
+
+Let us denote a part of the KK 5D wave function, often called a profile, as $f^{(n)}_X(\phi)$, where n is referred to the n$^{th}$ KK mode, then the graviton 4D profile wave-function can be expressed as $h^{(n)}_{\mu\nu}(x_\mu)(f^{(n)}_X(\phi))$ and the zero-th mode of this function would correspond to the graviton that is a gravity mediator. Its effective mass is of the order of TeV. The Lagrangian describing the interaction of the graviton with the SM fields is given then by 
 
 \beqn\label{lagr_graviton}
 \Lagr_{graviton}=  - \frac{x_1\tilde{k}}{m_G} h^{\mu\nu(1)} \times d_i T^{(i)}_{\mu\nu},  
 \eeqn
-where $T^{(i)}_{\mu\nu}$ is a 4D canonical energy-momentum tensor \cite{Forger:2003ut} for the SM field $i$ and $d_i$ is an integral of the profiles of the SM fields and KK gravitons. $\tilde{k}$ is a free parameter inversely proportional to the Planck mass and varies from 0.01 to 1 when $M_{graviton}$ is from 100 to 1500 GeV. 
+where $T^{(i)}_{\mu\nu}$ is a 4D canonical energy-momentum tensor \cite{Forger:2003ut} for any SM field $i$ and $d_i$ is an integral of the profiles of the SM fields and KK gravitons. A free parameter $\tilde{k}$ is inversely proportional to the Planck mass and varies from 0.01 to 1 when $M_{graviton}$ is varied from 100 to 1500 GeV. 
 
 For radion the Lagrandian is similar and is given by:
 \beqn\label{lagr_radion}
 \Lagr_{radion}=  - \frac{r}{\Lambda_R} \times a_i T^{\mu (i)}_{\mu},  
 \eeqn
-where $\Lambda_R$ is a scale parameter proportional to the Planck mass and $r$ is a 5D Radion field. If we make an assumption that the profiles of the graviton and radion are localised at the TeV scale, then the coupling of them to the massive SM fields is of the order of 1. Throughout this thesis, theory curves contain model results for the case $\tilde{k}=0.1$ and $\Lambda_R = 3 $ TeV.  
+where $\Lambda_R$ is a scale parameter proportional to the Planck mass and $r$ is a 5D radion field. RS authors assume that the profiles of the graviton and radion are localised at the TeV scale to have the coupling of a radion and a graviton to the massive SM fields be of the order of 1. 
 
-In this analysis the gravitons/radions in the search are expected to be produced by a gluon fusion mechanism. Five Feynman diagrams describe this process, two of which are present in the SM (a "box" and a "triangular" diagrams on Fig. \ref{SM_HH}), and the other three are a BSM extension of the SM (BSM contact interaction diagrams on Fig. \ref{BSM_HH}).   
+
+
+
+In the SM the HH system is produced via two diagrams shown on Fig. \ref{SM_HH}: the "box" and the "triangular" diagrams. They interfere destructively and the total cross section is thus lowered (Fig. \ref{hh_comparison} on the right). The box diagram dominates the double Higgs boson production and peaks near 400 GeV. An extensive study has been performed by theorist and more details can be found at \cite{Chen:2014xra}. In this measurement, though, the gravitons and radions in the search are expected to be produced by three BSM "contact interaction" Feynman diagrams allowed by the WED scenario. These processes are given on Fig. \ref{BSM_HH}.  A graviton and a radion subsequent decays to HH system are thoroughly studied and the experimental results are compared to the theoretical predictions calculated for the WED model with the parameters $\tilde{k}=0.1$ and $\Lambda_R = 3 $ TeV.  
+
 
 
 
@@ -137,19 +149,6 @@ In this analysis the gravitons/radions in the search are expected to be produced
     \label{SM_HH}
 \end{figure}
 
-In the SM two main diagrams interfere destructively and the total cross section is thus lowered (Fig. \ref{hh_comparison} on the right). The box diagrams dominates the double Higgs boson production and peaks near 400 GeV. An extensive study has been performed by theorist for the future 100 TeV collider \cite{Chen:2014xra,}. However, since the kinematic distribution of the double Higgs mass remains to a high degree unchanged  between 13 and 100 TeV (see Fig. \ref{hh_comparison} on the left), we can extrapolate 100 TeV results to to those available at the current LHC machine energy. Fig. \ref{hh_comparison} has "nl" term, which denotes the contribution from the new non-linear $t\bar{t}HH$ interaction if this new coupling exists \cite{Contino:2012xk}. 
-
-
-\begin{figure}[H]
-  \centering 
-    \includegraphics[width=0.49\textwidth]{hh_14_100_comparison}
-    \includegraphics[width=0.49\textwidth]{hh_sm_comparison}
-    \caption{Left: comparison of the double Higgs boson mass distribution at the LO at 14 and 100 TeV center-of-mass energy, Right: the total SM HH cross section and the box and the triangular contributions ("box" and "tri" at the plots).}
-    \label{hh_comparison}
-\end{figure}
-
-
-It is also interesting to measure BSM contact interaction couplings and a future non-resonant version of this analysis will target that. In this case, $c_2$, the coupling of two heavy quarks with two Higgs bosons, $c_{2g}$, the coupling of two gluons with two Higgs bosons, and $c_g$, the direct coupling of the gluons to the Higgs boson will be studied (see Fig. \ref{BSM_HH}). 
 
 \begin{figure}[H]
   \centering
@@ -161,8 +160,28 @@ It is also interesting to measure BSM contact interaction couplings and a future
 \end{figure}
 
 
-Now it is time to discuss the decay of the double Higgs system. 
-This analysis considers separately graviton and radion decays into two SM Higgs bosons with the subsequent decays of one Higgs boson to a pair of b quarks, and the other Higgs boson to W or Z boson pairs. W bosons are allowed to decay only leptonically. For Z boson decays, the signature is characterised by the on-shell Z boson decaying into a lepton pair and the off-shell Z boson decaying to invisible (neutrinos)(see Fig. \ref{HH_signature}). 
+
+The kinematic distribution of the double Higgs mass remains to a high degree unchanged between 13-14 and 100 TeV (see Fig. \ref{hh_comparison} on the left), therefore, we can compare 100 TeV results produced by theorist to those analysed in this thesis that use the date delivered by the current 13 TeV LHC machine. Fig. \ref{hh_comparison} refers to the box and the triangular diagrams as "box" and "tri", and to the non-linear interaction as "nl".  \cite{Contino:2012xk}. 
+
+
+
+ 
+ 
+
+\begin{figure}[H]
+  \centering 
+    \includegraphics[width=0.49\textwidth]{hh_14_100_comparison}
+    \includegraphics[width=0.49\textwidth]{hh_sm_comparison}
+    \caption{Left: comparison of the double Higgs boson mass distribution at the LO at 14 and 100 TeV center-of-mass energy. Right: the total HH cross section and the individual contributions.}
+    \label{hh_comparison}
+\end{figure}
+
+
+From the physics point of view it is also interesting to measure BSM contact interaction couplings. The future non-resonant version of this data analysis will target such a measurement. In this case, $c_2$, the coupling of two heavy quarks with two Higgs bosons, $c_{2g}$, the coupling of two gluons with two Higgs bosons, and $c_g$, the direct coupling of the gluons to the Higgs boson will be studied (see Fig. \ref{BSM_HH}). 
+
+
+
+This thesis addresses separately resonant graviton and radion decays into two SM Higgs bosons with the subsequent decays of one Higgs boson to a pair of b quarks, and the other Higgs boson to W or Z boson pairs. W bosons are allowed to decay only leptonically. For Z boson decays, the signature is characterised by the on-shell Z boson decaying into a pair of charged leptons and the off-shell Z boson decaying to neutrinos (see Fig. \ref{HH_signature}). The final state that this thesis focuses on consists of two b quarks, two leptons, and two neutrinos. This signature has a branching fraction of approximately $2.8 \%$. 
 
 \begin{figure}[H]
   \centering
@@ -171,7 +190,7 @@ This analysis considers separately graviton and radion decays into two SM Higgs 
     \label{HH_signature}
 \end{figure}
 
-Before we finish this chapter, it is instructive to show all the decay channels of the double Higgs system to the SM particles, which is summarised in the Fig. \ref{BR}. This thesis explores the branching fraction of the double Higgs boson decay through $bbZZ$ in the two b quarks, two leptons, and two neutrinos final state, which equals approximately $2.8 \%$. 
+To finish this chapter, it is instructive to show all the decay channels of the double Higgs system to the SM particles, which is summarised in the Fig. \ref{BR}. 
 
 \begin{figure}[H]
   \centering

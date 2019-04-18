@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  16 APR 2019 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  18 APR 2019 18:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1120,7 +1120,7 @@ Overfull \hbox (0.16273pt too wide) detected at line 3
 
 
 ]
-<nuthesis/images/atom_structure.jpg, id=107, 614.295pt x 614.295pt>
+<nuthesis/images/atom_structure.jpg, id=136, 614.295pt x 614.295pt>
 File: nuthesis/images/atom_structure.jpg Graphic file (type jpg)
 
 <use nuthesis/images/atom_structure.jpg>
@@ -1171,7 +1171,7 @@ LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
 (Font)              size <5> substituted on input line 70.
 
 [8]
-<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=183, 595.22375
+<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=212, 595.22375
 pt x 609.27625pt>
 File: nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png Graphic file 
 (type png)
@@ -1182,7 +1182,7 @@ s.png used on input line 87.
 (pdftex.def)             Requested size: 346.89734pt x 355.08177pt.
  [9] [10 <./nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png (PNG co
 py)>]
-<nuthesis/images/sm_interactions2.png, id=208, 1065.9825pt x 778.91pt>
+<nuthesis/images/sm_interactions2.png, id=237, 1065.9825pt x 778.91pt>
 File: nuthesis/images/sm_interactions2.png Graphic file (type png)
 
 <use nuthesis/images/sm_interactions2.png>
@@ -1190,7 +1190,7 @@ Package pdftex.def Info: nuthesis/images/sm_interactions2.png used on input lin
 e 120.
 (pdftex.def)             Requested size: 346.89734pt x 253.47554pt.
  [11]
-<nuthesis/images/coupling_ff.png, id=220, 569.12625pt x 546.04pt>
+<nuthesis/images/coupling_ff.png, id=249, 569.12625pt x 546.04pt>
 File: nuthesis/images/coupling_ff.png Graphic file (type png)
 
 <use nuthesis/images/coupling_ff.png>
@@ -1198,7 +1198,7 @@ Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 132
 .
 (pdftex.def)             Requested size: 346.89734pt x 332.84229pt.
  [12 <./nuthesis/images/sm_interactions2.png>] <nuthesis/images/higgs_productio
-n.jpg, id=225, 559.8516pt x 414.348pt>
+n.jpg, id=254, 559.8516pt x 414.348pt>
 File: nuthesis/images/higgs_production.jpg Graphic file (type jpg)
 
 <use nuthesis/images/higgs_production.jpg>
@@ -1207,14 +1207,108 @@ e 143.
 (pdftex.def)             Requested size: 346.89734pt x 256.74136pt.
  [13 <./nuthesis/images/coupling_ff.png (PNG copy)>] [14 <./nuthesis/images/hig
 gs_production.jpg>]
-<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=235, 569.12625pt x 436.63126pt>
+<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=264, 569.12625pt x 436.63126pt>
 File: nuthesis/images/Higgs_BR_LM_RECT.pdf Graphic file (type pdf)
 
 <use nuthesis/images/Higgs_BR_LM_RECT.pdf>
 Package pdftex.def Info: nuthesis/images/Higgs_BR_LM_RECT.pdf used on input lin
 e 156.
 (pdftex.def)             Requested size: 390.25537pt x 299.41707pt.
-) (./skeleton.bbl [15 <./nuthesis/images/Higgs_BR_LM_RECT.pdf>]
+) (./nuthesis/sections/Theory.tex
+[15 <./nuthesis/images/Higgs_BR_LM_RECT.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 28.
+ [16
+
+] [17] [18]
+<nuthesis/images/hp2d.pdf, id=321, 668.97928pt x 384.95819pt>
+File: nuthesis/images/hp2d.pdf Graphic file (type pdf)
+
+<use nuthesis/images/hp2d.pdf>
+Package pdftex.def Info: nuthesis/images/hp2d.pdf used on input line 90.
+(pdftex.def)             Requested size: 260.17465pt x 149.71603pt.
+ [19 <./nuthesis/images/hp2d.pdf>] [20] [21]
+[22]
+<nuthesis/images/hh_nonresonant_eft_02.pdf, id=371, 364.1906pt x 273.1505pt>
+File: nuthesis/images/hh_nonresonant_eft_02.pdf Graphic file (type pdf)
+
+<use nuthesis/images/hh_nonresonant_eft_02.pdf>
+Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_02.pdf used on inpu
+t line 146.
+(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
+
+<nuthesis/images/hh_nonresonant_eft_01.pdf, id=372, 364.1906pt x 273.1505pt>
+File: nuthesis/images/hh_nonresonant_eft_01.pdf Graphic file (type pdf)
+
+<use nuthesis/images/hh_nonresonant_eft_01.pdf>
+Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_01.pdf used on inpu
+t line 147.
+(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
+
+<nuthesis/images/hh_nonresonant_eft_03.pdf, id=373, 364.1906pt x 273.1505pt>
+File: nuthesis/images/hh_nonresonant_eft_03.pdf Graphic file (type pdf)
+
+<use nuthesis/images/hh_nonresonant_eft_03.pdf>
+Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_03.pdf used on inpu
+t line 155.
+(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
+
+<nuthesis/images/hh_nonresonant_eft_04.pdf, id=374, 364.1906pt x 273.1505pt>
+File: nuthesis/images/hh_nonresonant_eft_04.pdf Graphic file (type pdf)
+
+<use nuthesis/images/hh_nonresonant_eft_04.pdf>
+Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_04.pdf used on inpu
+t line 156.
+(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
+
+<nuthesis/images/hh_nonresonant_eft_05.pdf, id=375, 364.1906pt x 273.1505pt>
+File: nuthesis/images/hh_nonresonant_eft_05.pdf Graphic file (type pdf)
+
+<use nuthesis/images/hh_nonresonant_eft_05.pdf>
+Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_05.pdf used on inpu
+t line 157.
+(pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
+ [23 <./nuthesis/images/hh_nonresonant_eft_02.pdf> <./nuthesis/images/hh_nonres
+onant_eft_01.pdf>]
+<nuthesis/images/hh_14_100_comparison.png, id=420, 776.9025pt x 573.14125pt>
+File: nuthesis/images/hh_14_100_comparison.png Graphic file (type png)
+
+<use nuthesis/images/hh_14_100_comparison.png>
+Package pdftex.def Info: nuthesis/images/hh_14_100_comparison.png used on input
+ line 173.
+(pdftex.def)             Requested size: 212.47618pt x 156.74416pt.
+
+<nuthesis/images/hh_sm_comparison.png, id=422, 780.9175pt x 622.325pt>
+File: nuthesis/images/hh_sm_comparison.png Graphic file (type png)
+
+<use nuthesis/images/hh_sm_comparison.png>
+Package pdftex.def Info: nuthesis/images/hh_sm_comparison.png used on input lin
+e 174.
+(pdftex.def)             Requested size: 212.47618pt x 169.32143pt.
+ [24 <./nuthesis/images/hh_nonresonant_eft_03.pdf> <./nuthesis/images/hh_nonres
+onant_eft_04.pdf> <./nuthesis/images/hh_nonresonant_eft_05.pdf>]
+<nuthesis/images/HH_signature.png, id=480, 364.18057pt x 273.12038pt>
+File: nuthesis/images/HH_signature.png Graphic file (type png)
+
+<use nuthesis/images/HH_signature.png>
+Package pdftex.def Info: nuthesis/images/HH_signature.png used on input line 18
+8.
+(pdftex.def)             Requested size: 216.81001pt x 162.59824pt.
+ [25 <./nuthesis/images/hh_14_100_comparison.png> <./nuthesis/images/hh_sm_comp
+arison.png>]
+<nuthesis/images/BR.pdf, id=488, 569.12625pt x 546.04pt>
+File: nuthesis/images/BR.pdf Graphic file (type pdf)
+
+<use nuthesis/images/BR.pdf>
+Package pdftex.def Info: nuthesis/images/BR.pdf used on input line 197.
+(pdftex.def)             Requested size: 216.81001pt x 208.01393pt.
+) (./skeleton.bbl [26 <./nuthesis/images/HH_signature.png> <./nuthesis/images/B
+R.pdf, page is rotated 90 degrees>]
 bibitemlist
 
 Underfull \hbox (badness 1490) in paragraph at lines 34--39
@@ -1222,9 +1316,9 @@ Underfull \hbox (badness 1490) in paragraph at lines 34--39
  Mis-try,
  []
 
-[16
+[27
 
-] [17] [18]
+] [28] [29]
 Overfull \hbox (113.26103pt too wide) in paragraph at lines 197--200
 \T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
 es_expectedSignal0_350.html. 
@@ -1242,7 +1336,7 @@ Overfull \hbox (113.26103pt too wide) in paragraph at lines 202--205
 es_expectedSignal1_350.html. 
  []
 
-[19]
+[30]
 Overfull \hbox (104.27762pt too wide) in paragraph at lines 207--210
 []\T1/lmr/m/n/12 k-factor for DY/Z.  https://twiki.cern.ch/twiki/bin/viewauth/C
 MS/SummaryTable1G25ns#DY_Z. 
@@ -1314,7 +1408,7 @@ Overfull \hbox (142.47328pt too wide) in paragraph at lines 240--244
 PageBR#Higgs_2_gauge_bosons. 
  []
 
-[20]
+[31]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 307.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1325,7 +1419,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--308
  _ 06 _ 02 _ 2017 .
  []
 
-[21]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 310--314
 \T1/lmtt/m/n/12 ch / twiki / bin / view / CMS / MuonWorkInProgressAndPagResults
  # Results _ on _
@@ -1343,13 +1437,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--320
 ons / 2577291 /
  []
 
-[22]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/lmtt/m/n/12 twiki . cern . ch / twiki / bin / viewauth / CMS / BtagRecommen
 dation80XReReco #
  []
 
-[23] [24] [25]
+[34] [35] [36]
 Underfull \hbox (badness 4132) in paragraph at lines 564--568
 []\T1/lmr/m/n/12 CMS Muon POG.  Ref-er-ence muon id, iso-la-tion and trig-ger e
 f-fi-
@@ -1361,7 +1455,7 @@ Underfull \hbox (badness 1259) in paragraph at lines 564--568
 rn . ch / twiki / bin / viewauth / CMS /
  []
 
-[26] [27]
+[37] [38]
 Underfull \hbox (badness 10000) in paragraph at lines 628--632
 []$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 604949 / contributi
 ons / 2543520 /
@@ -1391,7 +1485,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 651--655
  / Multivari \
  []
 
-[28]
+[39]
 Underfull \hbox (badness 3354) in paragraph at lines 663--668
 []\T1/lmr/m/n/12 CMS Higgs WG.  Doc-u-men-ta-tion of the RooSt-ats -based stati
 s-tics
@@ -1414,14 +1508,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 670--674
 ch / twiki / bin / view / CMS /
  []
 
-[29] [30] [31])
+[40] [41] [42])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
 (in both cases you will find help in the memoir manual). on input line 359.
 
-[32]
+[43]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -1437,50 +1531,53 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: 7AC5FCFD081BB82F98A7DD432B92E07B;468.
+(rerunfilecheck)             Checksum: DDCED809CB17EB7D46D35E0C594C3D91;687.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 15142 strings out of 493014
- 219069 string characters out of 6133350
- 366734 words of memory out of 5000000
- 18157 multiletter control sequences out of 15000+600000
+ 15278 strings out of 493014
+ 222071 string characters out of 6133350
+ 368702 words of memory out of 5000000
+ 18237 multiletter control sequences out of 15000+600000
  118535 words of font info for 101 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
+ 1148 hyphenation exceptions out of 8191
  52i,12n,46p,1679b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
-exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/
 fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
-dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
-m/lmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
-lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb>
-Output written on skeleton.pdf (40 pages, 1194792 bytes).
+dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmss10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmss8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx
+10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/lm/lmri8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
+sy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on skeleton.pdf (51 pages, 2280088 bytes).
 PDF statistics:
- 604 PDF objects out of 1000 (max. 8388607)
- 529 compressed objects within 6 object streams
- 207 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 887 PDF objects out of 1000 (max. 8388607)
+ 748 compressed objects within 8 object streams
+ 242 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
