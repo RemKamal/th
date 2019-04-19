@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  19 APR 2019 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  19 APR 2019 19:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1474,7 +1474,7 @@ ype1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb>
-Output written on skeleton.pdf (40 pages, 1194534 bytes).
+Output written on skeleton.pdf (40 pages, 1194536 bytes).
 PDF statistics:
  604 PDF objects out of 1000 (max. 8388607)
  529 compressed objects within 6 object streams
