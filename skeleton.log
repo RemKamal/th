@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  20 APR 2019 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  20 APR 2019 21:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1246,7 +1246,7 @@ File: nuthesis/images/hh_nonresonant_eft_02.pdf Graphic file (type pdf)
 
 <use nuthesis/images/hh_nonresonant_eft_02.pdf>
 Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_02.pdf used on inpu
-t line 168.
+t line 165.
 (pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
 
 <nuthesis/images/hh_nonresonant_eft_01.pdf, id=385, 364.1906pt x 273.1505pt>
@@ -1254,7 +1254,7 @@ File: nuthesis/images/hh_nonresonant_eft_01.pdf Graphic file (type pdf)
 
 <use nuthesis/images/hh_nonresonant_eft_01.pdf>
 Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_01.pdf used on inpu
-t line 169.
+t line 166.
 (pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
 
 <nuthesis/images/hh_nonresonant_eft_03.pdf, id=386, 364.1906pt x 273.1505pt>
@@ -1262,7 +1262,7 @@ File: nuthesis/images/hh_nonresonant_eft_03.pdf Graphic file (type pdf)
 
 <use nuthesis/images/hh_nonresonant_eft_03.pdf>
 Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_03.pdf used on inpu
-t line 177.
+t line 174.
 (pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
 
 <nuthesis/images/hh_nonresonant_eft_04.pdf, id=387, 364.1906pt x 273.1505pt>
@@ -1270,7 +1270,7 @@ File: nuthesis/images/hh_nonresonant_eft_04.pdf Graphic file (type pdf)
 
 <use nuthesis/images/hh_nonresonant_eft_04.pdf>
 Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_04.pdf used on inpu
-t line 178.
+t line 175.
 (pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
 
 <nuthesis/images/hh_nonresonant_eft_05.pdf, id=388, 364.1906pt x 273.1505pt>
@@ -1278,7 +1278,7 @@ File: nuthesis/images/hh_nonresonant_eft_05.pdf Graphic file (type pdf)
 
 <use nuthesis/images/hh_nonresonant_eft_05.pdf>
 Package pdftex.def Info: nuthesis/images/hh_nonresonant_eft_05.pdf used on inpu
-t line 179.
+t line 176.
 (pdftex.def)             Requested size: 212.47618pt x 159.36101pt.
  [24 <./nuthesis/images/hh_nonresonant_eft_02.pdf> <./nuthesis/images/hh_nonres
 onant_eft_01.pdf> <./nuthesis/images/hh_nonresonant_eft_03.pdf> <./nuthesis/ima
@@ -1288,7 +1288,7 @@ File: nuthesis/images/hh_14_100_comparison.png Graphic file (type png)
 
 <use nuthesis/images/hh_14_100_comparison.png>
 Package pdftex.def Info: nuthesis/images/hh_14_100_comparison.png used on input
- line 195.
+ line 192.
 (pdftex.def)             Requested size: 212.47618pt x 156.74416pt.
 
 <nuthesis/images/hh_sm_comparison.png, id=482, 780.9175pt x 622.325pt>
@@ -1296,7 +1296,7 @@ File: nuthesis/images/hh_sm_comparison.png Graphic file (type png)
 
 <use nuthesis/images/hh_sm_comparison.png>
 Package pdftex.def Info: nuthesis/images/hh_sm_comparison.png used on input lin
-e 196.
+e 193.
 (pdftex.def)             Requested size: 212.47618pt x 169.32143pt.
  [25 <./nuthesis/images/hh_14_100_comparison.png> <./nuthesis/images/hh_sm_comp
 arison.png>]
@@ -1304,15 +1304,15 @@ arison.png>]
 File: nuthesis/images/HH_signature.png Graphic file (type png)
 
 <use nuthesis/images/HH_signature.png>
-Package pdftex.def Info: nuthesis/images/HH_signature.png used on input line 21
-0.
+Package pdftex.def Info: nuthesis/images/HH_signature.png used on input line 20
+7.
 (pdftex.def)             Requested size: 216.81001pt x 162.59824pt.
 
 <nuthesis/images/BR.pdf, id=496, 569.12625pt x 546.04pt>
 File: nuthesis/images/BR.pdf Graphic file (type pdf)
 
 <use nuthesis/images/BR.pdf>
-Package pdftex.def Info: nuthesis/images/BR.pdf used on input line 219.
+Package pdftex.def Info: nuthesis/images/BR.pdf used on input line 216.
 (pdftex.def)             Requested size: 216.81001pt x 208.01393pt.
 ) (./skeleton.bbl [26 <./nuthesis/images/HH_signature.png> <./nuthesis/images/B
 R.pdf, page is rotated 90 degrees>]
@@ -1582,7 +1582,7 @@ live/2016/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on skeleton.pdf (51 pages, 2428246 bytes).
+Output written on skeleton.pdf (51 pages, 2428243 bytes).
 PDF statistics:
  897 PDF objects out of 1000 (max. 8388607)
  752 compressed objects within 8 object streams
