@@ -55,14 +55,12 @@ i \bar{\Psi}_Q \slashed{D} \Psi_Q  + i \bar{\psi}_{u_{R}}  \slashed{D} \psi_{u_{
  i \bar{\psi}_{d_{R}}  \slashed{D} \psi_{d_{R}}
 \eeqn
 
-Above $\Psi$ represents a doublet of a charged lepton and a corresponding neutral lepton within the same lepton family of $SU(2)_L$, the letter Q is reserved for a family of quarks, and $\psi_R$ describes a right-handed leptonic singlet.
-
-Gauge boson interactions are present due to the derivative term:
+Above $\Psi$ represents a doublet of a charged lepton and a corresponding neutral lepton within the same lepton family of $SU(2)_L$, the letter Q is reserved for a family of quarks, and $\psi_R$ describes a right-handed leptonic singlet.  Gauge boson interactions are present due to the derivative term:
 \begin{align}\label{cov_der2}
-D_\mu = \partial_\mu + ig I_w^i W_\mu^i+ ig' Y_w B_\mu + ig_s T_c^a G_\mu^a\\ 
+D_\mu = \partial_\mu + ig I_w^i W_\mu^i+ ig' Y_w B_\mu + ig_s T_c^a G_\mu^a
 \end{align}
 
-Physical fields in this notation are represented by a linear combination of W and B fields:
+\noindent Physical fields in this notation are represented by a linear combination of W and B fields:
 \begin{align}\label{neutral_fields}
 A_\mu = &  B_\mu \cos\theta_W + W^3_\mu \sin\theta_W \\ 
 Z_\mu = & -B_\mu \sin\theta_W + W^3_\mu \cos\theta_W \nonumber 
@@ -80,24 +78,27 @@ With the first two terms of the SM Lagrangian one obtains a valid theory of ferm
 \Phi = \binom{\phi^+}{\phi^0 = (v+H + i\chi)/ \sqrt{2}} \quad \text{with} \quad v = 2 \sqrt{\frac{\mu^2}{\lambda}}
 \eeqn
 
-\noindent here $\mu$ and $\lambda$ are parameters of the Higgs potential. The value of the Higgs field vacuum expectation value $v$, after the SSB, can be expressed in terms of $\mu$ and $\lambda$ \cite{MonroyMontanez:2639240}. See Fig. \ref{hp2d} for an illustration of the Higgs potential before and after the SSB.
+\noindent here $\mu$ and $\lambda$ are parameters of the Higgs potential. The value of the Higgs field vacuum expectation value ($vev$) $v$, after the SSB, can be expressed in terms of $\mu$ and $\lambda$. See Fig. \ref{hp2d} for an illustration of the Higgs potential before and after the SSB.
 
-The Higgs boson mass is proportional to the $\mu$ parameter. In 2012, with precise single Higgs boson mass measurements from both ATLAS and CMS experiments, the value of $\mu$ was determined. Since that time many analyses at CERN have been targeting the measurement of the $\lambda$ parameter, because it is related to the shape of Higgs potential. The simplest interaction that is probing the Higgs potential directly is the one where the Higgs boson self-coupling is present. That is why double Higgs (HH) process is the main topic of this thesis.
+The Higgs boson mass is proportional to the $\mu$ parameter. In 2012, with precise single Higgs boson mass measurements from both ATLAS and CMS experiments, the value of $\mu$ was determined. Since that time many analyses at CERN have been targeting the measurement of the $\lambda$ parameter, because it is related to the shape of Higgs potential. The simplest interaction that is probing the Higgs potential directly is the one where the Higgs boson self-coupling is present. This double Higgs (HH) process is the main topic of this thesis. 
+
+The importance of the $\Lagr_H$ in the SM Lagrangian is crucial: after rearranging terms the bosons finally have masses given by:
+
+\beqn
+M_W = \frac{gv}{2}, \quad  M_Z = \frac{M_W}{\cos{\theta_W}}, \quad M_H = \sqrt{2\mu^2}
+\eeqn
 
 
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{hp2d}
-\caption[SSB Potential form]{Shape of the Higgs potential before and after the SSB that is determined at the leading orders by $\mu$ and $\lambda$ parameters. }
+\caption[SSB Potential form]{Shape of the Higgs potential before and after the SSB that is determined at the leading orders by $\mu$ and $\lambda$ parameters \cite{MonroyMontanez:2639240}.}
 \label{hp2d}
 \end{figure}
 
-After adding $\Lagr_H$ and rearranging terms, bosons have masses given by:
 
-\beqn
-M_W = \frac{gv}{2}, \quad  M_Z = \frac{M_W}{\cos{\theta_W}}, \quad M_H = \sqrt{2\mu^2}
-\eeqn
+
  
 The final contribution to the SM Lagrangian is the Yukawa term, with Yukawa Lagrangian given by:
 \beqn\label{lagr_Yuk}
@@ -115,22 +116,44 @@ While mass parameter has been measured fairly accurately, $\lambda$ parameter re
 
 \section{Double Higgs in Beyond the Standard Model}
 
-Several BSM theories \cite{Huang:2017nnw, Dolan:2012ac, Kanemura:2016tan} predict a resonant production of the double Higgs boson events through a heavy resonance of a narrow width ($\sim O(1-10)$ GeV) \cite{Sirunyan:2018iwt}. In this dissertation data is compared with respect to predictions from the Warped Extra Dimensions theory (WED) \cite{Oliveira:2014kla}. WED theory to address the hierarchy problem adds additional fifth dimension to the 4-dimensional (4D) space-time. In the framework that Randall and Sundrum (RS) \cite{Randall:1999ee} introduced, 4D space is an EFT approximation of the higher dimensional space, where two heavy BSM particles may exist as Kaluza-Klein (KK) \cite{Uzawa:1999pg} excitation modes at the TeV scale. Those two particles are called a radion (spin 0) and a graviton (spin 2). 
+Several BSM theories \cite{Huang:2017nnw, Dolan:2012ac, Kanemura:2016tan} predict a resonant production of the double Higgs boson events through a heavy resonance of a narrow width ($\sim O(1-10)$ GeV) \cite{Sirunyan:2018iwt}. In this dissertation data is compared with respect to predictions from the Warped Extra Dimensions theory (WED) \cite{Oliveira:2014kla}. WED theory to address the hierarchy problem adds additional fifth dimension to the 4-dimensional (4D) space-time. In the framework that Randall and Sundrum (RS) \cite{Randall:1999ee} introduced, 4D space is an EFT approximation of the higher dimensional space. Extra dimension exists between the gravity (Planch) and weak (TeV) flat 4D branes \ref{branes} and is called the "bulk". The bulk is described by the exponentially decaying metric. 
 
-Since LHC had provided us with no evidence of the SM particles interacting with the RS particles, it is postulated that the latter are confined to a 3-brane, or a so-called wall. At the same time, gravity, which the SM does not address but enters the RS theory, can propagate freely in the full higher-dimensional space, the so-called bulk. When the bulk is compactified, it may produce KK modes of the gravitons. In this thesis RS model with parameter $k$ of the order of Planck scale and $\bar{M}_{Pl}$, a reduced 4D $M_{Pl}$ which is a function of the 5D Planck scale $M$ and a parameter $k$ with $k<M$, are assumed to satisfy the constraint $0.01 \leq k / \bar{M}_{Pl} \leq 1$, because values outside of this range overcomplicate the theory \cite{Davoudiasl:1999jd}. Considered in this measurement graviton and radion are RS KK graviton and RS radion particles that emerge in RS scenario with a KK state mass of the order of TeV. 
 
-Let us denote a part of the KK 5D wave function, often called a profile, as $f^{(n)}_X(\phi)$, where n is referred to the n$^{th}$ KK mode, then the graviton 4D profile wave-function can be expressed as $h^{(n)}_{\mu\nu}(x_\mu)(f^{(n)}_X(\phi))$ and the zero-th mode of this function would correspond to the graviton that is a gravity mediator. Its effective mass is of the order of TeV. The Lagrangian describing the interaction of the graviton with the SM fields is given then by 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{branes.png}
+\caption[RS branes]{5D space in the RS model \cite{Xanda}.}
+\label{branes}
+\end{figure}
+
+
+
+
+Free parameters of the RS model are the branes separation factor $k$ and the size of the compactified dimension $r_c$. The curvature factor $k \approx \sqrt{ \frac{\Lambda}{M^2_5}  }$, where $\Lambda$ is the ultraviolet cutoff of the theory and $M_5$ is the 5D Planch mass. The radius of the extra dimension $r_c$ is proportional to the parameter $1/k$ and the logarithm of $1/vev$. 
+
+
+The SM results with Higgs boson being closer to the TeV brane and fermions having light mass (located near the Planch brane) are reproduced with the $k \cdot r_c \approx 11$. 
+
+
+
+Since LHC had provided us with no evidence of the SM particles interacting with the RS particles, it is postulated that the latter are confined to branes. Two new heavy particles appear in the RS theory. One is a graviton (spin 2) that is the mediator of the gravitational force. Graviton can propagate freely in the full higher-dimensional space of the 5D bulk. The weakness of the gravity is, thus, explained by the fact that the graviton is localised closer to the Planch brane. When the bulk is compactified, it may produce Kaluza-Klein (KK) \cite{Uzawa:1999pg} excitations of the gravitational field with the zero-th KK mode localised at the TeV scale. The other RS particle is a radion (spin 0). Its existence is required to stabilise the size of the extra dimension. 
+
+
+In this thesis, the RS parameters $k$ and $\bar{M}_{Pl}$ satisfy the constraint $0.01 \leq k / \bar{M}_{Pl} \leq 1$, since values outside of this range overcomplicate the model \cite{Davoudiasl:1999jd}. The parameter $k$ is of the order of the Planck scale and $\bar{M}_{Pl} = \sqrt{\frac{M^3_5}{k} \cdot (1 - e^{-2\pi k r_c} ) }$ is a reduced 4D $M_{Pl}$. Considered in this measurement graviton and radion are RS KK graviton and RS radion particles that emerge in RS scenario with a KK state mass of the order of TeV. 
+
+Let us denote a part of the KK 5D wave function, often called a profile, as $f^{(n)}_X(\phi)$, where n is referred to the n$^{th}$ KK mode, then the graviton 4D profile wave-function can be expressed as $h^{(n)}_{\mu\nu}(x_\mu)(f^{(n)}_X(\phi))$ and the zero-th mode of this function would correspond to the graviton with the effective mass of the order of TeV. The profiles for all the matter fields are described by a combination of Bessel and exponential functions. The Lagrangian describing the interaction of the graviton with the SM fields is given then by 
 
 \beqn\label{lagr_graviton}
 \Lagr_{graviton}=  - \frac{x_1\tilde{k}}{m_G} h^{\mu\nu(1)} \times d_i T^{(i)}_{\mu\nu},  
 \eeqn
-where $T^{(i)}_{\mu\nu}$ is a 4D canonical energy-momentum tensor \cite{Forger:2003ut} for any SM field $i$ and $d_i$ is an integral of the profiles of the SM fields and KK gravitons. A free parameter $\tilde{k}$ is inversely proportional to the Planck mass and varies from 0.01 to 1 when $M_{graviton}$ is varied from 100 to 1500 GeV. 
+where $x_1$ = 3.83 is the first zero of the Bessel function for a given profile, $\tilde{k}  = k / \bar{M}_{Pl}$, $h^{\mu\nu}$ is a symmetric tensor, $m_G$ is the effective mass of the graviton of the order of TeV, $d_i$ is an integral of the profiles of the SM fields and KK graviton, and  $T^{(i)}_{\mu\nu}$ is a 4D canonical energy-momentum tensor \cite{Forger:2003ut} for any SM field $i$. A free parameter $\tilde{k}$ varies from 0.01 to 1 when $M_{graviton}$ is varied from 100 to 1500 GeV. 
 
 For radion the Lagrandian is similar and is given by:
 \beqn\label{lagr_radion}
 \Lagr_{radion}=  - \frac{r}{\Lambda_R} \times a_i T^{\mu (i)}_{\mu},  
 \eeqn
-where $\Lambda_R$ is a scale parameter proportional to the Planck mass and $r$ is a 5D radion field. RS authors assume that the profiles of the graviton and radion are localised at the TeV scale for the coupling of a radion and a graviton to the massive SM fields to be of the order of 1. 
+where $r$ is a 5D radion field, $\Lambda_R$ is the scale parameter proportional to $k \cdot \sqrt{ ( \frac{M_5}{k} )^3}$, and $a_i$ is the coupling of the radion to the SM field $i$. RS authors assume that the profiles of the graviton and radion are localised at the TeV scale for the coupling of a radion and a graviton to the massive SM fields to be of the order of 1. 
 
 
 
