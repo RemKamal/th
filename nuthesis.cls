@@ -180,7 +180,7 @@ Under the Supervision of \nu@adviser\\[3\baselineskip]
       \nu@university, \nu@year%
     \end{center}%
     \begin{flushleft}%
-      Advisers: \nu@adviserAbstract%
+      Adviser: \nu@adviserAbstract%   %used to be Advisers before
     \end{flushleft}%
   }{\par\end{doublespacing}\cleardoublepage}
 
