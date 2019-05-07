@@ -217,42 +217,127 @@ The beam screens are necessary to reduce the number of protons scattering on the
 
 Now, that we discussed the LHC collider, we can continue with one of the main LHC detectors - the CMS detector - the one that was used to collect the data analysed in this thesis. 
 
-
-
-
-
-
-
-
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \section{The CMS experiment}
 
-Overall, this section has to be required significantly. 
-   Even if you look at the subsections, you have just two (as opposed to the LHC  description that has many subsections), and nowhere there is a section that indicates that this is about the CMS detector.
-   But more than that, you need to figure out a logical way to present informtion about the CMS experiment in the right order. The logical blocks might include:
+EGAMMA AT LEAST SAY THAT HAS BEEN WORKING AND SHOW SOME PLOTS???
+   
+   The logical blocks might include:
   - general comments that the CMS experiment revolves around the CMS deteector which is a general purpose particle deteector placed in a cavern around one of the interaction points at the LHC, and is capable of detecting and measuring properties of particles of all sorts with the exception of neutrinos, etc.
-  - requirements that drove design choices for the CMS deteector can be discussed
+  - requirements that drove design choices for the CMS deteector can be discussed AS A SUMMARY AT THE END???
   - somewhere a section on physics objects where you discuss that there are tracks, there are jets, there are b-jets, what it means an isolated lepton, what it means missing momentum, and so forth. For example, Ekaterina has a section on particle flow, if I remember right, where she discusses that. Or you can have a section that just discuses the proton-proton collisions environment and explains that many particles created in collisions are unstable and decay right away. What is observable in an experiment such as CMS is longer-lived or stable particles. These include electrons, muons, photons, and some ground state hadrons. At the same time, energetic quarks or gluons hadronize and can be seen in a particle detectors as jets of hadrons (so define jets here). Same for tau leptons, we detect them either as electrons/muons, or hadronic jets. Etc. If you have such a conceptual paragraph here, some time later you can have a particle flow discussion when it is time to be more specific. But discussion at this level above would allow you to then discuss the requirements on CMS design using terms like b-jets or isolated leptons.
   - the coordinate system section is good to have.
   - the CMS detector section
   - consider also discussing the trigger system after discussing all subdetectors, this could be part of the CMS detector section. 
   
   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+START IS HERE                        
+
+The Compact Muon Solenoid (CMS) is a multi-purpose particle detector built to study a variety of complex particle interactions produced by the LHC. CMS is located in the underground cavern at the "Point 5", which is one of the four main IPs of the LHC. The CMS detector with the additional computing infrastructure is able to detect the produced particles, measure their main physics parameters, and to send the related data to computing data centres for persistent storage. 
+
+
+The CMS detector has a cylindrical shape and consists of a central ("barrel") and two forward ("endcaps") sections (see Fig. \ref{CMS_detector}). 
+CMS is the heaviest detector ever built with the mass of nearly 12500 tons. The mass is explained by the amount of the used superconducting metal, which serves as the magnet. The CMS is 21.6 m long and 14.6 m high. The CMS has an onion-like structure of concentric layer of detectors around the IP. In addition, at the outer part it has a large superconducting solenoid to produce inside the detector a homogeneous magnetic field of 3.8 T. This magnet is the core of the experiment, it is a NbTi superconducting solenoid of 6 m in diameter that operates at a temperature of 4.5K. This magnetic field bends the trajectories of charged particles and is of utmost importance for the CMS. 
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{CMS_detector}\\
+  \vspace{1cm}
+  \includegraphics[width=0.8\textwidth]{cms_cross_section}
+  \caption{CMS experiment with the main sub-detectors.}
+  \label{CMS_detector}
+\end{figure}
+
+
+All sub-detectors can be categorised into trackers and calorimeters \cite{Hauptman:2011zza}. As the particle passes through the material of the tracker, it leaves a "track", which is a path of the emerging particle. Trackers focus on the direction and the track curvature of the charged particles. Tracking information allows the determination of the particle's momentum. 
+
+There are two trackers in CMS: an inner tracking system that encloses the IP and the outer tracking system that is located outside of the solenoid magnet. The first system contains the Pixel and the Strip trackers. The second tracking system is dedicated for the muon detection and is usually called a muon tracker or a muon system. This system is embedded within a steel yoke of the magnet. Such an arrangement saves the CMS some space and also guarantees that the magnetic flux lines are closed. This structure provides a return field of the magnet of about 2 T and is used to measure the momentum of muons. This "two-directional" magnetic field with respect to the magnetic yoke, causes the muons trajectories to be bent in opposite directions in the inner tracker in contrast to the outer tracker. This important feature of the CMS detector is depicted in the CMS logo (see Fig. \ref{cms_logo}). 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{cms_logo}
+  \caption{The logo of the CMS experiment that is showing curved trajectories of the emerging muons.}
+  \label{cms_logo}
+\end{figure}
+
+
+The CMS has two calorimeters: the electromagnetic and the hadronic calorimeters. They both rely on high density materials either to sample or to contain almost all the energy of the incoming particles with their secondary interaction products. However, these two systems focus on two different sets of particles. As will be discussed later, electromagnetic calorimeter (ECAL) is dedicated to measuring the energy of photons and electrons, while the hadronic calorimeter is targeting the measurement of the energy of hadrons. %Also, calorimeter information can be used to estimate the direction of the particle. 
+
+
+Lastly, the rate of the incoming data is 40 MHz. This corresponds to almost 40 TB produced every second. This much data is impossible to store, and, most importantly, most of the information in this data is not interesting for future physics analyses. To reduce the data rate, the CMS uses a highly efficient system of triggers. The first one, the Level-1 (L1) trigger, reduces the nominal collision rate of 40 MHz to 100 kHz. The subsequent High Level Trigger (HLT) further decreases the rate to 1 kHz. With the help of the trigger system, the original 40 TB per second rate is transformed into manageable 1 GB per second that is stored for offline analysis use. 
+
+
+
+\subsection{The CMS coordinate system}
+
+A right-handed Cartesian coordinate system is used to describe the detector and the collision products. It is defined with its centre in the nominal interaction point, the x axis pointing to the centre of the LHC ring, the y axis pointing upwards, and the z axis pointing in the anticlockwise proton beam direction.
+Given the cylindrical structure of the detector, a polar system is also used. The azimuthal angle ? is defined in the (x, y) or ?transverse? plane as the angle formed with respect to the positive x axis, and the radial coordinate in this plane is denoted as r. The polar angle ? is defined in the (r, z) plane as the angle formed with the z axis and usually converted into the pseudorapidity ? = ln tan(?/2). The spatial separation of two particles can be expressed in terms of their angular distance as (?R)2 = (??)2 + (??)2.
+The projection of the momentum of a particle onto the transverse plane is referred to as the ?transverse momentum? or pT, and has the advantage to be independent on the Lorentz boost resulting from the initial momentum of the interacting partons along the z axis.
+
+
+The information from the individual subdetectors are often redundant and can be combined to improve the reconstruction of final state objects, as it is discussed in Sec- tion 2.3.
+
+
+
+
+
+
+
+We repeat and extend here the conventions given at the beginning of Chap. 1, to clarify their relationship with the geometry of CMS. The coordinate system used by CMS is a right-handed orthonormal system with its origin at the nominal IP, its x-axis directed toward the centre of the LHC ring, its y-axis pointing vertically upwards, and its z-axis thus being tangent to the counter-clockwise (when viewed from the top) circulating beam trajectory, pointing away from Lake Geneva. These define in turn the azimuthal
+
+
+
+
+
+
+
+
+
+
+angle ?, measured from the x axis in the x-y-plane (transverse plane), and the polar
+??
+The transverse momentum pT is computed as the magnitude of the projection of the measured momentum p????(px,py,pz) in the transverse plane; the ?transverse energy? of a particle with energy E is given by ET ?? sin ? · E. In the following, the direction of particles produced at the IP will be quoted as a function of ? and the pseudorapidity:
+
+
+ 22 x + y .
+? ?? ? ln tan ?/2 (2.5.)
+For massless particles, this quantity is equal to the rapidity y. From this point on, angular distances are defined using the pseudorapidity, i.e.:
+??
+22
+?R?? (?1??2) +(??) ,with (2.6.)
+????min??|?1??2|,2??|?1??2|??. (2.7.)
+The subdetectors composing CMS, as well as the trigger and data acquisition systems, are briefly described in the following sections. More information about the CMS detector can be found in Ref. [170].
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+  
+  
 The total inelastic cross section of the proton-proton interaction at $\sqrt{s}=13$ is about 70 $m$b. The detectors observe the event rate of nearly $10^{9}$ inelastic events per second.
 
-This flow of data is too large to be stored, and also, does not contain that many event of interest.
- 
- 
- Hold on, I am suddenly disoriented. You have not even introduced CMS, but you are already talking about the trigger system, pileup, etc.
 
- 
- 
-  Therefore, the trigger system must reduce the event rate to manageable 100 events per second. 
-  
   In addition, a pile up DEFINE (PU) of 20-200 events overlaid with the event of interest will be expected, 
   
   which results in about 1000 particles produced every 25 ns. 
@@ -262,19 +347,11 @@ This flow of data is too large to be stored, and also, does not contain that man
   
   
   
-  All sub-detectors of CMS (see Fig. \ref{cms_cross_section}), thus, have to be able to work fast and in a good synchronisation with each other. 
+  All sub-detectors of CMS (see Fig. \ref{CMS_detector}), thus, have to be able to work fast and in a good synchronisation with each other. 
 
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.9\textwidth]{cms_cross_section}
-  \caption{CMS experiment with all sub-detectors shown.}\label{cms_cross_section}
-\end{figure}
 
-\subsection{The CMS detector specifics}
 
-1. ?One can? appears unnecessary. You just summarized. So just say: The following list summarizes the main challenges and requirements that the LHC has faced.
-2. But the above still won?t be good. Listing challenges and requirements in one list is odd (apples and oranges). Also, ?requirements that the CMS has faced? does not sound right.
 3. What you want to convey, perhaps, is that to achieve its physics goals, or successfully complete its physics program, or such, the CMS detector is designed to have: good momentum resolution, etc etc, or the design goals for the CMS detector required for success of the CMS phusics program were? 
 
 
@@ -385,8 +462,7 @@ This discussion of the muon system needs to be improved and made uniform with th
 
 \subsection{CMS coordinate system}
 
-
-This sounds awkward. Consider instead something like simply ?In this section we introduce the coordinate system used in CMS?. You di not need to say that you will use rapidity and pseudorapidity in te analysis section. But you do need to define the directions of the origin of the coordinate system and the directions of the X, Y, and Z. 
+In this section we introduce the coordinate system used in CMS?. You di not need to say that you will use rapidity and pseudorapidity in te analysis section. But you do need to define the directions of the origin of the coordinate system and the directions of the X, Y, and Z. 
 
 We will use rapidity and pseudorapidity many times in the analysis section of the thesis. The coordinate system employed by the CMS uses the rapidity, y, and pseudorapidity, $\eta$. They are derivatives of the log functions of the energy and a projection of the momentum of the beam/?????? on the z axis and the angle $\theta$ with respect to the beam axis (see Fig. \ref{coord} \ref{MonroyMontanez:2639240}):
 
