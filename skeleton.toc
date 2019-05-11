@@ -19,7 +19,12 @@
 \contentsline {subsubsection}{\numberline {3.1.4.3}Radio Frequency Cavities}{38}{subsubsection.3.1.4.3}
 \contentsline {subsubsection}{\numberline {3.1.4.4}Vacuum System}{39}{subsubsection.3.1.4.4}
 \contentsline {section}{\numberline {3.2}The CMS experiment}{41}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The CMS coordinate system}{46}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}CMS coordinate system}{53}{subsection.3.2.2}
-\contentsline {chapter}{Bibliography}{53}{figure.caption.24}
-\contentsline {chapter}{References}{55}{section*.26}
+\contentsline {subsection}{\numberline {3.2.1}The CMS coordinate system}{45}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The Inner Tracker}{45}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}The ECAL}{48}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}The HCAL}{50}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}The Superconding Solenoid}{51}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}The Outer Tracker}{52}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}The Trigger}{54}{subsection.3.2.7}
+\contentsline {chapter}{Bibliography}{58}{subsection.3.2.7}
+\contentsline {chapter}{References}{59}{section*.26}
