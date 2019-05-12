@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  11 MAY 2019 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  12 MAY 2019 12:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1299,138 +1299,105 @@ Package pdftex.def Info: nuthesis/images/BR.pdf used on input line 229.
 arison.png>]) (./nuthesis/sections/CMS.tex [27 <./nuthesis/images/BR.pdf, page 
 is rotated 90 degrees>]
 
-LaTeX Warning: Reference `Sadenius' on page 28 undefined on input line 10.
+LaTeX Warning: Reference `Sadenius' on page 28 undefined on input line 19.
 
 
-LaTeX Warning: Reference `LHC1984' on page 28 undefined on input line 10.
+LaTeX Warning: Reference `LHC1984' on page 28 undefined on input line 19.
 
 [28
 
-]
-./nuthesis/sections/CMS.tex:16: Undefined control sequence.
-l.16   \centreing
-                 
-? 
-<nuthesis/images/LHC_default.jpg, id=658, 2125.9425pt x 1619.04875pt>
+] <nuthesis/images/LHC_default.jpg, id=658, 2125.9425pt x 1619.04875pt>
 File: nuthesis/images/LHC_default.jpg Graphic file (type jpg)
 
 <use nuthesis/images/LHC_default.jpg>
-Package pdftex.def Info: nuthesis/images/LHC_default.jpg used on input line 18.
+Package pdftex.def Info: nuthesis/images/LHC_default.jpg used on input line 27.
 
 (pdftex.def)             Requested size: 325.21501pt x 247.66425pt.
  [29 <./nuthesis/images/LHC_default.jpg>]
 [30] [31] [32]
-./nuthesis/sections/CMS.tex:83: Undefined control sequence.
-l.83 \centreing
-               
-? 
 <nuthesis/images/dipole_1.jpg, id=677, 362.11884pt x 270.19125pt>
 File: nuthesis/images/dipole_1.jpg Graphic file (type jpg)
 
 <use nuthesis/images/dipole_1.jpg>
-Package pdftex.def Info: nuthesis/images/dipole_1.jpg used on input line 84.
+Package pdftex.def Info: nuthesis/images/dipole_1.jpg used on input line 93.
 (pdftex.def)             Requested size: 281.85036pt x 210.3113pt.
 
 <nuthesis/images/dipole_2.png, id=678, 202.6141pt x 150.99268pt>
 File: nuthesis/images/dipole_2.png Graphic file (type png)
 
 <use nuthesis/images/dipole_2.png>
-Package pdftex.def Info: nuthesis/images/dipole_2.png used on input line 86.
+Package pdftex.def Info: nuthesis/images/dipole_2.png used on input line 95.
 (pdftex.def)             Requested size: 281.85036pt x 210.0612pt.
  [33] [34 <./nuthesis/images/dipole_1.jpg> <./nuthesis/images/dipole_2.png>]
-./nuthesis/sections/CMS.tex:100: Undefined control sequence.
-l.100 \centreing
-                
-? 
 <nuthesis/images/quad_2.png, id=690, 224.037pt x 183.5658pt>
 File: nuthesis/images/quad_2.png Graphic file (type png)
 
 <use nuthesis/images/quad_2.png>
-Package pdftex.def Info: nuthesis/images/quad_2.png used on input line 101.
+Package pdftex.def Info: nuthesis/images/quad_2.png used on input line 110.
 (pdftex.def)             Requested size: 173.44536pt x 142.11636pt.
 
 <nuthesis/images/quad_1.png, id=691, 214.76462pt x 188.8565pt>
 File: nuthesis/images/quad_1.png Graphic file (type png)
 
 <use nuthesis/images/quad_1.png>
-Package pdftex.def Info: nuthesis/images/quad_1.png used on input line 102.
+Package pdftex.def Info: nuthesis/images/quad_1.png used on input line 111.
 (pdftex.def)             Requested size: 160.43729pt x 141.09161pt.
 
 <nuthesis/images/quad_3.jpg, id=692, 554.07pt x 314.17375pt>
 File: nuthesis/images/quad_3.jpg Graphic file (type jpg)
 
 <use nuthesis/images/quad_3.jpg>
-Package pdftex.def Info: nuthesis/images/quad_3.jpg used on input line 104.
+Package pdftex.def Info: nuthesis/images/quad_3.jpg used on input line 113.
 (pdftex.def)             Requested size: 303.53268pt x 172.11057pt.
  [35 <./nuthesis/images/quad_2.png> <./nuthesis/images/quad_1.png> <./nuthesis/
 images/quad_3.jpg>]
-./nuthesis/sections/CMS.tex:113: Undefined control sequence.
-l.113   \centreing
-                  
-? 
 <nuthesis/images/13kA_lead.png, id=700, 575.14874pt x 703.62875pt>
 File: nuthesis/images/13kA_lead.png Graphic file (type png)
 
 <use nuthesis/images/13kA_lead.png>
-Package pdftex.def Info: nuthesis/images/13kA_lead.png used on input line 114.
+Package pdftex.def Info: nuthesis/images/13kA_lead.png used on input line 123.
 (pdftex.def)             Requested size: 216.81001pt x 265.24513pt.
  [36 <./nuthesis/images/13kA_lead.png>]
-./nuthesis/sections/CMS.tex:144: Undefined control sequence.
-l.144   \centreing
-                  
-? 
 <nuthesis/images/cryo_T_scale.png, id=708, 1036.87375pt x 861.2175pt>
 File: nuthesis/images/cryo_T_scale.png Graphic file (type png)
 
 <use nuthesis/images/cryo_T_scale.png>
-Package pdftex.def Info: nuthesis/images/cryo_T_scale.png used on input line 14
-5.
+Package pdftex.def Info: nuthesis/images/cryo_T_scale.png used on input line 15
+4.
 (pdftex.def)             Requested size: 303.53268pt x 252.11208pt.
  [37]
-./nuthesis/sections/CMS.tex:162: Undefined control sequence.
-l.162 \centreing
-                
-? 
 <nuthesis/images/lhc_rfc.png, id=714, 810.52812pt x 530.98375pt>
 File: nuthesis/images/lhc_rfc.png Graphic file (type png)
 
 <use nuthesis/images/lhc_rfc.png>
-Package pdftex.def Info: nuthesis/images/lhc_rfc.png used on input line 164.
+Package pdftex.def Info: nuthesis/images/lhc_rfc.png used on input line 173.
 (pdftex.def)             Requested size: 199.16858pt x 119.49858pt.
 
 <nuthesis/images/rfc_lhc.png, id=715, 1435.61343pt x 800.23969pt>
 File: nuthesis/images/rfc_lhc.png Graphic file (type png)
 
 <use nuthesis/images/rfc_lhc.png>
-Package pdftex.def Info: nuthesis/images/rfc_lhc.png used on input line 165.
+Package pdftex.def Info: nuthesis/images/rfc_lhc.png used on input line 174.
 (pdftex.def)             Requested size: 215.33272pt x 120.03076pt.
  [38 <./nuthesis/images/cryo_T_scale.png>]
 
-LaTeX Warning: Citation `LHC_vacuum' on page 39 undefined on input line 177.
+LaTeX Warning: Citation `LHC_vacuum' on page 39 undefined on input line 186.
 
 [39 <./nuthesis/images/lhc_rfc.png> <./nuthesis/images/rfc_lhc.png>]
-./nuthesis/sections/CMS.tex:199: Undefined control sequence.
-l.199   \centreing
-                  
-? 
 <nuthesis/images/beam_screen.png, id=727, 934.49126pt x 495.8525pt>
 File: nuthesis/images/beam_screen.png Graphic file (type png)
 
 <use nuthesis/images/beam_screen.png>
-Package pdftex.def Info: nuthesis/images/beam_screen.png used on input line 200
+Package pdftex.def Info: nuthesis/images/beam_screen.png used on input line 209
 .
 (pdftex.def)             Requested size: 303.53268pt x 161.05936pt.
  [40 <./nuthesis/images/beam_screen.png>]
-./nuthesis/sections/CMS.tex:250: Undefined control sequence.
-l.250   \centreing
-                  
-? 
 <nuthesis/images/CMS_detector.png, id=734, 853.1875pt x 576.1525pt>
 File: nuthesis/images/CMS_detector.png Graphic file (type png)
 
 <use nuthesis/images/CMS_detector.png>
-Package pdftex.def Info: nuthesis/images/CMS_detector.png used on input line 25
-1.
+Package pdftex.def Info: nuthesis/images/CMS_detector.png used on input line 26
+0.
 (pdftex.def)             Requested size: 346.89734pt x 234.26357pt.
 
 <nuthesis/images/cms_cross_section.png, id=735, 3189.9175pt x 2253.41875pt>
@@ -1438,400 +1405,62 @@ File: nuthesis/images/cms_cross_section.png Graphic file (type png)
 
 <use nuthesis/images/cms_cross_section.png>
 Package pdftex.def Info: nuthesis/images/cms_cross_section.png used on input li
-ne 253.
+ne 262.
 (pdftex.def)             Requested size: 346.89734pt x 245.02292pt.
  [41]
 
 LaTeX Warning: Citation `Hauptman:2011zza' on page 42 undefined on input line 2
-59.
+68.
 
 [42 <./nuthesis/images/CMS_detector.png> <./nuthesis/images/cms_cross_section.p
-ng>]
-./nuthesis/sections/CMS.tex:264: Undefined control sequence.
-l.264   \centreing
-                  
-? 
-<nuthesis/images/cms_logo.png, id=747, 289.08pt x 289.08pt>
+ng>] <nuthesis/images/cms_logo.png, id=747, 289.08pt x 289.08pt>
 File: nuthesis/images/cms_logo.png Graphic file (type png)
 
 <use nuthesis/images/cms_logo.png>
-Package pdftex.def Info: nuthesis/images/cms_logo.png used on input line 265.
+Package pdftex.def Info: nuthesis/images/cms_logo.png used on input line 274.
 (pdftex.def)             Requested size: 173.44536pt x 173.44492pt.
  [43] [44 <./nuthesis/images/cms_logo.png>]
-./nuthesis/sections/CMS.tex:288: Undefined control sequence.
-l.288   \centreing
-                  
-? 
 <nuthesis/images/coord.png, id=758, 855.195pt x 502.87875pt>
 File: nuthesis/images/coord.png Graphic file (type png)
 
 <use nuthesis/images/coord.png>
-Package pdftex.def Info: nuthesis/images/coord.png used on input line 289.
+Package pdftex.def Info: nuthesis/images/coord.png used on input line 298.
 (pdftex.def)             Requested size: 342.07195pt x 201.14793pt.
 
 
 LaTeX Warning: Reference `MonroyMontanez:2639240' on page 45 undefined on input
- line 290.
+ line 299.
 
 
 LaTeX Warning: Reference `MonroyMontanez:2639240' on page 45 undefined on input
- line 290.
+ line 299.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `Tracker_phase2' on page 45 undefined on input line 298
+LaTeX Warning: Citation `Tracker_phase2' on page 45 undefined on input line 307
 .
 
 [45] [46 <./nuthesis/images/coord.png>]
 
-LaTeX Warning: Citation `ECAL_attendum' on page 47 undefined on input line 330.
+LaTeX Warning: Citation `ECAL_attendum' on page 47 undefined on input line 339.
 
 
 [47] [48] [49]
 
-LaTeX Warning: Citation `HCAL_TDR' on page 50 undefined on input line 362.
+LaTeX Warning: Citation `HCAL_TDR' on page 50 undefined on input line 371.
 
 [50]
 
 LaTeX Warning: Reference `Baiatian:1049915' on page 51 undefined on input line 
-374.
+383.
 
 [51]
 
-LaTeX Warning: Citation `Hauptman:2011zza' on page 52 undefined on input line 3
-92.
+LaTeX Warning: Citation `Hauptman:2011zza' on page 52 undefined on input line 4
+01.
 
 [52]
-./nuthesis/sections/CMS.tex:402: Text line contains an invalid character.
-l.402 ... into five barrel section ("wheels"). ^^N
-                                                  Each wheel is made of four...
-
-? 
-./nuthesis/sections/CMS.tex:412: Missing { inserted.
-<to be read again> 
-                   $
-l.412 ...ayers filled with a mix of C$_2$H$_2$F$_$
-                                                  4$, $i$C$_4$H$_10$, and SF...
-
-? 
-./nuthesis/sections/CMS.tex:412: Missing } inserted.
-<inserted text> 
-                }
-l.412 ...ayers filled with a mix of C$_2$H$_2$F$_$
-                                                  4$, $i$C$_4$H$_10$, and SF...
-
-? 
-./nuthesis/sections/CMS.tex:412: Missing $ inserted.
-<inserted text> 
-                $
-l.412 ...ed with a mix of C$_2$H$_2$F$_$4$, $i$C$_
-                                                  4$H$_10$, and SF$_6$ gasses.
-? 
-[53]
-./nuthesis/sections/CMS.tex:442: Text line contains an invalid character.
-l.442 ...ccess of the CMS phusics program were?^^@
-                                                  
-? 
-./nuthesis/sections/CMS.tex:455: Text line contains an invalid character.
-l.455 ^^@
-         
-? 
-[54] [55]
-./nuthesis/sections/CMS.tex:482: Text line contains an invalid character.
-l.482 ... be interpreted (a lot? little?), etc.^^@
-                                                  
-? 
-./nuthesis/sections/CMS.tex:491: Text line contains an invalid character.
-l.491 ...cked in at the end as an afterthought.^^@
-                                                  
-? 
-./nuthesis/sections/CMS.tex:503: Text line contains an invalid character.
-l.503 ...he original paricle we wnt to measure.^^@
-                                                   Outer HCAL is located out...
-
-? 
-[56]
-./nuthesis/sections/CMS.tex:509: Text line contains an invalid character.
-l.509 ...tion lengths with respect to hadrons).^^@
-                                                  
-? 
-[57]) (./skeleton.bbl [58]
-bibitemlist
-
-Underfull \hbox (badness 1490) in paragraph at lines 34--39
-[]\T1/lmr/m/n/12 G. Danby, J-M. Gail-lard, K. Gou-lianos, L. M. Le-d-er-man, N.
- Mis-try,
- []
-
-[59
-
-] [60] [61] [62] [63]
-Overfull \hbox (113.26103pt too wide) in paragraph at lines 289--292
-\T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
-es_expectedSignal0_350.html. 
- []
-
-
-Underfull \hbox (badness 5446) in paragraph at lines 294--297
-[]\T1/lmr/m/n/12 Comparison of nui-sances for s+b case, 350 GeV mass hy-poth-e-
-sis.
- []
-
-
-Overfull \hbox (113.26103pt too wide) in paragraph at lines 294--297
-\T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
-es_expectedSignal1_350.html. 
- []
-
-
-Overfull \hbox (104.27762pt too wide) in paragraph at lines 299--302
-[]\T1/lmr/m/n/12 k-factor for DY/Z.  https://twiki.cern.ch/twiki/bin/viewauth/C
-MS/SummaryTable1G25ns#DY_Z. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
-[]\T1/lmr/m/n/12 The LHC Higgs cross-section work-ing group.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--311
-[]\T1/lmr/m/n/12 Standard Model Cross Sec-tions for CMS at 13 TeV.
- []
-
-
-Overfull \hbox (85.97568pt too wide) in paragraph at lines 308--311
-\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossS
-ectionsat13TeVInclusive. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--316
-[]\T1/lmr/m/n/12 SM Higgs pro-duc-tion cross sec-tions at sqrt(s) = 13 TeV.
- []
-
-
-Overfull \hbox (187.9129pt too wide) in paragraph at lines 313--316
-\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReport
-PageAt13TeV#ZHllH_H_l_e_or_Process. 
- []
-
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 318--321
-[]\T1/lmr/m/n/12 NNLO+NNLL top-quark-pair cross sec-tions.
- []
-
-
-Overfull \hbox (126.06226pt too wide) in paragraph at lines 318--321
-\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO#Top_qu
-ark_pair_cross_sections_at. 
- []
-
-
-Overfull \hbox (64.26439pt too wide) in paragraph at lines 323--325
-[]\T1/lmr/m/n/12 Single Top Cross sec-tions.  https://twiki.cern.ch/twiki/bin/v
-iewauth/CMS/SingleTopSigma. 
- []
-
-
-Overfull \hbox (298.41599pt too wide) in paragraph at lines 327--330
-[]\T1/lmr/m/n/12 CMS GEN XSEC Task Force.  https://twiki.cern.ch/twiki/bin/view
-auth/CMS/GenXsecTaskForce#Space_for_Various_Processes_Welc. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--336
-[]\T1/lmr/m/n/12 SM Higgs Branch-ing Ra-tios and To-tal De-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--336
-\T1/lmr/m/n/12 cay Widths (up-date in CERN Re-port4 2016).
- []
-
-
-Overfull \hbox (142.47328pt too wide) in paragraph at lines 332--336
-\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReport
-PageBR#Higgs_2_gauge_bosons. 
- []
-
-[65]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 399.
-
- (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 396--400
-\T1/lmtt/m/n/12 contributions / 2465881 / attachments / 1407735 / 2151747 / TnP
- _ 06 _ 02 _ 2017 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 402--406
-\T1/lmtt/m/n/12 ch / twiki / bin / view / CMS / MuonWorkInProgressAndPagResults
- # Results _ on _
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 408--412
-[]\T1/lmr/m/n/12 Gael L. Per-rin.  Dou-ble Muon trig-ger ef-fi-ciency per-leg a
-p-proach.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--412
-[]$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 636555 / contributi
-ons / 2577291 /
- []
-
-[66]
-Underfull \hbox (badness 10000) in paragraph at lines 441--445
-\T1/lmtt/m/n/12 twiki . cern . ch / twiki / bin / viewauth / CMS / BtagRecommen
-dation80XReReco #
- []
-
-[67] [68] [69] [70]
-Underfull \hbox (badness 4132) in paragraph at lines 632--636
-[]\T1/lmr/m/n/12 CMS Muon POG.  Ref-er-ence muon id, iso-la-tion and trig-ger e
-f-fi-
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 632--636
-\T1/lmr/m/n/12 cien-cies for Run-II.  []$\T1/lmtt/m/n/12 https : / / twiki . ce
-rn . ch / twiki / bin / viewauth / CMS /
- []
-
-[71]
-Underfull \hbox (badness 10000) in paragraph at lines 696--700
-[]$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 604949 / contributi
-ons / 2543520 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 696--700
-\T1/lmtt/m/n/12 attachments / 1439974 / 2216426 / VHbb _ TnP _ SFs _ egamma _ a
-pril . pdf #
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 696--700
-\T1/lmtt/m/n/12 search = vhbb % 20AND % 20cerntaxonomy % 3A % 22Indico % 2FExpe
-riments % 2FCMS %
- []
-
-[72]
-Underfull \hbox (badness 6995) in paragraph at lines 719--723
-[]\T1/lmr/m/n/12 CMS EGM POG.  Mul-ti-vari-ate Elec-tron Iden-ti-fi-ca-tion for
- Run2.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 719--723
-[]$\T1/lmtt/m/n/12 https : / / twiki . cern . ch / twiki / bin / viewauth / CMS
- / Multivari \
- []
-
-
-Underfull \hbox (badness 3354) in paragraph at lines 731--736
-[]\T1/lmr/m/n/12 CMS Higgs WG.  Doc-u-men-ta-tion of the RooSt-ats -based stati
-s-tics
- []
-
-
-Underfull \hbox (badness 3525) in paragraph at lines 731--736
-\T1/lmr/m/n/12 tools for Higgs PAG.  []$\T1/lmtt/m/n/12 https : / / twiki . cer
-n . ch / twiki / bin / view / CMS /
- []
-
-
-Underfull \hbox (badness 6641) in paragraph at lines 738--742
-[]\T1/lmr/m/n/12 CMS Higgs WG.  Binned shape anal-y-sis with the Higgs Com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 738--742
-\T1/lmr/m/n/12 bi-na-tion Tool.  []$\T1/lmtt/m/n/12 https : / / twiki . cern . 
-ch / twiki / bin / view / CMS /
- []
-
-[73] [74])
-
-Class memoir Warning: The material used in the footer is too large
-(10.14995pt) for the given foot skip (0.0pt), it is recommended to
-either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 359.
-
-[75]
-\tf@toc=\write5
-\openout5 = `skeleton.toc'.
-
-\tf@lof=\write6
-\openout6 = `skeleton.lof'.
-
-\tf@lot=\write7
-\openout7 = `skeleton.lot'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
- (./skeleton.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
-Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: D01C51B930F602031D03C07E19F341B2;1968.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 4.5pt have occurred.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
- ) 
-Here is how much of TeX's memory you used:
- 15457 strings out of 493014
- 225189 string characters out of 6133350
- 370074 words of memory out of 5000000
- 18338 multiletter control sequences out of 15000+600000
- 118535 words of font info for 101 fonts, out of 8000000 for 9000
- 1148 hyphenation exceptions out of 8191
- 52i,12n,46p,1471b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
-exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
-fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
-dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmss10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmss8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx
-10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/lm/lmri8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy
-10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on skeleton.pdf (85 pages, 13088596 bytes).
-PDF statistics:
- 1185 PDF objects out of 1200 (max. 8388607)
- 974 compressed objects within 10 object streams
- 304 named destinations out of 1000 (max. 500000)
- 378 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+./nuthesis/sections/CMS.tex:411: Text line contains an invalid character.
+l.411 ...b
