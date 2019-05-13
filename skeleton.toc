@@ -25,6 +25,9 @@
 \contentsline {subsection}{\numberline {3.2.4}The HCAL}{50}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}The Superconding Solenoid}{51}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}The Outer Tracker}{52}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}The Trigger}{54}{subsection.3.2.7}
-\contentsline {chapter}{Bibliography}{58}{subsection.3.2.7}
-\contentsline {chapter}{References}{59}{section*.26}
+\contentsline {subsection}{\numberline {3.2.7}The Triggers and DAQ}{54}{subsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.7.1}The L1 Trigger}{55}{subsubsection.3.2.7.1}
+\contentsline {subsubsection}{\numberline {3.2.7.2}The HLT Trigger}{56}{subsubsection.3.2.7.2}
+\contentsline {subsubsection}{\numberline {3.2.7.3}The DAQ system}{57}{subsubsection.3.2.7.3}
+\contentsline {chapter}{Bibliography}{62}{subsubsection.3.2.7.3}
+\contentsline {chapter}{References}{63}{section*.26}
