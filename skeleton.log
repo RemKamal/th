@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  14 MAY 2019 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  14 MAY 2019 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1111,285 +1111,120 @@ Overfull \hbox (0.16273pt too wide) detected at line 2
 [6
 
 
-]) [7] (./skeleton.lof [8
+]) [7] (./skeleton.lof) [8
 
-]) [9] (./skeleton.lot) [10
+] (./skeleton.lot) [9
 
-]
-(./nuthesis/sections/Introduction.tex [1
-
-
-]
-<nuthesis/images/atom_structure.jpg, id=292, 614.295pt x 614.295pt>
-File: nuthesis/images/atom_structure.jpg Graphic file (type jpg)
-
-<use nuthesis/images/atom_structure.jpg>
-Package pdftex.def Info: nuthesis/images/atom_structure.jpg used on input line 
-23.
-(pdftex.def)             Requested size: 303.53268pt x 303.538pt.
- [2] [3 <./nuthesis/images/atom_structure.jpg>] [4] [5] [6] [7]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 62.
-
+] (./nuthesis/sections/CMS.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 64.
-LaTeX Font Info:    Calculating math sizes for size <> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <0.7> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <0.5> on input line 73.
+(Font)              <10.95> on input line 13.
 
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 73.
-
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 73.
-
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 73.
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 73.
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 73.
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 73.
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 73.
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 73.
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 73.
-
-[8]
-<nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png, id=370, 595.22375
-pt x 609.27625pt>
-File: nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png Graphic file 
-(type png)
-
-<use nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png>
-Package pdftex.def Info: nuthesis/images/Standard_Model_Feynman_Diagram_Vertice
-s.png used on input line 90.
-(pdftex.def)             Requested size: 346.89734pt x 355.08177pt.
- [9] [10 <./nuthesis/images/Standard_Model_Feynman_Diagram_Vertices.png (PNG co
-py)>]
-<nuthesis/images/sm_interactions2.png, id=396, 1065.9825pt x 778.91pt>
-File: nuthesis/images/sm_interactions2.png Graphic file (type png)
-
-<use nuthesis/images/sm_interactions2.png>
-Package pdftex.def Info: nuthesis/images/sm_interactions2.png used on input lin
-e 123.
-(pdftex.def)             Requested size: 346.89734pt x 253.47554pt.
- [11] [12 <./nuthesis/images/sm_interactions2.png>]
-<nuthesis/images/coupling_ff.png, id=411, 569.12625pt x 546.04pt>
-File: nuthesis/images/coupling_ff.png Graphic file (type png)
-
-<use nuthesis/images/coupling_ff.png>
-Package pdftex.def Info: nuthesis/images/coupling_ff.png used on input line 134
-.
-(pdftex.def)             Requested size: 346.89734pt x 332.84229pt.
-
-<nuthesis/images/higgs_production.jpg, id=412, 559.8516pt x 414.348pt>
-File: nuthesis/images/higgs_production.jpg Graphic file (type jpg)
-
-<use nuthesis/images/higgs_production.jpg>
-Package pdftex.def Info: nuthesis/images/higgs_production.jpg used on input lin
-e 145.
-(pdftex.def)             Requested size: 346.89734pt x 256.74136pt.
- [13 <./nuthesis/images/coupling_ff.png (PNG copy)>] [14 <./nuthesis/images/hig
-gs_production.jpg>]
-<nuthesis/images/Higgs_BR_LM_RECT.pdf, id=422, 569.12625pt x 436.63126pt>
-File: nuthesis/images/Higgs_BR_LM_RECT.pdf Graphic file (type pdf)
-
-<use nuthesis/images/Higgs_BR_LM_RECT.pdf>
-Package pdftex.def Info: nuthesis/images/Higgs_BR_LM_RECT.pdf used on input lin
-e 158.
-(pdftex.def)             Requested size: 390.25537pt x 299.41707pt.
-) (./nuthesis/sections/Theory.tex
-[15 <./nuthesis/images/Higgs_BR_LM_RECT.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 28.
- [16
-
-] [17] [18]
-<nuthesis/images/hp2d.pdf, id=474, 668.97928pt x 384.95819pt>
-File: nuthesis/images/hp2d.pdf Graphic file (type pdf)
-
-<use nuthesis/images/hp2d.pdf>
-Package pdftex.def Info: nuthesis/images/hp2d.pdf used on input line 101.
-(pdftex.def)             Requested size: 260.17465pt x 149.71603pt.
- [19] [20 <./nuthesis/images/hp2d.pdf>] [21]
-<nuthesis/images/branes.png, id=513, 639.38875pt x 860.21375pt>
-File: nuthesis/images/branes.png Graphic file (type png)
-
-<use nuthesis/images/branes.png>
-Package pdftex.def Info: nuthesis/images/branes.png used on input line 134.
-(pdftex.def)             Requested size: 173.44536pt x 233.35025pt.
- [22 <./nuthesis/images/branes.png>] [23]
-<nuthesis/images/hh_nonres_2.pdf, id=538, 587.63094pt x 368.99698pt>
-File: nuthesis/images/hh_nonres_2.pdf Graphic file (type pdf)
-
-<use nuthesis/images/hh_nonres_2.pdf>
-Package pdftex.def Info: nuthesis/images/hh_nonres_2.pdf used on input line 176
-.
-(pdftex.def)             Requested size: 212.47618pt x 133.41873pt.
-
-<nuthesis/images/hh_nonres_1.pdf, id=539, 587.63094pt x 368.99698pt>
-File: nuthesis/images/hh_nonres_1.pdf Graphic file (type pdf)
-
-<use nuthesis/images/hh_nonres_1.pdf>
-Package pdftex.def Info: nuthesis/images/hh_nonres_1.pdf used on input line 177
-.
-(pdftex.def)             Requested size: 212.47618pt x 133.41873pt.
- [24]
-<nuthesis/images/HH_signature.png, id=547, 364.18057pt x 273.12038pt>
-File: nuthesis/images/HH_signature.png Graphic file (type png)
-
-<use nuthesis/images/HH_signature.png>
-Package pdftex.def Info: nuthesis/images/HH_signature.png used on input line 19
-6.
-(pdftex.def)             Requested size: 216.81001pt x 162.59824pt.
-
-<nuthesis/images/hh_14_100_comparison.png, id=551, 776.9025pt x 573.14125pt>
-File: nuthesis/images/hh_14_100_comparison.png Graphic file (type png)
-
-<use nuthesis/images/hh_14_100_comparison.png>
-Package pdftex.def Info: nuthesis/images/hh_14_100_comparison.png used on input
- line 211.
-(pdftex.def)             Requested size: 212.47618pt x 156.74416pt.
-
-<nuthesis/images/hh_sm_comparison.png, id=552, 780.9175pt x 622.325pt>
-File: nuthesis/images/hh_sm_comparison.png Graphic file (type png)
-
-<use nuthesis/images/hh_sm_comparison.png>
-Package pdftex.def Info: nuthesis/images/hh_sm_comparison.png used on input lin
-e 212.
-(pdftex.def)             Requested size: 212.47618pt x 169.32143pt.
- [25 <./nuthesis/images/hh_nonres_2.pdf> <./nuthesis/images/hh_nonres_1.pdf> <.
-/nuthesis/images/HH_signature.png>]
-<nuthesis/images/BR.pdf, id=638, 569.12625pt x 546.04pt>
-File: nuthesis/images/BR.pdf Graphic file (type pdf)
-
-<use nuthesis/images/BR.pdf>
-Package pdftex.def Info: nuthesis/images/BR.pdf used on input line 229.
-(pdftex.def)             Requested size: 216.81001pt x 208.01393pt.
- [26 <./nuthesis/images/hh_14_100_comparison.png> <./nuthesis/images/hh_sm_comp
-arison.png>]) (./nuthesis/sections/CMS.tex [27 <./nuthesis/images/BR.pdf, page 
-is rotated 90 degrees>]
 Overfull \hbox (2.70915pt too wide) in paragraph at lines 13--14
 \T1/lmr/m/n/10.95 CERN ac-cel-er-a-tor com-plex is a se-quence of ma-chines tha
 t pro-duces and ac-cel-er-ates "bunches"
  []
 
 
-LaTeX Warning: Reference `Sadenius' on page 28 undefined on input line 22.
+LaTeX Warning: Reference `Sadenius' on page 1 undefined on input line 22.
 
 
-LaTeX Warning: Reference `LHC1984' on page 28 undefined on input line 22.
+LaTeX Warning: Reference `LHC1984' on page 1 undefined on input line 22.
 
-[28
+[1
 
-] <nuthesis/images/LHC_default.jpg, id=697, 2125.9425pt x 1619.04875pt>
+
+] <nuthesis/images/LHC_default.jpg, id=234, 2125.9425pt x 1619.04875pt>
 File: nuthesis/images/LHC_default.jpg Graphic file (type jpg)
 
 <use nuthesis/images/LHC_default.jpg>
 Package pdftex.def Info: nuthesis/images/LHC_default.jpg used on input line 31.
 
 (pdftex.def)             Requested size: 325.21501pt x 247.66425pt.
- [29 <./nuthesis/images/LHC_default.jpg>]
-[30] [31] [32]
-<nuthesis/images/dipole_1.jpg, id=716, 362.11884pt x 270.19125pt>
+ [2 <./nuthesis/images/LHC_default.jpg>]
+[3] [4] [5] <nuthesis/images/dipole_1.jpg, id=258, 362.11884pt x 270.19125pt>
 File: nuthesis/images/dipole_1.jpg Graphic file (type jpg)
 
 <use nuthesis/images/dipole_1.jpg>
 Package pdftex.def Info: nuthesis/images/dipole_1.jpg used on input line 103.
 (pdftex.def)             Requested size: 281.85036pt x 210.3113pt.
 
-<nuthesis/images/dipole_2.png, id=717, 202.6141pt x 150.99268pt>
+<nuthesis/images/dipole_2.png, id=259, 202.6141pt x 150.99268pt>
 File: nuthesis/images/dipole_2.png Graphic file (type png)
 
 <use nuthesis/images/dipole_2.png>
 Package pdftex.def Info: nuthesis/images/dipole_2.png used on input line 105.
 (pdftex.def)             Requested size: 281.85036pt x 210.0612pt.
- [33] [34 <./nuthesis/images/dipole_1.jpg> <./nuthesis/images/dipole_2.png>]
-<nuthesis/images/quad_2.png, id=729, 224.037pt x 183.5658pt>
+ [6] [7 <./nuthesis/images/dipole_1.jpg> <./nuthesis/images/dipole_2.png>]
+<nuthesis/images/quad_2.png, id=271, 224.037pt x 183.5658pt>
 File: nuthesis/images/quad_2.png Graphic file (type png)
 
 <use nuthesis/images/quad_2.png>
 Package pdftex.def Info: nuthesis/images/quad_2.png used on input line 120.
 (pdftex.def)             Requested size: 173.44536pt x 142.11636pt.
 
-<nuthesis/images/quad_1.png, id=730, 214.76462pt x 188.8565pt>
+<nuthesis/images/quad_1.png, id=272, 214.76462pt x 188.8565pt>
 File: nuthesis/images/quad_1.png Graphic file (type png)
 
 <use nuthesis/images/quad_1.png>
 Package pdftex.def Info: nuthesis/images/quad_1.png used on input line 121.
 (pdftex.def)             Requested size: 160.43729pt x 141.09161pt.
 
-<nuthesis/images/quad_3.jpg, id=731, 554.07pt x 314.17375pt>
+<nuthesis/images/quad_3.jpg, id=273, 554.07pt x 314.17375pt>
 File: nuthesis/images/quad_3.jpg Graphic file (type jpg)
 
 <use nuthesis/images/quad_3.jpg>
 Package pdftex.def Info: nuthesis/images/quad_3.jpg used on input line 123.
 (pdftex.def)             Requested size: 303.53268pt x 172.11057pt.
- [35 <./nuthesis/images/quad_2.png> <./nuthesis/images/quad_1.png> <./nuthesis/
-images/quad_3.jpg>]
-<nuthesis/images/13kA_lead.png, id=739, 575.14874pt x 703.62875pt>
+ [8 <./nuthesis/images/quad_2.png> <./nuthesis/images/quad_1.png> <./nuthesis/i
+mages/quad_3.jpg>]
+<nuthesis/images/13kA_lead.png, id=281, 575.14874pt x 703.62875pt>
 File: nuthesis/images/13kA_lead.png Graphic file (type png)
 
 <use nuthesis/images/13kA_lead.png>
 Package pdftex.def Info: nuthesis/images/13kA_lead.png used on input line 133.
 (pdftex.def)             Requested size: 216.81001pt x 265.24513pt.
- [36 <./nuthesis/images/13kA_lead.png>]
+ [9 <./nuthesis/images/13kA_lead.png>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 155.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 155.
 
-<nuthesis/images/cryo_T_scale.png, id=747, 1036.87375pt x 861.2175pt>
+<nuthesis/images/cryo_T_scale.png, id=289, 1036.87375pt x 861.2175pt>
 File: nuthesis/images/cryo_T_scale.png Graphic file (type png)
 
 <use nuthesis/images/cryo_T_scale.png>
 Package pdftex.def Info: nuthesis/images/cryo_T_scale.png used on input line 16
 5.
 (pdftex.def)             Requested size: 303.53268pt x 252.11208pt.
- [37]
-<nuthesis/images/lhc_rfc.png, id=753, 810.52812pt x 530.98375pt>
+ [10]
+<nuthesis/images/lhc_rfc.png, id=296, 810.52812pt x 530.98375pt>
 File: nuthesis/images/lhc_rfc.png Graphic file (type png)
 
 <use nuthesis/images/lhc_rfc.png>
 Package pdftex.def Info: nuthesis/images/lhc_rfc.png used on input line 185.
 (pdftex.def)             Requested size: 199.16858pt x 119.49858pt.
 
-<nuthesis/images/rfc_lhc.png, id=754, 1435.61343pt x 800.23969pt>
+<nuthesis/images/rfc_lhc.png, id=297, 1435.61343pt x 800.23969pt>
 File: nuthesis/images/rfc_lhc.png Graphic file (type png)
 
 <use nuthesis/images/rfc_lhc.png>
 Package pdftex.def Info: nuthesis/images/rfc_lhc.png used on input line 186.
 (pdftex.def)             Requested size: 215.33272pt x 120.03076pt.
- [38 <./nuthesis/images/cryo_T_scale.png>]
-[39 <./nuthesis/images/lhc_rfc.png> <./nuthesis/images/rfc_lhc.png>]
-<nuthesis/images/beam_screen.png, id=768, 934.49126pt x 495.8525pt>
+ [11 <./nuthesis/images/cryo_T_scale.png>]
+[12 <./nuthesis/images/lhc_rfc.png> <./nuthesis/images/rfc_lhc.png>]
+<nuthesis/images/beam_screen.png, id=310, 934.49126pt x 495.8525pt>
 File: nuthesis/images/beam_screen.png Graphic file (type png)
 
 <use nuthesis/images/beam_screen.png>
 Package pdftex.def Info: nuthesis/images/beam_screen.png used on input line 222
 .
 (pdftex.def)             Requested size: 303.53268pt x 161.05936pt.
- [40 <./nuthesis/images/beam_screen.png>]
-<nuthesis/images/CMS_detector.png, id=775, 853.1875pt x 576.1525pt>
+ [13 <./nuthesis/images/beam_screen.png>]
+<nuthesis/images/CMS_detector.png, id=317, 853.1875pt x 576.1525pt>
 File: nuthesis/images/CMS_detector.png Graphic file (type png)
 
 <use nuthesis/images/CMS_detector.png>
@@ -1397,23 +1232,23 @@ Package pdftex.def Info: nuthesis/images/CMS_detector.png used on input line 25
 9.
 (pdftex.def)             Requested size: 346.89734pt x 234.26357pt.
 
-<nuthesis/images/cms_cross_section.png, id=776, 3189.9175pt x 2253.41875pt>
+<nuthesis/images/cms_cross_section.png, id=318, 3189.9175pt x 2253.41875pt>
 File: nuthesis/images/cms_cross_section.png Graphic file (type png)
 
 <use nuthesis/images/cms_cross_section.png>
 Package pdftex.def Info: nuthesis/images/cms_cross_section.png used on input li
 ne 261.
 (pdftex.def)             Requested size: 346.89734pt x 245.02292pt.
- [41] [42 <./nuthesis/images/CMS_detector.png> <./nuthesis/images/cms_cross_sec
+ [14] [15 <./nuthesis/images/CMS_detector.png> <./nuthesis/images/cms_cross_sec
 tion.png>]
-<nuthesis/images/cms_logo.png, id=791, 289.08pt x 289.08pt>
+<nuthesis/images/cms_logo.png, id=333, 289.08pt x 289.08pt>
 File: nuthesis/images/cms_logo.png Graphic file (type png)
 
 <use nuthesis/images/cms_logo.png>
 Package pdftex.def Info: nuthesis/images/cms_logo.png used on input line 275.
 (pdftex.def)             Requested size: 173.44536pt x 173.44492pt.
- [43 <./nuthesis/images/cms_logo.png>]
-[44] <nuthesis/images/coord.png, id=802, 855.195pt x 502.87875pt>
+ [16 <./nuthesis/images/cms_logo.png>]
+[17] <nuthesis/images/coord.png, id=345, 855.195pt x 502.87875pt>
 File: nuthesis/images/coord.png Graphic file (type png)
 
 <use nuthesis/images/coord.png>
@@ -1421,64 +1256,64 @@ Package pdftex.def Info: nuthesis/images/coord.png used on input line 299.
 (pdftex.def)             Requested size: 342.07195pt x 201.14793pt.
 
 
-LaTeX Warning: Reference `MonroyMontanez:2639240' on page 45 undefined on input
+LaTeX Warning: Reference `MonroyMontanez:2639240' on page 18 undefined on input
  line 300.
 
 
-LaTeX Warning: Reference `MonroyMontanez:2639240' on page 45 undefined on input
+LaTeX Warning: Reference `MonroyMontanez:2639240' on page 18 undefined on input
  line 300.
 
-[45 <./nuthesis/images/coord.png>]
-<nuthesis/images/inner_tracker.png, id=812, 814.04124pt x 501.875pt>
+[18 <./nuthesis/images/coord.png>]
+<nuthesis/images/inner_tracker.png, id=354, 814.04124pt x 501.875pt>
 File: nuthesis/images/inner_tracker.png Graphic file (type png)
 
 <use nuthesis/images/inner_tracker.png>
 Package pdftex.def Info: nuthesis/images/inner_tracker.png used on input line 3
 16.
 (pdftex.def)             Requested size: 325.61072pt x 200.74643pt.
- [46 <./nuthesis/images/inner_tracker.png>]
+ [19 <./nuthesis/images/inner_tracker.png>]
 Overfull \hbox (2.66455pt too wide) in paragraph at lines 340--341
 []\T1/lmr/m/n/10.95 The ECAL is a highly gran-u-lar de-tec-tor that re-lies on 
 the lead tungstate crys-tal (PbWO$[]$)
  []
 
-[47] <nuthesis/images/ecal2.png, id=825, 1033.8625pt x 523.9575pt>
+[20] <nuthesis/images/ecal2.png, id=367, 1033.8625pt x 523.9575pt>
 File: nuthesis/images/ecal2.png Graphic file (type png)
 
 <use nuthesis/images/ecal2.png>
 Package pdftex.def Info: nuthesis/images/ecal2.png used on input line 344.
 (pdftex.def)             Requested size: 361.8573pt x 183.38786pt.
- [48 <./nuthesis/images/ecal2.png>] [49]
-<nuthesis/images/hcal2.png, id=838, 1307.88625pt x 768.8725pt>
+ [21 <./nuthesis/images/ecal2.png>] [22]
+<nuthesis/images/hcal2.png, id=381, 1307.88625pt x 768.8725pt>
 File: nuthesis/images/hcal2.png Graphic file (type png)
 
 <use nuthesis/images/hcal2.png>
 Package pdftex.def Info: nuthesis/images/hcal2.png used on input line 383.
 (pdftex.def)             Requested size: 392.3689pt x 230.66353pt.
- [50] [51 <./nuthesis/images/hcal2.png (PNG copy)>] <nuthesis/images/solenoid.j
-pg, id=853, 730.73pt x 547.04375pt>
+ [23] [24 <./nuthesis/images/hcal2.png (PNG copy)>] <nuthesis/images/solenoid.j
+pg, id=395, 730.73pt x 547.04375pt>
 File: nuthesis/images/solenoid.jpg Graphic file (type jpg)
 
 <use nuthesis/images/solenoid.jpg>
 Package pdftex.def Info: nuthesis/images/solenoid.jpg used on input line 408.
 (pdftex.def)             Requested size: 292.28682pt x 218.81361pt.
- [52 <./nuthesis/images/solenoid.jpg>]
-<nuthesis/images/cms_muon_system.png, id=861, 825.0825pt x 545.03625pt>
+ [25 <./nuthesis/images/solenoid.jpg>]
+<nuthesis/images/cms_muon_system.png, id=403, 825.0825pt x 545.03625pt>
 File: nuthesis/images/cms_muon_system.png Graphic file (type png)
 
 <use nuthesis/images/cms_muon_system.png>
 Package pdftex.def Info: nuthesis/images/cms_muon_system.png used on input line
  428.
 (pdftex.def)             Requested size: 371.28369pt x 245.26405pt.
- [53] [54 <./nuthesis/images/cms_muon_system.png>] [55]
-<nuthesis/images/L1trigger.png, id=882, 466.74374pt x 481.8pt>
+ [26] [27 <./nuthesis/images/cms_muon_system.png>] [28]
+<nuthesis/images/L1trigger.png, id=425, 466.74374pt x 481.8pt>
 File: nuthesis/images/L1trigger.png Graphic file (type png)
 
 <use nuthesis/images/L1trigger.png>
 Package pdftex.def Info: nuthesis/images/L1trigger.png used on input line 466.
 (pdftex.def)             Requested size: 233.37129pt x 240.8994pt.
- [56 <./nuthesis/images/L1trigger.png (PNG copy)>] [57] [58] [59]) (./skeleton.
-bbl [60]
+ [29 <./nuthesis/images/L1trigger.png (PNG copy)>] [30] [31] [32]) (./skeleton.
+bbl [33]
 bibitemlist
 
 Underfull \hbox (badness 1490) in paragraph at lines 34--39
@@ -1486,9 +1321,9 @@ Underfull \hbox (badness 1490) in paragraph at lines 34--39
  Mis-try,
  []
 
-[61
+[34
 
-] [62] [63] [64] [65] [66]
+] [35] [36] [37] [38] [39]
 Overfull \hbox (113.26103pt too wide) in paragraph at lines 355--358
 \T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
 es_expectedSignal0_350.html. 
@@ -1517,7 +1352,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 370--372
 []\T1/lmr/m/n/12 The LHC Higgs cross-section work-ing group.
  []
 
-[67]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 374--377
 []\T1/lmr/m/n/12 Standard Model Cross Sec-tions for CMS at 13 TeV.
  []
@@ -1578,7 +1413,7 @@ Overfull \hbox (142.47328pt too wide) in paragraph at lines 398--402
 PageBR#Higgs_2_gauge_bosons. 
  []
 
-[68]
+[41]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 465.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1607,13 +1442,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 474--478
 ons / 2577291 /
  []
 
-[69]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 507--511
 \T1/lmtt/m/n/12 twiki . cern . ch / twiki / bin / viewauth / CMS / BtagRecommen
 dation80XReReco #
  []
 
-[70] [71] [72] [73]
+[43] [44] [45] [46]
 Underfull \hbox (badness 4132) in paragraph at lines 698--702
 []\T1/lmr/m/n/12 CMS Muon POG.  Ref-er-ence muon id, iso-la-tion and trig-ger e
 f-fi-
@@ -1625,7 +1460,7 @@ Underfull \hbox (badness 1259) in paragraph at lines 698--702
 rn . ch / twiki / bin / viewauth / CMS /
  []
 
-[74]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 762--766
 []$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 604949 / contributi
 ons / 2543520 /
@@ -1643,7 +1478,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 762--766
 riments % 2FCMS %
  []
 
-[75]
+[48]
 Underfull \hbox (badness 6995) in paragraph at lines 785--789
 []\T1/lmr/m/n/12 CMS EGM POG.  Mul-ti-vari-ate Elec-tron Iden-ti-fi-ca-tion for
  Run2.
@@ -1678,14 +1513,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 804--808
 ch / twiki / bin / view / CMS /
  []
 
-[76] [77])
+[49] [50])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
 (in both cases you will find help in the memoir manual). on input line 359.
 
-[78]
+[51]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -1700,56 +1535,56 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
  (./skeleton.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
-Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: 25E1AA12BEF2F08895C6E95E8097F622;2354.
 
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 4.5pt have occurred.
+Package rerunfilecheck Warning: File `skeleton.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `skeleton.out':
+(rerunfilecheck)             Before: 7517FCB6F6E2F54F271B1150E649A96F;1932
+(rerunfilecheck)             After:  35DF09012F4716EC94BFC170112ECD84;1865.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 15533 strings out of 493014
- 226768 string characters out of 6133350
- 370948 words of memory out of 5000000
- 18381 multiletter control sequences out of 15000+600000
- 118535 words of font info for 101 fonts, out of 8000000 for 9000
- 1148 hyphenation exceptions out of 8191
- 52i,12n,46p,1471b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
-exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
-fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
-dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmss10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmss8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx
-10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/lm/lmri8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy
-10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on skeleton.pdf (88 pages, 15188290 bytes).
+ 15305 strings out of 493014
+ 222393 string characters out of 6133350
+ 368624 words of memory out of 5000000
+ 18252 multiletter control sequences out of 15000+600000
+ 95674 words of font info for 76 fonts, out of 8000000 for 9000
+ 1142 hyphenation exceptions out of 8191
+ 52i,12n,46p,1471b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section.1.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
+xlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016
+/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dis
+t/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/en
+c/dvips/lm/lm-rm.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
+r10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/lm/lmri8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on skeleton.pdf (60 pages, 13142186 bytes).
 PDF statistics:
- 1281 PDF objects out of 1440 (max. 8388607)
- 1057 compressed objects within 11 object streams
- 331 named destinations out of 1000 (max. 500000)
- 448 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 846 PDF objects out of 1000 (max. 8388607)
+ 722 compressed objects within 8 object streams
+ 267 named destinations out of 1000 (max. 500000)
+ 330 words of extra memory for PDF output out of 10000 (max. 10000000)
 
