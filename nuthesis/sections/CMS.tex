@@ -1,6 +1,5 @@
 %\setcounter{chapter}{2}
 
-
 %    https://tex.stackexchange.com/questions/40725/how-to-change-the-font-size-during-the-new-defined-environment
 %    http://www.sascha-frank.com/latex-font-size.html
 \begin{normalsize}
@@ -22,7 +21,8 @@ CERN accelerator complex is a sequence of machines that produces and accelerates
 
 The story of the LHC begins in 1977, when the CERN director general Sir John Adams suggested that the tunnel of the Large Electron-Positron Collider (LEP) can be reused to accommodate the future hadron collider of more than 3 TeV energies \ref{Sadenius}. At the 1984 ECFA-CERN workshop on a "Large Hadron Collider in the LEP Tunnel" \ref{LHC1984}, the physics goals of the LHC were stated: confirmation of the BEH mechanism, search for the Higgs Boson, and exploration of the origin of masses of W and Z bosons. The parameters of the proposed LHC were very ambitious: the centre-of-mass (COM) collision energy of 10 to 20 TeV, and a target instantaneous luminosity of 10$^{33-34}\frac{1}{cm^{2}s}$. 
 
-Large Hadron Collider (LHC) is the most powerful particle accelerator that has ever been built. It is located at the border of France and Switzerland at a depth from 50 to 175 m underground. LHC ring is 26.7 km in circumference and it is the final stage in a sequence of accelerators. 
+Large Hadron Collider (LHC) is the most powerful particle accelerator that has ever been built. It is located at the border of France and Switzerland at a depth from 50 to 175 m underground. LHC ring is 26.7 km in circumference and it is the final stage in a sequence of accelerators. We will discuss the whole sequence of accelerators in the following section.
+
 
 
 \begin{figure}[H]
@@ -44,10 +44,10 @@ It is a complex process to start proton-proton collision in the LHC at 13 TeV an
 
 \subsection{LHC operations}
 
-The first LHC budget plan was finalised in 1996 and the final cost was approved just a few years later. The first proton beam entered the LHC ring in 2008. However, an incident intervened the LHC plans. It was caused by the mechanical damage of the tunnel equipment due to the release of the helium. Thus, the real data taking period (called LHC Run-1) had started only in 2010 and lasted for two years with 7-8 TeV COM energies. The recorded dataset contained enough Higgs bosons to claim a discovery of this rarely produced particle. After this achievement, the LHC was closed for the first long shutdown (LS1) that happened in 2012. During this time necessary upgrades of the main detectors and the LHC were performed. This was an unavoidable and essential step to prepare the LHC for more challenging environment of COM energies increased to 13 TeV. 
+The first LHC budget plan was finalised in 1996 and the final cost was approved just a few years later. The first proton beam entered the LHC ring in 2008. However, an incident intervened the LHC plans. It was caused by the mechanical damage of the tunnel equipment due to the release of the helium. Thus, the real data taking period (called LHC Run-1) had started only in 2010, lasted for two years, and 7-8 TeV COM energies were used. The recorded dataset contained enough Higgs bosons to claim a discovery of this rarely produced particle. After this achievement, the LHC was closed for the first long shutdown (LS1) that happened in 2012. During this time necessary upgrades of the main detectors and the LHC were performed. This was an unavoidable and essential step to prepare the LHC for more challenging environment of COM energies increased to 13 TeV. 
 
 
-If we denote the area of 10$^{-28}$ $m^2$ as barn (b), then in terms of these new units the LHC can theoretically produce $80-120/fb$ of data a year. In practice numbers were lower, because LHC operated at the revolution frequency below the nominal, used fewer proton bunches in the beam, etc.  All this resulted in lower than expected instantaneous luminosity, which is a very important term in collider physics and will be explained in the next section.
+If we denote the area of 10$^{-28}$ $m^2$ as barn (b), with the femtobarn ($fb$) equal to 10$^{-43}$ $m^2$, then in terms of these new units the LHC can theoretically produce $80-120/fb$ (inverse femtobarns) of data a year. In practice numbers were lower, because LHC operated at the revolution frequency below the nominal, used fewer proton bunches in the beam, etc.  All this resulted in lower than expected instantaneous luminosity, which is a very important term in collider physics and will be explained in the next section.
 
 The LHC Run-2 has started in 2015 and the CMS collected 4.2 $fb^{-1}$ of data that year. Over the course of the 2016 data taking, an integrated luminosity of 35.9 $fb^{-1}$ was recorded. This luminosity is the amount of data that has been collected by the CMS detector and later approved by the CMS physics coordination for the use in the physics analyses. The data set of proton-proton collisions collected in 2016 at 13 TeV COM energy is used in this thesis to analyse double Higgs boson decays. Together with the 2017 and 2018 data taking, almost 150 $fb^{-1}$ have been delivered and recorded by the CMS detector during the whole Run-2 period of four years. 
 
@@ -59,7 +59,7 @@ The new upgraded LHC, the High-Luminosity LHC (LHC) or the Phase-2, will start o
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The instantaneous luminosity is the coefficient which relates the cross section $\sigma$ of the process to the number of events $N_{events}$ produced during the interaction: $N_{events} = \mathcal{L}  \sigma$. Luminosity is the parameter controlled by the machine and can be written as:
+The instantaneous luminosity $ \mathcal{L} $ is the coefficient which relates the cross section $\sigma$ of the process to the number of events $N_{events}$ produced during the interaction: $N_{events} = \mathcal{L}  \sigma$. Luminosity is the parameter controlled by the machine and can be written as:
 
 $ \mathcal{L} =\frac{N^2 n_b f_{rev}}{4\pi \sigma_x \sigma_y}$
 
@@ -143,13 +143,13 @@ To ensure that dipoles are in the superconducting state, they have to be cooled 
 
 The cooling (cryogen) system is needed to keep superconducting LHC magnets at the appropriate temperature. The choice of the cooling gas depends on the magnet type and location. This dictates the required range of temperatures, which differs from system to system by 75 K. The cryogen system uses layered design with the temperature becoming progressively colder going from outside the dipoles closer to the beam pipe. 
 
-The "coldest" part of the cryogen system is designed for the inner part of the dipoles. This system (see Fig. \ref{cryo_T_scale}) must cool down 37 Mkg of the LHC magnets within 15 days to the required temperatures, which is done through the system of pipes that transport the flow of the superfluid helium. The cryogen system must also be able to deal with the fast increases of the pressure flow and flow surges, as it is crucial for the LHC operation to keep dipoles constantly cooled and at the superconducting state.
+The "coldest" part of the cryogen system is designed for the inner part of the dipoles. This system (see Fig. \ref{cryo_T_scale}) must cool down 37 Mkg of the LHC magnets within 15 days to the required temperatures, which is done through the system of pipes that transports and directs the flow of the superfluid helium. The cryogen system must also be able to deal with the fast increases of the pressure flow and flow surges, as it is crucial for the LHC operation to keep dipoles constantly cooled and at the superconducting state.
 
 
-The LHC tunnel is inclined in the horizontal plane by 1.41$^\circ$. This translates to 120 m difference in the vertical location of two diametrically opposite points of the tunnel with respect to the surface level and results in the additional hydrostatic pressure that can affect the flow of helium. This has been an important concern during the design of the cryogen system.
+The LHC tunnel is inclined in the horizontal plane by 1.41$^\circ$. This translates to 120 m difference in the vertical location of two diametrically opposite points of the tunnel with respect to the surface level; and results in the additional hydrostatic pressure that can affect the flow of helium. This has been an important concern during the design of the cryogen system.
 
 
-Since the cost to cool the LHC parts to 1.8-1.9 K temperatures is high, several temperature levels are employed (see Fig. \ref{cryo_T_scale}):
+Since the cost to cool the LHC equipment to 1.8-1.9 K temperatures is high, several temperature levels are employed (see Fig. \ref{cryo_T_scale}):
  
 \begin{itemize}
 \item 50 to 75 K for the thermal shielding used in the dipoles,
@@ -163,7 +163,7 @@ Since the cost to cool the LHC parts to 1.8-1.9 K temperatures is high, several 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{cryo_T_scale}
-  \caption{LHC cryogenic states and the temperature scale.}\label{cryo_T_scale}
+  \caption{LHC cryogenic states and the temperature scale.}
   \label{cryo_T_scale}
 \end{figure}
 
@@ -184,7 +184,7 @@ Proton bunches need to be ramped to 7.5 TeV energies. To achieve this 13 TeV COM
 %\includegraphics[scale=0.6]{lep}
 \includegraphics[width=7cm,height=4.2cm]{lhc_rfc}
 \includegraphics[scale=0.15]{rfc_lhc}
-\caption[RF cavities module.]{LHC RF cavities. Left: a cryomodule with four RF cavities. Right: a schematic drawing of a single RF cavity. The colour field is used to denote Positive (red) and Negative (blue) polarities. A narrow beam traversing the cavity is shown in red. }
+\caption[RF cavities module.]{LHC RF cavities. Left: a cryomodule with four RF cavities. Right: a schematic drawing of a single RF cavity. The colour field is used to denote positive (red) and negative (blue) polarities. A narrow beam traversing the cavity is coming from the left and is shown in red. }
 \label{lhc_rfc}
 \end{figure}
 
@@ -212,7 +212,7 @@ The vacuum for the helium distribution lines is needed to protect from the heat 
 
 
 
-For the beam pipes the LHC uses ultra-high vacuum of $10^{-10}$ mbar at cryogenic temperature of 5 K with the vacuum getting progressively closer to $10^{-11}$ mbar near the IPs, because in these locations collisions take place and any additional gas is highly undesirable. This vacuum is the emptiest space in the Solar System. This ultra-high vacuum is needed to reduce the beam degradation due to the beam-gas interactions in the pipe and parasitic collisions of bunches with the collimators near the IPs. 
+For the beam pipes the LHC uses ultra-high vacuum of $10^{-10}$ mbar at cryogenic temperature of 5 K. The vacuum is getting progressively closer to $10^{-11}$ mbar near the IPs, because in these locations collisions take place and any additional gas is highly undesirable. This vacuum is the emptiest space in the Solar System. This ultra-high vacuum is needed to reduce the beam degradation due to the beam-gas interactions in the pipe and parasitic collisions of bunches with the collimators near the IPs. 
 
 Vacuum system are affected by the heat produced from the synchrotron radiation emitted by the proton beams when they are bent. To reduce the amount of this heat and to narrow down the beam size in the transverse direction when the beam widens, the LHC uses "beam screens", which operate between 5 and 20 K. 
 
@@ -225,7 +225,9 @@ Vacuum system are affected by the heat produced from the synchrotron radiation e
 
 
 
-The beam screens are necessary to reduce the number of protons scattering on the residual gas of the beam pipes, which could lead to a magnet quench and even interrupt the machine operation. The table below summarises the main heat sources that degrade the vacuum quality in the beam pipe, where the vacuum must exist at 1.9 K:
+The beam screens are necessary to reduce the number of protons scattering on the residual gas of the beam pipes, which could lead to a magnet quench and even interrupt the machine operation. 
+
+The table below summarises the main heat sources that degrade the vacuum quality in the beam pipe, where the vacuum must exist at 1.9 K:
 
 
 \begin{itemize}
@@ -264,7 +266,9 @@ CMS is the heaviest detector ever built with the mass of nearly 12500 tons. The 
 
 All sub-detectors can be categorised into trackers and calorimeters \cite{Hauptman:2011zza}. As the particle passes through the material of the tracker, it leaves a "track", which is a path of the emerging particle. Trackers focus on the direction and the track curvature of the charged particles. Tracking information allows the determination of the particle's momentum. 
 
-There are two trackers in CMS: an inner tracking system that encloses the IP and the outer tracking system that is located outside of the solenoid magnet. The first system contains the Pixel and the Strip trackers. The second tracking system is dedicated for the muon detection and is usually called a muon tracker or a muon system. This system is embedded within a steel yoke of the magnet. The magnet yoke is made of five barrel wheels. Such an arrangement saves the CMS some space and also is used for the magnetic flux return. Additionally, it serves as a support for the embedded muon system, which is located outside of the ECAL and HCAL systems. Muons are energetic enough to traverse the ECAL and leave the detector. This muon system-magnet yoke structure provides a return field of the magnet of about 2 T and is used to measure the momentum of muons. This "two-directional" magnetic field with respect to the magnetic yoke, causes the muons trajectories to be bent in opposite directions in the inner tracker in contrast to the outer tracker. This important feature of the CMS detector is depicted in the CMS logo (see Fig. \ref{cms_logo}). 
+There are two trackers in CMS: an inner tracking system that encloses the IP and the outer tracking system that is located outside of the solenoid magnet. The first system contains the Pixel and the Strip trackers. The second tracking system is dedicated for the muon detection and is usually called a muon tracker or a muon system. This system is embedded within a steel yoke of the magnet. 
+
+The magnet yoke is made of five barrel wheels. Such an arrangement saves the CMS some space and also is used for the magnetic flux return. Additionally, it serves as a support for the embedded muon system, which is located outside of the ECAL and HCAL systems. Muons are energetic enough to traverse the ECAL and leave the detector. This muon system-magnet yoke structure provides a return field of the magnet of about 2 T and is used to measure the momentum of muons. This "two-directional" magnetic field with respect to the magnetic yoke, causes the muons trajectories to be bent in opposite directions in the inner tracker in contrast to the outer tracker. This important feature of the CMS detector is depicted in the CMS logo (see Fig. \ref{cms_logo}). 
 
 \begin{figure}[H]
   \centering
@@ -275,25 +279,25 @@ There are two trackers in CMS: an inner tracking system that encloses the IP and
 
 
 The CMS has two calorimeters: the electromagnetic and the hadronic calorimeters. They both rely on high density materials either to sample or to contain almost all the energy of the incoming particles with their secondary interaction products. However, these two systems focus on two different sets of particles. As will be discussed later, electromagnetic calorimeter (ECAL) is dedicated to measuring the energy of photons and electrons, while the hadronic calorimeter is targeting the measurement of the energy of hadrons.
-
-Lastly, the rate of the incoming data is 40 MHz. This corresponds to almost 70 TB produced every second. This much data is impossible to store, and, most importantly, most of the information in this data is not interesting for future physics analyses. To reduce the data rate, the CMS uses a highly efficient system of triggers. The first one, the Level-1 (L1) trigger, reduces the nominal collision rate of 40 MHz to 100 kHz. The subsequent High-Level Trigger (HLT) further decreases the rate to 1 kHz. With the help of the trigger system, the original 40 TB per second rate is transformed into manageable 1 GB per second that is stored for offline analysis use. 
+1!
+The rate of the incoming data at the LHC is 40 MHz. This corresponds to almost 70 TB produced every second! It is impossible to store that much data, and, most importantly, most of the information in this data is not interesting for future physics analyses. To reduce the data rate, the CMS uses a highly efficient system of triggers. The first one, the Level-1 (L1) trigger, reduces the nominal collision rate of 40 MHz to 100 kHz. The subsequent High-Level Trigger (HLT) further decreases the rate to 1 kHz. With the help of the trigger system, the original 40 TB per second rate is transformed into manageable 1 GB per second that is stored for offline analysis use. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \subsection{The CMS coordinate system}
 
-The CMS uses a a right-handed Cartesian coordinate system to define the axes of the colliding beams (see Fig. \ref{coord}). The centre is located at the IP and the x axis points to the centre of the LHC ring. The y axis points upwards, and the z axis points along the proton beam direction. Since the CMS detector has a cylindrical shape, the polar system is used in the x-y plane: a standard set of the azimuthal angle $\varphi$ and the radial coordinate $r$. The polar angle $\theta$ is defined in the r-z plane and a widely used in this thesis angular variable $\eta$ (called pseudorapidity) is defined as $\eta = \ln \tan(\theta/2) = \ln (\frac{\mid \vec{p}\mid + p_z}{\mid \vec{p}\mid - p_z})$. Additionally, a popular quantity in the collider physics - the rapidity - which is a function of the energy E and longitudinal momentum $p_z$ of the particle (the projection of $\vec{p}$ on the z axis), is given by $y = 1/2 \ln ( \frac{E + p_z}{E - p_z})$. Note that $\eta$ converges to $y$ when the mass is negligible and the particle travels with the speed close to the speed of light. Most angular variables that are used currently in the modern high-energy physics (HEP) are defined in terms of $\eta$ and $\varphi$:
-
+The CMS uses a a right-handed Cartesian coordinate system to define the axes of the colliding beams (see Fig. \ref{coord}). The centre is located at the IP and the x axis points to the centre of the LHC ring. The y axis points upwards, and the z axis points along the proton beam direction. Since the CMS detector has a cylindrical shape, the polar system is used in the x-y plane: a standard set of the azimuthal angle $\varphi$ and the radial coordinate $r$. The polar angle $\theta$ is defined in the r-z plane and a widely used in this thesis angular variable $\eta$ (called pseudorapidity) is defined as $\eta = \ln \tan(\theta/2) = \ln (\frac{\mid \vec{p}\mid + p_z}{\mid \vec{p}\mid - p_z})$. Additionally, a popular quantity in the collider physics - the rapidity - is given by $y = 1/2 \ln ( \frac{E + p_z}{E - p_z})$. Rapidity is a function of the energy E and longitudinal momentum $p_z$ of the particle (the projection of $\vec{p}$ on the z axis. 
+Note that $\eta$ converges to $y$ when the mass is negligible and the particle travels with the speed close to the speed of light. Most angular variables that are used currently in the modern high-energy physics (HEP) are defined in terms of $\eta$ and $\varphi$:
 $ \Delta R = \sqrt{(\Delta \eta)^2 + (\Delta \varphi)^2}$, with $\Delta \eta$ and $\Delta \varphi$ being the absolute values of the relative differences of $\eta's$ and $\varphi 's$ of two particles. 
 
-Another extremely useful quantity is the projection of the momentum of a particle on the transverse plane. This variation of the momentum is independent of the z axis, hence, from the Lorentz boost, and is called "transverse momentum" $p_T$.  Similarly, the "transverse energy" of a particle is defined as $E_T = \sqrt{m + p_T }$. 
+Another extremely useful quantity is the projection of the momentum of a particle on the transverse plane and is called "transverse momentum" $p_T$. This variation of the momentum is independent of the z axis, hence, from the Lorentz boost.  Similarly, the "transverse energy" of a particle is defined as $E_T = \sqrt{m + p_T }$. 
 
 
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.4]{coord}
-  \caption[Coordinate system of the CMS detector]{Coordinate system of the CMS detector \ref{MonroyMontanez:2639240}.}
+  \caption[Coordinate system of the CMS detector]{Coordinate system of the CMS detector \ref{MonroyMontanez:2639240}. Two particles (1 and 2) are shown with the corresponding angular variables ($\Delta \eta_1$, $\Delta \varphi_1$) for the first and ($\Delta \eta_2$,$ \Delta \varphi_2$) for the second particle respectively.}
   \label{coord}
 \end{figure}
 
@@ -301,16 +305,16 @@ Another extremely useful quantity is the projection of the momentum of a particl
 
 \subsection{The Inner Tracker}
 
-The inner tracker \cite{Tracker_phase2} (see Fig. \ref{inner_tracker}) is the closest subdetector to the IP. Using the tracker the experiment measures the trajectories of charged particles and reconstructs decay vertices. Since this system is constantly under the radiation coming from the interactions with the particle flux of nearly 100 MHz/cm at r =?? 4 cm, the design of the tracker focused on two main requirements: high granularity for precise determination of the vertices and tracks, and robustness against the radiation-hard environment with the operational time of at least 10 years. As a solution to both challenges, the CMS relies on the silicon technology that provides the tracker with the large surface of thin but highly granular active detectors. The tracking system has a diameter of 2.5 m and a length of 5.8 m covering the detector space of $|\eta|< 2.5$. 
+The inner tracker \cite{Tracker_phase2} (see Fig. \ref{inner_tracker}) is the closest subdetector to the IP. Using the tracker the experiment measures the trajectories of charged particles and reconstructs decay vertices. Since this system is constantly under the radiation coming from the interactions with the particle flux of nearly 100 MHz/cm at r = 4 cm, the design of the tracker focused on two main requirements: high granularity for precise determination of the vertices and tracks, and robustness against the radiation-hard environment with the operational time of at least 10 years. As a solution to both challenges, the CMS relies on the silicon technology that provides the tracker with the large surface of thin but highly granular active detectors. The tracking system has a diameter of 2.4 m and a length of 5.4 m covering the detector space of $|\eta|< 2.5$. 
 
-The inner most part of the tracker - the Pixel detector ("Pixel")- consists of three layers in the barrel at the radii of?? 4.4 cm, 7.3 cm, and 10.2 cm. The Pixel also has two detector disks in forward regions. They are positioned 34.5 cm and 46.6 cm away from the IP. The Pixel is made of 1440 modules which contain 66 million pixel cells. Each cell is 100 by 150 $\mu$ m with 285 $\mu$ m thickness, which allows the determination of "hit" positions (the passage of the particle through the Pixel cells) in two directions z-$\varphi$ in the barrel and r-$\varphi$ in the endcaps.
+The inner most part of the tracker - the Pixel detector ("Pixel")- consists of three layers in the barrel at the radii of 4.4 cm, 7.3 cm, and 10.2 cm respectively. The Pixel also has two detector disks in forward regions. They are positioned 34.5 and 46.6 cm away from the IP. The Pixel is made of 1440 modules which contain 66 million pixel cells. Each cell is 100 by 150 $\mu$ m with 285 $\mu$ m thickness, which allows the determination of "hit" positions (the passage of the particle through the Pixel cells) in two directions z-$\varphi$ in the barrel and r-$\varphi$ in the endcaps.
 
-The spatial resolution of each pixel about 10 $\mu$m in the r-? plane and 20 $\mu$m along the z direction. The spatial information that comes from the tracker is used to determine the main interaction point of the hard scattering ("the primary vertex") and also additional interaction vertices ("pileup"). Tracker also helps to reconstruct the displaced vertices ("the secondary vertices") of the particles that decay relatively fast, e.g., b-jets, which will be discussed later in this chapter. 
+The spatial resolution of each pixel about 10 $\mu$m in the r-$\varphi$ plane and 20 $\mu$m along the z direction. The spatial information that comes from the tracker is used to determine the main interaction point of the hard scattering ("the primary vertex") and also additional interaction vertices ("pileup"). Tracker also helps to reconstruct the displaced vertices ("the secondary vertices") of the particles that decay relatively fast, e.g., b-jets, which will be discussed later in this chapter. 
 
 \begin{figure}[h!]
   \centering
   \includegraphics[scale=0.4]{inner_tracker}
-  \caption[The inner tracker]{The inner tracker.}
+  \caption[The inner tracker]{The inner tracker. Pixel and Strip detectors are shown. }
   \label{inner_tracker}
 \end{figure}
 
@@ -337,8 +341,8 @@ The ECAL is a highly granular detector that relies on the lead tungstate crystal
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.4]{ecal2}
-  \caption[The ECAL]{The ECAL.}
+  \includegraphics[scale=0.35]{ecal2}
+  \caption[The ECAL]{The ECAL and the Preshower detectors.}
   \label{ecal2}
 \end{figure}
 
@@ -346,7 +350,7 @@ The ECAL has a barrel part (EB), covering the $|\eta|< 1.479$, and two endcaps (
 In the barrel ECAL is made of 61 200 crystals. Each crystal is 22 by 22 mm with a length of 23 cm. In the endcaps ECAL has 7324 crystals. There each crystal is 28.62 by 28.62 mm with a length of 22 cm. The crystals' layout is following a quasi-geometric projection with axes of crystals slightly tilted to ensure particle trajectories are never aligned with the intercrystal cracks. This layout is optimised for the best particle shower containment with respect to the position of the interaction point.  
 
 
-The resolution of the ECAL is a function of energy of the incident particle E and can be decomposed into three terms. The first term is a stochastic term that is inversely proportional to the square root of the number N of scintillation photons produced in the interaction. In the main formula N is replaced by E, since N is proportional to E. The second term is a "noise" term that describes the noise in the detector.  The third term is related to detector imperfections and is represented by a constant fraction of E. The final dependence of the ECAL energy resolution $\sigma$ on the particle energy E is given by:
+The resolution of the ECAL is a function of energy of the incident particle E and can be decomposed into three terms. The first term is a stochastic term that is inversely proportional to the square root of the number N of scintillation photons produced in the interaction. In the main formula N is replaced by E, since N is proportional to E. The second term is a "noise" term that describes the noise in the detector.  The third term is related to detector imperfections and is represented by a constant C. The final dependence of the ECAL energy resolution $\sigma$ on the particle energy E is given by:
 
   
 \begin{equation}
@@ -376,8 +380,8 @@ The gaps in the absorber of the HCAL are filled with an active medium of 70000 p
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.4]{hcal2}
-  \caption[The HCAL]{The HCAL.}
+  \includegraphics[scale=0.3]{hcal2}
+  \caption[The HCAL]{The HCAL with the $\eta$ coverage map.}
   \label{hcal2}
 \end{figure}
 
@@ -387,7 +391,7 @@ The CMS also has an outer calorimeter (HO) placed above the HB outside the solen
 In the forward directions, two forward calorimeters (HF) extend the coverage to  $|\eta| = 5.2$. The HF is composed of steel absorbers and quartz fibres that produce Cherenkov light when the particle in the material travels faster than the light in that medium. The light is further collected by photomultiplier tubes (PMTs). 
 
 
-Since the HCAL is located between the ECAL and the internal surface of the solenoid, the space allocated for the HCAL is not enough for the HCAL to fully absorb the hadronic showers and this imperfect containment of the hadronic shower limits the performance of the HCAL. Comparing with the formula \ref{eq:ecal}, for the single pions the values are given by:  by S = 115 $\%$, N = 52  $\%$, and C = 5.5 $\%$ \ref{Baiatian:1049915}.
+Since the HCAL is located between the ECAL and the internal surface of the solenoid, the space allocated for the HCAL is not enough for the HCAL to fully absorb the hadronic showers and this imperfect containment of the hadronic shower limits the performance of the HCAL. Comparing with the formula \ref{eq:ecal}, for the single pions the values are given by:  by S = 115 $\%$, N = 52  $\%$, and C = 5.5 $\%$ \cite{Baiatian_hcal}.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -402,7 +406,7 @@ The NbTi superconducting solenoid (see Fig. \ref{solenoid}) of 6 m in diameter i
  \begin{figure}[H]
   \centering
   \includegraphics[scale=0.4]{solenoid}
-  \caption[The CMS superconducting solenoid]{The CMS superconducting solenoid.}
+  \caption[The CMS superconducting solenoid]{The CMS superconducting solenoid. The person on the left is shown to emphasise the size of the magnet.}
   \label{solenoid}
 \end{figure}
 
@@ -421,8 +425,8 @@ Many physics analyses in the CMS rely on a precise measurements of the muons in 
 
  \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.4]{cms_muon_system}
-  \caption[The CMS muon tracker]{The CMS muon tracker.}
+  \includegraphics[scale=0.45]{cms_muon_system}
+  \caption[The CMS muon tracker]{The CMS muon tracker. DT, CSC, and RPC detectors are shown in yellow, green, and blue respectively.}
   \label{cms_muon_system}
 \end{figure}
 
@@ -459,7 +463,7 @@ Since the processing time of the L1 system is very important for the whole CMS o
 
  \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.4]{L1trigger}
+  \includegraphics[scale=0.5]{L1trigger}
   \caption[The CMS L1 trigger layout]{The CMS L1 trigger layout.}
   \label{L1trigger}
 \end{figure}
@@ -504,7 +508,7 @@ The output of the HLT is limited by capacities of the Tier-0. This includes the 
 
 The DAQ systems in the modern high energy physics are responsible for any tasks. The challenges are well known: high data rates and volumes, limited tape space and transfer bandwidth. CMS DAQ is based on the homogeneous architecture, scales well with the different beam energy regimes and data rates, and stable  performance  in  a  variety  of  operating  conditions.  
 
-As an example of the complex computing task that is elegantly solved by the DAQ system, let us discuss the aforementioned FBUs system of the HLT. FBU relies on a single multi-core machine and the communications with other units are done via shared memory. The data from the full detector is used for the filtering process. Complicated offline-like reconstruction algorithms are then used for the full precision event selection. With more CPU cores available for the Run-2, the per-event time budget is increased to "comfortable" 175 ms per event, which is a long enough time to run most of the CMS reconstruction algorithms. 
+To illustrate an example of a complex computing task that is elegantly solved by the DAQ system, let us discuss in more details the aforementioned FBUs system of the HLT. FBU relies on a single multi-core machine and the communications with other units are done via shared memory. The data from the full detector is used for the filtering process. Complicated offline-like reconstruction algorithms are then used for the full precision event selection. With more CPU cores available for the Run-2, the per-event time budget is increased to "comfortable" 175 ms per event, which is a long enough time to run most of the CMS reconstruction algorithms. 
 
 The current CMS DAQ was developed to address these core requirements: 
 
@@ -525,10 +529,10 @@ Now that we discussed all CMS subdetectors and DAQ, we can look back and summari
 
 
 \begin{itemize}
-\item good muon momentum resolution over the momentum scale covering almost a TeV range, good dimuon resolution (mostly $Z \rightarrow \mu \mu$ and $H \rightarrow \mu \mu$) at the O(100) GeV. The capability to determine correctly the charge of the highly energetic muon all the way up to 1 TeV. 
-\item Good momentum resolution of all charged particles in the inner tracker.
-\item Good diphoton mass resolution with the focus on the $H \rightarrow \gamma \gamma$ discovery channel. Also, the ability to reject $\pi^0 \rightarrow \gamma \gamma$, which is one of the main background processes to many physics analyses.  This requirement mostly concern the performance of the ECAL. 
-\item Good resolution of the missing transverse energy (discussed in the section below) and of the mass of the two-jet system. This task depends heavily on the performance of the HCAL.
+\item good muon momentum resolution over the momentum scale covering almost a TeV range, good dimuon resolution (mostly $Z \rightarrow \mu \mu$ and $H \rightarrow \mu \mu$) at the O(100) GeV. The capability to determine correctly the charge of the highly energetic muon all the way up to 1 TeV,
+\item good momentum resolution of all charged particles in the inner tracker,
+\item good diphoton mass resolution with the focus on the $H \rightarrow \gamma \gamma$ discovery channel. Also, the ability to reject $\pi^0 \rightarrow \gamma \gamma$, which is one of the main background processes to many physics analyses.  This requirement mostly concern the performance of the ECAL,
+\item good resolution of the missing transverse energy (discussed in the section below) and of the mass of the two-jet system. This task depends heavily on the performance of the HCAL.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

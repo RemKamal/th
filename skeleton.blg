@@ -5,116 +5,79 @@ The style file: unsrt.bst
 Database file #1: nuthesis/sections/bibl.bib
 Warning--entry type for "..." isn't style-file defined
 --line 1 of file nuthesis/sections/bibl.bib
-Repeated entry---line 983 of file nuthesis/sections/bibl.bib
- : @article{Campbell:2014kua
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1001 of file nuthesis/sections/bibl.bib
- : @article{Campbell:2014kua
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1118 of file nuthesis/sections/bibl.bib
- : @article{Campbell:2014kua
- :                          ,
-I'm skipping whatever remains of this entry
 Warning--entry type for "wolfram" isn't style-file defined
---line 1449 of file nuthesis/sections/bibl.bib
+--line 1365 of file nuthesis/sections/bibl.bib
 Warning--entry type for "Bender" isn't style-file defined
---line 1457 of file nuthesis/sections/bibl.bib
+--line 1373 of file nuthesis/sections/bibl.bib
 Warning--entry type for "strassler" isn't style-file defined
---line 1501 of file nuthesis/sections/bibl.bib
-Repeated entry---line 1508 of file nuthesis/sections/bibl.bib
- : @article{Glashow:1961tr
- :                        ,
-I'm skipping whatever remains of this entry
+--line 1417 of file nuthesis/sections/bibl.bib
 Warning--entry type for "MonroyMontanez:2639240" isn't style-file defined
---line 1610 of file nuthesis/sections/bibl.bib
-Repeated entry---line 1636 of file nuthesis/sections/bibl.bib
- : @article{Dolan:2012ac
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1653 of file nuthesis/sections/bibl.bib
- : @article{Huang:2017nnw
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1671 of file nuthesis/sections/bibl.bib
- : @article{Kanemura:2016tan
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1690 of file nuthesis/sections/bibl.bib
- : @article{Oliveira:2014kla
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1872 of file nuthesis/sections/bibl.bib
- : @techreport{CMS-PAS-MUO-10-002
- :                               ,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 1931 of file nuthesis/sections/bibl.bib
- :   
- :   %abstract={During 2010 the LHC delivered pp collisions with a centre-of-mass energy of 7 TeV. In this paper, the results of comprehensive studies of missing transverse energy as measured by the CMS detector are presented. The results cover the measurements of the scale and resolution for missing transverse energy, and the effects of multiple pp interactions within the same bunch crossings on the scale and resolution. Anomalous measurements of missing transverse energy are studied, and algorithms for their identification are described. The performance of several reconstruction algorithms for calculating missing transverse energy are compared. An algorithm, called missing-transverse-energy significance, which estimates the compatibility of the reconstructed missing transverse energy with zero, is described, and its performance is demonstrated.}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+--line 1526 of file nuthesis/sections/bibl.bib
 Warning--empty journal in Mangano:454171
 Warning--there's a number but no volume in Mangano:454171
 Warning--empty author in CMS-PAS-HIG-14-009
+Warning--empty journal in Sirunyan:2018iwt
+Warning--empty journal in Oliveira:2014kla
+Warning--empty journal in Xanda
+Warning--empty journal in LHC_vacuum
+Warning--there's a number but no volume in LHC_vacuum
+Warning--empty publisher in Hauptman:2011zza
+Warning--empty author and editor in HCAL_TDR
 Warning--all relevant fields are empty in ...
 Warning--empty author in HIG-11-011
-Warning--empty journal in Huang:2017nnw
-Warning--empty journal in Oliveira:2014kla
 Warning--empty journal in bbWW
 Warning--empty journal in Vhbb_inspire
-Warning--empty journal in Xanda
 Warning--empty institution in CMS_AN_2006-027
 Warning--empty institution in CMS_NOTE_2006-106
 Warning--empty institution in CMS-PAS-JME-10-003
 Warning--empty note in LEPewkfits
 Warning--empty author in CMS-PAS-MUO-10-002
 Warning--empty author in lumiUnc
-Warning--empty journal in Sirunyan:2018iwt
 Warning--empty journal in Gröbner:356437
 Warning--there's a number but no volume in Gröbner:356437
 Warning--empty author in CMS-PAS-FTR-18-019
 Warning--empty author in CMS-PAS-HIG-17-030
 Warning--empty author in CMS-PAS-HIG-17-032
-You've used 148 entries,
+Warning--empty journal in Herr:941318
+You've used 161 entries,
             1791 wiz_defined-function locations,
-            1265 strings with 26754 characters,
-and the built_in function-call counts, 26154 in all, are:
-= -- 2216
-> -- 1087
-< -- 18
-+ -- 437
-- -- 289
-* -- 1462
-:= -- 4273
-add.period$ -- 432
-call.type$ -- 148
-change.case$ -- 133
+            1339 strings with 28889 characters,
+and the built_in function-call counts, 28526 in all, are:
+= -- 2419
+> -- 1201
+< -- 21
++ -- 481
+- -- 320
+* -- 1610
+:= -- 4676
+add.period$ -- 475
+call.type$ -- 161
+change.case$ -- 140
 chr.to.int$ -- 0
-cite$ -- 170
-duplicate$ -- 1184
-empty$ -- 2808
-format.name$ -- 289
-if$ -- 5832
+cite$ -- 187
+duplicate$ -- 1302
+empty$ -- 3045
+format.name$ -- 320
+if$ -- 6361
 int.to.chr$ -- 0
-int.to.str$ -- 148
-missing$ -- 109
-newline$ -- 726
-num.names$ -- 131
-pop$ -- 437
+int.to.str$ -- 161
+missing$ -- 124
+newline$ -- 792
+num.names$ -- 143
+pop$ -- 478
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 506
+skip$ -- 535
 stack$ -- 0
-substring$ -- 1239
-swap$ -- 152
-text.length$ -- 18
+substring$ -- 1299
+swap$ -- 164
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 22
-while$ -- 214
-width$ -- 151
-write$ -- 1522
-(There were 10 error messages)
+warning$ -- 26
+while$ -- 230
+width$ -- 164
+write$ -- 1669
+(There were 31 warnings)
