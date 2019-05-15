@@ -19,10 +19,6 @@ Warning--empty author in CMS-PAS-HIG-14-009
 Warning--empty journal in Sirunyan:2018iwt
 Warning--empty journal in Oliveira:2014kla
 Warning--empty journal in Xanda
-Warning--empty journal in LHC_vacuum
-Warning--there's a number but no volume in LHC_vacuum
-Warning--empty publisher in Hauptman:2011zza
-Warning--empty author and editor in HCAL_TDR
 Warning--all relevant fields are empty in ...
 Warning--empty author in HIG-11-011
 Warning--empty journal in bbWW
@@ -39,6 +35,10 @@ Warning--empty author in CMS-PAS-FTR-18-019
 Warning--empty author in CMS-PAS-HIG-17-030
 Warning--empty author in CMS-PAS-HIG-17-032
 Warning--empty journal in Herr:941318
+Warning--empty journal in LHC_vacuum
+Warning--there's a number but no volume in LHC_vacuum
+Warning--empty publisher in Hauptman:2011zza
+Warning--empty author and editor in HCAL_TDR
 You've used 161 entries,
             1791 wiz_defined-function locations,
             1339 strings with 28889 characters,

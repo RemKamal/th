@@ -236,6 +236,11 @@ Michael Forger and Hartmann Romer.
   Fresh look at an old problem}.
 \newblock {\em Annals Phys.}, 309:306--389, 2004.
 
+\bibitem{WED}
+Lisa Randall and Raman Sundrum.
+\newblock Large mass hierarchy from a small extra dimension.
+\newblock {\em Phys. Rev. Lett.}, 83:3370--3373, Oct 1999.
+
 \bibitem{Chen:2014xra}
 Chuan-Ren Chen and Ian Low.
 \newblock {Double take on new physics in double Higgs boson production}.
@@ -246,66 +251,6 @@ Roberto Contino, Margherita Ghezzi, Mauro Moretti, Giuliano Panico, Fulvio
   Piccinini, and Andrea Wulzer.
 \newblock {Anomalous Couplings in Double Higgs Production}.
 \newblock {\em JHEP}, 08:154, 2012.
-
-\bibitem{LHC_vacuum}
-Cecile Noels.
-\newblock {Literature in focus - The Large Hadron Collider: A Marvel of
-  Technology. Literature in focus - The Large Hadron Collider: A Marvel of
-  Technology}.
-\newblock (BUL-NA-2009-414. 51/2009):11, Dec 2009.
-
-\bibitem{Hauptman:2011zza}
-John Hauptman.
-\newblock {\em {Particle physics experiments at high energy colliders}}.
-\newblock 2011.
-
-\bibitem{Tracker_phase2}
-CMS Collaboration.
-\newblock {The Phase-2 Upgrade of the CMS Tracker}.
-\newblock Technical Report CERN-LHCC-2017-009. CMS-TDR-014, CERN, Geneva, Jun
-  2017.
-
-\bibitem{ECAL_attendum}
-Philippe Bloch, Robert Brown, Paul Lecoq, and Hans Rykaczewski.
-\newblock {\em {Changes to CMS ECAL electronics: addendum to the Technical
-  Design Report}}.
-\newblock Technical Design Report CMS. CERN, Geneva, 2002.
-
-\bibitem{HCAL_TDR}
-{\em {The CMS hadron calorimeter project: Technical Design Report}}.
-\newblock Technical Design Report CMS. CERN, Geneva, 1997.
-
-\bibitem{Baiatian_hcal}
-G~Baiatian, Albert~M Sirunyan, Virgil~E Emeliantchik, Igor~Barnes, Alvin~T
-  Laasanen, and Arnold Pompos.
-\newblock {Design, Performance, and Calibration of CMS Hadron-Barrel
-  Calorimeter Wedges}.
-\newblock Technical Report CMS-NOTE-2006-138. 1, CERN, Geneva, May 2007.
-
-\bibitem{Muon_system_TDR}
-CMS Collaboration.
-\newblock {The Phase-2 Upgrade of the CMS Muon Detectors}.
-\newblock Technical Report CERN-LHCC-2017-012. CMS-TDR-016, CERN, Geneva, Sep
-  2017.
-\newblock This is the final version, approved by the LHCC.
-
-\bibitem{Trigger}
-Vardan Khachatryan et~al.
-\newblock {The CMS trigger system}.
-\newblock {\em JINST}, 12(01):P01020, 2017.
-
-\bibitem{DAQ}
-G.~Bauer et~al.
-\newblock {The CMS data acquisition system software}.
-\newblock {\em J. Phys. Conf. Ser.}, 219:022011, 2010.
-
-\bibitem{CMS_TDR}
-G~L Bayatian, S~Chatrchyan, H~Hmayakyan, A~Poblaguev, M~E Zeller, and B~S
-  Yuldashev.
-\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
-  Performance and Software}}.
-\newblock Technical Design Report CMS. CERN, Geneva, 2006.
-\newblock There is an error on cover due to a technical problem for some items.
 
 \bibitem{...}
 
@@ -541,11 +486,6 @@ Albert~M Sirunyan et~al.
 Aruna~Kumar Nayak.
 \newblock {Reconstruction of physics objects in the CMS detector}.
 \newblock {\em PoS}, CHARGED2012:010, 2012.
-
-\bibitem{WED}
-Lisa Randall and Raman Sundrum.
-\newblock Large mass hierarchy from a small extra dimension.
-\newblock {\em Phys. Rev. Lett.}, 83:3370--3373, Oct 1999.
 
 \bibitem{HiggsCMS}
 Serguei Chatrchyan et~al.
@@ -908,5 +848,65 @@ Werner Herr and B~Muratori.
 Charles~W. Misner, K.~S. Thorne, and J.~A. Wheeler.
 \newblock {\em {Gravitation}}.
 \newblock W. H. Freeman, San Francisco, 1973.
+
+\bibitem{LHC_vacuum}
+Cecile Noels.
+\newblock {Literature in focus - The Large Hadron Collider: A Marvel of
+  Technology. Literature in focus - The Large Hadron Collider: A Marvel of
+  Technology}.
+\newblock (BUL-NA-2009-414. 51/2009):11, Dec 2009.
+
+\bibitem{Hauptman:2011zza}
+John Hauptman.
+\newblock {\em {Particle physics experiments at high energy colliders}}.
+\newblock 2011.
+
+\bibitem{Tracker_phase2}
+CMS Collaboration.
+\newblock {The Phase-2 Upgrade of the CMS Tracker}.
+\newblock Technical Report CERN-LHCC-2017-009. CMS-TDR-014, CERN, Geneva, Jun
+  2017.
+
+\bibitem{ECAL_attendum}
+Philippe Bloch, Robert Brown, Paul Lecoq, and Hans Rykaczewski.
+\newblock {\em {Changes to CMS ECAL electronics: addendum to the Technical
+  Design Report}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2002.
+
+\bibitem{HCAL_TDR}
+{\em {The CMS hadron calorimeter project: Technical Design Report}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
+\bibitem{Baiatian_hcal}
+G~Baiatian, Albert~M Sirunyan, Virgil~E Emeliantchik, Igor~Barnes, Alvin~T
+  Laasanen, and Arnold Pompos.
+\newblock {Design, Performance, and Calibration of CMS Hadron-Barrel
+  Calorimeter Wedges}.
+\newblock Technical Report CMS-NOTE-2006-138. 1, CERN, Geneva, May 2007.
+
+\bibitem{CMS_TDR}
+G~L Bayatian, S~Chatrchyan, H~Hmayakyan, A~Poblaguev, M~E Zeller, and B~S
+  Yuldashev.
+\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
+  Performance and Software}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2006.
+\newblock There is an error on cover due to a technical problem for some items.
+
+\bibitem{Muon_system_TDR}
+CMS Collaboration.
+\newblock {The Phase-2 Upgrade of the CMS Muon Detectors}.
+\newblock Technical Report CERN-LHCC-2017-012. CMS-TDR-016, CERN, Geneva, Sep
+  2017.
+\newblock This is the final version, approved by the LHCC.
+
+\bibitem{DAQ}
+G.~Bauer et~al.
+\newblock {The CMS data acquisition system software}.
+\newblock {\em J. Phys. Conf. Ser.}, 219:022011, 2010.
+
+\bibitem{Trigger}
+Vardan Khachatryan et~al.
+\newblock {The CMS trigger system}.
+\newblock {\em JINST}, 12(01):P01020, 2017.
 
 \end{thebibliography}
