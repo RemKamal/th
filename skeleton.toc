@@ -1,9 +1,19 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{vii}{section*.1}
-\contentsline {chapter}{List of Tables}{viii}{section*.2}
+\contentsline {chapter}{List of Figures}{viii}{section*.1}
+\contentsline {chapter}{List of Tables}{ix}{section*.2}
 \contentsline {chapter}{\chapternumberline {1}Physics Object Reconstruction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Track Reconstruction}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Muon tracking}{3}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Electron tracking}{4}{subsection.1.1.2}
-\contentsline {chapter}{Bibliography}{8}{figure.caption.3}
-\contentsline {chapter}{References}{9}{section*.5}
+\contentsline {subsection}{\numberline {1.1.3}Primary Vertex reconstruction}{5}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Particle Flow links and blocks}{6}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}Muons}{7}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.1.6}Electrons and isolated photons}{8}{subsection.1.1.6}
+\contentsline {subsection}{\numberline {1.1.7}Hadrons and non-isolated photons}{9}{subsection.1.1.7}
+\contentsline {subsection}{\numberline {1.1.8}Jets and jet corrections}{11}{subsection.1.1.8}
+\contentsline {subsection}{\numberline {1.1.9}The b tagging and secondary vertices}{12}{subsection.1.1.9}
+\contentsline {subsection}{\numberline {1.1.10}Missing transverse momentum}{14}{subsection.1.1.10}
+\contentsline {subsection}{\numberline {1.1.11}Lepton isolation}{15}{subsection.1.1.11}
+\contentsline {subsection}{\numberline {1.1.12}Pileup interactions}{15}{subsection.1.1.12}
+\contentsline {chapter}{Bibliography}{17}{figure.caption.3}
+\contentsline {chapter}{References}{18}{section*.5}
