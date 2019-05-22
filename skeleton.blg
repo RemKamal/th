@@ -39,45 +39,48 @@ Warning--empty journal in LHC_vacuum
 Warning--there's a number but no volume in LHC_vacuum
 Warning--empty publisher in Hauptman:2011zza
 Warning--empty author and editor in HCAL_TDR
-You've used 161 entries,
+Warning--empty journal in Kalman_filter
+Warning--empty journal in DeterministicAnnealing
+Warning--empty author in CMS-PAS-BTV-15-001
+You've used 175 entries,
             1791 wiz_defined-function locations,
-            1339 strings with 28889 characters,
-and the built_in function-call counts, 28526 in all, are:
-= -- 2419
-> -- 1201
-< -- 21
-+ -- 481
-- -- 320
-* -- 1610
-:= -- 4676
-add.period$ -- 475
-call.type$ -- 161
-change.case$ -- 140
+            1395 strings with 30299 characters,
+and the built_in function-call counts, 31141 in all, are:
+= -- 2644
+> -- 1316
+< -- 23
++ -- 525
+- -- 350
+* -- 1780
+:= -- 5115
+add.period$ -- 517
+call.type$ -- 175
+change.case$ -- 152
 chr.to.int$ -- 0
-cite$ -- 187
-duplicate$ -- 1302
-empty$ -- 3045
-format.name$ -- 320
-if$ -- 6361
+cite$ -- 204
+duplicate$ -- 1424
+empty$ -- 3309
+format.name$ -- 350
+if$ -- 6936
 int.to.chr$ -- 0
-int.to.str$ -- 161
-missing$ -- 124
-newline$ -- 792
-num.names$ -- 143
-pop$ -- 478
+int.to.str$ -- 175
+missing$ -- 138
+newline$ -- 861
+num.names$ -- 156
+pop$ -- 509
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 535
+skip$ -- 580
 stack$ -- 0
-substring$ -- 1299
-swap$ -- 164
-text.length$ -- 21
+substring$ -- 1423
+swap$ -- 176
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 26
-while$ -- 230
-width$ -- 164
-write$ -- 1669
-(There were 31 warnings)
+warning$ -- 29
+while$ -- 252
+width$ -- 178
+write$ -- 1820
+(There were 34 warnings)

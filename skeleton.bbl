@@ -76,11 +76,22 @@ J.~Butterworth.
 \newblock {\em Smashing Physics}.
 \newblock Headline Publishing Group, 2014.
 
+\bibitem{Zee_qft}
+A~Zee.
+\newblock {\em {Quantum Field Theory in a Nutshell}}.
+\newblock Nutshell handbook. Princeton Univ. Press, Princeton, NJ, 2003.
+
 \bibitem{Cottingham:1026625}
 W~N Cottingham and D~A Greenwood.
 \newblock {\em {An Introduction to the Standard Model of Particle Physics; 2nd
   ed.}}
 \newblock Cambridge Univ. Press, Cambridge, 2007.
+
+\bibitem{Halzen:100339}
+Francis Halzen and Alan~Douglas Martin.
+\newblock {\em {Quarks and leptons: an introductory course in modern particle
+  physics}}.
+\newblock Wiley, New York, NY, 1984.
 
 \bibitem{pdg}
 C.~Patrignani et~al.
@@ -908,5 +919,71 @@ G.~Bauer et~al.
 Vardan Khachatryan et~al.
 \newblock {The CMS trigger system}.
 \newblock {\em JINST}, 12(01):P01020, 2017.
+
+\bibitem{Particle_flow}
+A.~M. Sirunyan et~al.
+\newblock {Particle-flow reconstruction and global event description with the
+  CMS detector}.
+\newblock {\em JINST}, 12(10):P10003, 2017.
+
+\bibitem{combined_track_finding}
+Serguei Chatrchyan et~al.
+\newblock {Description and performance of track and primary-vertex
+  reconstruction with the CMS tracker}.
+\newblock {\em JINST}, 9(10):P10009, 2014.
+
+\bibitem{Kalman_filter}
+Giuseppe Cerati et~al.
+\newblock {Parallelized and Vectorized Tracking Using Kalman Filters with CMS
+  Detector Geometry and Events}.
+\newblock 2018.
+
+\bibitem{PV_reco}
+Serguei Chatrchyan et~al.
+\newblock {Description and performance of track and primary-vertex
+  reconstruction with the CMS tracker}.
+\newblock {\em JINST}, 9(10):P10009, 2014.
+
+\bibitem{DeterministicAnnealing}
+E~Chabanat and N~Estre.
+\newblock {Deterministic Annealing for Vertex Finding at CMS}.
+\newblock 2005.
+
+\bibitem{AdaptiveVertexFitting}
+R~Frühwirth, Wolfgang Waltenberger, and Pascal Vanlaer.
+\newblock {Adaptive Vertex Fitting}.
+\newblock Technical Report CMS-NOTE-2007-008, CERN, Geneva, Mar 2007.
+
+\bibitem{ParticleFlow}
+A.~M. Sirunyan et~al.
+\newblock {Particle-flow reconstruction and global event description with the
+  CMS detector}.
+\newblock {\em JINST}, 12(10):P10003, 2017.
+
+\bibitem{TMVA}
+Andreas Hoecker, Peter Speckmayer, Joerg Stelzer, Jan Therhaag, Eckhard von
+  Toerne, and Helge Voss.
+\newblock {TMVA: Toolkit for Multivariate Data Analysis}.
+\newblock {\em PoS}, ACAT:040, 2007.
+
+\bibitem{antiKt}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The anti-$k_t$ jet clustering algorithm}.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{ensemble_learning}
+Lior Rokach.
+\newblock Ensemble-based classifiers.
+\newblock {\em Artificial Intelligence Review}, 33(1):1--39, Feb 2010.
+
+\bibitem{CMS-PAS-BTV-15-001}
+{Identification of b quark jets at the CMS Experiment in the LHC Run 2}.
+\newblock Technical Report CMS-PAS-BTV-15-001, CERN, Geneva, 2016.
+
+\bibitem{Sirunyan:2017ezt}
+A.~M. Sirunyan et~al.
+\newblock {Identification of heavy-flavour jets with the CMS detector in pp
+  collisions at 13 TeV}.
+\newblock {\em JINST}, 13(05):P05011, 2018.
 
 \end{thebibliography}
