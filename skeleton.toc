@@ -1,13 +1,48 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{vii}{section*.1}
-\contentsline {chapter}{List of Tables}{viii}{section*.2}
-\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}"All things are made of atoms"}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}A brief history of particle physics}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Fundamental forces}{6}{section.1.3}
-\contentsline {section}{\numberline {1.4}The Brout-Englert-Higgs mechanism}{11}{section.1.4}
-\contentsline {chapter}{\chapternumberline {2}Theory}{18}{chapter.2}
-\contentsline {section}{\numberline {2.1}Lagrangian formalism of the Standard Model}{18}{section.2.1}
-\contentsline {section}{\numberline {2.2}Double Higgs in Beyond the Standard Model Theories}{23}{section.2.2}
-\contentsline {chapter}{Bibliography}{29}{figure.caption.14}
-\contentsline {chapter}{References}{30}{section*.16}
+\contentsline {chapter}{List of Figures}{ix}{section*.1}
+\contentsline {chapter}{List of Tables}{x}{section*.2}
+\contentsline {chapter}{\chapternumberline {1}LHC and the CMS experiment}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Large Hadron Collider}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The history of the LHC}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}The layout of the LHC}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}LHC operations}{3}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Luminocity}{4}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}LHC infrastructure}{6}{subsection.1.1.5}
+\contentsline {subsubsection}{\numberline {1.1.5.1}Magnets}{6}{subsubsection.1.1.5.1}
+\contentsline {subsubsection}{\numberline {1.1.5.2}Cooling System}{9}{subsubsection.1.1.5.2}
+\contentsline {subsubsection}{\numberline {1.1.5.3}Radio Frequency Cavities}{11}{subsubsection.1.1.5.3}
+\contentsline {subsubsection}{\numberline {1.1.5.4}Vacuum System}{12}{subsubsection.1.1.5.4}
+\contentsline {section}{\numberline {1.2}The CMS experiment}{14}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}The CMS coordinate system}{18}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}The Inner Tracker}{19}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}The ECAL}{21}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}The HCAL}{24}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}The Superconding Solenoid}{26}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}The Muon Tracker}{27}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.7}The Triggers and DAQ}{29}{subsection.1.2.7}
+\contentsline {subsubsection}{\numberline {1.2.7.1}The L1 Trigger}{30}{subsubsection.1.2.7.1}
+\contentsline {subsubsection}{\numberline {1.2.7.2}The HLT Trigger}{32}{subsubsection.1.2.7.2}
+\contentsline {subsubsection}{\numberline {1.2.7.3}The DAQ system}{33}{subsubsection.1.2.7.3}
+\contentsline {subsection}{\numberline {1.2.8}The CMS design}{34}{subsection.1.2.8}
+\contentsline {chapter}{\chapternumberline {2}Physics Object Reconstruction in CMS}{36}{chapter.2}
+\contentsline {section}{\numberline {2.1}Track Reconstruction}{36}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Muon tracking}{38}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Electron tracking}{39}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Primary Vertex reconstruction}{40}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Particle level objects}{41}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Particle Flow links and blocks}{41}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Muons}{42}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Electrons and isolated photons}{43}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Hadrons and non-isolated photons}{45}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Jets and jet corrections}{46}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Other important physics quantities and objects}{48}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}The b tagging and secondary vertices}{48}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Missing transverse momentum}{50}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Pileup interactions}{50}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Lepton isolation}{51}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Datasets and Trigger Paths}{52}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Data-Monte Carlo corrections}{53}{subsection.2.3.6}
+\contentsline {subsubsection}{\numberline {2.3.6.1}Lepton efficiencies and the Tag-and-Probe method}{54}{subsubsection.2.3.6.1}
+\contentsline {subsubsection}{\numberline {2.3.6.2}b tagging efficiency}{55}{subsubsection.2.3.6.2}
+\contentsline {chapter}{Bibliography}{56}{subsubsection.2.3.6.2}
+\contentsline {chapter}{References}{57}{section*.20}
