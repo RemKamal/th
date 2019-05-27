@@ -1,5 +1,14 @@
 \begin{thebibliography}{100}
 
+\bibitem{Sadenius}
+Thomas Schörner-Sadenius.
+\newblock {\em {The Large Hadron Collider: harvest of run 1}}.
+\newblock Springer, Cham, 2015.
+
+\bibitem{LHC1984}
+CERN.
+\newblock {\em {Large Hadron Collider in the LEP Tunnel}}, Geneva, 1984. CERN.
+
 \bibitem{LHC_vacuum}
 Cecile Noels.
 \newblock {Literature in focus - The Large Hadron Collider: A Marvel of
@@ -896,15 +905,6 @@ Gennadi Sardanashvily.
 \newblock {\em {Noether's theorems: applications in mechanics and field
   theory}}.
 \newblock Atlantis studies in variational geometry. Springer, Paris, 2016.
-
-\bibitem{Sadenius}
-Thomas Schörner-Sadenius.
-\newblock {\em {The Large Hadron Collider: harvest of run 1}}.
-\newblock Springer, Cham, 2015.
-
-\bibitem{LHC1984}
-CERN.
-\newblock {\em {Large Hadron Collider in the LEP Tunnel}}, Geneva, 1984. CERN.
 
 \bibitem{Evans}
 Lyndon~R Evans and Philip Bryant.

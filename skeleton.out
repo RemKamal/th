@@ -23,25 +23,5 @@
 \BOOKMARK [3][-]{subsubsection.1.2.7.2}{The HLT Trigger}{subsection.1.2.7}% 23
 \BOOKMARK [3][-]{subsubsection.1.2.7.3}{The DAQ system}{subsection.1.2.7}% 24
 \BOOKMARK [2][-]{subsection.1.2.8}{The CMS design}{section.1.2}% 25
-\BOOKMARK [0][-]{chapter.2}{Physics Object Reconstruction in CMS}{}% 26
-\BOOKMARK [1][-]{section.2.1}{Track Reconstruction}{chapter.2}% 27
-\BOOKMARK [2][-]{subsection.2.1.1}{Muon tracking}{section.2.1}% 28
-\BOOKMARK [2][-]{subsection.2.1.2}{Electron tracking}{section.2.1}% 29
-\BOOKMARK [2][-]{subsection.2.1.3}{Primary Vertex reconstruction}{section.2.1}% 30
-\BOOKMARK [1][-]{section.2.2}{Particle level objects}{chapter.2}% 31
-\BOOKMARK [2][-]{subsection.2.2.1}{Particle Flow links and blocks}{section.2.2}% 32
-\BOOKMARK [2][-]{subsection.2.2.2}{Muons}{section.2.2}% 33
-\BOOKMARK [2][-]{subsection.2.2.3}{Electrons and isolated photons}{section.2.2}% 34
-\BOOKMARK [2][-]{subsection.2.2.4}{Hadrons and non-isolated photons}{section.2.2}% 35
-\BOOKMARK [2][-]{subsection.2.2.5}{Jets and jet corrections}{section.2.2}% 36
-\BOOKMARK [1][-]{section.2.3}{Other important physics quantities and objects}{chapter.2}% 37
-\BOOKMARK [2][-]{subsection.2.3.1}{The b tagging and secondary vertices}{section.2.3}% 38
-\BOOKMARK [2][-]{subsection.2.3.2}{Missing transverse momentum}{section.2.3}% 39
-\BOOKMARK [2][-]{subsection.2.3.3}{Pileup interactions}{section.2.3}% 40
-\BOOKMARK [2][-]{subsection.2.3.4}{Lepton isolation}{section.2.3}% 41
-\BOOKMARK [2][-]{subsection.2.3.5}{Datasets and Trigger Paths}{section.2.3}% 42
-\BOOKMARK [2][-]{subsection.2.3.6}{Data-Monte Carlo corrections}{section.2.3}% 43
-\BOOKMARK [3][-]{subsubsection.2.3.6.1}{Lepton efficiencies and the Tag-and-Probe method}{subsection.2.3.6}% 44
-\BOOKMARK [3][-]{subsubsection.2.3.6.2}{b tagging efficiency}{subsection.2.3.6}% 45
-\BOOKMARK [0][-]{subsubsection.2.3.6.2}{Bibliography}{}% 46
-\BOOKMARK [0][-]{section*.20}{References}{}% 47
+\BOOKMARK [0][-]{subsection.1.2.8}{Bibliography}{}% 26
+\BOOKMARK [0][-]{section*.20}{References}{}% 27
