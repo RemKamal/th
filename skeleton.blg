@@ -13,6 +13,33 @@ Warning--entry type for "strassler" isn't style-file defined
 --line 1417 of file nuthesis/sections/bibl.bib
 Warning--entry type for "MonroyMontanez:2639240" isn't style-file defined
 --line 1526 of file nuthesis/sections/bibl.bib
+Warning--entry type for "Wertz:2632195" isn't style-file defined
+--line 2306 of file nuthesis/sections/bibl.bib
+Warning--entry type for "Cadamuro:2292733" isn't style-file defined
+--line 2315 of file nuthesis/sections/bibl.bib
+Warning--empty journal in Mangano:454171
+Warning--there's a number but no volume in Mangano:454171
+Warning--empty author in CMS-PAS-HIG-14-009
+Warning--empty journal in Sirunyan:2018iwt
+Warning--empty journal in Oliveira:2014kla
+Warning--empty journal in Xanda
+Warning--empty journal in Traczyk:2002jh
+Warning--all relevant fields are empty in ...
+Warning--empty author in HIG-11-011
+Warning--empty journal in bbWW
+Warning--empty journal in Vhbb_inspire
+Warning--empty institution in CMS_AN_2006-027
+Warning--empty institution in CMS_NOTE_2006-106
+Warning--empty institution in CMS-PAS-JME-10-003
+Warning--empty note in LEPewkfits
+Warning--empty author in CMS-PAS-MUO-10-002
+Warning--empty author in lumiUnc
+Warning--empty journal in Gröbner:356437
+Warning--there's a number but no volume in Gröbner:356437
+Warning--empty author in CMS-PAS-FTR-18-019
+Warning--empty author in CMS-PAS-HIG-17-030
+Warning--empty author in CMS-PAS-HIG-17-032
+Warning--empty journal in Herr:941318
 Warning--empty journal in LHC_vacuum
 Warning--there's a number but no volume in LHC_vacuum
 Warning--empty publisher in Hauptman:2011zza
@@ -20,67 +47,45 @@ Warning--empty author and editor in HCAL_TDR
 Warning--empty journal in Kalman_filter
 Warning--empty journal in DeterministicAnnealing
 Warning--empty author in CMS-PAS-BTV-15-001
-Warning--all relevant fields are empty in ...
-Warning--empty author in HIG-11-011
-Warning--empty journal in Oliveira:2014kla
-Warning--empty journal in bbWW
-Warning--empty journal in Vhbb_inspire
-Warning--empty journal in Xanda
-Warning--empty institution in CMS_AN_2006-027
-Warning--empty institution in CMS_NOTE_2006-106
-Warning--empty institution in CMS-PAS-JME-10-003
-Warning--empty note in LEPewkfits
-Warning--empty author in CMS-PAS-MUO-10-002
-Warning--empty author in lumiUnc
-Warning--empty journal in Mangano:454171
-Warning--there's a number but no volume in Mangano:454171
-Warning--empty journal in Sirunyan:2018iwt
-Warning--empty journal in Gröbner:356437
-Warning--there's a number but no volume in Gröbner:356437
-Warning--empty author in CMS-PAS-FTR-18-019
-Warning--empty author in CMS-PAS-HIG-17-030
-Warning--empty author in CMS-PAS-HIG-14-009
-Warning--empty author in CMS-PAS-HIG-17-032
-Warning--empty journal in Herr:941318
-You've used 177 entries,
+You've used 183 entries,
             1791 wiz_defined-function locations,
-            1408 strings with 30626 characters,
-and the built_in function-call counts, 31455 in all, are:
-= -- 2672
-> -- 1324
+            1437 strings with 31753 characters,
+and the built_in function-call counts, 32545 in all, are:
+= -- 2763
+> -- 1378
 < -- 23
-+ -- 529
-- -- 352
-* -- 1791
-:= -- 5165
-add.period$ -- 523
-call.type$ -- 177
-change.case$ -- 154
++ -- 549
+- -- 366
+* -- 1846
+:= -- 5342
+add.period$ -- 541
+call.type$ -- 183
+change.case$ -- 159
 chr.to.int$ -- 0
-cite$ -- 206
-duplicate$ -- 1438
-empty$ -- 3348
-format.name$ -- 352
-if$ -- 7009
+cite$ -- 213
+duplicate$ -- 1484
+empty$ -- 3464
+format.name$ -- 366
+if$ -- 7256
 int.to.chr$ -- 0
-int.to.str$ -- 177
-missing$ -- 139
-newline$ -- 871
-num.names$ -- 158
-pop$ -- 515
+int.to.str$ -- 183
+missing$ -- 144
+newline$ -- 900
+num.names$ -- 164
+pop$ -- 540
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 588
+skip$ -- 611
 stack$ -- 0
-substring$ -- 1438
-swap$ -- 178
+substring$ -- 1483
+swap$ -- 183
 text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 29
-while$ -- 255
-width$ -- 180
-write$ -- 1840
-(There were 34 warnings)
+warning$ -- 30
+while$ -- 263
+width$ -- 186
+write$ -- 1901
+(There were 37 warnings)
