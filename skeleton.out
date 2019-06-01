@@ -51,36 +51,5 @@
 \BOOKMARK [3][-]{subsubsection.4.3.5.1}{Lepton efficiencies and the Tag-and-Probe method}{subsection.4.3.5}% 51
 \BOOKMARK [3][-]{subsubsection.4.3.5.2}{b tagging efficiency}{subsection.4.3.5}% 52
 \BOOKMARK [1][-]{section.4.4}{Datasets and Trigger Paths}{chapter.4}% 53
-\BOOKMARK [0][-]{chapter.5}{HH Analysis}{}% 54
-\BOOKMARK [1][-]{section.5.1}{Analysis overview}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.2}{Analysis Strategy}{chapter.5}% 56
-\BOOKMARK [1][-]{section.5.3}{Data and Triggers}{chapter.5}% 57
-\BOOKMARK [2][-]{subsection.5.3.1}{Data}{section.5.3}% 58
-\BOOKMARK [2][-]{subsection.5.3.2}{Triggers}{section.5.3}% 59
-\BOOKMARK [1][-]{section.5.4}{Simulated Samples}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.4.1}{Signal simulation}{section.5.4}% 61
-\BOOKMARK [2][-]{subsection.5.4.2}{Background simulation}{section.5.4}% 62
-\BOOKMARK [1][-]{section.5.5}{Physics Objects Reconstruction}{chapter.5}% 63
-\BOOKMARK [2][-]{subsection.5.5.1}{Electrons}{section.5.5}% 64
-\BOOKMARK [2][-]{subsection.5.5.2}{Muons}{section.5.5}% 65
-\BOOKMARK [2][-]{subsection.5.5.3}{Jets}{section.5.5}% 66
-\BOOKMARK [2][-]{subsection.5.5.4}{Identification of b jets}{section.5.5}% 67
-\BOOKMARK [2][-]{subsection.5.5.5}{Missing transverse energy}{section.5.5}% 68
-\BOOKMARK [1][-]{section.5.6}{Event Selection}{chapter.5}% 69
-\BOOKMARK [2][-]{subsection.5.6.1}{Higgs and Z Boson Selection}{section.5.6}% 70
-\BOOKMARK [2][-]{subsection.5.6.2}{Hb and Z variables to define signal and control regions}{section.5.6}% 71
-\BOOKMARK [1][-]{section.5.7}{Signal and background characteristics}{chapter.5}% 72
-\BOOKMARK [2][-]{subsection.5.7.1}{Data and MC comparison}{section.5.7}% 73
-\BOOKMARK [2][-]{subsection.5.7.2}{Scale Factors}{section.5.7}% 74
-\BOOKMARK [1][-]{section.5.8}{BDT Discriminant}{chapter.5}% 75
-\BOOKMARK [2][-]{subsection.5.8.1}{Construction of the BDT}{section.5.8}% 76
-\BOOKMARK [1][-]{section.5.9}{Systematic Uncertainties}{chapter.5}% 77
-\BOOKMARK [2][-]{subsection.5.9.1}{Normalization uncertainties}{section.5.9}% 78
-\BOOKMARK [2][-]{subsection.5.9.2}{Shape uncertainties}{section.5.9}% 79
-\BOOKMARK [1][-]{section.5.10}{Statistical Analysis}{chapter.5}% 80
-\BOOKMARK [1][-]{section.5.11}{Limits Extraction}{chapter.5}% 81
-\BOOKMARK [2][-]{subsection.5.11.1}{Optimization for the best limit}{section.5.11}% 82
-\BOOKMARK [2][-]{subsection.5.11.2}{Results from the fit}{section.5.11}% 83
-\BOOKMARK [1][-]{section.5.12}{bbZZ measurements and combination of all HH channels}{chapter.5}% 84
-\BOOKMARK [0][-]{figure.caption.70}{Bibliography}{}% 85
-\BOOKMARK [0][-]{section*.72}{References}{}% 86
+\BOOKMARK [0][-]{table.caption.35}{Bibliography}{}% 54
+\BOOKMARK [0][-]{section*.37}{References}{}% 55

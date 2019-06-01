@@ -1,5 +1,26 @@
 \begin{thebibliography}{100}
 
+\bibitem{vhbbAN}
+{Michele de Gruttola, Caterina Vernieri, Pierluigi Bortignon, David Curry, Ivan
+  Furic, Jacobo Konigsberg, Sean-Jiun Wang, Paolo Azzurri, Tommaso Boccali,
+  Andrea Rizzi, Silvio Donato, Stephane Brunet Cooperstein , James Olsen,
+  Christopher Palmer, Lorenzo Bianchini, Christoph Grab, Gael Ludovic Perrin,
+  and Luca Perrozzi}.
+\newblock {Search for the Standard Model Higgs Boson Produced in Association
+  with W and Z and Decaying to Bottom Quarks}.
+\newblock
+  \url{http://cms.cern.ch/iCMS/jsp/db_notes/noteInfo.jsp?cmsnoteid=CMS\%20AN-2015/168}.
+
+\bibitem{Oliveira:2014kla}
+Alexandra Oliveira.
+\newblock {Gravity particles from Warped Extra Dimensions, predictions for
+  LHC}.
+\newblock 2014.
+
+\bibitem{lumiUnc}
+{CMS Luminosity Measurements for the 2016 Data Taking Period}.
+\newblock Technical Report CMS-PAS-LUM-17-001, CERN, Geneva, 2017.
+
 \bibitem{statmech}
 Erwin Schrödinger.
 \newblock {\em {Statistical thermodynamics; 2nd ed.}}
@@ -219,12 +240,6 @@ Lisa Randall and Raman Sundrum.
 \newblock {A Large mass hierarchy from a small extra dimension}.
 \newblock {\em Phys. Rev. Lett.}, 83:3370--3373, 1999.
 
-\bibitem{Oliveira:2014kla}
-Alexandra Oliveira.
-\newblock {Gravity particles from Warped Extra Dimensions, predictions for
-  LHC}.
-\newblock 2014.
-
 \bibitem{Xanda}
 Alexandra Oliveira.
 \newblock {Gravity particles from Warped Extra Dimensions, predictions for
@@ -274,6 +289,12 @@ Lisa Randall and Raman Sundrum.
 \newblock Large mass hierarchy from a small extra dimension.
 \newblock {\em Phys. Rev. Lett.}, 83:3370--3373, Oct 1999.
 
+\bibitem{Contino:2012xk}
+Roberto Contino, Margherita Ghezzi, Mauro Moretti, Giuliano Panico, Fulvio
+  Piccinini, and Andrea Wulzer.
+\newblock {Anomalous Couplings in Double Higgs Production}.
+\newblock {\em JHEP}, 08:154, 2012.
+
 \bibitem{Chen:2014xra}
 Chuan-Ren Chen and Ian Low.
 \newblock {Double take on new physics in double Higgs boson production}.
@@ -283,12 +304,6 @@ Chuan-Ren Chen and Ian Low.
 Giuliano Panico.
 \newblock {Prospects for double Higgs production}.
 \newblock {\em Frascati Phys. Ser.}, 61:102, 2016.
-
-\bibitem{Contino:2012xk}
-Roberto Contino, Margherita Ghezzi, Mauro Moretti, Giuliano Panico, Fulvio
-  Piccinini, and Andrea Wulzer.
-\newblock {Anomalous Couplings in Double Higgs Production}.
-\newblock {\em JHEP}, 08:154, 2012.
 
 \bibitem{Wertz:2632195}
 Sebastien Wertz and Vincent Lemaitre.
@@ -302,6 +317,165 @@ Luca Cadamuro, Yves Sirois, and Roberto Salerno.
   paires de bosons de Higgs dans le canal de désintégration
   $b\bar{b}\tau^+\tau^-$ avec le détecteur CMS auprès du LHC}, Sep 2017.
 \newblock Presented 05 Oct 2017.
+
+\bibitem{Sadenius}
+Thomas Schörner-Sadenius.
+\newblock {\em {The Large Hadron Collider: harvest of run 1}}.
+\newblock Springer, Cham, 2015.
+
+\bibitem{LHC1984}
+CERN.
+\newblock {\em {Large Hadron Collider in the LEP Tunnel}}, Geneva, 1984. CERN.
+
+\bibitem{LHC_vacuum}
+Cecile Noels.
+\newblock {Literature in focus - The Large Hadron Collider: A Marvel of
+  Technology. Literature in focus - The Large Hadron Collider: A Marvel of
+  Technology}.
+\newblock (BUL-NA-2009-414. 51/2009):11, Dec 2009.
+
+\bibitem{Hauptman:2011zza}
+John Hauptman.
+\newblock {\em {Particle physics experiments at high energy colliders}}.
+\newblock 2011.
+
+\bibitem{Tracker_phase2}
+CMS Collaboration.
+\newblock {The Phase-2 Upgrade of the CMS Tracker}.
+\newblock Technical Report CERN-LHCC-2017-009. CMS-TDR-014, CERN, Geneva, Jun
+  2017.
+
+\bibitem{ECAL_attendum}
+Philippe Bloch, Robert Brown, Paul Lecoq, and Hans Rykaczewski.
+\newblock {\em {Changes to CMS ECAL electronics: addendum to the Technical
+  Design Report}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2002.
+
+\bibitem{HCAL_TDR}
+{\em {The CMS hadron calorimeter project: Technical Design Report}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
+\bibitem{Baiatian_hcal}
+G~Baiatian, Albert~M Sirunyan, Virgil~E Emeliantchik, Igor~Barnes, Alvin~T
+  Laasanen, and Arnold Pompos.
+\newblock {Design, Performance, and Calibration of CMS Hadron-Barrel
+  Calorimeter Wedges}.
+\newblock Technical Report CMS-NOTE-2006-138. 1, CERN, Geneva, May 2007.
+
+\bibitem{Muon_system_TDR}
+CMS Collaboration.
+\newblock {The Phase-2 Upgrade of the CMS Muon Detectors}.
+\newblock Technical Report CERN-LHCC-2017-012. CMS-TDR-016, CERN, Geneva, Sep
+  2017.
+\newblock This is the final version, approved by the LHCC.
+
+\bibitem{Trigger}
+Vardan Khachatryan et~al.
+\newblock {The CMS trigger system}.
+\newblock {\em JINST}, 12(01):P01020, 2017.
+
+\bibitem{DAQ}
+G.~Bauer et~al.
+\newblock {The CMS data acquisition system software}.
+\newblock {\em J. Phys. Conf. Ser.}, 219:022011, 2010.
+
+\bibitem{CMS_TDR}
+G~L Bayatian, S~Chatrchyan, H~Hmayakyan, A~Poblaguev, M~E Zeller, and B~S
+  Yuldashev.
+\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
+  Performance and Software}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2006.
+\newblock There is an error on cover due to a technical problem for some items.
+
+\bibitem{Particle_flow}
+A.~M. Sirunyan et~al.
+\newblock {Particle-flow reconstruction and global event description with the
+  CMS detector}.
+\newblock {\em JINST}, 12(10):P10003, 2017.
+
+\bibitem{combined_track_finding}
+Serguei Chatrchyan et~al.
+\newblock {Description and performance of track and primary-vertex
+  reconstruction with the CMS tracker}.
+\newblock {\em JINST}, 9(10):P10009, 2014.
+
+\bibitem{PFalgo}
+Albert~M Sirunyan et~al.
+\newblock {Particle-flow reconstruction and global event description with the
+  CMS detector}.
+\newblock {\em JINST}, 12(10):P10003, 2017.
+
+\bibitem{Kalman_filter}
+Giuseppe Cerati et~al.
+\newblock {Parallelized and Vectorized Tracking Using Kalman Filters with CMS
+  Detector Geometry and Events}.
+\newblock 2018.
+
+\bibitem{GSF}
+Wolfgang Adam, R~Frühwirth, Are Strandlie, and T~Todor.
+\newblock {Reconstruction of Electrons with the Gaussian-Sum Filter in the CMS
+  Tracker at the LHC}.
+\newblock Technical Report CMS-NOTE-2005-001, CERN, Geneva, Jan 2005.
+
+\bibitem{DeterministicAnnealing}
+E~Chabanat and N~Estre.
+\newblock {Deterministic Annealing for Vertex Finding at CMS}.
+\newblock 2005.
+
+\bibitem{AdaptiveVertexFitting}
+R~Frühwirth, Wolfgang Waltenberger, and Pascal Vanlaer.
+\newblock {Adaptive Vertex Fitting}.
+\newblock Technical Report CMS-NOTE-2007-008, CERN, Geneva, Mar 2007.
+
+\bibitem{ParticleFlow}
+A.~M. Sirunyan et~al.
+\newblock {Particle-flow reconstruction and global event description with the
+  CMS detector}.
+\newblock {\em JINST}, 12(10):P10003, 2017.
+
+\bibitem{TMVA}
+Andreas Hoecker, Peter Speckmayer, Joerg Stelzer, Jan Therhaag, Eckhard von
+  Toerne, and Helge Voss.
+\newblock {TMVA: Toolkit for Multivariate Data Analysis}.
+\newblock {\em PoS}, ACAT:040, 2007.
+
+\bibitem{antiKt}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The anti-$k_t$ jet clustering algorithm}.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{CMS-PAS-BTV-15-001}
+{Identification of b quark jets at the CMS Experiment in the LHC Run 2}.
+\newblock Technical Report CMS-PAS-BTV-15-001, CERN, Geneva, 2016.
+
+\bibitem{Sirunyan:2017ezt}
+A.~M. Sirunyan et~al.
+\newblock {Identification of heavy-flavour jets with the CMS detector in pp
+  collisions at 13 TeV}.
+\newblock {\em JINST}, 13(05):P05011, 2018.
+
+\bibitem{ensemble_learning}
+Lior Rokach.
+\newblock Ensemble-based classifiers.
+\newblock {\em Artificial Intelligence Review}, 33(1):1--39, Feb 2010.
+
+\bibitem{missing_momentum}
+{CMS e-Lab}.
+\newblock {Energy, Mass and Momentum in High-Energy Physics}.
+\newblock
+  \url{https://www.i2u2.org/elab/cms/library/ref-mass-energy-momentum.jsp}.
+
+\bibitem{PU_mitigation}
+Gregory Soyez.
+\newblock {Pileup mitigation at the LHC: a theorist's view}.
+\newblock {\em Phys. Rept.}, 803:1--158, 2019.
+
+\bibitem{TnP}
+{N. Adam, J. Berryhill, V. Halyo, A. Hunt, K. Mishra}.
+\newblock {Generic Tag and Probe Tool for Measuring Efficiency at CMS with
+  Early Data }.
+\newblock
+  \url{http://cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft&files=AN2009_111_v1.pdf}.
 
 \bibitem{...}
 
@@ -527,12 +701,6 @@ Albert~M Sirunyan et~al.
   pair}.
 \newblock 2017.
 
-\bibitem{PFalgo}
-Albert~M Sirunyan et~al.
-\newblock {Particle-flow reconstruction and global event description with the
-  CMS detector}.
-\newblock {\em JINST}, 12(10):P10003, 2017.
-
 \bibitem{CMSreco}
 Aruna~Kumar Nayak.
 \newblock {Reconstruction of physics objects in the CMS detector}.
@@ -676,10 +844,6 @@ Matteo Cacciari and Gavin~P. Salam.
 \newblock {Dispelling the $N^{3}$ myth for the $k_{t}$ jet-finder}.
 \newblock {\em Phys. Lett. B}, 641:57, 2006.
 
-\bibitem{lumiUnc}
-{CMS Luminosity Measurements for the 2016 Data Taking Period}.
-\newblock Technical Report CMS-PAS-LUM-17-001, CERN, Geneva, 2017.
-
 \bibitem{MuonsRun2}
 {CMS Muon POG}.
 \newblock {Reference muon id, isolation and trigger efficiencies for Run-II}.
@@ -725,17 +889,6 @@ Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
   t-channel contributions}.
 \newblock {\em JHEP}, 09:111, 2009.
 \newblock [Erratum: JHEP02,011(2010)].
-
-\bibitem{vhbbAN}
-{Michele de Gruttola, Caterina Vernieri, Pierluigi Bortignon, David Curry, Ivan
-  Furic, Jacobo Konigsberg, Sean-Jiun Wang, Paolo Azzurri, Tommaso Boccali,
-  Andrea Rizzi, Silvio Donato, Stephane Brunet Cooperstein , James Olsen,
-  Christopher Palmer, Lorenzo Bianchini, Christoph Grab, Gael Ludovic Perrin,
-  and Luca Perrozzi}.
-\newblock {Search for the Standard Model Higgs Boson Produced in Association
-  with W and Z and Decaying to Bottom Quarks}.
-\newblock
-  \url{http://cms.cern.ch/iCMS/jsp/db_notes/noteInfo.jsp?cmsnoteid=CMS\%20AN-2015/168}.
 
 \bibitem{bbZZAN}
 {Michele de Gruttola, Rami Kamalieddin, Ilya Kravchenko, Lesya Shchutska}.
@@ -826,15 +979,6 @@ M.~Della~Negra, P.~Jenni, and T.~S. Virdee.
   experiments at the large hadron collider.
 \newblock {\em Science}, 338(6114):1560--1568, 2012.
 
-\bibitem{Sadenius}
-Thomas Schörner-Sadenius.
-\newblock {\em {The Large Hadron Collider: harvest of run 1}}.
-\newblock Springer, Cham, 2015.
-
-\bibitem{LHC1984}
-CERN.
-\newblock {\em {Large Hadron Collider in the LEP Tunnel}}, Geneva, 1984. CERN.
-
 \bibitem{Evans}
 Lyndon~R Evans and Philip Bryant.
 \newblock {LHC Machine}.
@@ -852,12 +996,6 @@ Karsten Eggert, K~Honkavaara, and Andreas Morsch.
 Oswald Gröbner.
 \newblock {The LHC Vacuum System}.
 \newblock (LHC-Project-Report-181. CERN-LHC-Project-Report-181):5 p, May 1998.
-
-\bibitem{GSF}
-Wolfgang Adam, R~Frühwirth, Are Strandlie, and T~Todor.
-\newblock {Reconstruction of Electrons with the Gaussian-Sum Filter in the CMS
-  Tracker at the LHC}.
-\newblock Technical Report CMS-NOTE-2005-001, CERN, Geneva, Jan 2005.
 
 \bibitem{Lenzi:2013xpa}
 Thomas Lenzi.
@@ -895,142 +1033,10 @@ Charles~W. Misner, K.~S. Thorne, and J.~A. Wheeler.
 \newblock {\em {Gravitation}}.
 \newblock W. H. Freeman, San Francisco, 1973.
 
-\bibitem{LHC_vacuum}
-Cecile Noels.
-\newblock {Literature in focus - The Large Hadron Collider: A Marvel of
-  Technology. Literature in focus - The Large Hadron Collider: A Marvel of
-  Technology}.
-\newblock (BUL-NA-2009-414. 51/2009):11, Dec 2009.
-
-\bibitem{Hauptman:2011zza}
-John Hauptman.
-\newblock {\em {Particle physics experiments at high energy colliders}}.
-\newblock 2011.
-
-\bibitem{Tracker_phase2}
-CMS Collaboration.
-\newblock {The Phase-2 Upgrade of the CMS Tracker}.
-\newblock Technical Report CERN-LHCC-2017-009. CMS-TDR-014, CERN, Geneva, Jun
-  2017.
-
-\bibitem{ECAL_attendum}
-Philippe Bloch, Robert Brown, Paul Lecoq, and Hans Rykaczewski.
-\newblock {\em {Changes to CMS ECAL electronics: addendum to the Technical
-  Design Report}}.
-\newblock Technical Design Report CMS. CERN, Geneva, 2002.
-
-\bibitem{HCAL_TDR}
-{\em {The CMS hadron calorimeter project: Technical Design Report}}.
-\newblock Technical Design Report CMS. CERN, Geneva, 1997.
-
-\bibitem{Baiatian_hcal}
-G~Baiatian, Albert~M Sirunyan, Virgil~E Emeliantchik, Igor~Barnes, Alvin~T
-  Laasanen, and Arnold Pompos.
-\newblock {Design, Performance, and Calibration of CMS Hadron-Barrel
-  Calorimeter Wedges}.
-\newblock Technical Report CMS-NOTE-2006-138. 1, CERN, Geneva, May 2007.
-
-\bibitem{CMS_TDR}
-G~L Bayatian, S~Chatrchyan, H~Hmayakyan, A~Poblaguev, M~E Zeller, and B~S
-  Yuldashev.
-\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
-  Performance and Software}}.
-\newblock Technical Design Report CMS. CERN, Geneva, 2006.
-\newblock There is an error on cover due to a technical problem for some items.
-
-\bibitem{Muon_system_TDR}
-CMS Collaboration.
-\newblock {The Phase-2 Upgrade of the CMS Muon Detectors}.
-\newblock Technical Report CERN-LHCC-2017-012. CMS-TDR-016, CERN, Geneva, Sep
-  2017.
-\newblock This is the final version, approved by the LHCC.
-
-\bibitem{DAQ}
-G.~Bauer et~al.
-\newblock {The CMS data acquisition system software}.
-\newblock {\em J. Phys. Conf. Ser.}, 219:022011, 2010.
-
-\bibitem{Trigger}
-Vardan Khachatryan et~al.
-\newblock {The CMS trigger system}.
-\newblock {\em JINST}, 12(01):P01020, 2017.
-
-\bibitem{Particle_flow}
-A.~M. Sirunyan et~al.
-\newblock {Particle-flow reconstruction and global event description with the
-  CMS detector}.
-\newblock {\em JINST}, 12(10):P10003, 2017.
-
-\bibitem{combined_track_finding}
-Serguei Chatrchyan et~al.
-\newblock {Description and performance of track and primary-vertex
-  reconstruction with the CMS tracker}.
-\newblock {\em JINST}, 9(10):P10009, 2014.
-
-\bibitem{Kalman_filter}
-Giuseppe Cerati et~al.
-\newblock {Parallelized and Vectorized Tracking Using Kalman Filters with CMS
-  Detector Geometry and Events}.
-\newblock 2018.
-
 \bibitem{PV_reco}
 Serguei Chatrchyan et~al.
 \newblock {Description and performance of track and primary-vertex
   reconstruction with the CMS tracker}.
 \newblock {\em JINST}, 9(10):P10009, 2014.
-
-\bibitem{DeterministicAnnealing}
-E~Chabanat and N~Estre.
-\newblock {Deterministic Annealing for Vertex Finding at CMS}.
-\newblock 2005.
-
-\bibitem{AdaptiveVertexFitting}
-R~Frühwirth, Wolfgang Waltenberger, and Pascal Vanlaer.
-\newblock {Adaptive Vertex Fitting}.
-\newblock Technical Report CMS-NOTE-2007-008, CERN, Geneva, Mar 2007.
-
-\bibitem{ParticleFlow}
-A.~M. Sirunyan et~al.
-\newblock {Particle-flow reconstruction and global event description with the
-  CMS detector}.
-\newblock {\em JINST}, 12(10):P10003, 2017.
-
-\bibitem{TMVA}
-Andreas Hoecker, Peter Speckmayer, Joerg Stelzer, Jan Therhaag, Eckhard von
-  Toerne, and Helge Voss.
-\newblock {TMVA: Toolkit for Multivariate Data Analysis}.
-\newblock {\em PoS}, ACAT:040, 2007.
-
-\bibitem{antiKt}
-Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
-\newblock {The anti-$k_t$ jet clustering algorithm}.
-\newblock {\em JHEP}, 04:063, 2008.
-
-\bibitem{ensemble_learning}
-Lior Rokach.
-\newblock Ensemble-based classifiers.
-\newblock {\em Artificial Intelligence Review}, 33(1):1--39, Feb 2010.
-
-\bibitem{CMS-PAS-BTV-15-001}
-{Identification of b quark jets at the CMS Experiment in the LHC Run 2}.
-\newblock Technical Report CMS-PAS-BTV-15-001, CERN, Geneva, 2016.
-
-\bibitem{Sirunyan:2017ezt}
-A.~M. Sirunyan et~al.
-\newblock {Identification of heavy-flavour jets with the CMS detector in pp
-  collisions at 13 TeV}.
-\newblock {\em JINST}, 13(05):P05011, 2018.
-
-\bibitem{PU_mitigation}
-Gregory Soyez.
-\newblock {Pileup mitigation at the LHC: a theorist's view}.
-\newblock {\em Phys. Rept.}, 803:1--158, 2019.
-
-\bibitem{TnP}
-{N. Adam, J. Berryhill, V. Halyo, A. Hunt, K. Mishra}.
-\newblock {Generic Tag and Probe Tool for Measuring Efficiency at CMS with
-  Early Data }.
-\newblock
-  \url{http://cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft&files=AN2009_111_v1.pdf}.
 
 \end{thebibliography}
