@@ -1,6 +1,10 @@
 \select@language {english}
 \addvspace {10pt}
+\contentsline {table}{\numberline {1.1}{\ignorespaces List of used data sets collected by the CMS in 2016. Each era contains a unique letter identifier and also specifies the date when the data processing was done. If the re-processing was run, the name contains the word ending ``v2''. Corresponding integrated luminosities are shown in the second column. \relax }}{3}{table.caption.3}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Background Monte Carlo samples \relax }}{10}{table.caption.8}
+\contentsline {table}{\numberline {1.3}{\ignorespaces \ensuremath {E_{\mathrm {T}}\hspace {-1.1em}/\kern 0.45em}\xspace cut to orthogonalise the analysis with respect to HIG-18-013.\relax }}{23}{table.caption.13}
+\contentsline {table}{\numberline {1.4}{\ignorespaces Efficiency of the BDT selection requirement. $ee$ channel (top) and $\mu \mu $ channel (bottom). \relax }}{26}{table.caption.16}
+\contentsline {table}{\numberline {1.5}{\ignorespaces Number of events surviving analysis cuts corresponding to the last entry in the ~\ref {fig:cutFlow} .\relax }}{28}{table.caption.17}
+\contentsline {table}{\numberline {1.6}{\ignorespaces Suboptimal BDT cuts used in the analysis\relax }}{61}{table.caption.36}
+\contentsline {table}{\numberline {1.7}{\ignorespaces The expected and observed HH production cross section upper limits at 95\% CL for different narrow resonance graviton (top) and radion (bottom) mass hypotheses for both dielectron and dimuon channels combined.\relax }}{63}{table.caption.40}
 \addvspace {10pt}
-\addvspace {10pt}
-\addvspace {10pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Triggers for dimuon and dielectron channels both at L1 and HLT levels.\relax }}{94}{table.caption.35}

@@ -1,55 +1,35 @@
 \BOOKMARK [0][-]{section*.1}{List of Figures}{}% 1
 \BOOKMARK [0][-]{section*.2}{List of Tables}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
-\BOOKMARK [1][-]{section.1.1}{"All things are made of atoms"}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.2}{A brief history of particle physics}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.3}{Fundamental forces}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.4}{The Brout-Englert-Higgs mechanism}{chapter.1}% 7
-\BOOKMARK [0][-]{chapter.2}{Theory}{}% 8
-\BOOKMARK [1][-]{section.2.1}{Lagrangian formalism of the Standard Model}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{Double Higgs in Beyond the Standard Model Theories}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{LHC and the CMS experiment}{}% 11
-\BOOKMARK [1][-]{section.3.1}{The Large Hadron Collider}{chapter.3}% 12
-\BOOKMARK [2][-]{subsection.3.1.1}{The history of the LHC}{section.3.1}% 13
-\BOOKMARK [2][-]{subsection.3.1.2}{The layout of the LHC}{section.3.1}% 14
-\BOOKMARK [2][-]{subsection.3.1.3}{LHC operations}{section.3.1}% 15
-\BOOKMARK [2][-]{subsection.3.1.4}{Luminocity}{section.3.1}% 16
-\BOOKMARK [2][-]{subsection.3.1.5}{LHC infrastructure}{section.3.1}% 17
-\BOOKMARK [3][-]{subsubsection.3.1.5.1}{Magnets}{subsection.3.1.5}% 18
-\BOOKMARK [3][-]{subsubsection.3.1.5.2}{Cooling System}{subsection.3.1.5}% 19
-\BOOKMARK [3][-]{subsubsection.3.1.5.3}{Radio Frequency Cavities}{subsection.3.1.5}% 20
-\BOOKMARK [3][-]{subsubsection.3.1.5.4}{Vacuum System}{subsection.3.1.5}% 21
-\BOOKMARK [1][-]{section.3.2}{The CMS experiment}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.2.1}{The CMS coordinate system}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.2}{The Inner Tracker}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.3}{The ECAL}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.4}{The HCAL}{section.3.2}% 26
-\BOOKMARK [2][-]{subsection.3.2.5}{The Superconding Solenoid}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.6}{The Muon Tracker}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.7}{The Triggers and DAQ}{section.3.2}% 29
-\BOOKMARK [3][-]{subsubsection.3.2.7.1}{The L1 Trigger}{subsection.3.2.7}% 30
-\BOOKMARK [3][-]{subsubsection.3.2.7.2}{The HLT Trigger}{subsection.3.2.7}% 31
-\BOOKMARK [3][-]{subsubsection.3.2.7.3}{The DAQ system}{subsection.3.2.7}% 32
-\BOOKMARK [2][-]{subsection.3.2.8}{The CMS design}{section.3.2}% 33
-\BOOKMARK [0][-]{chapter.4}{Physics Object Reconstruction in CMS}{}% 34
-\BOOKMARK [1][-]{section.4.1}{Track Reconstruction}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.1.1}{Muon tracking}{section.4.1}% 36
-\BOOKMARK [2][-]{subsection.4.1.2}{Electron tracking}{section.4.1}% 37
-\BOOKMARK [2][-]{subsection.4.1.3}{Primary Vertex reconstruction}{section.4.1}% 38
-\BOOKMARK [1][-]{section.4.2}{Particle level objects}{chapter.4}% 39
-\BOOKMARK [2][-]{subsection.4.2.1}{Particle Flow links and blocks}{section.4.2}% 40
-\BOOKMARK [2][-]{subsection.4.2.2}{Muons}{section.4.2}% 41
-\BOOKMARK [2][-]{subsection.4.2.3}{Electrons and isolated photons}{section.4.2}% 42
-\BOOKMARK [2][-]{subsection.4.2.4}{Hadrons and non-isolated photons}{section.4.2}% 43
-\BOOKMARK [2][-]{subsection.4.2.5}{Jets and jet corrections}{section.4.2}% 44
-\BOOKMARK [1][-]{section.4.3}{Other important physics quantities and objects}{chapter.4}% 45
-\BOOKMARK [2][-]{subsection.4.3.1}{The b tagging and secondary vertices}{section.4.3}% 46
-\BOOKMARK [2][-]{subsection.4.3.2}{Missing transverse momentum}{section.4.3}% 47
-\BOOKMARK [2][-]{subsection.4.3.3}{Pileup interactions}{section.4.3}% 48
-\BOOKMARK [2][-]{subsection.4.3.4}{Lepton isolation}{section.4.3}% 49
-\BOOKMARK [2][-]{subsection.4.3.5}{Data-Monte Carlo corrections}{section.4.3}% 50
-\BOOKMARK [3][-]{subsubsection.4.3.5.1}{Lepton efficiencies and the Tag-and-Probe method}{subsection.4.3.5}% 51
-\BOOKMARK [3][-]{subsubsection.4.3.5.2}{b tagging efficiency}{subsection.4.3.5}% 52
-\BOOKMARK [1][-]{section.4.4}{Datasets and Trigger Paths}{chapter.4}% 53
-\BOOKMARK [0][-]{table.caption.35}{Bibliography}{}% 54
-\BOOKMARK [0][-]{section*.37}{References}{}% 55
+\BOOKMARK [0][-]{chapter.1}{bbZZ Physics Analysis}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Analysis overview}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Data and Triggers}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.2.1}{Data}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.2}{Triggers}{section.1.2}% 7
+\BOOKMARK [1][-]{section.1.3}{Simulated Samples}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.3.1}{Signal processes simulation}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.2}{Background processes simulation}{section.1.3}% 10
+\BOOKMARK [1][-]{section.1.4}{Physics Objects Reconstruction}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.4.1}{Electrons}{section.1.4}% 12
+\BOOKMARK [2][-]{subsection.1.4.2}{Muons}{section.1.4}% 13
+\BOOKMARK [2][-]{subsection.1.4.3}{Jets}{section.1.4}% 14
+\BOOKMARK [2][-]{subsection.1.4.4}{Identification of b jets}{section.1.4}% 15
+\BOOKMARK [2][-]{subsection.1.4.5}{Missing transverse energy}{section.1.4}% 16
+\BOOKMARK [1][-]{section.1.5}{Event Selection}{chapter.1}% 17
+\BOOKMARK [2][-]{subsection.1.5.1}{Higgs and Z Boson Selection}{section.1.5}% 18
+\BOOKMARK [2][-]{subsection.1.5.2}{Hb and Z variables to define signal and control regions}{section.1.5}% 19
+\BOOKMARK [1][-]{section.1.6}{Signal and background characteristics}{chapter.1}% 20
+\BOOKMARK [2][-]{subsection.1.6.1}{Data and MC comparison}{section.1.6}% 21
+\BOOKMARK [2][-]{subsection.1.6.2}{Scale Factors}{section.1.6}% 22
+\BOOKMARK [1][-]{section.1.7}{BDT Discriminant}{chapter.1}% 23
+\BOOKMARK [2][-]{subsection.1.7.1}{Construction of the BDT}{section.1.7}% 24
+\BOOKMARK [1][-]{section.1.8}{Systematic Uncertainties}{chapter.1}% 25
+\BOOKMARK [2][-]{subsection.1.8.1}{Normalization uncertainties}{section.1.8}% 26
+\BOOKMARK [2][-]{subsection.1.8.2}{Shape uncertainties}{section.1.8}% 27
+\BOOKMARK [1][-]{section.1.9}{Statistical Analysis}{chapter.1}% 28
+\BOOKMARK [1][-]{section.1.10}{Limits Extraction}{chapter.1}% 29
+\BOOKMARK [2][-]{subsection.1.10.1}{Optimization for the best limit}{section.1.10}% 30
+\BOOKMARK [2][-]{subsection.1.10.2}{Results from the fit}{section.1.10}% 31
+\BOOKMARK [1][-]{section.1.11}{bbZZ measurements and combination of all HH channels}{chapter.1}% 32
+\BOOKMARK [0][-]{chapter.2}{Conclusions}{}% 33
+\BOOKMARK [0][-]{chapter.2}{Bibliography}{}% 34
+\BOOKMARK [0][-]{section*.43}{References}{}% 35
