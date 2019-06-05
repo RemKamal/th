@@ -3,12 +3,12 @@
 In this chapter, we report on a search for the resonant production of the double Higgs boson system. Higgs boson pairs subsequently decay through the $bbZZ$ channel. The final state consists of two b jets, two charged leptons, and two neutrinos ($2 b 2 l 2 \nu$ final state). Analysed data set was collected in 2016 by the CMS experiment in proton-proton collisions  at  13  TeV COM energy, and corresponds to 35.9 fb$^{-1}$ of the integrated luminosity.  
 
 
-\section{Analysis overview}
+\section{Physics analysis overview}
 \label{sec:an_overview}
 
 We search for di-Higgs production through  the  gluon fusion mechanism mediated by two types of possible heavy resonances (separately): a spin-2 Randall-Sundrum (RS1) Kaluza-Klein (KK) graviton and a spin-0 RS1 radion \cite{WED, Xanda}. The width of the graviton and radion is assumed to be negligible with respect to the experimental resolution. We look for decays of WED particles (X) to the $bbZZ$ and $bbWW$ channels with the two b jets, two charged leptons, and two neutrinos final state $X \rightarrow HH \rightarrow bbZZ/bbWW \rightarrow 2 b 2l 2 \nu$. In the above, one of the Higgs bosons decays to a pair of b quarks and the other Higgs boson decays to ZZ or WW system. We consider only leptonic decays of ZZ and WW. Intermediate taus are allowed to decay to daughter muons and electrons.  We explore the invariant masses of WED particles ranging from 250 to 1000  GeV. The result of the measurement is the production cross section of the resonance times the branching fraction of its decay into the aforementioned $2 b 2 l 2 \nu$ final state. 
 
-In this data analysis (later referred to as analysis), we will describe first the data sets (often referred to as a dataset) and triggers. The measurement uses the DoubleEG and DoubleMuon PDs defined in the previous chapter. These di-electron and di-muon channels are analysed separately and the information is combined in the final result. To select the events with two prompt charged leptons, a set of triggers is applied. To increase the statistics of the measurement and maximise the number of leptons passing the selection, certain complex trigger strategies are employed. 
+In this data analysis (later referred to as the analysis), we will describe first the data sets (often referred to as a dataset) and triggers. The measurement uses the DoubleEG and DoubleMuon PDs defined in the previous chapter. These di-electron and di-muon channels are analysed separately and the information is combined in the final result. To select the events with two prompt charged leptons, a set of triggers is applied. To increase the statistics of the measurement and maximise the number of leptons passing the selection, certain complex trigger strategies are employed. 
 
 We continue then with the discussion on the MC simulation of the signal and background processes (later referred to as signal and background). The signal MC samples had to be produced for both graviton and radion particles for 16 mass points from 250 to 1000 GeV to cover the whole search range.  
 
@@ -21,12 +21,21 @@ We present the statistical analysis used to extract the results of the measureme
 The material in this chapter follows the description of two articles to which the author contributed directly \cite{bbZZAN, CMS-PAS-HIG-17-032}.
 
 
+\section{Data analysis strategy}
+\label{sec:strategy}
+We form the Lorentz energy-momentum vector associated with the double Higgs system. This vector is constructed as the sum  of  the  Lorentz  vectors  of  the  two  leptons,  two  b-jets,  and  the  four-vector  representing neutrinos (\PTslash).  As the z component of the neutrinos? momentum is unknown, we proceed forming a pseudo transverse mass:
+$\tilde{M}_T(HH) = \sqrt{E^2 - p_{z}^2}$ (further referred to as transverse mass for brevity), where $E$ and $p_z$ are the energy and the z axis component of the Lorentz energy-momentum vector of the di-Higgs candidate.
+
+The \mTHH distributions are derived for 16 mass and for both spin hypotheses. The \mTHH is constructed using the signal and background simulations. The distributions are produced separately for the signal-enriched (SR) and control regions (CR), which are defined later in this chapter.
+
+To extract the final results, we perform a simultaneous fit of the sum of the signal and background \mTHH distributions in the SR and CRs to the data. The fits are produced for both di-electron and di-muon channels and the results are combined. We obtain 95\% CL upper limits on the HH production cross times the BFs of the subsequent decay to the final state of this measurement. The employed statistical method is based on the $CL_{S}$ asymptotic procedure~\cite{Zech:1988un}.
+
+
 
 \section{Data and Triggers}
 \label{sec:data_and_triggers}
 
 \subsection{Data}
-
 The search is performed using DoubleMuon and DoubleEG PDs corresponding to an integrated luminosity of 35.9 fb$^{-1}$ recorded by the CMS experiment during Run 2 in 2016. The data were produced in proton-proton collisions at the LHC at 13 TeV COM energy. The data were collected in several data taking periods and approximate values of the integrated luminosity of these periods are given in the Table \ref{tab:datasets}.
 
 
@@ -77,7 +86,7 @@ The same trigger selections are applied to MC simulated events. The efficiencies
 {\includegraphics[width=1.0\textwidth]{trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_Leg1_WP90_2016.png} } \\
 \subfloat Leg 2
 {\includegraphics[width=1.0\textwidth]{trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_Leg2_WP90_2016.png} } \\
-\caption{HLT trigger SFs for electrons approved by the CMS $e/ \gamma$ POG group.  SFs are derived for both legs separately: Leg 1 (top) corresponds to the leading electron and Leg 2 (bottom) corresponds to the sub-leading electron. The values of the SFs are shown on the left, and the associated uncertainties with each value are shown on the right. Taken from ~\cite{vhbbAN}.}
+\caption[HLT trigger SFs for electrons.]{HLT trigger SFs for electrons approved by the CMS $e/ \gamma$ POG group.  SFs are derived for both legs separately: Leg 1 (top) corresponds to the leading electron and Leg 2 (bottom) corresponds to the sub-leading electron. The values of the SFs are shown on the left, and the associated uncertainties with each value are shown on the right. Taken from ~\cite{vhbbAN}.}
 \label{fig:trigger_eff_diele}
 \end{figure}
 
@@ -86,7 +95,7 @@ The same trigger selections are applied to MC simulated events. The efficiencies
 \centering
 \includegraphics[width=0.475\textwidth]{trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf}
 \includegraphics[width=0.475\textwidth]{trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf}\\
-\caption{Final HLT SFs for muons as a function of $p_{T}$ and $\eta$, measured for eras B to G. Left: Scale factors for 8 GeV leg (sub-leading muon). Right: Scale factors for 17 GeV leg (leading muons), provided that the sub-leading muon already passed 8 GeV $p_T$ requirement.}
+\caption[Final HLT SFs for muons as a function of $p_{T}$ and $\eta$, measured for eras B to G.]{Final HLT SFs for muons as a function of $p_{T}$ and $\eta$, measured for eras B to G. Left: Scale factors for 8 GeV leg (sub-leading muon). Right: Scale factors for 17 GeV leg (leading muons), provided that the sub-leading muon already passed 8 GeV $p_T$ requirement.}
 \label{fig:trigger_SF_dimu_BCDEFG}
 \end{figure}
 
@@ -94,14 +103,14 @@ The same trigger selections are applied to MC simulated events. The efficiencies
 \centering
 \includegraphics[width=0.475\textwidth]{trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf}
 \includegraphics[width=0.475\textwidth]{trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf}\\
-\caption{Final HLT SFs for muons as a function of $p_{T}$ and $\eta$, measured for the era H. Left: Scale factors for 8 GeV leg (sub-leading muon). Right: Scale factors for 17 GeV leg (leading muons), provided that the sub-leading muon already passed 8 GeV $p_T$ requirement.}
+\caption[Final HLT SFs for muons as a function of $p_{T}$ and $\eta$, measured for the era H.]{Final HLT SFs for muons as a function of $p_{T}$ and $\eta$, measured for the era H. Left: Scale factors for 8 GeV leg (sub-leading muon). Right: Scale factors for 17 GeV leg (leading muons), provided that the sub-leading muon already passed 8 GeV $p_T$ requirement.}
 \label{fig:trigger_SF_dimu_H}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.85\textwidth]{trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf}
-\caption{SFs for muons of the dZ requirement as a function of $\eta$'s of both muons.}
+\caption[SFs for muons of the dZ requirement .]{SFs for muons of the dZ requirement as a function of $\eta$'s of both muons.}
 \label{fig:trigger_SF_dimu_dZ_H}
 \end{figure}
 
@@ -229,13 +238,10 @@ background yields are normalized to NLO cross sections
 \cite{CMS-PAS-SMP-18-002, CMS-PAS-SMP-16-006, Khachatryan:2016txa}. The dominant SM Higgs background process, the SM production of a single Higgs boson in the association with a \PZ ~boson (ZH), is simulated
 at NLO using the {\MGMCatNLO} generator with FxFx merging ~\cite{Frederix:2012ps}. 
 The SM Higgs background from the ZH process is scaled to NNLO with the
-MCFM program ~\cite{Campbell:2010ff}. 
+MCFM program ~\cite{Campbell:2010ff}. All the final cross section values at the NNLO accuracy in perturbative QCD have been computed with the original generators and are found to be in agreement with the values from the LHC Higgs cross section working group ~\cite{LHCHXSWG, xsecZH, xsecTT, xsecST, xsecVV}.
 
 Normalizations for \ttbar ~and DY
 background processes are determined from data, as explained later in this chapter.
-
-
-
 %
 % General simulation details relevant for all samples 
 %
@@ -244,329 +250,62 @@ The NNPDF3.0 \cite{Ball:2014uwa} parton distribution functions
 {\PYTHIA}8.212 are used for the parton
 showering and hadronization stages. The description of the underlying event is done using 
 the tune CUETP8M1 derived in \cite{Khachatryan:2015pea}. For the simulation of the CMS detector response, \GEANTfour~\cite{GEANT4} was used. 
-
 %
 % Scale factor corrections
 %
 For all MC simulations, further reweighting of events is done using the SFs derived to account for 
  the discrepancies between the data and simulation: lepton identification and b tagging efficiencies, see Section \ref{sec:TnP, sec:b_tagging}.
-
-
 %
 % Pileup passage
 %
 As discussed in the Section \ref{sec:pileup}, multiple overlapping
-proton-proton interactions occurred in each bunch crossing during data taking in 2016, with
+proton-proton interactions occurred in each bunch crossing during data collecting in 2016, with
 an average of 24 hard scattering vertices per event. To account for this fact, all simulated samples include additional interactions
 to reproduce the real pileup distribution measured in data.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The simulated samples of the background processes such as 
-~\ttbar~\cite{Frixione:2007nw} and the single top tW and t-channel
-production processes~\cite{Frederix:2012dh} are generated at the
-next-to-leading order (NLO) with POWHEG~\cite{Alioli:2009je}, while
-single top s-channel production process is generated at NLO with
-\MADGRAPH. \ttbar and single top production cross sections are
-rescaled to the next-to-next-to-leading order (NNLO). 
-Drell-Yan (DY)
-process samples in association with 1, 2, 3 or 4 jets are generated
-at the leading order using \MADGRAPH with the MLM
-matching~\cite{Alwall:2007fs} and rescaled to NNLO using~\textsc{fewz}
-program~\cite{Gavin:2010az,Li:2012wna,Gavin:2012sy}. 
-
-As for the electroweak (EWK) order, DY samples have been rescaled to EWK NLO order with the NLO/LO k-factor of 1.23~\cite{DYkfactor}. Diboson samples
-are generated at LO with {\PYTHIA}8.212~\cite{Sjostrand:2007gs}.
-
-The main background
-       process, which involves SM Higgs boson, is an associated
-       production of the Higgs boson with a Z boson (ZH).  ZH process
-       is simultated using the generator
-%{{\sc MadGraph5_aMC@NLO}}                                                                                                                                                                               
-$MadGraph5\_aMC@NLO$
-~\cite{cite_aMC@NLO} with FxFx
-merging~\cite{Frederix:2012ps} and
-rescaled to NNLO with
-{\MCFM} generator~\cite{Campbell:2010ff}.
-
-
-For LO and NLO samples NNPDF3.0 parton distribution functions (PDF)
-set is used. {\POWHEG} and {\MADGRAPH} interfaced with
-{\PYTHIA}8.212~\cite{Sjostrand:2007gs} are used for the parton
-showering and hadronization steps. To describe the underlying event
-CUETP9M1 set derived in \cite{Khachatryan:2015pea} is
-used. \GEANTfour~\cite{GEANT4} is used to model the response of the
-CMS detector.
-
-All the final cross sections denoted as NNLO are calculated at NNLO QCD accuracies and have been computed with the tool they were generated with. They found to be in agreement with the values from the LHC Higgs cross section working group ~\cite{LHCHXSWG, xsecZH, xsecTT, xsecST, xsecVV}.
-
-During the data taking in 2016 the average number of proton-proton interactions per bunch crossing was 24 (denoted as pile up later), and in MC samples this information has been introduced overlapping these interactions with the events of interest.
-
-
-
-\section{Physics Objects Reconstruction}
+\section{Physics Objects Selection}
 \label{sec:objects}
 
 \hyphenation{fa-shion}
 \hyphenation{ener-gy}
 
-This the first ever bbZZ analysis performed at CERN with the real data. We use the standard set of the CMS
-reconstructed physics objects. Below, we describe reconstruction of
-each separately: electrons, muons, jets and b jets, and MET.
+During the reconstruction of the collisions at the CMS, data for each event are refined into high-level physics objects that correspond to particles created as a result of the proton-proton interaction. Among the physics objects necessary for this measurements are reconstructed electrons, muons, jets originating from quarks of heavy flavor (b jets), and the missing transverse momentum. The reconstruction details have been given in Section \ref{sec:cms_reco}, here we focus on the analysis specific selection of each of these physics objects.
+
+\subsection{Electrons}\label{sec:electrons}
+Electrons are reconstructed using the GSF algorithm \cite{GSF}. The electron candidates are then selected by first applying a loose isolation requirement of 0.4, after which they have to pass Tight ID criteri defined by the CMS $e/\gamma$ POG, see \ref{sec:cms_reco}. At the offline level, the analysis applies additionally the loose WP (WP90)  ~\cite{vhbbAN}. With this WP, utilising variables such as the agreement between the position of the ECAL cluster and GSF track that form the electron, the energy of the 3 by 3 crystal core of the electron?s cluster, the ratio of the electron energy measured in ECAL to electron?s momentum measured in the tracking system, etc., one achieves an electron selection efficiency of 90$\%$. This is a justified level of the desired identification efficiency for the $Z \to \ell \ell$ channel since we select on-shell Z boson decays to charged leptons, where produced prompt leptons are very energetic. Finally, the electrons are required to be isolated from other particles in the event. Numerically, a selection criterion on the isolation \ref{sec:isolation} is  imposed, where the expected contribution of particles from pileup interactions is $\rho$-subtracted using the effective areas method, see Section \ref{sec:isolation}. In this measurement, the isolation (with the cone size 0.3) for electrons is required to be smaller than 0.06, which means that all other particles together in the isolation cone around the electron cannot have more than 6$\%$ of the electron's energy.
+
+\subsection{Muons}\label{sec:muons}
+Muon candidates are reconstructed using tracker muon and global muon tracks identified by the PF algorithm. The selection procedure is similar to the one of electrons: first a loose relative isolation selection of 0.4 is applied, then muons have to pass the Tight WP of the muon ID selection. 
+At the offline level, a more stringent set of quality requirements (WP Loose) recommended by the CMS Muon POG is applied to the muon object.
+Lastly, a relative $\Delta\beta$-subtracted PF isolation selection of 0.15 is applied, with the cone size 0.4.
+
+\subsection{Jets}\label{sec:jets}
+Jets are reconstructed using the anti-$k_T$ jet clustering algorithm. This algorithm clusters PF candidates in a cone of the radius 0.4. The energy and the resolution of the produced jets (so-called AK4 jets) are further corrected using JEC and JER corrections. These are used to calibrate the energy of the jets and to smear the resolution of jets to match the one in the data. 
+
+To reject misreconstructed jets due to detector noise, pileup, etc,. a loose jet identification WP is applied following the recommendations from the CMS JetMET POG. If jets are found to be overlapping with charged leptons used in the measurement, these jets are not considered by the analysis. We consider jets with a $p_T$ greater than 30 GeV, which are in the range of $|\eta| < 2.4$. At least two jets must be present in the event. 
+
+\subsection{b jets}\label{sec:bjets}
+Each identified jet is further assigned a probability to originate from the b quark using the CMVA b tagging discriminator. These tagger as an output produces a continuous discriminator, a value between -1 and 1, that is used to define three WPs depending on the chosen discriminant value. CMS BTag POG provides the CMS with the WP Loose, Medium, and Tight. For our measurement, the WP Medium requirement (>0.4432) is found to lead to the best expected (from the simulation) results. Therefore, the WP Medium is chosen in this analysis for the derivation of the final results. Jets passing the WP Medium requirement are classified as b jets. The threshold is chosen such that the misidentification rate for light-quark and gluon jets is about 1$\%$ and the b jet tagging efficiency for this working point is about 66$\%$. Two b jets with the largest scores of the CMVA discriminator are used to reconstruct $H \to b\bar{b}$ candidate, which will be explained at length later in this chapter.  
+
+\subsection{Missing transverse momentum}
+In this measurement two neutrinos are present in the final state, they come from the off-shell Z boson decays to neutrinos and also from leptonic decays of W bosons. Even though the two neutrinos present in the signal events cannot be identified directly by the CMS detector, their presence can be inferred from the combined transverse momentum vector, using the momentum conservation requirement in the transverse plane for each event.  The missing transverse momentum ~\PTslash is computed as the negative vector sum of the transverse momenta of all visible PF objects and is further JEC and JER corrected, see Section \ref{sec:met}. The missing transverse energy \ETslash is the magnitude of the ~\PTslash vector. 
+
+All corrections recommended by the CMS JetMET POG are applied ~\cite{MissingETRun2Corrections}. Additionally, a set of filters related to the instrumental effects is employed, such as removal of the misreconstructed signal in the HCAL, noice in the tracker, etc. ~\cite{MissingETOptionalFiltersRun2}. 
 
 
 
+\section{Event Selection}\label{sec:selection}
+
+The candidate events are selected in the data sample if they contain the following physics objects: 2 b jets, 2 charged leptons, and a missing transverse energy. Then we reconstruct intermediate particles of the decay chain by combining the observed physics objects: $Z \to ll$ and $Z \to \nu \nu$ are reconstructed first. Then $H \to ZZ^*$ and $H \to b\bar{b}$ are reconstructed. Finally, two Higgs boson candidate are used to form the HH system that could originate from a narrow resonance we are searching for.
+
+In this chapter we discuss how HH candidates are formed, how the selection criteria is applied to reduce contamination from background processes in signal-enriched region, how kinematic quantities used to compute the final results are defined, and how well simulation represents the data.
 
 
 
-\begin{figure}
-\centering
-\includegraphics[width=0.5\textwidth]{muon_ID_BCDEFv2.png}
-\bigbreak
-\includegraphics[width=0.5\textwidth]{muon_ID_GHv2.png}
-\caption{ Muon ID scale factors in $p_{T}$ and $\eta$ bins. Left: runs B to F. Right: runs G and H.}
-\label{fig:muonID_SF}
-\end{figure}
+\subsection{Kinematic selection of physics objects}
+We have described the kinematic selection of leptons and jets (and b jets) in the previous chapter. Because there is another $bbZZ$ measurement in the CMS Higgs group, our analysis shares some phase space with the other measurement. Therefore, the results may contain certain overlap. The other $bbZZ$ team studies the $2 b 2 l 2 q$ final state, where $q$ stands for any quark initiating the jet. To ensure that both measurements produce statistically independent (``orthogonal'') results, the selection on the MET is introduced. Since the final results - the production cross sections times the BFs of the final state - depend on the mass point, the MET selection varies with mass. While the derivation of the final results (called ``limits'') will be explained later in this chapter, at this point, it is worth to point out that both analyses computed limits for all resonance mass hypotheses applying different MET selection criteria, see Fig. \ref{met_cuts}. The found set of MET requirements that yielded the best combined limits (see Table \ref{metCuts}), when the results of two measurements are merged together, is used by both teams. 
 
-
-\begin{figure}
-\centering
-\includegraphics[width=0.5\textwidth]{muon_ISO_BCDEFv2.png}
-\bigbreak
-\includegraphics[width=0.5\textwidth]{muon_ISO_GHv2.png}
-\caption{ Muon ISO scale factors in $p_{T}$ and $\eta$ bins. Left: runs B to F. Right: runs G and H.}
-\label{fig:muonISO_SF}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=0.9\textwidth]{EIDISO_ZH_out.png}
-\caption{ Electron ID+ISO scale factors in $p_{T}$ and $\eta$ bins.}
-\label{fig:eleIDnISO_SF}
-\end{figure}
-
-
-
-
-\subsection{Electrons\label{sec:electrons}}
-The Gaussian Sum Filter (GSF) algorithm is used to reconstruct
-electrons ~\cite{Khachatryan:2015hwa}. GSF helps to estimate track parameters. The procedure starts as follows: a mixture of Gaussian distributions (normally about 4-6 components) \cite{GSF} is used to estimate the energy loss in each layer of the tracker. The energy loss is modelled by the Bethe-Heitler formula. Two most important track properties are then computed: a weighted mean and the most frequent value (mode). The first estimate is unbiased while the latter one has a smaller width. In practice, mostly one works with the mode. Gaussian mixtures are determined minimising either the absolute difference between the cumulative density functions (CDFs) of the model and of the Gaussian mixture, or the Kullback-Leibner distance, which is a logarithm of the ratio of the probability density functions (pdfs) of the model with respect to the mixture. Finally, the tracks are extrapolated further to the ECAL The measurement selects electrons, which pass the following selection: leading electron $\pt>25\GeV$ and subleading electron 
-$\pt>15\GeV$, $|\eta|<2.5$, 
-%$d_{xy}<0.05\cm$, $d_z<0.2\cm$ and 
-an isolation cut of 0.06, for which the cone
-of $0.3$ is used to compute the $\rho$-subtracted PF
-isolation. Lepton isolation is calculated as a scalar sum of
-the transverse momentum $(p_{T})$ of all the charged and
-neutral hadrons as well as photons around the lepton
-(excluding the cone) normalised to the $p_{T}$ of the lepton
-itself. 
-%POG recommended MVA ID WP Loose is further applied to the set of selected electrons.
-%The cut on isolation in the measurement for electrons is $0.06$.
-
-        
-        %%To emulate the conditions of the HLT trigger, a set of offline cuts is applied further.
-
-%% \texttt{pt>15 \& (}\\
-%% \texttt{(abs(superCluster().eta)<1.4442 \& full5x5\_sigmaIetaIeta<0.012 \& }\\
-%% \texttt{hcalOverEcal<0.09 \&}\\
-%% \texttt{(ecalPFClusterIso/pt)<0.4 \& (hcalPFClusterIso/pt)<0.25 \&}\\
-%% \texttt{(dr03TkSumPt/pt)<0.18 \& abs(deltaEtaSuperClusterTrackAtVtx)<0.0095 \&}\\
-%% \texttt{abs(deltaPhiSuperClusterTrackAtVtx)<0.065) || }\\
-%% \texttt{(abs(superCluster().eta)>1.5660 \& full5x5\_sigmaIetaIeta<0.033 \&}\\
-%% \texttt{hcalOverEcal<0.09 \&}\\
-%% \texttt{(ecalPFClusterIso/pt)<0.45 \& (hcalPFClusterIso/pt)<0.28 \&}\\
-%% \texttt{(dr03TkSumPt/pt)<0.18)}\\
-%% \texttt{).}
-
-        On top of the selection defined above, a specific CMS Particle Object Group (POG) recommended working point (WP) is applied, which is a discriminant based on the a multivariate analysis (MVA) for classification of signal/background electrons. The WP consists of nearly 20 variables utilising the information from the impact point, tracks, and the ECAL: $\chi^2$ variables of the track and the quality of its estimate, $\delta \eta$, $\delta \phi$, energy of the 3 by 3 cluster, ECAL energy over momentum, etc. For this analysis we use the loose working point (another name can be WP90), as described in ~\cite{vhbbAN}. ID and ISO, as well as the HLT SFs are applied.
-%        \small{\texttt{https://twiki.cern.ch/twiki/bin/viewauth/CMS/ \\MultivariateElectronIdentificationRun2}}
-%\normalsize
-
-
-
-\subsection{Muons\label{sec:muons}}
-        In this analysis we are using global muons reconstructed using the information from the tracker and muon system \cite{CMS-PAS-MUO-10-002,Chatrchyan:2012xi}. During the offline reconstruction, muons chambers segments are used as seeds for the "standalone muon" reconstruction. The seed is a position, a direction, and an initial momentum of the muon candidate. This serves as an input to the track fitting procedure utilising muon system information. The resulting object after executing this technique is what is called a standalone muon. Then, for each standalone muon the algorithm searches for the tracks reconstructed in the inner tracking system (tracker tracks) that would match the muon. Then for each standalone muon - tracker track pair the Kalman filter based fit \cite{Lenzi:2013xpa} is performed. The result is a collection of muons which are referred to as global muons. In this analysis the kinematic and isolation selection of global muons is the following:
-        
-\noindent leading muon $\pt>20\GeV$ and subleading muon $\pt>15\GeV$, $|\eta|<2.4$,
-%re is a loose preselection of $\pt>5\GeV$, $|\eta|<2.4$, $d_{xy}<0.5\cm$, $d_z<1.0\cm$, as well as 
-a relative
-isolation cut of 0.15, with the cone of $0.4$ used to compute $\Delta\beta$-subtracted PF isolation.
-Finally, a tighter selection - muon POG recommended WP Loose is applied~\cite{CMS-PAS-MUO-10-002,MuonsRun2}. WP consists of track quality information: $\chi^2$ of various fits, number of good hits in the tracker, number of layer missing the expected hit, impact parameter variables, matching variables (e.g., a segment in the muon station matched to the tracker track extrapolation), compatibility variables (e.g., a muon segment compatibility). ID, ISO, HLT and tracker SFs are applied.
-%The offline cut on isolation for muons is $0.15$.
-%% Loose muon:
-%% \begin{itemize}
-%%   \item  Particle-Flow Muon:\\
-%% \texttt{isPFMuon()}
-%%   \item  is Global or Tracker Muon:\\
-%% \texttt{isGlobalMuon() || isTrackerMuon()}
-%%  \end{itemize}
-
-\subsection{Jets\label{sec:jets}}
-    Particle flow (PF) algorithm is used to reconstruct jets \cite{CMS-PAS-PFT-09-001,CMS-PAS-PFT-10-001}, with the help of the  $\text{anti}-k_T$ clustering algorithm having a distance parameter of $R=0.4$~\cite{Cacciari:2005hq,Cacciari:2008gp}. Jets are collimated bunches of 	stable hadrons originating from quarks and gluons after fragmentation and hadronization. Therefore, jet finding procedure is a back-propagation that starts with the detected objects and following the rules of the quantum mechanics for fragmentation and hadronization targets to identify the initial partons. $\text{Anti}-k_T$ is a sequential clustering algorithm that first defines the notion of the distance between the two particles in the collection of particles of the event, and also a distance between the particle and the beam axis. Then sequentially iterating over the particles collection it computes the smallest distances, if the smallest one is between the particles, their 4-momentum is combined into one. If the smallest distance is between the particle and the beam axis, then the particle is called the jet, removed from the collection, and the whole procedure continues. $\text{anti}-k_T$ is known to be insensitive to the underlying event and to the pile up, therefore, is commonly used. 
-    
-    Reconstructed jets are further corrected for detector effects using specific corrections determined from the data and MC. Only jets passing $|\eta|<2.4$ and  $(\pt > 30\GeV)$ are considered for the analysis. 
-    All the necessary jet energy resolution (JER) and jet energy scale (JES) corrections provided by the JetMET group are applied ~\cite{JetMETgroup}.
-
-%following this twiki:
-%\begin{center}
- %   \texttt{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetResolution}    
-%\end{center}
-
-\subsection{Identification of b jets\label{sec:bjets}}
-MVA technique combining the information about the impact parameter, identified secondary vertices, as well as soft lepton (if any) contained inside of the jet is used by the CMVA algorithm to identify b quark originated jets. The output is a continuous MVA discriminant ranging in value from -1 to +1. Optimal cut is determined by the POG for several working points. We use CMVAv2 medium working point  $(>0.4432)$. We checked all three WPs and WP Medium gives the best limits. b tagging and mistagging corrections are applied.
-
-%\clearpage
-
-
-\subsection{Missing transverse energy}\label{sec:MET}
-Even though neutrinos leave no trace in the CMS detector, their presence may be inferred through the momentum imbalance. A quantity reconstructed in this fashion in the plane perpendicular to the beam axis is called a missing transverse energy/momentum (MET). Precise reconstruction of leptons, photons, jets, etc is necessary for the correct computation of the MET. Detector miscalibration and PU also affect MET performance, thus the studies with the real data are always conducted.   
-
-Due to the conservation of the momentum in the transverse plane, MET can be calculated as an absolute value of the negative vectorial sum of the transverse momentum of all observed particles:  
-$\overrightarrow{E_T} \equiv -\sum \overrightarrow{p_T}$
-
-MET reconstructed using PF reconstructed particles \cite{PF_MET} is what the majority of the CMS teams uses for analyses of 2016 data.  
-%MET type-1 corrected is calculated as an absolute value of the negative vectorial sum of all the visible PF candidates in the event. 
-Several correction recommended by the JetMET POG are applied ~\cite{MissingETRun2Corrections}: jet corrections, corrections for the PU effect, etc. On top, a set of filters related to the instrumental effects is employed, such as removal of the misreconstruction caused by the fisfier in the HCAL and/or noice in the tracker, etc.  ~\cite{MissingETOptionalFiltersRun2}. Schematic representation of the MET in the event with Z or photon is shown on the Fig. \ref{fig:MET}.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.95\textwidth]{MET}
-\caption{ Z boson (left) and photon (right) kinematics with the vector of all the visible objects (denoted by u) and a resulting MET.}
-\label{fig:MET}
-\end{figure}
-
-
-%following the twiki:
-%\begin{center}
-%\texttt{https://twiki.cern.ch/twiki/bin/viewauth/CMS/MissingETRun2Corrections}
-%\end{center}
-%On top, a set of filters related to the instrumental effects is employed:
-%\begin{center}
-%\texttt{https://twiki.cern.ch/twiki/bin/view/CMS/MissingETOptionalFiltersRun2}
-%\end{center}
-
-\section{Event Selection}
-\label{sec:selection}
-
-Chapter 5 Event Selection
-
-      0. An initial paragraph with an introduction into event selection. I have some suggestions,
-        I think, in the yellow notes in the PDF, but if not, I can make some if you need.
-
-      5.1. Physics objects selection.
-             Explain here kinematic cuts on leptons and jets. If you have here only kinematic
-             cuts (because you already explained, e.g., the CMVAv2 cuts in an earlier section
-             about physics objects definitions), you can call this section ?Kinematic selection of 
-             physics objects.? My only uncertainty is if you want to  discuss MET cuts here or
-             leave it for Candidate Selection. This section would be fairly brief.
-
-       5.2. Signal candidate construction and selection.
-            This is  your present section 5.1 ?Higgs and Z boson selection?. You will need
-            to work through all my yellow notes.
-
-       5.3. Signal and control kinematic regions
-           The content is the content of the section 5.2 in the PDF, taking into account all my
-           yellow notes.
-
-       [Depending on what kind of efficiencies you have and think are useful:
-           - if you have efficiency for events to make it to the signal region with all event
-             selection cuts applied except  for the BDT cut, have them here. If you
-            instead have some other efficiency more appropriate for the section 5.2,  you can put it there.
-            I?d probably suggest to limit the reported efficiency to a simple table and not list
-            detailed cut flow efficiencies. It would be sufficient to have a simple table of final  
-            event selection efficiencies for signal only, or signal and main backgrounds, for SR,
-            plus the  BDT efficiencies for the SR that you will  have in the next chapter)]
-
-       5.4. Signal region candidate selection with a multivariate technique.
-           This section is very brief. It simply states that the final step of event selection
-           is a requirement for events in the SR only to have the value of a multivariate
-           discriminant that uses a boosted decision trees algorithm and computed considering
-           a number of kinematic quantities of a candidate to be above a certain threshold.
-           As this selection step is complex, it is described in a dedicated chapter: Chapter XX.
-                 This will make the ?event selection? description complete, at least in the global 
-            sense. At the same time, you will avoid introducing many new aspects of the analysis
-            that is too early to discuss at the required length (in what you have right now  one gets
-            lost immediately).
-
-
-
-
-%Two analysis methods are pursued to select samples that can be 
-%used to extract the signal yield from the data in an optimal way.
-The resonances in search decay to two SM Higgs bosons. However, Higgs bosons further decay almost immediately. Therefore, it is critical to reconstruct Higgs bosons decay products with the high precision. 
-
-\subsection{Higgs and Z Boson Selection}
-
-
-
-Only dilepton pairs having net charge of zero are considered as \ZtoLL~ candidates. 
-Pairs of prompt isolated leptons must have a dilepton mass greater than 76 GeV. This ensures the orthogonality with HIG-17-006 bbVV analysis (later also referred to as bbWW analysis) as well as helps selecting decays of real Z bosons.
-
-Higgs boson candidates are reconstructed from the b jet pairs utilising the two b jets with the highest CMVAv2 discriminant value. We do not veto additional b jets as with the increased PU growths the probability to have more b jets. 
-
-Double Higgs boson candidate is computed as a sum of Lorentz vectors of the \ZtoLL~ candidate, MET, and a \HBB~ candidate. Then, we compute the transverse mass of that object. 
-
-This transverse mass definition that we follow is one of the commonly used and is logical in the sense that we subtract the longitudinal momentum component which leaves us with the transverse momentum components only (while the energy remains the total energy). More precisely, as the z-component of the neutrinos' momentum is unknown and we decided not to reconstruct it, we form a pseudo transverse mass: $\tilde{M}_T(HH) = \sqrt{E^2 - p_{z}^2}$ (further referred as transverse mass for brevity), where $E$ and $p_z$ are the energy and the z-axis component of the Lorentz energy-momentum vector of the HH candidate.
-
-The resulting distribution, $\tilde{M}_T(HH)$, is what will be used in the binned shape analysis with the Higgs Combination Tool following the section "Binned shape analysis" as described at the twiki page~\cite{CombinedLimit}. Shape analysis is more sensitive than the simple cut-and-count experiment (one bin distributions) since more information/discrimination power is given to the likelihood function. 
-
-%:
-%\begin{center}
-%    \small{\texttt{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHiggsAnalysisCombinedLimit}}
-%\end{center}
-Initial data files, called ntuples, have enormous size of the order of more than a Terabyte per background process. To reduce the size of the ntuples and remove clear background events (on the other hand, to remove signal-like events we apply a sophisticated selection and use a BDT), we apply a "common-sense" HH preselection, which starts with the requirement on dilepton mass to be greater than 50 GeV and the event to contain at least two "good" jets - with $p_{T} > 30$ GeV and $|\eta| < 2.4$. In addition to requirements on Higgs bosons decaying to b quarks mentioned above, we define Z bosons as two opposite sign muons with $p_{T} > 20/15$ GeV (leading/subleading lepton) or two opposite sign electrons with $p_{T} > 25/15$ GeV (leading/subleading lepton). 
-
-
-
-Later analysis cuts, the selection chain to improve signal-background separation, include: 
-
- \begin{itemize}
- \item  the requirement of at least two b jets in the event, out of which two with the highest CMVAv2 score are used to define \HBB ~candidate
- \item  the lower end cut on the \HBB ~mass set to 20 GeV to remove the low mass resonances, while giving BDT as many events in the CRDY as possible at the same time. The upper end cut is not explicitly set for the same purpose. The actual \HBB ~mass distribution after the analysis selection is concentrated in the range 30 to 220 GeV
- \item  the Z boson selection takes the most energetic two leptons of the opposite sign and requires their dilepton mass to pass 76 GeV < Z mass < 106 GeV condition used for the signal region definition. This is a standard $\pm$ 15 GeV window for Z boson selection whose lower end also preserves othogonality with the existing HIG-17-006 bbVV analysis
- \item  HH candidate is approximated by the sum of \ETslash, Z, and \HBB~decays. A loose cut on HH transverse  $>100$ GeV removes evidently background events
- \item  finally, an additional set of \ETslash cuts is used to ensure orthogonality with the existing HIG-18-013 bbZZ analysis focusing on the 2b jets + 2 leptons + 2 quarks, see Table \ref{metCuts}. The MET cuts have been optimised by both analyses to yield the best limit when the results of two measurements are combined. 
- \end{itemize}
-
-
-\begin{table}[H]
-\begin{center}
-\caption{\ETslash cut to orthogonalise the analysis with respect to HIG-18-013.}
-\begin{tabular}{|c|c|} \hline
-{Signal mass, GeV} &  \ETslash cut, GeV\\\hline
-260-300     &                                \textgreater~40 \\
-350-600     &                                \textgreater~75 \\
-650-1000    &                                \textgreater~100 \\
-\hline
-\end{tabular}
-\label{metCuts}
-\end{center}
-\end{table}
 
 
 \begin{figure}[H]%hbpt?                                                                       
@@ -577,7 +316,7 @@ Later analysis cuts, the selection chain to improve signal-background separation
     \includegraphics[width=0.45\textwidth]{mm_600_met.png}\\
     \includegraphics[width=0.45\textwidth]{ee_900_met.png}
     \includegraphics[width=0.45\textwidth]{mm_900_met.png}\\
-    \caption{ Significance-like ($\sqrt{S}/B$) figure of merit as a function of the MET cut. Green curve shows the significance for our analysis keepings event above the cut, red curve is for HIG-18-013 analysis and their phase space is below the cut value. Top: 300 GeV cut. Middle: 600 GeV cut. Bottom: 900 GeV cut. On the left dielectron channel is shown, while dimuon plots are on the right. }
+    \caption[Optimisation of the MET selection for two $bbZZ$ analyses]{ Optimisation of the MET selection for two $bbZZ$ analyses. S and B stand for signal and background process' yields respectively. Significance-like figure of merit ($\sqrt{S}/B$) as a function of the MET cut is used to identify the best selection for each given mass hypothesis. Green curve shows the significance for this measurement, where events are kept above a given threshold. Red curve shows the  significance for the other $bbZZ$ measurement, where the MET requirement is inverted (events are kept below that threshold).  Top: 300 GeV mass. Middle: 600 GeV mass. Bottom: 900 GeV mass. On the left di-electron channel, di-muon channel is shown on the right. }
     \label{fig:met_cuts}
   \end{center}
 \end{figure}
@@ -585,31 +324,52 @@ Later analysis cuts, the selection chain to improve signal-background separation
 
 
 
-\subsection{\HBB ~and \ZtoLL ~variables to define signal and control regions}
 
-In this analysis we define three regions in the \HBB ~and \ZtoLL
-~space. Two regions, CRDY and CRTT, are used to extract the
-normalizations of DY and \ttbar backgrounds correspondingly. Signal region (Fig. ~\ref{fig:regions}) is chosen by
-the set of \HBB~and \ZtoLL ~cuts \ref{fig:regions}. To further reduce background contamination in this region, an additional cut on the MVA output is used. Boosted decision trees (BDT) MVA technique is employed to
-separate background from signal. Below we describe in details
-selection of each region and BDT construction. 
+\begin{table}[H]
+\begin{center}
+\caption{The MET requirements as a function of the mass of the HH candidate. Selection values (the second column) are provided for different mass hypotheses (the first column) of the narrow resonance decaying to the HH system.}
+\begin{tabular}{|c|c|} \hline
+{Signal mass, GeV} &  \ETslash selection, GeV\\\hline
+260-300     &                                \textgreater~40 \\
+350-600     &                                \textgreater~75 \\
+650-1000    &                                \textgreater~100 \\
+\hline
+\end{tabular}
+\label{metCuts}
+\end{center}
+\end{table}
 
-%% Skimming is applied
-%% before building BDT to remove unnecessary background, while still
-%% keeping a lot of events for BDT training. The set of "HH loose
-%% common-sense" \label{hhSelection} skimming/preselection cuts includes: Dilepton (ee/mm)
-%% mass $>$ 50 GeV, 2 or more jets: pt $>$ 30 GeV and $|\eta| < 2.4GeV$. Then, we
-%% select two or more b-jets, \HBB~ mass should be greater than 20 GeV,
-%% exactly two leptons, dilepton mass higher than 76 GeV, transverse mass
-%% of HH higher than 100 GeV. The definition of the signal and control regions is illustrated in Fig. \ref{fig:regions}. The signal region is selected in the range of
-%% 76 $<$ \mll~ $<$ 106 GeV and %75 $<$ \mbb~ $<$ 175 GeV. This corresponds to the
-%% 90 $<$ \mbb~ $<$ 150 GeV. This corresponds to the
-%% Z mass +- 15 GeV window. OA
-For CRDY we invert \HBB ~cut, keeping in the lower sideband only events
-with the mass of Higgs boson higher than 20 GeV to avoid fakes from
-QCD. For CRTT we invert \ZtoLL ~cut, keeping only high mass sideband to
-ensure the orthogonality with the existing HIG-17-006 bbVV analysis, since the lower sideband is already included in the phase space used by them. 
 
+  
+  
+\subsection{Signal candidate construction and selection}
+
+Two leptons of opposite sign and same flavor with the invariant mass higher than 76 GeV are selected as Z candidates. This mass requirement helps rejecting di-lepton candidates not corresponding to real Z bosons. Events with di-lepton mass higher than 76 GeV will be used for SR and $t\bar{t}$ CR. Additional Z mass selection will be discussed in the corresponding section later in this chapter. These on-shell Z bosons are assumed to come from the $H \to Z Z^*$ decays. The other Z boson, off-shell Z boson, decays to two neutrinos in our signature, and is represented by MET. Lorentz four-vectors of the di-lepton candidate and MET are added and the resulting four-vector represents the first Higgs boson candidate. 
+
+The other Higgs boson is formed from the pair of b jets with the highest output value of the CMVA algorithm. No requirement is applied on existence or absence of other b jets in an event because such may be present due to a b jet misidentification or b jets resulting from pileup interactions or an underlying event. The invariant mass of the \HBB~candidate is required to be greater than 20 GeV to remove contamination from background events with low mass resonances that decay to two jets, such as events with J/psi, Upsilon or low energy QCD interactions. There is no upper requirement on the \HBB~ invariant mass. Together with the first Higgs boson, the constructed di-Higgs system approximates the double Higgs boson production that this measurement studies. 
+
+The final double Higgs boson candidate (HH candidate) comprises the \Zll~candidate, the MET representing the \Znn~decay, and the \HBB~candidate. The four-momentum of this HH candidate is defined as the sum of the four momenta of the two leptons and two b jets in the candidate as well as the four momentum of the MET, defined in Sec. \ref{sec:cms_reco}.
+
+HH system decays to a pair of b quarks and a pair of W bosons can also result in the same final state. The expected yields for the $bbWW$ channel with respect to the $bbZZ$ yields are comparatively small (1 to 4), because of the stringent kinematic selection on the di-lepton invariant mass. However, the contribution from the HH system decaying through the $bbWW$ intermediate state is still considered to be part of our signal in this measurement. The minimum requirement on the di-lepton mass is necessary to ensure that our measurement is orthogonal to the known HH search from CMS in the $bbVV$ channel that focused on $bbWW$ decays \cite{bbWW}, where only events with the di-lepton mass below 76 GeV were studied.
+
+In collider physics, one of several common definitions of the transverse mass is given by:
+$M_T=\sqrt( E^2- p_z^2)$. This quantity is widely used in the CMS searches for new particles. We proceed in the same fashion constructing our final variable - \mTHH, using the di-Higgs four-vector defined in the previous paragraphs. 
+
+While up until this moment we had the same requirements for the search of the $radion/graviton \to HH$ for any heavy resonance mass, it is worth noting that at this point the analysis becomes mass point-specific. This is because the selection on the BDT discriminant (explained later) and the MET requirement differ with the mass hypothesis. When we compute limits for different radion or graviton hypotheses, we apply different selection criteria. 
+
+Finally, the reader should be informed that if an event does not have enough physics objects suitable (as discussed in the objects selection section) for building the \Zll or \HBB candidates, or if the event does not pass candidate selection requirements on those objects or the full HH system, the event is discarded.
+
+  
+  
+  
+  
+  
+  
+\subsection{Signal and control kinematic regions}
+
+Three regions are defined: signal-enriched or signal region, and two CRs. The signal region is chosen such that the expected signal fraction is the largest there. Two control regions are defined such that they contain predominantly the background events with almost no signal. We define two CRS, one for each of the two main background sources: the CR for $t\bar{t}$ (CRTT) and the CR for Drell-Yan in association with jets (CRDY).
+
+Two intermediate particles in the decay chain are nearly fully reconstructed, such as \HBB and \Zll. The signal region is defined in the phase space of \HBB and \Zll events. This corresponds to an area determined by the mass of the Higgs boson (125 GeV) and the mass of the Z boson ( 91.2 GeV). To account for the detector smearing effects, the mass windows near the pole masses are defined such that we select events within the \HBB mass range from 90 to 150 GeV and Z mass range from 76 to 106 GeV, see Fig. \ref{fig:regions}. In the CMS, these relatively standard  mass windows are chosen taking into account the detector resolution effects on a two b jet system and a di-lepton (and the natural width for a Z boson) mass and contain approximately 95$\%$ of true Higgs and Z boson candidates. The proportion of signal events is further increased with respect to background events by applying an additional requirement, the MVA requirement, which will be explained in the next section.
 
 \begin{figure}[!htb]%hbpt?                                                                       
   \begin{center}
@@ -620,30 +380,53 @@ ensure the orthogonality with the existing HIG-17-006 bbVV analysis, since the l
   \end{center}
 \end{figure}
 
+CRs are defined inverting the SR selection. Drell-Yan plus jets (or ``DY'' later for brevity) background process contains a real Z boson, while the two jets are random and have random invariant mass. We obtain the CRDY inverting the \HBB selection. For CRTT, $t\bar{t}$ events always have two b quarks whose invariant mass has a broad distribution, while they do not have a real Z boson. Thus, to select CRTT, we invert the \Zll selection and use only the events in the upper range of the Z mass, see Fig. \ref{fig:regions}. 
 
-%% \begin{table}
-%% \begin{center}
-%% \caption{Efficiency of the BDT selection requirement. Dielectron channel. Left: 300 GeV signal mass hypothesis. Right: 900 GeV case.}
-%% \begin{tabular}{|c|c|c|} \hline
-%% {Process} &  Efficiency at 300 GeV, \% &  Efficiency at 900 GeV, \% \\\hline
+CRs are used to fit the event yield of the simulated background processes to the event yield in data and, thus, to determine the relative normalisations of $t\bar{t}$ and Drell-Yan background processes, which is done using CRTT and CRDY correspondingly. 
 
-%% signal (bbZZ) &                       85 &                       86 \\
-%% signal (bbWW) &                       60 &                       82 \\
-%% \ttbar        &                       28 &                       $\sim$ 0 \\
-%% Drell-Yan     &                       64 &                       $\sim$ 0 \\
-%% Single top    &                       33 &                        1 \\
-%% ZH            &                       76 &                        4 \\
-%% Dibosons      &                       76 &                        2 \\\hline
+The efficiency of the candidate selection, up to this point, is summarised in the Table \ref{eff_upto_bdt}, where number are provided for the SR. The signal contributions are split into two components $bbZZ$ and $bbWW$, and are shown separately. The corresponding total numbers of events passing the selection are also given (the fourth column).
 
-%% \end{tabular}
-%% \label{EfficiencyBDT}
-%% \end{center}
-%% \end{table}
+
+
+\begin{table}
+\begin{center}
+\caption{Number of events surviving the candidate selection and kinematic requirements. Numbers are given for $bbZZ$ and $bbWW$ contributions in the SR. Efficiency values are also provided (the third column) and are normalised to the initial event counts before any selection is applied.}
+\begin{tabular}{ |c|c|c|c| } \hline
+{Process} & Mass, GeV & Efficiency, \% & Number of events \\\hline
+bbWW & 300 &  0.2 & 85\\
+bbZZ & 300 &  10.4 & 4511\\
+bbWW & 900 &  0.1 & 23\\
+bbZZ & 900 &  15.1 & 12963\\\hline
+\end{tabular}
+ \label{eff_upto_bdt}
+\end{center}
+\end{table}
+
+
+
+\subsection{Signal region candidate selection with a multivariate technique}
+
+After the SR and CRs have been defined, in the final step of the event selection we require the events in the SR to pass the threshold value of the BDT discriminant. An MVA discriminant that uses a boosted decision trees algorithm is trained considering a number of kinematic quantities of a candidate to be above a certain threshold. As this selection step is complex, it is described in a dedicated chapter: \ref{sec:BDT}.
+
+
+
+
+
+
+
+
+
+
+\section{BDT Discriminant}
+\label{sec:BDT}
+
+
+Chapter 6 Multivariate selection in the signal region.
+
 
 
 \begin{table}                                                                                                                                                                          
 \begin{center}      
-                                                                                                                                                                   
 \caption{Efficiency of the BDT selection requirement. $ee$ channel (top) and $\mu\mu$ channel (bottom). }
 \begin{tabular}{|c|c|c|}
 \hline
@@ -672,178 +455,13 @@ ZH            &                        56.0 &                         8.4 \\
 Dibosons      &                        51.4 &                         6.2 \\
 \hline
 \end{tabular}
-
 \label{EfficiencyBDT}                                                                                                                                                                  
 \end{center}                                                                                                                                                                           
 \end{table} 
 
 
-%
-%
-%\begin{figure}[tbp]
-%  \begin{center}
-%    \includegraphics[width=0.91\textwidth]{ee_yields.png}
-%    \caption{Yields for ee channel before and after the tight isolation bug fix in the HEPPY. The effect is minimal as can be seen in the final limit. }
-%    \label{fig:yields_ee}
-%  \end{center}
-%\end{figure}
-%
 
 
-\section{Signal and background characteristics}
-
-The signal region is further purified removing backgrounds by applying the cut on the BDT
-output (Table ~\ref{EfficiencyBDT} contains the efficiency numbers for the BDT cut). 
-The first set of BDT variables in the early version of the analysis included 30-50 variables, which could potentially discriminate signal from the background. The set contained variables related to the kinematic properties of the signature, as well as a dozen of angular variables. After the first optimization of the BDT training and produced ranking of variables, nine best variables were determined and chosen to be used for the final analysis. Removal or addition of other variables did not improve the performance significantly. To simplify the analysis, the same set of nine variables is used in both low and high mass trainings and for both spin hypotheses.
-
-With 16 masses points in the range from 250 to 1000 GeV, one can: train 16 discriminants, train one complex hyperparametrised neural network, split the mass range into regions with the similar kinematics and thus train only few BDTs. The latter is the approach that has been adopted by mature (legacy) HH analyses, and we are following the same procedure. We split the mass range into two: low mass and high mass (\`a la HIG-17-002 and HIG-17-008). These simplification costs some performance loss but allows analysis to proceed with just two BDTs instead of training one BDT per mass point, which would require more than a dozen of trainings per heavy resonance. In case of the infinite statistics, training a dedicated BDT for each
-signal mass hypothesis would give a better performance, but in our case we are statistics dominated, thus training only two BDTs also has benefits in terms of the size of the signal sample, absence of the overtraining etc. In addition, the adopted path saves computational resources. Lastly, physics-wise, bbZZ signature is not the most sensitive, bb$\gamma$$\gamma$ is due to an excellent CMS diphoton mass resolution. Thus, the difference in sensitivity is a factor of 30-100 depending on the mass. Therefore, training a dozen of BDTs is clearly impractical. For more discussion on the topic please refer to the chapter \ref{sec:BDT}.
-
-
-
-
-
-%In addition, it would require a training of 16 BDTs per particle (BulkGraviton in our case). 
-The low/high mass boundary value for HH analyses is chosen typically in the range 300-450
-GeV. In our case the performance of the boundary around 300 GeV (area under the ROC curve
-for low mass BDT is 0.9138 and 0.9805 for high mass BDT) is
-similar to the boundary option at the 450 GeV (area under the ROC curve
-for low mass BDT is 0.9086 and 0.9957 for high mass BDT), and to the one in the
-middle of the range (area under the ROC curve
-for 400 GeV for low mass BDT is 0.9074 and 0.9928 for high mass BDT). 
-%https://indico.cern.ch/event/628835/contributions/2639777/attachments/1483653/2302207/Rami_HH_27June2017_v3.pdf
-Therefore, we chose the value of 450 GeV, which
-is also a choice of the bbbb analysis \cite{bbbb}. Upon running the full analysis chain up to the expected limits, the choice of 450 GeV was verified to be the best split point option: the usage of the high mass BDT at the 400 GeV or low mass BDT at the 500 GeV was yielding suboptimal results thus confirming the mass boundary choice. 
-
-Splitting the mass range into two regions, we arrive at the low
-mass BDT, which merges (with the weight '1') seven signal samples:
-250, 260, 270, 300, 350 400, 450 GeV, and the high mass BDT, which combines nine signal samples of 
-masses: 500, 550, 600, 650, 700, 750, 800, 900, 1000. In each case the
-composition of the background is the same, it is a mix (by cross
-section) of \ttbar and Drell-Yan plus jets.
-
-
-Cut flow for $ee$ and $\mu\mu$ channels from the generator level up to before the BDT selection is shown on the figures ~\ref{fig:cutFlow}. In the cut flow table ~\ref{fig:cutFlow} the following definitions are used: very loose selection means all GsfElectrons and Muons from the basic collections that match generator level electrons/muons and pass the very minimal kinematic cuts; loose selection means loose POG selection consisting of kinematic cuts, impact parameters dxy and dz, and iso cuts. Shown final efficiency values are given in terms of the number of events ~\ref{cutFlowEvents}:
-
-\begin{table}
-\begin{center}
-\caption{Number of events surviving analysis cuts corresponding to the last entry in the ~\ref{fig:cutFlow} .}
-\begin{tabular}{|c|c|c|} \hline
-{Process, mass point} &  ee channel, \% &  mm channel, \% \\\hline
-bbZZ, 300 GeV &                    2256     &                    4511 \\
-bbWW, 300 GeV &                    53       &                    85 \\
-bbZZ, 900 GeV &                    8034     &                    12963 \\
-bbWW, 900 GeV &                    12       &                    23 \\\hline
-\end{tabular}
-\label{cutFlowEvents}
-\end{center}
-\end{table}
-
-
-
-\subsection{Data and MC comparison\label{sec:compareDataMC}}
-%Signal region BDT sideband plots as well as unblind signal region plots show good data-MC agreements.
-BDT selection is applied in the signal region only, we are not cutting on BDT for control regions, therefore, all the mass
-points belonging to the low mass region (and separately to the high mass region) have the same background and data distributions. Thus, we provide plots for two mass points: one mass point representing low mass region, 300 GeV, and one mass point representing high mass region, 900 GeV. 
-% for other pass point only signal distribution will change,
-%however, data/background comparison and their ratio will not. At the same time, BDT outputs are mass point specific, because are trained for two different mass regions - low and high mass regions, and are evaluated for each mass point separately. Thus, we show all the BDT plots. 
-Signal bbZZ and bbWW rates for all plots are multiplied additionally by a factor of 500 purely for the visualization purpose and do not go in the real analysis. 
-
-%Prefit plots are available in the Appendix ~\ref{sec:datamc}. Control regions only postfit plots have been produced during an extensive discussion with Higgs conveners at HyperNews, and it was shows that upon inclusion of the SR in the fit the data-MC agreement is slightly better. 
-
-Postfit plots that include SR in the simultaneous fit with control regions, hence a common jargon name "Full postfit" plots, in contrast to the control regions only type of the fit, or a control regions plus signal region sideband. Figures ~\ref{fig:MCcomparisons} - ~\ref{fig:MCcomparisons_radion} show data and MC comparison in the SR, CRDY, and CRTT. For both $ee$ and $\mu\mu$ channels, low and high mass regions. The latest style plots produced for the analysis public document (Physics Analysis Summary called "PAS") can be found at Fig.~\ref{fig:MCcomparisons} for the graviton case and Fig.~\ref{fig:MCcomparisons_radion} for the radion case. 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Distributions of nine variables that go into the BDT have been studied in depth during the pre-approval process and are available in the Appendix of the analysis note ~\cite{bbZZAN}. All variables show good data/MC agreement after applying postfit scale factors (not to be confused with the POG recommended scale factors in the section below). %After the tight isolation cut fix in the HEPPY framework the results/shapes are almost unchanged (it is also can be observed from the table of yields ~\ref{fig:yields_ee}).  At the yields table ~\ref{fig:yields_ee}, 450 GeV mass point, since evaluated using the high mass BDT, is called 451 GeV for clarity purposes. 
-The most important variables in this analysis, namely the BDT itself and the variable that we fit, \mTHH, are shown in the Fig.~\ref{fig:MCcomparisons} for graviton and in Fig.~\ref{fig:MCcomparisons_radion} for the radion. 
-
-
-\begin{figure}[tbp]
-  \begin{center}
-    \includegraphics[width=0.91\textwidth]{cutflow_mm.png}\\
-    \includegraphics[width=0.91\textwidth]{cutflow_ee.png}\\
-    \caption{Cut flow for mm (top) and ee (bottom) channels. }
-    \label{fig:cutFlow}
-  \end{center}
-\end{figure}
-
-
-                                                                                                                                            
-
-\begin{figure}[tbp]
-  \begin{center}
-    \includegraphics[width=0.31\textwidth]{hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf}
-    \includegraphics[width=0.31\textwidth]{hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf}
-    \includegraphics[width=0.31\textwidth]{hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf} \\
-    \includegraphics[width=0.31\textwidth]{hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf}
-    \includegraphics[width=0.31\textwidth]{hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf}
-    \includegraphics[width=0.31\textwidth]{hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf}
-    \caption{Transverse mass of the reconstructed HH candidates for data, the simulated signal graviton sample
-    for the 300 GeV mass hypothesis, and simulated backgrounds scaled according to the fit results. The top
-    row shows the figures for the muon channel while the bottom row is for the electron channel. For each row,
-    the left plot is for the Drell-Yan control region, the middle is for the \ttbar control region, and the right
-    is for the signal region. Signal normalization choice is discussed in the text. The crosshatched area represents
-    the sum of statistical and systematic uncertainties.}
-    \label{fig:MCcomparisons}
-%                                                                                                                 
-% Comparison of data and simulation.  Transverse mass of                                                          
-%      the reconstructed HH candidate for 300 GeV signal mass                                                     
-%      hypothesis, electron channel. Left: Drell-Yan control region. Middle: \ttbar                               
-%      control region. Right: signal region. }                                                                    
-%    \label{MCcomparisons_electrons}                                                                              
-  \end{center}
-\end{figure}
-
-
-
-
-\begin{figure}[tbp]
-  \begin{center}
-    \includegraphics[width=0.31\textwidth]{hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf}
-    \includegraphics[width=0.31\textwidth]{hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf}
-    \includegraphics[width=0.31\textwidth]{hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf} \\
-    \includegraphics[width=0.31\textwidth]{hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf}
-    \includegraphics[width=0.31\textwidth]{hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf}
-    \includegraphics[width=0.31\textwidth]{hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf}
-    \caption{Transverse mass of the reconstructed HH candidates for data, the simulated signal radion sample
-    for the 300 GeV mass hypothesis, and simulated backgrounds scaled according to the fit results. The top
-    row shows the figures for the muon channel while the bottom row is for the electron channel. For each row,
-    the left plot is for the Drell-Yan control region, the middle is for the \ttbar control region, and the right
-    is for the signal region. Signal normalization choice is discussed in the text. The crosshatched area represents
-    the sum of statistical and systematic uncertainties.}
-    \label{fig:MCcomparisons_radion}
-%                                                                                                                 
-% Comparison of data and simulation.  Transverse mass of                                                          
-%      the reconstructed HH candidate for 300 GeV signal mass                                                     
-%      hypothesis, electron channel. Left: Drell-Yan control region. Middle: \ttbar                               
-%      control region. Right: signal region. }                                                                    
-%    \label{MCcomparisons_electrons}                                                                              
-  \end{center}
-\end{figure}
-
-
-
-
-
-
-
-\subsection{Scale Factors}
-%\section{HLT Lepton Scale Factors}
-
-Electron ID and ISO scale factors, as well as HLT scale factors (Fig.~\ref{fig:trigger_eff_diele}), have been computed by VHbb group, which ntuples and analysis setup we reutilise. Scale factors have been presented at the EGamma physics object groups (POG) meeting~\cite{egSF} and fully approved. We reuse those scale factors and apply them to our MC samples. 
-
-Muon ID scale factors, as well as ISO scale factors, have been derived separately for runs G/H and B/C/D/E/F runs (2016 data at LHC has been split into several "runs") and then luminosity averaged to obtain the final numbers ~\cite{muonIDnISO}. Tracker scale factors (~\ref{fig:trigger_eff_diele}) are taken from the Muon POG twiki page~\cite{muonTRK} and used as is. HLT dimuon scale factors were derived by VHbb group and further approved by the muon POG. These scale factors were derived separately for run H (Fig.~\ref{fig:trigger_SF_dimu_H}) and B/C/D/E/F/G (Fig.~\ref{fig:trigger_SF_dimu_BCDEFG}) runs and then luminosity averaged ~\cite{muonTrigger}. On top, separate scale factors are calculated for the dZ requirement of HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVV\L\_DZ\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_DZ\_v* triggers, using dilepton events that have already passed the HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_v* triggers (Fig. ~\ref{fig:trigger_SF_dimu_dZ_H}).
-
-
-
-\section{BDT Discriminant}
-\label{sec:BDT}
-
-
-Chapter 6 Multivariate selection in the signal region.
 
            6.1. Kinematic variables of a candidate
            You would start saying that a  number of kinematic quantities can be constructed
@@ -1621,6 +1239,8 @@ For instance, for muons the best cuts are: 0.1 for 260 and 270 GeV, 0.5 for 300 
 
  
 \subsection{Results from the fit}
+
+
 The extraction of the results is performed by what is called at CMS "Binned shape analysis". We used Higgs Combination Tool ("HiggsCombine")~\cite{HiggsCombine}, which is a framework with the help of which the Higgs boson had been discovered. HiggsCombine is based on the RooStats package that has been very popular in the HEP community for years. 
 
 We do a simultaneous fit (\mTHH transverse mass distribution is used) of all three
@@ -1645,6 +1265,10 @@ Full postfit distributions (the naming emphasises that all regions are used in t
 
 
 
+
+This the first ever bbZZ analysis performed at CERN with the real data. We use the standard set of the CMS
+reconstructed physics objects. Below, we describe reconstruction of
+each separately: electrons, muons, jets and b jets, and MET.
 
 
 
@@ -1920,6 +1544,151 @@ This concludes the discussion of analysis details and in the next chapter we wil
 
 
 
+
+
+
+\subsection{Data and MC comparison\label{sec:compareDataMC}}
+
+
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{muon_ID_BCDEFv2.png}
+\bigbreak
+\includegraphics[width=0.5\textwidth]{muon_ID_GHv2.png}
+\caption{ Muon ID scale factors in $p_{T}$ and $\eta$ bins. Left: runs B to F. Right: runs G and H.}
+\label{fig:muonID_SF}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{muon_ISO_BCDEFv2.png}
+\bigbreak
+\includegraphics[width=0.5\textwidth]{muon_ISO_GHv2.png}
+\caption{ Muon ISO scale factors in $p_{T}$ and $\eta$ bins. Left: runs B to F. Right: runs G and H.}
+\label{fig:muonISO_SF}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{EIDISO_ZH_out.png}
+\caption{ Electron ID+ISO scale factors in $p_{T}$ and $\eta$ bins.}
+\label{fig:eleIDnISO_SF}
+\end{figure}
+
+
+
+
+FROM SEAN
+
+The first such correction addresses the difference between the pT(V ) spectrum in data and the V +jets MC samples. The pT(V ) distribution is harder for simulation than for data because the simulation does not include higher-order electroweak corrections.[103] The V +jets samples are therefore reweighted as a function of the pT(V ) to apply the NLO electroweak correction shown in Figure 4-5 which accounts for discrepancies of up to 10% for pT(V ) near 400 GeV.
+
+A third correction addresses the discrepancy between the di-jet invariant mass m(jj)
+distribution in data and the LO V +jets MC samples. Although NLO V +jets MC samples are readily available and show good agreement with data for the m(jj) distribution, they are not used by the analysis because their limited statistical power results in an over 10% decrease in expected sensitivity with respect to the LO V +jets samples. A differential LO-to-NLO correction based on the separation in ? between the two b-quark jets from
+the Higgs boson decay ??(jj) is derived as a ratio of the NLO to LO V +jets samples following the procedure outlined in Ref. [28]. An example of this ratio is shown in Figure 4-6. These reweighting functions improve the agreement between data and the LO V +jets
+89
+samples for the m(jj) and pT(V ) distributions while demonstrating a negligible effect on the remaining distributions. The full reweighting is assessed as a systematic uncertainty.
+
+
+
+
+
+%Signal region BDT sideband plots as well as unblind signal region plots show good data-MC agreements.
+BDT selection is applied in the signal region only, we are not cutting on BDT for control regions, therefore, all the mass
+points belonging to the low mass region (and separately to the high mass region) have the same background and data distributions. Thus, we provide plots for two mass points: one mass point representing low mass region, 300 GeV, and one mass point representing high mass region, 900 GeV. 
+% for other pass point only signal distribution will change,
+%however, data/background comparison and their ratio will not. At the same time, BDT outputs are mass point specific, because are trained for two different mass regions - low and high mass regions, and are evaluated for each mass point separately. Thus, we show all the BDT plots. 
+Signal bbZZ and bbWW rates for all plots are multiplied additionally by a factor of 500 purely for the visualization purpose and do not go in the real analysis. 
+
+%Prefit plots are available in the Appendix ~\ref{sec:datamc}. Control regions only postfit plots have been produced during an extensive discussion with Higgs conveners at HyperNews, and it was shows that upon inclusion of the SR in the fit the data-MC agreement is slightly better. 
+
+Postfit plots that include SR in the simultaneous fit with control regions, hence a common jargon name "Full postfit" plots, in contrast to the control regions only type of the fit, or a control regions plus signal region sideband. Figures ~\ref{fig:MCcomparisons} - ~\ref{fig:MCcomparisons_radion} show data and MC comparison in the SR, CRDY, and CRTT. For both $ee$ and $\mu\mu$ channels, low and high mass regions. The latest style plots produced for the analysis public document (Physics Analysis Summary called "PAS") can be found at Fig.~\ref{fig:MCcomparisons} for the graviton case and Fig.~\ref{fig:MCcomparisons_radion} for the radion case. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Distributions of nine variables that go into the BDT have been studied in depth during the pre-approval process and are available in the Appendix of the analysis note ~\cite{bbZZAN}. All variables show good data/MC agreement after applying postfit scale factors (not to be confused with the POG recommended scale factors in the section below). %After the tight isolation cut fix in the HEPPY framework the results/shapes are almost unchanged (it is also can be observed from the table of yields ~\ref{fig:yields_ee}).  At the yields table ~\ref{fig:yields_ee}, 450 GeV mass point, since evaluated using the high mass BDT, is called 451 GeV for clarity purposes. 
+The most important variables in this analysis, namely the BDT itself and the variable that we fit, \mTHH, are shown in the Fig.~\ref{fig:MCcomparisons} for graviton and in Fig.~\ref{fig:MCcomparisons_radion} for the radion. 
+
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.91\textwidth]{cutflow_mm.png}\\
+    \includegraphics[width=0.91\textwidth]{cutflow_ee.png}\\
+    \caption{Cut flow for mm (top) and ee (bottom) channels. }
+    \label{fig:cutFlow}
+  \end{center}
+\end{figure}
+
+
+                                                                                                                                            
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf}
+    \includegraphics[width=0.31\textwidth]{hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf}
+    \includegraphics[width=0.31\textwidth]{hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf} \\
+    \includegraphics[width=0.31\textwidth]{hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf}
+    \includegraphics[width=0.31\textwidth]{hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf}
+    \includegraphics[width=0.31\textwidth]{hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf}
+    \caption{Transverse mass of the reconstructed HH candidates for data, the simulated signal graviton sample
+    for the 300 GeV mass hypothesis, and simulated backgrounds scaled according to the fit results. The top
+    row shows the figures for the muon channel while the bottom row is for the electron channel. For each row,
+    the left plot is for the Drell-Yan control region, the middle is for the \ttbar control region, and the right
+    is for the signal region. Signal normalization choice is discussed in the text. The crosshatched area represents
+    the sum of statistical and systematic uncertainties.}
+    \label{fig:MCcomparisons}
+%                                                                                                                 
+% Comparison of data and simulation.  Transverse mass of                                                          
+%      the reconstructed HH candidate for 300 GeV signal mass                                                     
+%      hypothesis, electron channel. Left: Drell-Yan control region. Middle: \ttbar                               
+%      control region. Right: signal region. }                                                                    
+%    \label{MCcomparisons_electrons}                                                                              
+  \end{center}
+\end{figure}
+
+
+
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf}
+    \includegraphics[width=0.31\textwidth]{hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf}
+    \includegraphics[width=0.31\textwidth]{hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf} \\
+    \includegraphics[width=0.31\textwidth]{hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf}
+    \includegraphics[width=0.31\textwidth]{hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf}
+    \includegraphics[width=0.31\textwidth]{hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf}
+    \caption{Transverse mass of the reconstructed HH candidates for data, the simulated signal radion sample
+    for the 300 GeV mass hypothesis, and simulated backgrounds scaled according to the fit results. The top
+    row shows the figures for the muon channel while the bottom row is for the electron channel. For each row,
+    the left plot is for the Drell-Yan control region, the middle is for the \ttbar control region, and the right
+    is for the signal region. Signal normalization choice is discussed in the text. The crosshatched area represents
+    the sum of statistical and systematic uncertainties.}
+    \label{fig:MCcomparisons_radion}
+%                                                                                                                 
+% Comparison of data and simulation.  Transverse mass of                                                          
+%      the reconstructed HH candidate for 300 GeV signal mass                                                     
+%      hypothesis, electron channel. Left: Drell-Yan control region. Middle: \ttbar                               
+%      control region. Right: signal region. }                                                                    
+%    \label{MCcomparisons_electrons}                                                                              
+  \end{center}
+\end{figure}
+
+
+
+
+
+
+
+\subsection{Scale Factors}
+%\section{HLT Lepton Scale Factors}
+
+Electron ID and ISO scale factors, as well as HLT scale factors (Fig.~\ref{fig:trigger_eff_diele}), have been computed by VHbb group, which ntuples and analysis setup we reutilise. Scale factors have been presented at the EGamma physics object groups (POG) meeting~\cite{egSF} and fully approved. We reuse those scale factors and apply them to our MC samples. 
+
+Muon ID scale factors, as well as ISO scale factors, have been derived separately for runs G/H and B/C/D/E/F runs (2016 data at LHC has been split into several "runs") and then luminosity averaged to obtain the final numbers ~\cite{muonIDnISO}. Tracker scale factors (~\ref{fig:trigger_eff_diele}) are taken from the Muon POG twiki page~\cite{muonTRK} and used as is. HLT dimuon scale factors were derived by VHbb group and further approved by the muon POG. These scale factors were derived separately for run H (Fig.~\ref{fig:trigger_SF_dimu_H}) and B/C/D/E/F/G (Fig.~\ref{fig:trigger_SF_dimu_BCDEFG}) runs and then luminosity averaged ~\cite{muonTrigger}. On top, separate scale factors are calculated for the dZ requirement of HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVV\L\_DZ\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_DZ\_v* triggers, using dilepton events that have already passed the HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_v* triggers (Fig. ~\ref{fig:trigger_SF_dimu_dZ_H}).
 
 
 
