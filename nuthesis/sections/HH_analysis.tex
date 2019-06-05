@@ -390,7 +390,7 @@ The efficiency of the candidate selection, up to this point, is summarised in th
 
 \begin{table}
 \begin{center}
-\caption{Number of events surviving the candidate selection and kinematic requirements. Numbers are given for $bbZZ$ and $bbWW$ contributions in the SR. Efficiency values are also provided (the third column) and are normalised to the initial event counts before any selection is applied.}
+\caption{Number of events surviving the candidate selection and kinematic requirements. Numbers are given for $bbZZ$ and $bbWW$ contributions in the SR. Efficiency values are also provided (the third column) and are normalised to the initial event counts before any selection is applied. Di-muon channel is presented. Numbers for di-electron channel have the same trend but lower values since in the CMS, efficiencies for electrons are lower than for muons. }
 \begin{tabular}{ |c|c|c|c| } \hline
 {Process} & Mass, GeV & Efficiency, \% & Number of events \\\hline
 bbWW & 300 &  0.2 & 85\\
@@ -403,26 +403,473 @@ bbZZ & 900 &  15.1 & 12963\\\hline
 \end{table}
 
 
-
 \subsection{Signal region candidate selection with a multivariate technique}
 
 After the SR and CRs have been defined, in the final step of the event selection we require the events in the SR to pass the threshold value of the BDT discriminant. An MVA discriminant that uses a boosted decision trees algorithm is trained considering a number of kinematic quantities of a candidate to be above a certain threshold. As this selection step is complex, it is described in a dedicated chapter: \ref{sec:BDT}.
 
 
 
+\section{Multivariate selection in the signal region}
 
-
-
-
-
-
-
-\section{BDT Discriminant}
+To reduce the background contamination in the SR, we employ a standard practice of CMS physics analyses of utilising the MVA discriminant. In this section, we will discuss which discriminating variables were used, how the MVA discriminant was constructed, and what are the efficiencies of the BDT selection for all major signal and background processes. 
 \label{sec:BDT}
 
 
-Chapter 6 Multivariate selection in the signal region.
+\subsection{Kinematic variables of a candidate}
 
+A  number of kinematic quantities can be constructed out of four-vectors that comprise candidates of our final state.  The distributions of these quantities in general differ for candidates originating from different background processes as opposed to for candidates from the hypothetical signal. 
+           
+In this section we discuss a set of kinematic quantities that are the most discriminating between the expected signal candidates and background candidates. This set of variables is used as an input for computing the multivariate discriminate that is later discussed in this section. In total, nine variables are chosen for this purpose and discussed here. About 30-40 other kinematic variables were considered at early stages of this data analysis. However, they were discarded as it was found that they do not improve the results of this measurement in a  significant way, while they increase considerably the complexity of the measurement.
+           
+Since the MVA selection requirement will be applied on a quantity computed based on these variables, the simulation has to  reproduce the main variables well. We will define each of the nine variables below. For SR and both CRs, we will show the comparison of distributions from data and simulation for each variable. Since the number of plots would be too large to show for two channels and two spin hypotheses, not to mention for all masses, we will include in this dissertation only di-muon channel plots for 300 GeV graviton mass hypothesis. However, all other relevant figures of the nine main variables, including the di-electron channel and other mass points,  were examined and discussed with CMS collaborators during the review of the measurement in CMS. They show a similar behaviour and agreement as those included here.
+           
+As we outlined before, even for simple physics objects the distributions from MC simulations and data have discrepancies. For more complex objects and candidates, these discrepancies become even larger. In general, MC simulations are not supposed to reproduce well very narrow regions of the kinematic phase space or align with the data perfectly at the high order in the QCD. Therefore, one normally adjusts the rates of background processes using the normalisation values determined in the fit to data in the control regions. The distributions as they are, without the extra normalisations (from the fit) applied to the event yields of MC simulated background processes, are in general called pre-fit distributions. After the normalisations from the fit are applied on the rates of background processes, post-fit distributions are obtained. 
+           
+           
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+           
+           
+           
+           
+           
+              One by one, go over the variables. E.g. with the style
+           \bf{$\Delta R$ separation between two b jets} or \paragraph{Invariant mass of the H->bb candidate}.
+           Define the variable, with the definition made as easy to understand for non-CMS people as
+           possible (while keeping it short). If you have some physics reasoning supporting the use 
+           of a variable, then give it. For example, you can say that Hbb mass for two b jets coming
+           from real H tends to be close to the SM Higgs mass smeared by the b jet energy-momentum
+           resolution while the background candidates from unrelated b jets can have smaller and larger
+           masses (especially if they come from the top quarks of the ttbar background).
+           Refer to the figures. 
+           Now, I do not  know, perhaps, all the complications, you will tell me if things are not as simple.
+           I am thinking: have one figure dedicated to each of the nine kinematic variables. On this figure:
+               plot 1: muon channel pre-fit SR distribution for 300 GeV graviton (or radion, your choice).
+               plot 2: muon channel post-fit SR distribution for 300 GeV graviton (or radion, your choice).
+               plot 3: muon channel pre-fit SR distribution for 900 GeV graviton (or radion, your choice).
+               plot 4: muon channel post-fit SR distribution for 900 GeV graviton (or radion, your choice).
+           These figures would be the subset of the figures from the Appendix 3 of your AN 2017/198.
+           If in the end you feel that the text is too cluttered with these figures, you can also move them
+           into the appendix of the thesis.
+              You may want to conclude this part with a paragraph that states that the simulated 
+           distributions are found in an acceptable agreement with those from the data and are 
+           judged to be adequate for a use in a multivariate discriminant construction discussed next.
+
+
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/dR_bjets_ee_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/dR_bjets_ee_CRDY_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/dR_leps_ee_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/dR_leps_ee_CRDY_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hhMt_ee_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hhMt_ee_CRDY_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hmass0_ee_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hmass0_ee_CRDY_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hmass1_ee_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hmass1_ee_CRDY_FullPostfit_plot_apr18.png}\\
+%    \caption{Comparison of data and MC samples. 300 GeV, CRDY region, ee channel. Prefit plot on the left,           Full Postfit plot on the right.}
+%    \label{fig:MCcomparisons_ee_low_CRDY}
+%  \end{center}
+%\end{figure}
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hpt0_ee_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hpt0_ee_CRDY_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hpt1_ee_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hpt1_ee_CRDY_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/met_pt_ee_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/met_pt_ee_CRDY_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/zmass_ee_CRDY_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/zmass_ee_CRDY_FullPostfit_plot_apr21.png}\\
+%%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/zmass_high_ee_CRDY_prefit_plot_apr18.png}                                                           
+%%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/zmass_high_ee_CRDY_FullPostfit_plot_apr18.png}\\                                                    
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/zpt0_ee_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/zpt0_ee_CRDY_FullPostfit_plot_apr18.png}\\
+%    \caption{Comparison of data and MC samples. 300 GeV, CRDY region, ee channel. Prefit plot on the left,           Full Postfit plot on the right.}
+%    \label{fig:MCcomparisons_ee_low_CRDY_2}
+%  \end{center}
+%\end{figure}
+%
+%
+%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                 \
+%                                                                                                                                                                       
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/dR_bjets_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/dR_bjets_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/dR_leps_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/dR_leps_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/hhMt_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/hhMt_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/hmass0_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/hmass0_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/hmass1_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/hmass1_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \caption{Comparison of data and MC samples. 300 GeV, SR\_bdt\_sideband region, ee channel. Prefit plot on the left,           Full Postfit plot on the right. This\
+% control region was not included in the fit.}
+%    \label{fig:MCcomparisons_ee_low_SR_bdt_sideband}
+%  \end{center}
+%\end{figure}
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/hpt0_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/hpt0_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/hpt1_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/hpt1_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/met_pt_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/met_pt_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/zmass_high_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/zmass_high_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/zpt0_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/zpt0_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \caption{Comparison of data and MC samples. 300 GeV, SR\_bdt\_sideband region, ee channel. Prefit plot on the left,           Full Postfit plot on the right. This\
+% control region was not included in the fit.}
+%    \label{fig:MCcomparisons_ee_low_SR_bdt_sideband_2}
+%  \end{center}
+%\end{figure}
+%
+%
+%
+%
+%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                  \
+%                                                                                                                                                                        
+%\begin{figure}[tbp]
+%  \begin{center}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/dR_bjets_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/dR_bjets_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/dR_leps_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/dR_leps_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/hhMt_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/hhMt_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/hmass0_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/hmass0_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/hmass1_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/hmass1_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \caption{Comparison of data and MC samples. 300 GeV, SR region, ee channel. Prefit plot on the left,           Full Postfit plot on the right.}
+%    \label{fig:MCcomparisons_ee_low_SR}
+%  \end{center}
+%\end{figure}
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/hpt0_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/hpt0_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/hpt1_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/hpt1_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/met_pt_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/met_pt_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/zmass_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/zmass_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/zpt0_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/zpt0_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \caption{Comparison of data and MC samples. 300 GeV, SR region, ee channel. Prefit plot on the left,           Full Postfit plot on the right.}
+%    \label{fig:MCcomparisons_ee_low_SR_2}
+%  \end{center}
+%\end{figure}
+%
+%
+%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            \
+%                                                                                                                                                                                  
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/dR_bjets_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/dR_bjets_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/dR_leps_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/dR_leps_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hhMt_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hhMt_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hmass0_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hmass0_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hmass1_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hmass1_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \caption{Comparison of data and MC samples. 300 GeV, CRTT region, ee channel. Prefit plot on the left,           Full Postfit plot on the right.}
+%    \label{fig:MCcomparisons_ee_low_CRTT}
+%  \end{center}
+%\end{figure}
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hpt0_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hpt0_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hpt1_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/hpt1_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/met_pt_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/met_pt_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/zmass_high_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/zmass_high_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/zpt0_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/zpt0_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \caption{Comparison of data and MC samples. 300 GeV, CRTT region, ee channel. Prefit plot on the left,           Full Postfit plot on the right.}
+%    \label{fig:MCcomparisons_ee_low_CRTT_2}
+%  \end{center}
+%\end{figure}
+%
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            \
+                                                                                                                                                                                  
+
+
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRDY_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_leps_mm_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_leps_mm_CRDY_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hhMt_mm_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hhMt_mm_CRDY_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass0_mm_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass0_mm_CRDY_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass1_mm_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass1_mm_CRDY_FullPostfit_plot_apr18.png}\\
+    \caption{Comparison of data and MC samples. 300 GeV, CRDY region, mm channel. Prefit plot on the left, Full Postfit plot on the right.}
+    \label{fig:MCcomparisons_mm_low_CRDY}
+  \end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt0_mm_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt0_mm_CRDY_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt1_mm_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt1_mm_CRDY_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/met_pt_mm_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/met_pt_mm_CRDY_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_mm_CRDY_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_mm_CRDY_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_high_mm_CRDY_prefit_plot_apr18.png}                                                                      
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_high_mm_CRDY_FullPostfit_plot_apr18.png}\\                                                               
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zpt0_mm_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zpt0_mm_CRDY_FullPostfit_plot_apr18.png}\\
+    \caption{Comparison of data and MC samples. 300 GeV, CRDY region, mm channel. Prefit plot on the left,           Full Postfit plot on the right.}
+    \label{fig:MCcomparisons_mm_low_CRDY_2}
+  \end{center}
+\end{figure}
+
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            \
+                                                                                                                                                                                  
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/dR_bjets_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/dR_bjets_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/dR_leps_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/dR_leps_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hhMt_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hhMt_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass0_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass0_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass1_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass1_mm_SR_FullPostfit_plot_apr18.png}\\
+    \caption{Comparison of data and MC samples. 300 GeV, SR\_bdt\_sideband region, mm channel. Prefit plot on the left,           Full Postfit plot on the right. This control region was not included in the fit.}
+    \label{fig:MCcomparisons_mm_low_SR_bdt_sideband}
+  \end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt0_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt0_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt1_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt1_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/met_pt_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/met_pt_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zmass_high_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zmass_high_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zpt0_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zpt0_mm_SR_FullPostfit_plot_apr18.png}\\
+    \caption{Comparison of data and MC samples. 300 GeV, SR\_bdt\_sideband region, mm channel. Prefit plot on the left,           Full Postfit plot on the right. This control region was not included in the fit.}
+    \label{fig:MCcomparisons_mm_low_SR_bdt_sideband_2}
+  \end{center}
+\end{figure}
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            \
+                                                                                                                                                                                  
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/dR_bjets_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/dR_bjets_mm_SR_FullPostfit_plot_apr21.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/dR_leps_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/dR_leps_mm_SR_FullPostfit_plot_apr21.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hhMt_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hhMt_mm_SR_FullPostfit_plot_apr21.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hmass0_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hmass0_mm_SR_FullPostfit_plot_apr21.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hmass1_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hmass1_mm_SR_FullPostfit_plot_apr21.png}\\
+    \caption{Comparison of data and MC samples. 300 GeV, SR region, mm channel. Prefit plot on the left,           Full Postfit plot on the right.}
+    \label{fig:MCcomparisons_mm_low_SR}
+  \end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hpt0_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hpt0_mm_SR_FullPostfit_plot_apr21.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hpt1_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hpt1_mm_SR_FullPostfit_plot_apr21.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/met_pt_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/met_pt_mm_SR_FullPostfit_plot_apr21.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/zmass_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/zmass_mm_SR_FullPostfit_plot_apr21.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/zpt0_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/zpt0_mm_SR_FullPostfit_plot_apr21.png}\\
+    \caption{Comparison of data and MC samples. 300 GeV, SR region, mm channel. Prefit plot on the left,           Full Postfit plot on the right.}
+    \label{fig:MCcomparisons_mm_low_SR_2}
+  \end{center}
+\end{figure}
+
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            \
+                                                                                                                                                                                  
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_leps_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_leps_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hhMt_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hhMt_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass0_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass0_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass1_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass1_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \caption{Comparison of data and MC samples. 300 GeV, CRTT region, mm channel. Prefit plot on the left,           Full Postfit plot on the right.}
+    \label{fig:MCcomparisons_mm_low_CRTT}
+  \end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt0_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt0_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt1_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt1_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/met_pt_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/met_pt_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_high_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_high_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zpt0_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zpt0_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \caption{Comparison of data and MC samples. 300 GeV, CRTT region, mm channel. Prefit plot on the left,           Full Postfit plot on the right.}
+    \label{fig:MCcomparisons_mm_low_CRTT_2}
+  \end{center}
+\end{figure}
+
+
+
+%% %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                     
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRDY_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_ee_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_ee_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/bdt_response_afterCut_ee_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/bdt_response_afterCut_ee_SR_FullPostfit_plot_apr21.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRTT_FullPostfit_plot_apr18.png}\\
+    \caption{Comparison of data and MC samples. 300 GeV, ee channel, BDT distributions for CRDY(top row), SR BDT sideband (2nd row), unblind SR (3rd row), CRTT (bottom row). Prefit plot on the left, Full Postfit plot on the right.}
+    \label{fig:bdt_ee}
+  \end{center}
+\end{figure}
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                             
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRDY_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRDY_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/bdt_response_afterCut_mm_SR_prefit_plot_apr21.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/bdt_response_afterCut_mm_SR_FullPostfit_plot_apr21.png}\\
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRTT_prefit_plot_apr18.png}
+    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRTT_FullPostfit_plot_apr18.png}\\
+    \caption{Comparison of data and MC samples. 300 GeV, mm channel, BDT distributions for CRDY(top row), SR BDT sideband (2nd row), unblinded SR (3rd row), CRTT (bottom row). Prefit plot on the left,           Full Postfit plot on the right.}
+    \label{fig:bdt_mm}
+  \end{center}
+\end{figure}
+
+
+\subsection{Multivariate discriminant: a BDT classifier}
+
+           
+           Explain in one sentence the MVA  key  idea (many variables -> one discriminant), state
+           that you use a BDT MVA as implemented in TMVA. Explain that first, a BDT is trained
+           on a pure sample of signal and background events from simulation, the training sample. 
+           The  properties of the discriminant are studied on an independent testing sample of pure signal 
+           and background second. You can also mention  why you chose a BDT and what other options
+           would be a possibility (along the lines you do in the present text, only with better language).
+                Explain how many BDTs you train and why (low/high, etc). 
+                Explain details including: importance of variables, correlation of variables, ROC curves
+           (explaining what a ROC is very briefly), the overtraining tests. You probably will  want  to 
+           mention that the BDT standard plots are prepared by the TMVA software, and thus have
+           notations for variables in a different format from what was used in the previous subsection
+           to define the quantities and in those kinematic plots. A convenient  way to explain the notations
+           is to have in this subsection, as  the first table the 4-table set of the importance of the variables in BDT.
+           Remake the table in Latex in any event. Have columns <Rank> <Variable> <BDT notation> <Importance, %>.
+           As <Variable> give the symbolic notation from the previous subsection which is also the one seen
+           on kinematic pre/post-fit plots. Define Importance briefly.
+           [Since you already provided plots of all kinematic quantities in the previous subsection, I do not  think
+           it is necessary to have a figure from TMVA  of  the BDT input variables TMVA-style. If you want,
+           you can have it, though. You can say  that these figures allow one a bit easier visually judge
+           which variables behave more differently between the  signal and the backgrounds.]
+           [You can leave also the TMVA parameters that are present in the current draft].
+                Finally, provide the figure of the BDT discriminant in the SR. Out of the 4 BDTs(e/mu x low/high)
+           you can provide all four plots in one figure, for example. I do not know if you also have versions
+           separately with the pre-fit and post-fit normalizations, but if you do, it is probably not necessary
+           to have both.
+
+\subsection{BDT selection requirement in the signal region}
+
+           
+                 In this subsection, you explain that  you apply a requirement to candidates in the signal region.
+           You explain that the requirement is specific to the mass hypothesis, and specific to the lepton channel
+           (but does not depend on the resonance nature). Then you explain the  method you used to choose 
+           the cut value, and provide the table of optimized BDT cut values and the efficiencies (those efficiencies
+           that  are presently in the  Table 5.2 in the PDF).
+
+           [Note that not once in my proposal do I mention the MTHH variable. This is because we really  look
+          at it after  the full selection including the BDT cut, so it appears premature to look at it earlier.
+          I will propose, in my future comments, to define it and look at its distributions in the Statistical Analysis chapter.]
+
+           [There is no need to mention all side studies, all optimizations in detail, or all cross checks in 
+          the dissertation, as you would certainly agree. Such as: kinematic plots from BDT sidebands,
+          or CR-only fits.]
+          
+          
+The Toolkit for Multivariate Data Analysis with ROOT (TMVA) package is used to perform BDT training~\cite{Hocker:2007ht}. This ROOT-integrated library enables the usage of the machine learning techniques for the physics data analysis and is commonly used. 
 
 
 \begin{table}                                                                                                                                                                          
@@ -461,103 +908,6 @@ Dibosons      &                        51.4 &                         6.2 \\
 
 
 
-
-
-           6.1. Kinematic variables of a candidate
-           You would start saying that a  number of kinematic quantities can be constructed
-           out of four-vectors that comprise a candidates.  The distributions of these quantities
-           generally differ for candidates originating from different background processes
-           as well as for candidates from the hypothetical signal. In this section we discuss
-           a set of kinematic quantities that differ most between the expected signal candidates
-           and background candidates, and that will be used as input for computing the multivariate 
-           discriminate that is later discussed in this section. Nine variables total are chosen for
-           this purpose and discussed here. About 30-40 other kinematic variables were considered at early 
-           stages and were discarded as it was found that they do not improve the results of this measurement
-           in a  significant way while increasing considerably the complexity of the measurement.
-           [if you like any of my  wording, feel free to plagiarize me.] [I felt that your wording about those
-           extra variables in the present PDF needs to be much improved, so consider something 
-           concise along the line of my  version].
-              Explain briefly that as a selection requirement will be applied on a quantity computed
-           based on these variables, the simulation has to  reproduce these quantities well.
-           Say that next, one by one, we will define each of the nine variables and provide  the
-           comparison of distributions form data and simulation in the signal as well as control
-           regions [do we need to provide plots of the BDT variables in the control regions?
-           I forget if you used only the signal region events to train the BDT. If CR is not relevant,
-           then we just provide plots of these variables for the SR].
-             Introduce generally the concept of pre-fit and post-fit plots without using terms/ideas
-           that are not yet introduced, and without using jargon (introducing ?pre-fit? and ?post-fit?
-           as terms is alright). Explain that while only the figures for one of the resonances, two
-           mass points, and the dimuon channel only are included in this dissertation, all other
-           relevant figures of these variables including for the dielectron channel and for regions of kinematic
-           space such as CRs have been examined and discussed with CMS collaborators during 
-           the review of the measurement in CMS. They show a similar behavior and agreement as
-           those included here.
-              One by one, go over the variables. E.g. with the style
-           \bf{$\Delta R$ separation between two b jets} or \paragraph{Invariant mass of the H->bb candidate}.
-           Define the variable, with the definition made as easy to understand for non-CMS people as
-           possible (while keeping it short). If you have some physics reasoning supporting the use 
-           of a variable, then give it. For example, you can say that Hbb mass for two b jets coming
-           from real H tends to be close to the SM Higgs mass smeared by the b jet energy-momentum
-           resolution while the background candidates from unrelated b jets can have smaller and larger
-           masses (especially if they come from the top quarks of the ttbar background).
-           Refer to the figures. 
-           Now, I do not  know, perhaps, all the complications, you will tell me if things are not as simple.
-           I am thinking: have one figure dedicated to each of the nine kinematic variables. On this figure:
-               plot 1: muon channel pre-fit SR distribution for 300 GeV graviton (or radion, your choice).
-               plot 2: muon channel post-fit SR distribution for 300 GeV graviton (or radion, your choice).
-               plot 3: muon channel pre-fit SR distribution for 900 GeV graviton (or radion, your choice).
-               plot 4: muon channel post-fit SR distribution for 900 GeV graviton (or radion, your choice).
-           These figures would be the subset of the figures from the Appendix 3 of your AN 2017/198.
-           If in the end you feel that the text is too cluttered with these figures, you can also move them
-           into the appendix of the thesis.
-              You may want to conclude this part with a paragraph that states that the simulated 
-           distributions are found in an acceptable agreement with those from the data and are 
-           judged to be adequate for a use in a multivariate discriminant construction discussed next.
-
-           6.2. Multivariate discriminant: a BDT discriminant.
-           Explain in one sentence the MVA  key  idea (many variables -> one discriminant), state
-           that you use a BDT MVA as implemented in TMVA. Explain that first, a BDT is trained
-           on a pure sample of signal and background events from simulation, the training sample. 
-           The  properties of the discriminant are studied on an independent testing sample of pure signal 
-           and background second. You can also mention  why you chose a BDT and what other options
-           would be a possibility (along the lines you do in the present text, only with better language).
-                Explain how many BDTs you train and why (low/high, etc). 
-                Explain details including: importance of variables, correlation of variables, ROC curves
-           (explaining what a ROC is very briefly), the overtraining tests. You probably will  want  to 
-           mention that the BDT standard plots are prepared by the TMVA software, and thus have
-           notations for variables in a different format from what was used in the previous subsection
-           to define the quantities and in those kinematic plots. A convenient  way to explain the notations
-           is to have in this subsection, as  the first table the 4-table set of the importance of the variables in BDT.
-           Remake the table in Latex in any event. Have columns <Rank> <Variable> <BDT notation> <Importance, %>.
-           As <Variable> give the symbolic notation from the previous subsection which is also the one seen
-           on kinematic pre/post-fit plots. Define Importance briefly.
-           [Since you already provided plots of all kinematic quantities in the previous subsection, I do not  think
-           it is necessary to have a figure from TMVA  of  the BDT input variables TMVA-style. If you want,
-           you can have it, though. You can say  that these figures allow one a bit easier visually judge
-           which variables behave more differently between the  signal and the backgrounds.]
-           [You can leave also the TMVA parameters that are present in the current draft].
-                Finally, provide the figure of the BDT discriminant in the SR. Out of the 4 BDTs(e/mu x low/high)
-           you can provide all four plots in one figure, for example. I do not know if you also have versions
-           separately with the pre-fit and post-fit normalizations, but if you do, it is probably not necessary
-           to have both.
-
-           6.3. BDT selection requirement in the signal region
-                 In this subsection, you explain that  you apply a requirement to candidates in the signal region.
-           You explain that the requirement is specific to the mass hypothesis, and specific to the lepton channel
-           (but does not depend on the resonance nature). Then you explain the  method you used to choose 
-           the cut value, and provide the table of optimized BDT cut values and the efficiencies (those efficiencies
-           that  are presently in the  Table 5.2 in the PDF).
-
-           [Note that not once in my proposal do I mention the MTHH variable. This is because we really  look
-          at it after  the full selection including the BDT cut, so it appears premature to look at it earlier.
-          I will propose, in my future comments, to define it and look at its distributions in the Statistical Analysis chapter.]
-
-           [There is no need to mention all side studies, all optimizations in detail, or all cross checks in 
-          the dissertation, as you would certainly agree. Such as: kinematic plots from BDT sidebands,
-          or CR-only fits.]
-          
-          
-The Toolkit for Multivariate Data Analysis with ROOT (TMVA) package is used to perform BDT training~\cite{Hocker:2007ht}. This ROOT-integrated library enables the usage of the machine learning techniques for the physics data analysis and is commonly used. 
 
 \subsection{Construction of the BDT}
 In this analysis we use the set of nine variables to construct the BDT. These variables are the same in both low and high mass trainings and for both heavy resonances.
@@ -880,222 +1230,6 @@ of uncertainties follows.
 
 
 
-
-
-%\begin{sidewaystable}
-%\begin{center}
-%\caption{Yield variations, ee channel, 300 GeV.}
-%\begin{tabular}{ | c | c | c | c | c | c |c | c | } \hline
-% sample & b-tagging &  mistag &  electron IDnISO &  electron tracker &  electron trigger &  jet resolution &  jet scale \\\hline
-%  DY &              4.3 &     7.4 &              5.4 &               1.1 &               2.1 &             0.2 &        5.3 \\
-%  TT &              0.5 &     7.4 &              4.7 &               1.1 &               1.9 &             0.0 &        0.5 \\
-%  signal\_bbzz &    0.2 &     7.6 &              5.0 &               1.1 &               2.0 &             0.7 &        5.8 \\
-%  signal\_bbww &    0.0 &     7.6 &              6.7 &               1.1 &               2.9 &             0.0 &        1.6 \\\hline
-%\end{tabular}
-%\label{normalization_electron}
-%\end{center}
-%%---------------------------------------------------------------------                                        
-%%Vertical lines as column separators                                                                          
-%\begin{center}
-%\caption{Yield variations, mm channel, 300 GeV.}
-%\begin{tabular}{ | c | c | c | c| c | c | c | c| c |}\hline
-%sample &  b-tagging &  mistag &  muon ID &  muon ISO &  muon tracker &  muon trigger &  jet resolution &  jet scale \\\hline
-%  DY &              4.9 &     7.0 &      0.2 &       0.1 &           0.1 &           0.4 &             0.2 &        9.4 \\
-%  TT &              0.9 &     7.2 &      0.2 &       0.1 &           0.0 &           0.4 &             0.6 &        0.7 \\
-%  signal\_bbzz &    0.3 &     7.7 &      0.2 &       0.1 &           0.0 &           0.4 &             0.5 &        4.4 \\
-%  signal\_bbww &    0.0 &     9.2 &      0.2 &       0.1 &           0.0 &           0.1 &             0.0 &        8.5 \\\hline
-%\end{tabular}
-%\label{yieldVariations}
-%\end{center}
-%%\end{table}
-%\end{sidewaystable}
-%\begin{sidewaystable}
-%\begin{center}
-%\caption{Yield variations, ee channel, 300 GeV.}
-%\begin{tabular}{ | c | c | c | c | c | c |c | c | } \hline
-% sample & b-tagging &  mistag &  electron IDnISO &  electron tracker &  electron trigger &  jet resolution &  jet scale \\\hline
-%  DY &              4.3 &     7.4 &              5.4 &               1.1 &               2.1 &             0.2 &        5.3 \\
-%  TT &              0.5 &     7.4 &              4.7 &               1.1 &               1.9 &             0.0 &        0.5 \\
-%  signal\_bbzz &    0.2 &     7.6 &              5.0 &               1.1 &               2.0 &             0.7 &        5.8 \\
-%  signal\_bbww &    0.0 &     7.6 &              6.7 &               1.1 &               2.9 &             0.0 &        1.6 \\\hline
-%\end{tabular}
-%\label{normalization_electron}
-%\end{center}
-%%---------------------------------------------------------------------                                        
-%%Vertical lines as column separators                                                                          
-%\begin{center}
-%\caption{Yield variations, mm channel, 300 GeV.}
-%\begin{tabular}{ | c | c | c | c| c | c | c | c| c |}\hline
-%sample &  b-tagging &  mistag &  muon ID &  muon ISO &  muon tracker &  muon trigger &  jet resolution &  jet scale \\\hline
-%  DY &              4.9 &     7.0 &      0.2 &       0.1 &           0.1 &           0.4 &             0.2 &        9.4 \\
-%  TT &              0.9 &     7.2 &      0.2 &       0.1 &           0.0 &           0.4 &             0.6 &        0.7 \\
-%  signal\_bbzz &    0.3 &     7.7 &      0.2 &       0.1 &           0.0 &           0.4 &             0.5 &        4.4 \\
-%  signal\_bbww &    0.0 &     9.2 &      0.2 &       0.1 &           0.0 &           0.1 &             0.0 &        8.5 \\\hline
-%\end{tabular}
-%\label{yieldVariations}
-%\end{center}
-%%\end{table}
-%\end{sidewaystable}
-%\begin{sidewaystable}
-%\begin{center}
-%\caption{Yield variations, ee channel, 300 GeV.}
-%\begin{tabular}{ | c | c | c | c | c | c |c | c | } \hline
-% sample & b-tagging &  mistag &  electron IDnISO &  electron tracker &  electron trigger &  jet resolution &  jet scale \\\hline
-%  DY &              4.3 &     7.4 &              5.4 &               1.1 &               2.1 &             0.2 &        5.3 \\
-%  TT &              0.5 &     7.4 &              4.7 &               1.1 &               1.9 &             0.0 &        0.5 \\
-%  signal\_bbzz &    0.2 &     7.6 &              5.0 &               1.1 &               2.0 &             0.7 &        5.8 \\
-%  signal\_bbww &    0.0 &     7.6 &              6.7 &               1.1 &               2.9 &             0.0 &        1.6 \\\hline
-%\end{tabular}
-%\label{normalization_electron}
-%\end{center}
-%%---------------------------------------------------------------------                                        
-%%Vertical lines as column separators                                                                          
-%\begin{center}
-%\caption{Yield variations, mm channel, 300 GeV.}
-%\begin{tabular}{ | c | c | c | c| c | c | c | c| c |}\hline
-%sample &  b-tagging &  mistag &  muon ID &  muon ISO &  muon tracker &  muon trigger &  jet resolution &  jet scale \\\hline
-%  DY &              4.9 &     7.0 &      0.2 &       0.1 &           0.1 &           0.4 &             0.2 &        9.4 \\
-%  TT &              0.9 &     7.2 &      0.2 &       0.1 &           0.0 &           0.4 &             0.6 &        0.7 \\
-%  signal\_bbzz &    0.3 &     7.7 &      0.2 &       0.1 &           0.0 &           0.4 &             0.5 &        4.4 \\
-%  signal\_bbww &    0.0 &     9.2 &      0.2 &       0.1 &           0.0 &           0.1 &             0.0 &        8.5 \\\hline
-%\end{tabular}
-%\label{yieldVariations}
-%\end{center}
-%%\end{table}
-%\end{sidewaystable}
-
-
-
-
-
-
-
-
-
-
-
-
-
-%
-%
-%Systematic uncertainties may change the derived limits. Uncertainties
-%that we consider may change the normalization or distort the shape
-%that we used for fits. The following sources of the uncertainties have
-%been included:
-%\begin{itemize}
-%
-% \item {\bfseries Luminosity}: an uncertainty of $2.5\%$ is assigned for
-%   2016 luminosity. All the processes are affected except those, which normalization is determined using data driven methods: DY and \ttbar normalization
-%
-% \item {\bfseries Lepton Efficiency}: identification, isolation, tracker,
-%   and trigger scale factors have been determined using the standard EGamma POG and Muon POG technique of the Tag-and-Probe. 
-%   Up and Down variations with respect to the nominal value of the scale factor (within the uncertainty on the value) have been propagated to the final HH transverse mass shape that goes to the fit with the Higgs Combination Tool. Each scale factor type (identification, isolation, tracker,
-%   and trigger scale factor) is propagated independently. Overall, the effect of the lepton efficiency, when dealing with b jets, is a very minor
-%   one.  These uncertainties are included in both electron and muon channels.
-%
-% \item {\bfseries MET}: the effect of the JEC and JER on the MET is studied modifying MET variables that go into HH transverse mass shape used in the final fit. The effect of the calibration of unclustered MET, meaning missing energy associated with particles that are not clustered into jets, is found only on the normalization, the shape itself is not distorted. The size of the effect is $~3\%$ depending on the mass hypothesis and the $3\%$ normalization uncertainty is used in the analysis.
-%
-% \item {\bfseries Jet Energy Scale}: following JetMET group recommendation we check the effect of this uncertainty
-%   on all jet-related variables that enter BDT and/or HH system. The scale value is varied Up and Down and modified HH
-%   transverse mass shapes are obtained and used in the final fit.
-%
-% \item {\bfseries Jet Energy Resolution}: we vary up and down jet energy
-%   resolution by one $\sigma$ and modify all the jet related
-%   variables that are a part of the BDT and/or HH system prior to constructing the final shape. Varied HH transverse mass shapes are used in the final fit.
-%
-% \item {\bfseries B-jet Tagging and mistag uncertainties}: following the suggestions from the BTV POG
-%   b tag and mistag scale factors are applied to all MC samples. The effect of the usage of 
-%   light and heavy flavor scale factors is propagated to the final shapes.
-%
-% %% \item {\bfseries PDF uncertainties}: impossibility to know precisely the
-% %%   content of the colliding proton or gluon is addressed in this
-% %%   uncertainty. Using the recommended values from LHC Higgs Cross Section group documented in the CERNYellowReportPageAt13TeV we assign $O(1-5)\%$ uncertainties to quark-quark initiated
-% %%   processes and $O(10-20)\%$ uncertainties to gluon-gluon uncertainties depending on the process.
-%  
-% %% \item {\bfseries QCD scale variations}: The uncertainty on the QCD normalization scale for each
-% %%   individual process is assigned to a corresponding specific theory error suggested by CMS generator group, which maintains a twiki page with a collection of cross sections for Standard Model processes to be used in the CMS analyses. More information on how the cross-sections and the associated theory errors have been determined is available at ~\cite{SMxsec}. 
-%
-%\item {\bfseries QCD scale variations}: This uncertainty is estimated by varying the renormalization ($\mu_{R}$) and the factorization ($\mu_{F}$) scales, independently by a factor of 2, meaning from the nominal value of 1 to values of 0.5 and 2. Unphysical situations with one scale fluctuating up and the other fluctuating down are not considered. In each bin of the distribution the maximum (minimum) variation is used as an estimate of the QCD scale uncertainties for all the background and signal samples. The resulting effect has been found on the normalization at the order of $4-6\%$.
-%
-%
-%\item {\bfseries PDF uncertainties}: impossibility to know precisely the
-%   content of the colliding proton or gluon is addressed in this
-%   uncertainty. The RMS of each of the 101 NNPDF MC variations of the strong coupling constant for each simulated background and signal processes is calculated and the largest one is assigned as a normalization uncertainty, and is of the order of $5\%$. 
-%
-%
-%
-%
-%
-%%% \item {\bfseries PDF uncertainties}: impossibility to know precisely the
-%%%    content of the colliding proton or gluon is addressed in this
-%%%    uncertainty. For each process, the RMS of each of the 101 NNPDF MC variations is calculated and the largest one is assigned as a normalization un\
-%%% certainty, and is of the order of $5\%$.
-%
-%%%  \item {\bfseries QCD scale variations}: The QCD scale normalization and factorization at $1/2$ and 2 have been applied to each sample and the resulting e\
-%%% ffect has been found to be $4-6\%$.
-%
-%
-%
-%
-%
-% %\item {\bfseries Cross section normalization}: Uncertainty associated with the cross section value for the
-%   %\ttbar and single top processes. We used the same numbers as in bbVV analysis.
-%
-% \item {\bfseries Pile up }: The effect of pile up on each
-%   process is considered. The recommended nominal value of 69.2 mb is used for the total inelastic pp cross section, for Down and Up variations, the values of 66.02 and 72.38 mb are used respectively. The effect is seen only in the normalization and we, thus, switch to the normalization uncertainty and assign the value of $6\%$.
-%
-%
-% \item {\bfseries Drell-Yan and \ttbar normalizations }: \ttbar and Drell-Yan
-%   normalizations we extract from the simultaneous fit of both signal
-%   region and DY and \ttbar ~control regions. Normalizations of main backgrounds are allowed to float freely to let the fitter find the best values of the DY and \ttbar normalizations to fit the existing data. HH transverse mass distributions are used in the fit. Separately, an option of control regions only fit has been studied and results were found consistent with the DY and \ttbar normalizations obtained from the fit where signal region was included. Overall, the normalization of \ttbar is near the value
-%   '1', deviating up to $\approx10-20\%$ depending on the mass point. DY normalization is deviating higher from the value of '1' since the requirement on 2 b jets and a high boost pushes DY process to higher pT and flavor phase space that is not well modeled in the MC. Therefore, a part of the analysis strategy was to extract these numbers using the real data. The final $\chi^2$ values after the application of \ttbar and Drell-Yan normalizations are near the value '1'.
-%
-% \item {\bfseries Bin-by-bin uncertainties } To account for the low statistics in some bins of HH transverse mass distribution in MC, bin-by-bin uncertainties should be used. If the error on the MC in the bin is zero, the bin is skipped entirely. However, if the error is non zero and if the number of effective events for each given process is lower than or equal to zero, a Poisson-constrained parameter will be created. Otherwise a Gaussian-constrained parameter is assigned to this bin. Barlow-Beeston algorithm is used to create these bin-by-bin parameters which scale the total yield in the bin. The advantage of this algorithm is that each nuisance parameter has a simple analytic form and analytic minimization can be performed, which results in the reduction of the fit time and an increase of the fit stability.
-%
-% \item {\bfseries Shape uncertainties}: All shape systematic
-%   uncertainties are addressed separately and all together are used in the final fit. The following uncertainties are considered as shape
-%   uncertainties: each of lepton scale factors, b tag scale factors of
-%   both light and heavy flavour, effect of JEC and JER on all the variables used in
-%   BDT and/or HH system. For all these shape uncertainties we
-%   propagate the source of uncertainty through all the related
-%   variables that enter our BDT or region selection all the way to
-%   building the HH candidate and obtaining the final shape.  We
-%   produce, therefore, final shapes with the 'nominal value' as well
-%   as with 1~$\sigma$ 'Up' and 'Down' variations. 
-%
-%\end{itemize}
-
-
-%% \begin{center}
-%% \begin{figure}[tbp]
-%% %\includegraphics[width=0.5\textheight]{impacts_nov7_300GeV.pdf}
-%% %\caption{ Impacts plot for 300 GeV case. Actual limit at this mass point is $248.25_{-71.07}^{+103.9}$~pb.}
-%% %\includegraphics[width=0.5\textheight]{impacts_april6.pdf}
-%% \includegraphics[width=0.5\textheight]{impacts_50_strategy2_july23_300.pdf}
-%% \includegraphics[width=0.5\textheight]{impacts_1500_strategy0_july23_900.pdf}
-%% \caption{ Impacts plot for 300(top) and 900 (bottom) GeV case.}% Actual limit at this mass point is $248.25_{-71.07}^{+103.9}$~pb.}
-%% \label{fig:impactsBBB}
-%% \end{figure}
-%% \end{center}
-
-
-
-%Following the Higgs PAG list of question for the preapproval checks ~\cite{HiggsPAGPreapprovalChecks}, we produce for 300 GeV case fit results for a background-only Asimov toy (Fig.~\ref{mlfit_Asimov}) and a signal+background Asimov toy (Fig.~\ref{mlfit_Asimov}), with the corresponding outputs of running "diffNuisances.py" that can be found at ~\cite{Comparison_of_nuisances_expectedSignal0_350} and ~\cite{Comparison_of_nuisances_expectedSignal1_350}. 
-
-
-
-
-
-%\begin{table}
-
-
-%The impacts plot with BBB uncertainties can be found at Fig.\ref{fig:impactsBBB}.%~\ref{pulls}.
-
-
-
-
-%\section{Results}
-%\label{sec:results}
 \section{Statistical Analysis}
 \label{sec:statistics}
 
