@@ -21,19 +21,21 @@
 \contentsline {subsection}{\numberline {1.6.2}Signal candidate construction and selection}{18}{subsection.1.6.2}
 \contentsline {subsection}{\numberline {1.6.3}Signal and control kinematic regions}{20}{subsection.1.6.3}
 \contentsline {subsection}{\numberline {1.6.4}Signal region candidate selection with a multivariate technique}{22}{subsection.1.6.4}
-\contentsline {section}{\numberline {1.7}BDT Discriminant}{22}{section.1.7}
-\contentsline {paragraph}{Invariant mass of the H->bb candidate}{24}{section*.14}
-\contentsline {subsection}{\numberline {1.7.1}Construction of the BDT}{27}{subsection.1.7.1}
-\contentsline {section}{\numberline {1.8}Systematic Uncertainties}{37}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Normalization uncertainties}{37}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{46}{subsection.1.8.2}
-\contentsline {section}{\numberline {1.9}Statistical Analysis}{48}{section.1.9}
-\contentsline {section}{\numberline {1.10}Limits Extraction}{50}{section.1.10}
-\contentsline {subsection}{\numberline {1.10.1}Optimization for the best limit}{50}{subsection.1.10.1}
-\contentsline {subsection}{\numberline {1.10.2}Results from the fit}{52}{subsection.1.10.2}
-\contentsline {section}{\numberline {1.11}$bbZZ$ measurements and combination of all HH channels}{53}{section.1.11}
-\contentsline {subsection}{\numberline {1.11.1}Data and MC comparison}{58}{subsection.1.11.1}
-\contentsline {subsection}{\numberline {1.11.2}Scale Factors}{60}{subsection.1.11.2}
-\contentsline {chapter}{\chapternumberline {2}Conclusions}{70}{chapter.2}
-\contentsline {chapter}{Bibliography}{72}{chapter.2}
-\contentsline {chapter}{References}{72}{section*.42}
+\contentsline {section}{\numberline {1.7}Multivariate selection in the signal region}{22}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Kinematic variables of a candidate}{23}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Multivariate discriminant: a BDT classifier}{33}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}BDT selection requirement in the signal region}{42}{subsection.1.7.3}
+\contentsline {subsection}{\numberline {1.7.4}Construction of the BDT}{42}{subsection.1.7.4}
+\contentsline {section}{\numberline {1.8}Systematic Uncertainties}{59}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Normalization uncertainties}{59}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{61}{subsection.1.8.2}
+\contentsline {section}{\numberline {1.9}Statistical Analysis}{63}{section.1.9}
+\contentsline {section}{\numberline {1.10}Limits Extraction}{65}{section.1.10}
+\contentsline {subsection}{\numberline {1.10.1}Optimization for the best limit}{65}{subsection.1.10.1}
+\contentsline {subsection}{\numberline {1.10.2}Results from the fit}{67}{subsection.1.10.2}
+\contentsline {section}{\numberline {1.11}$bbZZ$ measurements and combination of all HH channels}{69}{section.1.11}
+\contentsline {subsection}{\numberline {1.11.1}Data and MC comparison}{72}{subsection.1.11.1}
+\contentsline {subsection}{\numberline {1.11.2}Scale Factors}{74}{subsection.1.11.2}
+\contentsline {chapter}{\chapternumberline {2}Conclusions}{83}{chapter.2}
+\contentsline {chapter}{Bibliography}{85}{chapter.2}
+\contentsline {chapter}{References}{85}{section*.52}

@@ -20,18 +20,21 @@
 \BOOKMARK [2][-]{subsection.1.6.2}{Signal candidate construction and selection}{section.1.6}% 20
 \BOOKMARK [2][-]{subsection.1.6.3}{Signal and control kinematic regions}{section.1.6}% 21
 \BOOKMARK [2][-]{subsection.1.6.4}{Signal region candidate selection with a multivariate technique}{section.1.6}% 22
-\BOOKMARK [1][-]{section.1.7}{BDT Discriminant}{chapter.1}% 23
-\BOOKMARK [2][-]{subsection.1.7.1}{Construction of the BDT}{section.1.7}% 24
-\BOOKMARK [1][-]{section.1.8}{Systematic Uncertainties}{chapter.1}% 25
-\BOOKMARK [2][-]{subsection.1.8.1}{Normalization uncertainties}{section.1.8}% 26
-\BOOKMARK [2][-]{subsection.1.8.2}{Shape uncertainties}{section.1.8}% 27
-\BOOKMARK [1][-]{section.1.9}{Statistical Analysis}{chapter.1}% 28
-\BOOKMARK [1][-]{section.1.10}{Limits Extraction}{chapter.1}% 29
-\BOOKMARK [2][-]{subsection.1.10.1}{Optimization for the best limit}{section.1.10}% 30
-\BOOKMARK [2][-]{subsection.1.10.2}{Results from the fit}{section.1.10}% 31
-\BOOKMARK [1][-]{section.1.11}{bbZZ measurements and combination of all HH channels}{chapter.1}% 32
-\BOOKMARK [2][-]{subsection.1.11.1}{Data and MC comparison}{section.1.11}% 33
-\BOOKMARK [2][-]{subsection.1.11.2}{Scale Factors}{section.1.11}% 34
-\BOOKMARK [0][-]{chapter.2}{Conclusions}{}% 35
-\BOOKMARK [0][-]{chapter.2}{Bibliography}{}% 36
-\BOOKMARK [0][-]{section*.42}{References}{}% 37
+\BOOKMARK [1][-]{section.1.7}{Multivariate selection in the signal region}{chapter.1}% 23
+\BOOKMARK [2][-]{subsection.1.7.1}{Kinematic variables of a candidate}{section.1.7}% 24
+\BOOKMARK [2][-]{subsection.1.7.2}{Multivariate discriminant: a BDT classifier}{section.1.7}% 25
+\BOOKMARK [2][-]{subsection.1.7.3}{BDT selection requirement in the signal region}{section.1.7}% 26
+\BOOKMARK [2][-]{subsection.1.7.4}{Construction of the BDT}{section.1.7}% 27
+\BOOKMARK [1][-]{section.1.8}{Systematic Uncertainties}{chapter.1}% 28
+\BOOKMARK [2][-]{subsection.1.8.1}{Normalization uncertainties}{section.1.8}% 29
+\BOOKMARK [2][-]{subsection.1.8.2}{Shape uncertainties}{section.1.8}% 30
+\BOOKMARK [1][-]{section.1.9}{Statistical Analysis}{chapter.1}% 31
+\BOOKMARK [1][-]{section.1.10}{Limits Extraction}{chapter.1}% 32
+\BOOKMARK [2][-]{subsection.1.10.1}{Optimization for the best limit}{section.1.10}% 33
+\BOOKMARK [2][-]{subsection.1.10.2}{Results from the fit}{section.1.10}% 34
+\BOOKMARK [1][-]{section.1.11}{bbZZ measurements and combination of all HH channels}{chapter.1}% 35
+\BOOKMARK [2][-]{subsection.1.11.1}{Data and MC comparison}{section.1.11}% 36
+\BOOKMARK [2][-]{subsection.1.11.2}{Scale Factors}{section.1.11}% 37
+\BOOKMARK [0][-]{chapter.2}{Conclusions}{}% 38
+\BOOKMARK [0][-]{chapter.2}{Bibliography}{}% 39
+\BOOKMARK [0][-]{section*.52}{References}{}% 40
