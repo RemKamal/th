@@ -25,16 +25,15 @@
 \contentsline {subsection}{\numberline {1.7.1}Kinematic variables of a candidate}{23}{subsection.1.7.1}
 \contentsline {subsection}{\numberline {1.7.2}Multivariate discriminant: a BDT classifier}{33}{subsection.1.7.2}
 \contentsline {subsection}{\numberline {1.7.3}BDT selection requirement in the signal region}{53}{subsection.1.7.3}
-\contentsline {section}{\numberline {1.8}Systematic Uncertainties}{53}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Normalization uncertainties}{54}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{56}{subsection.1.8.2}
-\contentsline {section}{\numberline {1.9}Statistical Analysis}{58}{section.1.9}
+\contentsline {section}{\numberline {1.8}Systematic Uncertainties}{54}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Normalization uncertainties}{55}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{57}{subsection.1.8.2}
+\contentsline {section}{\numberline {1.9}Statistical Analysis}{59}{section.1.9}
 \contentsline {section}{\numberline {1.10}Limits Extraction}{60}{section.1.10}
-\contentsline {subsection}{\numberline {1.10.1}Optimization for the best limit}{60}{subsection.1.10.1}
-\contentsline {subsection}{\numberline {1.10.2}Results from the fit}{62}{subsection.1.10.2}
-\contentsline {section}{\numberline {1.11}$bbZZ$ measurements and combination of all HH channels}{64}{section.1.11}
-\contentsline {subsection}{\numberline {1.11.1}Data and MC comparison}{67}{subsection.1.11.1}
-\contentsline {subsection}{\numberline {1.11.2}Scale Factors}{69}{subsection.1.11.2}
-\contentsline {chapter}{\chapternumberline {2}Conclusions}{78}{chapter.2}
-\contentsline {chapter}{Bibliography}{80}{chapter.2}
-\contentsline {chapter}{References}{80}{section*.47}
+\contentsline {subsection}{\numberline {1.10.1}Results from the fit}{61}{subsection.1.10.1}
+\contentsline {section}{\numberline {1.11}$bbZZ$ measurements and combination of all HH channels}{63}{section.1.11}
+\contentsline {subsection}{\numberline {1.11.1}Data and MC comparison}{66}{subsection.1.11.1}
+\contentsline {subsection}{\numberline {1.11.2}Scale Factors}{68}{subsection.1.11.2}
+\contentsline {chapter}{\chapternumberline {2}Conclusions}{75}{chapter.2}
+\contentsline {chapter}{Bibliography}{77}{chapter.2}
+\contentsline {chapter}{References}{77}{section*.45}
