@@ -598,56 +598,24 @@ In simple terms, the ML procedure consists of the training and testing stages (s
 
 After the training procedure, ML algorithm produce a discriminator, which is a function that is related to the likelihood of an event to belong to a signal or to a background category. Here and in other parts of the thesis, we are describing the BDT procedure, which is a non-parametric supervised learning method used for classification; other MVA methods that are not related to this measurement, are well-explained in \cite{book:411471}. 
 
-Every analysts would always like to have a classifier that has a low bias and a low variance. A bias is the difference between the average prediction of our model and the correct value, which we are trying to predict. A classifier with a high bias oversimplifies the model and does not take into account all the details of a given train data. Therefore, one prefers a low bias models, which perform well both on the train and test data and always provide a stable good separation between the signal and background hypotheses. A variance is the variability of model prediction for a given data point. A variance is related to the spread of our data. A model with high variance learns almost every single pattern in the train data and, therefore, will not generalise well, when given new unseen data. As a result, models with a high variance achieve the best scores using the train data but perform poorly on the test data. Thus, one prefers a low variance models, which are robust when applying the trained classifiers on a dataset that is statistically independent from the one used for training.
+Every analysts would always like to have a classifier that has a low bias and a low variance. A bias is a difference between the average prediction of our model and the correct value, which we are trying to predict. A classifier with a high bias oversimplifies the model and does not take into account all the nuances of a given train data. Therefore, one prefers a low bias models, which are flexible and perform well both on the train and test data, and always provide a stable good separation between the signal and background hypotheses. A variance is the variability of model prediction for a given data point. A variance is related to the spread of our data. A model with high variance learns almost every single pattern in the train data and, therefore, will not generalise well, when given new unseen data. As a result, models with a high variance achieve the best scores using the train data but perform poorly on the test data. Thus, one prefers a low variance models, which are robust when applying the trained classifiers on a dataset that is statistically independent from the one used for training.
 
+One of the most popular ML algorithms in HEP is based on the boosted decision trees (BDT). A single decision tree is a sequence of simple binary splits on each of the input variables. The tree, thus, can be depicted as a multidimensional set of selections on input space. The tree assigns a score of +1 or -1 if a given event is signal or background-like. The key elements in each step of the BDT spilts are the variables used for the selection and the positions of the selections. Both are determined using an impurity criterion $I(p_n)$, which is a function of the signal purity $p_n$ in tree node $n$. The signal purity is defined as a ratio of the signal contribution to the total number of signal and background events, $p_n = S/(S+B)$. The impurity criterion is chosen such that it is at the minumum when $p_n$=0 or $p_n$=1. These values would give a perfect signal-background discrimination. The criterion is at the maximum, when $p_n$=0.5, which means no discrimination is achieved. 
+Each split maximises the gain function $G=I(p_n) - f_1I(p_{c1})-f_2I(p_{c2})$. In this formulation of $G$, the labels c1 and c2 refer to chid nodes of the parent node, and $f1$ and $f2$ are the fractions of events of the parent node that are found in child nodes c1 and c2, respectively. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a discriminator are boosted decision trees (BDTs) and multilayer perceptrons (MLPs).
+The tree keeps applying the selection on the input variables until either a maximum depth is reached (a number of consecutive splits), or a minimum number of events in the final child nodes are attained. The problem with such a tree growing procedure is that it is prone to overtraining, which means the model will not generalise well and have a high variance. One way to deal with BDT overtraining is boosting. 
+The idea behind boosting is, that signal events
+ from the training sample that end up in a background node or vice versa, are given intentionally large weights (a penalty). These weights are normally significantly larger than the weights for events with
+ the correct leave node prediction. Such penalty procedure reweighs the train data and then new decision trees are created. The boosting is applied hundreds of times, which produces a set of new reweighed trees (a forest). Intuitively, the boosting is a method in which a large number of shallow trees, which have only a few splits, are combined by taking a weighted average of their output scores. The discriminating power of a single shallow tree is usually poor, but such a tree is less prone to overtraining, therefore, when combined, the ensemble of these trees produces a model with a high and stable performance.
+ 
+We chose the gradient boosting algorithm, as is implemented in the popular MVA package for HEP - TMVA \cite{Hocker:2007ht}.  Gradient boosting can be thought of as a function expansion approach. In this case each tree corresponds to a summand. The parameters for each summand (tree) are determined by minimising of an error function. In the TMVA implementation, the binomial log-likelihood loss function is used. The adopted procedure follows the greedy algorithm approach - only one tree is modified at a time, while the other trees remain invariable.
+ Several decision trees of the BDT procedure, that is employed in the analysis, are shown below. This training was done in the d-electron channel. In these figures produced by the TMVA, the index 0 refers to \HZZ candidate and index 1 refers to \HBB candidate. For example, ``hmass1'' denotes the mass of the \HZZ candidate, ``hpt0'' denotes the $p_T$ of the \HBB candidate, etc. Lastly, for the Z boson candidate, the on-shell Z boson decaying to charged leptons, \Zll, has either an index 0 or the index is dropped. The closer the node color is to blue, the more the event is classified as signal-like, same idea is illustrated with the red color for background events. 
            
-           
-           
-           Boosted Decision Trees
-A decision tree can be represented as a sequence of binary splits on the input features, as
-depicted on Fig. 2.17. This procedure builds rectangular regions in the input space, which
-can be then assigned a score of +1 or -1 if they are signal- or background-dominated1. In
-other words, a tree is a step function h : x ? h(x) ? {?1,1}. Each split is defined by the
-variable that is used to cut on, and the position of the cut. Both choices are determined
-using an impurity criterion I(pn), function of the signal purity pn in node n, that is
-maximal for pn ?? 0.5 (no discrimination) and minimal for pn ?? 0 or pn ?? 1 (perfect dis-
-crimination). The chosen split should maximise the gain G ?? I(pm)? f1I(pc )? f2I(pc ), 12
-where c1 and c2 are the two ?child? nodes obtained by splitting the ?mother? node m, and fi is the fraction of events in m falling into node ci. A widely used criterion is the Gini coefficient IG(p)??p(1?p). This iterative tree growing procedure can be stopped
-           by requiring a maximum depth (number of consecutive splits) or a minimum number of events in the final nodes.
-Trees built in this way are subject to high variance (overtraining), i.e. they are strongly sensitive to statistical fluctuations in the training sample and do not generalise well. A successful method to alleviate overtraining is boosting, in which a large number T of shallow trees ht(x), grown with only a few splits, are combined by taking a weighted average of their output scores: FT (x) ?? ??Tt??1 ?t ht (x). Each single shallow tree has poor discrimination power but is less prone to overtraining, and the ensemble average of such weak learners results in a strong learner with high and stable performance.
-The boosting algorithm used in this work is AdaBoost [212]. First, the outputs are set e.g. to F0(x) ?? 0, and events are assigned equal weights wi,0 ?? 1/N. At iteration t, a weak learner ht (x) is grown according to the strategy detailed above, typically with only two or three splits. The weighted classification error ?t ?? ??i,ht (xi )??yi wi,t is then computed, and
-1 ??1??t ??
-with? ?? log thenewtreeisaddedtotheensembleasF (x)??F (x)+? h (x).
-  t2 ?t t t?1 tt The event weights are then updated as wi,t+1 ??Z·wi,tE(yi,ht(xi))?t , where the error
-functionisE(y,h)??e?yh andZisanormalisationfactors.t.??iwi,t+1??1.Thus,misclas- sified events at iterations ? t are given increased weights in the creation of the tree at iteration t + 1, and trees which achieve a small classification error contribute more to the ensemble average.
-Other ensemble methods, such as gradient boosting (of which AdaBoost can be seen as a particular case) [213] and bootstrap aggregation (bagging) [214], will not be detailed here. Finally, it should be clear that those methods can be applied to any form of learners, but have been particularly successful when used in conjunction with decision trees.
-           
-           
-           
-           
-           
-           
-\begin{figure}[H]
+ \begin{figure}[H]
   \begin{center}
     \includegraphics[width=0.94\textwidth]{BDT_0.pdf}
     \includegraphics[width=0.94\textwidth]{BDT_1.pdf}\\
-     \caption{BDT trees. }
+     \caption{BDT trees 1 and 2 (indexing starts from 0). These trees relied on: the mass and the $p_T$ of the \Zll~candidate, $\Delta R$ separation between two b jets,  the mass of the \HBB~candidate, and the $p_T$ of the $ZZ^*$ system.}
     \label{fig:bdt_trees}
   \end{center}
 \end{figure}
@@ -656,8 +624,11 @@ Other ensemble methods, such as gradient boosting (of which AdaBoost can be seen
   \begin{center}
     \includegraphics[width=0.94\textwidth]{BDT_399.pdf}
     \includegraphics[width=0.94\textwidth]{BDT_400.pdf}\\
-     \caption{BDT trees. }
-    \label{fig:bdt_trees}
+     \caption{BDT trees 400 and 401 (indexing starts from 0). These trees relied on: the $p_T$ of the \Zll~candidate, 
+     $\Delta R$ separation between two b jets,
+     $\Delta R$ separation between two charged leptons, 
+      the $p_T$ of the \HBB~candidate, and the mass and the $p_T$ of the $ZZ^*$ system.}    
+      \label{fig:bdt_trees_2}
   \end{center}
 \end{figure}
 
@@ -665,19 +636,27 @@ Other ensemble methods, such as gradient boosting (of which AdaBoost can be seen
   \begin{center}
     \includegraphics[width=0.94\textwidth]{BDT_798.pdf}
     \includegraphics[width=0.94\textwidth]{BDT_799.pdf}\\
-     \caption{BDT trees. }
-    \label{fig:bdt_trees}
+     \caption{BDT trees 799 and 800 (indexing starts from 0). These trees relied on: the $p_T$ of the \Zll~candidate, 
+     $\Delta R$ separation between two b jets,
+     $\Delta R$ separation between two charged leptons, 
+      the mass of the \HBB~candidate, and the mass of the $ZZ^*$ system.}       
+     \label{fig:bdt_trees_3}
   \end{center}
 \end{figure}
            
            
-           Explain in one sentence the MVA  key  idea (many variables -> one discriminant), state
-           that you use a BDT MVA as implemented in TMVA. Explain that first, a BDT is trained
-           on a pure sample of signal and background events from simulation, the training sample. 
+           The BDT discriminant (later the BDT for brevity) is trained
+           on a pure sample of signal and background events from simulation, using the train data.
            The  properties of the discriminant are studied on an independent testing sample of pure signal 
-           and background second. You can also mention  why you chose a BDT and what other options
-           would be a possibility (along the lines you do in the present text, only with better language).
-                Explain how many BDTs you train and why (low/high, etc). 
+           and background events, using the test data. The Deep Neural Network (DL) approach also has been studies, however, due to the lack of the event statistics, the DL approach could not offer a performance higher than the one achieved with the BDT, and thus, was abandoned. 
+           
+           
+           
+           
+           
+           
+           
+                         Explain how many BDTs you train and why (low/high, etc). 
                 Explain details including: importance of variables, correlation of variables, ROC curves
            (explaining what a ROC is very briefly), the overtraining tests. You probably will  want  to 
            mention that the BDT standard plots are prepared by the TMVA software, and thus have
@@ -799,7 +778,9 @@ In this analysis we use the set of nine variables to construct the BDT. These va
 
 Some variables are important only in the specific mass regime, some are ranked highly universally across the whole mass range. For example, in the low mass regime \ETmiss and \HBB~ mass are powerful discriminators against Drell-Yan to leptons plus jets. That is why these
 observables are located in the top three variables of the ranking for low mass BDT (Figs. ~\ref{fig:ranking}). In the high mass regime the leverage is in the boost, therefore, $\Delta R = \sqrt{\Delta \phi^2 + \Delta \eta^2}$ variables, as well as $p_{T}$-related variables show high performance (Figs. ~\ref{fig:ranking}). Namely, $p_{T}$ of both Higgs bosons, Z boson, and also
-separation $\Delta R $  between two b-jets and also $\Delta R$ between  two leptons. It is worth noting that \HBB~ mass is a powerful discriminator ranked highly for all mass regimes and both channels. Plots of input variables and correlations are shown on the Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:muon_lowVars}, ~\ref{fig:ele_cors_low}, ~\ref{fig:ele_cors_high}, ~\ref{fig:muon_cors_low}, ~\ref{fig:muon_cors_high}.
+separation $\Delta R $  between two b-jets and also $\Delta R$ between  two leptons. It is worth noting that \HBB~ mass is a powerful discriminator ranked highly for all mass regimes and both channels. 
+
+Plots of input variables and correlations are shown on the Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:muon_lowVars}, ~\ref{fig:ele_cors_low}, ~\ref{fig:ele_cors_high}, ~\ref{fig:muon_cors_low}, ~\ref{fig:muon_cors_high}.
 
 \begin{figure}[tbp]
   \begin{center}
@@ -811,6 +792,107 @@ separation $\Delta R $  between two b-jets and also $\Delta R$ between  two lept
     \label{fig:ranking}
   \end{center}
 \end{figure}
+
+
+
+\begin{table}                                                                                                                                                                          
+\begin{center}      
+\caption{Efficiency of the BDT selection requirement. $ee$ channel (top) and $\mu\mu$ channel (bottom). }
+\begin{tabular}{|c|c|c|}
+\hline
+sample & Efficiency at 300 GeV, [\%] &  Efficiency at 900 GeV, [\%] \\
+\hline
+signal (bbZZ) &                        89.2 &                        94.9 \\
+signal (bbWW) &                        75.0 &                        88.4 \\
+\ttbar        &                        28.8 &                         0.2 \\
+Drell-Yan     &                        74.2 &                         1.2 \\
+Single top    &                        33.1 &                         1.1 \\
+ZH            &                        88.8 &                        10.7 \\
+Dibosons      &                        90.0 &                         5.0 \\
+\hline
+\end{tabular}
+\label{EfficiencyBDT}                                                                                                                                                                  
+\end{center}                                                                                                                                                                           
+\end{table} 
+
+
+\noindent\begin{table}
+   \centering
+   \begin{tabular}{|c| l |c|}\hline
+     Rank & Variable & Importance, \% \\\hline
+     1 & $\Delta R_{b\ jets}$ & 13.9 \\ 
+     2 & MET & 12.1 \\ 
+     3 & Mass of $\HBB$ candidate & 11.9 \\ 
+     4 & $p_T^{ZZ^*}$ & 11 \\ 
+     5 & $\Delta R_{leptons}$ & 10.9 \\ 
+     6 & $p_T$ of $\HBB$ candidate & 10.7 \\ 
+     7 & $p_T$ of Z boson candidate & 10.2 \\ 
+     8 & Mass of $ZZ^*$ system & 10.1 \\ 
+     9 & Mass of Z boson candidate & 9.26 \\ 
+     \hline
+   \end{tabular}
+   \captionof{table}{Di-electron channel. Low mass.}
+   \label{tab:test1}
+\end{table}
+\begin{table}
+   \centering
+   \begin{tabular}{|c| l |c|}\hline
+     Rank & Variable & Importance, \% \\\hline
+     1 & $\Delta R_{leptons}$ & 14.1 \\ 
+     2 & Mass of $\HBB$ candidate & 13.7 \\ 
+     3 & $\Delta R_{b\ jets}$ & 13.2 \\ 
+     4 & $p_T$ of $\HBB$ candidate & 12.1 \\ 
+     5 & $p_T$ of Z boson candidate & 11.5 \\ 
+     6 & $p_T^{ZZ^*}$ & 11.3 \\ 
+     7 & MET & 10.3 \\ 
+     8 & Mass of $ZZ^*$ system & 7.7 \\ 
+     9 & Mass of Z boson candidate & 6.1 \\ 
+     \hline
+   \end{tabular}
+   \captionof{table}{Di-electron channel. High mass.}
+   \label{tab:test2}
+\end{table}
+
+\vspace{2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent\begin{table}
+   \centering
+   \begin{tabular}{|c| l |c|}\hline
+     Rank & Variable & Importance, \% \\\hline
+     1 & $\Delta R_{b\ jets}$ & 13 \\ 
+     2 & MET & 12.2 \\ 
+     3 & Mass of $\HBB$ candidate & 11.9 \\ 
+     4 & $p_T$ of $\HBB$ candidate & 11.3 \\ 
+     5 & $p_T$ of Z boson candidate & 11.1 \\ 
+     6 & $p_T^{ZZ^*}$ & 10.9 \\ 
+     7 & $\Delta R_{leptons}$ & 10.5 \\ 
+     8 & Mass of $ZZ^*$ system & 9.7 \\ 
+     9 & Mass of Z boson candidate & 9.5 \\ 
+     \hline
+   \end{tabular}
+   \captionof{table}{Di-muon channel. Low mass.}
+   \label{tab:test1}
+\end{table}
+\begin{table}
+   \centering
+   \begin{tabular}{|c| l |c|}\hline
+     Rank & Variable & Importance, \% \\\hline
+     1 & Mass of $\HBB$ candidate & 13.8 \\ 
+     2 & $\Delta R_{b\ jets}$ & 13.1 \\ 
+     3 & $\Delta R_{leptons}$ & 12.9 \\ 
+     4 & $p_T$ of \HBB candidate & 11.7 \\ 
+     5 & $p_T^{ZZ^*}$ & 11.3 \\ 
+     6 & $p_T$ of Z boson candidate & 11.1 \\ 
+     7 & MET & 11 \\ 
+     8 & Mass of $ZZ^*$ system & 8.8 \\ 
+     9 & Mass of Z boson candidate & 6.2 \\ 
+     \hline
+   \end{tabular}
+   \captionof{table}{Di-muon channel. High mass.}
+   \label{tab:test2}
+\end{table}
+
 
 
 \begin{figure}[tbp]
