@@ -2,7 +2,6 @@
 
 In this chapter, we report on a search for the resonant production of the double Higgs boson system. Higgs boson pairs subsequently decay through the $bbZZ$ channel. The final state consists of two b jets, two charged leptons, and two neutrinos ($2 b 2 l 2 \nu$ final state). Analysed data set was collected in 2016 by the CMS experiment in proton-proton collisions  at  13  TeV COM energy, and corresponds to 35.9 fb$^{-1}$ of the integrated luminosity.  
 
-
 \section{Physics analysis overview}
 \label{sec:an_overview}
 
@@ -20,7 +19,6 @@ We present the statistical analysis used to extract the results of the measureme
 
 The material in this chapter follows the description of two articles to which the author contributed directly \cite{bbZZAN, CMS-PAS-HIG-17-032}.
 
-
 \section{Data analysis strategy}
 \label{sec:strategy}
 We form the Lorentz energy-momentum vector associated with the double Higgs system. This vector is constructed as the sum  of  the  Lorentz  vectors  of  the  two  leptons,  two  b-jets,  and  the  four-vector  representing neutrinos (\PTslash).  As the z component of the neutrinos? momentum is unknown, we proceed forming a pseudo transverse mass:
@@ -30,14 +28,11 @@ The \mTHH distributions are derived for 16 mass and for both spin hypotheses. Th
 
 To extract the final results, we perform a simultaneous fit of the sum of the signal and background \mTHH distributions in the SR and CRs to the data. The fits are produced for both di-electron and di-muon channels and the results are combined. We obtain 95\% CL upper limits on the HH production cross times the BFs of the subsequent decay to the final state of this measurement. The employed statistical method is based on the $CL_{S}$ asymptotic procedure~\cite{Zech:1988un}.
 
-
-
 \section{Data and Triggers}
 \label{sec:data_and_triggers}
 
 \subsection{Data}
 The search is performed using DoubleMuon and DoubleEG PDs corresponding to an integrated luminosity of 35.9 fb$^{-1}$ recorded by the CMS experiment during Run 2 in 2016. The data were produced in proton-proton collisions at the LHC at 13 TeV COM energy. The data were collected in several data taking periods and approximate values of the integrated luminosity of these periods are given in the Table \ref{tab:datasets}.
-
 
 \begin{table}[htbp]
 \caption{List of used data sets collected by the CMS in 2016. Each era contains a unique letter identifier and also specifies the date when the data processing was done. If the re-processing was run, the name contains the word ending ``v2''. Corresponding integrated luminosities are shown in the second column.
@@ -74,11 +69,7 @@ The data events that are used in this measurement are selected with a set of HLT
 
 The final state that contains two prompt muons is selected with the HLT path that is a combination of several HLT paths chained using the logical ``OR'' operation, in other words, the muons are required to pass the selection of at least one of the HLT paths. At the HLT level, the leading and the sub-leading muons have to pass 17 and 8 GeV $p_T$ requirements respectively. The difference among HLT paths has been explained at length in the Section \ref{ch:cms}. The offline analysis increases the $p_T$ threshold values to 20 and 15 GeV correspondingly. For the offline selection, electrons are selected in the range $\eta < $ 2.5 and muons in the range $\eta < $  2.4. For both channels, the $\eta$ region in the gap (1.4442 to 1.566) between the barrel and endcap is excluded.
 
-
 The same trigger selections are applied to MC simulated events. The efficiencies are then derived for MC and data, and SFs are determined using the TnP procedure discussed in Section \ref{sec:TnP}. Trigger SFs have been computed for each trigger leg separately, since the selection of each leg varies (Fig. ~\ref{fig:trigger_eff_diele}). Following the recommendations from the CMS Muon POG, scale factors have been calculated separately for two data collecting periods: runs B to G (Fig. \ref{fig:trigger_SF_dimu_BCDEFG}, and run H separately (Fig. \ref{fig:trigger_SF_dimu_H}), since the LHC conditions varied significantly for the run H. All eras have slightly different integrated luminosities, see Table \ref{dab:datasets}, so the final SFs are luminosity averaged. Additionally, as was discussed in the chapter on CMS Physics Objects Reconstruction, some triggers did not contain DZ requirement, while others did. Therefore, scale factors of the DZ selection are also measured, see Fig. \ref{fig:trigger_SF_dimu_dZ_H}). Prior to measuring the trigger scale factors, the electrons and muons were required to satisfy ID and ISO selections, more in the subsections \ref{sec:electrons, sec:muons}. 
-
-
-
 
 \begin{figure}[H]
 \centering
@@ -89,7 +80,6 @@ The same trigger selections are applied to MC simulated events. The efficiencies
 \caption[HLT trigger SFs for electrons.]{HLT trigger SFs for electrons approved by the CMS $e/ \gamma$ POG group.  SFs are derived for both legs separately: Leg 1 (top) corresponds to the leading electron and Leg 2 (bottom) corresponds to the sub-leading electron. The values of the SFs are shown on the left, and the associated uncertainties with each value are shown on the right. Taken from ~\cite{vhbbAN}.}
 \label{fig:trigger_eff_diele}
 \end{figure}
-
 
 \begin{figure}[H]
 \centering
@@ -114,8 +104,6 @@ The same trigger selections are applied to MC simulated events. The efficiencies
 \label{fig:trigger_SF_dimu_dZ_H}
 \end{figure}
 
-
-
 \section{Simulated Samples}
 \label{sec:simulated_samples}
 %\section{Monte~Carlo samples\label{sec:mc}}
@@ -123,7 +111,6 @@ The same trigger selections are applied to MC simulated events. The efficiencies
 The data analysis carried out in this thesis is optimised using the MC simulation. MC samples for signal and background processes have been produced with various HEP software (``generators``) that generates the processes of interest: processes that mimic the final state of this measurement. 
 
 \subsection{Signal processes simulation\label{sec:signalMC}}
-
 
 %
 % Signal samples
@@ -138,8 +125,6 @@ in the second sample the other Higgs boson decays to WW pair. Only \PZ ~boson de
 
 To compare the expected numbers of events in the simulation to the number of observed events in the data for a given integrated luminosity, the signal production cross section has been normalised to 2 pb. This is a typical value of the production cross section of the WED particle in the 250-300 GeV range, the range to which the current physics analyses are very sensitive with the available LHC data. Additionally, the computed event rates take into account the branching fractions of the corresponding di-Higgs decay chains to the final state: 0.0012 and 0.0266 for $HH\to bbZZ\to bb\ell\ell\nu\nu$ and $HH\to bbWW\to bb\ell\nu\ell\nu$, respectively \cite{CERNYR4}.
 
-
-
 %
 % Background samples
 %
@@ -147,7 +132,6 @@ To compare the expected numbers of events in the simulation to the number of obs
 \subsection{Background processes simulation\label{sec:bkgMC}}
 In this analysis the main background processes are top-antitop production (\ttbar) and Drell-Yan production in association with jets. 
 Other background processes that contribute to a lesser degree include the single top production, diboson production, and the production of a single Higgs boson in association with a Z boson (``ZH production''), see Table \ref{tab:bg_mcsamples}. Other background processes are fully rejected in the event selection and thus are neglected.  
-
 
 \begin{table}[H]
   %\footnotesize
@@ -231,8 +215,6 @@ samples for top quark pair production and single top quark production in the tW
 and t channels. For the single top s channel production, the
 {\MGMCatNLO} generator was used.  Single top backgrounds have been rescaled to the theoretical values of the NNLO cross sections \cite{Kidonakis:2012db, Czakon:2013goa}. 
 
-
-
 {\PYTHIA} 8.212~\cite{Sjostrand:2007gs,Sjostrand:2014zea} was used to generate diboson samples at LO. Diboson
 background yields are normalized to NLO cross sections
 \cite{CMS-PAS-SMP-18-002, CMS-PAS-SMP-16-006, Khachatryan:2016txa}. The dominant SM Higgs background process, the SM production of a single Higgs boson in the association with a \PZ ~boson (ZH), is simulated
@@ -263,7 +245,6 @@ proton-proton interactions occurred in each bunch crossing during data collectin
 an average of 24 hard scattering vertices per event. To account for this fact, all simulated samples include additional interactions
 to reproduce the real pileup distribution measured in data.
 
-
 \section{Physics Objects Selection}
 \label{sec:objects}
 
@@ -293,20 +274,14 @@ In this measurement two neutrinos are present in the final state, they come from
 
 All corrections recommended by the CMS JetMET POG are applied ~\cite{MissingETRun2Corrections}. Additionally, a set of filters related to the instrumental effects is employed, such as removal of the misreconstructed signal in the HCAL, noice in the tracker, etc. ~\cite{MissingETOptionalFiltersRun2}. 
 
-
-
 \section{Event Selection}\label{sec:selection}
 
 The candidate events are selected in the data sample if they contain the following physics objects: 2 b jets, 2 charged leptons, and a missing transverse energy. Then we reconstruct intermediate particles of the decay chain by combining the observed physics objects: $Z \to ll$ and $Z \to \nu \nu$ are reconstructed first. Then $H \to ZZ^*$ and $H \to b\bar{b}$ are reconstructed. Finally, two Higgs boson candidate are used to form the HH system that could originate from a narrow resonance we are searching for.
 
 In this chapter we discuss how HH candidates are formed, how the selection criteria is applied to reduce contamination from background processes in signal-enriched region, how kinematic quantities used to compute the final results are defined, and how well simulation represents the data.
 
-
-
 \subsection{Kinematic selection of physics objects}
 We have described the kinematic selection of leptons and jets (and b jets) in the previous chapter. Because there is another $bbZZ$ measurement in the CMS Higgs group, our analysis shares some phase space with the other measurement. Therefore, the results may contain certain overlap. The other $bbZZ$ team studies the $2 b 2 l 2 q$ final state, where $q$ stands for any quark initiating the jet. To ensure that both measurements produce statistically independent (``orthogonal'') results, the selection on the MET is introduced. Since the final results - the production cross sections times the BFs of the final state - depend on the mass point, the MET selection varies with mass. While the derivation of the final results (called ``limits'') will be explained later in this chapter, at this point, it is worth to point out that both analyses computed limits for all resonance mass hypotheses applying different MET selection criteria, see Fig. \ref{met_cuts}. The found set of MET requirements that yielded the best combined limits (see Table \ref{metCuts}), when the results of two measurements are merged together, is used by both teams. 
-
-
 
 \begin{figure}[H]%hbpt?                                                                       
   \begin{center}
@@ -320,10 +295,6 @@ We have described the kinematic selection of leptons and jets (and b jets) in th
     \label{fig:met_cuts}
   \end{center}
 \end{figure}
-
-
-
-
 
 \begin{table}[H]
 \begin{center}
@@ -339,9 +310,6 @@ We have described the kinematic selection of leptons and jets (and b jets) in th
 \end{center}
 \end{table}
 
-
-  
-  
 \subsection{Signal candidate construction and selection}
 
 Two leptons of opposite sign and same flavor with the invariant mass higher than 76 GeV are selected as Z candidates. This mass requirement helps rejecting di-lepton candidates not corresponding to real Z bosons. Events with di-lepton mass higher than 76 GeV will be used for SR and $t\bar{t}$ CR. Additional Z mass selection will be discussed in the corresponding section later in this chapter. These on-shell Z bosons are assumed to come from the $H \to Z Z^*$ decays. The other Z boson, off-shell Z boson, decays to two neutrinos in our signature, and is represented by MET. Lorentz four-vectors of the di-lepton candidate and MET are added and the resulting four-vector represents the first Higgs boson candidate. 
@@ -359,12 +327,6 @@ While up until this moment we had the same requirements for the search of the $r
 
 Finally, the reader should be informed that if an event does not have enough physics objects suitable (as discussed in the objects selection section) for building the \Zll or \HBB candidates, or if the event does not pass candidate selection requirements on those objects or the full HH system, the event is discarded.
 
-  
-  
-  
-  
-  
-  
 \subsection{Signal and control kinematic regions}
 
 Three regions are defined: signal-enriched or signal region, and two CRs. The signal region is chosen such that the expected signal fraction is the largest there. Two control regions are defined such that they contain predominantly the background events with almost no signal. We define two CRS, one for each of the two main background sources: the CR for $t\bar{t}$ (CRTT) and the CR for Drell-Yan in association with jets (CRDY).
@@ -386,8 +348,6 @@ CRs are used to fit the event yield of the simulated background processes to the
 
 The efficiency of the candidate selection, up to this point, is summarised in the Table \ref{eff_upto_bdt}, where number are provided for the SR. The signal contributions are split into two components $bbZZ$ and $bbWW$, and are shown separately. The corresponding total numbers of events passing the selection are also given (the fourth column).
 
-
-
 \begin{table}
 \begin{center}
 \caption{Number of events surviving the candidate selection and kinematic requirements. Numbers are given for $bbZZ$ and $bbWW$ contributions in the SR. Efficiency values are also provided (the third column) and are normalised to the initial event counts before any selection is applied. Di-muon channel is presented. Numbers for di-electron channel have the same trend but lower values since in the CMS, efficiencies for electrons are lower than for muons. }
@@ -402,18 +362,14 @@ bbZZ & 900 &  15.1 & 12963\\\hline
 \end{center}
 \end{table}
 
-
 \subsection{Signal region candidate selection with a multivariate technique}
 
 After the SR and CRs have been defined, in the final step of the event selection we require the events in the SR to pass the threshold value of the BDT discriminant. An MVA discriminant that uses a boosted decision trees algorithm is trained considering a number of kinematic quantities of a candidate to be above a certain threshold. As this selection step is complex, it is described in a dedicated chapter: \ref{sec:BDT}.
-
-
 
 \section{Multivariate selection in the signal region}
 
 To reduce the background contamination in the SR, we employ a standard practice of CMS physics analyses of utilising the MVA discriminant. In this section, we will discuss which discriminating variables were used, how the MVA discriminant was constructed, and what are the efficiencies of the BDT selection for all major signal and background processes. 
 \label{sec:BDT}
-
 
 \subsection{Kinematic variables of a candidate}
 
@@ -424,8 +380,7 @@ In this section we discuss a set of kinematic quantities that are the most discr
 Since the MVA selection requirement will be applied on a quantity computed based on these variables, the simulation has to  reproduce the main variables well. We will define each of the nine variables below. For SR and both CRs, we will show the comparison of distributions from data and simulation for each variable. Since the number of plots would be too large to show for two channels and two spin hypotheses, not to mention for all masses, we will include in this dissertation only di-muon channel plots for 300 GeV graviton mass hypothesis. However, all other relevant figures of the nine main variables, including the di-electron channel and other mass points,  were examined and discussed with CMS collaborators during the review of the measurement in CMS. They show a similar behaviour and agreement as those included here.
            
 As we outlined before, even for simple physics objects the distributions from MC simulations and data have discrepancies. For more complex objects and candidates, these discrepancies become even larger. In general, MC simulations are not supposed to reproduce well very narrow regions of the kinematic phase space or align with the data perfectly at the high order in the QCD. Therefore, one normally adjusts the rates of background processes using the normalisation values determined in the fit to data in the control regions. The distributions as they are, without the extra normalisations (from the fit) applied to the event yields of MC simulated background processes, are in general called pre-fit distributions. After the normalisations from the fit are applied on the rates of background processes, post-fit distributions are obtained. 
-           
-           
+
 The list below summarises the set of variables used as input to the MVA discriminant:
 
 \begin{itemize}
@@ -459,14 +414,7 @@ The transverse momentum of the Z candidate ($p_T^Z$) tends to be have a relative
 
 \end{itemize}
            
-At this stage of the analysis description, we would like to refer the reader to the pre-fit plots (figures in the left columns). The figures are shown in the following order: all nine distributions in CRDY \ref{fig:MCcomparisons_mm_low_CRDY, fig:MCcomparisons_mm_low_CRDY_2}, in SR \ref{fig:MCcomparisons_mm_low_SR, fig:MCcomparisons_mm_low_SR}, and in CRTT \ref{fig:MCcomparisons_mm_low_CRTT, fig:MCcomparisons_mm_low_CRTT_2}. The simulated distributions are found in an acceptable agreement with those from the data and are 
-           judged to be adequate for a use in a multivariate discriminant construction discussed next. 
-
-
-
-
-
-
+At this stage of the analysis description, we would like to refer the reader to the pre-fit plots (figures in the left columns). The figures are shown in the following order: all nine distributions in CRDY \ref{fig:MCcomparisons_mm_low_CRDY, fig:MCcomparisons_mm_low_CRDY_2}, in SR \ref{fig:MCcomparisons_mm_low_SR, fig:MCcomparisons_mm_low_SR}, and in CRTT \ref{fig:MCcomparisons_mm_low_CRTT, fig:MCcomparisons_mm_low_CRTT_2}. The simulated distributions are found in an acceptable agreement with those from the data and are judged to be adequate for a use in a multivariate discriminant construction discussed next. 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
 \begin{figure}[H]
@@ -505,10 +453,7 @@ At this stage of the analysis description, we would like to refer the reader to 
   \end{center}
 \end{figure}
 
-
-
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            \
-                                                                                                                                                                                  
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                              
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/dR_bjets_mm_SR_prefit_plot_apr21.png}
@@ -543,13 +488,7 @@ At this stage of the analysis description, we would like to refer the reader to 
   \end{center}
 \end{figure}
 
-
-
-
-
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            \
-                                                                                                                                                                                  
-
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                            
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRTT_prefit_plot_apr18.png}
@@ -584,15 +523,11 @@ At this stage of the analysis description, we would like to refer the reader to 
   \end{center}
 \end{figure}
 
-
-
-
-
 \subsection{Multivariate discriminant: a BDT classifier}
 
-           In HEP in many areas, such as an object identification, a reduction of the background contribution in the signal region, etc., there are needs to discriminate a ``signal'' from one or several ``backgrounds''. The discriminating algorithms can use a single physical variable for signal-background separation, or several variables. The way an algorithm uses the input variables can be of a sequential nature, or through some non-linear dependence. The Higgs boson discovery, in part, was possible due to an employed BDT approach, where several variables are combined into an artificial BDT score or output. The BDT output, as a higher-level construct, has no direct physical interpretation. However, due to the shown gain in signal-background separation performance, the BDT has been successfully used for years for the final classification decision. 
-           
-           Multivariate discriminants (or models or classifiers) based on the BDT or other algorithms are constructed using machine learning (ML) techniques. Now, almost at every stage of the HEP data analysis, starting from the track reconstruction, through the object identification and the signal region purification, up to the construction of the final discriminating MVA variable, physicists rely on the ML methods.
+In HEP in many areas, such as an object identification, a reduction of the background contribution in the signal region, etc., there are needs to discriminate a ``signal'' from one or several ``backgrounds''. The discriminating algorithms can use a single physical variable for signal-background separation, or several variables. The way an algorithm uses the input variables can be of a sequential nature, or through some non-linear dependence. The Higgs boson discovery, in part, was possible due to an employed BDT approach, where several variables are combined into an artificial BDT score or output. The BDT output, as a higher-level construct, has no direct physical interpretation. However, due to the shown gain in signal-background separation performance, the BDT has been successfully used for years for the final classification decision. 
+
+Multivariate discriminants (or models or classifiers) based on the BDT or other algorithms are constructed using machine learning (ML) techniques. Now, almost at every stage of the HEP data analysis, starting from the track reconstruction, through the object identification and the signal region purification, up to the construction of the final discriminating MVA variable, physicists rely on the ML methods.
            
 In simple terms, the ML procedure consists of the training and testing stages (sometimes also the validation stage is added). First, the data is split into two non-overlapping sets: a train and a test data. Then, the classifier is trained, when the model is learning the patterns in the train data. After that, the performance of the model is tested using the independent test data. 
 
@@ -601,21 +536,24 @@ After the training procedure, ML algorithm produce a discriminator, which is a f
 Every analysts would always like to have a classifier that has a low bias and a low variance. A bias is a difference between the average prediction of our model and the correct value, which we are trying to predict. A classifier with a high bias oversimplifies the model and does not take into account all the nuances of a given train data. Therefore, one prefers a low bias models, which are flexible and perform well both on the train and test data, and always provide a stable good separation between the signal and background hypotheses. A variance is the variability of model prediction for a given data point. A variance is related to the spread of our data. A model with high variance learns almost every single pattern in the train data and, therefore, will not generalise well, when given new unseen data. As a result, models with a high variance achieve the best scores using the train data but perform poorly on the test data. Thus, one prefers a low variance models, which are robust when applying the trained classifiers on a dataset that is statistically independent from the one used for training.
 
 One of the most popular ML algorithms in HEP is based on the boosted decision trees (BDT). A single decision tree is a sequence of simple binary splits on each of the input variables. The tree, thus, can be depicted as a multidimensional set of selections on input space. The tree assigns a score of +1 or -1 if a given event is signal or background-like. The key elements in each step of the BDT spilts are the variables used for the selection and the positions of the selections. Both are determined using an impurity criterion $I(p_n)$, which is a function of the signal purity $p_n$ in tree node $n$. The signal purity is defined as a ratio of the signal contribution to the total number of signal and background events, $p_n = S/(S+B)$. The impurity criterion is chosen such that it is at the minumum when $p_n$=0 or $p_n$=1. These values would give a perfect signal-background discrimination. The criterion is at the maximum, when $p_n$=0.5, which means no discrimination is achieved. 
-Each split maximises the gain function $G=I(p_n) - f_1I(p_{c1})-f_2I(p_{c2})$. In this formulation of $G$, the labels c1 and c2 refer to chid nodes of the parent node, and $f1$ and $f2$ are the fractions of events of the parent node that are found in child nodes c1 and c2, respectively. 
+Each split maximises the gain function $G=I(p_n) - f_1I(p_{c1})-f_2I(p_{c2})$. In this formulation of $G$, the labels c1 and c2 refer to chid nodes of the parent node, and $f1$ and $f2$ are the fractions of events of the parent node that are found in child nodes c1 and c2, respectively. As a definition of the impurity criterion for this measurement, the Gini coefficient is used: $I_G(p_n) = ??p_n \cdot (1?p_n)$. 
 
 The tree keeps applying the selection on the input variables until either a maximum depth is reached (a number of consecutive splits), or a minimum number of events in the final child nodes are attained. The problem with such a tree growing procedure is that it is prone to overtraining, which means the model will not generalise well and have a high variance. One way to deal with BDT overtraining is boosting. 
 The idea behind boosting is, that signal events
  from the training sample that end up in a background node or vice versa, are given intentionally large weights (a penalty). These weights are normally significantly larger than the weights for events with
  the correct leave node prediction. Such penalty procedure reweighs the train data and then new decision trees are created. The boosting is applied hundreds of times, which produces a set of new reweighed trees (a forest). Intuitively, the boosting is a method in which a large number of shallow trees, which have only a few splits, are combined by taking a weighted average of their output scores. The discriminating power of a single shallow tree is usually poor, but such a tree is less prone to overtraining, therefore, when combined, the ensemble of these trees produces a model with a high and stable performance.
  
-We chose the gradient boosting algorithm, as is implemented in the popular MVA package for HEP - TMVA \cite{Hocker:2007ht}.  Gradient boosting can be thought of as a function expansion approach. In this case each tree corresponds to a summand. The parameters for each summand (tree) are determined by minimising of an error function. In the TMVA implementation, the binomial log-likelihood loss function is used. The adopted procedure follows the greedy algorithm approach - only one tree is modified at a time, while the other trees remain invariable.
- Several decision trees of the BDT procedure, that is employed in the analysis, are shown below. This training was done in the d-electron channel. In these figures produced by the TMVA, the index 0 refers to \HZZ candidate and index 1 refers to \HBB candidate. For example, ``hmass1'' denotes the mass of the \HZZ candidate, ``hpt0'' denotes the $p_T$ of the \HBB candidate, etc. Lastly, for the Z boson candidate, the on-shell Z boson decaying to charged leptons, \Zll, has either an index 0 or the index is dropped. The closer the node color is to blue, the more the event is classified as signal-like, same idea is illustrated with the red color for background events. 
+For the boosting algorithm, we chose the gradient boosting method, as is implemented in the popular MVA package for HEP - TMVA \cite{Hocker:2007ht}.  Gradient boosting can be thought of as a function expansion approach. In this case each tree corresponds to a summand. The parameters for each summand (tree) are determined by minimising of an error function. In the TMVA implementation, the binomial log-likelihood loss function is used. The adopted procedure follows the greedy algorithm approach - only one tree is modified at a time, while the other trees remain invariable.
+
+ Several decision trees of the BDT procedure, that is employed in the analysis, are shown below. This training was done in the d-electron channel. In all figures produced by the TMVA, the index 0 refers to \HZZ~candidate and index 1 refers to \HBB~candidate. For example, ``hmass1'' denotes the mass of the \HZZ~candidate, ``hpt0'' denotes the $p_T$ of the \HBB~candidate, etc. For the Z boson candidate, the on-shell Z boson decaying to charged leptons, \Zll, has either an index 0 or the index is dropped. The closer the node color is to blue, the more the event is classified as signal-like, same idea is illustrated with the red color for background events. \label{TMVA_notation}
+
+Di-electron and di-muon channels have been trained separatelyl and the BDT metrics (discussed later in this chapter) show similar performance. That is why to save the space, in this chapter we show mostly figures related to the di-electron channel.
            
  \begin{figure}[H]
   \begin{center}
     \includegraphics[width=0.94\textwidth]{BDT_0.pdf}
     \includegraphics[width=0.94\textwidth]{BDT_1.pdf}\\
-     \caption{BDT trees 1 and 2 (indexing starts from 0). These trees relied on: the mass and the $p_T$ of the \Zll~candidate, $\Delta R$ separation between two b jets,  the mass of the \HBB~candidate, and the $p_T$ of the $ZZ^*$ system.}
+     \caption{BDT trees 1 and 2 (indexing starts from 0). These trees relied on: the mass and the $p_T$ of the \Zll~candidate, $\Delta R$ separation between two b jets,  the mass of the \HBB~candidate, and the $p_T$ of the $ZZ^*$ system. The TMVA notation is explained in \ref{TMVA_notation}.}
     \label{fig:bdt_trees}
   \end{center}
 \end{figure}
@@ -627,7 +565,7 @@ We chose the gradient boosting algorithm, as is implemented in the popular MVA p
      \caption{BDT trees 400 and 401 (indexing starts from 0). These trees relied on: the $p_T$ of the \Zll~candidate, 
      $\Delta R$ separation between two b jets,
      $\Delta R$ separation between two charged leptons, 
-      the $p_T$ of the \HBB~candidate, and the mass and the $p_T$ of the $ZZ^*$ system.}    
+      the $p_T$ of the \HBB~candidate, and the mass and the $p_T$ of the $ZZ^*$ system. The TMVA notation is explained in \ref{TMVA_notation}.}    
       \label{fig:bdt_trees_2}
   \end{center}
 \end{figure}
@@ -639,88 +577,223 @@ We chose the gradient boosting algorithm, as is implemented in the popular MVA p
      \caption{BDT trees 799 and 800 (indexing starts from 0). These trees relied on: the $p_T$ of the \Zll~candidate, 
      $\Delta R$ separation between two b jets,
      $\Delta R$ separation between two charged leptons, 
-      the mass of the \HBB~candidate, and the mass of the $ZZ^*$ system.}       
+      the mass of the \HBB~candidate, and the mass of the $ZZ^*$ system. The TMVA notation is explained in \ref{TMVA_notation}.}       
      \label{fig:bdt_trees_3}
   \end{center}
 \end{figure}
            
+The BDT discriminant (later the BDT for brevity) is trained on a pure sample of signal and background events from simulation, using the train data. The  properties of the discriminant are studied on an independent testing sample of pure signal and background events, using the test data. The Deep Neural Network (DL) approach also has been studies, however, due to the lack of the event statistics, the DL approach could not offer a performance higher than the one achieved with the BDT, and thus, was abandoned. Training 16 BDTs per the spin hypothesis seems unpractical since our data analysis is dominated by the statistical errors. Instead, we follow an approach of other HH analyses \cite{HH_combination}: we split the range from 250 to 1000 into two regions: low mass (250 to 450 GeV) and high mass (500 to 1000 GeV) regions. This separation boundary at 450 GeV was optimised first using ROC curves (described later in this section), then running the whole analysis chain all the way to the final limits. This procedure not only saves CPU cycles, training two BDTs instead of sixteen, but mostly increases the statistics and improves the robustness of the trained BDT. 
            
-           The BDT discriminant (later the BDT for brevity) is trained
-           on a pure sample of signal and background events from simulation, using the train data.
-           The  properties of the discriminant are studied on an independent testing sample of pure signal 
-           and background events, using the test data. The Deep Neural Network (DL) approach also has been studies, however, due to the lack of the event statistics, the DL approach could not offer a performance higher than the one achieved with the BDT, and thus, was abandoned. 
-           
-           
-           
-           
-           
-           
-           
-                         Explain how many BDTs you train and why (low/high, etc). 
-                Explain details including: importance of variables, correlation of variables, ROC curves
-           (explaining what a ROC is very briefly), the overtraining tests. You probably will  want  to 
-           mention that the BDT standard plots are prepared by the TMVA software, and thus have
-           notations for variables in a different format from what was used in the previous subsection
-           to define the quantities and in those kinematic plots. A convenient  way to explain the notations
-           is to have in this subsection, as  the first table the 4-table set of the importance of the variables in BDT.
-           Remake the table in Latex in any event. Have columns <Rank> <Variable> <BDT notation> <Importance, %>.
-           As <Variable> give the symbolic notation from the previous subsection which is also the one seen
-           on kinematic pre/post-fit plots. Define Importance briefly.
-           [Since you already provided plots of all kinematic quantities in the previous subsection, I do not  think
-           it is necessary to have a figure from TMVA  of  the BDT input variables TMVA-style. If you want,
-           you can have it, though. You can say  that these figures allow one a bit easier visually judge
-           which variables behave more differently between the  signal and the backgrounds.]
-           [You can leave also the TMVA parameters that are present in the current draft].
-                Finally, provide the figure of the BDT discriminant in the SR. Out of the 4 BDTs(e/mu x low/high)
-           you can provide all four plots in one figure, for example. I do not know if you also have versions
-           separately with the pre-fit and post-fit normalizations, but if you do, it is probably not necessary
-           to have both.
+During the training procedure, some variables provide more discriminating power and on average are used more often than others. The more often the variable is used, the higher is its importance. The tables below show the ranking and average importance of each of the BDT training: low and high mass regions, di-electron and di-muon channels, see Tables \ref{tab:importance_ee_low, tab:importance_mm_high, tab:importance_mm_low, importance_mm_high}. 
 
+\noindent\begin{table}[H]
+   \centering
+   \begin{tabular}{|c| l |c|}\hline
+     Rank & Variable & Importance, \% \\\hline
+     1 & $\Delta R_{b\ jets}$ & 13.9 \\ 
+     2 & MET & 12.1 \\ 
+     3 & Mass of $\HBB$~candidate & 11.9 \\ 
+     4 & $p_T^{ZZ^*}$ & 11 \\ 
+     5 & $\Delta R_{leptons}$ & 10.9 \\ 
+     6 & $p_T$ of $\HBB$~candidate & 10.7 \\ 
+     7 & $p_T$ of Z boson candidate & 10.2 \\ 
+     8 & Mass of $ZZ^*$ system & 10.1 \\ 
+     9 & Mass of Z boson candidate & 9.26 \\ 
+     \hline
+   \end{tabular}
+   \captionof{table}{Di-electron channel. Relative importance of the input variables in the low mass BDT training.}
+   \label{tab:importance_ee_low}
+\end{table}
+\begin{table}
+   \centering
+   \begin{tabular}{|c| l |c|}\hline
+     Rank & Variable & Importance, \% \\\hline
+     1 & $\Delta R_{leptons}$ & 14.1 \\ 
+     2 & Mass of $\HBB$~candidate & 13.7 \\ 
+     3 & $\Delta R_{b\ jets}$ & 13.2 \\ 
+     4 & $p_T$ of $\HBB$~candidate & 12.1 \\ 
+     5 & $p_T$ of Z boson candidate & 11.5 \\ 
+     6 & $p_T^{ZZ^*}$ & 11.3 \\ 
+     7 & MET & 10.3 \\ 
+     8 & Mass of $ZZ^*$ system & 7.7 \\ 
+     9 & Mass of Z boson candidate & 6.1 \\ 
+     \hline
+   \end{tabular}
+   \captionof{table}{Di-electron channel. Relative importance of the input variables in the high mass BDT training.}
+   \label{tab:importance_ee_high}
+\end{table}
 
+\vspace{2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent\begin{table}[H]
+   \centering
+   \begin{tabular}{|c| l |c|}\hline
+     Rank & Variable & Importance, \% \\\hline
+     1 & $\Delta R_{b\ jets}$ & 13 \\ 
+     2 & MET & 12.2 \\ 
+     3 & Mass of $\HBB$~candidate & 11.9 \\ 
+     4 & $p_T$ of $\HBB$~candidate & 11.3 \\ 
+     5 & $p_T$ of Z boson candidate & 11.1 \\ 
+     6 & $p_T^{ZZ^*}$ & 10.9 \\ 
+     7 & $\Delta R_{leptons}$ & 10.5 \\ 
+     8 & Mass of $ZZ^*$ system & 9.7 \\ 
+     9 & Mass of Z boson candidate & 9.5 \\ 
+     \hline
+   \end{tabular}
+   \captionof{table}{Di-muon channel. Relative importance of the input variables in the low mass BDT training.}
+   \label{tab:importance_mm_low}
+\end{table}
+\begin{table}
+   \centering
+   \begin{tabular}{|c| l |c|}\hline
+     Rank & Variable & Importance, \% \\\hline
+     1 & Mass of $\HBB$~candidate & 13.8 \\ 
+     2 & $\Delta R_{b\ jets}$ & 13.1 \\ 
+     3 & $\Delta R_{leptons}$ & 12.9 \\ 
+     4 & $p_T$ of \HBB~candidate & 11.7 \\ 
+     5 & $p_T^{ZZ^*}$ & 11.3 \\ 
+     6 & $p_T$ of Z boson candidate & 11.1 \\ 
+     7 & MET & 11 \\ 
+     8 & Mass of $ZZ^*$ system & 8.8 \\ 
+     9 & Mass of Z boson candidate & 6.2 \\ 
+     \hline
+   \end{tabular}
+   \captionof{table}{Di-muon channel. Relative importance of the input variables in the high mass BDT training.}
+   \label{tab:importance_mm_high}
+\end{table}
 
-%% %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                     
+The correlations among the input variables are shown in the Figs. ~\ref{fig:ele_cors_low}, ~\ref{fig:ele_cors_high}, ~\ref{fig:muon_cors_low}, ~\ref{fig:muon_cors_high}. For low mass training, signal samples for mass hypotheses from 250 to 450 GeV are combined together and represent the ``signal''. Similarly is done for high mass training - it is a mix of signal samples for mass hypotheses from 500 to 1000 GeV. For background samples, the ``background'' is a mix of samples of two main background processes: DY in association with jets and $t\bar{t}$ production, weighted by the cross section value.
 
 \begin{figure}[tbp]
   \begin{center}
-    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRDY_prefit_plot_apr18.png}
-    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRDY_FullPostfit_plot_apr18.png}\\
-    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_ee_SR_prefit_plot_apr18.png}
-    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_ee_SR_FullPostfit_plot_apr18.png}\\
-    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/bdt_response_afterCut_ee_SR_prefit_plot_apr21.png}
-    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/bdt_response_afterCut_ee_SR_FullPostfit_plot_apr21.png}\\
-    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRTT_prefit_plot_apr18.png}
-    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRTT_FullPostfit_plot_apr18.png}\\
-    \caption{Comparison of data and MC samples. 300 GeV, ee channel, BDT distributions for CRDY(top row), SR BDT sideband (2nd row), unblind SR (3rd row), CRTT (bottom row). Prefit plot on the left, Full Postfit plot on the right.}
-    \label{fig:bdt_ee}
+   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/low_corS.pdf}
+   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/low_corB.pdf}
+    \caption{ Input variable correlations of the di-electron channel, low mass training. Top: signal sample mix. Bottom: background sample mix. The TMVA notation is explained in \ref{TMVA_notation}.}
+    \label{fig:ele_cors_low}
   \end{center}
 \end{figure}
 
-
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                             
 \begin{figure}[tbp]
   \begin{center}
-    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRDY_prefit_plot_apr18.png}
-    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRDY_FullPostfit_plot_apr18.png}\\
-    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_mm_SR_prefit_plot_apr18.png}
-    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_mm_SR_FullPostfit_plot_apr18.png}\\
-    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/bdt_response_afterCut_mm_SR_prefit_plot_apr21.png}
-    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/bdt_response_afterCut_mm_SR_FullPostfit_plot_apr21.png}\\
-    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRTT_prefit_plot_apr18.png}
-    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRTT_FullPostfit_plot_apr18.png}\\
-    \caption{Comparison of data and MC samples. 300 GeV, mm channel, BDT distributions for CRDY(top row), SR BDT sideband (2nd row), unblinded SR (3rd row), CRTT (bottom row). Prefit plot on the left,           Full Postfit plot on the right.}
-    \label{fig:bdt_mm}
+   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/high_corS.pdf}
+   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/high_corB.pdf}
+    \caption{ Input variable correlations of the di-electron channel, high mass training. Top: signal sample mix. Bottom: background sample mix. The TMVA notation is explained in \ref{TMVA_notation}.}
+    \label{fig:ele_cors_high}
+  \end{center}
+\end{figure}
+    
+Below we include figures of the BDT input variables. They are the same variables shown few pages before, but produced by the TMVA package, in this style they allow one a bit easier visual judgement of which variables behave more differently between the signal and the background, see Fig. \ref{fig:ele_lowVars, fig:ele_highVars}.
+
+\begin{figure}[H]
+  \begin{center}
+   \includegraphics[width=0.95\textwidth]{bdtPlots_eles/low_vars1.pdf}
+   \includegraphics[width=0.95\textwidth]{bdtPlots_eles/low_vars2.pdf}
+    \caption{ Variables used in the low mass training for di-electron channel. Index '1' refers to \HBB~decay and index '0' refers to \HZZ~decay. The TMVA notation is explained in \ref{TMVA_notation}.}
+    \label{fig:ele_lowVars}
   \end{center}
 \end{figure}
 
+\begin{figure}[H]
+  \begin{center}
+   \includegraphics[width=0.95\textwidth]{bdtPlots_eles/high_vars1.pdf}
+   \includegraphics[width=0.95\textwidth]{bdtPlots_eles/high_vars2.pdf}
+    \caption{ Variables used in the high mass training for di-electron channel. Index '1' refers to \HBB~decay and index '0' refers to \HZZ~decay. The TMVA notation is explained in \ref{TMVA_notation}.}
+    \label{fig:ele_highVars}
+  \end{center}
+\end{figure}
 
+After the training, the BDT model is created. This model produces the BDT distribution (BDT responce), see the Fig. \ref{fig:ele_BDTs}. This figure shows the BDT output for the di-electron channel, train and test parameters are overlaid. The parameters of the model, such as the number of trees, the allowed number of splits per variable, the maximum tree depth and others, have been thoroughly studied. It was found that the default TMVA parameters provide this measurement with good performance and, thus, are not changed.
 
+It is difficult to get high performance in the low mass training, since
+this region corresponds to the range of HH masses where all the background processes are concentrated (Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:ele_highVars}). The rate of background in this region is very high and most variables have similar distributions for signal and background processes. The BDT performance is noticeably better than what can be achieved using a simple linear discriminant method (LD), see Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}.
+
+Performance of the high mass training can be considered a perfect one, see Fig. ~\ref{fig:ele_highVars}. Most background processes concentrate in the low mass region, therefore, for high mass region even linear
+discriminant is performing well, see Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}.
+
+\begin{figure}[H]
+  \begin{center}
+   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/low_bdt.pdf}
+   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/high_bdt.pdf}
+    \caption{ BDT discriminants for di-electron channel. Top: low mass training. Bottom: high mass training. }
+    \label{fig:ele_BDTs}
+  \end{center}
+\end{figure}
+
+In the machine learning, one needs performance measures to compare several models. Usually for a classification problem, one relies on the Receiver Operating Characteristics curve (ROC) and its Area Under The Curve (AUC). These two are the most important evaluation metrics for checking the performance for any classification model. The ROC is a curve plotted in the space of signal efficiency and background rejection efficiency, where background rejection is equal to one minus the background efficiency. On the 0 to 1 ranges for axes (values of efficiencies), a diagonal line represents the efficiency of the random guess, which is 0.5. A perfect ROC would bend very close to the top right corner. Such ROC has the AUC almost equal to 1. The ROC curves for di-electron training in low and high mass regions are shown in Fig. \ref{fig:ele_ROCs}. 
+                      
+ROC can be regarded as a probability curve and, in this case, the AUC represents the degree or measure of signal-background separability. It tells how much model is capable of distinguishing between two given classes. The higher the AUC is, the better the model is at predicting signal as signal-like event and background as background-like event.
+
+\begin{figure}[H]
+  \begin{center}
+   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/low_roc.pdf}
+   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/high_roc.pdf}
+    \caption{ ROC curves for di-electron channel. Top: low mass training. Bottom: high mass training. }
+    \label{fig:ele_ROCs}
+  \end{center}
+\end{figure}
+
+For two given signal efficiencies, one would prefer the model, which has the lower background efficiency, or in other words, the higher background rejection efficiency. In practice, when AUCs are close to one and ROCs are similar, one compares AUCs directly and decides which model to use based on the AUC value. 
+
+Finally, we provide the figures of the BDT discriminant in the SR. The plots are shown for the 300 GeV radion decaying in the di-electron and di-muon channels. Both figures are of the post-fit type.
+
+\begin{figure}[H]
+  \begin{center}
+   \includegraphics[width=0.6\textwidth]{bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf}\\
+   \includegraphics[width=0.6\textwidth]{bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf}\\
+    \caption{ BDT distributions for the radion case, electron(muon) channel is shown at the top(bottom). Signal region is presented, 300 GeV mass hypothesis. For electrons the selection is at 0.4, for muons at 0.7, as is described in Section \ref{BDT_selection_in_SR}.}
+    \label{fig:BDTs}
+  \end{center}
+\end{figure}
 
 \subsection{BDT selection requirement in the signal region}
+\label{BDT_selection_in_SR}
 
-           
-                 In this subsection, you explain that  you apply a requirement to candidates in the signal region.
-           You explain that the requirement is specific to the mass hypothesis, and specific to the lepton channel
-           (but does not depend on the resonance nature). Then you explain the  method you used to choose 
+To remove the background contribution in the SR, we apply a BDT requirement to candidates.  The requirement is specific to the mass hypothesis and specific to the lepton channel; however, the requirement does not depend on the resonance nature. A simple grid search method has been adopted to find the best BDT selection for each mass point and channel. During the optimisation procedure, we produced the final limits for each value of the considered BDT requirement. Then we determine the value of the BDT requirement that corresponds to the best expected limit. The optimised final values of the BDT selection that are used in this physics analysis are summarised in the Table~\ref{suboptCut}.
+
+\begin{table}
+\begin{center} 
+  \caption{The BDT selection values used in this measurement.}
+ \begin{tabular}{ |c|c|c|c|c| } \hline%\hline
+   Channel & 260 and 270 GeV & 300 and 350 GeV & 400 and 450 GeV & 600 GeV to 1000 GeV \\ \hline
+   Di-muon & 0.1 & 0.7 & 0.7 & 0.99 \\ %\hline
+   Di-electron & 0.4 & 0.4 & 0.925 & 0.99\\ \hline%\hline
+  \end{tabular}
+  \label{suboptCut}
+\end{center}   
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Then you explain the  method you used to choose 
            the cut value, and provide the table of optimized BDT cut values and the efficiencies (those efficiencies
            that  are presently in the  Table 5.2 in the PDF).
 
@@ -733,7 +806,6 @@ We chose the gradient boosting algorithm, as is implemented in the popular MVA p
           or CR-only fits.]
           
           
-The Toolkit for Multivariate Data Analysis with ROOT (TMVA) package is used to perform BDT training~\cite{Hocker:2007ht}. This ROOT-integrated library enables the usage of the machine learning techniques for the physics data analysis and is commonly used. 
 
 
 \begin{table}                                                                                                                                                                          
@@ -769,300 +841,6 @@ Dibosons      &                        51.4 &                         6.2 \\
 \label{EfficiencyBDT}                                                                                                                                                                  
 \end{center}                                                                                                                                                                           
 \end{table} 
-
-
-
-
-\subsection{Construction of the BDT}
-In this analysis we use the set of nine variables to construct the BDT. These variables are the same in both low and high mass trainings and for both heavy resonances.
-
-Some variables are important only in the specific mass regime, some are ranked highly universally across the whole mass range. For example, in the low mass regime \ETmiss and \HBB~ mass are powerful discriminators against Drell-Yan to leptons plus jets. That is why these
-observables are located in the top three variables of the ranking for low mass BDT (Figs. ~\ref{fig:ranking}). In the high mass regime the leverage is in the boost, therefore, $\Delta R = \sqrt{\Delta \phi^2 + \Delta \eta^2}$ variables, as well as $p_{T}$-related variables show high performance (Figs. ~\ref{fig:ranking}). Namely, $p_{T}$ of both Higgs bosons, Z boson, and also
-separation $\Delta R $  between two b-jets and also $\Delta R$ between  two leptons. It is worth noting that \HBB~ mass is a powerful discriminator ranked highly for all mass regimes and both channels. 
-
-Plots of input variables and correlations are shown on the Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:muon_lowVars}, ~\ref{fig:ele_cors_low}, ~\ref{fig:ele_cors_high}, ~\ref{fig:muon_cors_low}, ~\ref{fig:muon_cors_high}.
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.35\textwidth]{ee_low.png}
-   \includegraphics[width=0.35\textwidth]{ee_high.png}\\
-   \includegraphics[width=0.35\textwidth]{mm_low.png}
-   \includegraphics[width=0.35\textwidth]{mm_high.png}
-    \caption{ Ranking of variables in the BDT training for electron(muon) channel at the top(bottom). Left: low mass BDT. Right: high mass BDT.}
-    \label{fig:ranking}
-  \end{center}
-\end{figure}
-
-
-
-\begin{table}                                                                                                                                                                          
-\begin{center}      
-\caption{Efficiency of the BDT selection requirement. $ee$ channel (top) and $\mu\mu$ channel (bottom). }
-\begin{tabular}{|c|c|c|}
-\hline
-sample & Efficiency at 300 GeV, [\%] &  Efficiency at 900 GeV, [\%] \\
-\hline
-signal (bbZZ) &                        89.2 &                        94.9 \\
-signal (bbWW) &                        75.0 &                        88.4 \\
-\ttbar        &                        28.8 &                         0.2 \\
-Drell-Yan     &                        74.2 &                         1.2 \\
-Single top    &                        33.1 &                         1.1 \\
-ZH            &                        88.8 &                        10.7 \\
-Dibosons      &                        90.0 &                         5.0 \\
-\hline
-\end{tabular}
-\label{EfficiencyBDT}                                                                                                                                                                  
-\end{center}                                                                                                                                                                           
-\end{table} 
-
-
-\noindent\begin{table}
-   \centering
-   \begin{tabular}{|c| l |c|}\hline
-     Rank & Variable & Importance, \% \\\hline
-     1 & $\Delta R_{b\ jets}$ & 13.9 \\ 
-     2 & MET & 12.1 \\ 
-     3 & Mass of $\HBB$ candidate & 11.9 \\ 
-     4 & $p_T^{ZZ^*}$ & 11 \\ 
-     5 & $\Delta R_{leptons}$ & 10.9 \\ 
-     6 & $p_T$ of $\HBB$ candidate & 10.7 \\ 
-     7 & $p_T$ of Z boson candidate & 10.2 \\ 
-     8 & Mass of $ZZ^*$ system & 10.1 \\ 
-     9 & Mass of Z boson candidate & 9.26 \\ 
-     \hline
-   \end{tabular}
-   \captionof{table}{Di-electron channel. Low mass.}
-   \label{tab:test1}
-\end{table}
-\begin{table}
-   \centering
-   \begin{tabular}{|c| l |c|}\hline
-     Rank & Variable & Importance, \% \\\hline
-     1 & $\Delta R_{leptons}$ & 14.1 \\ 
-     2 & Mass of $\HBB$ candidate & 13.7 \\ 
-     3 & $\Delta R_{b\ jets}$ & 13.2 \\ 
-     4 & $p_T$ of $\HBB$ candidate & 12.1 \\ 
-     5 & $p_T$ of Z boson candidate & 11.5 \\ 
-     6 & $p_T^{ZZ^*}$ & 11.3 \\ 
-     7 & MET & 10.3 \\ 
-     8 & Mass of $ZZ^*$ system & 7.7 \\ 
-     9 & Mass of Z boson candidate & 6.1 \\ 
-     \hline
-   \end{tabular}
-   \captionof{table}{Di-electron channel. High mass.}
-   \label{tab:test2}
-\end{table}
-
-\vspace{2cm}
-%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent\begin{table}
-   \centering
-   \begin{tabular}{|c| l |c|}\hline
-     Rank & Variable & Importance, \% \\\hline
-     1 & $\Delta R_{b\ jets}$ & 13 \\ 
-     2 & MET & 12.2 \\ 
-     3 & Mass of $\HBB$ candidate & 11.9 \\ 
-     4 & $p_T$ of $\HBB$ candidate & 11.3 \\ 
-     5 & $p_T$ of Z boson candidate & 11.1 \\ 
-     6 & $p_T^{ZZ^*}$ & 10.9 \\ 
-     7 & $\Delta R_{leptons}$ & 10.5 \\ 
-     8 & Mass of $ZZ^*$ system & 9.7 \\ 
-     9 & Mass of Z boson candidate & 9.5 \\ 
-     \hline
-   \end{tabular}
-   \captionof{table}{Di-muon channel. Low mass.}
-   \label{tab:test1}
-\end{table}
-\begin{table}
-   \centering
-   \begin{tabular}{|c| l |c|}\hline
-     Rank & Variable & Importance, \% \\\hline
-     1 & Mass of $\HBB$ candidate & 13.8 \\ 
-     2 & $\Delta R_{b\ jets}$ & 13.1 \\ 
-     3 & $\Delta R_{leptons}$ & 12.9 \\ 
-     4 & $p_T$ of \HBB candidate & 11.7 \\ 
-     5 & $p_T^{ZZ^*}$ & 11.3 \\ 
-     6 & $p_T$ of Z boson candidate & 11.1 \\ 
-     7 & MET & 11 \\ 
-     8 & Mass of $ZZ^*$ system & 8.8 \\ 
-     9 & Mass of Z boson candidate & 6.2 \\ 
-     \hline
-   \end{tabular}
-   \captionof{table}{Di-muon channel. High mass.}
-   \label{tab:test2}
-\end{table}
-
-
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.6\textwidth]{bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf}\\
-   \includegraphics[width=0.6\textwidth]{bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf}\\
-    \caption{ BDT plots for radion case, electron(muon) channel at the top(bottom). Signal region, 300 GeV mass hypothesis. For electrons cut is at 0.4, for muons at 0.7. More details at the table \ref{suboptCut}.}
-    \label{fig:BDTs}
-  \end{center}
-\end{figure}
-
-
-
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.95\textwidth]{bdtPlots_eles/low_vars1.pdf}
-   \includegraphics[width=0.95\textwidth]{bdtPlots_eles/low_vars2.pdf}
-    \caption{ Variables used in the low mass training for electron channel. Index '1' refers to \bbbar and index '0' refers to ZZ.}
-    \label{fig:ele_lowVars}
-  \end{center}
-\end{figure}
-
-
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.95\textwidth]{bdtPlots_eles/high_vars1.pdf}
-   \includegraphics[width=0.95\textwidth]{bdtPlots_eles/high_vars2.pdf}
-    \caption{ Variables used in the high mass training for electron channel.}
-    \label{fig:ele_highVars}
-  \end{center}
-\end{figure}
-
-
-It is hard to get high performance in the low mass training, since
-this is where all the backgrounds are concentrated (Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:muon_lowVars}). The rate of background in this region is enormous and most variables have similar distributions for signal and backgrounds. However, BDT performance is noticeably better than what can be achieved using a simple linear discriminant method (Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}, ~\ref{fig:muon_BDTs}, ~\ref{fig:muon_ROCs}). 
-
-Earlier versions of the analysis tried more granular approach to the number of BDTs, up to four BDTs to cover the whole range from 250 to 1000 GeV. But it was shown that this added extra complexity brings almost no improvement, while in fact is error prone and computationally twice more expensive. This is why other HH analyses also split the whole mass range only in two subranges and we followed the same suggestion. The BTD plots for radion case in the signal regions for 300 GeV mass hypothesis are shown at Fig. \ref{fig:BDTs}.
-
-
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/low_bdt.pdf}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/high_bdt.pdf}
-    \caption{ BDT discriminants for electron channel. Top: low mass training. Bottom: high mass training. }
-    \label{fig:ele_BDTs}
-  \end{center}
-\end{figure}
-
-Performance of the high mass training is perfect (Figs. ~\ref{fig:ele_highVars}, ~\ref{fig:muon_highVars}, ). The ROC curves are close to the top right corner of the efficiencies space, which means a high signal efficiency is achieved along side with the low efficiency of the background. This is due to the
-fact that most backgrounds peak in the low mass region. Even linear
-discriminant is performing well in this situation (Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}, ~\ref{fig:muon_BDTs}, ~\ref{fig:muon_ROCs}).
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/low_roc.pdf}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/high_roc.pdf}
-    \caption{ ROC curves for electron channel. Top: low mass training. Bottom: high mass training. }
-    \label{fig:ele_ROCs}
-  \end{center}
-\end{figure}
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/low_corS.pdf}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/low_corB.pdf}
-    \caption{ Input variables correlations for electron channel, low mass training. Top: signal sample mix. Bottom: background sample mix. }
-    \label{fig:ele_cors_low}
-  \end{center}
-\end{figure}
-
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/high_corS.pdf}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_eles/high_corB.pdf}
-    \caption{ Input variables correlations for electron channel, high mass training. Top: signal sample mix. Bottom: background sample mix. }
-    \label{fig:ele_cors_high}
-  \end{center}
-\end{figure}
-
-
-For completeness purpose and research reproducibility, it is worth mentioning in this paragraph the technical details. The following TMVA specific parameters have been used for the BDT training (most parameters are default ones since no significant improvement was observed when varying the parameters one at a time): NTrees = 800, BoostType=Grad, Shrinkage=0.1, UseBaggedBoost=True, GradBaggingFraction=0.5, SeparationType= GiniIndex, nCuts=30, and MaxDepth=3. %Few modifications did not improve much the performance.
-
-
-Electrons and muons have been optimised separately but BDT trainings show similar performance (Fig. ~\ref{fig:ele_ROCs} and ~\ref{fig:muon_ROCs}). BDT distributions for data and MC comparison are created with the nominal values for the lepton and b jet scale factors. When shape systematics is considered to produce final limits, BDT shapes are
-varied using 'Up' or 'Down' versions of the scale factors and all the input variables to the BDT are modified in the similar fashion as well. The BDT plots shown below are further modified applying postfit values of DY and \ttbar normalizations returned from the Maximum Likelihood fit performed with the real data. 
-
-
-
-%% \begin{figure}[tbp]
-%%   \begin{center}
-%%    \includegraphics[width=0.35\textwidth]{low_muon.png}
-%%    \includegraphics[width=0.35\textwidth]{high_muon.png}
-%%     \caption{ Ranking of variables in the BDT training for muon channel. Left: low mass BDT. Right: high mass BDT.}
-%%     \label{fig:muon_ranking}
-%%   \end{center}
-%% \end{figure}
-
-
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.95\textwidth]{bdtPlots_muons/low_vars1.pdf}
-   \includegraphics[width=0.95\textwidth]{bdtPlots_muons/low_vars2.pdf}
-    \caption{Variables used in the low mass training for muon channel. Index '1' refers to \bbbar and index '0' refers to ZZ.}
-    \label{fig:muon_lowVars}
-  \end{center}
-\end{figure}
-
-
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.95\textwidth]{bdtPlots_muons/high_vars1.pdf}
-   \includegraphics[width=0.95\textwidth]{bdtPlots_muons/high_vars2.pdf}
-    \caption{ Variables used in the high mass training for muon channel.}
-    \label{fig:muon_highVars}
-  \end{center}
-\end{figure}
-
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/low_bdt.pdf}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/high_bdt.pdf}
-    \caption{ BDT discriminants for muon channel. Top: low mass training. Bottom: high mass training. }
-    \label{fig:muon_BDTs}
-  \end{center}
-\end{figure}
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/low_roc.pdf}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/high_roc.pdf}
-    \caption{ ROC curves for muon channel. Top: low mass training. Bottom: high mass training. }
-    \label{fig:muon_ROCs}
-  \end{center}
-\end{figure}
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/low_corS.pdf}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/low_corB.pdf}
-    \caption{ Input variables correlations for muon channel, low mass training. Top: signal sample mix. Bottom: background sample mix. }
-    \label{fig:muon_cors_low}
-  \end{center}
-\end{figure}
-
-
-\begin{figure}[tbp]
-  \begin{center}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/high_corS.pdf}
-   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/high_corB.pdf}
-    \caption{ Input variables correlations for muon channel, high mass training. Top: signal sample mix. Bottom: background sample mix. }
-    \label{fig:muon_cors_high}
-  \end{center}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1282,71 +1060,20 @@ DROP
 Prior to the derivation of the expected limits, we had to make sure their values are the most sensitive limits that our analysis can set. For that, we have done an optimization study finding the best cut value on the BDT discriminant with the idea to yield the lowest (the most sensitive) limit. 
 
 
-
-\subsection{Optimization for the best limit}
-
-For this study, before doing the combination of electron and muon channels, we have optimized each of the channels separately. Systematical uncertainties were present only of the normalization type (lnN), since we are statistically limited and systematics plays a secondary role. %The latter can be seen running the fit with the "-S 0" option, which ignores systematics entirely. 
-As an example, for a specific analysis setup the 300 GeV fit in the muon channel yields the limit ('r-value') 255.25 (with the systematics but neglecting BBB uncertainties), without systematics the 'r-value' is 238.25. The difference is 17 parts in 255.25, which is just 6.7 $\%$.
-
-As can be seen from the plots ~\ref{fig:ele_bdt_vs_r} and ~\ref{fig:muon_bdt_vs_r}, for high mass region the best cut to use is 0.99 for both electron and muon channels. For low mass region, the situation is more complicated. Depending on the mass point (and channel!) one cut is better than the other. For electron channel for 400 and 450 GeV mass points the best cut is 0.925. In the lower region, the situation changes, 0.2 for 260 GeV, 0.4 for 270 and 300 GeV, 0.825 for 350 GeV. 
-
-Running the whole analysis for each separate cut and channel and spin hypothesis is not possible computationally taking into account the number of samples and shapes one has to create and process. That is why a reasonable compromise is to observe that for 260 $\to$ 350 GeV included, the suboptimal cut can be 0.4, being well inside the $1\sigma$ error band. This leaves the whole mass range with just three different cut values. This approach of suboptimal cuts, cuts which are close the best values but, most importantly, can be shared among several mass points, is what we adopted for this measurement. 
-
-For instance, for muons the best cuts are: 0.1 for 260 and 270 GeV, 0.5 for 300 GeV, 0.7 for 350 GeV, 0.925 for 400 and 450 GeV. Taking the approach of suboptimal cuts, the values we kept are: 0.1 for 260 and 270 GeV, 0.7 for 300 $\to$ 450 GeV included. This way we simplify the analysis to three different BDT cuts per channel and, at the same time, remain optimal within the error bands with respect to the best cut values. This is summarized in the Table~\ref{suboptCut}.
-
-\begin{table}
-\begin{center} 
-  \caption{Suboptimal BDT cuts used in the analysis}
- \begin{tabular}{ |c|c|c|c|c| } \hline%\hline
-   channel & 260 and 270 GeV & 300 and 350 GeV & 400 and 450 GeV & 600 GeV to 1000 GeV \\ \hline
-   muons & 0.1 & 0.7 & 0.7 & 0.99 \\ %\hline
-   electrons & 0.4 & 0.4 & 0.925 & 0.99\\ \hline%\hline
-  \end{tabular}
-  \label{suboptCut}
-\end{center}   
-\end{table}
+%
+%\subsection{Optimization for the best limit}
+%
+%For this study, before doing the combination of electron and muon channels, we have optimized each of the channels separately. Systematical uncertainties were present only of the normalization type (lnN), since we are statistically limited and systematics plays a secondary role. %The latter can be seen running the fit with the "-S 0" option, which ignores systematics entirely. 
+%As an example, for a specific analysis setup the 300 GeV fit in the muon channel yields the limit ('r-value') 255.25 (with the systematics but neglecting BBB uncertainties), without systematics the 'r-value' is 238.25. The difference is 17 parts in 255.25, which is just 6.7 $\%$.
+%
+%As can be seen from the plots ~\ref{fig:ele_bdt_vs_r} and ~\ref{fig:muon_bdt_vs_r}, for high mass region the best cut to use is 0.99 for both electron and muon channels. For low mass region, the situation is more complicated. Depending on the mass point (and channel!) one cut is better than the other. For electron channel for 400 and 450 GeV mass points the best cut is 0.925. In the lower region, the situation changes, 0.2 for 260 GeV, 0.4 for 270 and 300 GeV, 0.825 for 350 GeV. 
+%
+%Running the whole analysis for each separate cut and channel and spin hypothesis is not possible computationally taking into account the number of samples and shapes one has to create and process. That is why a reasonable compromise is to observe that for 260 $\to$ 350 GeV included, the suboptimal cut can be 0.4, being well inside the $1\sigma$ error band. This leaves the whole mass range with just three different cut values. This approach of suboptimal cuts, cuts which are close the best values but, most importantly, can be shared among several mass points, is what we adopted for this measurement. 
+%
+%For instance, for muons the best cuts are: 0.1 for 260 and 270 GeV, 0.5 for 300 GeV, 0.7 for 350 GeV, 0.925 for 400 and 450 GeV. Taking the approach of suboptimal cuts, the values we kept are: 0.1 for 260 and 270 GeV, 0.7 for 300 $\to$ 450 GeV included. This way we simplify the analysis to three different BDT cuts per channel and, at the same time, remain optimal within the error bands with respect to the best cut values. 
 
 
 
-
-
-
-
-
-
-\begin{figure}[!htb]%hbpt?        
-\includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{eles_bdt_vs_r/gr_limits__260GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{eles_bdt_vs_r/gr_limits__270GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{eles_bdt_vs_r/gr_limits__300GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{eles_bdt_vs_r/gr_limits__350GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{eles_bdt_vs_r/gr_limits__400GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{eles_bdt_vs_r/gr_limits__450GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{eles_bdt_vs_r/gr_limits__600GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{eles_bdt_vs_r/gr_limits__650GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{eles_bdt_vs_r/gr_limits__900GeV.pdf}
-\hspace{1.9cm}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{eles_bdt_vs_r/gr_limits__1000GeV.pdf}
-\caption{ Cut on the BDT output vs 'r-value' from Combine. Electron channel.}
-\label{fig:ele_bdt_vs_r}                                                       
-\end{figure}
-
-
-
-\begin{figure}[!htb]%hbpt?        
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__260GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__270GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__300GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__350GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__400GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__450GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__600GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__650GeV.pdf}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__900GeV.pdf}
-\hspace{1.9cm}
-\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__1000GeV.pdf}
-\caption{ Cut on the BDT output vs 'r-value' from Combine. Muon channel.}
-\label{fig:muon_bdt_vs_r}           
-\end{figure}
 
  
 \subsection{Results from the fit}
@@ -2011,5 +1738,148 @@ Muon ID scale factors, as well as ISO scale factors, have been derived separatel
 
 
 
+%%% %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                     
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRDY_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_ee_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/ee_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_ee_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/bdt_response_afterCut_ee_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_SR_april21/bdt_response_afterCut_ee_SR_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/ee_300_april18/bdt_response_ee_CRTT_FullPostfit_plot_apr18.png}\\
+%    \caption{Comparison of data and MC samples. 300 GeV, ee channel, BDT distributions for CRDY(top row), SR BDT sideband (2nd row), unblind SR (3rd row), CRTT (bottom row). Prefit plot on the left, Full Postfit plot on the right.}
+%    \label{fig:bdt_ee}
+%  \end{center}
+%\end{figure}
+%
+%
+%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                             
+%\begin{figure}[tbp]
+%  \begin{center}
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRDY_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRDY_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_mm_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/bdt_response_afterCut_mm_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/bdt_response_afterCut_mm_SR_prefit_plot_apr21.png}
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/bdt_response_afterCut_mm_SR_FullPostfit_plot_apr21.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRTT_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/bdt_response_mm_CRTT_FullPostfit_plot_apr18.png}\\
+%    \caption{Comparison of data and MC samples. 300 GeV, mm channel, BDT distributions for CRDY(top row), SR BDT sideband (2nd row), unblinded SR (3rd row), CRTT (bottom row). Prefit plot on the left,           Full Postfit plot on the right.}
+%    \label{fig:bdt_mm}
+%  \end{center}
+%\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%   \includegraphics[width=0.95\textwidth]{bdtPlots_muons/low_vars1.pdf}
+%   \includegraphics[width=0.95\textwidth]{bdtPlots_muons/low_vars2.pdf}
+%    \caption{Variables used in the low mass training for muon channel. Index '1' refers to \bbbar and index '0' refers to ZZ.}
+%    \label{fig:muon_lowVars}
+%  \end{center}
+%\end{figure}
+%
+%
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%   \includegraphics[width=0.95\textwidth]{bdtPlots_muons/high_vars1.pdf}
+%   \includegraphics[width=0.95\textwidth]{bdtPlots_muons/high_vars2.pdf}
+%    \caption{ Variables used in the high mass training for muon channel.}
+%    \label{fig:muon_highVars}
+%  \end{center}
+%\end{figure}
+%
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/low_bdt.pdf}
+%   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/high_bdt.pdf}
+%    \caption{ BDT discriminants for muon channel. Top: low mass training. Bottom: high mass training. }
+%    \label{fig:muon_BDTs}
+%  \end{center}
+%\end{figure}
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/low_roc.pdf}
+%   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/high_roc.pdf}
+%    \caption{ ROC curves for muon channel. Top: low mass training. Bottom: high mass training. }
+%    \label{fig:muon_ROCs}
+%  \end{center}
+%\end{figure}
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/low_corS.pdf}
+%   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/low_corB.pdf}
+%    \caption{ Input variables correlations for muon channel, low mass training. Top: signal sample mix. Bottom: background sample mix. }
+%    \label{fig:muon_cors_low}
+%  \end{center}
+%\end{figure}
+%
+%
+%\begin{figure}[tbp]
+%  \begin{center}
+%   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/high_corS.pdf}
+%   \includegraphics[width=0.75\textwidth]{bdtPlots_muons/high_corB.pdf}
+%    \caption{ Input variables correlations for muon channel, high mass training. Top: signal sample mix. Bottom: background sample mix. }
+%    \label{fig:muon_cors_high}
+%  \end{center}
+%\end{figure}
+%
+%
+%
+
+
+%
+%
+%\begin{figure}[!htb]%hbpt?        
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{eles_bdt_vs_r/gr_limits__260GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{eles_bdt_vs_r/gr_limits__270GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{eles_bdt_vs_r/gr_limits__300GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{eles_bdt_vs_r/gr_limits__350GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{eles_bdt_vs_r/gr_limits__400GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{eles_bdt_vs_r/gr_limits__450GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{eles_bdt_vs_r/gr_limits__600GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{eles_bdt_vs_r/gr_limits__650GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{eles_bdt_vs_r/gr_limits__900GeV.pdf}
+%\hspace{1.9cm}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{eles_bdt_vs_r/gr_limits__1000GeV.pdf}
+%\caption{ Cut on the BDT output vs 'r-value' from Combine. Electron channel.}
+%\label{fig:ele_bdt_vs_r}                                                       
+%\end{figure}
+%
+%
+%
+%\begin{figure}[!htb]%hbpt?        
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__260GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__270GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__300GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__350GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__400GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__450GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__600GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__650GeV.pdf}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__900GeV.pdf}
+%\hspace{1.9cm}
+%\includegraphics[width=0.5\textwidth, height=0.2\textheight, keepaspectratio]{muons_bdt_vs_r/gr_limits__1000GeV.pdf}
+%\caption{ Cut on the BDT output vs 'r-value' from Combine. Muon channel.}
+%\label{fig:muon_bdt_vs_r}           
+%\end{figure}
 
 
