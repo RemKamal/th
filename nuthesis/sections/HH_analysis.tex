@@ -536,7 +536,7 @@ After the training procedure, ML algorithm produce a discriminator, which is a f
 Every analysts would always like to have a classifier that has a low bias and a low variance. A bias is a difference between the average prediction of our model and the correct value, which we are trying to predict. A classifier with a high bias oversimplifies the model and does not take into account all the nuances of a given train data. Therefore, one prefers a low bias models, which are flexible and perform well both on the train and test data, and always provide a stable good separation between the signal and background hypotheses. A variance is the variability of model prediction for a given data point. A variance is related to the spread of our data. A model with high variance learns almost every single pattern in the train data and, therefore, will not generalise well, when given new unseen data. As a result, models with a high variance achieve the best scores using the train data but perform poorly on the test data. Thus, one prefers a low variance models, which are robust when applying the trained classifiers on a dataset that is statistically independent from the one used for training.
 
 One of the most popular ML algorithms in HEP is based on the boosted decision trees (BDT). A single decision tree is a sequence of simple binary splits on each of the input variables. The tree, thus, can be depicted as a multidimensional set of selections on input space. The tree assigns a score of +1 or -1 if a given event is signal or background-like. The key elements in each step of the BDT spilts are the variables used for the selection and the positions of the selections. Both are determined using an impurity criterion $I(p_n)$, which is a function of the signal purity $p_n$ in tree node $n$. The signal purity is defined as a ratio of the signal contribution to the total number of signal and background events, $p_n = S/(S+B)$. The impurity criterion is chosen such that it is at the minumum when $p_n$=0 or $p_n$=1. These values would give a perfect signal-background discrimination. The criterion is at the maximum, when $p_n$=0.5, which means no discrimination is achieved. 
-Each split maximises the gain function $G=I(p_n) - f_1I(p_{c1})-f_2I(p_{c2})$. In this formulation of $G$, the labels c1 and c2 refer to chid nodes of the parent node, and $f1$ and $f2$ are the fractions of events of the parent node that are found in child nodes c1 and c2, respectively. As a definition of the impurity criterion for this measurement, the Gini coefficient is used: $I_G(p_n) = ??p_n \cdot (1?p_n)$. 
+Each split maximises the gain function $G=I(p_n) - f_1I(p_{c1})-f_2I(p_{c2})$. In this formulation of $G$, the labels c1 and c2 refer to chid nodes of the parent node, and $f1$ and $f2$ are the fractions of events of the parent node that are found in child nodes c1 and c2, respectively. As a definition of the impurity criterion for this measurement, the Gini coefficient is used: $I_G(p_n) = ??2 p_n \cdot (1?p_n)$. 
 
 The tree keeps applying the selection on the input variables until either a maximum depth is reached (a number of consecutive splits), or a minimum number of events in the final child nodes are attained. The problem with such a tree growing procedure is that it is prone to overtraining, which means the model will not generalise well and have a high variance. One way to deal with BDT overtraining is boosting. 
 The idea behind boosting is, that signal events
@@ -749,7 +749,7 @@ Finally, we provide the figures of the BDT discriminant in the SR. The plots are
 \subsection{BDT selection requirement in the signal region}
 \label{BDT_selection_in_SR}
 
-To remove the background contribution in the SR, we apply a BDT requirement to candidates.  The requirement is specific to the mass hypothesis and specific to the lepton channel; however, the requirement does not depend on the resonance nature. A simple grid search method has been adopted to find the best BDT selection for each mass point and channel. During the optimisation procedure, we produced the final limits for each value of the considered BDT requirement. Then we determine the value of the BDT requirement that corresponds to the best expected limit. The optimised final values of the BDT selection that are used in this physics analysis are summarised in the Table~\ref{suboptCut}.
+To remove the background contribution in the SR, we apply a BDT requirement to di-Higgs candidates.  The requirement is specific to the mass hypothesis and specific to the lepton channel; however, the requirement does not depend on the resonance nature. A simple grid search method has been adopted to find the best BDT selection for each mass point and channel. During the optimisation procedure, we produced the final limits for each value of the considered BDT requirement. Then, we determine the value of the BDT requirement that corresponds to the best expected limit. The optimised values of the BDT selection that are used in this physics analysis are summarised in the Table~\ref{suboptCut}.
 
 \begin{table}
 \begin{center} 
@@ -763,54 +763,11 @@ To remove the background contribution in the SR, we apply a BDT requirement to c
 \end{center}   
 \end{table}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Then you explain the  method you used to choose 
-           the cut value, and provide the table of optimized BDT cut values and the efficiencies (those efficiencies
-           that  are presently in the  Table 5.2 in the PDF).
-
-           [Note that not once in my proposal do I mention the MTHH variable. This is because we really  look
-          at it after  the full selection including the BDT cut, so it appears premature to look at it earlier.
-          I will propose, in my future comments, to define it and look at its distributions in the Statistical Analysis chapter.]
-
-           [There is no need to mention all side studies, all optimizations in detail, or all cross checks in 
-          the dissertation, as you would certainly agree. Such as: kinematic plots from BDT sidebands,
-          or CR-only fits.]
-          
-          
-
+The corresponding efficiencies of the BDT selection are presented in the Table \ref{EfficiencyBDT}. These values are derived for for the graviton signal hypothesis and main background processes for two channels separately. 
 
 \begin{table}                                                                                                                                                                          
 \begin{center}      
-\caption{Efficiency of the BDT selection requirement. $ee$ channel (top) and $\mu\mu$ channel (bottom). }
+\caption{Efficiency of the BDT selection requirement in two mass regions and for two channels: $ee$ channel (top) and $\mu\mu$ channel (bottom). }
 \begin{tabular}{|c|c|c|}
 \hline
 sample & Efficiency at 300 GeV, [\%] &  Efficiency at 900 GeV, [\%] \\
@@ -842,144 +799,150 @@ Dibosons      &                        51.4 &                         6.2 \\
 \end{center}                                                                                                                                                                           
 \end{table} 
 
-
-
-\section{Systematic Uncertainties}
+\section{Uncertainties of the measurement}
 \label{sec:Systematics}
 
-Systematic uncertainties that affect the sensitivity of our di-Higgs search
-come from a variety of sources such as theoretical uncertainties on
-cross sections or proton structure, experimental uncertainties related
-to the modelling of the detector response, the amount of collected
-data, and the discrepancies between the simulated samples and the real data.
+The outcome of the statistical analysis (or StatAn, which is discussed in the next section) is the limit on the HH production cross section times the BF of the final state (or just the limit). The StatAn uses the predicted event counts for different processes as well as the shape information of kinematic distributions for those events. The predicted event  counts are computed by multiplying the number of events in simulated samples of different processes by the best known cross sections for those processes, while also assigning events weights based on several other factors. However, the results of the analysis are highly affected by the systematic and statistical uncertainties. Therefore, we first discuss the types of uncertainties, how they affect the final limits, and also provide the size of this impact for dominant sources of the uncertainties. Then, we will discuss the fit procedure and the variable that was used to extract the limits. 
 
-Systematic uncertainties can be divided into two broad categories:
-those affecting only the yields of selected events from different processes
-(the "normalization" uncertainties) and those that, in addition to the change in rate, may
-distort the shape of the \mTHH distribution used in the extraction of
-the limits (the "shape" uncertainties). %Systematic uncertainties of all types enter the likelihood function of the fit in the limits extraction as independent nuisance parameters.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+Uncertainties that affect the sensitivity of the search come from a variety of sources: statistical uncertainties due to limited size of the sample statistics, experimental uncertainties related to the accuracy of the detector response, the amount of collected data (uncertainty on the Luminosity), differences of simulated samples from real data, and the theoretical uncertainties on cross sections or proton structure. Following the CMS practices, below we will divide all uncertainties into two broad classes: the ``normalization'' and the ``shape''  uncertainties. The former modify only the yields (or ``normalizations'' for brevity) of selected events from different processes. The latter, may also distort the shape of the distribution of the final kinematic variable that is used in the extraction of the limits.
 
+To compute the effect of a particular source of the systematic uncertainty on the final limit, we use the up/down method. This is a procedure of varying a factor affecting the expected yields up or down by the amount of an estimated uncertainty on the effect, and examining how the yields change.
+ 
 \subsection{Normalization uncertainties}
 
-%Normalization uncertainty for each source of the systematic bias is determined through variation of parameters governing the impact of that bias and measuring the effect of such variation on the yield of signal and background components of the sample. The size of the effect then enters the likelihood fit as a constraint on the corresponding nuisance parameters.                                                                                                                                                                                                                                                                                                                                                                             
-
-The sources of systematic
-uncertainties that affect normalizations are discussed in the list below. The sizes of some
-systematic uncertainties may vary depending on the resonance mass hypothesis
-and the decay channel of the leptonically decaying \PZ boson, in which cases
-ranges of the uncertainty values are listed. Normalization uncertainties
-discussed in this section do not affect the normalizations of the \ttbar and DY
-backgrounds because those are determined from data during the simultaneous fit of the signal and control regions.
-
+The sources of systematic uncertainties that affect normalizations are discussed below. Certain types of uncertainties vary depending on the resonance mass hypothesis and the type of the channel (di-electron or di-muon). In this cases ranges of the uncertainty values are listed. Normalization uncertainties listed in this section modify all background processes but \ttbar and DY. The levels of those backgrounds are determined from data during the statistical analysis that uses two control regions dominated by these two background processes.
+  
 \begin{itemize}
 
-\item{\bfseries Luminosity} - CMS estimated this uncertainty on the integrated
-  luminosity of the CMS 2016 data set to be $2.5\%$
-  ~\cite{CMS-PAS-LUM-17-001}. This uncertainty directly affects the
-  expected event yields for the signal processes as well as all
-  background processes except for the two dominant backgrounds, DY and
-  \ttbar. %, which have their normalization determined in the limits extraction likelihood fit.
+\item{\bf Luminosity.} 
+The CMS estimated the uncertainty on the integrated luminosity of 2016 data set to be $2.5\%$, see ~\cite{CMS-PAS-LUM-17-001}. This uncertainty directly affects the expected event yields for both signal and background processes (excluding two dominant ones, DY and \ttbar).
+  
+\item{\bf Pileup.} 
+How well the PU interactions are replicated in the MC simulation affects the signal and background event yields.The effect of this uncertainty on normalizations is approximately 6\%. The effect is estimated varying the number of pileup interactions in simulated samples up and down within the range reflecting the limited knowledge of the total inelastic proton-proton interaction cross section at 13~TeV. 
 
-\item{\bfseries Pileup} - Signal and background event yields depend on the
-  accuracy of the reproduction of pileup interactions in each simulated event. The effect of pileup is considered on each process. The recommended nominal value of 69.2 mb is used for the total inelastic pp cross section, for Down and Up variations, the values of 66.02 and 72.38 mb are used respectively, reflecting the imperfect knowledge of the total inelastic
-  proton-proton interaction cross section at 13~TeV. The effect is seen only in the normalization and we, thus, consider this a normalization uncertainty and assign the value of $6\%$.
-
-\item{\bfseries Proton PDF} - The systematic bias associated with the limited
-  knowledge of the interacting proton content is evaluated using an ensemble of a hundred of PDF
+\item{\bf Proton PDF.} 
+The impossibility to know precisely the structure of the interacting protons is evaluated using an ensemble of PDF
   replicas from the NNPDF set \cite{Ball:2014uwa} following the
-  PDF4LHC prescription \cite{Botje:2011sn,Alekhin:2011sk} and the RMS
-  of the resulting process normalizations is taken as a measure of the
-  bias. It is found to be of order 5\%.
+  PDF4LHC prescription \cite{Botje:2011sn,Alekhin:2011sk}. The root mean square value of the resulting process normalizations is taken as a measure of this bias. The size of the effect is found to be of order 5\%. 
 
-\item{\bfseries QCD scales} - Theoretical uncertainties in the QCD
-  factorization and renormalization scales affect the expected yield
-  of the signal and background events, excluding the \ttbar and DY
-  yields as mentioned earlier. This uncertainty is estimated
-  by varying independently these two scales in simulation by factors 0.5 and 2 with respect to the nominal
-  values of the scales. The unphysical cases with one of the scales
-  fluctuating up while the other fluctuates down are discarded. In
-  each bin of the HH transverse mass distribution the maximum and
-  minimum variation are used to build an envelope around the nominal
-  shape, resulting in the effect of the size 4-6\% on the processes' yields.
+\item{\bf Theoretical uncertainties of the QCD scales.} 
+The bias associated with the theoretical uncertainties in the QCD factorization and renormalization scales is evaluated. This uncertainty affects the expected yield of the signal and background events (except the \ttbar and DY processes). This uncertainty is computed by varying independently factorization and renormalization scales in simulation of the signal samples by two factors: 0.5, and 2 with respect to the nominal values of the scales. The unphysical cases, when one of the scales fluctuates up while the other fluctuates down, are not considered. In each bin of the final variable that is used in the StatAn, the maximum and minimum variations of the yields are used to build a bias region around the nominal shape. The effect has a size of 4--6\% on the processes' yields.
 
-%\item{\bfseries Theoretical cross sections} - The theoretical cross section is  used to normalize the contribution from the single top  background. The uncertainty in this cross section is propagated to  the uncertainty in the background yields for this process and is   found to be 5--7\%.
 
-% \item {\bfseries MET}: the effect of the JEC and JER on the MET is studied modifying MET variables that go into HH transverse mass shape used in the final fit. The effect of the calibration of unclustered MET, meaning missing energy associated with particles that are not clustered into jets, is found only on the normalization, the shape itself is not distorted. The size of the effect is $~3\%$ depending on the mass hypothesis and the $3\%$ normalization uncertainty is used in the analysis.
-%
 
-\item{\bfseries Missing transverse energy/momentum} - Clustered energy in
+
+
+
+
+
+
+
+
+
+
+\item{\bf Theoretical cross sections.} 
+The theoretical cross section is
+  used to normalize the contribution from the single top
+  background. The uncertainty in this cross section is propagated to
+  the uncertainty in the background yields for this process and is
+  found to be 5--7\%. 
+%%% DY and ttbar are exempt as stated in the beginning of this section.
+%The normalizations of the dominant background
+%  from the DY and \ttbar processes comes from the fit to the data, and
+%  thus do not have any systematic bias associated with uncertainties
+%  of their theoretical cross sections.
+
+\item{\bf Missing transverse momentum.} 
+While the clustered energy in
   jets and leptons undergo energy corrections during event
-  reconstruction, however, neutral hadrons and photons that do not belong to any jet
-  ("unclustered energy") and jets with low transverse momenta (below
-  10~GeV) lack such corrections. This results in a small systematic
-  bias in the reconstructed missing transverse momentum. \ETslash enters the \mTHH variable, thus the effect of the unclustered energy has to be studied. We shift the energy of each
+  reconstruction, neutral hadrons and photons that do not belong to any jet
+  ("unclustered energy") and jets with transverse momenta below
+  10~GeV lack such corrections. This leads to a small systematic
+  bias in the reconstructed missing transverse momentum. The effect of the
+  energy scale in the unclustered energy on the magnitude of the
+  \ptvecmiss and, subsequently, on the selection efficiency as well as
+  the HH transverse mass is studied by shifting the energy of each
   particle not contained in jets or contained in low-\pt jets by its
-  uncertainty Up and Down. Such variations affect the event yields of signal and background processes at about
+  uncertainty. Such variations
+  affect the event yields of signal and background processes at about
   3\% level but do not have a visible effect on the shape of the HH
-  transverse mass, thus this source is categorised as a
+  transverse mass, thus this source is categorized as a
   "normalization" systematic source.
 
 \end{itemize}
 
-
-
 \subsection{Shape uncertainties}
 
-Several sources of systematic uncertainties affect not only the rate but also the shapes of various
-kinematic distributions which are inputs to the BDT or a part of the \mTHH construction, the BDT discriminant itself, and the shape of the \mTHH distribution. Each source is varied separately within one standard deviation up and down, and
+Several sources of systematic bias affect the shapes and normalizations of various
+kinematic distributions, BDT discriminant distributions, and, as a
+result, the shape of the \mTHH distributions. The parameters defining
+each source are varied within one standard deviation up and down, and
 the effect is propagated through all related variables resulting in
 the nominal shape of the HH invariant mass distribution and two
-modified shapes corresponding to the Up and Down variations. Such triplet of shapes is prepared for each channel, each mass hypothesis, and for all processes. %both for the signal and control regions of the kinematic phase space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+modified shapes corresponding to the up and down variations of those
+parameters.  %Such triplet of shapes is prepared for each channel, each mass hypothesis, and both for the signal and control regions of the kinematic phase space. 
 
 All these shapes are fit simultaneously in the
-signal extraction likelihood fit. The discussion of the these sources
-of uncertainties follows.
-
-
+signal extraction likelihood fit. The discussion of the bias sources
+that affect shapes follows.
 
 \begin{itemize}
 
-\item{\bfseries Lepton efficiency} - The effect of the detector on the reconstruction of the lepton: identification and isolation selection
-  criteria, and the requirement to pass trigger selection requirements are studied separately and are used to account for data/MC discrepancies. The corrections are derived
-  from large dedicated samples of \PZ boson decays and also have an error associated with the procedure. 
-  %are themselves known with limited accuracy. 
-  The uncertainty on lepton efficiency corrections are derived
-  as a function of lepton $p_T$ and $\eta$ and is propagated to the final \mTHH distributions.
+\item{\bf Lepton efficiency.} 
+The efficiencies for leptons to be
+  reconstructed in the detector, to satisfy identification and isolation selection
+  criteria and to satisfy the trigger requirements in MC samples are corrected for
+  differences between data and simulation. The corrections are derived
+  from large samples of \PZ boson decays and are themselves known with
+  limited accuracy. The uncertainty on lepton efficiency corrections
+  as a function of lepton $p_T$ and $\eta$ is propagated to the final \mTHH distributions. 
   The effect of these uncertainties is sub-percent for the muon
   channel and up to 6\% for the electron channel.
 
-
-\item{\bfseries Jet energy scale} - The uncertainty on the jet energy scale
-  affects \HBB mass and \pt, which are inputs to the BDT. In addition, jet energy scale directly affects \HBB mass and \ETslash, which are used during the construction of the HH invariant mass. %Several factors affecting the calibration of the jet energy scale are considered independently as they are uncorrelated. 
-  Jet energy scale is varied Up and Down within one standard deviation of its uncertainty %for each of these factors 
-  as a function of jet $p_T$ and $\eta$, and the
+\item{\bf Jet energy scale.}
+The uncertainty on the jet energy scale
+  directly affects the HH invariant mass through the dijet invariant
+  mass of \HBB as well as through the \ETslash magnitude. Several
+  factors affecting the calibration of the jet energy scale are
+  considered independently as they are uncorrelated. Jet energy scale
+  is varied within one standard deviation of its uncertainty for each
+  of these factors as a function of jet $p_T$ and $\eta$, and the
   effect on the jet kinematics and on the \ETslash is calculated and
   propagated through the steps of the measurement yielding the
   variation of the HH invariant mass shape.  Jet energy scale
   uncertainty, with all factors combined, has the effect on the yields
   of the signal and some background components as large as 5 to 10\%.
 
-\item{\bfseries Jet energy resolution} - Data and MC a different energy
-  resolution, which also affects the final \mTHH shapes via its effect on the dijet invariant
+\item{\bf Jet energy resolution.} 
+The difference between the energy
+  resolution in data and simulation also affects the expected shapes
+  of the kinematic distributions via its effect on the dijet invariant
   mass for \HBB and its effect on the \ETslash. Jet energy resolution
   is varied in simulation by one standard deviation as a function of
   jet $p_T$ and $\eta$ and the effect is propagated through the steps
   of the measurement. Its effect on the \mTHH yield is typically order of 0.5\%.
 
-\item{\bfseries b-tagging and mistagging} - The efficiency to tag a \Pqb-jet and the
-  probability to misidentify a different flavor or a gluon jet and tag it as a
-  \Pqb-jet is corrected in MC samples by factors derived from
+\item{\bf b-tagging.}
+The efficiency to tag a \PQb-jet and the
+  probability to misidentify a different flavor or a gluon jet as a
+  \PQb-jet in MC samples is corrected by factors derived from
   flavor-enhanced jet samples. The uncertainties on these corrections
-  are propagated through the whole analysis setup. The effect of the
-  \Pqb-tagging efficiency (mistagging/flavor misidentification) is about 5\% (7--10\%) for the Drell-Yan process and at the sub-percent level for other processes (7--10\%).
-% to  about 5\% for the Drell-Yan process, while the flavor misidentification impact is larger and is seen to be in the range 7--10\% for most processes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+  are propagated through the measurement steps. The effect of the
+  \PQb-tagging efficiency (flavor misidentification) is about 5\% (7--10\%) for the Drell-Yan process and at the sub-percent level for other processes (7--10\%). 
+% to  about 5\% for the Drell-Yan process, while the flavor misidentification impact is larger and is seen to be in the range 7--10\% for most processes.
 
-\item{\bfseries Bin-by-bin uncertainties} - Since the available statistics for the simulated MC samples is limited, the lack of events in some bins of the \mTHH distribution is addressed by bin-by-bin (BBB) uncertainty. This effect may result in sizeable fluctuations of the bin content of the HH invariant mass shapes that enter the
-  likelihood fit. Therefore, for each bin of the HH invariant mass distributions
-  an individual nuisance parameter is added to the likelihood fit with the Gaussian constraint of one standard deviation of
+\item{\bf Bin-by-bin uncertainties.} 
+This is a statistical uncertainty. Limited size of simulated samples
+  results in certain cases in sizable fluctuations of bin content in
+  the HH invariant mass shapes from simulation that enter the
+  likelihood fit. For each bin of the HH invariant mass distributions
+  an individual nuisance parameter is added to the likelihood fit and
+  a Gaussian constraint is added using the one standard deviation of
   the yield uncertainty in that bin.
-  
+
+
 \end{itemize}
+
 
 
 
@@ -1042,40 +1005,6 @@ cross section for a RS1 KK graviton/RS1 radion in WED models. %For a scenario wi
 This cross section is computed in \cite{Oliveira:2014kla}
 under the assumption of no mixing with the SM Higgs boson.
 
-
-
-
-
-
-
-
-
-
-
-\section{Limits Extraction}
-DROP
-
-\label{sec:limits}
-
-Prior to the derivation of the expected limits, we had to make sure their values are the most sensitive limits that our analysis can set. For that, we have done an optimization study finding the best cut value on the BDT discriminant with the idea to yield the lowest (the most sensitive) limit. 
-
-
-%
-%\subsection{Optimization for the best limit}
-%
-%For this study, before doing the combination of electron and muon channels, we have optimized each of the channels separately. Systematical uncertainties were present only of the normalization type (lnN), since we are statistically limited and systematics plays a secondary role. %The latter can be seen running the fit with the "-S 0" option, which ignores systematics entirely. 
-%As an example, for a specific analysis setup the 300 GeV fit in the muon channel yields the limit ('r-value') 255.25 (with the systematics but neglecting BBB uncertainties), without systematics the 'r-value' is 238.25. The difference is 17 parts in 255.25, which is just 6.7 $\%$.
-%
-%As can be seen from the plots ~\ref{fig:ele_bdt_vs_r} and ~\ref{fig:muon_bdt_vs_r}, for high mass region the best cut to use is 0.99 for both electron and muon channels. For low mass region, the situation is more complicated. Depending on the mass point (and channel!) one cut is better than the other. For electron channel for 400 and 450 GeV mass points the best cut is 0.925. In the lower region, the situation changes, 0.2 for 260 GeV, 0.4 for 270 and 300 GeV, 0.825 for 350 GeV. 
-%
-%Running the whole analysis for each separate cut and channel and spin hypothesis is not possible computationally taking into account the number of samples and shapes one has to create and process. That is why a reasonable compromise is to observe that for 260 $\to$ 350 GeV included, the suboptimal cut can be 0.4, being well inside the $1\sigma$ error band. This leaves the whole mass range with just three different cut values. This approach of suboptimal cuts, cuts which are close the best values but, most importantly, can be shared among several mass points, is what we adopted for this measurement. 
-%
-%For instance, for muons the best cuts are: 0.1 for 260 and 270 GeV, 0.5 for 300 GeV, 0.7 for 350 GeV, 0.925 for 400 and 450 GeV. Taking the approach of suboptimal cuts, the values we kept are: 0.1 for 260 and 270 GeV, 0.7 for 300 $\to$ 450 GeV included. This way we simplify the analysis to three different BDT cuts per channel and, at the same time, remain optimal within the error bands with respect to the best cut values. 
-
-
-
-
- 
 \subsection{Results from the fit}
 
 
@@ -1197,123 +1126,6 @@ Mass, GeV &  Observed Limit, pb &  Expected Limit, pb \\
 \end{table}
 
 
-%For the HL-LHC none of the HH analyses can reach the discovery sensitivity, thus the goal for all HH analyses is to contribute to the grand combination and in this collaborative way to achieve the desired sensitivity. The most recent combination results for the spin 0 case are shown at the Fig. \ref{HH_combo}.
-
-
-
-%% \begin{figure}[!htb]%hbpt?                                                                                                               
-%% \includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{spin0_combo.png}
-%% \caption{ The current combination of HH channels for the spin 0 heavy resonance hypothesis. }
-%% \label{HH_combo}
-%% \end{figure}
-
-
-
-
-
-
-
-
-
-%% %added on dec17
-%% \begin{table}
-%% \begin{center}
-%% \caption{Expected limits for full HH production. Combined data is used.}
-%% \label{finalLimits}
-%% \begin{tabular}{|c|c|}
-%% \hline
-%%  Mass, GeV &  Expected limit, pb \\\hline
-%%       260 &              274.00 \\
-%%        270 &              306.50 \\
-%%        300 &              306.00 \\
-%%        350 &              141.88 \\
-%%        400 &               59.00 \\
-%%        450 &               34.12 \\
-%%        600 &                7.69 \\
-%%        650 &                6.31 \\
-%%        900 &                2.59 \\
-%%       1000 &                2.25 \\\hline
-
-%% \end{tabular}
-%% \end{center}
-%% \end{table}
-
-
-
-
-
-
-
-
-
-%
-%
-%%Vertical lines as column separators
-%\begin{table}
-%\begin{center}
-%\caption{Normalization for backgrounds, final numbers after the application of all the nuisances during the postfit procedure. Electron channel.}
-%\begin{tabular}{ | c | c | c | }
-%  \hline
-%  channel,mass & TT\_SF & DY\_SF \\
-%  \hline
-%  ee 300 GeV    & 0.80 +/- 0.09   &  1.62 +/- 0.23\\
-%  ee 900 GeV    & 0.79 +/- 0.08    & 1.64 +/- 0.18\\
-%  \hline
-%\end{tabular}
-%\label{normalization_electron}
-%\end{center}
-%%---------------------------------------------------------------------
-%%Vertical lines as column separators
-%\begin{center}
-%\caption{Normalisation for backgrounds in the unblinded SR, final numbers after the application of all the nuisances during the postfit procedure. Electron channel.}
-%\begin{tabular}{ | c | c | c | }
-%  \hline
-%  channel,mass & TT\_SF & DY\_SF \\
-%  \hline
-%  ee 300 GeV    &  0.8 +/- 0.1    &   1.58 +/- 0.25 \\
-%%fit_s
-% ee 900 GeV    &  0.9 +/- 0.33     &  1.75 +/- 0.49\\
-%%from  log_PostFitShapesFromWorkspace_ee_SR_hhMt_FullPostfit.txt
-%  \hline
-%\end{tabular}
-%\label{normalization_electron_SR}
-%\end{center}
-%\end{table}
-%%---------------------------------------------------------------------
-%
-%
-%%\vspace{1cm}
-%\begin{table}
-%\begin{center}
-%\caption{Normalization for backgrounds, final numbers after the application of all the nuisances during the postfit procedure. Muon channel.}
-%\begin{tabular}{ | c | c | c | }
-%  \hline
-%  channel,mass & TT\_SF & DY\_SF \\
-%  \hline
-%  mm 300 GeV   & 0.91 +/- 0.07 & 1.44 +/- 0.13\\
-%  mm 900 GeV   & 0.91 +/- 0.07 & 1.43 +/- 0.13\\
-%
-%  \hline
-%\end{tabular}
-%\label{normalization_muon}
-%\end{center}
-%%\vspace{1cm}
-%\begin{center}
-%\caption{Normalisation for backgrounds in the unblinded SR, final numbers after the application of all the nuisances during the postfit procedure. Muon channel.}
-%
-%\begin{tabular}{ | c | c | c | }
-%  \hline
-%  channel,mass & TT\_SF & DY\_SF \\
-%  \hline
-%  mm 300 GeV   &  0.91 +/- 0.07  & 1.49 +/- 0.15\\
-%  mm 900 GeV   &  0.91 +/- 0.19  & 1.53 +/- 0.42\\
-%
-%  \hline
-%\end{tabular}
-%\label{normalization_muon_SR}
-%\end{center}
-%\end{table}
-
 \section{$bbZZ$ measurements and combination of all HH channels}
 \label{sec:bbZZcombination}
 
@@ -1419,18 +1231,6 @@ This concludes the discussion of analysis details and in the next chapter we wil
 
 
 
-FROM SEAN
-
-The first such correction addresses the difference between the pT(V ) spectrum in data and the V +jets MC samples. The pT(V ) distribution is harder for simulation than for data because the simulation does not include higher-order electroweak corrections.[103] The V +jets samples are therefore reweighted as a function of the pT(V ) to apply the NLO electroweak correction shown in Figure 4-5 which accounts for discrepancies of up to 10% for pT(V ) near 400 GeV.
-
-A third correction addresses the discrepancy between the di-jet invariant mass m(jj)
-distribution in data and the LO V +jets MC samples. Although NLO V +jets MC samples are readily available and show good agreement with data for the m(jj) distribution, they are not used by the analysis because their limited statistical power results in an over 10% decrease in expected sensitivity with respect to the LO V +jets samples. A differential LO-to-NLO correction based on the separation in ? between the two b-quark jets from
-the Higgs boson decay ??(jj) is derived as a ratio of the NLO to LO V +jets samples following the procedure outlined in Ref. [28]. An example of this ratio is shown in Figure 4-6. These reweighting functions improve the agreement between data and the LO V +jets
-89
-samples for the m(jj) and pT(V ) distributions while demonstrating a negligible effect on the remaining distributions. The full reweighting is assessed as a systematic uncertainty.
-
-
-
 
 
 %Signal region BDT sideband plots as well as unblind signal region plots show good data-MC agreements.
@@ -1529,6 +1329,18 @@ Electron ID and ISO scale factors, as well as HLT scale factors (Fig.~\ref{fig:t
 Muon ID scale factors, as well as ISO scale factors, have been derived separately for runs G/H and B/C/D/E/F runs (2016 data at LHC has been split into several "runs") and then luminosity averaged to obtain the final numbers ~\cite{muonIDnISO}. Tracker scale factors (~\ref{fig:trigger_eff_diele}) are taken from the Muon POG twiki page~\cite{muonTRK} and used as is. HLT dimuon scale factors were derived by VHbb group and further approved by the muon POG. These scale factors were derived separately for run H (Fig.~\ref{fig:trigger_SF_dimu_H}) and B/C/D/E/F/G (Fig.~\ref{fig:trigger_SF_dimu_BCDEFG}) runs and then luminosity averaged ~\cite{muonTrigger}. On top, separate scale factors are calculated for the dZ requirement of HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVV\L\_DZ\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_DZ\_v* triggers, using dilepton events that have already passed the HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v* OR HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_v* triggers (Fig. ~\ref{fig:trigger_SF_dimu_dZ_H}).
 
 
+
+
+
+FROM SEAN
+
+The first such correction addresses the difference between the pT(V ) spectrum in data and the V +jets MC samples. The pT(V ) distribution is harder for simulation than for data because the simulation does not include higher-order electroweak corrections.[103] The V +jets samples are therefore reweighted as a function of the pT(V ) to apply the NLO electroweak correction shown in Figure 4-5 which accounts for discrepancies of up to 10% for pT(V ) near 400 GeV.
+
+A third correction addresses the discrepancy between the di-jet invariant mass m(jj)
+distribution in data and the LO V +jets MC samples. Although NLO V +jets MC samples are readily available and show good agreement with data for the m(jj) distribution, they are not used by the analysis because their limited statistical power results in an over 10% decrease in expected sensitivity with respect to the LO V +jets samples. A differential LO-to-NLO correction based on the separation in ? between the two b-quark jets from
+the Higgs boson decay ??(jj) is derived as a ratio of the NLO to LO V +jets samples following the procedure outlined in Ref. [28]. An example of this ratio is shown in Figure 4-6. These reweighting functions improve the agreement between data and the LO V +jets
+89
+samples for the m(jj) and pT(V ) distributions while demonstrating a negligible effect on the remaining distributions. The full reweighting is assessed as a systematic uncertainty.
 
 
 
@@ -1883,3 +1695,125 @@ Muon ID scale factors, as well as ISO scale factors, have been derived separatel
 %\end{figure}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+%For the HL-LHC none of the HH analyses can reach the discovery sensitivity, thus the goal for all HH analyses is to contribute to the grand combination and in this collaborative way to achieve the desired sensitivity. The most recent combination results for the spin 0 case are shown at the Fig. \ref{HH_combo}.
+
+
+
+%% \begin{figure}[!htb]%hbpt?                                                                                                               
+%% \includegraphics[width=0.5\textwidth, height=0.2\textheight,  keepaspectratio]{spin0_combo.png}
+%% \caption{ The current combination of HH channels for the spin 0 heavy resonance hypothesis. }
+%% \label{HH_combo}
+%% \end{figure}
+
+
+
+
+
+
+
+
+
+%% %added on dec17
+%% \begin{table}
+%% \begin{center}
+%% \caption{Expected limits for full HH production. Combined data is used.}
+%% \label{finalLimits}
+%% \begin{tabular}{|c|c|}
+%% \hline
+%%  Mass, GeV &  Expected limit, pb \\\hline
+%%       260 &              274.00 \\
+%%        270 &              306.50 \\
+%%        300 &              306.00 \\
+%%        350 &              141.88 \\
+%%        400 &               59.00 \\
+%%        450 &               34.12 \\
+%%        600 &                7.69 \\
+%%        650 &                6.31 \\
+%%        900 &                2.59 \\
+%%       1000 &                2.25 \\\hline
+
+%% \end{tabular}
+%% \end{center}
+%% \end{table}
+
+
+
+%
+%
+%%Vertical lines as column separators
+%\begin{table}
+%\begin{center}
+%\caption{Normalization for backgrounds, final numbers after the application of all the nuisances during the postfit procedure. Electron channel.}
+%\begin{tabular}{ | c | c | c | }
+%  \hline
+%  channel,mass & TT\_SF & DY\_SF \\
+%  \hline
+%  ee 300 GeV    & 0.80 +/- 0.09   &  1.62 +/- 0.23\\
+%  ee 900 GeV    & 0.79 +/- 0.08    & 1.64 +/- 0.18\\
+%  \hline
+%\end{tabular}
+%\label{normalization_electron}
+%\end{center}
+%%---------------------------------------------------------------------
+%%Vertical lines as column separators
+%\begin{center}
+%\caption{Normalisation for backgrounds in the unblinded SR, final numbers after the application of all the nuisances during the postfit procedure. Electron channel.}
+%\begin{tabular}{ | c | c | c | }
+%  \hline
+%  channel,mass & TT\_SF & DY\_SF \\
+%  \hline
+%  ee 300 GeV    &  0.8 +/- 0.1    &   1.58 +/- 0.25 \\
+%%fit_s
+% ee 900 GeV    &  0.9 +/- 0.33     &  1.75 +/- 0.49\\
+%%from  log_PostFitShapesFromWorkspace_ee_SR_hhMt_FullPostfit.txt
+%  \hline
+%\end{tabular}
+%\label{normalization_electron_SR}
+%\end{center}
+%\end{table}
+%%---------------------------------------------------------------------
+%
+%
+%%\vspace{1cm}
+%\begin{table}
+%\begin{center}
+%\caption{Normalization for backgrounds, final numbers after the application of all the nuisances during the postfit procedure. Muon channel.}
+%\begin{tabular}{ | c | c | c | }
+%  \hline
+%  channel,mass & TT\_SF & DY\_SF \\
+%  \hline
+%  mm 300 GeV   & 0.91 +/- 0.07 & 1.44 +/- 0.13\\
+%  mm 900 GeV   & 0.91 +/- 0.07 & 1.43 +/- 0.13\\
+%
+%  \hline
+%\end{tabular}
+%\label{normalization_muon}
+%\end{center}
+%%\vspace{1cm}
+%\begin{center}
+%\caption{Normalisation for backgrounds in the unblinded SR, final numbers after the application of all the nuisances during the postfit procedure. Muon channel.}
+%
+%\begin{tabular}{ | c | c | c | }
+%  \hline
+%  channel,mass & TT\_SF & DY\_SF \\
+%  \hline
+%  mm 300 GeV   &  0.91 +/- 0.07  & 1.49 +/- 0.15\\
+%  mm 900 GeV   &  0.91 +/- 0.19  & 1.53 +/- 0.42\\
+%
+%  \hline
+%\end{tabular}
+%\label{normalization_muon_SR}
+%\end{center}
+%\end{table}
