@@ -379,7 +379,7 @@ In this section we discuss a set of kinematic quantities that are the most discr
            
 Since the MVA selection requirement will be applied on a quantity computed based on these variables, the simulation has to  reproduce the main variables well. We will define each of the nine variables below. For SR and both CRs, we will show the comparison of distributions from data and simulation for each variable. Since the number of plots would be too large to show for two channels and two spin hypotheses, not to mention for all masses, we will include in this dissertation only di-muon channel plots for 300 GeV graviton mass hypothesis. However, all other relevant figures of the nine main variables, including the di-electron channel and other mass points,  were examined and discussed with CMS collaborators during the review of the measurement in CMS. They show a similar behaviour and agreement as those included here.
            
-As we outlined before, even for simple physics objects the distributions from MC simulations and data have discrepancies. For more complex objects and candidates, these discrepancies become even larger. In general, MC simulations are not supposed to reproduce well very narrow regions of the kinematic phase space or align with the data perfectly at the high order in the QCD. Therefore, one normally adjusts the rates of background processes using the normalisation values determined in the fit to data in the control regions. The distributions as they are, without the extra normalisations (from the fit) applied to the event yields of MC simulated background processes, are in general called pre-fit distributions. After the normalisations from the fit are applied on the rates of background processes, post-fit distributions are obtained. 
+As we outlined before, even for simple physics objects the distributions from MC simulations and data have discrepancies. For more complex objects and candidates, these discrepancies become even larger. In general, MC simulations are not supposed to reproduce well very narrow regions of the kinematic phase space or align with the data perfectly at the high order in the QCD. Therefore, one normally adjusts the event yields (rates) of background processes using the normalisation values determined in the fit to data in the control regions. The distributions as they are, without the extra normalisations (from the fit) applied to the event yields of MC simulated background processes, are in general called pre-fit distributions. After the normalisations from the fit are applied on the rates of background processes, post-fit distributions are obtained. 
 
 The list below summarises the set of variables used as input to the MVA discriminant:
 
@@ -547,7 +547,7 @@ For the boosting algorithm, we chose the gradient boosting method, as is impleme
 
  Several decision trees of the BDT procedure, that is employed in the analysis, are shown below. This training was done in the d-electron channel. In all figures produced by the TMVA, the index 0 refers to \HZZ~candidate and index 1 refers to \HBB~candidate. For example, ``hmass1'' denotes the mass of the \HZZ~candidate, ``hpt0'' denotes the $p_T$ of the \HBB~candidate, etc. For the Z boson candidate, the on-shell Z boson decaying to charged leptons, \Zll, has either an index 0 or the index is dropped. The closer the node color is to blue, the more the event is classified as signal-like, same idea is illustrated with the red color for background events. \label{TMVA_notation}
 
-Di-electron and di-muon channels have been trained separatelyl and the BDT metrics (discussed later in this chapter) show similar performance. That is why to save the space, in this chapter we show mostly figures related to the di-electron channel.
+Di-electron and di-muon channels have been trained separately and the BDT metrics (discussed later in this chapter) show similar performance. That is why to save the space, in this chapter we show mostly figures related to the di-electron channel.
            
  \begin{figure}[H]
   \begin{center}
@@ -706,7 +706,7 @@ Below we include figures of the BDT input variables. They are the same variables
 After the training, the BDT model is created. This model produces the BDT distribution (BDT responce), see the Fig. \ref{fig:ele_BDTs}. This figure shows the BDT output for the di-electron channel, train and test parameters are overlaid. The parameters of the model, such as the number of trees, the allowed number of splits per variable, the maximum tree depth and others, have been thoroughly studied. It was found that the default TMVA parameters provide this measurement with good performance and, thus, are not changed.
 
 It is difficult to get high performance in the low mass training, since
-this region corresponds to the range of HH masses where all the background processes are concentrated (Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:ele_highVars}). The rate of background in this region is very high and most variables have similar distributions for signal and background processes. The BDT performance is noticeably better than what can be achieved using a simple linear discriminant method (LD), see Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}.
+this region corresponds to the range of HH masses where all the background processes are concentrated (Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:ele_highVars}). The event yield of background in this region is very high and most variables have similar distributions for signal and background processes. The BDT performance is noticeably better than what can be achieved using a simple linear discriminant method (LD), see Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}.
 
 Performance of the high mass training can be considered a perfect one, see Fig. ~\ref{fig:ele_highVars}. Most background processes concentrate in the low mass region, therefore, for high mass region even linear
 discriminant is performing well, see Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}.
@@ -808,9 +808,9 @@ Uncertainties that affect the sensitivity of the search come from a variety of s
 
 To compute the effect of a particular source of the systematic uncertainty on the final limit, we use the up/down method. This is a procedure of varying a factor affecting the expected yields up or down by the amount of an estimated uncertainty on the effect, and examining how the yields change.
  
-\subsection{Normalization uncertainties}
+\subsection{Normalisation uncertainties}
 
-The sources of systematic uncertainties that affect normalizations are discussed below. Certain types of uncertainties vary depending on the resonance mass hypothesis and the type of the channel (di-electron or di-muon). In this cases ranges of the uncertainty values are listed. Normalization uncertainties listed in this section modify all background processes but \ttbar and DY. The levels of those backgrounds are determined from data during the statistical analysis that uses two control regions dominated by these two background processes.
+The sources of systematic uncertainties that affect normalisation are discussed below. The sizes of certain types of uncertainties vary depending on the resonance mass hypothesis and the type of the channel (di-electron or di-muon). In this cases ranges of the uncertainty values are listed. Normalisation uncertainties listed in this section modify all background processes but \ttbar and DY. The levels of those backgrounds are determined from data during the statistical analysis that uses two control regions dominated by these two background processes.
   
 \begin{itemize}
 
@@ -821,125 +821,49 @@ The CMS estimated the uncertainty on the integrated luminosity of 2016 data set 
 How well the PU interactions are replicated in the MC simulation affects the signal and background event yields.The effect of this uncertainty on normalizations is approximately 6\%. The effect is estimated varying the number of pileup interactions in simulated samples up and down within the range reflecting the limited knowledge of the total inelastic proton-proton interaction cross section at 13~TeV. 
 
 \item{\bf Proton PDF.} 
-The impossibility to know precisely the structure of the interacting protons is evaluated using an ensemble of PDF
-  replicas from the NNPDF set \cite{Ball:2014uwa} following the
-  PDF4LHC prescription \cite{Botje:2011sn,Alekhin:2011sk}. The root mean square value of the resulting process normalizations is taken as a measure of this bias. The size of the effect is found to be of order 5\%. 
-
+The impossibility to know precisely the structure of the interacting protons is evaluated using an ensemble of PDF replicas from the NNPDF set \cite{Ball:2014uwa} following the PDF4LHC prescription \cite{Botje:2011sn,Alekhin:2011sk}. The root mean square value of the expected event yields in simulated samples, computed with the PDF replicas from this ensemble, is taken as a measure of the bias. The size of the effect is found to be of order 5\%. 
+  
 \item{\bf Theoretical uncertainties of the QCD scales.} 
-The bias associated with the theoretical uncertainties in the QCD factorization and renormalization scales is evaluated. This uncertainty affects the expected yield of the signal and background events (except the \ttbar and DY processes). This uncertainty is computed by varying independently factorization and renormalization scales in simulation of the signal samples by two factors: 0.5, and 2 with respect to the nominal values of the scales. The unphysical cases, when one of the scales fluctuates up while the other fluctuates down, are not considered. In each bin of the final variable that is used in the StatAn, the maximum and minimum variations of the yields are used to build a bias region around the nominal shape. The effect has a size of 4--6\% on the processes' yields.
+The bias associated with the theoretical uncertainties in the QCD factorisation and renormalisation scales is evaluated. This uncertainty affects the expected yield of the signal and background events (except the \ttbar and DY processes). This uncertainty is computed by varying independently factorisation and renormalisation scales, used as parameters in the Pythia event generator. The variation is done in the MC simulation following a standard CMS prescription given by the PDF4LHC \ref{Butterworth:2015oua}. The scales in signal samples are varied by a factor of 2 up and down - multiplying the original nominal scale values by two corresponding factors: 0.5 and 2. The unphysical cases, when one of the scales fluctuates up, while the other fluctuates down, are not considered. In each bin of the final kinematic variable that is used in the StatAn, the maximum and minimum variations of the yields are used to build a bias region around the nominal shape. The size of the envelope indicates that these scales affect the yields of the processes at the level of 4-6\%.
 
-
-
-
-
-
-
-
-
-
-
-
-
-\item{\bf Theoretical cross sections.} 
-The theoretical cross section is
-  used to normalize the contribution from the single top
-  background. The uncertainty in this cross section is propagated to
-  the uncertainty in the background yields for this process and is
-  found to be 5--7\%. 
-%%% DY and ttbar are exempt as stated in the beginning of this section.
-%The normalizations of the dominant background
-%  from the DY and \ttbar processes comes from the fit to the data, and
-%  thus do not have any systematic bias associated with uncertainties
-%  of their theoretical cross sections.
+\item{\bf Theoretical values of the cross sections.} 
+The uncertainty on the theoretical cross section value of the single top production is propagated to the background yields of the single top background processes and used to normalise their event yield. The uncertainty is found to be 5--7\%. 
 
 \item{\bf Missing transverse momentum.} 
-While the clustered energy in
-  jets and leptons undergo energy corrections during event
-  reconstruction, neutral hadrons and photons that do not belong to any jet
-  ("unclustered energy") and jets with transverse momenta below
-  10~GeV lack such corrections. This leads to a small systematic
-  bias in the reconstructed missing transverse momentum. The effect of the
-  energy scale in the unclustered energy on the magnitude of the
-  \ptvecmiss and, subsequently, on the selection efficiency as well as
-  the HH transverse mass is studied by shifting the energy of each
-  particle not contained in jets or contained in low-\pt jets by its
-  uncertainty. Such variations
-  affect the event yields of signal and background processes at about
-  3\% level but do not have a visible effect on the shape of the HH
-  transverse mass, thus this source is categorized as a
-  "normalization" systematic source.
+During the clustering of the jets and a subsequent application of JEC and JER corrections, 
+neutral hadrons and photons that do not belong to any jet (``unclustered energy``) and jets with transverse momenta below 10~GeV - lack such corrections. This affects the MET reconstruction and results in a small systematic bias. The effect of JEC on the unclustered energy and subsequently on the magnitude of the \PTslash is studied. The effect is propagated to the final kinematic variable, which contains the \PTslash. The effect of this bias is studied by shifting the energy of each particle not contained in jets or contained in low-\pt jets its uncertainty, estimated during particle's reconstruction. There variations are found to affect the event yields of signal and background processes at the level of 3\%; however, do not show a visible effect on the shape of the final kinematic variable. This bias is categorised as a ``normalisation'' systematic source.
 
 \end{itemize}
 
 \subsection{Shape uncertainties}
 
-Several sources of systematic bias affect the shapes and normalizations of various
-kinematic distributions, BDT discriminant distributions, and, as a
-result, the shape of the \mTHH distributions. The parameters defining
-each source are varied within one standard deviation up and down, and
-the effect is propagated through all related variables resulting in
-the nominal shape of the HH invariant mass distribution and two
-modified shapes corresponding to the up and down variations of those
-parameters.  %Such triplet of shapes is prepared for each channel, each mass hypothesis, and both for the signal and control regions of the kinematic phase space. 
-
-All these shapes are fit simultaneously in the
-signal extraction likelihood fit. The discussion of the bias sources
-that affect shapes follows.
+Certain types of systematic uncertainties (later referred to as ``shape uncertainties'' for brevity) distort the the shapes of some 
+kinematic distributions and BDT discriminant distributions. As a consequence, the shape of the final discriminating variable is modified. The parameters defining each source of the bias are varied within one standard deviation up and down. The effect is propagated through all variables included in the construction of the final kinematic variable used in the StatAn procedure. This method prepares three shapes: in addition to the nominal shape of final variable, it also produces two modified shapes corresponding to the up and down variations of the parameters. All these shapes are then used in the statistical analysis of the data, see \ref{sec:statistics}. Below we discuss each source of the shape uncertainty  individually.
 
 \begin{itemize}
 
 \item{\bf Lepton efficiency.} 
-The efficiencies for leptons to be
-  reconstructed in the detector, to satisfy identification and isolation selection
-  criteria and to satisfy the trigger requirements in MC samples are corrected for
-  differences between data and simulation. The corrections are derived
-  from large samples of \PZ boson decays and are themselves known with
-  limited accuracy. The uncertainty on lepton efficiency corrections
-  as a function of lepton $p_T$ and $\eta$ is propagated to the final \mTHH distributions. 
-  The effect of these uncertainties is sub-percent for the muon
-  channel and up to 6\% for the electron channel.
+
+Data-MC simulation differences in the lepton reconstruction in the tracker, identification and isolation selection criteria, and in the efficiencies of the HLT trigger requirements are computed and used to correct the MC samples. The final statistical analysis relies on MC simulating correctly the efficiency for an event to be reconstructed and to pass online and offline selection requirements. The lepton scale factors are derived from high-statistics samples of \PZ boson decays. This simulation is not perfect, thus, corrections are applied to candidates as per-candidate (or per-event) weights, as explained later in this chapter. These corrections, though, are also known with limited accuracy. The uncertainty on lepton efficiency corrections as a function of lepton $p_T$ and $\eta$ is propagated to the final kinematic distribution. The effect of these uncertainties is sub-percent for the muon channel and up to 6\% for the electron channel.
 
 \item{\bf Jet energy scale.}
-The uncertainty on the jet energy scale
-  directly affects the HH invariant mass through the dijet invariant
-  mass of \HBB as well as through the \ETslash magnitude. Several
-  factors affecting the calibration of the jet energy scale are
-  considered independently as they are uncorrelated. Jet energy scale
-  is varied within one standard deviation of its uncertainty for each
-  of these factors as a function of jet $p_T$ and $\eta$, and the
-  effect on the jet kinematics and on the \ETslash is calculated and
-  propagated through the steps of the measurement yielding the
-  variation of the HH invariant mass shape.  Jet energy scale
-  uncertainty, with all factors combined, has the effect on the yields
-  of the signal and some background components as large as 5 to 10\%.
+
+The JEC directly affects the invariant mass and $p_T$ of the \HBB candidates and the magnitude of the \PTslash. Both objects are used in the construction of the final kinematic variable, therefore, the JEC effect is thoroughly studied. The JEC is varied within one standard deviation of its uncertainty as a function of jet $p_T$ and $\eta$, and the effect on the b jet kinematics and on the \PTslash is calculated. This effect is propagated through the steps of the measurement yielding the variation of the final variable shape. The JEC uncertainty has the effect on the yields of the signal and background processes at the level of 5 to 10\%.
 
 \item{\bf Jet energy resolution.} 
-The difference between the energy
-  resolution in data and simulation also affects the expected shapes
-  of the kinematic distributions via its effect on the dijet invariant
-  mass for \HBB and its effect on the \ETslash. Jet energy resolution
-  is varied in simulation by one standard deviation as a function of
-  jet $p_T$ and $\eta$ and the effect is propagated through the steps
-  of the measurement. Its effect on the \mTHH yield is typically order of 0.5\%.
+
+The shapes of the final kinematic distributions are affected by the difference between the jet energy
+  resolution in data and simulation, because this bias modifies the mass and the $p_T$ of \HBB candidates and the magnitude of the \PTslash. The JER is varied in simulation by one standard deviation as a function of
+  jet $p_T$ and $\eta$, and the effect is propagated through the steps
+  of the measurement. This bias affects the final distribution at the order of 0.5\%.
 
 \item{\bf b-tagging.}
-The efficiency to tag a \PQb-jet and the
-  probability to misidentify a different flavor or a gluon jet as a
-  \PQb-jet in MC samples is corrected by factors derived from
-  flavor-enhanced jet samples. The uncertainties on these corrections
-  are propagated through the measurement steps. The effect of the
-  \PQb-tagging efficiency (flavor misidentification) is about 5\% (7--10\%) for the Drell-Yan process and at the sub-percent level for other processes (7--10\%). 
-% to  about 5\% for the Drell-Yan process, while the flavor misidentification impact is larger and is seen to be in the range 7--10\% for most processes.
+
+Data-MC difference in the efficiency to tag a \PQb-jet (and the probability to misidentify a light flavor or a gluon jet as a b jet) is calculated and MC samples are corrected by the corresponding SFs, see section \ref{sec:jets}. They are derived using heavy-flavor enhanced jet MC samples. The uncertainties on these SFs are propagated through the measurement steps to the final variable. The effect of the \PQb-tagging efficiency (flavor misidentification) is the highest for DY process, at about 5\% (7--10\%), and is at the sub-percent level for other processes (7--10\%). 
 
 \item{\bf Bin-by-bin uncertainties.} 
-This is a statistical uncertainty. Limited size of simulated samples
-  results in certain cases in sizable fluctuations of bin content in
-  the HH invariant mass shapes from simulation that enter the
-  likelihood fit. For each bin of the HH invariant mass distributions
-  an individual nuisance parameter is added to the likelihood fit and
-  a Gaussian constraint is added using the one standard deviation of
-  the yield uncertainty in that bin.
 
+This is a statistical uncertainty. Out of hundreds of uncertainty sources in this measurement, the most dominant ones are related to the limited size of simulated samples. These statistical uncertainties, in certain cases, produce sizeable fluctuations of the bin content of the shape of the final variable. We add an individual nuisance parameter for each bin of the final variable distribution. For each bin in bins of the final variable, the corresponding bin-by-bin uncertainty, defined as a single Gaussian-constrained Barlow-Beeston-lite parameter, is created and used to scale the total yield in a given bin.
 
 \end{itemize}
 
