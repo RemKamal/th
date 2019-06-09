@@ -1,6 +1,6 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{viii}{section*.1}
-\contentsline {chapter}{List of Tables}{xii}{section*.2}
+\contentsline {chapter}{List of Figures}{vii}{section*.1}
+\contentsline {chapter}{List of Tables}{viii}{section*.2}
 \contentsline {chapter}{\chapternumberline {1}$bbZZ$ Physics Analysis}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Physics analysis overview}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Data analysis strategy}{3}{section.1.2}
@@ -26,13 +26,15 @@
 \contentsline {subsection}{\numberline {1.7.2}Multivariate discriminant: a BDT classifier}{33}{subsection.1.7.2}
 \contentsline {subsection}{\numberline {1.7.3}BDT selection requirement in the signal region}{53}{subsection.1.7.3}
 \contentsline {section}{\numberline {1.8}Uncertainties of the measurement}{53}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Normalization uncertainties}{55}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.1}Normalisation uncertainties}{55}{subsection.1.8.1}
 \contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{57}{subsection.1.8.2}
-\contentsline {section}{\numberline {1.9}Statistical Analysis}{59}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}Results from the fit}{61}{subsection.1.9.1}
-\contentsline {section}{\numberline {1.10}$bbZZ$ measurements and combination of all HH channels}{63}{section.1.10}
-\contentsline {subsection}{\numberline {1.10.1}Data and MC comparison}{66}{subsection.1.10.1}
-\contentsline {subsection}{\numberline {1.10.2}Scale Factors}{67}{subsection.1.10.2}
-\contentsline {chapter}{\chapternumberline {2}Conclusions}{75}{chapter.2}
-\contentsline {chapter}{Bibliography}{77}{chapter.2}
-\contentsline {chapter}{References}{77}{section*.45}
+\contentsline {section}{\numberline {1.9}Statistical Analysis}{60}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}The likelihood function}{60}{subsection.1.9.1}
+\contentsline {subsection}{\numberline {1.9.2}The fit results}{64}{subsection.1.9.2}
+\contentsline {subsection}{\numberline {1.9.3}Results from the fit}{65}{subsection.1.9.3}
+\contentsline {section}{\numberline {1.10}$bbZZ$ measurements and combination of all HH channels}{66}{section.1.10}
+\contentsline {subsection}{\numberline {1.10.1}Data and MC comparison}{70}{subsection.1.10.1}
+\contentsline {subsection}{\numberline {1.10.2}Scale Factors}{71}{subsection.1.10.2}
+\contentsline {chapter}{\chapternumberline {2}Conclusions}{77}{chapter.2}
+\contentsline {chapter}{Bibliography}{79}{chapter.2}
+\contentsline {chapter}{References}{79}{section*.44}
