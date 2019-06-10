@@ -281,7 +281,7 @@ The candidate events are selected in the data sample if they contain the followi
 In this chapter we discuss how HH candidates are formed, how the selection criteria is applied to reduce contamination from background processes in signal-enriched region, how kinematic quantities used to compute the final results are defined, and how well simulation represents the data.
 
 \subsection{Kinematic selection of physics objects}
-We have described the kinematic selection of leptons and jets (and b jets) in the previous chapter. Because there is another $bbZZ$ measurement in the CMS Higgs group, our analysis shares some phase space with the other measurement. Therefore, the results may contain certain overlap. The other $bbZZ$ team studies the $2 b 2 l 2 q$ final state, where $q$ stands for any quark initiating the jet. To ensure that both measurements produce statistically independent (``orthogonal'') results, the selection on the MET is introduced. Since the final results - the production cross sections times the BFs of the final state - depend on the mass point, the MET selection varies with mass. While the derivation of the final results (called ``limits'') will be explained later in this chapter, at this point, it is worth to point out that both analyses computed limits for all resonance mass hypotheses applying different MET selection criteria, see Fig. \ref{met_cuts}. The found set of MET requirements that yielded the best combined limits (see Table \ref{metCuts}), when the results of two measurements are merged together, is used by both teams. 
+We have described the kinematic selection of leptons and jets (and b jets) in the previous chapter. Because there is another $bbZZ$ measurement in the CMS Higgs group, our analysis shares some phase space with the other measurement. Therefore, the results may contain certain overlap. The other $bbZZ$ team studies the $2 b 2 l 2 q$ final state, where $q$ stands for any quark initiating the jet. To ensure that both measurements produce statistically independent (``orthogonal'') results, the selection on the MET is introduced. Since the final results - the production cross sections times the BFs of the final state - depend on the mass point, the MET selection varies with mass. While the derivation of the final results (called ``limits'') will be explained later in this chapter, at this point, it is worth to point out that both analyses computed limits for all resonance mass hypotheses applying different MET selection criteria, see Fig. \ref{met_cuts}. The found set of MET requirements that yielded the best combined limits (see Table \ref{metCuts}), when the results of two measurements are merged together, is used by both teams. %%%%Due to computational intensity of such optimisations, a common value of the BDT threshold was chosen for some of the mass ranges. Here we show ``r vs cut'' figures. 
 
 \begin{figure}[H]%hbpt?                                                                       
   \begin{center}
@@ -372,6 +372,7 @@ To reduce the background contamination in the SR, we employ a standard practice 
 \label{sec:BDT}
 
 \subsection{Kinematic variables of a candidate}
+\label{variables}
 
 A  number of kinematic quantities can be constructed out of four-vectors that comprise candidates of our final state.  The distributions of these quantities in general differ for candidates originating from different background processes as opposed to for candidates from the hypothetical signal. 
            
@@ -859,7 +860,7 @@ The shapes of the final kinematic distributions are affected by the difference b
 Data-MC difference in the efficiency to tag a \PQb-jet (and the probability to misidentify a light flavor or a gluon jet as a b jet) is calculated and MC samples are corrected by the corresponding SFs, see section \ref{sec:jets}. They are derived using heavy-flavor enhanced jet MC samples. The uncertainties on these SFs are propagated through the measurement steps to the final variable. The effect of the \PQb-tagging efficiency (flavor misidentification) is the highest for DY process, at about 5\% (7--10\%), and is at the sub-percent level for other processes (7--10\%). 
 
 \item{\bf Bin-by-bin uncertainties.} 
-This is a statistical uncertainty. Out of hundreds of uncertainty sources in this measurement, the most dominant ones are related to the limited size of simulated samples. These statistical uncertainties, in certain cases, produce sizeable fluctuations of the bin content of the shape of the final variable. We add an individual nuisance parameter for each bin of the final variable distribution. For each bin in bins of the final variable, the corresponding bin-by-bin uncertainty, defined as a single Gaussian-constrained Barlow-Beeston-lite parameter, is created and used to scale the total yield in a given bin.
+This is a statistical uncertainty. Out of hundreds of uncertainty sources in this measurement, the most dominant ones are related to the limited size of simulated samples. These statistical uncertainties, in certain cases, produce sizeable fluctuations of the bin content of the shape of the final variable. We add an individual nuisance parameter for each bin of the final variable distribution. For each bin in bins of the final variable, the corresponding bin-by-bin uncertainty, defined as a single Gaussian-constrained Barlow-Beeston-lite parameter \cite{Barlow-Beeston, autoMCStats}, is created and used to scale the total yield in a given bin.
 
 \end{itemize}
 
@@ -893,7 +894,9 @@ The parameter $r_k$ sets the normalisation of the background process $k$ while $
 
 The fit is performed separately for each of the 16 resonance mass points in the range 250 to 1000 GeV for a radion and a graviton resonance hypothesis (individually). During the fit, the values of the $r_{signal}$ and $r_k$, along with the uncertainties, are determined. 
 
-Figure~\ref{fig:MCcomparisons} shows the result of the fit for one mass point - 300 GeV. These HH transverse mass distributions for the graviton hypothesis are of the post-fit type - the normalisations and shapes of all components were adjusted according to the best-fit values. A similar figure in case of the radion hypothesis is shown in Fig. ~\ref{fig:MCcomparisons_radion}. The signal event yield is further scaled by a certain high factor for visual purposes, to make the signal contribution clearly visible.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+The implementation of the maximum likelihood fit is done in the Higgs Combine package, a software framework supported by the CMS experiment \cite{HiggsCombine}. The framework is based on the RooStats package \cite{RooStats} that is widely used in the HEP community. 
+
+Figure~\ref{fig:MCcomparisons} shows the result of the fit for one mass point - 300 GeV. These HH transverse mass distributions for the graviton hypothesis are of the post-fit type - the normalisations and shapes of all components were adjusted according to the best-fit values. A similar figure in case of the radion hypothesis is shown in Fig. ~\ref{fig:MCcomparisons_radion}.  The signal component is very close to zero, it would not be visible on the figures. Therefore, the signal event yield is further scaled by a certain high factor for visual purposes, to make the signal contribution clearly visible.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 
 \begin{figure}[H]
   \begin{center}
@@ -903,7 +906,7 @@ Figure~\ref{fig:MCcomparisons} shows the result of the fit for one mass point - 
     \includegraphics[width=0.31\textwidth]{hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf}
     \includegraphics[width=0.31\textwidth]{hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf}
     \includegraphics[width=0.31\textwidth]{hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf}
-    \caption[Transverse mass of the reconstructed HH candidates for graviton hypothesis.]{Transverse mass of the reconstructed HH candidates for data, the simulated signal for the 300 GeV mass hypothesis of the graviton, and simulated background processes scaled according to the fit results. The top row shows the figures for the di-muon channel, while the bottom row is for the di-electron channel. For each row, the left plot is for the CRDY, the middle is for the CRTT, and the right is for SR. Signal scaling choice is discussed in the text. The crosshatched area represents the sum of statistical and systematic uncertainties.}
+    \caption[Transverse mass of the reconstructed HH candidates for graviton hypothesis.]{Transverse mass of the reconstructed HH candidates for data, the simulated signal for the 300 GeV mass hypothesis of the graviton, and simulated background processes. Event yields of the MC simulations are scaled according to the fit results. The top row shows the figures for the di-muon channel, while the bottom row is for the di-electron channel. For each row, the left plot is for the CRDY, the middle is for the CRTT, and the right is for SR. Signal scaling choice is discussed in the text. The crosshatched area represents the sum of statistical and systematic uncertainties.}
     \label{fig:MCcomparisons}                                                                         
   \end{center}
 \end{figure}
@@ -916,117 +919,32 @@ Figure~\ref{fig:MCcomparisons} shows the result of the fit for one mass point - 
     \includegraphics[width=0.31\textwidth]{hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf}
     \includegraphics[width=0.31\textwidth]{hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf}
     \includegraphics[width=0.31\textwidth]{hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf}
-    \caption[Transverse mass of the reconstructed HH candidates for graviton hypothesis.]{Transverse mass of the reconstructed HH candidates for data, the simulated signal for the 300 GeV mass hypothesis of the radion, and simulated background processes scaled according to the fit results. The top row shows the figures for the di-muon channel, while the bottom row is for the di-electron channel. For each row, the left plot is for the CRDY, the middle is for the CRTT, and the right is for SR. Signal scaling choice is discussed in the text. The crosshatched area represents the sum of statistical and systematic uncertainties.}
+    \caption[Transverse mass of the reconstructed HH candidates for graviton hypothesis.]{Transverse mass of the reconstructed HH candidates for data, the simulated signal for the 300 GeV mass hypothesis of the radion, and simulated background processes. Event yields of the MC simulations are scaled according to the fit results. The top row shows the figures for the di-muon channel, while the bottom row is for the di-electron channel. For each row, the left plot is for the CRDY, the middle is for the CRTT, and the right is for SR. Signal scaling choice is discussed in the text. The crosshatched area represents the sum of statistical and systematic uncertainties.}
     \label{fig:MCcomparisons_radion}                                                                            
   \end{center}
 \end{figure}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \subsection{The fit results}
 \label{sec:fit_results}
 
-With the given 2016 dataset, the fit results show no evidence for HH production through a narrow
-resonance, whose width is negligible in comparison to experimental
-resolution, in the mass range from 250~GeV to 1~TeV. Thus, upper 95 \% confidence level limits on the
-HH production cross section are set using the modified
-frequentist CL$_s$ approach (asymptotic CL$_s$)~\cite{Junk:1999kv,LEP-CLs, HIG-11-011, Cowan:2010js}.
+Previous HH measurements provided no evidence for HH production through a narrow width resonance in the mass range from 250~GeV to 1~TeV. Thus, we proceed setting upper 95 \% confidence level limits on the HH production cross section, using the modified frequentist CL$_s$ approach (asymptotic CL$_s$)~\cite{Junk:1999kv,LEP-CLs, HIG-11-011, Cowan:2010js}.
 
-The observed and expected 95\% upper CL limits for the full mass range
-and both resonances are listed in Table~\ref{tab:finalLimits}. We produce the standard CMS Brazilian-flag type of plot for the limits, shown in Fig.~\ref{fig:HHlimits}. The green and yellow
-bands correspond to one and two standard deviations around
-the expected limit respectively. Since 450 GeV is the separation boundary between two mass regions: low mass and high mass, the limit calculation is performed with both of the BDTs at 450 GeV, where the discontinuity is
-seen in the figure. The Figure also shows the expected production
-cross section for a RS1 KK graviton/RS1 radion in WED models. %For a scenario with the curvature parameter $k/\overline{M}_{Pl}=0.1$ and the size of the extra dimension $kL=35$.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-This cross section is computed in \cite{Oliveira:2014kla}
-under the assumption of no mixing with the SM Higgs boson.
+It is worth to let the reader know that before the real data is used to derive observed limits, first the toy data set is used to optimise the expected limits. This toy data set, called Asimov data set, is commonly used by CMS and ATLAS experiments for StatAn procedures. Asimov data set (see \cite{Cowan:2010js}) represents the alternative hypothesis, which in most cases is the expected background with no fluctuations. The signal strength is set to zero, which in a simple counting experiment corresponds to the total number of event equal to the number of background events \cite{expected_limit_asimov}. 
 
-\subsection{Results from the fit}
+As this measurement is a search, we use a standard CMS practice that helps experimentalists avoid the bias in the measurement - a blinding procedure. First, the measurement is performed only with simulation, the expected sensitivity and the expected limits (with the Asimov data set) on the quantity being measured are determined, and the procedure is frozen. Second, the likelihood fit is performed and a set of diagnostic figures is prepared with real data, including all kinematic distributions shown in section \ref{sec:variables}, the BDT outputs \ref{fig:BDTs}, and \mTHH distributions in the signal region \ref{fig:MCcomparisons, fig:MCcomparisons_radion}. The figures are examined by the relevant CMS groups for data and simulation agreement. In our case, they were CMS Higgs Physics Analysis group (PAG), CMS \HZZ PAG subgroup, and the CMS double Higgs PAG subgroup. At this stage, the results are kept blind (no real data is used). Finally, all outputs of the fit are examined, and the mentioned CMS PAGs give the ``green light'' for the unblinding procedure. Then, if the result obtained with the real data show no signs of experimental errors, the analysis reaches its final state - it is given into hands of the Analysis Review Committee (ARC). The ARC serves several purposes: once again verifies that the whole analysis chain is correct and helps to lead the analysis to the publication. During the interactions with the ARC, additional studies and checks are performed to prove the correctness of the results. 
 
+The observed and expected 95\% upper CL limits for the full mass range and both resonances are listed in Table~\ref{tab:finalLimits}. We produce the standard CMS-style figures of limits, shown in Fig.~\ref{fig:HHlimits}. The green and yellow bands correspond to one and two standard deviations around the expected limit respectively. Since 450 GeV is the separation boundary between two mass regions: low mass and high mass in which different BDT discriminants are applied, the limit calculation is performed with both of the BDTs at 450 GeV, where the discontinuity is
+seen in the figure. The Figure also shows the expected production cross section for a RS1 KK graviton and RS1 radion in WED models. These cross sections are computed in \cite{Oliveira:2014kla}. As seen from the figure, this measurement is not sensitive by itself to probe the chosen model of the HH production. The combination of this measurement with other similar measurements is necessary, as discussed in section \ref{Discussion}.
 
-The extraction of the results is performed by what is called at CMS "Binned shape analysis". We used Higgs Combination Tool ("HiggsCombine")~\cite{HiggsCombine}, which is a framework with the help of which the Higgs boson had been discovered. HiggsCombine is based on the RooStats package that has been very popular in the HEP community for years. 
-
-We do a simultaneous fit (\mTHH transverse mass distribution is used) of all three
-regions: signal region and two control regions, to extract both
-signal strength parameter as well as normalizations of \ttbar and
-Drell-Yan backgrounds. We use the following command to produce expected limits with the Asimov ~\cite{Cowan:2010js} toy dataset :  \hfill \break
-$\textit{combine 
--M Asymptotic -t -1 -v 3 -m massValue --run blind
-comb\_card\_massValue.txt}$.
-
-
-
-
-
-The results in the Table ~\ref{tab:finalLimits} are final limits produced with the combined data of electron and muon channels. The corresponding plots, from which these numbers were extracted, are shown on the Figs. ~\ref{fig:HHlimits}. %Separately limits for electron and muon channels are shown at the Figs. ~\ref{fig:HHlimits}. 
-
-%The values of the DY and \ttbar normalizations in control regions extracted during the simultaneous fit of signal and control regions are shown in the Tables ~\ref{normalization_electron}, ~\ref{normalization_muon}.%, and ~\ref{normalization_comb}. 
-Full postfit distributions (the naming emphasises that all regions are used in the fit, signal region included) are shown on the Figs. ~\ref{fig:MCcomparisons} for the graviton case and Figs. ~\ref{fig:MCcomparisons_radion} for the radion case. 
-%Comprehensive study with per channel distributions and for different mass regions can be found on Figs. ~\ref{fig:MCcomparison_mm_300} - ~\ref{fig:MCcomparison_ee_900}.
-
-%The corresponding values of the DY and \ttbar normalizations in the unblinded SR control regions are shown in the Tables ~\ref{normalization_electron_SR}, ~\ref{normalization_muon_SR}.
-
-
-
-
-This the first ever bbZZ analysis performed at CERN with the real data. We use the standard set of the CMS
-reconstructed physics objects. Below, we describe reconstruction of
-each separately: electrons, muons, jets and b jets, and MET.
-
-
-
-\begin{figure}[!htb]%hbpt?                                                                                        
-  \begin{center}
-%    \raisebox{0.17\height}                                                                                       
-    %\includegraphics[width=0.65\textwidth]{limitbbZZ_apr29_comb.pdf}                                     
-    %\includegraphics[width=0.65\textwidth]{limitHH_June13_comb.pdf}                                      
-    \includegraphics[width=0.65\textwidth]{limitHH_Nov16_graviton.pdf}
-    \includegraphics[width=0.65\textwidth]{limitHH_Nov16_radion.pdf}
-    \caption{ Expected (dashed line) and observed (solid line) limits on the cross section of a resonant HH production
-      as a function of the mass of the narrow resonance for both leptonic channels combined. Graviton case is shown at the top and radion case at the bottom. The red line shows a theoretical prediction for
-      the production of a WED particle with certain model assumptions \cite{Oliveira:2014kla}.
-      }
-      % Expected and observed limits on the HH production.                                                        
-     %Top: in the 2 b jets, 2 lepton, 2 neutrinos final state optimized for the bbZZ selection. Bottom: full HH production.                                                                                                        
-    \label{fig:HHlimits} %bbZZlimits                                                                              
-  \end{center}
-\end{figure}
-
-
-
-
-%sept28
-\begin{table}
+\begin{table}[H]
 \begin{center}
 \caption{The expected and observed HH production cross section upper limits at 95\% CL for different
 narrow resonance graviton (top) and radion (bottom) mass hypotheses for both dielectron and dimuon channels combined.}
 \label{tab:finalLimits}
 \begin{tabular}{|c|c|c|}
-%\toprule                                                                                                                                        
 \hline
 Mass, GeV &  Observed Limit, pb &  Expected Limit, pb \\
 \hline
-%\midrule                                                                                                                                        
       250 &               253.5 &               589.1 \\
       260 &               272.2 &               585.9 \\
       270 &               274.4 &               537.5 \\
@@ -1043,22 +961,13 @@ Mass, GeV &  Observed Limit, pb &  Expected Limit, pb \\
       800 &                10.1 &                 6.5 \\
       900 &                 8.1 &                 4.8 \\
      1000 &                 5.8 &                 4.2 \\
-%\bottomrule                                                                                                                                     
 \hline
 \end{tabular}
-%% \end{center}                                                                                                                                  
-%% \end{table}                                                                                                                                   
-%% \begin{table}                                                                                                                                 
-%% \begin{center}                                                                                                                                
-%\caption{The expected and observed HH production cross section upper limits at 95\% CL for different narrow resonance Radion mass hypotheses for both dielectron and dimuon channels combined.}                                                                                                 
 \vspace{1 cm} \ \\
-%\label{tab:finalLimits}                                                                                                                         
 \begin{tabular}{|c|c|c|}
-%\toprule                                                                                                                                        
 \hline
 Mass, GeV &  Observed Limit, pb &  Expected Limit, pb \\
 \hline
-%\midrule                                                                                                                                        
      250 &               107.3 &               297.7 \\
      260 &               170.8 &               410.9 \\
      270 &               207.0 &               470.3 \\
@@ -1075,69 +984,34 @@ Mass, GeV &  Observed Limit, pb &  Expected Limit, pb \\
      800 &                12.6 &                 9.8 \\
      900 &                 6.9 &                 5.6 \\
     1000 &                 5.7 &                 4.5 \\
-%\bottomrule                                                                                                                                     
 \hline
 \end{tabular}
 \end{center}
 \end{table}
 
+\begin{figure}[H]                                                                                       
+  \begin{center}
+    \includegraphics[width=0.65\textwidth]{limitHH_Nov16_graviton.pdf}
+    \includegraphics[width=0.65\textwidth]{limitHH_Nov16_radion.pdf}
+    \caption{ Expected (dashed line) and observed (solid line) limits on the cross section of a resonant HH production
+      as a function of the mass of the narrow resonance for both leptonic channels combined. Graviton case is shown at the top and radion case at the bottom. The red line shows a theoretical prediction for
+      the production of a WED particle with certain model assumptions \cite{Oliveira:2014kla}.}
+    \label{fig:HHlimits}                                                                             
+  \end{center}
+\end{figure}
 
-\section{$bbZZ$ measurements and combination of all HH channels}
-\label{sec:bbZZcombination}
+\section{Discussion}
+\label{sec:Discussion}
 
-  I suggest to change the title to  ?Discussion?. Or ?Combination of HH measurements in different channels?.
-I?d suggest the former.
+In searches for a process, when an intermediate particles can decay through a variety of channels, a common experimental approach is to search for multiple final states in parallel. Then the results are combined into a single result. This is a common method in the measurement of limits on a cross section of a physics process such as production of a heavy resonance.
 
-   The discussion as it is need to be re-thought. Many of the points are fine to discuss,
-however they need to be rearranged and the language improved. I will make a suggestion
-here, but I have not commented extensively the yellow notes in the PDF, the reshuffling is  too significant.
-Still, please see some minor notes in [1] in section 10.
-  On the positive side, it is not too much work,  just one page.
+At CMS, the Higgs boson program, endorsed by the CMS Higgs PAG, searches for HH production, both of the SM and BSM type. These searches cover multiple channels and are published as individual papers. For di-Higgs measurements, the individual channels include many of the channels seen in Fig. \ref{BR}. This is usually followed by the final paper that presents the combined result of all individual channels, the ``grand combination''.
 
-  Start saying that in searches for a process when intermediate particles can decay through
-a variety of channels, a common experimental approach is to search for multiple final states
-in parallel, and, subsequently, combine the results, such as limits on a cross section of a  
-physics process such as  production of a heavy resonance, into a single result. At CMS,
-the Higgs program includes searches for HH production, both of the SM and BSM type, in multiple
-channels that are published as individual papers. For HH, the individual channels include many
-of the channels seen in Fig.XX[with Rami?s photo]. This is usually followed by the final paper
-that presents the combined result of all individual channels, the ?grand combination?.
-   This measurement, the search for a resonant production of the HH system decaying through
-the intermediate bbZZ state into the final state 2b2l2nu is completed, approved by the CMS collaboration
-[give reference to your PAS], and is shown at conferences. This measurement is, at the time of
-this writing, is being combined with a similar channel, where the HH system decays through the
-same intermediate state bbZZ into the final state 2b2l2jets, and a paper is will be submitted to
-the Physical Review D shortly after the defense of this dissertation.
-   Once the 13 TeV dataset is fully analyzed, CMS plans to release the grand combination paper 
-for the HH production search  that is based on the bbZZ channel discussed here as well as many 
-other channels. As of this writing, the best available grand combination from the CMS experiment
-is based on a partial 13 TeV dataset analysis  published in [xx] that includes a subset of all channels.
-That paper does not include the present measurement, which would be found just above the bbWW
-graph seen in the legend as ?bblnulnu?. As can be seen from the figure, the most sensitive channels
-are the bbgg for the mass region below 500 GeV,  and  the  bbbb channel  for higher masses.
-   Here, discuss the prospects. Say that while no individual channel measurement is not  going to be
-sensitive enough to see a resonant HH production at the level predicted by WED, the grand combination
-for the full dataset may be able  to see the process if it exists and approach the sensitivity of order of
-picobarns. With more data taken in Run 3 and the HL-LHC period, the BSM theories discussed here 
-will be probed more and more stringently. However, the ability for a collider experiment to see the
-SM production of the HH system is at least a decay, or more, in the future.
-  Next, you can explain that a projected sensitivity for a measurement based on the full data set
-expected to be collected with the HL-LHC is such  and such, and will be able to probe the SM production
-at this level.
-   Finally, you can say that whether searching for a BSM resonant production on the SM production 
-of HH, we need new data  + new methods, etc, which is in progress in CMS, etc.
-   You can keep the last paragraph  as  it is as a  jumping  board into the conclusions.
-   
-   
-Even for the HL-LHC with almost 3\abinv of data, none of the HH analyses can reach the discovery sensitivity, thus the goal for all HH analyses now and in the nearest future is to contribute to the grand combination and only in this collaborative way to achieve the desired sensitivity. From the recent results of the HL-LHC HH combination projection analysis ~\cite{CMS-PAS-FTR-18-019}: "the statistical combination of the five decay channels results in an expected significance for the standard model HH signal of 2.6$\sigma$". This is a clear sign that more data are needed. However, many Higgs analysts would agree that new statistical and MVA tools should be developed/employed. Thus, the next iteration of this analysis will most likely use a sophisticated neural network not only for the signal-background separation, but also for lepton reconstruction, etc. 
+This measurement, the search for a resonant production of the HH system decaying through the intermediate $bbZZ$ state into $2 b 2 \ell 2 \nu$ final state is completed, approved by the CMS collaboration \cite{CMS-PAS-HIG-17-032}, and is shown at conferences \cite{HiggsCouplings2018}. This was the first measurement of the HH production in the $bbZZ$ intermediate state that was performed at CERN using the LHC data. 
 
-This analysis is the search for the double Higgs boson production mediated by the intermediate graviton (and separately) by the radion in the bbZZ channel with the 2 $b$ jets, 2 leptons, 2 neutrinos final state with the $35.9\fbinv$ 2016 dataset. According to the CMS Physics Coordination, for the paper in PRD this analysis has to be combined with the other $bbZZ$ analysis, which is focused on the 2 bjets, 2 leptons, 2 jets signature. %Prior to this $bbZZ$ combination, that each analysis merges the data from both dimuon and dielectron channels. 
-The mass range to be covered in the combined measurement is also from 250 GeV to 1000 GeV.
+This data analysis, at the time of this writing, is being combined with a similar channel, where the HH system decays through the same intermediate state $bbZZ$ into the final state of $2 b 2 \ell 2 jets$, and a paper will be submitted to the Physical Review D shortly after the defence of this dissertation.
 
-Regarding the latest grand combination for the spin 0 and spin 2 cases ~\cite{CMS-PAS-HIG-17-030} shown at the Fig. \ref{HH_combo}, the results are obtained for the extended mass range going from 250 GeV up to 3000 GeV, but no significant excess is found. The combination is done for the mass regions where at least two decay channels could contribute. Overall, $\bbbar \gamma\gamma$ is the most sensitive channel in the low mass region and $\bbbar \bbbar$ in the higher mass region (above $\sim$500 GeV).
-
-This concludes the discussion of analysis details and in the next chapter we will summarise the main ideas that have been covered throughout this thesis. 
-
+Once the full 13 TeV data set is fully analysed, the CMS plans to release the grand combination paper for the HH production search that is based on the $bbZZ$ channel discussed here as well as many other channels. As of this writing, the best available grand combination from the CMS experiment is based on a partial 13 TeV data set analysis, see Fig. \ref{HH_combo}, published in \cite{HH_combo} that includes a subset of all channels. That paper does not include the present measurement, which would be found just above the $bbWW$ graph, which is a curve of the orange color. As can be seen from the figure, the most sensitive channels are the $bb\gamma\gamma$ for the mass region below 500 GeV,  and  the $bbbb$ channel  for higher masses.
 
 \begin{figure}[H]%hbpt?                                                                       
   \begin{center}
@@ -1147,6 +1021,15 @@ This concludes the discussion of analysis details and in the next chapter we wil
     \label{HH_combo}
   \end{center}
 \end{figure}
+
+While no individual channel measurement is sensitive enough to see a resonant HH production at the level predicted by the WED theory, the grand combination for the full data set may be abl  to see the process if it exists and approach the sensitivity of order of picobarns. With more data taken in Run 3 and the HL-LHC period, the BSM theories discussed here will be probed more and more stringently. However, the ability for a collider experiment to see the SM production of the HH system, is more in the future.
+
+A projected sensitivity for a combined HH measurement based on the full data set expected to be collected with the HL-LHC (almost 3\abinv of data), shows that this amount of data is not enough to reach the discovery sensitivity ~\cite{CMS-PAS-FTR-18-019} : ``the statistical combination of the five decay channels results in an expected significance for the standard model HH signal of 2.6$\sigma$''. This is a clear sign that more data are needed, whether searching for a BSM resonant production on the SM production 
+of HH. However, many Higgs PAG analysts would agree that new statistical and MVA tools should be developed and employed. Thus, the next versions of the HH analyses will most likely use a sophisticated neural network not only for the signal-background separation, but also for lepton reconstruction, etc. At the moment, there is a strong effort in the CMS community to develop such tools and methods. 
+
+This concludes the discussion of analysis details and in the next chapter we will summarise the main ideas that have been covered throughout this thesis. 
+
+
 
 
 

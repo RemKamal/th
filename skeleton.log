@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  9 JUN 2019 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  10 JUN 2019 17:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -946,8 +946,7 @@ File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 LaTeX Info: Redefining \bf on input line 76.
-
-No file skeleton.aux.
+ (./skeleton.aux)
 \openout1 = `skeleton.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 191.
@@ -1033,12 +1032,14 @@ LaTeX Info: Redefining \nameref on input line 191.
 LaTeX Info: Redefining \ref on input line 191.
 LaTeX Info: Redefining \pageref on input line 191.
 LaTeX Info: Redefining \nameref on input line 191.
+(./skeleton.out) (./skeleton.out)
 \@outlinefile=\write4
 \openout4 = `skeleton.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 229.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1103,15 +1104,20 @@ either increase the foot skip or redesign the fotoer
 
 ] (./nuthesis/sections/acknowledgments.tex) [5
 
-] [6
+] (./skeleton.toc
+Overfull \hbox (0.16273pt too wide) detected at line 2
+ \T1/lmr/bx/n/12 viii
+ []
+
+[6
 
 
-] [7
+]) [7] (./skeleton.lof [8
 
-] [8
+]) [9] (./skeleton.lot [10
 
-]
-(./nuthesis/sections/HH_analysis.tex
+]) [11]
+(./nuthesis/sections/HH_analysis_2.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1129,104 +1135,62 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-
-LaTeX Warning: Citation `WED' on page 1 undefined on input line 8.
-
-
-LaTeX Warning: Citation `Xanda' on page 1 undefined on input line 8.
-
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 5.
 [1
 
 
-] [2]
-
-LaTeX Warning: Citation `bbZZAN' on page 3 undefined on input line 20.
-
-
-LaTeX Warning: Citation `CMS-PAS-HIG-17-032' on page 3 undefined on input line 
-20.
-
-
-LaTeX Warning: Citation `Zech:1988un' on page 3 undefined on input line 29.
-
-[3]
-
-LaTeX Warning: Reference `tab:datasets' on page 4 undefined on input line 35.
-
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 59.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
+] [2] [3]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 61.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [4]
+)
 
-LaTeX Warning: Reference `ch:cms' on page 5 undefined on input line 70.
+LaTeX Warning: Reference `ch:cms' on page 4 undefined on input line 69.
 
+[4]
 
-LaTeX Warning: Reference `sec:TnP' on page 5 undefined on input line 72.
-
-
-LaTeX Warning: Reference `fig:trigger_eff_diele' on page 5 undefined on input l
-ine 72.
+LaTeX Warning: Reference `sec:TnP' on page 5 undefined on input line 71.
 
 
-LaTeX Warning: Reference `fig:trigger_SF_dimu_BCDEFG' on page 5 undefined on in
-put line 72.
-
-
-LaTeX Warning: Reference `fig:trigger_SF_dimu_H' on page 5 undefined on input l
-ine 72.
-
-
-LaTeX Warning: Reference `dab:datasets' on page 5 undefined on input line 72.
-
-
-LaTeX Warning: Reference `fig:trigger_SF_dimu_dZ_H' on page 5 undefined on inpu
-t line 72.
+LaTeX Warning: Reference `dab:datasets' on page 5 undefined on input line 71.
 
 
 LaTeX Warning: Reference `sec:electrons, sec:muons' on page 5 undefined on inpu
-t line 72.
+t line 71.
 
 
 <nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_
-Leg1_WP90_2016.png, id=78, 1031.855pt x 652.4375pt>
+Leg1_WP90_2016.png, id=380, 1031.855pt x 652.4375pt>
 File: nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficienc
 yHLT_Leg1_WP90_2016.png Graphic file (type png)
 
 <use nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiency
 HLT_Leg1_WP90_2016.png>
 Package pdftex.def Info: nuthesis/images/trigger/electronTriggerEfficiencyelect
-ronTriggerEfficiencyHLT_Leg1_WP90_2016.png used on input line 77.
+ronTriggerEfficiencyHLT_Leg1_WP90_2016.png used on input line 76.
 (pdftex.def)             Requested size: 433.62003pt x 274.1712pt.
 
 <nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiencyHLT_
-Leg2_WP90_2016.png, id=80, 1035.87pt x 647.41875pt>
+Leg2_WP90_2016.png, id=382, 1035.87pt x 647.41875pt>
 File: nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficienc
 yHLT_Leg2_WP90_2016.png Graphic file (type png)
 
 <use nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficiency
 HLT_Leg2_WP90_2016.png>
 Package pdftex.def Info: nuthesis/images/trigger/electronTriggerEfficiencyelect
-ronTriggerEfficiencyHLT_Leg2_WP90_2016.png used on input line 79.
+ronTriggerEfficiencyHLT_Leg2_WP90_2016.png used on input line 78.
 (pdftex.def)             Requested size: 433.62003pt x 271.01505pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 80.
-
-
-LaTeX Warning: Citation `vhbbAN' on page 5 undefined on input line 80.
-
-
-LaTeX Warning: Citation `vhbbAN' on page 5 undefined on input line 80.
-
-[5] [6]
+ [5]
 Overfull \vbox (36.56316pt too high) has occurred while \output is active []
 
 
-[7 <./nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficienc
+[6 <./nuthesis/images/trigger/electronTriggerEfficiencyelectronTriggerEfficienc
 yHLT_Leg1_WP90_2016.png> <./nuthesis/images/trigger/electronTriggerEfficiencyel
 ectronTriggerEfficiencyHLT_Leg2_WP90_2016.png>]
 <nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_M
-u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=98, 57
-0.48521pt x 366.20854pt>
+u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=396, 5
+70.48521pt x 366.20854pt>
 File: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_
 hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graph
 ic file (type pdf)
@@ -1235,12 +1199,12 @@ ic file (type pdf)
 lt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf>
 Package pdftex.def Info: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8
 _OR_TkMu8_leg8_NUM_hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abs
-eta_ratio.pdf used on input line 86.
+eta_ratio.pdf used on input line 85.
 (pdftex.def)             Requested size: 205.97215pt x 132.22052pt.
 
 <nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_le
-g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=99, 572.87102pt x 358.16
-644pt>
+g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=397, 572.87102pt x 358.1
+6644pt>
 File: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17M
 u8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic file (type pdf)
 
@@ -1249,11 +1213,11 @@ u8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic file (type pdf)
 8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf>
 Package pdftex.def Info: nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17Mu8_
 leg17_NUM_hlt_Mu17Mu8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf used
- on input line 87.
+ on input line 86.
 (pdftex.def)             Requested size: 205.97215pt x 128.77586pt.
 
 <nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_Mu17_M
-u8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=100, 571.02
+u8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=398, 571.02
 274pt x 360.11513pt>
 File: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM_hlt_M
 u17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic fi
@@ -1263,11 +1227,11 @@ le (type pdf)
 17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf>
 Package pdftex.def Info: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu8_OR_T
 kMu8_leg8_NUM_hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_r
-atio.pdf used on input line 94.
+atio.pdf used on input line 93.
 (pdftex.def)             Requested size: 205.97215pt x 129.8941pt.
 
 <nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_leg17_D
-EN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=101, 569.53555pt x 359.06601p
+EN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, id=399, 569.53555pt x 359.06601p
 t>
 File: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_le
 g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic file (type pdf)
@@ -1276,11 +1240,11 @@ g17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf Graphic file (type pdf)
 17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf>
 Package pdftex.def Info: nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17Mu8_leg17
 _NUM_hlt_Mu17Mu8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf used on i
-nput line 95.
+nput line 94.
 (pdftex.def)             Requested size: 205.97215pt x 129.85538pt.
 
 <nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_PAR_e
-ta1_eta2_abseta_tag_abseta_ratio.pdf, id=102, 570.61508pt x 361.7881pt>
+ta1_eta2_abseta_tag_abseta_ratio.pdf, id=400, 570.61508pt x 361.7881pt>
 File: nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_
 PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf Graphic file (type pdf)
 
@@ -1288,9 +1252,9 @@ PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf Graphic file (type pdf)
 AR_eta1_eta2_abseta_tag_abseta_ratio.pdf>
 Package pdftex.def Info: nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_
 Mu8_OR_TkMu8_loose_PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf used on input line
- 102.
+ 101.
 (pdftex.def)             Requested size: 368.57967pt x 233.69655pt.
- [8 <./nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM
+ [7 <./nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17_Mu8_OR_TkMu8_leg8_NUM
 _hlt_Mu17_Mu8_OR_TkMu8_leg8_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, pag
 e is rotated 90 degrees> <./nuthesis/images/trigger/Run_BCDEFG_PlotSF_hlt_Mu17M
 u8_leg17_NUM_hlt_Mu17Mu8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abseta_ratio.pdf, 
@@ -1299,458 +1263,374 @@ page is rotated 90 degrees> <./nuthesis/images/trigger/Run_H_PlotSF_hlt_Mu17_Mu
 seta_ratio.pdf, page is rotated 90 degrees> <./nuthesis/images/trigger/Run_H_Pl
 otSF_hlt_Mu17Mu8_leg17_NUM_hlt_Mu17Mu8_leg17_DEN_LooseIDnISO_PAR_pt_eta_pt_abse
 ta_ratio.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Citation `Alwall:2014hca' on page 9 undefined on input line 121.
-
-
-
-Overfull \hbox (35.38344pt too wide) in paragraph at lines 118--125
-\T1/lmr/m/n/12 The sig-nal Monte Carlo (MC) sam-ples have been gen-er-ated us-i
-ng \T1/lmr/m/sc/12 Mad-Graph5\T1/lmr/m/n/12 _aMC@NLO
+Overfull \hbox (2.12468pt too wide) in paragraph at lines 113--115
+\T1/lmr/m/n/10.95 The sig-nal Monte Carlo (MC) sam-ples have been gen-er-ated u
+s-ing \T1/lmr/m/sc/10.95 Mad-Graph5\T1/lmr/m/n/10.95 _aMC@NLO
  []
 
-[9 <./nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_
+[8 <./nuthesis/images/trigger/PlotSF_dZ_NUM_dZ_DEN_hlt_Mu17_Mu8_OR_TkMu8_loose_
 PAR_eta1_eta2_abseta_tag_abseta_ratio.pdf, page is rotated 90 degrees>]
+[9]
 
-LaTeX Warning: Citation `CERNYR4' on page 10 undefined on input line 126.
+LaTeX Warning: Citation `DY_QCDnEWK' on page 10 undefined on input line 194.
 
 
-LaTeX Warning: Reference `tab:bg_mcsamples' on page 10 undefined on input line 
-134.
+LaTeX Warning: Citation `pwh1' on page 10 undefined on input line 199.
+
+
+LaTeX Warning: Citation `pwh2' on page 10 undefined on input line 199.
+
+
+LaTeX Warning: Citation `pwh3' on page 10 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Kidonakis:2012db' on page 10 undefined on input line 2
+02.
+
+
+LaTeX Warning: Citation `Czakon:2013goa' on page 10 undefined on input line 202
+.
+
+
+LaTeX Warning: Citation `Sjostrand:2014zea' on page 10 undefined on input line 
+204.
+
+
+LaTeX Warning: Citation `CMS-PAS-SMP-18-002' on page 10 undefined on input line
+ 206.
+
+
+LaTeX Warning: Citation `CMS-PAS-SMP-16-006' on page 10 undefined on input line
+ 206.
+
+
+LaTeX Warning: Citation `Khachatryan:2016txa' on page 10 undefined on input lin
+e 206.
 
 [10]
 
-LaTeX Warning: Citation `Alwall:2007fs' on page 11 undefined on input line 206.
+LaTeX Warning: Citation `Ball:2014uwa' on page 11 undefined on input line 213.
+
+
+LaTeX Warning: Reference `sec:TnP, sec:b_tagging' on page 11 undefined on input
+ line 218.
+
+
+LaTeX Warning: Reference `sec:pileup' on page 11 undefined on input line 220.
+
+
+LaTeX Warning: Reference `sec:cms_reco' on page 11 undefined on input line 228.
 
 
 
-LaTeX Warning: Citation `DY_QCDnEWK' on page 11 undefined on input line 208.
-
-
-LaTeX Warning: Citation `Alioli:2009je' on page 11 undefined on input line 213.
+LaTeX Warning: Reference `sec:cms_reco' on page 11 undefined on input line 231.
 
 
 
-LaTeX Warning: Citation `pwh1' on page 11 undefined on input line 213.
-
-
-LaTeX Warning: Citation `pwh2' on page 11 undefined on input line 213.
-
-
-LaTeX Warning: Citation `pwh3' on page 11 undefined on input line 213.
-
-
-LaTeX Warning: Citation `Kidonakis:2012db' on page 11 undefined on input line 2
-16.
-
-
-LaTeX Warning: Citation `Czakon:2013goa' on page 11 undefined on input line 216
+LaTeX Warning: Reference `sec:isolation' on page 11 undefined on input line 231
 .
 
 
-LaTeX Warning: Citation `Sjostrand:2007gs' on page 11 undefined on input line 2
-18.
-
-
-LaTeX Warning: Citation `Sjostrand:2014zea' on page 11 undefined on input line 
-218.
-
-
-LaTeX Warning: Citation `CMS-PAS-SMP-18-002' on page 11 undefined on input line
- 220.
-
-
-LaTeX Warning: Citation `CMS-PAS-SMP-16-006' on page 11 undefined on input line
- 220.
-
-
-LaTeX Warning: Citation `Khachatryan:2016txa' on page 11 undefined on input lin
-e 220.
-
-
-LaTeX Warning: Citation `Frederix:2012ps' on page 11 undefined on input line 22
-1.
-
-
-LaTeX Warning: Citation `Campbell:2010ff' on page 11 undefined on input line 22
-3.
-
-
-LaTeX Warning: Citation `LHCHXSWG' on page 11 undefined on input line 223.
-
-
-LaTeX Warning: Citation `xsecZH' on page 11 undefined on input line 223.
-
-
-LaTeX Warning: Citation `xsecTT' on page 11 undefined on input line 223.
-
-
-LaTeX Warning: Citation `xsecST' on page 11 undefined on input line 223.
-
-
-LaTeX Warning: Citation `xsecVV' on page 11 undefined on input line 223.
-
-[11]
-
-LaTeX Warning: Citation `Ball:2014uwa' on page 12 undefined on input line 230.
-
-
-LaTeX Warning: Citation `Khachatryan:2015pea' on page 12 undefined on input lin
-e 234.
-
-
-LaTeX Warning: Citation `GEANT4' on page 12 undefined on input line 234.
-
-
-LaTeX Warning: Reference `sec:TnP, sec:b_tagging' on page 12 undefined on input
- line 239.
-
-
-LaTeX Warning: Reference `sec:pileup' on page 12 undefined on input line 243.
-
-
-LaTeX Warning: Reference `sec:cms_reco' on page 12 undefined on input line 254.
-
-
-[12]
-
-LaTeX Warning: Citation `GSF' on page 13 undefined on input line 257.
-
-
-LaTeX Warning: Reference `sec:cms_reco' on page 13 undefined on input line 257.
-
-
-
-LaTeX Warning: Citation `vhbbAN' on page 13 undefined on input line 257.
-
-
-LaTeX Warning: Reference `sec:isolation' on page 13 undefined on input line 257
+LaTeX Warning: Reference `sec:isolation' on page 11 undefined on input line 231
 .
 
+[11] [12]
 
-LaTeX Warning: Reference `sec:isolation' on page 13 undefined on input line 257
-.
+LaTeX Warning: Reference `sec:met' on page 13 undefined on input line 247.
 
-[13] [14]
+[13]
 
-LaTeX Warning: Reference `sec:met' on page 15 undefined on input line 273.
+LaTeX Warning: Reference `met_cuts' on page 14 undefined on input line 258.
 
-
-LaTeX Warning: Citation `MissingETRun2Corrections' on page 15 undefined on inpu
-t line 275.
-
-
-LaTeX Warning: Citation `MissingETOptionalFiltersRun2' on page 15 undefined on 
-input line 275.
-
-[15]
-
-LaTeX Warning: Reference `met_cuts' on page 16 undefined on input line 284.
-
-
-LaTeX Warning: Reference `metCuts' on page 16 undefined on input line 284.
-
-<nuthesis/images/ee_300_met.png, id=287, 642.4pt x 481.8pt>
+[14] <nuthesis/images/ee_300_met.png, id=603, 642.4pt x 481.8pt>
 File: nuthesis/images/ee_300_met.png Graphic file (type png)
 
 <use nuthesis/images/ee_300_met.png>
-Package pdftex.def Info: nuthesis/images/ee_300_met.png used on input line 288.
+Package pdftex.def Info: nuthesis/images/ee_300_met.png used on input line 262.
 
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/mm_300_met.png, id=288, 642.4pt x 481.8pt>
+<nuthesis/images/mm_300_met.png, id=604, 642.4pt x 481.8pt>
 File: nuthesis/images/mm_300_met.png Graphic file (type png)
 
 <use nuthesis/images/mm_300_met.png>
-Package pdftex.def Info: nuthesis/images/mm_300_met.png used on input line 289.
+Package pdftex.def Info: nuthesis/images/mm_300_met.png used on input line 263.
 
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/ee_600_met.png, id=289, 642.4pt x 481.8pt>
+<nuthesis/images/ee_600_met.png, id=605, 642.4pt x 481.8pt>
 File: nuthesis/images/ee_600_met.png Graphic file (type png)
 
 <use nuthesis/images/ee_600_met.png>
-Package pdftex.def Info: nuthesis/images/ee_600_met.png used on input line 290.
+Package pdftex.def Info: nuthesis/images/ee_600_met.png used on input line 264.
 
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/mm_600_met.png, id=290, 642.4pt x 481.8pt>
+<nuthesis/images/mm_600_met.png, id=606, 642.4pt x 481.8pt>
 File: nuthesis/images/mm_600_met.png Graphic file (type png)
 
 <use nuthesis/images/mm_600_met.png>
-Package pdftex.def Info: nuthesis/images/mm_600_met.png used on input line 291.
+Package pdftex.def Info: nuthesis/images/mm_600_met.png used on input line 265.
 
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/ee_900_met.png, id=291, 642.4pt x 481.8pt>
+<nuthesis/images/ee_900_met.png, id=607, 642.4pt x 481.8pt>
 File: nuthesis/images/ee_900_met.png Graphic file (type png)
 
 <use nuthesis/images/ee_900_met.png>
-Package pdftex.def Info: nuthesis/images/ee_900_met.png used on input line 292.
+Package pdftex.def Info: nuthesis/images/ee_900_met.png used on input line 266.
 
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
 
-<nuthesis/images/mm_900_met.png, id=292, 642.4pt x 481.8pt>
+<nuthesis/images/mm_900_met.png, id=608, 642.4pt x 481.8pt>
 File: nuthesis/images/mm_900_met.png Graphic file (type png)
 
 <use nuthesis/images/mm_900_met.png>
-Package pdftex.def Info: nuthesis/images/mm_900_met.png used on input line 293.
+Package pdftex.def Info: nuthesis/images/mm_900_met.png used on input line 267.
 
 (pdftex.def)             Requested size: 195.12769pt x 146.34227pt.
- [16] [17 <./nuthesis/images/ee_300_met.png> <./nuthesis/images/mm_300_met.png>
+ [15] [16 <./nuthesis/images/ee_300_met.png> <./nuthesis/images/mm_300_met.png>
  <./nuthesis/images/ee_600_met.png> <./nuthesis/images/mm_600_met.png> <./nuthe
-sis/images/ee_900_met.png> <./nuthesis/images/mm_900_met.png>] [18]
+sis/images/ee_900_met.png> <./nuthesis/images/mm_900_met.png>]
 
-LaTeX Warning: Reference `sec:cms_reco' on page 19 undefined on input line 319.
+LaTeX Warning: Reference `sec:cms_reco' on page 17 undefined on input line 293.
 
 
+[17]
+Overfull \hbox (45.9127pt too wide) in paragraph at lines 299--300
+[]\T1/lmr/m/n/10.95 While up un-til this mo-ment we had the same re-quire-ments
+ for the search of the $\OML/lmm/m/it/10.95 radion=graviton \OMS/lmsy/m/n/10.95
+ !
+ []
 
-LaTeX Warning: Citation `bbWW' on page 19 undefined on input line 321.
-
-[19]
-
-LaTeX Warning: Reference `fig:regions' on page 20 undefined on input line 334.
-
-<nuthesis/images/regions.png, id=320, 396.48125pt x 331.2375pt>
+[18] <nuthesis/images/regions.png, id=634, 396.48125pt x 331.2375pt>
 File: nuthesis/images/regions.png Graphic file (type png)
 
 <use nuthesis/images/regions.png>
-Package pdftex.def Info: nuthesis/images/regions.png used on input line 339.
+Package pdftex.def Info: nuthesis/images/regions.png used on input line 312.
 (pdftex.def)             Requested size: 195.12769pt x 163.02043pt.
+ [19 <./nuthesis/images/regions.png>] [20]
+[21]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 363.
 
-
-LaTeX Warning: Reference `fig:regions' on page 20 undefined on input line 345.
-
-[20]
-
-LaTeX Warning: Reference `eff_upto_bdt' on page 21 undefined on input line 349.
-
-
-
-LaTeX Warning: Reference `sec:BDT' on page 21 undefined on input line 367.
-
-[21 <./nuthesis/images/regions.png>] [22] [23]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 388.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 388.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 363.
 
 
-LaTeX Warning: Reference `sec:cms' on page 24 undefined on input line 389.
+LaTeX Warning: Reference `sec:cms' on page 22 undefined on input line 364.
 
-[24] [25]
+[22] [23]
 
 LaTeX Warning: Reference `fig:MCcomparisons_mm_low_CRDY, fig:MCcomparisons_mm_l
-ow_CRDY_2' on page 26 undefined on input line 417.
+ow_CRDY_2' on page 24 undefined on input line 392.
 
 
 LaTeX Warning: Reference `fig:MCcomparisons_mm_low_SR, fig:MCcomparisons_mm_low
-_SR' on page 26 undefined on input line 417.
+_SR' on page 24 undefined on input line 392.
 
 
 LaTeX Warning: Reference `fig:MCcomparisons_mm_low_CRTT, fig:MCcomparisons_mm_l
-ow_CRTT_2' on page 26 undefined on input line 417.
+ow_CRTT_2' on page 24 undefined on input line 392.
 
 
 <nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRDY_prefit_plot_apr18.png,
- id=354, 598.235pt x 574.145pt>
+ id=660, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRDY_prefit_plot_apr18
 .png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRDY_prefit_plot_apr18.
 png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRD
-Y_prefit_plot_apr18.png used on input line 422.
+Y_prefit_plot_apr18.png used on input line 397.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRDY_FullPostfit_plot_apr18
-.png, id=355, 598.235pt x 574.145pt>
+.png, id=661, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRDY_FullPostfit_plot_
 apr18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRDY_FullPostfit_plot_a
 pr18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRD
-Y_FullPostfit_plot_apr18.png used on input line 423.
+Y_FullPostfit_plot_apr18.png used on input line 398.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRDY_prefit_plot_apr18.png, 
-id=356, 598.235pt x 574.145pt>
+id=662, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRDY_prefit_plot_apr18.
 png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRDY_prefit_plot_apr18.p
 ng>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRDY
-_prefit_plot_apr18.png used on input line 424.
+_prefit_plot_apr18.png used on input line 399.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRDY_FullPostfit_plot_apr18.
-png, id=357, 598.235pt x 574.145pt>
+png, id=663, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRDY_FullPostfit_plot_a
 pr18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRDY_FullPostfit_plot_ap
 r18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRDY
-_FullPostfit_plot_apr18.png used on input line 425.
+_FullPostfit_plot_apr18.png used on input line 400.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hmass0_mm_CRDY_prefit_plot_apr18.png, i
-d=358, 598.235pt x 574.145pt>
+d=664, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hmass0_mm_CRDY_prefit_plot_apr18.p
 ng Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hmass0_mm_CRDY_prefit_plot_apr18.pn
 g>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hmass0_mm_CRDY_
-prefit_plot_apr18.png used on input line 428.
+prefit_plot_apr18.png used on input line 403.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hmass0_mm_CRDY_FullPostfit_plot_apr18.p
-ng, id=359, 598.235pt x 574.145pt>
+ng, id=665, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hmass0_mm_CRDY_FullPostfit_plot_ap
 r18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hmass0_mm_CRDY_FullPostfit_plot_apr
 18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hmass0_mm_CRDY_
-FullPostfit_plot_apr18.png used on input line 429.
+FullPostfit_plot_apr18.png used on input line 404.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hmass1_mm_CRDY_prefit_plot_apr18.png, i
-d=360, 598.235pt x 574.145pt>
+d=666, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hmass1_mm_CRDY_prefit_plot_apr18.p
 ng Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hmass1_mm_CRDY_prefit_plot_apr18.pn
 g>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hmass1_mm_CRDY_
-prefit_plot_apr18.png used on input line 430.
+prefit_plot_apr18.png used on input line 405.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hmass1_mm_CRDY_FullPostfit_plot_apr18.p
-ng, id=361, 598.235pt x 574.145pt>
+ng, id=667, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hmass1_mm_CRDY_FullPostfit_plot_ap
 r18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hmass1_mm_CRDY_FullPostfit_plot_apr
 18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hmass1_mm_CRDY_
-FullPostfit_plot_apr18.png used on input line 431.
+FullPostfit_plot_apr18.png used on input line 406.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
- [26]
+ [24]
 <nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_prefit_plot_apr18.png, id=
-366, 598.235pt x 574.145pt>
+672, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_prefit_plot_apr18.png
  Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_prefit_plot_apr18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_pr
-efit_plot_apr18.png used on input line 439.
+efit_plot_apr18.png used on input line 414.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_FullPostfit_plot_apr18.png
-, id=367, 598.235pt x 574.145pt>
+, id=673, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_FullPostfit_plot_apr1
 8.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_FullPostfit_plot_apr18
 .png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_Fu
-llPostfit_plot_apr18.png used on input line 440.
+llPostfit_plot_apr18.png used on input line 415.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hpt1_mm_CRDY_prefit_plot_apr18.png, id=
-368, 598.235pt x 574.145pt>
+674, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hpt1_mm_CRDY_prefit_plot_apr18.png
  Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hpt1_mm_CRDY_prefit_plot_apr18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hpt1_mm_CRDY_pr
-efit_plot_apr18.png used on input line 441.
+efit_plot_apr18.png used on input line 416.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hpt1_mm_CRDY_FullPostfit_plot_apr18.png
-, id=369, 598.235pt x 574.145pt>
+, id=675, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hpt1_mm_CRDY_FullPostfit_plot_apr1
 8.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hpt1_mm_CRDY_FullPostfit_plot_apr18
 .png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hpt1_mm_CRDY_Fu
-llPostfit_plot_apr18.png used on input line 442.
+llPostfit_plot_apr18.png used on input line 417.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/met_pt_mm_CRDY_prefit_plot_apr18.png, i
-d=370, 598.235pt x 574.145pt>
+d=676, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/met_pt_mm_CRDY_prefit_plot_apr18.p
 ng Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/met_pt_mm_CRDY_prefit_plot_apr18.pn
 g>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/met_pt_mm_CRDY_
-prefit_plot_apr18.png used on input line 443.
+prefit_plot_apr18.png used on input line 418.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/met_pt_mm_CRDY_FullPostfit_plot_apr18.p
-ng, id=371, 598.235pt x 574.145pt>
+ng, id=677, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/met_pt_mm_CRDY_FullPostfit_plot_ap
 r18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/met_pt_mm_CRDY_FullPostfit_plot_apr
 18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/met_pt_mm_CRDY_
-FullPostfit_plot_apr18.png used on input line 444.
+FullPostfit_plot_apr18.png used on input line 419.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/zmass_mm_CRDY_prefit_plot_apr21.png, id
-=372, 598.235pt x 574.145pt>
+=678, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/zmass_mm_CRDY_prefit_plot_apr21.pn
 g Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/zmass_mm_CRDY_prefit_plot_apr21.png
 >
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/zmass_mm_CRDY_p
-refit_plot_apr21.png used on input line 445.
+refit_plot_apr21.png used on input line 420.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/zmass_mm_CRDY_FullPostfit_plot_apr21.pn
-g, id=373, 598.235pt x 574.145pt>
+g, id=679, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/zmass_mm_CRDY_FullPostfit_plot_apr
 21.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/zmass_mm_CRDY_FullPostfit_plot_apr2
 1.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/zmass_mm_CRDY_F
-ullPostfit_plot_apr21.png used on input line 446.
+ullPostfit_plot_apr21.png used on input line 421.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/zpt0_mm_CRDY_prefit_plot_apr18.png, id=
-374, 598.235pt x 574.145pt>
+680, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/zpt0_mm_CRDY_prefit_plot_apr18.png
  Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/zpt0_mm_CRDY_prefit_plot_apr18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/zpt0_mm_CRDY_pr
-efit_plot_apr18.png used on input line 449.
+efit_plot_apr18.png used on input line 424.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/zpt0_mm_CRDY_FullPostfit_plot_apr18.png
-, id=375, 598.235pt x 574.145pt>
+, id=681, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/zpt0_mm_CRDY_FullPostfit_plot_apr1
 8.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/zpt0_mm_CRDY_FullPostfit_plot_apr18
 .png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/zpt0_mm_CRDY_Fu
-llPostfit_plot_apr18.png used on input line 450.
+llPostfit_plot_apr18.png used on input line 425.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
- [27 <./nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRDY_prefit_plot_apr
+ [25 <./nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRDY_prefit_plot_apr
 18.png> <./nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRDY_FullPostfit_
 plot_apr18.png> <./nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRDY_prefi
 t_plot_apr18.png> <./nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRDY_Ful
@@ -1762,7 +1642,7 @@ s1_mm_CRDY_FullPostfit_plot_apr18.png>]
 Overfull \vbox (82.76385pt too high) has occurred while \output is active []
 
 
-[28 <./nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_prefit_plot_apr18.pn
+[26 <./nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_prefit_plot_apr18.pn
 g> <./nuthesis/images/figures/mm_300_april18/hpt0_mm_CRDY_FullPostfit_plot_apr1
 8.png> <./nuthesis/images/figures/mm_300_april18/hpt1_mm_CRDY_prefit_plot_apr18
 .png> <./nuthesis/images/figures/mm_300_april18/hpt1_mm_CRDY_FullPostfit_plot_a
@@ -1774,203 +1654,203 @@ stfit_plot_apr21.png> <./nuthesis/images/figures/mm_300_april18/zpt0_mm_CRDY_pr
 efit_plot_apr18.png> <./nuthesis/images/figures/mm_300_april18/zpt0_mm_CRDY_Ful
 lPostfit_plot_apr18.png>]
 <nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_SR_prefit_plot_apr21.png
-, id=386, 598.235pt x 574.145pt>
+, id=691, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_SR_prefit_plot_apr2
 1.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_SR_prefit_plot_apr21
 .png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_
-SR_prefit_plot_apr21.png used on input line 459.
+SR_prefit_plot_apr21.png used on input line 434.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_SR_FullPostfit_plot_apr2
-1.png, id=387, 598.235pt x 574.145pt>
+1.png, id=692, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_SR_FullPostfit_plot
 _apr21.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_SR_FullPostfit_plot_
 apr21.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_
-SR_FullPostfit_plot_apr21.png used on input line 460.
+SR_FullPostfit_plot_apr21.png used on input line 435.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/dR_leps_mm_SR_prefit_plot_apr21.png,
- id=388, 598.235pt x 574.145pt>
+ id=693, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/dR_leps_mm_SR_prefit_plot_apr21
 .png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/dR_leps_mm_SR_prefit_plot_apr21.
 png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/dR_leps_mm_S
-R_prefit_plot_apr21.png used on input line 461.
+R_prefit_plot_apr21.png used on input line 436.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/dR_leps_mm_SR_FullPostfit_plot_apr21
-.png, id=389, 598.235pt x 574.145pt>
+.png, id=694, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/dR_leps_mm_SR_FullPostfit_plot_
 apr21.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/dR_leps_mm_SR_FullPostfit_plot_a
 pr21.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/dR_leps_mm_S
-R_FullPostfit_plot_apr21.png used on input line 462.
+R_FullPostfit_plot_apr21.png used on input line 437.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/hmass0_mm_SR_prefit_plot_apr21.png, 
-id=390, 598.235pt x 574.145pt>
+id=695, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/hmass0_mm_SR_prefit_plot_apr21.
 png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/hmass0_mm_SR_prefit_plot_apr21.p
 ng>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/hmass0_mm_SR
-_prefit_plot_apr21.png used on input line 465.
+_prefit_plot_apr21.png used on input line 440.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/hmass0_mm_SR_FullPostfit_plot_apr21.
-png, id=391, 598.235pt x 574.145pt>
+png, id=696, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/hmass0_mm_SR_FullPostfit_plot_a
 pr21.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/hmass0_mm_SR_FullPostfit_plot_ap
 r21.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/hmass0_mm_SR
-_FullPostfit_plot_apr21.png used on input line 466.
+_FullPostfit_plot_apr21.png used on input line 441.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/hmass1_mm_SR_prefit_plot_apr21.png, 
-id=392, 598.235pt x 574.145pt>
+id=697, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/hmass1_mm_SR_prefit_plot_apr21.
 png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/hmass1_mm_SR_prefit_plot_apr21.p
 ng>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/hmass1_mm_SR
-_prefit_plot_apr21.png used on input line 467.
+_prefit_plot_apr21.png used on input line 442.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/hmass1_mm_SR_FullPostfit_plot_apr21.
-png, id=393, 598.235pt x 574.145pt>
+png, id=698, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/hmass1_mm_SR_FullPostfit_plot_a
 pr21.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/hmass1_mm_SR_FullPostfit_plot_ap
 r21.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/hmass1_mm_SR
-_FullPostfit_plot_apr21.png used on input line 468.
+_FullPostfit_plot_apr21.png used on input line 443.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_prefit_plot_apr21.png, id
-=394, 598.235pt x 574.145pt>
+=699, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_prefit_plot_apr21.pn
 g Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_prefit_plot_apr21.png
 >
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_p
-refit_plot_apr21.png used on input line 476.
+refit_plot_apr21.png used on input line 451.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_FullPostfit_plot_apr21.pn
-g, id=395, 598.235pt x 574.145pt>
+g, id=700, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_FullPostfit_plot_apr
 21.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_FullPostfit_plot_apr2
 1.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_F
-ullPostfit_plot_apr21.png used on input line 477.
+ullPostfit_plot_apr21.png used on input line 452.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/hpt1_mm_SR_prefit_plot_apr21.png, id
-=396, 598.235pt x 574.145pt>
+=701, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/hpt1_mm_SR_prefit_plot_apr21.pn
 g Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/hpt1_mm_SR_prefit_plot_apr21.png
 >
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/hpt1_mm_SR_p
-refit_plot_apr21.png used on input line 478.
+refit_plot_apr21.png used on input line 453.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/hpt1_mm_SR_FullPostfit_plot_apr21.pn
-g, id=397, 598.235pt x 574.145pt>
+g, id=702, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/hpt1_mm_SR_FullPostfit_plot_apr
 21.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/hpt1_mm_SR_FullPostfit_plot_apr2
 1.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/hpt1_mm_SR_F
-ullPostfit_plot_apr21.png used on input line 479.
+ullPostfit_plot_apr21.png used on input line 454.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/met_pt_mm_SR_prefit_plot_apr21.png, 
-id=398, 598.235pt x 574.145pt>
+id=703, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/met_pt_mm_SR_prefit_plot_apr21.
 png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/met_pt_mm_SR_prefit_plot_apr21.p
 ng>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/met_pt_mm_SR
-_prefit_plot_apr21.png used on input line 480.
+_prefit_plot_apr21.png used on input line 455.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/met_pt_mm_SR_FullPostfit_plot_apr21.
-png, id=399, 598.235pt x 574.145pt>
+png, id=704, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/met_pt_mm_SR_FullPostfit_plot_a
 pr21.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/met_pt_mm_SR_FullPostfit_plot_ap
 r21.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/met_pt_mm_SR
-_FullPostfit_plot_apr21.png used on input line 481.
+_FullPostfit_plot_apr21.png used on input line 456.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/zmass_mm_SR_prefit_plot_apr21.png, i
-d=400, 598.235pt x 574.145pt>
+d=705, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/zmass_mm_SR_prefit_plot_apr21.p
 ng Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/zmass_mm_SR_prefit_plot_apr21.pn
 g>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/zmass_mm_SR_
-prefit_plot_apr21.png used on input line 482.
+prefit_plot_apr21.png used on input line 457.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/zmass_mm_SR_FullPostfit_plot_apr21.p
-ng, id=401, 598.235pt x 574.145pt>
+ng, id=706, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/zmass_mm_SR_FullPostfit_plot_ap
 r21.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/zmass_mm_SR_FullPostfit_plot_apr
 21.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/zmass_mm_SR_
-FullPostfit_plot_apr21.png used on input line 483.
+FullPostfit_plot_apr21.png used on input line 458.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/zpt0_mm_SR_prefit_plot_apr21.png, id
-=402, 598.235pt x 574.145pt>
+=707, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/zpt0_mm_SR_prefit_plot_apr21.pn
 g Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/zpt0_mm_SR_prefit_plot_apr21.png
 >
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/zpt0_mm_SR_p
-refit_plot_apr21.png used on input line 484.
+refit_plot_apr21.png used on input line 459.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_SR_april21/zpt0_mm_SR_FullPostfit_plot_apr21.pn
-g, id=403, 598.235pt x 574.145pt>
+g, id=708, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_SR_april21/zpt0_mm_SR_FullPostfit_plot_apr
 21.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_SR_april21/zpt0_mm_SR_FullPostfit_plot_apr2
 1.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_SR_april21/zpt0_mm_SR_F
-ullPostfit_plot_apr21.png used on input line 485.
+ullPostfit_plot_apr21.png used on input line 460.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
- [29 <./nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_SR_prefit_plot_ap
+ [27 <./nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_SR_prefit_plot_ap
 r21.png> <./nuthesis/images/figures/mm_300_SR_april21/dR_bjets_mm_SR_FullPostfi
 t_plot_apr21.png> <./nuthesis/images/figures/mm_300_SR_april21/dR_leps_mm_SR_pr
 efit_plot_apr21.png> <./nuthesis/images/figures/mm_300_SR_april21/dR_leps_mm_SR
@@ -1982,7 +1862,7 @@ ril21/hmass1_mm_SR_FullPostfit_plot_apr21.png>]
 Overfull \vbox (82.76385pt too high) has occurred while \output is active []
 
 
-[30 <./nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_prefit_plot_apr21.p
+[28 <./nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_prefit_plot_apr21.p
 ng> <./nuthesis/images/figures/mm_300_SR_april21/hpt0_mm_SR_FullPostfit_plot_ap
 r21.png> <./nuthesis/images/figures/mm_300_SR_april21/hpt1_mm_SR_prefit_plot_ap
 r21.png> <./nuthesis/images/figures/mm_300_SR_april21/hpt1_mm_SR_FullPostfit_pl
@@ -1994,200 +1874,200 @@ R_FullPostfit_plot_apr21.png> <./nuthesis/images/figures/mm_300_SR_april21/zpt0
 _mm_SR_prefit_plot_apr21.png> <./nuthesis/images/figures/mm_300_SR_april21/zpt0
 _mm_SR_FullPostfit_plot_apr21.png>]
 <nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRTT_prefit_plot_apr18.png,
- id=415, 598.235pt x 574.145pt>
+ id=717, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRTT_prefit_plot_apr18
 .png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRTT_prefit_plot_apr18.
 png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRT
-T_prefit_plot_apr18.png used on input line 494.
+T_prefit_plot_apr18.png used on input line 469.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRTT_FullPostfit_plot_apr18
-.png, id=416, 598.235pt x 574.145pt>
+.png, id=718, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRTT_FullPostfit_plot_
 apr18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRTT_FullPostfit_plot_a
 pr18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRT
-T_FullPostfit_plot_apr18.png used on input line 495.
+T_FullPostfit_plot_apr18.png used on input line 470.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRTT_prefit_plot_apr18.png, 
-id=417, 598.235pt x 574.145pt>
+id=719, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRTT_prefit_plot_apr18.
 png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRTT_prefit_plot_apr18.p
 ng>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRTT
-_prefit_plot_apr18.png used on input line 496.
+_prefit_plot_apr18.png used on input line 471.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRTT_FullPostfit_plot_apr18.
-png, id=418, 598.235pt x 574.145pt>
+png, id=720, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRTT_FullPostfit_plot_a
 pr18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRTT_FullPostfit_plot_ap
 r18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRTT
-_FullPostfit_plot_apr18.png used on input line 497.
+_FullPostfit_plot_apr18.png used on input line 472.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hmass0_mm_CRTT_prefit_plot_apr18.png, i
-d=419, 598.235pt x 574.145pt>
+d=721, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hmass0_mm_CRTT_prefit_plot_apr18.p
 ng Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hmass0_mm_CRTT_prefit_plot_apr18.pn
 g>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hmass0_mm_CRTT_
-prefit_plot_apr18.png used on input line 500.
+prefit_plot_apr18.png used on input line 475.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hmass0_mm_CRTT_FullPostfit_plot_apr18.p
-ng, id=420, 598.235pt x 574.145pt>
+ng, id=722, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hmass0_mm_CRTT_FullPostfit_plot_ap
 r18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hmass0_mm_CRTT_FullPostfit_plot_apr
 18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hmass0_mm_CRTT_
-FullPostfit_plot_apr18.png used on input line 501.
+FullPostfit_plot_apr18.png used on input line 476.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hmass1_mm_CRTT_prefit_plot_apr18.png, i
-d=421, 598.235pt x 574.145pt>
+d=723, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hmass1_mm_CRTT_prefit_plot_apr18.p
 ng Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hmass1_mm_CRTT_prefit_plot_apr18.pn
 g>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hmass1_mm_CRTT_
-prefit_plot_apr18.png used on input line 502.
+prefit_plot_apr18.png used on input line 477.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hmass1_mm_CRTT_FullPostfit_plot_apr18.p
-ng, id=422, 598.235pt x 574.145pt>
+ng, id=724, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hmass1_mm_CRTT_FullPostfit_plot_ap
 r18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hmass1_mm_CRTT_FullPostfit_plot_apr
 18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hmass1_mm_CRTT_
-FullPostfit_plot_apr18.png used on input line 503.
+FullPostfit_plot_apr18.png used on input line 478.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_prefit_plot_apr18.png, id=
-423, 598.235pt x 574.145pt>
+725, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_prefit_plot_apr18.png
  Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_prefit_plot_apr18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_pr
-efit_plot_apr18.png used on input line 511.
+efit_plot_apr18.png used on input line 486.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_FullPostfit_plot_apr18.png
-, id=424, 598.235pt x 574.145pt>
+, id=726, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_FullPostfit_plot_apr1
 8.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_FullPostfit_plot_apr18
 .png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_Fu
-llPostfit_plot_apr18.png used on input line 512.
+llPostfit_plot_apr18.png used on input line 487.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hpt1_mm_CRTT_prefit_plot_apr18.png, id=
-425, 598.235pt x 574.145pt>
+727, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hpt1_mm_CRTT_prefit_plot_apr18.png
  Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hpt1_mm_CRTT_prefit_plot_apr18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hpt1_mm_CRTT_pr
-efit_plot_apr18.png used on input line 513.
+efit_plot_apr18.png used on input line 488.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/hpt1_mm_CRTT_FullPostfit_plot_apr18.png
-, id=426, 598.235pt x 574.145pt>
+, id=728, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/hpt1_mm_CRTT_FullPostfit_plot_apr1
 8.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/hpt1_mm_CRTT_FullPostfit_plot_apr18
 .png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/hpt1_mm_CRTT_Fu
-llPostfit_plot_apr18.png used on input line 514.
+llPostfit_plot_apr18.png used on input line 489.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/met_pt_mm_CRTT_prefit_plot_apr18.png, i
-d=427, 598.235pt x 574.145pt>
+d=729, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/met_pt_mm_CRTT_prefit_plot_apr18.p
 ng Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/met_pt_mm_CRTT_prefit_plot_apr18.pn
 g>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/met_pt_mm_CRTT_
-prefit_plot_apr18.png used on input line 515.
+prefit_plot_apr18.png used on input line 490.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/met_pt_mm_CRTT_FullPostfit_plot_apr18.p
-ng, id=428, 598.235pt x 574.145pt>
+ng, id=730, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/met_pt_mm_CRTT_FullPostfit_plot_ap
 r18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/met_pt_mm_CRTT_FullPostfit_plot_apr
 18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/met_pt_mm_CRTT_
-FullPostfit_plot_apr18.png used on input line 516.
+FullPostfit_plot_apr18.png used on input line 491.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/zmass_high_mm_CRTT_prefit_plot_apr18.pn
-g, id=429, 598.235pt x 574.145pt>
+g, id=731, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/zmass_high_mm_CRTT_prefit_plot_apr
 18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/zmass_high_mm_CRTT_prefit_plot_apr1
 8.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/zmass_high_mm_C
-RTT_prefit_plot_apr18.png used on input line 517.
+RTT_prefit_plot_apr18.png used on input line 492.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/zmass_high_mm_CRTT_FullPostfit_plot_apr
-18.png, id=430, 598.235pt x 574.145pt>
+18.png, id=732, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/zmass_high_mm_CRTT_FullPostfit_plo
 t_apr18.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/zmass_high_mm_CRTT_FullPostfit_plot
 _apr18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/zmass_high_mm_C
-RTT_FullPostfit_plot_apr18.png used on input line 518.
+RTT_FullPostfit_plot_apr18.png used on input line 493.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/zpt0_mm_CRTT_prefit_plot_apr18.png, id=
-431, 598.235pt x 574.145pt>
+733, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/zpt0_mm_CRTT_prefit_plot_apr18.png
  Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/zpt0_mm_CRTT_prefit_plot_apr18.png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/zpt0_mm_CRTT_pr
-efit_plot_apr18.png used on input line 519.
+efit_plot_apr18.png used on input line 494.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
 
 <nuthesis/images/figures/mm_300_april18/zpt0_mm_CRTT_FullPostfit_plot_apr18.png
-, id=432, 598.235pt x 574.145pt>
+, id=734, 598.235pt x 574.145pt>
 File: nuthesis/images/figures/mm_300_april18/zpt0_mm_CRTT_FullPostfit_plot_apr1
 8.png Graphic file (type png)
 
 <use nuthesis/images/figures/mm_300_april18/zpt0_mm_CRTT_FullPostfit_plot_apr18
 .png>
 Package pdftex.def Info: nuthesis/images/figures/mm_300_april18/zpt0_mm_CRTT_Fu
-llPostfit_plot_apr18.png used on input line 520.
+llPostfit_plot_apr18.png used on input line 495.
 (pdftex.def)             Requested size: 134.42114pt x 129.01059pt.
- [31 <./nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRTT_prefit_plot_apr
+ [29 <./nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRTT_prefit_plot_apr
 18.png> <./nuthesis/images/figures/mm_300_april18/dR_bjets_mm_CRTT_FullPostfit_
 plot_apr18.png> <./nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRTT_prefi
 t_plot_apr18.png> <./nuthesis/images/figures/mm_300_april18/dR_leps_mm_CRTT_Ful
@@ -2199,7 +2079,7 @@ s1_mm_CRTT_FullPostfit_plot_apr18.png>]
 Overfull \vbox (82.76385pt too high) has occurred while \output is active []
 
 
-[32 <./nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_prefit_plot_apr18.pn
+[30 <./nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_prefit_plot_apr18.pn
 g> <./nuthesis/images/figures/mm_300_april18/hpt0_mm_CRTT_FullPostfit_plot_apr1
 8.png> <./nuthesis/images/figures/mm_300_april18/hpt1_mm_CRTT_prefit_plot_apr18
 .png> <./nuthesis/images/figures/mm_300_april18/hpt1_mm_CRTT_FullPostfit_plot_a
@@ -2209,955 +2089,618 @@ _plot_apr18.png> <./nuthesis/images/figures/mm_300_april18/zmass_high_mm_CRTT_p
 refit_plot_apr18.png> <./nuthesis/images/figures/mm_300_april18/zmass_high_mm_C
 RTT_FullPostfit_plot_apr18.png> <./nuthesis/images/figures/mm_300_april18/zpt0_
 mm_CRTT_prefit_plot_apr18.png> <./nuthesis/images/figures/mm_300_april18/zpt0_m
-m_CRTT_FullPostfit_plot_apr18.png>]
-
-LaTeX Warning: Citation `book:411471' on page 33 undefined on input line 534.
-
-[33] [34]
-
-LaTeX Warning: Citation `Hocker:2007ht' on page 35 undefined on input line 546.
-
-
-[35] <nuthesis/images/BDT_0.pdf, id=457, 569.12625pt x 327.2225pt>
+m_CRTT_FullPostfit_plot_apr18.png>] [31] [32] [33]
+<nuthesis/images/BDT_0.pdf, id=760, 569.12625pt x 327.2225pt>
 File: nuthesis/images/BDT_0.pdf Graphic file (type pdf)
 
 <use nuthesis/images/BDT_0.pdf>
-Package pdftex.def Info: nuthesis/images/BDT_0.pdf used on input line 554.
+Package pdftex.def Info: nuthesis/images/BDT_0.pdf used on input line 527.
 (pdftex.def)             Requested size: 407.60388pt x 234.36674pt.
 
-<nuthesis/images/BDT_1.pdf, id=458, 569.12625pt x 327.2225pt>
+<nuthesis/images/BDT_1.pdf, id=761, 569.12625pt x 327.2225pt>
 File: nuthesis/images/BDT_1.pdf Graphic file (type pdf)
 
 <use nuthesis/images/BDT_1.pdf>
-Package pdftex.def Info: nuthesis/images/BDT_1.pdf used on input line 555.
+Package pdftex.def Info: nuthesis/images/BDT_1.pdf used on input line 528.
 (pdftex.def)             Requested size: 407.60388pt x 234.36674pt.
-
-
-LaTeX Warning: Reference `TMVA_notation' on page 36 undefined on input line 556
-.
-
-
-LaTeX Warning: Reference `TMVA_notation' on page 36 undefined on input line 556
-.
-
-[36] <nuthesis/images/BDT_399.pdf, id=463, 569.12625pt x 327.2225pt>
+ [34]
+<nuthesis/images/BDT_399.pdf, id=768, 569.12625pt x 327.2225pt>
 File: nuthesis/images/BDT_399.pdf Graphic file (type pdf)
 
 <use nuthesis/images/BDT_399.pdf>
-Package pdftex.def Info: nuthesis/images/BDT_399.pdf used on input line 563.
+Package pdftex.def Info: nuthesis/images/BDT_399.pdf used on input line 536.
 (pdftex.def)             Requested size: 407.60388pt x 234.36674pt.
 
-<nuthesis/images/BDT_400.pdf, id=464, 569.12625pt x 327.2225pt>
+<nuthesis/images/BDT_400.pdf, id=769, 569.12625pt x 327.2225pt>
 File: nuthesis/images/BDT_400.pdf Graphic file (type pdf)
 
 <use nuthesis/images/BDT_400.pdf>
-Package pdftex.def Info: nuthesis/images/BDT_400.pdf used on input line 564.
+Package pdftex.def Info: nuthesis/images/BDT_400.pdf used on input line 537.
 (pdftex.def)             Requested size: 407.60388pt x 234.36674pt.
-
-
-LaTeX Warning: Reference `TMVA_notation' on page 37 undefined on input line 568
-.
-
-
-LaTeX Warning: Reference `TMVA_notation' on page 37 undefined on input line 568
-.
-
-[37 <./nuthesis/images/BDT_0.pdf> <./nuthesis/images/BDT_1.pdf>]
-<nuthesis/images/BDT_798.pdf, id=480, 569.12625pt x 327.2225pt>
+ [35 <./nuthesis/images/BDT_0.pdf> <./nuthesis/images/BDT_1.pdf>]
+<nuthesis/images/BDT_798.pdf, id=787, 569.12625pt x 327.2225pt>
 File: nuthesis/images/BDT_798.pdf Graphic file (type pdf)
 
 <use nuthesis/images/BDT_798.pdf>
-Package pdftex.def Info: nuthesis/images/BDT_798.pdf used on input line 575.
+Package pdftex.def Info: nuthesis/images/BDT_798.pdf used on input line 548.
 (pdftex.def)             Requested size: 407.60388pt x 234.36674pt.
 
-<nuthesis/images/BDT_799.pdf, id=481, 569.12625pt x 327.2225pt>
+<nuthesis/images/BDT_799.pdf, id=788, 569.12625pt x 327.2225pt>
 File: nuthesis/images/BDT_799.pdf Graphic file (type pdf)
 
 <use nuthesis/images/BDT_799.pdf>
-Package pdftex.def Info: nuthesis/images/BDT_799.pdf used on input line 576.
+Package pdftex.def Info: nuthesis/images/BDT_799.pdf used on input line 549.
 (pdftex.def)             Requested size: 407.60388pt x 234.36674pt.
-
-
-LaTeX Warning: Reference `TMVA_notation' on page 38 undefined on input line 580
-.
-
-
-LaTeX Warning: Reference `TMVA_notation' on page 38 undefined on input line 580
-.
-
-[38 <./nuthesis/images/BDT_399.pdf> <./nuthesis/images/BDT_400.pdf>]
-
-LaTeX Warning: Citation `HH_combination' on page 39 undefined on input line 585
-.
-
-[39 <./nuthesis/images/BDT_798.pdf> <./nuthesis/images/BDT_799.pdf>]
+ [36 <./nuthesis/images/BDT_399.pdf> <./nuthesis/images/BDT_400.pdf>] [37 <./nu
+thesis/images/BDT_798.pdf> <./nuthesis/images/BDT_799.pdf>]
 
 LaTeX Warning: Reference `tab:importance_ee_low, tab:importance_mm_high, tab:im
-portance_mm_low, importance_mm_high' on page 40 undefined on input line 587.
+portance_mm_low, importance_mm_high' on page 38 undefined on input line 560.
 
-[40]
+[38]
 
-LaTeX Warning: Reference `fig:ele_cors_low' on page 41 undefined on input line 
-666.
-
-
-LaTeX Warning: Reference `fig:ele_cors_high' on page 41 undefined on input line
- 666.
+LaTeX Warning: Reference `fig:muon_cors_low' on page 39 undefined on input line
+ 639.
 
 
-LaTeX Warning: Reference `fig:muon_cors_low' on page 41 undefined on input line
- 666.
+LaTeX Warning: Reference `fig:muon_cors_high' on page 39 undefined on input lin
+e 639.
 
-
-LaTeX Warning: Reference `fig:muon_cors_high' on page 41 undefined on input lin
-e 666.
-
-[41]
-<nuthesis/images/bdtPlots_eles/low_corS.pdf, id=527, 569.12625pt x 546.04pt>
+[39]
+<nuthesis/images/bdtPlots_eles/low_corS.pdf, id=833, 569.12625pt x 546.04pt>
 File: nuthesis/images/bdtPlots_eles/low_corS.pdf Graphic file (type pdf)
 
 <use nuthesis/images/bdtPlots_eles/low_corS.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_corS.pdf used on inp
-ut line 670.
+ut line 643.
 (pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
 
-<nuthesis/images/bdtPlots_eles/low_corB.pdf, id=528, 569.12625pt x 546.04pt>
+<nuthesis/images/bdtPlots_eles/low_corB.pdf, id=834, 569.12625pt x 546.04pt>
 File: nuthesis/images/bdtPlots_eles/low_corB.pdf Graphic file (type pdf)
 
 <use nuthesis/images/bdtPlots_eles/low_corB.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_corB.pdf used on inp
-ut line 671.
+ut line 644.
 (pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
 
 
-LaTeX Warning: Reference `TMVA_notation' on page 42 undefined on input line 672
-.
+LaTeX Warning: Float too large for page by 72.38605pt on input line 648.
 
-
-LaTeX Warning: Reference `TMVA_notation' on page 42 undefined on input line 672
-.
-
-
-LaTeX Warning: Float too large for page by 72.38605pt on input line 675.
-
-<nuthesis/images/bdtPlots_eles/high_corS.pdf, id=529, 569.12625pt x 546.04pt>
+<nuthesis/images/bdtPlots_eles/high_corS.pdf, id=837, 569.12625pt x 546.04pt>
 File: nuthesis/images/bdtPlots_eles/high_corS.pdf Graphic file (type pdf)
 
 <use nuthesis/images/bdtPlots_eles/high_corS.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_corS.pdf used on in
-put line 679.
+put line 652.
 (pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
 
-<nuthesis/images/bdtPlots_eles/high_corB.pdf, id=530, 569.12625pt x 546.04pt>
+<nuthesis/images/bdtPlots_eles/high_corB.pdf, id=838, 569.12625pt x 546.04pt>
 File: nuthesis/images/bdtPlots_eles/high_corB.pdf Graphic file (type pdf)
 
 <use nuthesis/images/bdtPlots_eles/high_corB.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_corB.pdf used on in
-put line 680.
+put line 653.
 (pdftex.def)             Requested size: 325.21501pt x 312.03757pt.
 
 
-LaTeX Warning: Reference `TMVA_notation' on page 42 undefined on input line 681
-.
+LaTeX Warning: Float too large for page by 72.38605pt on input line 657.
 
 
-LaTeX Warning: Reference `TMVA_notation' on page 42 undefined on input line 681
-.
+LaTeX Warning: Reference `fig:ele_lowVars, fig:ele_highVars' on page 40 undefin
+ed on input line 659.
 
 
-LaTeX Warning: Float too large for page by 72.38605pt on input line 684.
-
-
-LaTeX Warning: Reference `fig:ele_lowVars, fig:ele_highVars' on page 42 undefin
-ed on input line 686.
-
-
-<nuthesis/images/bdtPlots_eles/low_vars1.pdf, id=531, 569.12625pt x 295.1025pt>
+<nuthesis/images/bdtPlots_eles/low_vars1.pdf, id=841, 569.12625pt x 295.1025pt>
 File: nuthesis/images/bdtPlots_eles/low_vars1.pdf Graphic file (type pdf)
 <use nuthesis/images/bdtPlots_eles/low_vars1.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_vars1.pdf used on in
-put line 690.
+put line 663.
 (pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
 
-<nuthesis/images/bdtPlots_eles/low_vars2.pdf, id=532, 569.12625pt x 295.1025pt>
+<nuthesis/images/bdtPlots_eles/low_vars2.pdf, id=842, 569.12625pt x 295.1025pt>
 File: nuthesis/images/bdtPlots_eles/low_vars2.pdf Graphic file (type pdf)
 <use nuthesis/images/bdtPlots_eles/low_vars2.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_vars2.pdf used on in
-put line 691.
+put line 664.
 (pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
-
-
-LaTeX Warning: Reference `TMVA_notation' on page 42 undefined on input line 692
-.
-
-
-LaTeX Warning: Reference `TMVA_notation' on page 42 undefined on input line 692
-.
-
-[42] [43 <./nuthesis/images/bdtPlots_eles/low_corS.pdf, page is rotated 90 degr
-ees> <./nuthesis/images/bdtPlots_eles/low_corB.pdf, page is rotated 90 degrees>
-] [44 <./nuthesis/images/bdtPlots_eles/high_corS.pdf, page is rotated 90 degree
-s> <./nuthesis/images/bdtPlots_eles/high_corB.pdf, page is rotated 90 degrees>]
-
-<nuthesis/images/bdtPlots_eles/high_vars1.pdf, id=720, 569.12625pt x 295.1025pt
->
+ [40] [41 <./nuthesis/images/bdtPlots_eles/low_corS.pdf, page is rotated 90 deg
+rees> <./nuthesis/images/bdtPlots_eles/low_corB.pdf, page is rotated 90 degrees
+>] [42 <./nuthesis/images/bdtPlots_eles/high_corS.pdf, page is rotated 90 degre
+es> <./nuthesis/images/bdtPlots_eles/high_corB.pdf, page is rotated 90 degrees>
+]
+<nuthesis/images/bdtPlots_eles/high_vars1.pdf, id=1030, 569.12625pt x 295.1025p
+t>
 File: nuthesis/images/bdtPlots_eles/high_vars1.pdf Graphic file (type pdf)
  <use nuthesis/images/bdtPlots_eles/high_vars1.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_vars1.pdf used on i
-nput line 699.
+nput line 672.
 (pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
 
-<nuthesis/images/bdtPlots_eles/high_vars2.pdf, id=721, 569.12625pt x 295.1025pt
->
+<nuthesis/images/bdtPlots_eles/high_vars2.pdf, id=1031, 569.12625pt x 295.1025p
+t>
 File: nuthesis/images/bdtPlots_eles/high_vars2.pdf Graphic file (type pdf)
  <use nuthesis/images/bdtPlots_eles/high_vars2.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_vars2.pdf used on i
-nput line 700.
+nput line 673.
 (pdftex.def)             Requested size: 411.9377pt x 213.60835pt.
-
-
-LaTeX Warning: Reference `TMVA_notation' on page 45 undefined on input line 701
-.
-
-
-LaTeX Warning: Reference `TMVA_notation' on page 45 undefined on input line 701
-.
-
-[45 <./nuthesis/images/bdtPlots_eles/low_vars1.pdf, page is rotated 90 degrees>
- <./nuthesis/images/bdtPlots_eles/low_vars2.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:ele_BDTs' on page 46 undefined on input line 706.
-
-
-[46 <./nuthesis/images/bdtPlots_eles/high_vars1.pdf, page is rotated 90 degrees
+ [43 <./nuthesis/images/bdtPlots_eles/low_vars1.pdf, page is rotated 90 degrees
+> <./nuthesis/images/bdtPlots_eles/low_vars2.pdf, page is rotated 90 degrees>] 
+[44 <./nuthesis/images/bdtPlots_eles/high_vars1.pdf, page is rotated 90 degrees
 > <./nuthesis/images/bdtPlots_eles/high_vars2.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `fig:ele_lowVars' on page 47 undefined on input line 7
-09.
-
-
-LaTeX Warning: Reference `fig:ele_highVars' on page 47 undefined on input line 
-709.
-
-
-LaTeX Warning: Reference `fig:ele_BDTs' on page 47 undefined on input line 709.
-
-
-
-LaTeX Warning: Reference `fig:ele_ROCs' on page 47 undefined on input line 709.
-
-
-
-LaTeX Warning: Reference `fig:ele_highVars' on page 47 undefined on input line 
-711.
-
-
-LaTeX Warning: Reference `fig:ele_BDTs' on page 47 undefined on input line 712.
-
-
-
-LaTeX Warning: Reference `fig:ele_ROCs' on page 47 undefined on input line 712.
-
-
-
-<nuthesis/images/bdtPlots_eles/low_bdt.pdf, id=904, 569.12625pt x 420.57124pt>
+<nuthesis/images/bdtPlots_eles/low_bdt.pdf, id=1224, 569.12625pt x 420.57124pt>
 File: nuthesis/images/bdtPlots_eles/low_bdt.pdf Graphic file (type pdf)
-
 <use nuthesis/images/bdtPlots_eles/low_bdt.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_bdt.pdf used on inpu
-t line 716.
+t line 689.
 (pdftex.def)             Requested size: 325.21501pt x 240.33775pt.
 
-<nuthesis/images/bdtPlots_eles/high_bdt.pdf, id=905, 569.12625pt x 420.57124pt>
+<nuthesis/images/bdtPlots_eles/high_bdt.pdf, id=1225, 569.12625pt x 420.57124pt
+>
 File: nuthesis/images/bdtPlots_eles/high_bdt.pdf Graphic file (type pdf)
-<use nuthesis/images/bdtPlots_eles/high_bdt.pdf>
+ <use nuthesis/images/bdtPlots_eles/high_bdt.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_bdt.pdf used on inp
-ut line 717.
+ut line 690.
 (pdftex.def)             Requested size: 325.21501pt x 240.33775pt.
- [47]
-
-LaTeX Warning: Reference `fig:ele_ROCs' on page 48 undefined on input line 723.
-
-
-[48 <./nuthesis/images/bdtPlots_eles/low_bdt.pdf, page is rotated 90 degrees> <
-./nuthesis/images/bdtPlots_eles/high_bdt.pdf, page is rotated 90 degrees>]
-<nuthesis/images/bdtPlots_eles/low_roc.pdf, id=1003, 569.12625pt x 416.55624pt>
+ [45] [46 <./nuthesis/images/bdtPlots_eles/low_bdt.pdf, page is rotated 90 degr
+ees> <./nuthesis/images/bdtPlots_eles/high_bdt.pdf, page is rotated 90 degrees>
+]
+<nuthesis/images/bdtPlots_eles/low_roc.pdf, id=1321, 569.12625pt x 416.55624pt>
 File: nuthesis/images/bdtPlots_eles/low_roc.pdf Graphic file (type pdf)
 <use nuthesis/images/bdtPlots_eles/low_roc.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/low_roc.pdf used on inpu
-t line 729.
+t line 702.
 (pdftex.def)             Requested size: 325.21501pt x 238.04335pt.
 
-<nuthesis/images/bdtPlots_eles/high_roc.pdf, id=1004, 569.12625pt x 416.55624pt
+<nuthesis/images/bdtPlots_eles/high_roc.pdf, id=1322, 569.12625pt x 416.55624pt
 >
 File: nuthesis/images/bdtPlots_eles/high_roc.pdf Graphic file (type pdf)
  <use nuthesis/images/bdtPlots_eles/high_roc.pdf>
 Package pdftex.def Info: nuthesis/images/bdtPlots_eles/high_roc.pdf used on inp
-ut line 730.
+ut line 703.
 (pdftex.def)             Requested size: 325.21501pt x 238.04335pt.
- [49] [50 <./nuthesis/images/bdtPlots_eles/low_roc.pdf, page is rotated 90 degr
+ [47] [48 <./nuthesis/images/bdtPlots_eles/low_roc.pdf, page is rotated 90 degr
 ees> <./nuthesis/images/bdtPlots_eles/high_roc.pdf, page is rotated 90 degrees>
 ]
-<nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=110
-0, 569.12625pt x 546.04pt>
+<nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=141
+8, 569.12625pt x 546.04pt>
 File: nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf Gr
 aphic file (type pdf)
 
 <use nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_no
-v16_2_radion.pdf used on input line 742.
+v16_2_radion.pdf used on input line 715.
 (pdftex.def)             Requested size: 260.17465pt x 249.63171pt.
 
-<nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=110
-1, 569.12625pt x 546.04pt>
+<nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=141
+9, 569.12625pt x 546.04pt>
 File: nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf Gr
 aphic file (type pdf)
 
 <use nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/bdt_response_mm_SR_FullPostfit_plot_no
-v16_2_radion.pdf used on input line 743.
+v16_2_radion.pdf used on input line 716.
 (pdftex.def)             Requested size: 260.17465pt x 249.63171pt.
 
-
-LaTeX Warning: Reference `BDT_selection_in_SR' on page 51 undefined on input li
-ne 744.
-
-
-LaTeX Warning: Reference `BDT_selection_in_SR' on page 51 undefined on input li
-ne 744.
-
-[51]
-
-LaTeX Warning: Reference `suboptCut' on page 52 undefined on input line 752.
-
-[52 <./nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, 
-page is rotated 90 degrees> <./nuthesis/images/bdt_response_mm_SR_FullPostfit_p
-lot_nov16_2_radion.pdf, page is rotated 90 degrees>]
-Overfull \hbox (35.5966pt too wide) in paragraph at lines 757--763
+[49] [50 <./nuthesis/images/bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.
+pdf, page is rotated 90 degrees> <./nuthesis/images/bdt_response_mm_SR_FullPost
+fit_plot_nov16_2_radion.pdf, page is rotated 90 degrees>]
+Overfull \hbox (35.5966pt too wide) in paragraph at lines 730--736
  [] 
  []
 
+[51] [52]
 
-LaTeX Warning: Reference `EfficiencyBDT' on page 53 undefined on input line 766
+LaTeX Warning: Citation `CMS-PAS-LUM-17-001' on page 53 undefined on input line
+ 791.
+
+
+LaTeX Warning: Citation `Ball:2014uwa' on page 53 undefined on input line 797.
+
+
+LaTeX Warning: Citation `Botje:2011sn' on page 53 undefined on input line 797.
+
+
+LaTeX Warning: Citation `Alekhin:2011sk' on page 53 undefined on input line 797
 .
 
-[53] [54]
+[53]
 
-LaTeX Warning: Citation `CMS-PAS-LUM-17-001' on page 55 undefined on input line
- 818.
+LaTeX Warning: Reference `Butterworth:2015oua' on page 54 undefined on input li
+ne 800.
 
-[55]
-
-LaTeX Warning: Citation `Ball:2014uwa' on page 56 undefined on input line 824.
-
-
-LaTeX Warning: Citation `Botje:2011sn' on page 56 undefined on input line 824.
-
-
-LaTeX Warning: Citation `Alekhin:2011sk' on page 56 undefined on input line 824
-.
-
-
-LaTeX Warning: Reference `Butterworth:2015oua' on page 56 undefined on input li
-ne 827.
-
-[56]
-
-LaTeX Warning: Reference `sec:statistics' on page 57 undefined on input line 84
-2.
-
-[57] [58]
-
-LaTeX Warning: Reference `sec:jets' on page 59 undefined on input line 859.
-
-[59]
-
-LaTeX Warning: Reference `sec:strategy' on page 60 undefined on input line 869.
-
-
-[60]
-
-LaTeX Warning: Reference `sec:shapes' on page 61 undefined on input line 892.
-
-[61]
-
-LaTeX Warning: Reference `fig:MCcomparisons' on page 62 undefined on input line
- 896.
-
-
-LaTeX Warning: Reference `fig:MCcomparisons_radion' on page 62 undefined on inp
-ut line 896.
-
-
-<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=1247, 5
+[54] [55] [56] [57] [58]
+<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=1567, 5
 69.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 900.
+graviton.pdf used on input line 873.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=1248, 5
+<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=1568, 5
 69.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 901.
+graviton.pdf used on input line 874.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=1249, 569
+<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=1569, 569
 .12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_gr
-aviton.pdf used on input line 902.
+aviton.pdf used on input line 875.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=1250, 5
+<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, id=1570, 5
 69.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 903.
+graviton.pdf used on input line 876.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=1251, 5
+<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, id=1571, 5
 69.12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf Graphi
 c file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_
-graviton.pdf used on input line 904.
+graviton.pdf used on input line 877.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=1252, 569
+<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf, id=1572, 569
 .12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_gr
-aviton.pdf used on input line 905.
+aviton.pdf used on input line 878.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
- [62]
-<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=1257, 569
+ [59]
+<nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=1579, 569
 .12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 913.
+radion.pdf used on input line 886.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=1258, 569
+<nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=1580, 569
 .12625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 914.
+radion.pdf used on input line 887.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=1259, 569.1
+<nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, id=1581, 569.1
 2625pt x 546.04pt>
 File: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf Graphic fi
 le (type pdf)
 
 <use nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_ra
-dion.pdf used on input line 915.
+dion.pdf used on input line 888.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=1260, 569
+<nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf, id=1582, 569
 .12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 916.
+radion.pdf used on input line 889.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=1261, 569
+<nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf, id=1583, 569
 .12625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf Graphic 
 file (type pdf)
 
 <use nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_
-radion.pdf used on input line 917.
+radion.pdf used on input line 890.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
 
-<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=1262, 569.1
+<nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, id=1584, 569.1
 2625pt x 546.04pt>
 File: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf Graphic fi
 le (type pdf)
 
 <use nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf>
 Package pdftex.def Info: nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_ra
-dion.pdf used on input line 918.
+dion.pdf used on input line 891.
 (pdftex.def)             Requested size: 134.42114pt x 128.9693pt.
- [63 <./nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, pag
+ [60 <./nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, pag
 e is rotated 90 degrees> <./nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16
 _2_graviton.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt_mm_SR_Full
 Postfit_plot_nov16_2_graviton.pdf, page is rotated 90 degrees> <./nuthesis/imag
 es/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_graviton.pdf, page is rotated 90 degre
 es> <./nuthesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_graviton.pdf, page
  is rotated 90 degrees> <./nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_
-graviton.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Citation `Junk:1999kv' on page 64 undefined on input line 953.
-
-
-LaTeX Warning: Citation `LEP-CLs' on page 64 undefined on input line 953.
-
-
-LaTeX Warning: Citation `HIG-11-011' on page 64 undefined on input line 953.
-
-
-LaTeX Warning: Citation `Cowan:2010js' on page 64 undefined on input line 953.
-
-
-LaTeX Warning: Reference `tab:finalLimits' on page 64 undefined on input line 9
-56.
-
-
-LaTeX Warning: Reference `fig:HHlimits' on page 64 undefined on input line 956.
-
-
-
-LaTeX Warning: Citation `Oliveira:2014kla' on page 64 undefined on input line 9
-61.
-
-[64 <./nuthesis/images/hhMt_mm_CRDY_FullPostfit_plot_nov16_2_radion.pdf, page i
-s rotated 90 degrees> <./nuthesis/images/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_
-radion.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt_mm_SR_FullPostf
+graviton.pdf, page is rotated 90 degrees>] [61 <./nuthesis/images/hhMt_mm_CRDY_
+FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degrees> <./nuthesis/im
+ages/hhMt_mm_CRTT_FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degre
+es> <./nuthesis/images/hhMt_mm_SR_FullPostfit_plot_nov16_2_radion.pdf, page is 
+rotated 90 degrees> <./nuthesis/images/hhMt_ee_CRDY_FullPostfit_plot_nov16_2_ra
+dion.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt_ee_CRTT_FullPostf
 it_plot_nov16_2_radion.pdf, page is rotated 90 degrees> <./nuthesis/images/hhMt
-_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degrees> <./nu
-thesis/images/hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf, page is rotated
- 90 degrees> <./nuthesis/images/hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf,
- page is rotated 90 degrees>]
+_ee_SR_FullPostfit_plot_nov16_2_radion.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Citation `HiggsCombine' on page 65 undefined on input line 967.
+LaTeX Warning: Reference `sec:variables' on page 62 undefined on input line 904
+.
 
 
-LaTeX Warning: Citation `Cowan:2010js' on page 65 undefined on input line 972.
+LaTeX Warning: Reference `fig:MCcomparisons, fig:MCcomparisons_radion' on page 
+62 undefined on input line 904.
 
 
-Overfull \hbox (13.77538pt too wide) in paragraph at lines 969--976
-[]$\T1/lmr/m/n/12 . 
- []
+LaTeX Warning: Reference `Discussion' on page 62 undefined on input line 907.
 
-
-LaTeX Warning: Reference `tab:finalLimits' on page 65 undefined on input line 9
-81.
-
-
-LaTeX Warning: Reference `fig:HHlimits' on page 65 undefined on input line 981.
-
-
-
-LaTeX Warning: Reference `fig:MCcomparisons' on page 65 undefined on input line
- 984.
-
-
-LaTeX Warning: Reference `fig:MCcomparisons_radion' on page 65 undefined on inp
-ut line 984.
-
-[65]
-<nuthesis/images/limitHH_Nov16_graviton.pdf, id=1798, 569.12625pt x 552.0625pt>
+[62] [63]
+<nuthesis/images/limitHH_Nov16_graviton.pdf, id=2132, 569.12625pt x 552.0625pt>
 File: nuthesis/images/limitHH_Nov16_graviton.pdf Graphic file (type pdf)
 <use nuthesis/images/limitHH_Nov16_graviton.pdf>
 Package pdftex.def Info: nuthesis/images/limitHH_Nov16_graviton.pdf used on inp
-ut line 1003.
+ut line 964.
 (pdftex.def)             Requested size: 281.85036pt x 273.41077pt.
 
-<nuthesis/images/limitHH_Nov16_radion.pdf, id=1799, 569.12625pt x 552.0625pt>
+<nuthesis/images/limitHH_Nov16_radion.pdf, id=2133, 569.12625pt x 552.0625pt>
 File: nuthesis/images/limitHH_Nov16_radion.pdf Graphic file (type pdf)
 
 <use nuthesis/images/limitHH_Nov16_radion.pdf>
 Package pdftex.def Info: nuthesis/images/limitHH_Nov16_radion.pdf used on input
- line 1004.
+ line 965.
 (pdftex.def)             Requested size: 281.85036pt x 273.41077pt.
+ [64]
+Overfull \vbox (22.33246pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: Citation `Oliveira:2014kla' on page 66 undefined on input line 1
-008.
+[65 <./nuthesis/images/limitHH_Nov16_graviton.pdf, page is rotated 90 degrees> 
+<./nuthesis/images/limitHH_Nov16_radion.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `BR' on page 66 undefined on input line 978.
 
 
-LaTeX Warning: Citation `Oliveira:2014kla' on page 66 undefined on input line 1
-008.
+LaTeX Warning: Citation `HH_combo' on page 66 undefined on input line 984.
 
-
-LaTeX Warning: Float too large for page by 22.33246pt on input line 1013.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 1085.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1085.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1085.
-
-[66] [67]
-
-LaTeX Warning: Citation `CMS-PAS-FTR-18-019' on page 68 undefined on input line
- 1132.
-
-[68]
-
-LaTeX Warning: Citation `CMS-PAS-HIG-17-030' on page 69 undefined on input line
- 1137.
-
-
-LaTeX Warning: Reference `HH_combo' on page 69 undefined on input line 1137.
-
-<nuthesis/images/HH_combo_spin0.png, id=1814, 1194.4625pt x 820.06375pt>
+<nuthesis/images/HH_combo_spin0.png, id=2233, 1194.4625pt x 820.06375pt>
 File: nuthesis/images/HH_combo_spin0.png Graphic file (type png)
 
 <use nuthesis/images/HH_combo_spin0.png>
 Package pdftex.def Info: nuthesis/images/HH_combo_spin0.png used on input line 
-1144.
+988.
 (pdftex.def)             Requested size: 281.85036pt x 193.50333pt.
 
-<nuthesis/images/HH_combo_spin2.png, id=1815, 1207.51125pt x 825.0825pt>
+<nuthesis/images/HH_combo_spin2.png, id=2234, 1207.51125pt x 825.0825pt>
 File: nuthesis/images/HH_combo_spin2.png Graphic file (type png)
 
 <use nuthesis/images/HH_combo_spin2.png>
 Package pdftex.def Info: nuthesis/images/HH_combo_spin2.png used on input line 
-1145.
+989.
 (pdftex.def)             Requested size: 281.85036pt x 192.58508pt.
- [69]
-<nuthesis/images/muon_ID_BCDEFv2.png, id=1820, 555.07375pt x 566.115pt>
-File: nuthesis/images/muon_ID_BCDEFv2.png Graphic file (type png)
-
-<use nuthesis/images/muon_ID_BCDEFv2.png>
-Package pdftex.def Info: nuthesis/images/muon_ID_BCDEFv2.png used on input line
- 1163.
-(pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
-
-<nuthesis/images/muon_ID_GHv2.png, id=1821, 555.07375pt x 566.115pt>
-File: nuthesis/images/muon_ID_GHv2.png Graphic file (type png)
-
-<use nuthesis/images/muon_ID_GHv2.png>
-Package pdftex.def Info: nuthesis/images/muon_ID_GHv2.png used on input line 11
-65.
-(pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
-
-<nuthesis/images/muon_ISO_BCDEFv2.png, id=1822, 555.07375pt x 566.115pt>
-File: nuthesis/images/muon_ISO_BCDEFv2.png Graphic file (type png)
-
-<use nuthesis/images/muon_ISO_BCDEFv2.png>
-Package pdftex.def Info: nuthesis/images/muon_ISO_BCDEFv2.png used on input lin
-e 1173.
-(pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
-
-<nuthesis/images/muon_ISO_GHv2.png, id=1823, 555.07375pt x 566.115pt>
-File: nuthesis/images/muon_ISO_GHv2.png Graphic file (type png)
-
-<use nuthesis/images/muon_ISO_GHv2.png>
-Package pdftex.def Info: nuthesis/images/muon_ISO_GHv2.png used on input line 1
-175.
-(pdftex.def)             Requested size: 216.81001pt x 221.12085pt.
-
-<nuthesis/images/EIDISO_ZH_out.png, id=1824, 1071.00125pt x 1144.275pt>
-File: nuthesis/images/EIDISO_ZH_out.png Graphic file (type png)
-
-<use nuthesis/images/EIDISO_ZH_out.png>
-Package pdftex.def Info: nuthesis/images/EIDISO_ZH_out.png used on input line 1
-182.
-(pdftex.def)             Requested size: 390.25537pt x 416.94977pt.
- [70 <./nuthesis/images/HH_combo_spin0.png> <./nuthesis/images/HH_combo_spin2.p
-ng>]
-
-LaTeX Warning: Reference `fig:MCcomparisons' on page 71 undefined on input line
- 1201.
-
-
-LaTeX Warning: Reference `fig:MCcomparisons_radion' on page 71 undefined on inp
-ut line 1201.
-
-
-LaTeX Warning: Reference `fig:MCcomparisons' on page 71 undefined on input line
- 1201.
-
-
-LaTeX Warning: Reference `fig:MCcomparisons_radion' on page 71 undefined on inp
-ut line 1201.
-
-
-LaTeX Warning: Citation `bbZZAN' on page 71 undefined on input line 1207.
-
-
-LaTeX Warning: Reference `fig:MCcomparisons' on page 71 undefined on input line
- 1208.
-
-
-LaTeX Warning: Reference `fig:MCcomparisons_radion' on page 71 undefined on inp
-ut line 1208.
-
-
-LaTeX Warning: Reference `fig:trigger_eff_diele' on page 71 undefined on input 
-line 1222.
-
-
-LaTeX Warning: Citation `egSF' on page 71 undefined on input line 1222.
-
-
-LaTeX Warning: Citation `muonIDnISO' on page 71 undefined on input line 1224.
-
-
-LaTeX Warning: Reference `fig:trigger_eff_diele' on page 71 undefined on input 
-line 1224.
-
-
-LaTeX Warning: Citation `muonTRK' on page 71 undefined on input line 1224.
-
-
-LaTeX Warning: Reference `fig:trigger_SF_dimu_H' on page 71 undefined on input 
-line 1224.
-
-
-LaTeX Warning: Reference `fig:trigger_SF_dimu_BCDEFG' on page 71 undefined on i
-nput line 1224.
-
-
-LaTeX Warning: Citation `muonTrigger' on page 71 undefined on input line 1224.
-
-
-LaTeX Warning: Reference `fig:trigger_SF_dimu_dZ_H' on page 71 undefined on inp
-ut line 1224.
-
-[71]) (./nuthesis/sections/Conclusions.tex [72] [73 <./nuthesis/images/limitHH_
-Nov16_graviton.pdf, page is rotated 90 degrees> <./nuthesis/images/limitHH_Nov1
-6_radion.pdf, page is rotated 90 degrees>] [74 <./nuthesis/images/muon_ID_BCDEF
-v2.png> <./nuthesis/images/muon_ID_GHv2.png>] [75 <./nuthesis/images/muon_ISO_B
-CDEFv2.png> <./nuthesis/images/muon_ISO_GHv2.png>] [76 <./nuthesis/images/EIDIS
-O_ZH_out.png>]
-
-LaTeX Warning: Citation `CMS-PAS-HIG-17-032' on page 77 undefined on input line
- 16.
-
-[77
-
-] [78]) (./skeleton.bbl
+ [66] [67 <./nuthesis/images/HH_combo_spin0.png> <./nuthesis/images/HH_combo_sp
+in2.png>]) (./skeleton.bbl [68]
 bibitemlist
-[79
-
-
+[69
 
 ]
-Underfull \hbox (badness 1490) in paragraph at lines 55--60
-[]\T1/lmr/m/n/12 G. Danby, J-M. Gail-lard, K. Gou-lianos, L. M. Le-d-er-man, N.
- Mis-try,
- []
-
-[80] [81] [82] [83] [84] [85] [86] [87]
-Overfull \hbox (113.26103pt too wide) in paragraph at lines 525--528
-\T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
-es_expectedSignal0_350.html. 
- []
-
-[88]
-Underfull \hbox (badness 5446) in paragraph at lines 530--533
-[]\T1/lmr/m/n/12 Comparison of nui-sances for s+b case, 350 GeV mass hy-poth-e-
-sis.
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+[]\T1/lmr/m/n/12 SM Higgs Branch-ing Ra-tios and To-tal De-
  []
 
 
-Overfull \hbox (113.26103pt too wide) in paragraph at lines 530--533
-\T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
-es_expectedSignal1_350.html. 
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+\T1/lmr/m/n/12 cay Widths (up-date in CERN Re-port4 2016).
  []
 
 
-Overfull \hbox (104.27762pt too wide) in paragraph at lines 535--538
-[]\T1/lmr/m/n/12 k-factor for DY/Z.  https://twiki.cern.ch/twiki/bin/viewauth/C
-MS/SummaryTable1G25ns#DY_Z. 
+Overfull \hbox (142.47328pt too wide) in paragraph at lines 57--61
+\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReport
+PageBR#Higgs_2_gauge_bosons. 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 540--542
+[70]
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 []\T1/lmr/m/n/12 The LHC Higgs cross-section work-ing group.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--547
-[]\T1/lmr/m/n/12 Standard Model Cross Sec-tions for CMS at 13 TeV.
- []
-
-
-Overfull \hbox (85.97568pt too wide) in paragraph at lines 544--547
-\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossS
-ectionsat13TeVInclusive. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--552
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
 []\T1/lmr/m/n/12 SM Higgs pro-duc-tion cross sec-tions at sqrt(s) = 13 TeV.
  []
 
 
-Overfull \hbox (187.9129pt too wide) in paragraph at lines 549--552
+Overfull \hbox (187.9129pt too wide) in paragraph at lines 95--98
 \T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReport
 PageAt13TeV#ZHllH_H_l_e_or_Process. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 554--557
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
 []\T1/lmr/m/n/12 NNLO+NNLL top-quark-pair cross sec-tions.
  []
 
 
-Overfull \hbox (126.06226pt too wide) in paragraph at lines 554--557
+Overfull \hbox (126.06226pt too wide) in paragraph at lines 100--103
 \T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO#Top_qu
 ark_pair_cross_sections_at. 
  []
 
 
-Overfull \hbox (64.26439pt too wide) in paragraph at lines 559--561
+Overfull \hbox (64.26439pt too wide) in paragraph at lines 105--107
 []\T1/lmr/m/n/12 Single Top Cross sec-tions.  https://twiki.cern.ch/twiki/bin/v
 iewauth/CMS/SingleTopSigma. 
  []
 
 
-Overfull \hbox (298.41599pt too wide) in paragraph at lines 563--566
+Overfull \hbox (298.41599pt too wide) in paragraph at lines 109--112
 []\T1/lmr/m/n/12 CMS GEN XSEC Task Force.  https://twiki.cern.ch/twiki/bin/view
 auth/CMS/GenXsecTaskForce#Space_for_Various_Processes_Welc. 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 568--572
-[]\T1/lmr/m/n/12 SM Higgs Branch-ing Ra-tios and To-tal De-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 568--572
-\T1/lmr/m/n/12 cay Widths (up-date in CERN Re-port4 2016).
- []
-
-
-Overfull \hbox (142.47328pt too wide) in paragraph at lines 568--572
-\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReport
-PageBR#Higgs_2_gauge_bosons. 
- []
-
-[89]
-Underfull \hbox (badness 10000) in paragraph at lines 632--636
-\T1/lmtt/m/n/12 contributions / 2465881 / attachments / 1407735 / 2151747 / TnP
- _ 06 _ 02 _ 2017 .
- []
-
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 638--642
-\T1/lmtt/m/n/12 ch / twiki / bin / view / CMS / MuonWorkInProgressAndPagResults
- # Results _ on _
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 644--648
-[]\T1/lmr/m/n/12 Gael L. Per-rin.  Dou-ble Muon trig-ger ef-fi-ciency per-leg a
-p-proach.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 644--648
-[]$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 636555 / contributi
-ons / 2577291 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 677--681
-\T1/lmtt/m/n/12 twiki . cern . ch / twiki / bin / viewauth / CMS / BtagRecommen
-dation80XReReco #
- []
-
-[91] [92] [93] [94]
-Underfull \hbox (badness 4132) in paragraph at lines 848--852
-[]\T1/lmr/m/n/12 CMS Muon POG.  Ref-er-ence muon id, iso-la-tion and trig-ger e
-f-fi-
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 848--852
-\T1/lmr/m/n/12 cien-cies for Run-II.  []$\T1/lmtt/m/n/12 https : / / twiki . ce
-rn . ch / twiki / bin / viewauth / CMS /
- []
-
-[95]
-Underfull \hbox (badness 10000) in paragraph at lines 901--905
-[]$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 604949 / contributi
-ons / 2543520 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 901--905
-\T1/lmtt/m/n/12 attachments / 1439974 / 2216426 / VHbb _ TnP _ SFs _ egamma _ a
-pril . pdf #
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 901--905
-\T1/lmtt/m/n/12 search = vhbb % 20AND % 20cerntaxonomy % 3A % 22Indico % 2FExpe
-riments % 2FCMS %
- []
-
-
-Underfull \hbox (badness 6995) in paragraph at lines 924--928
-[]\T1/lmr/m/n/12 CMS EGM POG.  Mul-ti-vari-ate Elec-tron Iden-ti-fi-ca-tion for
- Run2.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 924--928
-[]$\T1/lmtt/m/n/12 https : / / twiki . cern . ch / twiki / bin / viewauth / CMS
- / Multivari \
- []
-
-
-Underfull \hbox (badness 3354) in paragraph at lines 936--941
+[71]
+Underfull \hbox (badness 3354) in paragraph at lines 178--183
 []\T1/lmr/m/n/12 CMS Higgs WG.  Doc-u-men-ta-tion of the RooSt-ats -based stati
 s-tics
  []
 
 
-Underfull \hbox (badness 3525) in paragraph at lines 936--941
+Underfull \hbox (badness 3525) in paragraph at lines 178--183
 \T1/lmr/m/n/12 tools for Higgs PAG.  []$\T1/lmtt/m/n/12 https : / / twiki . cer
 n . ch / twiki / bin / view / CMS /
  []
 
-[96]
-Underfull \hbox (badness 6641) in paragraph at lines 943--947
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 233--237
+[]$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 604949 / contributi
+ons / 2543520 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--237
+\T1/lmtt/m/n/12 attachments / 1439974 / 2216426 / VHbb _ TnP _ SFs _ egamma _ a
+pril . pdf #
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--237
+\T1/lmtt/m/n/12 search = vhbb % 20AND % 20cerntaxonomy % 3A % 22Indico % 2FExpe
+riments % 2FCMS %
+ []
+
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 239--243
+\T1/lmtt/m/n/12 contributions / 2465881 / attachments / 1407735 / 2151747 / TnP
+ _ 06 _ 02 _ 2017 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--249
+\T1/lmtt/m/n/12 ch / twiki / bin / view / CMS / MuonWorkInProgressAndPagResults
+ # Results _ on _
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 251--255
+[]\T1/lmr/m/n/12 Gael L. Per-rin.  Dou-ble Muon trig-ger ef-fi-ciency per-leg a
+p-proach.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--255
+[]$\T1/lmtt/m/n/12 https : / / indico . cern . ch / event / 636555 / contributi
+ons / 2577291 /
+ []
+
+
+Overfull \hbox (113.26103pt too wide) in paragraph at lines 272--275
+\T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
+es_expectedSignal0_350.html. 
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 277--280
+[]\T1/lmr/m/n/12 Comparison of nui-sances for s+b case, 350 GeV mass hy-poth-e-
+sis.
+ []
+
+
+Overfull \hbox (113.26103pt too wide) in paragraph at lines 277--280
+\T1/lmr/m/n/12 http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison_of_nuisanc
+es_expectedSignal1_350.html. 
+ []
+
+
+Overfull \hbox (104.27762pt too wide) in paragraph at lines 282--285
+[]\T1/lmr/m/n/12 k-factor for DY/Z.  https://twiki.cern.ch/twiki/bin/viewauth/C
+MS/SummaryTable1G25ns#DY_Z. 
+ []
+
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 287--290
+[]\T1/lmr/m/n/12 Standard Model Cross Sec-tions for CMS at 13 TeV.
+ []
+
+
+Overfull \hbox (85.97568pt too wide) in paragraph at lines 287--290
+\T1/lmr/m/n/12 https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossS
+ectionsat13TeVInclusive. 
+ []
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 362--366
+\T1/lmtt/m/n/12 twiki . cern . ch / twiki / bin / viewauth / CMS / BtagRecommen
+dation80XReReco #
+ []
+
+[76] [77] [78]
+Underfull \hbox (badness 4132) in paragraph at lines 534--538
+[]\T1/lmr/m/n/12 CMS Muon POG.  Ref-er-ence muon id, iso-la-tion and trig-ger e
+f-fi-
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 534--538
+\T1/lmr/m/n/12 cien-cies for Run-II.  []$\T1/lmtt/m/n/12 https : / / twiki . ce
+rn . ch / twiki / bin / viewauth / CMS /
+ []
+
+[79]
+Underfull \hbox (badness 6995) in paragraph at lines 562--566
+[]\T1/lmr/m/n/12 CMS EGM POG.  Mul-ti-vari-ate Elec-tron Iden-ti-fi-ca-tion for
+ Run2.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--566
+[]$\T1/lmtt/m/n/12 https : / / twiki . cern . ch / twiki / bin / viewauth / CMS
+ / Multivari \
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 568--572
 []\T1/lmr/m/n/12 CMS Higgs WG.  Binned shape anal-y-sis with the Higgs Com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 943--947
+Underfull \hbox (badness 10000) in paragraph at lines 568--572
 \T1/lmr/m/n/12 bi-na-tion Tool.  []$\T1/lmtt/m/n/12 https : / / twiki . cern . 
 ch / twiki / bin / view / CMS /
  []
 
-[97] [98])
+[80]
+Underfull \hbox (badness 1490) in paragraph at lines 634--639
+[]\T1/lmr/m/n/12 G. Danby, J-M. Gail-lard, K. Gou-lianos, L. M. Le-d-er-man, N.
+ Mis-try,
+ []
+
+[81] [82] [83] [84] [85] [86] [87] [88])
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
 (in both cases you will find help in the memoir manual). on input line 335.
 
-[99]
+[89]
 \tf@toc=\write5
 \openout5 = `skeleton.toc'.
 
@@ -3172,31 +2715,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
  (./skeleton.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
+Package rerunfilecheck Info: File `skeleton.out' has not changed.
+(rerunfilecheck)             Checksum: 0D66C2BB0DDEA6AAA757222FFBD30048;2540.
 
-
-Package rerunfilecheck Warning: File `skeleton.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `skeleton.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  325C94960E5CE825885298AA32FC7A9E;2842.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
  ) 
 Here is how much of TeX's memory you used:
- 16117 strings out of 493014
- 258483 string characters out of 6133350
- 371993 words of memory out of 5000000
- 18854 multiletter control sequences out of 15000+600000
- 137396 words of font info for 125 fonts, out of 8000000 for 9000
+ 16126 strings out of 493014
+ 258145 string characters out of 6133350
+ 390471 words of memory out of 5000000
+ 18867 multiletter control sequences out of 15000+600000
+ 132342 words of font info for 116 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 52i,13n,46p,1596b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,13n,46p,1630b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/
@@ -3218,10 +2752,10 @@ e1/public/lm/lmri8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
 m/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on skeleton.pdf (107 pages, 2875128 bytes).
+Output written on skeleton.pdf (100 pages, 2560623 bytes).
 PDF statistics:
- 2433 PDF objects out of 2487 (max. 8388607)
- 1429 compressed objects within 15 object streams
- 371 named destinations out of 1000 (max. 500000)
- 546 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2695 PDF objects out of 2984 (max. 8388607)
+ 1696 compressed objects within 17 object streams
+ 364 named destinations out of 1000 (max. 500000)
+ 801 words of extra memory for PDF output out of 10000 (max. 10000000)
 
