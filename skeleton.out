@@ -20,16 +20,17 @@
 \BOOKMARK [2][-]{subsection.1.6.2}{Signal candidate construction and selection}{section.1.6}% 20
 \BOOKMARK [2][-]{subsection.1.6.3}{Signal and control kinematic regions}{section.1.6}% 21
 \BOOKMARK [2][-]{subsection.1.6.4}{Signal region candidate selection with a multivariate technique}{section.1.6}% 22
-\BOOKMARK [1][-]{section.1.7}{Multivariate selection in the signal region}{chapter.1}% 23
-\BOOKMARK [2][-]{subsection.1.7.1}{Kinematic variables of a candidate}{section.1.7}% 24
-\BOOKMARK [2][-]{subsection.1.7.2}{Multivariate discriminant: a BDT classifier}{section.1.7}% 25
-\BOOKMARK [2][-]{subsection.1.7.3}{BDT selection requirement in the signal region}{section.1.7}% 26
-\BOOKMARK [1][-]{section.1.8}{Uncertainties of the measurement}{chapter.1}% 27
-\BOOKMARK [2][-]{subsection.1.8.1}{Normalisation uncertainties}{section.1.8}% 28
-\BOOKMARK [2][-]{subsection.1.8.2}{Shape uncertainties}{section.1.8}% 29
-\BOOKMARK [1][-]{section.1.9}{Statistical Analysis}{chapter.1}% 30
-\BOOKMARK [2][-]{subsection.1.9.1}{The likelihood function}{section.1.9}% 31
-\BOOKMARK [2][-]{subsection.1.9.2}{The fit results}{section.1.9}% 32
-\BOOKMARK [1][-]{section.1.10}{Discussion}{chapter.1}% 33
-\BOOKMARK [0][-]{figure.caption.39}{Bibliography}{}% 34
-\BOOKMARK [0][-]{section*.41}{References}{}% 35
+\BOOKMARK [2][-]{subsection.1.6.5}{Event reweighing in simulation}{section.1.6}% 23
+\BOOKMARK [1][-]{section.1.7}{Multivariate selection in the signal region}{chapter.1}% 24
+\BOOKMARK [2][-]{subsection.1.7.1}{Kinematic variables of a candidate}{section.1.7}% 25
+\BOOKMARK [2][-]{subsection.1.7.2}{Multivariate discriminant: a BDT classifier}{section.1.7}% 26
+\BOOKMARK [2][-]{subsection.1.7.3}{BDT selection requirement in the signal region}{section.1.7}% 27
+\BOOKMARK [1][-]{section.1.8}{Uncertainties of the measurement}{chapter.1}% 28
+\BOOKMARK [2][-]{subsection.1.8.1}{Normalisation uncertainties}{section.1.8}% 29
+\BOOKMARK [2][-]{subsection.1.8.2}{Shape uncertainties}{section.1.8}% 30
+\BOOKMARK [1][-]{section.1.9}{Statistical Analysis}{chapter.1}% 31
+\BOOKMARK [2][-]{subsection.1.9.1}{The likelihood function}{section.1.9}% 32
+\BOOKMARK [2][-]{subsection.1.9.2}{The fit results}{section.1.9}% 33
+\BOOKMARK [1][-]{section.1.10}{Discussion}{chapter.1}% 34
+\BOOKMARK [0][-]{figure.caption.39}{Bibliography}{}% 35
+\BOOKMARK [0][-]{section*.41}{References}{}% 36

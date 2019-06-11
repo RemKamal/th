@@ -339,6 +339,29 @@ bbZZ & 900 &  15.1 & 12963\\\hline
 
 After the SR and CRs have been defined, in the final step of the event selection we require the events in the SR to pass the threshold value of the BDT discriminant. An MVA discriminant that uses a boosted decision trees algorithm is trained considering a number of kinematic quantities of a candidate to be above a certain threshold. As this selection step is complex, it is described in a dedicated chapter: \ref{sec:BDT}.
 
+\subsection{Event reweighing in simulation}
+
+Several factors lead to a difference in the behavior of simulation in comparison to real data. These factors include the difference in the kinematics of simulated events from what it is in nature as well as the differences in the simulation of the detector response that affects reconstruction efficiencies for physics objects that form candidates, as well as tagging and mistagging rates for b jets. 
+
+These factors are quantified through per-event SFs that are used as event weights in preparation of all kinematic distributions and computation of the expected event counts. The SFs of all types are produced centrally in CMS by the appropriate POGs. The full per-event weight for a simulated event is a product of all individual SF discussed below.
+
+\begin{itemize}
+
+\item{\bfseries Lepton efficiency.} 
+
+Several lepton efficiencies need to be measured: the efficiency to reconstruct a lepton in the inner tracker detector, the efficiency to pass the identification selection, the isolation requirement, the efficiency of the HLT trigger. For the trigger efficiencies, as explained in section \ref{sec:TnP}, the TnP technique was used. Additionally, since the DZ requirement was absent for some trigger, the efficiency of the DZ selection was measured separately. The SF calculation for the DZ requirement is very similar to how tracker, ID, and ISO SFs are computed, e.g., the numerator contains events that pass the DZ requirement and the denominator is equal to the number of events that pass the selection without DZ requirement. All these multiplicative factors are put together to form the per-candidate lepton efficiency SF.
+
+On average, the muon ID scale factors are equal to 0.992 - 1.004, depending on the $p_t$ and $\eta$ slice. The muon ISO SFs are equal to 0.991-1.004. The electron ID $\cdot$ ISO SFs, computed together, are ranging from 0.832 to 1.073.
+
+\item{\bfseries b tagging and light flavor mistagging probability scale factors.} 
+These SFs explained in \label{sec:b_tagging}, are measured using the cMVAv2 algorithm. This algorithm uses the heavy-flavor enhanced MC samples, the $t\bar{t}$ process containing top and anti-top quark decays, to determine the b tagging weights. An average value of the b tagging SF per event, taking into account the presence of two b jets in the final signature, is equal to 0.7 - 1.3 for signal and 0.6 - 1.4 for background processes. 
+
+\item{\bfseries Kinematic reweighing of the DY plus jets samples.} 
+Even though DY plus jets samples in NLO electroweak (EW) are available, they have a smaller size than the LO samples (by a factor of a few). Since for many studies it is important to have high-statistics samples, many CMS Higgs PAGs use LO samples. Several groups stated that the limited statistical power of NLO samples results in an over 10\% decrease in expected sensitivity with respect to the usage of the LO samples. However, if one uses LO samples, one has to introduce a correction to reweigh the LO sample to the NLO in electroweak. For most analyses, the biggest discrepancy in data and LO MC samples is found in the di-jet invariant mass distribution. An LO-to-NLO correction as a function of the $\Delta \eta_{b\ jets}$ separation is computed following the procedure described in \cite{DYLOtoNLO}. After the correction is applied to LO samples, both NLO samples and the corrected LO samples show a good agreement in the $\Delta \eta_{b\ jets}$ distribution. As stated in \cite{DYLOtoNLO}, this correction improves the data-MC agreement in many distributions derived from the di-jet objects or based on the $p_T^{\Zll}$ variable, while has a negligible effect on the remaining kinematic variables.
+  
+It was found that the previous correction does not address the data-MC discrepancies for highly energized Z bosons. The spectrum of the $p_T$ of the Z boson distribution is harder for DY plus jets MC simulation than for data. This is due to the fact that the simulation does not include higher-order QCD+EW corrections \cite{NLO_Vjets}. The DY plus jets simulated samples are reweighed as a function of the $p_T^{\Zll}$ to update the LO samples to the NLO in QCD+EW. The corrections can be as large as 10\% for energetic Z bosons with $p_T > 400$ GeV.
+\end{itemize}
+
 
 \section{Multivariate selection in the signal region}
 

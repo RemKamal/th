@@ -21,16 +21,17 @@
 \contentsline {subsection}{\numberline {1.6.2}Signal candidate construction and selection}{17}{subsection.1.6.2}
 \contentsline {subsection}{\numberline {1.6.3}Signal and control kinematic regions}{19}{subsection.1.6.3}
 \contentsline {subsection}{\numberline {1.6.4}Signal region candidate selection with a multivariate technique}{20}{subsection.1.6.4}
-\contentsline {section}{\numberline {1.7}Multivariate selection in the signal region}{21}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Kinematic variables of a candidate}{21}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Multivariate discriminant: a BDT classifier}{31}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}BDT selection requirement in the signal region}{51}{subsection.1.7.3}
-\contentsline {section}{\numberline {1.8}Uncertainties of the measurement}{51}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Normalisation uncertainties}{53}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{55}{subsection.1.8.2}
-\contentsline {section}{\numberline {1.9}Statistical Analysis}{57}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}The likelihood function}{57}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}The fit results}{61}{subsection.1.9.2}
-\contentsline {section}{\numberline {1.10}Discussion}{66}{section.1.10}
-\contentsline {chapter}{Bibliography}{68}{figure.caption.39}
-\contentsline {chapter}{References}{69}{section*.41}
+\contentsline {subsection}{\numberline {1.6.5}Event reweighing in simulation}{21}{subsection.1.6.5}
+\contentsline {section}{\numberline {1.7}Multivariate selection in the signal region}{23}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Kinematic variables of a candidate}{23}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Multivariate discriminant: a BDT classifier}{33}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}BDT selection requirement in the signal region}{53}{subsection.1.7.3}
+\contentsline {section}{\numberline {1.8}Uncertainties of the measurement}{53}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Normalisation uncertainties}{55}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{57}{subsection.1.8.2}
+\contentsline {section}{\numberline {1.9}Statistical Analysis}{59}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}The likelihood function}{59}{subsection.1.9.1}
+\contentsline {subsection}{\numberline {1.9.2}The fit results}{63}{subsection.1.9.2}
+\contentsline {section}{\numberline {1.10}Discussion}{68}{section.1.10}
+\contentsline {chapter}{Bibliography}{70}{figure.caption.39}
+\contentsline {chapter}{References}{71}{section*.41}
