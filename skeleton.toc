@@ -33,5 +33,6 @@
 \contentsline {subsection}{\numberline {1.9.1}The likelihood function}{59}{subsection.1.9.1}
 \contentsline {subsection}{\numberline {1.9.2}The fit results}{63}{subsection.1.9.2}
 \contentsline {section}{\numberline {1.10}Discussion}{68}{section.1.10}
-\contentsline {chapter}{Bibliography}{70}{figure.caption.39}
-\contentsline {chapter}{References}{71}{section*.41}
+\contentsline {chapter}{\chapternumberline {2}Conclusions}{71}{chapter.2}
+\contentsline {chapter}{Bibliography}{75}{section*.40}
+\contentsline {chapter}{References}{75}{section*.42}
