@@ -145,6 +145,19 @@ Albert~M Sirunyan et~al.
   the bblnulnu final state in proton-proton collisions at sqrt(s) = 13 TeV}.
 \newblock 2017.
 
+\bibitem{DYLOtoNLO}
+A.M. Sirunyan, R.~Kamalieddin, and et~al I.~Kravchenko.
+\newblock Evidence for the higgs boson decay to a bottom quarkâ€-antiquark
+  pair.
+\newblock {\em Physics Letters B}, 780:501 -- 532, 2018.
+
+\bibitem{NLO_Vjets}
+S.~Kallweit, J.~M. Lindert, P.~Maierh{\"o}fer, S.~Pozzorini, and
+  M.~Sch{\"o}nherr.
+\newblock Nlo qcd+ew predictions for v + jets including off-shell vector-boson
+  decays and multijet merging.
+\newblock {\em Journal of High Energy Physics}, 2016(4):21, Apr 2016.
+
 \bibitem{book:411471}
 Geoffrey I.~Webb Claude~Sammut.
 \newblock {\em Encyclopedia of Machine Learning}.
@@ -220,38 +233,15 @@ Andres Tiko.
 \newblock {HH} resonance searches at {ATLAS} and {CMS}.
 \newblock Tokyo, Japan, November 2018. "Higgs Couplings 2018" conference.
 
+\bibitem{HH_combo}
+A.~M. Sirunyan, A.~Tumasyan, and W.~et~al. Adam.
+\newblock Combination of searches for higgs boson pair production in
+  proton-proton collisions at $\sqrt{s}=13\text{ }\text{ }\mathrm{TeV}$.
+\newblock {\em Phys. Rev. Lett.}, 122:121803, Mar 2019.
+
 \bibitem{CMS-PAS-FTR-18-019}
 {Prospects for HH measurements at the HL-LHC}.
 \newblock Technical Report CMS-PAS-FTR-18-019, CERN, Geneva, 2018.
-
-\bibitem{CMS-PAS-HIG-17-030}
-{Combination of searches for Higgs boson pair production in proton-proton
-  collisions at $\sqrt{s} = 13~\mathrm{TeV}$}.
-\newblock Technical Report CMS-PAS-HIG-17-030, CERN, Geneva, 2018.
-
-\bibitem{egSF}
-{Chris Palmer}.
-\newblock {VHbb Electron Trigger and ID+ISO SFs for 2016 data}.
-\newblock
-  \url{https://indico.cern.ch/event/604949/contributions/2543520/attachments/1439974/2216426/VHbb_TnP_SFs_egamma_april.pdf#search=vhbb\%20AND\%20cerntaxonomy\%3A\%22Indico\%2FExperiments\%2FCMS\%20meetings\%2FPH\%20\%2D\%20Physics\%2FEgamma\%22}.
-
-\bibitem{muonIDnISO}
-{Gael L. Perrin, Pedro Fernandez Manteca}.
-\newblock {Muon Identification and Isolation Scale-Factors on 2016 Dataset}.
-\newblock
-  \url{https://indico.cern.ch/event/611558/contributions/2465881/attachments/1407735/2151747/TnP_06_02_2017.pdf}.
-
-\bibitem{muonTRK}
-{CMS Muon POG}.
-\newblock {Tracking SFs on the full 2016 data}.
-\newblock
-  \url{https://twiki.cern.ch/twiki/bin/view/CMS/MuonWorkInProgressAndPagResults#Results_on_the_full_2016_data}.
-
-\bibitem{muonTrigger}
-{Gael L. Perrin}.
-\newblock {Double Muon trigger efficiency per-leg approach}.
-\newblock
-  \url{https://indico.cern.ch/event/636555/contributions/2577291/attachments/1453162/2241537/TnP_DoubleMuSF_03_05_17.pdf}.
 
 \bibitem{...}
 
@@ -324,6 +314,24 @@ Emanuele Re.
 \newblock {Single-top Wt-channel production matched with parton showers using
   the POWHEG method}.
 \newblock {\em Eur. Phys. J.}, C71:1547, 2011.
+
+\bibitem{muonIDnISO}
+{Gael L. Perrin, Pedro Fernandez Manteca}.
+\newblock {Muon Identification and Isolation Scale-Factors on 2016 Dataset}.
+\newblock
+  \url{https://indico.cern.ch/event/611558/contributions/2465881/attachments/1407735/2151747/TnP_06_02_2017.pdf}.
+
+\bibitem{muonTRK}
+{CMS Muon POG}.
+\newblock {Tracking SFs on the full 2016 data}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/MuonWorkInProgressAndPagResults#Results_on_the_full_2016_data}.
+
+\bibitem{muonTrigger}
+{Gael L. Perrin}.
+\newblock {Double Muon trigger efficiency per-leg approach}.
+\newblock
+  \url{https://indico.cern.ch/event/636555/contributions/2577291/attachments/1453162/2241537/TnP_DoubleMuSF_03_05_17.pdf}.
 
 \bibitem{Dupuis:2016fda}
 Grace Dupuis.
@@ -552,6 +560,12 @@ Ye~Li and Frank Petriello.
 \newblock {Combining QCD and electroweak corrections to dilepton production in
   FEWZ}.
 \newblock {\em Phys. Rev. D}, 86:094034, 2012.
+
+\bibitem{egSF}
+{Chris Palmer}.
+\newblock {VHbb Electron Trigger and ID+ISO SFs for 2016 data}.
+\newblock
+  \url{https://indico.cern.ch/event/604949/contributions/2543520/attachments/1439974/2216426/VHbb_TnP_SFs_egamma_april.pdf#search=vhbb\%20AND\%20cerntaxonomy\%3A\%22Indico\%2FExperiments\%2FCMS\%20meetings\%2FPH\%20\%2D\%20Physics\%2FEgamma\%22}.
 
 \bibitem{JetMETgroup}
 {CMS JetMET group}.
@@ -845,6 +859,11 @@ Thomas Lenzi.
   Algorithms for the Level-1 Trigger for the CMS Muon Upgrade with GEM
   Detectors}.
 \newblock Master's thesis, U. Brussels (main), 2013.
+
+\bibitem{CMS-PAS-HIG-17-030}
+{Combination of searches for Higgs boson pair production in proton-proton
+  collisions at $\sqrt{s} = 13~\mathrm{TeV}$}.
+\newblock Technical Report CMS-PAS-HIG-17-030, CERN, Geneva, 2018.
 
 \bibitem{PF_MET}
 The~CMS collaboration.
