@@ -17,29 +17,13 @@ Warning--entry type for "Wertz:2632195" isn't style-file defined
 --line 2306 of file nuthesis/sections/bibl.bib
 Warning--entry type for "Cadamuro:2292733" isn't style-file defined
 --line 2315 of file nuthesis/sections/bibl.bib
-Warning--I didn't find a database entry for "DY_QCDnEWK"
-Warning--I didn't find a database entry for "pwh1"
-Warning--I didn't find a database entry for "pwh2"
-Warning--I didn't find a database entry for "pwh3"
-Warning--I didn't find a database entry for "Kidonakis:2012db"
-Warning--I didn't find a database entry for "Czakon:2013goa"
-Warning--I didn't find a database entry for "Sjostrand:2014zea"
-Warning--I didn't find a database entry for "CMS-PAS-SMP-18-002"
-Warning--I didn't find a database entry for "CMS-PAS-SMP-16-006"
-Warning--I didn't find a database entry for "Khachatryan:2016txa"
-Warning--I didn't find a database entry for "Ball:2014uwa"
-Warning--I didn't find a database entry for "CMS-PAS-LUM-17-001"
-Warning--I didn't find a database entry for "Botje:2011sn"
-Warning--I didn't find a database entry for "Alekhin:2011sk"
 Warning--empty journal in Oliveira:2014kla
+Warning--empty journal in Sirunyan:2018iwt
 Warning--empty journal in Xanda
-Warning--empty author in CMS-PAS-HIG-17-032
-Warning--empty journal in bbWW
-Warning--empty author in HH_combination
-Warning--empty author in HIG-11-011
-Warning--empty booktitle in HiggsCouplings2018
-Warning--empty author in CMS-PAS-FTR-18-019
+Warning--empty journal in Traczyk:2002jh
 Warning--all relevant fields are empty in ...
+Warning--empty author in HIG-11-011
+Warning--empty journal in bbWW
 Warning--empty journal in Vhbb_inspire
 Warning--empty institution in CMS_AN_2006-027
 Warning--empty institution in CMS_NOTE_2006-106
@@ -49,11 +33,12 @@ Warning--empty author in CMS-PAS-MUO-10-002
 Warning--empty author in lumiUnc
 Warning--empty journal in Mangano:454171
 Warning--there's a number but no volume in Mangano:454171
-Warning--empty journal in Sirunyan:2018iwt
 Warning--empty journal in Gröbner:356437
 Warning--there's a number but no volume in Gröbner:356437
+Warning--empty author in CMS-PAS-FTR-18-019
 Warning--empty author in CMS-PAS-HIG-17-030
 Warning--empty author in CMS-PAS-HIG-14-009
+Warning--empty author in CMS-PAS-HIG-17-032
 Warning--empty journal in Herr:941318
 Warning--empty journal in LHC_vacuum
 Warning--there's a number but no volume in LHC_vacuum
@@ -62,10 +47,11 @@ Warning--empty author and editor in HCAL_TDR
 Warning--empty journal in Kalman_filter
 Warning--empty journal in DeterministicAnnealing
 Warning--empty author in CMS-PAS-BTV-15-001
-Warning--empty journal in Traczyk:2002jh
+Warning--empty author in HH_combination
+Warning--empty booktitle in HiggsCouplings2018
 You've used 194 entries,
             1791 wiz_defined-function locations,
-            1522 strings with 33863 characters,
+            1498 strings with 33533 characters,
 and the built_in function-call counts, 34773 in all, are:
 = -- 2960
 > -- 1454
@@ -104,4 +90,4 @@ warning$ -- 32
 while$ -- 281
 width$ -- 197
 write$ -- 2019
-(There were 53 warnings)
+(There were 39 warnings)

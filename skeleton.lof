@@ -1,28 +1,8 @@
 \select@language {english}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces HLT trigger SFs for electrons.}}{7}{figure.caption.4}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Final HLT SFs for muons as a function of $p_{T}$ and $\eta $, measured for eras B to G.}}{8}{figure.caption.5}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Final HLT SFs for muons as a function of $p_{T}$ and $\eta $, measured for the era H.}}{8}{figure.caption.6}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces SFs for muons of the dZ requirement .}}{9}{figure.caption.7}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Optimisation of the MET selection for two $bbZZ$ analyses}}{17}{figure.caption.9}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Analysis phase space with the signal and two control regions.}}{21}{figure.caption.11}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Data-MC comparison in CRDY.}}{29}{figure.caption.13}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Data-MC comparison in CRDY, other variables.}}{30}{figure.caption.14}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Data-MC comparison in SR.}}{31}{figure.caption.15}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Data-MC comparison in SR, other variables.}}{32}{figure.caption.16}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Data-MC comparison in CRTT.}}{33}{figure.caption.17}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Data-MC comparison in CRTT, other variables.}}{34}{figure.caption.18}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces BDT trees 1 and 2.}}{39}{figure.caption.19}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces BDT trees 400 and 401.}}{40}{figure.caption.20}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces BDT trees 799 and 800.}}{41}{figure.caption.21}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Input variable correlations of the di-electron channel, low mass training.}}{45}{figure.caption.26}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Input variable correlations of the di-electron channel, high mass training.}}{46}{figure.caption.27}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Variables used in the low mass training for di-electron channel.}}{47}{figure.caption.28}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Variables used in the high mass training for di-electron channel.}}{48}{figure.caption.29}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces BDT discriminants for di-electron channel.}}{50}{figure.caption.30}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces ROC curves for di-electron channel.}}{52}{figure.caption.31}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces BDT distributions for the radion case.}}{54}{figure.caption.32}
-\contentsline {figure}{\numberline {1.23}{\ignorespaces Transverse mass of the reconstructed HH candidates for graviton hypothesis.}}{65}{figure.caption.35}
-\contentsline {figure}{\numberline {1.24}{\ignorespaces Transverse mass of the reconstructed HH candidates for graviton hypothesis.}}{66}{figure.caption.36}
-\contentsline {figure}{\numberline {1.25}{\ignorespaces Expected (dashed line) and observed (solid line) limits on the cross section of a resonant HH production as a function of the mass of the narrow resonance for both leptonic channels combined. Graviton case is shown at the top and radion case at the bottom. The red line shows a theoretical prediction for the production of a WED particle with certain model assumptions \cite {Oliveira:2014kla}.\relax }}{70}{figure.caption.38}
-\contentsline {figure}{\numberline {1.26}{\ignorespaces Combination of HH channels using 2016 data. Expected (dashed) and observed (solid line) 95\% CL exclusion limits are shown. The results describe the production cross section of a narrow width spin 0 (top) and spin 2 (bottom) resonance decaying into a pair of SM Higgs bosons. \relax }}{72}{figure.caption.39}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces SSB Potential form}}{6}{figure.caption.3}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces RS branes}}{8}{figure.caption.4}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces SM double Higgs boson production}}{11}{figure.caption.5}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Double Higgs mass distribution and the total cross-section}}{12}{figure.caption.6}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces BSM Resonant double Higgs decay in the 2 b, 2 lepton, and 2 neutrino final state. X denotes either graviton or radion particles. \relax }}{13}{figure.caption.7}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Double Higgs decay channels}}{14}{figure.caption.8}
