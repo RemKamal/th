@@ -17,10 +17,20 @@ Warning--entry type for "Wertz:2632195" isn't style-file defined
 --line 2306 of file nuthesis/sections/bibl.bib
 Warning--entry type for "Cadamuro:2292733" isn't style-file defined
 --line 2315 of file nuthesis/sections/bibl.bib
-Warning--empty journal in Oliveira:2014kla
+Warning--empty journal in Mangano:454171
+Warning--there's a number but no volume in Mangano:454171
+Warning--empty author in CMS-PAS-HIG-14-009
 Warning--empty journal in Sirunyan:2018iwt
+Warning--empty journal in Oliveira:2014kla
 Warning--empty journal in Xanda
 Warning--empty journal in Traczyk:2002jh
+Warning--empty journal in LHC_vacuum
+Warning--there's a number but no volume in LHC_vacuum
+Warning--empty publisher in Hauptman:2011zza
+Warning--empty author and editor in HCAL_TDR
+Warning--empty journal in Kalman_filter
+Warning--empty journal in DeterministicAnnealing
+Warning--empty author in CMS-PAS-BTV-15-001
 Warning--all relevant fields are empty in ...
 Warning--empty author in HIG-11-011
 Warning--empty journal in bbWW
@@ -31,63 +41,53 @@ Warning--empty institution in CMS-PAS-JME-10-003
 Warning--empty note in LEPewkfits
 Warning--empty author in CMS-PAS-MUO-10-002
 Warning--empty author in lumiUnc
-Warning--empty journal in Mangano:454171
-Warning--there's a number but no volume in Mangano:454171
 Warning--empty journal in Gröbner:356437
 Warning--there's a number but no volume in Gröbner:356437
 Warning--empty author in CMS-PAS-FTR-18-019
 Warning--empty author in CMS-PAS-HIG-17-030
-Warning--empty author in CMS-PAS-HIG-14-009
 Warning--empty author in CMS-PAS-HIG-17-032
 Warning--empty journal in Herr:941318
-Warning--empty journal in LHC_vacuum
-Warning--there's a number but no volume in LHC_vacuum
-Warning--empty publisher in Hauptman:2011zza
-Warning--empty author and editor in HCAL_TDR
-Warning--empty journal in Kalman_filter
-Warning--empty journal in DeterministicAnnealing
-Warning--empty author in CMS-PAS-BTV-15-001
 Warning--empty author in HH_combination
 Warning--empty booktitle in HiggsCouplings2018
-You've used 194 entries,
+You've used 195 entries,
             1791 wiz_defined-function locations,
-            1498 strings with 33533 characters,
-and the built_in function-call counts, 34773 in all, are:
-= -- 2960
-> -- 1454
+            1503 strings with 33693 characters,
+and the built_in function-call counts, 35051 in all, are:
+= -- 2989
+> -- 1458
 < -- 25
-+ -- 580
-- -- 386
-* -- 1986
-:= -- 5688
-add.period$ -- 574
-call.type$ -- 194
-change.case$ -- 170
++ -- 582
+- -- 387
+* -- 2011
+:= -- 5728
+add.period$ -- 577
+call.type$ -- 195
+change.case$ -- 171
 chr.to.int$ -- 0
-cite$ -- 226
-duplicate$ -- 1592
-empty$ -- 3706
-format.name$ -- 386
-if$ -- 7767
+cite$ -- 227
+duplicate$ -- 1601
+empty$ -- 3736
+format.name$ -- 387
+if$ -- 7827
 int.to.chr$ -- 0
-int.to.str$ -- 194
-missing$ -- 154
-newline$ -- 954
-num.names$ -- 174
-pop$ -- 572
+int.to.str$ -- 195
+missing$ -- 155
+newline$ -- 959
+num.names$ -- 175
+pop$ -- 573
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 657
+skip$ -- 660
 stack$ -- 0
-substring$ -- 1616
-swap$ -- 203
+substring$ -- 1659
+swap$ -- 204
 text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 32
-while$ -- 281
-width$ -- 197
-write$ -- 2019
+while$ -- 284
+width$ -- 198
+write$ -- 2030
 (There were 39 warnings)
