@@ -40,52 +40,6 @@ The Large Hadron Collider (LHC) is the most powerful (in terms of the COM energi
 It is a complex process to start proton-proton collisions in the LHC at 13 TeV and, therefore, the process consists of several stages (see Fig. \ref{lhcmap}). The process begins with a bottle of hydrogen. The hydrogen atoms from the bottle are fed into the source chamber of the Linear Accelerator (Linac). In the chamber, the hydrogen is heated up to the plasma state until the electrons are stripped off of the hydrogen atoms. Electrons are then removed and the remaining protons are directed to the first acceleration stage which increases the energy of the protons to 50 MeV. After the Linac, the beam of protons is injected into the Proton Synchrotron Booster (PSB). The PSB contains four rings, which accelerate protons to 1.4 GeV. The third stage is the Proton Synchrotron (PS), which further splits the incoming beam into 72 bunches separated by 7.5 m. The energy of the protons is increased to 25 GeV. After that, the protons are sent to the Super Proton Synchrotron (SPS), where they are accelerated to 450 GeV and split into more bunches. The SPS then fills the LHC ring with two beams, each consisting of 2808 bunches of protons with nearly $10^{11}$ protons in total. It takes SPS about $O(10)$ minutes to fill each LHC ring with bunches. In the LHC, the two beams are circulating in opposite directions in two separate beam pipes. During standard data collecting (``data taking''), the beams circulate for $O(10)$ hours. This number has been found experimentally and leads to the highest possible amount of data per year.  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{LHC operations}
-
-The first LHC budget plan was finalised in 1996, with the final cost being approved just a few years later. The first proton beam entered the LHC ring in 2008. However, an incident delayed the original LHC plans. It was caused by the mechanical damage of the tunnel equipment due to the release of the helium. Thus, the real data taking period (called LHC Run 1) began only in 2010, and lasted for two years, with 7-8 TeV COM energies used. The recorded dataset contained enough Higgs bosons to claim a discovery of this rarely produced particle. After this achievement, the LHC was closed in 2012 for the first long shutdown (LS1). During this time, necessary upgrades of the main detectors and the LHC were performed. This was an unavoidable and essential step to prepare the LHC for the more challenging environment of COM energies increased to 13 TeV. 
-
-
-If denote the area of 10$^{-28}$ $m^2$ as barn (b), then the femtobarn ($fb$) equals to 10$^{-43}$ $m^2$. When HEP physicists talk about inverse femtobarns, they mean collisions per femtobarn of beam cross-sectional area. Thus, the inverse femtobarn unit can be thought of as the effectiveness of the particle accelerator. In terms of these new units, the LHC can theoretically produce $80-120/fb$ (inverse femtobarns) of data a year. In practice, these numbers were lower because the LHC operated at the revolution frequency below the nominal, used fewer proton bunches in the beam, etc.  These resulted in lower than the expected instantaneous luminosity, an important term in collider physics that will be explained in the next section.
-
-
-The LHC Run 2 started in 2015 and the CMS collected 4.2 $fb^{-1}$ of data that year. Over the course of the 2016 data collection, an integrated luminosity of 35.9 $fb^{-1}$ was recorded. This luminosity is the amount of data that was collected by the CMS detector and later approved by the CMS physics coordination for the use in the physics analyses. Note that the CMS collects as much data as possible, but not all data have good quality for the offline physics analyses, so the approved data is always less than the collected one. The data set of proton-proton collisions collected in 2016 at 13 TeV COM energy will be used in this thesis to analyse double Higgs boson decays. Together with the 2017 and 2018 data taking, almost 150 $fb^{-1}$ have been delivered and recorded by the CMS detector during the whole Run 2 period of four years (2015-2018). 
-
-
-At the moment of writing this thesis, the LHC has entered LS2. Data taking will resume in 2020 and proton-proton collisions will continue for three years with the integrated luminosity expected to be equal to nearly 300 $fb^{-1}$. This will conclude the LHC Phase 1 program. 
-
-
-
-
-The new upgraded LHC, the High-Luminosity LHC (LHC) or the Phase 2, will start operations in 2026 and run until 2035. The COM energy will be increased to 14 TeV (may happen during Run 3) and physicists expect to record an unprecedented dataset of 3000 $fb^{-1}$. 
-
-\subsection{Luminocity}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-The instantaneous luminosity $ \mathcal{L} $ is the parameter which relates the cross section $\sigma$ of the process to the number of events $N_{events}$ produced per unit time during the interaction: $N_{events} / dt = \mathcal{L}  \sigma$. Luminosity is the parameter controlled by the machine and can be written as:
-
-$ \mathcal{L} =\frac{N^2 n_b f_{rev}}{4\pi \sigma_x \sigma_y}$
-
-\noindent where $N_b$ is the number of particles in the colliding bunch, $n_b$ is the number of colliding bunches in the beam, $f_{rev}$ is the revolution frequency of the beam, a $\sigma_x$ and $\sigma_y$ are the standard deviations of the beam density profile (BDP) in the transverse plane, where it is assumed that the BDP of both beams can be described by a Gaussian distribution.
-
-
-To maximise the amount of collected data, the luminosity parameter should be as high as possible. It is worth noting that the luminosity is not constant and decays with time due to the degradation of the initial circulating beams. The theoretical decay time (the time to reach $1/e$ level) is approximately 29 h. In practice, taking into account the decrease of protons in the bunch due to collisions, contributions from the intrabeam scattering, scattering on the residual gas, etc., the real luminosity lifetime is about 15 h. 
-
-A useful variation of the luminosity parameter is the total integrated luminosity. This is the number normally quoted for the dataset collected over the period T:
-
-$L = \int_{0}^{T} \mathcal{L}  dt$.
-
-In collider physics the "beam dump" is a process of burning off exhausted low luminosity beams by intentionally directing them towards a target made of concrete and steel. The time from the start of the collisions to the beam dump is usually called the ``run'' or ``fill''.
-
-The amount of data delivered by the LHC can be calculated for a single run period of $O(10)$ h. Performing the integration, this is obtained: 
-
- $L = \mathcal{L}_0 \tau_\mathcal{L}  \left[  1- e^{\frac{-\tau_{run}}{\tau_\mathcal{L} }}  \right]$, 
-
-\noindent where $\mathcal{L}_0$ is the initial peak instantaneous luminosity at the start of the run, $\tau_{run}$ is the total duration of a run, and $\tau_\mathcal{L}$ is the luminosity lifetime. The optimum run time is 12 hours. Between the runs, the LHC center needs to dump the old beams, fill the rings with the new beams, and increase ("ramp") the energy of new beams to 13 TeV. After that a new run can be started. This restarting process normally takes two to six hours.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \subsection{LHC infrastructure}
 
 The equipment of the LHC tunnel serves several purposes,  the main objective being to keep the colliding beams on a circular orbit, which requires a complex synchronization of bending dipole magnets, cooling systems, accelerating radio frequency cavities, and vacuum insulation systems.
@@ -115,7 +69,7 @@ The cryostat is a long cylindrical tube 914 $mm$ in diameter, made of low-carbon
 A  dipole magnet  must  be  curved to help a chain of dipoles complete 360 degrees. The curvature is 5.1 $mrad$ per dipole, which is equivalent to a  sagitta (explained later in this chapter) of  about  9 mm, corresponding to a radius of curvature of 2812.36 m.
 
 
-Other important magnets are quadrupoles. They are used to ensure proper beam dynamics. In total, 392 quadrupole magnets ranging from 5 to 7 metres in length are used to squeeze the beam in transverse directions (with respect to the z axis) and to keep it narrow during the run duration. Additional special quadrupole magnets (SQM) are installed right before the IPs to focus the beams even more. These increase the density of protons in the beam and guarantees the maximum luminosity. In addition, SQMs help to decrease the chance of the parasitic collisions when bunches from the same beam or bunches outside of the IP center interact (see Fig. \ref{quadrupoles}). To further correct the beam path or orbit, about 5000 higher order correcting magnets are used, which are evenly spaced around the circular trajectory of the LHC. 
+Other important magnets are quadrupoles. They are used to ensure proper beam dynamics. In total, 392 quadrupole magnets ranging from 5 to 7 metres in length are used to squeeze the beam in transverse directions (with respect to the z axis) and to keep it narrow during the run duration. Additional special quadrupole magnets (SQM) are installed right before the IPs to focus the beams even more. These increase the density of protons in the beam and guarantees the maximum luminosity (explained in \ref{sec:luminosity}). In addition, SQMs help to decrease the chance of the parasitic collisions when bunches from the same beam or bunches outside of the IP center interact (see Fig. \ref{quadrupoles}). To further correct the beam path or orbit, about 5000 higher order correcting magnets are used, which are evenly spaced around the circular trajectory of the LHC. 
 
 
 \begin{figure}[H]
@@ -244,6 +198,55 @@ Having discussed the LHC collider, the following section explores the Compact Mu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+\subsection{LHC operations}
+
+The first LHC budget plan was finalised in 1996, with the final cost being approved just a few years later. The first proton beam entered the LHC ring in 2008. However, an incident delayed the original LHC plans. It was caused by the mechanical damage of the tunnel equipment due to the release of the helium. Thus, the real data taking period (called LHC Run 1) began only in 2010, and lasted for two years, with 7-8 TeV COM energies used. The recorded dataset contained enough Higgs bosons to claim a discovery of this rarely produced particle. After this achievement, the LHC was closed in 2012 for the first long shutdown (LS1). During this time, necessary upgrades of the main detectors and the LHC were performed. This was an unavoidable and essential step to prepare the LHC for the more challenging environment of COM energies increased to 13 TeV. 
+
+
+If denote the area of 10$^{-28}$ $m^2$ as barn (b), then the femtobarn ($fb$) equals to 10$^{-43}$ $m^2$. When HEP physicists talk about inverse femtobarns, they mean collisions per femtobarn of beam cross-sectional area. Thus, the inverse femtobarn unit can be thought of as the effectiveness of the particle accelerator. In terms of these new units, the LHC can theoretically produce $80-120/fb$ (inverse femtobarns) of data a year. In practice, these numbers were lower because the LHC operated at the revolution frequency below the nominal, used fewer proton bunches in the beam, etc.  These resulted in lower than the expected instantaneous luminosity, an important term in collider physics that will be explained in the next section.
+
+
+The LHC Run 2 started in 2015 and the CMS collected 4.2 $fb^{-1}$ of data that year. Over the course of the 2016 data collection, an integrated luminosity of 35.9 $fb^{-1}$ was recorded. This luminosity is the amount of data that was collected by the CMS detector and later approved by the CMS physics coordination for the use in the physics analyses. Note that the CMS collects as much data as possible, but not all data have good quality for the offline physics analyses, so the amount of the approved data is always less than the collected one. The data set of proton-proton collisions collected in 2016 at 13 TeV COM energy will be used in this thesis to analyse double Higgs boson decays. Together with the 2017 and 2018 data taking, almost 150 $fb^{-1}$ have been delivered and recorded by the CMS detector during the whole Run 2 period of four years (2015-2018). 
+
+
+At the moment of writing this thesis, the LHC has entered LS2. Data taking will resume in 2020 and proton-proton collisions will continue for three years with the integrated luminosity expected to be equal to nearly 300 $fb^{-1}$. This will conclude the LHC Phase 1 program. 
+
+
+
+
+The new upgraded LHC, the High-Luminosity LHC (LHC) or the Phase 2, will start operations in 2026 and run until 2035. The COM energy will be increased to 14 TeV (may happen during Run 3) and physicists expect to record an unprecedented dataset of 3000 $fb^{-1}$. 
+
+\subsection{Luminosity}
+\label{sec:luminosity}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The instantaneous luminosity $ \mathcal{L} $ is the parameter which relates the cross section $\sigma$ of the process to the number of events $N_{events}$ produced per unit time during the interaction: $N_{events} / dt = \mathcal{L}  \sigma$. Luminosity is the parameter controlled by the machine and can be written as:
+
+$ \mathcal{L} =\frac{N^2 n_b f_{rev}}{4\pi \sigma_x \sigma_y}$
+
+\noindent where $N_b$ is the number of particles in the colliding bunch, $n_b$ is the number of colliding bunches in the beam, $f_{rev}$ is the revolution frequency of the beam, a $\sigma_x$ and $\sigma_y$ are the standard deviations of the beam density profile (BDP) in the transverse plane, where it is assumed that the BDP of both beams can be described by a Gaussian distribution.
+
+
+To maximise the amount of collected data, the luminosity parameter should be as high as possible. It is worth noting that the luminosity is not constant and decays with time due to the degradation of the initial circulating beams. The theoretical decay time (the time to reach $1/e$ level) is approximately 29 h. In practice, taking into account the decrease of protons in the bunch due to collisions, contributions from the intrabeam scattering, scattering on the residual gas, etc., the real luminosity lifetime is about 15 h. 
+
+A useful variation of the luminosity parameter is the total integrated luminosity. This is the number normally quoted for the dataset collected over the period T:
+
+$L = \int_{0}^{T} \mathcal{L}  dt$.
+
+In collider physics the "beam dump" is a process of burning off exhausted low luminosity beams by intentionally directing them towards a target made of concrete and steel. The time from the start of the collisions to the beam dump is usually called the ``run'' or ``fill''.
+
+The amount of data delivered by the LHC can be calculated for a single run period of $O(10)$ h. Performing the integration, this is obtained: 
+
+ $L = \mathcal{L}_0 \tau_\mathcal{L}  \left[  1- e^{\frac{-\tau_{run}}{\tau_\mathcal{L} }}  \right]$, 
+
+\noindent where $\mathcal{L}_0$ is the initial peak instantaneous luminosity at the start of the run, $\tau_{run}$ is the total duration of a run, and $\tau_\mathcal{L}$ is the luminosity lifetime. The optimum run time is 12 hours. Between the runs, the LHC center needs to dump the old beams, fill the rings with the new beams, and increase ("ramp") the energy of new beams to 13 TeV. After that a new run can be started. This restarting process normally takes two to six hours.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
 \section{The CMS experiment}
 
 The CMS detector (later the CMS for brevity) is a multi-purpose particle detector built to study a variety of complex particle interactions produced by the LHC. The CMS is located in the underground cavern at the Point 5, which is one of the four main IPs of the LHC. The CMS detector, with additional computing infrastructure, is able to detect the produced particles, to measure their main physics parameters, and to send the related data to computing data centers for persistent storage. 
@@ -265,7 +268,7 @@ All sub-detectors can be categorized into trackers and calorimeters \cite{Hauptm
 
 There are two trackers in the CMS detector: an inner tracking system that encloses the IP and an outer tracking system that is located outside of the solenoid magnet. The first system contains the pixel and the strip trackers. The second tracking system, embedded within the steel yoke of the magnet, is dedicated to the detection of muons, and is usually called a muon tracker or a muon system. 
 
-The magnet yoke is made of five barrel wheels. Such an arrangement saves the CMS some space and also is used for the magnetic flux return. Additionally, it serves as a support for the embedded muon system, which is located outside of the ECAL and HCAL systems (described later). Muons are energetic enough to traverse the ECAL and leave the detector. This muon system-magnet yoke structure provides a return field of the magnet of about 2 T and is used to measure the momentum of muons. This complex magnetic field causes the muons trajectories to be bent in opposite directions in the inner tracker in contrast to the outer tracker. This important feature of the CMS detector is depicted in the CMS logo (see Fig. \ref{cms_logo}). 
+The magnet yoke is made of five barrel wheels. Such an arrangement saves the CMS some space and also is used for the magnetic flux return. Additionally, it serves as a support for the embedded muon system, which is located outside of the ECAL and HCAL systems (described later). Prompt muons from the heavy particle decays are energetic enough to traverse the ECAL and leave the detector because they are minimum ionizing particles. The muon system-magnet yoke structure provides a return field of the magnet of about 2 T and is used to measure the momentum of muons. The complex magnetic field causes the muons trajectories to be bent in opposite directions in the inner tracker in contrast to the outer tracker. This important feature of the CMS detector is depicted in the CMS logo (see Fig. \ref{cms_logo}). 
 
 \begin{figure}[H]
   \centering
@@ -339,9 +342,9 @@ All subsystems of the inner tracker have to be cooled down to about -20$^{\circ}
 \subsection{The ECAL}
 
 
-The inner tracker and the ECAL provide the detector with complementary measurements. The tracker focuses on the direction and the momentum of the particle and identifies only charged particles. The ECAL  \cite{ECAL_attendum} (see Fig. \ref{ecal2}), on the other hand, determines the energy of the particles and detects all particles that interact electromagnetically, including photons and neutral pions. However, the ECAL is primarily designed to make precise measurements of the energy of electrons and photons. 
+The inner tracker and the ECAL provide the detector with complementary measurements. The tracker focuses on the direction and the momentum of the particle and identifies only charged particles. The ECAL  \cite{ECAL_attendum} (see Fig. \ref{ecal2}), on the other hand, determines the energy of the particles and detects all particles that interact electromagnetically, including photons and neutral pions. However, the ECAL is primarily designed to make precise measurements of the energy of electrons and photons by selecting the proper type of crystals and their length to contain enough X$_0$'s to stop incoming electrons and photons. 
 
-The ECAL is a highly granular detector that relies on the lead tungstate crystal (PbWO$_4$) technology. Electrons and photon passing through the crystal interact with its material and their energy is converted into the produced electromagnetic shower. Scintillators produce the scintillation light in the presence of charged energetic particles interacting with the crystal material. This light is further read out by the electronics discussed in \cite{CMS_TDR}. The PbWO$_4$ crystals, which CMS uses as scintillators, have a high density (8.28g/cm$^3$), a small radiation length (X$_0 = 0.89$ cm), a short Moliere radius (R = 2.2 cm), and a fast response (80$\%$ of its scintillation light is produced within 25 ns). These characteristics make PbWO$_4$ crystals ideal candidates for the ECAL, because they guarantee an excellent containment of the electromagnetic shower within the crystals. 
+The ECAL is a highly granular detector that relies on the lead tungstate crystal (PbWO$_4$) technology. Electrons and photon passing through the crystal interact with its material and their energy is converted into the produced electromagnetic shower. The scintillation light, produced by PbWO$_4$ scintillators, is further read out by the electronics, more details in \cite{CMS_TDR}. The PbWO$_4$ crystals have a high density (8.28g/cm$^3$), a small radiation length (X$_0 = 0.89$ cm), a short Moliere radius (R = 2.2 cm), and a fast response (80$\%$ of its scintillation light is produced within 25 ns). These characteristics make PbWO$_4$ crystals ideal candidates for the ECAL, because they guarantee an excellent containment of the electromagnetic shower within the crystals. 
 
 
 
@@ -373,7 +376,7 @@ An additional subdetector, called the Preshower, is installed right in front of 
 
 \subsection{The HCAL}
 
-Hadrons normally go through the ECAL layers without being stopped. To absorb these particles, the HCAL \cite{HCAL_TDR} (see Fig. \ref{hcal2}) is placed around the ECAL. The HCAL focuses on particles that hadronize. This is the process of the formation of hadrons out of quarks and gluons. The HCAL detects charged and neutral hadrons such as pions, kaons, protons, and neutrons. Hadrons also produce collimated streams of secondary particles (jets) and these jets are identified by the HCAL. Additionally, the HCAL is used to measure the transverse energy of neutrinos indirectly, through the momentum imbalance technique, which will be discussed later in this chapter. 
+Hadrons normally go through the ECAL layers without being stopped since ECAL crystals are optimised to contain mostly electron and photon showers. To absorb these particles, the HCAL \cite{HCAL_TDR} (see Fig. \ref{hcal2}) is placed around the ECAL. The HCAL focuses on particles that hadronize. This is the process of the formation of hadrons out of quarks and gluons. The HCAL detects charged and neutral hadrons such as pions, kaons, protons, and neutrons. Hadrons also produce collimated streams of secondary particles (jets) and these jets are identified by the HCAL. Additionally, the HCAL is used to measure the transverse energy of neutrinos indirectly, through the momentum imbalance technique, which will be discussed later in this chapter. 
 
 The HCAL is split into the HCAL barrel (HB) and the HCAL endcap (HE) sections. They cover $ |\eta| < $1.3 and 1.3 $< |\eta| < $3.0 respectively. The HB and HE are sampling calorimeters. They are made of a brass absorber and of active plastic scintillating tiles. The brass plates in HB have thickness of 56.5 mm and in HE the thickness is increased to 79 mm. The absorber material corresponds to 5.82 $\lambda_I$ at $\eta = 0$ and almost 10 $\lambda_I$ at $0 < |\eta| < 1.3$.
 
@@ -411,7 +414,7 @@ The NbTi superconducting solenoid (see Fig. \ref{solenoid}) of 6 m in diameter i
   \label{solenoid}
 \end{figure}
 
-The solenoid is a central part in the CMS detector design. The idea was to have a uniform magnetic field capable of bending the trajectories of charged particles as they traverse the detector. When a low energy particle is produced, it has a helical path and will be fully contained within the detector. However, when a highly energised particle is produced, the trajectory is seen as a "straight" incomplete arc. Both situations lead to an imperfect measurement of momentum. 
+The solenoid is a central part in the CMS detector design. The idea was to have a uniform magnetic field capable of bending the trajectories of charged particles as they traverse the detector. When a low energy particle is produced ($O(0.5)$ GeV), it curls back and has a helical path that is fully contained within the detector. However, when a highly energised particle is produced, the trajectory is seen as a "straight" incomplete arc. Both situations lead to an imperfect measurement of momentum. 
 
 The primary physics quantities measured by the tracking system are presumed to be Gaussian distributed; but there are exceptions, e.g., momentum of the particle is not Gaussian distributed. However, the sagitta, which is inversely proportional to momentum, is Gaussian distributed. When a particle in the magnetic field passes through the material of the detector, the path deviates from the ideal circular line due to multiple scattering effects. The sagitta term is used to quantify the depth of the circular arc and is equal to the distance from the center of the arc to the center of its base. Since the sagitta is following a Gaussian distribution, it may be approximated by simpler expressions in many calculations of the momentum resolution. Hence, the sagitta is widely used in particle physics. 
 
@@ -422,7 +425,7 @@ The magnetic field strength B and the length of the track L are dictated by the 
 
 \subsection{The Muon Tracker}
 
-Many physics analyses in the CMS rely on precise measurements of the muons in the detector. Although muons are detected by the inner tracker, that information cannot be used by the trigger (which will be discussed in the following subsection). Therefore, the CMS has an outer tracker or muon tracker \cite{Muon_system_TDR} (see Fig. \ref{cms_muon_system}) located outside the calorimeters and the solenoid. Because of typical muon energies, muons produced in collisions at the LHC traverse the detector material with the minimal energy losses. To measure the energy of muons, the CMS uses the muon tracker, which relies on various gaseous detector technologies. The muon tracker is inserted into the gaps of the flux-return yoke. Tracks in the muon system are used to reconstruct standalone muons (see section \ref{sec:cms_reco}) and, in combination with the inner tracker, to reconstruct the global muons, more in section \ref{sec:cms_reco}.
+Many physics analyses in the CMS rely on precise measurements of the muons in the detector. Although muons are detected by the inner tracker, that information cannot be used by the trigger (which will be discussed in the following subsection). Therefore, the CMS has an outer tracker or muon tracker \cite{Muon_system_TDR} (see Fig. \ref{cms_muon_system}) located outside the calorimeters and the solenoid. Typical high energy muons that are produced in collisions at the LHC traverse the detector material with the minimal energy losses since their EM interaction cross section is much smaller than for electrons. To measure the energy of muons, the CMS uses the muon tracker, which relies on various gaseous detector technologies. The muon tracker is inserted into the gaps of the flux-return yoke. Tracks in the muon system are used to reconstruct standalone muons (see section \ref{sec:cms_reco}) and, in combination with the inner tracker, to reconstruct the global muons, more in section \ref{sec:cms_reco}.
 
 
 
@@ -441,14 +444,14 @@ CSCs are used in the forward direction to cover the region of 0.9 $ <|\eta|<$2.4
 
 
 To improve the performance of DTs and CSCs, RPCs are used and cover the barrel and endcaps in the range of $|\eta| <$ 1.9. 
-RPCs are double-gap chambers consisting of two resistive 2 mm in thickness Bakelite layers separated by a 2 mm layers filled with a mix of C$_2$H$_2$F$_4$, $i$C$_4$H$_{10}$, and SF$_6$ gases. RPCs operate in avalanche mode, producing an avalanche when the muon traverses the gas of the cell. RPCs have a spatial resolution of 0.8 - 1.2 cm, which is not as good as the ones provided by other muon subsystems, but RPCs have an advantage in terms of an excellent time resolution - just 3 ns. The barrel and the endcaps contain in total 10 RPC stations.
+RPCs are double-gap chambers consisting of two resistive 2 mm in thickness Bakelite layers separated by a 2 mm layers filled with a mix of C$_2$H$_2$F$_4$, isobutane C$_4$H$_{10}$, and SF$_6$ gases. RPCs operate in avalanche mode, producing an avalanche when the muon traverses the gas of the cell. RPCs have a spatial resolution of 0.8 - 1.2 cm, which is not as good as the ones provided by other muon subsystems, but RPCs have an advantage in terms of an excellent time resolution - just 3 ns. The barrel and the endcaps contain in total 10 RPC stations.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{The Triggers and DAQ}
 
-The CMS trigger \cite{Trigger} is a system responsible for selecting events of interest and storing them for the offline analysis. The trigger has two stages: the L1 trigger (see Fig. \ref{L1trigger}), which reduces the event rate from 40 MHz to 100 kHz, and the HLT, which further decreases the rate to nearly 1 kHz. The L1 trigger consists of custom hardware that processes a part of the information from calorimeters and the outer tracker systems. The HLT is a part of the detector readout system (DRS) and uses the full detector information for event reconstruction. The HLT is a computing farm consisting of 22000 CPU cores that produce a decision on whether to save or to skip the event with an average time of about 220 $\mu$s. The DRS is integrated in the higher level data acquisition (DAQ) system \cite{DAQ}. The selected events are collected and sent by the DAQ to the tapes of the main CERN computing centre (Tier-0) for the persistent storage. 
+The CMS trigger \cite{Trigger} is a system responsible for selecting events of interest and storing them for the offline analysis. The trigger has two stages: the L1 trigger (see Fig. \ref{L1trigger}), which reduces the event rate from 40 MHz to 100 kHz, and the HLT, which further decreases the rate to nearly 1 kHz. The L1 trigger consists of custom hardware that processes a part of the information from calorimeters and the outer tracker systems. The HLT is a part of the detector readout system (DRS) and uses the full detector information for event reconstruction. The HLT is a computing farm consisting of 22000 CPU cores that produce a decision on whether to save or to skip the event with an average time of about 220 $\mu$s. The DRS is integrated in the higher level data acquisition (DAQ) system \cite{DAQ}. The events selected by the HLT, which is very similar to offline event selection, are collected and sent by the DAQ to the tapes of the main CERN computing centre (Tier-0) for the persistent storage. 
 
 The L1 and HLT systems have differences and similarities. They operate at different time scales and the volumes of data they are processing are completely different. However, the goals of these systems are similar: to identify and reconstruct physics objects and combine their properties to produce an acceptance/rejection decision for each event. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -495,7 +498,7 @@ The whole event processing procedure of the HLT is centered around the HLT path.
 
 Most data enters the queue for processing and is ready to be sent to Tier-0 very soon. In some cases, the CMS prefers not to process immediately the special data, also known as the parked data. These data are collected and kept until the run is finished. In these situations, the data is sent for parking and the CMS tape is used. This mostly includes physics analyses such as vector boson fusion or parton distribution studies with Drell-Yan processes.
 
-The output of the HLT is limited by capacities of the Tier-0. This includes the bandwidth of the data transfer, how quickly we want to process and store the data, and, to a degree, the amount of the available tape.  All these factors complicate the work of the DAQ, because in addition to physics data streams, the calibration streams also need to be processed and stored. These streams, though, use information only from few subdetectors. 
+The output of the HLT is limited by capacities of the Tier-0. This includes the bandwidth of the data transfer, how quickly we want to process and store the data, and, to a degree, the amount of the available tape. All these factors complicate the work of the DAQ, because in addition to physics data streams, the calibration streams also need to be processed and stored. These streams, though, use information only from few subdetectors. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -505,7 +508,7 @@ The output of the HLT is limited by capacities of the Tier-0. This includes the 
 
 The DAQ systems in modern high energy physics are responsible for many tasks. The challenges are well known: high data rates and volumes, limited tape space, and limited transfer bandwidth. CMS DAQ is based on homogeneous architecture, scales well with the different beam energy regimes and data rates, and has a stable performance in a variety of operating conditions. 
 
-To illustrate an example of a complex computing task that is elegantly solved by the DAQ system, discussing the aforementioned FBUs system of the HLT in more detail is needed. The FBU relies on a single multi-core machine in which the communication with other units is done via shared memory. The data from the full detector is used for the filtering process. Complicated offline-like reconstruction algorithms are then used for the full precision event selection. With more CPU cores available for Run 2, the per-event time budget is increased to a "comfortable" 175 ms per event, which is a long enough time to run most of the CMS reconstruction algorithms. 
+To illustrate an example of a complex computing task that is elegantly solved by the DAQ system, discussing the aforementioned FBUs system of the HLT in more detail is needed. The FBU relies on a single multi-core machine in which the communication with other units is done via shared memory. The data from the full detector is used for the filtering process. Complicated offline-like reconstruction algorithms are then used for the full precision event selection. With more CPU cores available for Run 2, the per-event time budget to run HLT-style reconstruction is increased to a "comfortable" 175 ms per event, which is a long enough time to run most of the CMS reconstruction algorithms. 
 
 The current CMS DAQ was developed to address these core requirements: 
 

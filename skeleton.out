@@ -1,7 +1,24 @@
 \BOOKMARK [0][-]{section*.1}{List of Figures}{}% 1
 \BOOKMARK [0][-]{section*.2}{List of Tables}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Theory}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Lagrangian formalism of the Standard Model}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.2}{Double Higgs in Beyond the Standard Model Theories}{chapter.1}% 5
-\BOOKMARK [0][-]{figure.caption.8}{Bibliography}{}% 6
-\BOOKMARK [0][-]{section*.10}{References}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Physics Object Reconstruction in CMS}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Track Reconstruction}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.1}{Muon tracking}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.2}{Electron tracking}{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.3}{Primary Vertex reconstruction}{section.1.1}% 7
+\BOOKMARK [1][-]{section.1.2}{Particle level objects}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.2.1}{Particle Flow links and blocks}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.2}{Muons}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.3}{Electrons and isolated photons}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.4}{Hadrons and non-isolated photons}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.5}{Jets and jet corrections}{section.1.2}% 13
+\BOOKMARK [1][-]{section.1.3}{Other important physics quantities and objects}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.3.1}{The b tagging and secondary vertices}{section.1.3}% 15
+\BOOKMARK [2][-]{subsection.1.3.2}{Missing transverse momentum}{section.1.3}% 16
+\BOOKMARK [2][-]{subsection.1.3.3}{Pileup interactions}{section.1.3}% 17
+\BOOKMARK [2][-]{subsection.1.3.4}{Lepton isolation}{section.1.3}% 18
+\BOOKMARK [2][-]{subsection.1.3.5}{Data-Monte Carlo corrections}{section.1.3}% 19
+\BOOKMARK [3][-]{subsubsection.1.3.5.1}{Lepton efficiencies and the Tag-and-Probe method}{subsection.1.3.5}% 20
+\BOOKMARK [3][-]{subsubsection.1.3.5.2}{b tagging efficiency}{subsection.1.3.5}% 21
+\BOOKMARK [1][-]{section.1.4}{Datasets and Trigger Paths}{chapter.1}% 22
+\BOOKMARK [0][-]{table.caption.5}{Bibliography}{}% 23
+\BOOKMARK [0][-]{section*.7}{References}{}% 24
