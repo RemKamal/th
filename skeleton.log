@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  15 JUN 2019 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.14)  16 JUN 2019 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1117,10 +1117,10 @@ Overfull \hbox (0.16273pt too wide) detected at line 3
 ] (./skeleton.lot) [8
 
 ]
-(./nuthesis/sections/Conclusions.tex) [1
+(./nuthesis/sections/Conclusions.tex [1
 
 
-] [2]
+]) [2]
 (./nuthesis/sections/Conclusions_2.tex [3
 
 ]
@@ -1129,84 +1129,84 @@ File: nuthesis/images/uni_of_geneva.png Graphic file (type png)
 
 <use nuthesis/images/uni_of_geneva.png>
 Package pdftex.def Info: nuthesis/images/uni_of_geneva.png used on input line 1
-4.
+6.
 (pdftex.def)             Requested size: 234.1519pt x 133.04611pt.
 
 <nuthesis/images/scoollab3.png, id=92, 1445.4pt x 903.375pt>
 File: nuthesis/images/scoollab3.png Graphic file (type png)
 
 <use nuthesis/images/scoollab3.png>
-Package pdftex.def Info: nuthesis/images/scoollab3.png used on input line 15.
+Package pdftex.def Info: nuthesis/images/scoollab3.png used on input line 17.
 (pdftex.def)             Requested size: 234.1519pt x 146.33492pt.
 
 <nuthesis/images/finance1.png, id=93, 1319.93124pt x 728.7225pt>
 File: nuthesis/images/finance1.png Graphic file (type png)
 
 <use nuthesis/images/finance1.png>
-Package pdftex.def Info: nuthesis/images/finance1.png used on input line 16.
+Package pdftex.def Info: nuthesis/images/finance1.png used on input line 18.
 (pdftex.def)             Requested size: 234.1519pt x 129.26297pt.
 
 <nuthesis/images/finance2.jpg, id=94, 7797.13pt x 3888.5275pt>
 File: nuthesis/images/finance2.jpg Graphic file (type jpg)
 
 <use nuthesis/images/finance2.jpg>
-Package pdftex.def Info: nuthesis/images/finance2.jpg used on input line 17.
+Package pdftex.def Info: nuthesis/images/finance2.jpg used on input line 19.
 (pdftex.def)             Requested size: 234.1519pt x 116.76945pt.
 
 <nuthesis/images/finance3.png, id=95, 1147.28625pt x 872.25874pt>
 File: nuthesis/images/finance3.png Graphic file (type png)
 
 <use nuthesis/images/finance3.png>
-Package pdftex.def Info: nuthesis/images/finance3.png used on input line 18.
+Package pdftex.def Info: nuthesis/images/finance3.png used on input line 20.
 (pdftex.def)             Requested size: 234.1519pt x 178.01563pt.
 
 <nuthesis/images/boxing1.jpg, id=96, 786.94pt x 524.96124pt>
 File: nuthesis/images/boxing1.jpg Graphic file (type jpg)
 
 <use nuthesis/images/boxing1.jpg>
-Package pdftex.def Info: nuthesis/images/boxing1.jpg used on input line 19.
+Package pdftex.def Info: nuthesis/images/boxing1.jpg used on input line 21.
 (pdftex.def)             Requested size: 234.1519pt x 156.19994pt.
 
 <nuthesis/images/boxing2.png, id=97, 930.47626pt x 471.7625pt>
 File: nuthesis/images/boxing2.png Graphic file (type png)
 
 <use nuthesis/images/boxing2.png>
-Package pdftex.def Info: nuthesis/images/boxing2.png used on input line 20.
+Package pdftex.def Info: nuthesis/images/boxing2.png used on input line 22.
 (pdftex.def)             Requested size: 234.1519pt x 118.71776pt.
 
 <nuthesis/images/boxing4.jpg, id=98, 1084.05pt x 721.69624pt>
 File: nuthesis/images/boxing4.jpg Graphic file (type jpg)
 
 <use nuthesis/images/boxing4.jpg>
-Package pdftex.def Info: nuthesis/images/boxing4.jpg used on input line 21.
+Package pdftex.def Info: nuthesis/images/boxing4.jpg used on input line 23.
 (pdftex.def)             Requested size: 234.1519pt x 155.87746pt.
 
-Overfull \hbox (37.29485pt too wide) in paragraph at lines 14--22
+Overfull \hbox (37.29485pt too wide) in paragraph at lines 16--24
 [][] [] 
  []
 
 
-Overfull \hbox (37.29485pt too wide) in paragraph at lines 14--22
+Overfull \hbox (37.29485pt too wide) in paragraph at lines 16--24
 [] [] 
  []
 
 
-Overfull \hbox (37.29485pt too wide) in paragraph at lines 14--22
+Overfull \hbox (37.29485pt too wide) in paragraph at lines 16--24
 [] [] 
  []
 
 
-Overfull \hbox (37.29485pt too wide) in paragraph at lines 14--22
+Overfull \hbox (37.29485pt too wide) in paragraph at lines 16--24
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--22
+Underfull \hbox (badness 10000) in paragraph at lines 16--24
 
  []
 
 
-LaTeX Warning: Float too large for page by 61.73476pt on input line 24.
+LaTeX Warning: Float too large for page by 61.73476pt on input line 26.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1449,7 +1449,7 @@ Here is how much of TeX's memory you used:
  18282 multiletter control sequences out of 15000+600000
  87844 words of font info for 66 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 52i,11n,46p,1331b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,12n,46p,1331b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/
@@ -1466,7 +1466,7 @@ i12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri8.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on skeleton.pdf (35 pages, 33555399 bytes).
+Output written on skeleton.pdf (35 pages, 33555372 bytes).
 PDF statistics:
  552 PDF objects out of 1000 (max. 8388607)
  483 compressed objects within 5 object streams
