@@ -6,34 +6,30 @@ Database file #1: nuthesis/sections/bibl.bib
 Warning--entry type for "..." isn't style-file defined
 --line 1 of file nuthesis/sections/bibl.bib
 Warning--entry type for "wolfram" isn't style-file defined
---line 1365 of file nuthesis/sections/bibl.bib
+--line 1575 of file nuthesis/sections/bibl.bib
 Warning--entry type for "Bender" isn't style-file defined
---line 1373 of file nuthesis/sections/bibl.bib
+--line 1583 of file nuthesis/sections/bibl.bib
 Warning--entry type for "strassler" isn't style-file defined
---line 1417 of file nuthesis/sections/bibl.bib
+--line 1627 of file nuthesis/sections/bibl.bib
 Warning--entry type for "MonroyMontanez:2639240" isn't style-file defined
---line 1526 of file nuthesis/sections/bibl.bib
+--line 1736 of file nuthesis/sections/bibl.bib
 Warning--entry type for "Wertz:2632195" isn't style-file defined
---line 2306 of file nuthesis/sections/bibl.bib
+--line 2516 of file nuthesis/sections/bibl.bib
 Warning--entry type for "Cadamuro:2292733" isn't style-file defined
---line 2315 of file nuthesis/sections/bibl.bib
-Warning--empty journal in Mangano:454171
-Warning--there's a number but no volume in Mangano:454171
-Warning--empty author in CMS-PAS-HIG-14-009
-Warning--empty journal in Sirunyan:2018iwt
+--line 2525 of file nuthesis/sections/bibl.bib
 Warning--empty journal in Oliveira:2014kla
 Warning--empty journal in Xanda
-Warning--empty journal in Traczyk:2002jh
-Warning--empty journal in LHC_vacuum
-Warning--there's a number but no volume in LHC_vacuum
-Warning--empty publisher in Hauptman:2011zza
-Warning--empty author and editor in HCAL_TDR
-Warning--empty journal in Kalman_filter
-Warning--empty journal in DeterministicAnnealing
-Warning--empty author in CMS-PAS-BTV-15-001
-Warning--all relevant fields are empty in ...
-Warning--empty author in HIG-11-011
+Warning--empty author in CMS-PAS-HIG-17-032
+Warning--empty author in CMS-PAS-SMP-18-002
+Warning--empty author in CMS-PAS-SMP-16-006
 Warning--empty journal in bbWW
+Warning--empty author in HH_combination
+Warning--empty journal in Botje:2011sn
+Warning--empty journal in Alekhin:2011sk
+Warning--empty author in HIG-11-011
+Warning--empty booktitle in HiggsCouplings2018
+Warning--empty author in CMS-PAS-FTR-18-019
+Warning--all relevant fields are empty in ...
 Warning--empty journal in Vhbb_inspire
 Warning--empty institution in CMS_AN_2006-027
 Warning--empty institution in CMS_NOTE_2006-106
@@ -41,53 +37,61 @@ Warning--empty institution in CMS-PAS-JME-10-003
 Warning--empty note in LEPewkfits
 Warning--empty author in CMS-PAS-MUO-10-002
 Warning--empty author in lumiUnc
+Warning--empty journal in Mangano:454171
+Warning--there's a number but no volume in Mangano:454171
+Warning--empty journal in Sirunyan:2018iwt
 Warning--empty journal in Gröbner:356437
 Warning--there's a number but no volume in Gröbner:356437
-Warning--empty author in CMS-PAS-FTR-18-019
 Warning--empty author in CMS-PAS-HIG-17-030
-Warning--empty author in CMS-PAS-HIG-17-032
+Warning--empty author in CMS-PAS-HIG-14-009
 Warning--empty journal in Herr:941318
-Warning--empty author in HH_combination
-Warning--empty booktitle in HiggsCouplings2018
-You've used 195 entries,
+Warning--empty journal in LHC_vacuum
+Warning--there's a number but no volume in LHC_vacuum
+Warning--empty publisher in Hauptman:2011zza
+Warning--empty author and editor in HCAL_TDR
+Warning--empty journal in Kalman_filter
+Warning--empty journal in DeterministicAnnealing
+Warning--empty author in CMS-PAS-BTV-15-001
+Warning--empty journal in Traczyk:2002jh
+You've used 210 entries,
             1791 wiz_defined-function locations,
-            1503 strings with 33634 characters,
-and the built_in function-call counts, 35051 in all, are:
-= -- 2989
-> -- 1458
-< -- 25
-+ -- 582
-- -- 387
-* -- 2011
-:= -- 5728
-add.period$ -- 577
-call.type$ -- 195
-change.case$ -- 171
+            1567 strings with 36067 characters,
+and the built_in function-call counts, 37820 in all, are:
+= -- 3220
+> -- 1593
+< -- 30
++ -- 634
+- -- 424
+* -- 2179
+:= -- 6204
+add.period$ -- 623
+call.type$ -- 210
+change.case$ -- 186
 chr.to.int$ -- 0
-cite$ -- 227
-duplicate$ -- 1601
-empty$ -- 3736
-format.name$ -- 387
-if$ -- 7827
+cite$ -- 246
+duplicate$ -- 1736
+empty$ -- 4000
+format.name$ -- 424
+if$ -- 8433
 int.to.chr$ -- 0
-int.to.str$ -- 195
-missing$ -- 155
-newline$ -- 959
-num.names$ -- 175
-pop$ -- 573
+int.to.str$ -- 210
+missing$ -- 166
+newline$ -- 1035
+num.names$ -- 188
+pop$ -- 602
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 660
+skip$ -- 712
 stack$ -- 0
-substring$ -- 1659
-swap$ -- 204
-text.length$ -- 25
+substring$ -- 1758
+swap$ -- 225
+text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 32
-while$ -- 284
-width$ -- 198
-write$ -- 2030
-(There were 39 warnings)
+warning$ -- 36
+while$ -- 306
+width$ -- 213
+write$ -- 2196
+(There were 43 warnings)
