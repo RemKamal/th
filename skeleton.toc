@@ -1,6 +1,6 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{viii}{section*.1}
-\contentsline {chapter}{List of Tables}{x}{section*.2}
+\contentsline {chapter}{List of Figures}{vi}{section*.1}
+\contentsline {chapter}{List of Tables}{vii}{section*.2}
 \contentsline {chapter}{\chapternumberline {1}$bbZZ$ Physics Analysis}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Physics analysis overview}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Data analysis strategy}{3}{section.1.2}
@@ -10,28 +10,28 @@
 \contentsline {section}{\numberline {1.4}Simulated Samples}{9}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Signal processes simulation}{9}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Background processes simulation}{10}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Physics Objects Selection}{12}{section.1.5}
+\contentsline {section}{\numberline {1.5}Physics Objects Selection}{13}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Electrons}{13}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Muons}{13}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.2}Muons}{14}{subsection.1.5.2}
 \contentsline {subsection}{\numberline {1.5.3}Jets}{14}{subsection.1.5.3}
-\contentsline {subsection}{\numberline {1.5.4}b jets}{14}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.4}b jets}{15}{subsection.1.5.4}
 \contentsline {subsection}{\numberline {1.5.5}Missing transverse momentum}{15}{subsection.1.5.5}
-\contentsline {section}{\numberline {1.6}Event Selection}{15}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Kinematic selection of physics objects}{16}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Signal candidate construction and selection}{18}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}Signal and control kinematic regions}{20}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1.6.4}Signal region candidate selection with a multivariate technique}{22}{subsection.1.6.4}
-\contentsline {subsection}{\numberline {1.6.5}Event reweighing in simulation}{22}{subsection.1.6.5}
-\contentsline {section}{\numberline {1.7}Multivariate selection in the signal region}{25}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Kinematic variables of a candidate}{25}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Multivariate discriminant: a BDT classifier}{35}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}BDT selection requirement in the signal region}{55}{subsection.1.7.3}
-\contentsline {section}{\numberline {1.8}Uncertainties of the measurement}{55}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Normalisation uncertainties}{57}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{59}{subsection.1.8.2}
-\contentsline {section}{\numberline {1.9}Statistical Analysis}{62}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}The likelihood function}{62}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}The fit results}{66}{subsection.1.9.2}
-\contentsline {section}{\numberline {1.10}Discussion}{71}{section.1.10}
-\contentsline {chapter}{Bibliography}{73}{figure.caption.39}
-\contentsline {chapter}{References}{74}{section*.41}
+\contentsline {section}{\numberline {1.6}Event Selection}{16}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Kinematic selection of physics objects}{17}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Signal candidate construction and selection}{19}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Signal and control kinematic regions}{21}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Signal region candidate selection with a multivariate technique}{23}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1.6.5}Event reweighing in simulation}{23}{subsection.1.6.5}
+\contentsline {section}{\numberline {1.7}Multivariate selection in the signal region}{26}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Kinematic variables of a candidate}{26}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Multivariate discriminant: a BDT classifier}{36}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}BDT selection requirement in the signal region}{56}{subsection.1.7.3}
+\contentsline {section}{\numberline {1.8}Uncertainties of the measurement}{56}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Normalisation uncertainties}{58}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{60}{subsection.1.8.2}
+\contentsline {section}{\numberline {1.9}Statistical Analysis}{63}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}The likelihood function}{63}{subsection.1.9.1}
+\contentsline {subsection}{\numberline {1.9.2}The fit results}{67}{subsection.1.9.2}
+\contentsline {section}{\numberline {1.10}Discussion}{72}{section.1.10}
+\contentsline {chapter}{Bibliography}{74}{figure.caption.39}
+\contentsline {chapter}{References}{75}{section*.41}
