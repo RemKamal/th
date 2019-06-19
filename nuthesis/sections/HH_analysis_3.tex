@@ -5,7 +5,7 @@ In this chapter, we report on a search for the resonant production of a double H
 \section{Physics analysis overview}
 \label{sec:an_overview}
 
-We search for di-Higgs production through the gluon fusion mechanism mediated by two types of possible heavy resonances (separately): a spin-2 Randall-Sundrum (RS1) Kaluza-Klein (KK) graviton and a spin-0 RS1 radion \cite{WED, Xanda}. The width of the graviton and radion is assumed to be negligible with respect to the experimental resolution. We look for decays of WED particles (X) to the $bbZZ$ channel with the two b jets, two charged leptons, and two neutrinos in the final state. However,  the $bbWW$ intermediate channel can also contribute ($0(20)\%$) to the final state of this measurement. Therefore, the full chain of this measurement consists of $X \rightarrow HH \rightarrow bbZZ/bbWW \rightarrow 2 b 2l 2 \nu$. In the above, one of the Higgs bosons decays to a pair of b quarks and the other Higgs boson decays to ZZ or WW system. For the purposes of this measurement, we consider only leptonic decays of ZZ and WW. Intermediate taus are included when the decay to daughter muons and electrons. We explore the invariant masses of WED particles ranging from 250 to 1000 GeV. The result of the measurement is the upper limit on the production cross section of the resonance multiplied by the branching fraction of its decay into the aforementioned $2 b 2 l 2 \nu$ final state. 
+We search for di-Higgs production through the gluon fusion mechanism mediated by two types of possible heavy resonances (separately): a spin-2 Randall-Sundrum (RS1) Kaluza-Klein (KK) graviton and a spin-0 RS1 radion \cite{WED, Xanda}. The width of the graviton and radion is assumed to be negligible with respect to the experimental resolution. We look for decays of WED particles (X) to the $bbZZ$ channel with the two b jets, two charged leptons, and two neutrinos in the final state. However,  the $bbWW$ intermediate channel can also contribute ($0(20)\%$) to the final state of this measurement. Therefore, the full chain of this measurement is $X \rightarrow HH \rightarrow bbZZ/bbWW \rightarrow 2 b 2l 2 \nu$. In the above, one of the Higgs bosons decays to a pair of b quarks and the other Higgs boson decays to ZZ or WW system. For the purposes of this measurement, we consider only leptonic decays of ZZ and WW. Intermediate taus are included when the decay to daughter muons and electrons. We explore the invariant masses of WED particles ranging from 250 to 1000 GeV. The result of the measurement is the upper limit on the production cross section of the resonance multiplied by the branching fraction of its decay into the aforementioned $2 b 2 l 2 \nu$ final state. 
 
 In this data analysis (later referred to as the ``analysis''), we will describe first the data sets (often referred to as a ``datasets'') and data triggers. The measurement uses the DoubleEG and DoubleMuon PDs defined in the previous chapter. These di-electron and di-muon channels are analyzed separately and the information is combined in the final result. To select the events with two prompt charged leptons, a set of triggers was applied, when the events were recorded. To increase the statistics of the measurement and maximize the number of leptons passing the selection, certain complex trigger strategies were employed. 
 
@@ -21,7 +21,7 @@ The material in this chapter follows the description of two articles to which th
 
 \section{Data analysis strategy}
 \label{sec:strategy}
-We form the Lorentz energy-momentum vector associated with the double Higgs system. This vector is constructed as the sum of the Lorentz vectors of the two leptons, two b jets, and the four-vector representing neutrinos (\PTslash). As the z component of the neutrinos' momentum is unknown, we form a pseudo-transverse mass:
+We form the Lorentz energy-momentum vector associated with the double Higgs system. This vector is constructed as the sum of the Lorentz vectors of the two leptons, two b jets, and the four-vector representing neutrinos ($\vec{p}^{miss}_T$). As the z component of the neutrinos' momentum is unknown, we form a pseudo-transverse mass:
 $\tilde{M}_T(HH) = \sqrt{E^2 - p_{z}^2}$ (further referred to as ``transverse mass'' for brevity), where $E$ and $p_z$ are the energy and the z-axis component of the Lorentz energy-momentum vector of the di-Higgs candidate. Because $p_z$ of the neutrinos is unknown and varies from event to event, the variable \mTHH has a distribution, the shape of which depends on the mass of the intermediate resonance and how much energy is carried by the neutrinos.
 
 \mTHH distributions are derived for 16 masses and for both spin hypotheses. The \mTHH is constructed using signal and background simulations. The distributions are produced separately for the signal-enriched (SR) and control regions (CR), which are defined later in this chapter.
@@ -38,7 +38,7 @@ The search is performed using DoubleMuon and DoubleEG PDs recorded by CMS in 201
 The data were collected in several data taking periods and approximate values of the integrated luminosity of these periods are given in Table \ref{tab:datasets}.
 
 \begin{table}[htbp]
-\caption{List of data sets collected by the CMS in 2016. Each era contains a unique letter identifier. Also, the date of the data processing is specified. If re-processing was run, it is labeled as ``v2''. Corresponding integrated luminosities are shown in the second column.
+\caption[List of data sets collected by the CMS in 2016.]{List of data sets collected by the CMS in 2016. Each era contains a unique letter identifier. Also, the date of the data processing is specified. If re-processing was run, it is labeled as ``v2''. Corresponding integrated luminosities are shown in the second column.
 }
 \label{tab:datasets}
 \begin{center}
@@ -68,7 +68,7 @@ Total Luminosity & $\sim$35.9 \\
 The data events that are used in this measurement are selected with a set of HLT triggers that required the presence of two muons or two electrons in the event. In the di-electron final state, the trigger requires the leading electron to have $p_T$ above 23 GeV, and the sub-leading electron to have $p_T$ above 12 GeV. In offline selection $p_T$ selection is increased to 25 and 15 GeV correspondingly. %The latter leg corresponds to a relatively low-efficiency electron. Since the measurement is focused on ``golden'' electrons coming from on-shell Z boson decays, the offline selection is slightly tighter than the HLT selection and requires the sub-leading electron to have $p_T$ above 15 GeV.
 The final state that contains two prompt muons is selected with an HLT path which is a combination of several HLT paths chained together using the logical ``OR'' operation. In other words, the muons are required to pass the selection of at least one of the HLT paths. At the HLT level, the leading and sub-leading muons have to pass the 17 and 8 GeV $p_T$ requirements respectively. The difference among HLT paths has been explained at length in Section \ref{ch:cms}. The offline analysis increases the $p_T$ threshold values to 20 and 15 GeV correspondingly. For the offline selection, electrons are selected in the range $|\eta| < $ 2.5 and muons in the range $|\eta| < $ 2.4. For both channels, the $|\eta|$ region in the gap (1.4442 to 1.566) between the barrel and endcap is excluded.
 
-The same trigger selections are applied to MC simulated events to mimic the selection in data. The efficiencies are then derived for MC and data, and SFs are determined using the TnP procedure discussed in Section \ref{sec:TnP}. Trigger SFs have been computed for each trigger leg separately since the selection of each leg varies (Fig. ~\ref{fig:trigger_eff_diele}). Following the recommendations from the CMS Muon POG, scale factors have been calculated separately for two data collecting periods: runs B to G (Fig. \ref{fig:trigger_SF_dimu_BCDEFG}, and run H separately (Fig. \ref{fig:trigger_SF_dimu_H}), since the LHC conditions varied significantly for the run H. All eras have slightly different integrated luminosities, see Table \ref{tab:datasets}, so the final SFs are luminosity averaged. Additionally, as was discussed in the chapter on CMS Physics Objects Reconstruction, some triggers did not contain the DZ requirement, while others did. Therefore, scale factors of the DZ selection are also measured, see Fig. \ref{fig:trigger_SF_dimu_dZ_H}). Prior to measuring the trigger scale factors, the electrons and muons were required to satisfy ID and ISO selections; more details are given in the subsections \ref{sec:electrons, sec:muons}. 
+The same trigger selections are applied to MC simulated events to mimic the selection in data. The efficiencies are then derived for MC and data, and SFs are determined using the TnP procedure discussed in Section \ref{sec:TnP}. Trigger SFs have been computed for each trigger leg separately since the selection of each leg varies (Fig. ~\ref{fig:trigger_eff_diele}). Following the recommendations from the CMS Muon POG, scale factors have been calculated separately for two data collecting periods: runs B to G (Fig. \ref{fig:trigger_SF_dimu_BCDEFG}, and run H separately (Fig. \ref{fig:trigger_SF_dimu_H}), since the LHC conditions varied significantly for the run H. All eras have slightly different integrated luminosities, see Table \ref{tab:datasets}, so the final SFs are luminosity averaged. Additionally, as was discussed in the chapter on CMS Physics Objects Reconstruction, some triggers did not contain the DZ requirement, while others did. Therefore, scale factors of the DZ selection are also measured, see Fig. \ref{fig:trigger_SF_dimu_dZ_H}). Prior to measuring the trigger scale factors, the electrons and muons were required to satisfy ID and ISO selections; more details are given in the subsections \ref{sec:electrons}, \ref{sec:muons}. 
 
 \begin{figure}[H]
 \centering
@@ -121,7 +121,7 @@ Other background processes that contribute to a lesser degree include single top
 \begin{table}[H]
 %\footnotesize
 %\begin{center}
-\caption{Background Monte Carlo samples. First column is the name of the process, the second column is the name of the generator used to simulate the corresponding process.
+\caption[Background Monte Carlo samples.]{Background Monte Carlo samples. First column is the name of the process, the second column is the name of the generator used to simulate the corresponding process.
 }
 \label{tab:bg_mcsamples}
 %\scalebox{0.8}{
@@ -244,7 +244,7 @@ To reject misreconstructed (or misidentified) jets due to detector noise, pileup
 Each identified jet is further assigned a probability to originate from the b quark using the CMVA b tagging discriminant. This tagger produces as output a continuous discriminant with a value between -1 and 1, that is used to define three WPs depending on the chosen discriminant value. CMS BTag POG provides the CMS with the WP Loose, Medium, and Tight. For our measurement, the WP Medium requirement (>0.4432) has led to the best expected (from the simulation) results (the lowest upper limits as will be explained later). Therefore, the WP Medium is chosen in this analysis for the derivation of the final results. Jets passing the WP Medium requirement are classified as b jets. The threshold is chosen such that the misidentification rate for light-quark and gluon jets is about 1$\%$ and the b jet tagging efficiency for this working point is about 66$\%$. Two b jets with the largest scores of the CMVA discriminant are used to reconstruct the $H \to b\bar{b}$ candidate, which will be explained at length later in this chapter. 
 
 \subsection{Missing transverse momentum}
-In this measurement two neutrinos are present in the final state. They come from the off-shell Z boson decays to neutrinos and also from leptonic decays of W bosons. Even though the two neutrinos present in the signal events cannot be identified directly by the CMS detector, their presence can be inferred from the combined transverse momentum vector, using the momentum conservation requirement in the transverse plane for each event. The missing transverse momentum ~\PTslash is computed as the negative vector sum of the transverse momenta of all visible PF objects and is further JEC and JER corrected, see Section \ref{sec:met}. The missing transverse energy \ETslash is the magnitude of the ~$\vec{p}^{miss}_T$ vector. 
+In this measurement two neutrinos are present in the final state. They come from the off-shell Z boson decays to neutrinos and also from leptonic decays of W bosons. Even though the two neutrinos present in the signal events cannot be identified directly by the CMS detector, their presence can be inferred from the combined transverse momentum vector, using the momentum conservation requirement in the transverse plane for each event. The missing transverse momentum ~$\vec{p}^{miss}_T$ is computed as the negative vector sum of the transverse momenta of all visible PF objects and is further JEC and JER corrected, see Section \ref{sec:met}. The missing transverse energy \ETslash is the magnitude of the ~$\vec{p}^{miss}_T$ vector. 
 
 All corrections recommended by the CMS JetMET POG are used in this measurement ~\cite{MissingETRun2Corrections}. Additionally, a set of filters related to the instrumental effects is employed, such as the removal of the misreconstructed signals in the HCAL, noise in the tracker, etc. ~\cite{MissingETOptionalFiltersRun2}. 
 
@@ -272,7 +272,7 @@ We have described the kinematic selection of leptons and jets (and b jets) in th
 
 \begin{table}[H]
 \begin{center}
-\caption{The MET requirements as a function of the mass of the $HH$ candidate. Selection values (the second column) are provided for different mass hypotheses (the first column) of the narrow resonance decaying to the $HH$ system.}
+\caption[The MET requirements as a function of the mass of the $HH$ candidate.]{The MET requirements as a function of the mass of the $HH$ candidate. Selection values (the second column) are provided for different mass hypotheses (the first column) of the narrow resonance decaying to the $HH$ system.}
 \begin{tabular}{|c|c|} \hline
 {Signal mass (GeV)} & \ETslash selection (GeV)\\\hline
 260-300 & \textgreater~40 \\
@@ -325,7 +325,7 @@ The efficiency of the candidate selection, up to this point, is summarised in Ta
 
 \begin{table}
 \begin{center}
-\caption{Fraction of events surviving the candidate selection and kinematic requirements. Efficiencies are given for $bbZZ$ and $bbWW$ contributions in the SR and are normalised to the initial event counts before any selection is applied. A di-muon channel is presented. Numbers for the di-electron channel have the same trend but lower values, because in CMS efficiencies for electrons are lower than for muons.}
+\caption[Fraction of events surviving the candidate selection and kinematic requirements.]{Fraction of events surviving the candidate selection and kinematic requirements. Efficiencies are given for $bbZZ$ and $bbWW$ contributions in the SR and are normalised to the initial event counts before any selection is applied. A di-muon channel is presented. Numbers for the di-electron channel have the same trend but lower values, because in CMS efficiencies for electrons are lower than for muons.}
 \begin{tabular}{ |c|c|c| } \hline
 {Process} & Mass (GeV) & Efficiency (\%)  \\\hline
 bbWW & 300 & 0.2 \\
@@ -367,7 +367,7 @@ To identify the b jets, a selection on the output of the CMVA tagger is applied.
 \item{\bfseries Kinematic reweighting of the DY plus jets samples} 
 \label{DY_reweighting}
 
-DY plus jets samples used in this measurement are produced at LO (see Section \ref{data_and_triggers}). The samples are corrected to exhibit NLO kinematic behaviour in the EW interaction by assigning a weight to each event. As the biggest discrepancy between data and simulation for such samples is typically found in the di-jet invariant mass distribution, an LO-to-NLO correction as a function of the $\Delta \eta_{b\ jets}$ separation is computed following the procedure described in \cite{DYLOtoNLO}. As stated there, this correction improves the data-MC agreement in many distributions derived from the di-jet objects or based on the $p_T^{\Zll}$ variable, while has a negligible effect on the remaining kinematic variables. The correction means that a kinematic weight is assigned to each event.
+DY plus jets samples used in this measurement are produced at LO (see Section \ref{sec:data_and_triggers}). The samples are corrected to exhibit NLO kinematic behaviour in the EW interaction by assigning a weight to each event. As the biggest discrepancy between data and simulation for such samples is typically found in the di-jet invariant mass distribution, an LO-to-NLO correction as a function of the $\Delta \eta_{b\ jets}$ separation is computed following the procedure described in \cite{DYLOtoNLO}. As stated there, this correction improves the data-MC agreement in many distributions derived from the di-jet objects or based on the $p_T^{\Zll}$ variable, while has a negligible effect on the remaining kinematic variables. The correction means that a kinematic weight is assigned to each event.
 
 It was found by several Higgs analysis teams that the previous correction does not address the data-MC discrepancies for Z bosons with high $p_T$. The spectrum of the $p_T$ of the Z boson distribution is harder for DY plus jets MC simulation than for data. This is due to the fact that the simulation does not include higher-order QCD+EW corrections \cite{NLO_Vjets}. The DY plus jets simulated samples are reweighted as a function of the $p_T^{\Zll}$ to update the LO samples to the NLO in QCD+EW. The corrections can be as large as 10\% for energetic Z bosons with $p_T > 400$ GeV.
 
@@ -394,13 +394,13 @@ The list below summarises the set of variables used as input to the MVA discrimi
 \begin{itemize}
 
 \item{\bfseries $\Delta R$ separation between two b jets.}
-The $\Delta R$ (defined in Section \ref{sec:cms}) separation between the b jets ($\Delta R_{b\ jets}$) gradually decreases as we start considering larger graviton or radion masses. This fact is explained by the Lorentz boost of the \HBB~system. When a heavy resonance produces two SM Higgs bosons, they are highly boosted. For the Higgs boson, which will further decay to a pair of b quarks (\HBB), the b quarks will come out of the decay almost collinear to each other with a minimal value of $\Delta R_{b\ jets}$. For background processes, this separation does not depend on the graviton or radion mass. 
+The $\Delta R$ (defined in Section \ref{ch:cms}) separation between the b jets ($\Delta R_{b\ jets}$) gradually decreases as we start considering larger graviton or radion masses. This fact is explained by the Lorentz boost of the \HBB~system. When a heavy resonance produces two SM Higgs bosons, they are highly boosted. For the Higgs boson, which will further decay to a pair of b quarks (\HBB), the b quarks will come out of the decay almost collinear to each other with a minimal value of $\Delta R_{b\ jets}$. For background processes, this separation does not depend on the graviton or radion mass. 
 
 \item{\bfseries $\Delta R$ separation between two leptons.}
 The distance between two leptons in $\eta - \varphi$ space ($\Delta R_{leptons}$) tends to be smaller for the dilepton system coming from the real Z bosons originating from \HZZ~decays, in comparison to the $\Delta R_{leptons}$ distance between two random OSSF leptons produced by background processes. 
 
 \item{\bfseries Missing transverse momentum.}
-The $\PTslash$ distribution coming from the off-shell Z bosons is constrained by the invariant mass of the parent Higgs boson and, thus, has a more narrow distribution. Conversely, the MET coming from $t\bar{t}$ background process can produce smaller and larger values of the MET outside of the aforementioned constrainment. 
+The $\vec{p}^{miss}_T$ distribution coming from the off-shell Z bosons is constrained by the invariant mass of the parent Higgs boson and, thus, has a more narrow distribution. Conversely, the MET coming from $t\bar{t}$ background process can produce smaller and larger values of the MET outside of the aforementioned constrainment. 
 
 \item{\bfseries Invariant mass of the $\HBB$~candidate.} 
 The mass of a two b jet system coming from a real Higgs boson tends to be close to the SM Higgs boson invariant mass smeared by the b jet energy-momentum resolution, while the background candidates from unrelated b jets can have smaller and larger masses, especially if they come from the top quarks of the $t\bar{t}$ background.
@@ -409,7 +409,7 @@ The mass of a two b jet system coming from a real Higgs boson tends to be close 
 The transverse momentum of the \HBB~candidate ($p_T^{Hbb}$) tends to have a relatively narrow and peaked distribution for candidates coming from the hypothetical signal in comparison to the broad distributions produced by background processes. 
 
 \item{\bfseries Invariant mass of the $ZZ^*$~system.} 
-$ZZ^*$ mass of two Z bosons coming from the Higgs boson decay ($\HZZ$) tends to be close to the SM Higgs boson mass smeared by the \PTslash resolution, while the background candidates from DY production in association with jets can have random masses. These can be particularly large if they come from DY production in association with several jets in addition to some instrumental MET present in the event.
+$ZZ^*$ mass of two Z bosons coming from the Higgs boson decay ($\HZZ$) tends to be close to the SM Higgs boson mass smeared by the $\vec{p}^{miss}_T$ resolution, while the background candidates from DY production in association with jets can have random masses. These can be particularly large if they come from DY production in association with several jets in addition to some instrumental MET present in the event.
 
 \item{\bfseries Transverse momentum of the $ZZ^*$~system.} 
 The transverse momentum of the \HZZ~candidate ($p_T^{Hzz}$) tends to have a relatively narrow and peaked distribution for candidates coming from the hypothetical signal in comparison to broad distributions produced by the background processes. 
@@ -422,7 +422,7 @@ The transverse momentum of the Z candidate ($p_T^Z$) tends to have a relatively 
 
 \end{itemize}
 
-At this stage of the analysis description, we would like to refer the reader to the pre-fit plots (figures in the left columns). The figures are shown in the following order: all nine distributions in CRDY (see Figs. \ref{MCcomparisons_mm_low_CRDY_1}, \ref{MCcomparisons_mm_low_CRDY_2}, \ref{MCcomparisons_mm_low_CRDY_3}, \ref{MCcomparisons_mm_low_CRDY_4}, \ref{MCcomparisons_mm_low_CRDY_5}), in the BDT sideband \footnote{Once the BDT selection is introduced, in the SR the candidates will have to pass the BDT requirement. The region below the BDT selection is called the BDT sideband. According to CMS unblinding policy, discussed later, it is not allowed to look at the SR at this point; therefore, one checks the data-MC agreement using CRs and the BDT sideband SR.} SR (see Figs. \ref{MCcomparisons_mm_low_SR_bdt_sideband_1}, \ref{MCcomparisons_mm_low_SR_bdt_sideband_2}, \ref{MCcomparisons_mm_low_SR_bdt_sideband_3}, \ref{MCcomparisons_mm_low_SR_bdt_sideband_4}), and in CRTT (see Figs. \ref{MCcomparisons_mm_low_CRTT_1}, \ref{MCcomparisons_mm_low_CRTT_2}, \ref{MCcomparisons_mm_low_CRTT_3}, \ref{MCcomparisons_mm_low_CRTT_4}, \ref{MCcomparisons_mm_low_CRTT_5}). The simulated distributions are found to be in an acceptable agreement ($\chi^2 \sim 2$ ) with those from the data and are judged to be adequate for use in a multivariate discriminant construction discussed next. The distributions in the SR will be shown in the Section \ref{sec:fit_results}.
+At this stage of the analysis description, we refer the reader to the pre-fit plots (figures in the left columns). The figures are shown in the following order: all nine distributions in CRDY (see Figs. \ref{MCcomparisons_mm_low_CRDY_1}, \ref{MCcomparisons_mm_low_CRDY_2}, \ref{MCcomparisons_mm_low_CRDY_3}, \ref{MCcomparisons_mm_low_CRDY_4}, \ref{MCcomparisons_mm_low_CRDY_5}), in the BDT sideband \footnote{Once the BDT selection is introduced, in the SR the candidates will have to pass the BDT requirement. The region below the BDT selection is called the BDT sideband. In the unblinding scheme employed in this measurement, discussed later, the SR distributions are not examined at this point; data-MC agreement is checked using CRs and the BDT sideband of the SR.} of the SR (see Figs. \ref{MCcomparisons_mm_low_SR_bdt_sideband_1}, \ref{MCcomparisons_mm_low_SR_bdt_sideband_2}, \ref{MCcomparisons_mm_low_SR_bdt_sideband_3}, \ref{MCcomparisons_mm_low_SR_bdt_sideband_4}), and in CRTT (see Figs. \ref{MCcomparisons_mm_low_CRTT_1}, \ref{MCcomparisons_mm_low_CRTT_2}, \ref{MCcomparisons_mm_low_CRTT_3}, \ref{MCcomparisons_mm_low_CRTT_4}, \ref{MCcomparisons_mm_low_CRTT_5}). The simulated distributions are found to be in an acceptable agreement ($\chi^2 \sim 2$ ) with those from the data and are judged to be adequate for use in a multivariate discriminant construction discussed next. The distributions in the SR will be shown in the Section \ref{sec:fit_results}.
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 \begin{figure}[H]
@@ -494,7 +494,7 @@ At this stage of the analysis description, we would like to refer the reader to 
     \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/dR_leps_mm_SR_FullPostfit_plot_apr18.png}\\
 %    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hhMt_mm_SR_prefit_plot_apr18.png}
 %    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hhMt_mm_SR_FullPostfit_plot_apr18.png}\\
-\caption[Data-MC comparison in the SR BDT sideband.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\caption[Data-MC comparison in the BDT sideband of the SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband of the SR, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
     \label{MCcomparisons_mm_low_SR_bdt_sideband_1}
   \end{center}
 \end{figure}
@@ -506,7 +506,7 @@ At this stage of the analysis description, we would like to refer the reader to 
     \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass0_mm_SR_FullPostfit_plot_apr18.png}\\
     \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass1_mm_SR_prefit_plot_apr18.png}
     \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass1_mm_SR_FullPostfit_plot_apr18.png}\\
-\caption[Data-MC comparison in the SR BDT sideband.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\caption[Data-MC comparison in the BDT sideband of the SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband of the SR, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
     \label{MCcomparisons_mm_low_SR_bdt_sideband_2}
   \end{center}
 \end{figure}
@@ -517,7 +517,7 @@ At this stage of the analysis description, we would like to refer the reader to 
     \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt0_mm_SR_FullPostfit_plot_apr18.png}\\
     \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt1_mm_SR_prefit_plot_apr18.png}
     \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt1_mm_SR_FullPostfit_plot_apr18.png}\\
-    \caption[Data-MC comparison in the SR BDT sideband.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+    \caption[Data-MC comparison in the BDT sideband of the SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband of the SR, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
     \label{MCcomparisons_mm_low_SR_bdt_sideband_3}
   \end{center}
 \end{figure}
@@ -530,7 +530,7 @@ At this stage of the analysis description, we would like to refer the reader to 
  %   \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zmass_high_mm_SR_FullPostfit_plot_apr18.png}\\
     \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zpt0_mm_SR_prefit_plot_apr18.png}
     \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zpt0_mm_SR_FullPostfit_plot_apr18.png}\\
-\caption[Data-MC comparison in the SR BDT sideband.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\caption[Data-MC comparison in the BDT sideband of the SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband of the SR, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
     \label{MCcomparisons_mm_low_SR_bdt_sideband_4}
   \end{center}
 \end{figure}
@@ -609,7 +609,7 @@ After the training procedure, the ML algorithm produces a discriminant, which is
 One prefers a classifier with low bias and low variance. A bias is the difference between the average prediction of our model and the correct value, the latter of which we are trying to predict. A classifier with a high bias oversimplifies the model and does not take into account all the nuances of a given train dataset. Therefore, analysts prefer low bias models, which are flexible and perform well both on the train and test data, and always provide a stable separation between the signal and background hypotheses. A variance is the variability of model prediction for a given data point and is related to the spread of our data (a sharp peak vs a broad distribution). A model with high variance learns almost every single pattern in the train data and, therefore, will not generalize well when given new unseen data. As a result, models with a high variance achieve the best scores using the train data but perform poorly on the test data. Thus, low variance models, which are robust when applying the trained classifiers on a dataset that is statistically independent from the one used for training, are preferable.
 
 One of the most popular ML algorithms in HEP is based on boosted decision trees (BDT). A single decision tree is a sequence of simple binary splits on each of the input variables. The tree can thus be depicted as a multidimensional set of selections on input space. The tree assigns a score of +1 or -1 if a given event is signal or background-like. The key elements in each step of the BDT splits are the variables used for the selection and the positions of the selections. Both are determined using an impurity criterion $I(p_n)$, which is a function of the signal purity $p_n$ in a tree node $n$. As a definition of the impurity criterion for this measurement, the Gini coefficient is used: $I_G(p_n) = 2 p_n \cdot (1 - p_n)$. The signal purity is defined as a ratio of the signal contribution to the total number of signal and background events, $p_n = S/(S+B)$. The impurity criterion is chosen such that it is at the minimum when $p_n$=0 or $p_n$=1. These values would give perfect signal-background discrimination. The criterion is at the maximum, when $p_n$=0.5, which means no discrimination is achieved. 
-Each split maximises the gain function $G=I(p_n) - f_1I(p_{c1})-f_2I(p_{c2})$ . In this formulation of $G$, the labels c1 and c2 refer to child nodes of the parent node, and $f1$ and $f2$ are the fractions of events of the parent node that are found in child nodes c1 and c2, respectively. 
+Each split maximises the gain function $G=I(p_n) - f_1I(p_{c1})-f_2I(p_{c2})$ . In this formulation of $G$, the labels c1 and c2 refer to child nodes of the parent node, and $f_1$ and $f_2$ are the fractions of events of the parent node that are found in child nodes c1 and c2, respectively. 
 The tree keeps applying the selection on the input variables until either a maximum depth is reached (a number of consecutive splits), or a minimum number of events in the final child nodes are attained. The problem with such a tree growing procedure is that it is prone to overtraining, which means the model will not generalize well and have a high variance. 
 
 One way to deal with BDT overtraining is boosting. The idea behind boosting is that signal events from the training sample that end up in a background node or vice versa are given intentionally large weights (a penalty). These weights are normally significantly larger than the weights for events with the correct leaf node prediction. Such a penalty procedure re-weighs the train data and then new decision trees are created. The boosting is applied hundreds of times, which produces a set of new reweighted trees (a forest). Intuitively, boosting is a method in which a large number of shallow trees, which have only a few splits, are combined by taking a weighted average of their output scores. The discriminating power of a single shallow tree is usually poor, but such a tree is less prone to overtraining, therefore when combined, the ensemble of these trees produces a model with high and stable performance.
@@ -838,7 +838,7 @@ The corresponding efficiencies of the BDT selection are presented in Table \ref{
 
 \begin{table}[H] 
 \begin{center} 
-\caption{Efficiency of the BDT selection requirement in two mass regions and for two channels: $ee$ channel (top) and $\mu\mu$ channel (bottom). }
+\caption[Efficiency of the BDT selection.]{Efficiency of the BDT selection in two mass regions and for two channels: $ee$ channel (top) and $\mu\mu$ channel (bottom). }
 \begin{tabular}{|c|c|c|}
 \hline
 sample & Efficiency at 300 GeV (\%) & Efficiency at 900 GeV (\%) \\
@@ -873,7 +873,7 @@ Dibosons & 51.4 & 6.2 \\
 \section{Uncertainties of the measurement}
 \label{sec:Systematics}
 
-The outcome of the statistical analysis is the limit on the $HH$ production cross section multiplied by the BF of the final state (or just the limit). The statistical analysis uses the predicted event counts for different processes as well as the shape information of kinematic distributions for those events. The predicted event counts are computed by multiplying the number of events in simulated samples of different processes by the most accurately predicted cross sections for those processes, while also assigning event weights based on several other factors. However, the results of the analysis are highly affected by systematic and statistical uncertainties. We first discuss the types of uncertainties, how they affect the final limits, and also provide the size of this impact for dominant sources of the uncertainties. Then, we will discuss the fit procedure and the variable that was used to extract the limits. 
+The outcome of the statistical analysis is the limit on the $HH$ production cross section multiplied by the BF of the final state (or just the limit). The statistical analysis uses the predicted event counts for different processes as well as the shape information of the final kinematic variable, the pseudo-transverse mass of the di-Higgs system \mTHH, for those events. The predicted event counts are computed by multiplying the number of events in simulated samples of different processes by the most accurately predicted cross sections for those processes, while also assigning event weights based on several other factors. However, the results of the analysis are highly affected by statistical uncertainties, and to a smaller degree, by systematic uncertainties. We first discuss the types of uncertainties, how they affect the final limits, and also provide the size of this impact for dominant sources of the uncertainties. Then, we will discuss the fit procedure and the variable that was used to extract the limits. 
 
 Uncertainties that affect the sensitivity of the search come from a variety of sources: statistical uncertainties due to the limited size of the sample statistics, experimental uncertainties related to the accuracy of the detector response, the amount of collected data (uncertainty on the luminosity), differences of simulated samples from real data, and the theoretical uncertainties on cross sections or proton structure. Following CMS practices, below we will divide all uncertainties into two broad classes: the ``normalization'' and the ``shape'' uncertainties. The former modifies only the event yields (or ``normalizations'' for brevity) of selected events from different processes. The latter may also distort the shape of the distribution of the final kinematic variable that is used in the extraction of the limits.
 
@@ -898,11 +898,11 @@ The impossibility to know precisely the structure of the interacting protons is 
 The uncertainty associated with the theoretical uncertainties in the QCD factorization and renormalization scales is evaluated. This uncertainty affects the expected yield of the signal and background events (except the \ttbar and DY processes, which normalizations are fixed to the values determined during the fit). This uncertainty is computed by independently varying the factorization and renormalization scales, used as parameters in the Pythia event generator. The variation is done in the MC simulation following a standard CMS prescription given by the PDF4LHC \cite{Butterworth:2015oua}. The scales in signal samples are varied by a factor of 2 up and down - multiplying the original nominal scale values by two corresponding factors: 0.5 and 2. The unphysical cases, when one of the scales fluctuates up, while the other fluctuates down, are not considered. In each bin of the final kinematic variable that is used in the statistical analysis, the maximum and minimum variations of the yields are used to build an uncertainty region around the nominal shape. The size of the envelope indicates that these scales affect the yields of the processes at a level of 4-6\%.
 
 \item{\bf Theoretical values of the cross sections.} 
-The uncertainty on the theoretical cross section value of the single top production is propagated to the background yields of the single top background processes and used to normalize their event yield. The uncertainty is found to be 5--7\%. 
+The uncertainty on the theoretical cross section value of the single top, ZH, and diboson production is propagated to the background yields of these background processes and used to normalize their event yield. The uncertainty is 5--7\%. 
 
 \item{\bf Missing transverse momentum.} 
 During the clustering of the jets and a subsequent application of JEC and JER corrections, 
-neutral hadrons and photons that do not belong to any jet (``unclustered energy'') and jets with transverse momenta below 10~GeV - lack such corrections. This affects the MET reconstruction and results in a small systematic uncertainty. The effect of JEC on the unclustered energy and subsequently on the magnitude of the \PTslash is studied. The effect is propagated to the final kinematic variable, which contains the \PTslash. The effect of this uncertainty is studied by shifting the energy of each particle not contained in jets or contained in low-\pt~jets by its uncertainty, which is estimated during particle's reconstruction. These variations are found to affect the event yields of signal and background processes at the level of 3\%; however, they do not show a visible effect on the shape of the final kinematic variable. This uncertainty is categorized as a ``normalization'' systematic source.
+neutral hadrons and photons that do not belong to any jet (``unclustered energy'') and jets with transverse momenta below 10~GeV - lack such corrections. This affects the MET reconstruction and results in a small systematic uncertainty. The effect of JEC on the unclustered energy and subsequently on the magnitude of the $\vec{p}^{miss}_T$ is studied. The effect is propagated to the final kinematic variable, which contains the $\vec{p}^{miss}_T$. The effect of this uncertainty is studied by shifting the energy of each particle not contained in jets or contained in low-\pt~jets by its uncertainty, which is estimated during particle's reconstruction. These variations are found to affect the event yields of signal and background processes at the level of 3\%; however, they do not show a visible effect on the shape of the final kinematic variable. This uncertainty is categorized as a ``normalization'' systematic source.
 
 \end{itemize}
 
@@ -915,34 +915,70 @@ kinematic distributions and BDT discriminant distributions. As a consequence, th
 \begin{itemize}
 
 \item{\bf Lepton efficiency.} 
-Data-MC simulation differences in the lepton reconstruction in the tracker, identification and isolation selection criteria, and in the efficiencies of the HLT trigger requirements are computed and used to correct the MC samples. The final statistical analysis relies on the MC correctly simulating the efficiency for an event to be reconstructed and to pass online and offline selection requirements. The lepton scale factors are derived from high-statistics samples of \PZ~boson decays. This simulation is not perfect, thus, corrections are applied to candidates as per-candidate (or per-event) weights, as explained later in this chapter. These corrections, though, are also known with limited accuracy. The uncertainty of lepton efficiency corrections as a function of lepton $p_T$ and $\eta$ is propagated to the final kinematic distribution. The effect of these uncertainties is sub-percent for the muon channel and up to 6\% for the electron channel.
+Data-MC simulation differences in the lepton reconstruction in the tracker, identification and isolation selection criteria, and in the efficiencies of the HLT trigger requirements are computed and used to correct the MC samples. The final statistical analysis relies on the MC correctly simulating the efficiency for an event to be reconstructed and to pass online and offline selection requirements. The lepton scale factors are derived from high-statistics samples of \PZ~boson decays. This simulation is not perfect, thus, corrections are applied to candidates as per-candidate (or per-event) weights, as explained later in this chapter. These corrections, though, are also known with limited accuracy. The accuracy as well as the size of the correction depend on $p_T$ and $\eta$ of the leptons. The uncertainty of lepton efficiency corrections as a function of lepton $p_T$ and $\eta$ is propagated to the final kinematic distribution. The effect of these uncertainties is sub-percent for the muon channel and up to 6\% for some bins of the electron channel \mTHH distributions.
 
 \item{\bf Jet energy scale.}
-The JEC directly affects the invariant mass and $p_T$ of the \HBB~candidates and the magnitude of the \PTslash. Both objects are used in the construction of the final kinematic variable; therefore the JEC effect is thoroughly studied. The JEC is varied within one standard deviation of its uncertainty as a function of jet $p_T$ and $\eta$, and the effect on the b jet kinematics and on the \PTslash is calculated. This effect is propagated through the steps of the measurement yielding the variation of the final variable shape. The JEC uncertainty has an effect on the yields of the signal and background processes at a level of 5 to 10\%.
+The JEC directly affects the invariant mass and $p_T$ of the \HBB~candidates and the magnitude of the $\vec{p}^{miss}_T$. Both objects are used in the construction of the final kinematic variable; therefore the JEC effect is thoroughly studied. The JEC is varied within one standard deviation of its uncertainty as a function of jet $p_T$ and $\eta$, and the effect on the b jet kinematics and on the $\vec{p}^{miss}_T$ is calculated. This effect is propagated through the steps of the measurement yielding the variation of the final variable shape. The JEC uncertainty has an effect on the yields of the signal and background processes at a level of 5 to 10\%.
 
 \item{\bf Jet energy resolution.} 
 The shapes of the final kinematic distributions are affected by the difference between the jet energy
-resolution in data and simulation, because this bias modifies the mass and the $p_T$ of \HBB~candidates and the magnitude of the \PTslash. The JER is varied in simulation by one standard deviation as a function of jet $p_T$ and $\eta$, and the effect is propagated through the steps of the measurement. This uncertainty affects the final distribution at the order of 0.5\%.
+resolution in data and simulation, because this bias modifies the mass and the $p_T$ of \HBB~candidates and the magnitude of the $\vec{p}^{miss}_T$. The JER is varied in simulation by one standard deviation as a function of jet $p_T$ and $\eta$, and the effect is propagated through the steps of the measurement. This uncertainty affects the final distribution at the order of 0.5\%.
 
 \item{\bf b tagging.}
 The data-mc difference in the efficiency to tag a b jet (and the probability to misidentify a light flavor or a gluon jet as a b jet) is calculated and MC samples are corrected by the corresponding SFs, see Section \ref{sec:jets}. They are derived using heavy-flavor enhanced jet MC samples. The uncertainties on these SFs are propagated through the measurement steps to the final variable. The effect of the b-tagging efficiency (flavor misidentification) is the highest for DY process, at about 5\% (7--10\%), and is at the sub-percent level for other processes (7--10\%). 
 
-\item{\bf Bin-by-bin uncertainties.} 
+\item{\bf Bin-by-bin uncertainties (BBB).} 
+\label{BBB}
 This is a statistical uncertainty. Out of hundreds of uncertainty sources in this measurement, the most dominant ones are related to the limited size of simulated samples. In certain cases, these statistical uncertainties can produce sizeable fluctuations of the bin content of the shape of the final variable. Because of this, we add an individual nuisance parameter for each bin of the final variable distribution. For each bin in the bins of the final variable, the corresponding bin-by-bin uncertainty, defined as a single Gaussian-constrained Barlow-Beeston-lite parameter \cite{Barlow-Beeston, autoMCStats}, is created and used to scale the total yield in a given bin.
 
 \end{itemize}
+
+\subsection{Leading uncertainties}
+The summary of the sources of systematic uncertainties is given in the Tables \ref{tab:syst_unc_ee}, \ref{tab:syst_unc_mm}. As can be seen there, the leading systematic uncertainties are associated with jets: b-tagging and b jet mistagging, and jet energy resolution and scale. It is worthwhile noting, that out of 300 hundred uncertainties in this measurement, the most dominant ones - the first 30 - 40 - are predominantly statistical uncertainties (BBB) \ref{BBB} on the bin content of the \mTHH distributions  that are used in the fit.
+
+
+
+\begin{sidewaystable}
+\begin{center}
+\caption[The effect of leading systematic uncertainties, ee channel.]{The effect of leading systematic uncertainties on the bin content variation for main signal and background processes, ee channel, 300 GeV graviton mass hypothesis.}
+\begin{tabular}{ | c | c | c | c | c | c |c | c | } \hline
+ Sample & b-tagging &  mistagging &  electron ID and ISO &  electron tracker eff. &  electron trigger eff. &  JER &  JEC \\\hline
+  DY         &              4.3 &     7.4 &              5.4 &               1.1 &               2.1 &             0.2 &        5.3 \\
+  \ttbar      &              0.5 &     7.4 &              4.7 &               1.1 &               1.9 &             0.0 &        0.5 \\
+  Signal (bbZZ)   &    0.2 &     7.6 &              5.0 &               1.1 &               2.0 &             0.7 &        5.8 \\
+  Signal (bbWW) &    0.0 &     7.6 &              6.7 &               1.1 &               2.9 &             0.0 &        1.6 \\\hline
+\end{tabular}
+\end{center}
+\label{tab:syst_unc_ee}
+%---------------------------------------------------------------------                                        
+%Vertical lines as column separators                                                                          
+\begin{center}
+\caption[The effect of leading systematic uncertainties, $\mu\mu$ channel.]{The effect of leading systematic uncertainties on the bin content variation for main signal and background processes, $\mu\mu$ channel, 300 GeV graviton mass hypothesis.}
+\begin{tabular}{ | c | c | c | c| c | c | c | c| c |}\hline
+Sample &  b-tagging &  mistagging &  muon ID &  muon ISO &  muon tracker eff. &  muon trigger eff. &  JER &  JEC \\\hline
+  DY          &              4.9 &     7.0 &      0.2 &       0.1 &           0.1 &           0.4 &             0.2 &        9.4 \\
+  \ttbar       &              0.9 &     7.2 &      0.2 &       0.1 &           0.0 &           0.4 &             0.6 &        0.7 \\
+  Signal (bbZZ)    &    0.3 &     7.7 &      0.2 &       0.1 &           0.0 &           0.4 &             0.5 &        4.4 \\
+  Signal (bbWW) &    0.0 &     9.2 &      0.2 &       0.1 &           0.0 &           0.1 &             0.0 &        8.5 \\\hline
+\end{tabular}
+\label{tab:syst_unc_mm}
+\end{center}
+%\end{table}
+\end{sidewaystable}
+
+\newpage
+
 
 \section{Statistical Analysis}
 \label{sec:statistics}
 
 As was mentioned in Section \ref{sec:strategy}, the final variable (\mTHH) is constructed as the sum of the Lorentz vectors of the \Zll ~candidate, the \HBB~candidate, and $\vec{p}^{miss}_T$ vector. This variable, a pseudo-transverse mass of the double Higgs system, is used to extract the results in this measurement. In this section, we discuss how the distributions of the \mTHH variable are used in the statistical analysis to obtain the limits on $HH$ production multiplied by the BFs of the final state.
 
-Below we present the expected event yields and observed data counts in the SR and the CRDY, see Tables~\ref{tab:exp_yields_and_data_SR}, \ref{tab:exp_yields_and_data_CRDY}. The CRTT, dominated by the \ttbar, contains no signal and is not shown. 
-
+Below we present the expected event yields and observed data counts in the SR, see Table~\ref{tab:exp_yields_and_data_SR}. 
 
 \begin{table}[H]
 \begin{center}
-\caption{Expected event yields and observed data counts in the SR, split by channel. 300 GeV graviton mass hypothesis. Signal is normalized to 2 pb cross section. BDT selection is 0.4 for the ee channel, and 0.7 for $\mu\mu$ channel.}
+\caption[Expected event yields and observed data counts in the SR.]{Expected event yields and observed data counts in the SR, split by channel. 300 GeV graviton mass hypothesis. Signal is normalized to 2 pb cross section. BDT selection is 0.4 for the ee channel, and 0.7 for $\mu\mu$ channel.}
 \begin{tabular}{|c|c|c|} \hline
 {Process} & ee channel & $\mu\mu$ channel \\\hline
 Signal & 0.09 & 0.12\\\hline
@@ -959,23 +995,23 @@ Data & 598 &  513\\
 \end{table}
 
 
-\begin{table}[H]
-\begin{center}
-\caption{Expected event yields and observed data counts in the CRDY, split by channel. 300 GeV graviton mass hypothesis. Signal is normalized to 2 pb cross section. BDT selection is not applied. }
-\begin{tabular}{|c|c|c|} \hline
-{Process} & ee channel & $\mu\mu$ channel \\\hline
-Signal & 0.04 & 0.07\\\hline
-DY &  1065.65 & 1817.53\\
-\ttbar &  2427.39 & 4291.86 \\
-ZH &  2.83 &6.47 \\
-Single top & 56.56 & 135.94\\
-Dibosons & 22.12 &  36.73\\\hline
-Data & 3589 & 6213 \\
-\hline
-\end{tabular}
-\label{tab:exp_yields_and_data_CRDY}
-\end{center}
-\end{table}
+%\begin{table}[H]
+%\begin{center}
+%\caption[Expected event yields and observed data counts in the CRDY.]{Expected event yields and observed data counts in the CRDY, split by channel. 300 GeV graviton mass hypothesis. Signal is normalized to 2 pb cross section. BDT selection is not applied. }
+%\begin{tabular}{|c|c|c|} \hline
+%{Process} & ee channel & $\mu\mu$ channel \\\hline
+%Signal & 0.04 & 0.07\\\hline
+%DY &  1065.65 & 1817.53\\
+%\ttbar &  2427.39 & 4291.86 \\
+%ZH &  2.83 &6.47 \\
+%Single top & 56.56 & 135.94\\
+%Dibosons & 22.12 &  36.73\\\hline
+%Data & 3589 & 6213 \\
+%\hline
+%\end{tabular}
+%\label{tab:exp_yields_and_data_CRDY}
+%\end{center}
+%\end{table}
 
 
 \subsection{The likelihood function}
@@ -999,7 +1035,7 @@ events in the bin $i$. The mean value for each of the Poisson distributions is c
 \noindent where $k$ refers to the background process $k$, and $B_{k,i}$ is the content of the bin $i$ of the background
 shape for a process $k$, while $S_i$ is the content of the bin $i$ of the signal shape. The $S$ and $B_k$ distributions are prepared using MC simulations with the best-known cross section values. This is done to have the number of expected MC events equal to the number of events in the analyzed data set (with the corresponding integrated luminosity). When filling the distributions for $S$ and $B_k$, we also use a set of weights composed of scale factors of various types that depend on kinematic parameters of the candidates.
 
-The parameter $r_k$ sets the normalization of the background process $k$ while $r_{signal}$ is the signal strength parameter. All $r$ parameters float freely in the fit.Two values of the signal strength parameter are of special interest: $r_{signal} = 0$ describes the background-only hypothesis, while $r_{signal} = 1$ corresponds to the case where the $HH$ cross section matches the cross section used for the initial signal normalization inspired by BSM models, 2 pb in our case, which is a typical value for predictions of WED models (e.g., at 300 GeV). The terms $\theta_j$ represent the set of nuisance parameters that are introduced into the likelihood function as Gaussian constraints. In the final likelihood function, we have a nuisance parameter for each source of systematic uncertainty associated with each physics object and for each normalization and shape uncertainty for a given process. Each normalization nuisance parameter describes a relative difference in the event yield of the process before and after the fit to data; and each shape nuisance parameter quantifies the difference in shape of the \mTHH distribution obtained with interpolation or extrapolation of the nominal, up, and down shapes (see Section \ref{sec:shapes}) corresponding to the variation of a given systematic effect to achieve the best fit to the data.
+The parameter $r_k$ sets the normalization of the background process $k$ while $r_{signal}$ is the signal strength parameter. All $r$ parameters float freely in the fit.Two values of the signal strength parameter are of special interest: $r_{signal} = 0$ describes the background-only scenario, while $r_{signal} = 1$ corresponds to the case where the $HH$ cross section matches the cross section used for the initial signal normalization inspired by BSM models, 2 pb in our case, which is a typical value for predictions of WED models (e.g., at 300 GeV). The terms $\theta_j$ represent the set of nuisance parameters that are introduced into the likelihood function as Gaussian constraints. In the final likelihood function, we have a nuisance parameter for each source of systematic uncertainty associated with each physics object and for each normalization and shape uncertainty for a given process. Each normalization nuisance parameter describes a relative difference in the event yield of the process before and after the fit to data; and each shape nuisance parameter quantifies the difference in shape of the \mTHH distribution obtained with interpolation or extrapolation of the nominal, up, and down shapes (see Section \ref{sec:shapes}) corresponding to the variation of a given systematic effect to achieve the best fit to the data.
 
 The fit is performed separately for each of the 16 resonance mass points in the range 250 to 1000 GeV for a radion and a graviton resonance hypothesis individually. During the fit, the values of the $r_{signal}$ and $r_k$, along with the uncertainties, are determined. 
 
@@ -1029,7 +1065,7 @@ Figure~\ref{MCcomparisons} shows the result of the fit for one mass point - 300 
 \includegraphics[width=0.31\textwidth]{hhMt_ee_CRDY_FullPostfit_plot_nov16_2_radion.pdf}
 \includegraphics[width=0.31\textwidth]{hhMt_ee_CRTT_FullPostfit_plot_nov16_2_radion.pdf}
 \includegraphics[width=0.31\textwidth]{hhMt_ee_SR_FullPostfit_plot_nov16_2_radion.pdf}
-\caption[Transverse mass of the reconstructed $HH$ candidates for graviton hypothesis.]{Transverse mass of the reconstructed $HH$ candidates for data, the simulated signal for the 300 GeV mass hypothesis of the radion, and simulated background processes. Event yields of the MC simulations are scaled according to the fit results. The top row shows the figures for the di-muon channel, while the bottom row is for the di-electron channel. For each row, the left plot is for the CRDY, the middle is for the CRTT, and the right is for the SR. The signal scaling choice is discussed in the text. The crosshatched area represents the sum of statistical and systematic uncertainties.}
+\caption[Transverse mass of the reconstructed $HH$ candidates for radion hypothesis.]{Transverse mass of the reconstructed $HH$ candidates for data, the simulated signal for the 300 GeV mass hypothesis of the radion, and simulated background processes. Event yields of the MC simulations are scaled according to the fit results. The top row shows the figures for the di-muon channel, while the bottom row is for the di-electron channel. For each row, the left plot is for the CRDY, the middle is for the CRTT, and the right is for the SR. The signal scaling choice is discussed in the text. The crosshatched area represents the sum of statistical and systematic uncertainties.}
 \label{MCcomparisons_radion} 
 \end{center}
 \end{figure}
@@ -1037,13 +1073,13 @@ Figure~\ref{MCcomparisons} shows the result of the fit for one mass point - 300 
 \subsection{The fit results}
 \label{sec:fit_results}
 
-Previous $HH$ measurements provided no evidence for $HH$ production through a narrow width resonance in the mass range from 250~GeV to 1~TeV. Thus, we proceed setting upper 95 \% confidence level limits on the $HH$ production cross section, using the modified frequentist CL$_s$ approach (asymptotic CL$_s$)~\cite{Junk:1999kv,LEP-CLs, HIG-11-011, Cowan:2010js}.
+Based on fit results, we proceed setting upper 95 \% confidence level limits on the $HH$ production cross section multiplied by the BF of the final state, using the modified frequentist CL$_s$ approach (asymptotic CL$_s$)~\cite{Junk:1999kv,LEP-CLs, HIG-11-011, Cowan:2010js}.
 
 It is worthwhile letting the reader know that before the real data is used to derive observed limits, the toy data set is first used to optimize the expected limits. This toy data set, called the Asimov data set, is commonly used by CMS and ATLAS experiments for statistical analysis procedures. The Asimov data set (see \cite{Cowan:2010js}) represents the hypothesis, which in most cases is the expected background with no fluctuations. The signal strength is set to zero, which, in a simple counting experiment \cite{expected_limit_asimov} corresponds to the total number of events equal (if there are no fluctuations) to the number of background events (no signal events). 
 
-In this physics analysis, we follow a standard CMS practice that helps experimenters avoid bias in the measurement - a blinding procedure. First, the measurement is performed only with a simulation. The expected sensitivity and the expected limits (with the Asimov data set) on the quantity being measured are determined, and the procedure is frozen. Second, the likelihood fit is performed and a set of diagnostic figures is prepared with real data, including all kinematic distributions shown in Section \ref{sec:variables}, the BDT outputs \ref{fig:BDTs}, and \mTHH distributions in the signal region \ref{MCcomparisons}, \ref{MCcomparisons_radion}. The figures are examined by the relevant CMS groups for data and simulation agreement. In our case, they were the CMS Higgs Physics Analysis group (PAG), CMS \HZZ~PAG subgroup, and the CMS double Higgs PAG subgroup. At this stage, the results are kept blind and no real data is used. Finally, all outputs of the fit are examined, and the mentioned CMS PAGs give the ``green light'' for the unblinding procedure. Then, if the result obtained with the real data show no signs of experimental errors, the analysis reaches its final state - it is given into the hands of the Analysis Review Committee (ARC). The ARC serves several purposes: once again it verifies that the whole analysis chain is correct and helps lead the analysis towards the publication. During interactions with the ARC, additional studies and checks are performed to prove the correctness of the results. 
+In this physics analysis, we follow a standard CMS practice that helps experimenters avoid bias in the measurement - a blinding procedure. First, the measurement is performed only with a simulation. The expected sensitivity and the expected limits (with the Asimov data set) on the quantity being measured are determined, and the procedure is frozen. Second, the likelihood fit is performed and a set of diagnostic figures is prepared with real data, including all kinematic distributions shown in Section \ref{sec:variables}, the BDT outputs \ref{fig:BDTs}, and \mTHH distributions in the signal region \ref{MCcomparisons}, \ref{MCcomparisons_radion}. The figures are examined for data and simulation agreement.  At this stage, the results are kept blind and no real data are used. 
 
-After the unblinding procedure, we can look at the SR and check the data-MC agreement for the input variables to the BDT. This is an additional way to verify that fit results are correct, see Figs.~\ref{MCcomparisons_mm_low_SR_1}, \ref{MCcomparisons_mm_low_SR_2}, \ref{MCcomparisons_mm_low_SR_3}, \ref{MCcomparisons_mm_low_SR_4}, \ref{MCcomparisons_mm_low_SR_5}. 
+Finally, the real data is used and all outputs of the fit are examined. We look at the distributions in the SR and determine $r_signal$. The data-MC agreement is once again verified for the input variables to the BDT. This is an additional way to check that fit results are correct, see Figs.~\ref{MCcomparisons_mm_low_SR_1}, \ref{MCcomparisons_mm_low_SR_2}, \ref{MCcomparisons_mm_low_SR_3}, \ref{MCcomparisons_mm_low_SR_4}, \ref{MCcomparisons_mm_low_SR_5}. 
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
@@ -1055,7 +1091,7 @@ After the unblinding procedure, we can look at the SR and check the data-MC agre
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/dR_leps_mm_SR_FullPostfit_plot_apr21.png}\\
 % \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hhMt_mm_SR_prefit_plot_apr21.png}
 % \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hhMt_mm_SR_FullPostfit_plot_apr21.png}\\
-\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\caption[Data-MC comparison in the SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
 \label{MCcomparisons_mm_low_SR_1}
 \end{center}
 \end{figure}
@@ -1066,7 +1102,7 @@ After the unblinding procedure, we can look at the SR and check the data-MC agre
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hmass0_mm_SR_FullPostfit_plot_apr21.png}\\
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hmass1_mm_SR_prefit_plot_apr21.png}
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hmass1_mm_SR_FullPostfit_plot_apr21.png}\\
-\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\caption[Data-MC comparison in the SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
 \label{MCcomparisons_mm_low_SR_2}
 \end{center}
 \end{figure}
@@ -1077,7 +1113,7 @@ After the unblinding procedure, we can look at the SR and check the data-MC agre
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hpt0_mm_SR_FullPostfit_plot_apr21.png}\\
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hpt1_mm_SR_prefit_plot_apr21.png}
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hpt1_mm_SR_FullPostfit_plot_apr21.png}\\
-\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\caption[Data-MC comparison in the SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
 \label{MCcomparisons_mm_low_SR_3}
 \end{center}
 \end{figure}
@@ -1089,7 +1125,7 @@ After the unblinding procedure, we can look at the SR and check the data-MC agre
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/met_pt_mm_SR_FullPostfit_plot_apr21.png}\\
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/zmass_mm_SR_prefit_plot_apr21.png}
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/zmass_mm_SR_FullPostfit_plot_apr21.png}\\
-\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\caption[Data-MC comparison in the SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
 \label{MCcomparisons_mm_low_SR_4}
 \end{center}
 \end{figure}
@@ -1099,7 +1135,7 @@ After the unblinding procedure, we can look at the SR and check the data-MC agre
 \begin{center}
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/zpt0_mm_SR_prefit_plot_apr21.png}
 \includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/zpt0_mm_SR_FullPostfit_plot_apr21.png}\\
-\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\caption[Data-MC comparison in the SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
 \label{MCcomparisons_mm_low_SR_5}
 \end{center}
 \end{figure}
@@ -1110,12 +1146,12 @@ seen in the figure. The figure also shows the expected production cross section 
 
 \begin{table}[H]
 \begin{center}
-\caption{The expected and observed $HH$ production cross section upper limits at 95\% CL for different
+\caption[The expected and observed limits.]{The expected and observed $HH$ production cross section upper limits at 95\% CL for different
 narrow resonance graviton (top) and radion (bottom) mass hypotheses for both dielectron and dimuon channels combined.}
 \label{tab:finalLimits}
 \begin{tabular}{|c|c|c|}
 \hline
-Mass, GeV & Observed Limit, pb & Expected Limit, pb \\
+Mass, GeV & Observed Limit (pb) & Expected Limit (pb) \\
 \hline
 250 & 253.5 & 589.1 \\
 260 & 272.2 & 585.9 \\
@@ -1138,7 +1174,7 @@ Mass, GeV & Observed Limit, pb & Expected Limit, pb \\
 \vspace{1 cm} \ \\
 \begin{tabular}{|c|c|c|}
 \hline
-Mass, GeV & Observed Limit, pb & Expected Limit, pb \\
+Mass, GeV & Observed Limit (pb) & Expected Limit (pb) \\
 \hline
 250 & 107.3 & 297.7 \\
 260 & 170.8 & 410.9 \\
@@ -1165,7 +1201,7 @@ Mass, GeV & Observed Limit, pb & Expected Limit, pb \\
 \begin{center}
 \includegraphics[width=0.65\textwidth]{limitHH_Nov16_graviton.pdf}
 \includegraphics[width=0.65\textwidth]{limitHH_Nov16_radion.pdf}
-\caption{ Expected (dashed line) and observed (solid line) limits on the cross section of a resonant $HH$ production
+\caption[The expected and observed limits.]{ Expected (dashed line) and observed (solid line) limits on the cross section of a resonant $HH$ production
 as a function of the mass of the narrow resonance for both leptonic channels combined. The graviton case is shown at the top and radion case at the bottom. The red line shows a theoretical prediction for
 the production of a WED particle with certain model assumptions \cite{Oliveira:2014kla}.}
 \label{fig:HHlimits} 
@@ -1177,26 +1213,26 @@ the production of a WED particle with certain model assumptions \cite{Oliveira:2
 
 In searches for a process, when intermediate particles can decay through a variety of channels, a common experimental approach is to search for multiple final states in parallel. Then the results are combined into a single result. This is a common method in the measurement of limits on a cross section of a physics process such as the production of a heavy resonance.
 
-At CMS, the Higgs boson program, endorsed by the CMS Higgs PAG, searches for $HH$ production, both of the SM and BSM types. These searches cover multiple channels and are published as individual papers. For di-Higgs measurements, the individual channels include many of the channels seen in Fig. \ref{BR}. This is usually followed by the final paper that presents the combined result of all individual channels, the ``grand combination''.
+At CMS, the Higgs boson program searches for $HH$ production, both of the SM and BSM types. These searches cover multiple channels, including this measurement, and are published as individual papers. For di-Higgs measurements, the individual channels include many of the channels seen in Fig. \ref{BR}. This is usually followed by the final paper that presents the combined result of all individual channels, the ``grand combination''.
 
 This measurement, the search for a resonant production of the $HH$ system decaying through the intermediate $bbZZ$ state into $2 b 2 \ell 2 \nu$ final state is completed, approved by the CMS collaboration \cite{CMS-PAS-HIG-17-032}, and is shown at conferences \cite{HiggsCouplings2018}. This was the first measurement of the $HH$ production in the $bbZZ$ intermediate state that was performed at CERN using the LHC data. 
 
 This data analysis, at the time of this writing, is being combined with a similar channel where the $HH$ system decays through the same intermediate state $bbZZ$ into the final state of $2 b 2 \ell 2 q$, and a paper will be submitted to the Physical Review D shortly after the defence of this dissertation.
 
-Once the full 13 TeV dataset is fully analyzed, the CMS plans to release the grand combination paper for the $HH$ production search that is based on the $bbZZ$ channel discussed here as well as many other channels. As of this writing, the best available grand combination from the CMS experiment is based on a partial 13 TeV data set analysis, see Fig. \ref{HH_combo}, published in \cite{HH_combo} that includes a subset of all channels. That paper does not include the present measurement, which would be found just above the $bbWW$ graph, which is the curve shown in orange. As can be seen from the figure, the most sensitive channels are the $bb\gamma\gamma$ for the mass region below 500 GeV and the $bbbb$ channel for higher masses.
+While this measurement by itself is not able to exclude the RS1 model in search, this physics analysis combined with the other HH channels is able to exclude a part of the parameter space of the WED theory. As of this writing, the best available grand combination from the CMS experiment is based on a partial 13 TeV data set analysis, see Fig. \ref{HH_combo}, published in \cite{HH_combo} that includes a subset of all channels. That paper does not include the present measurement, which would be found just above the $bbWW$ graph, which is the curve shown in orange. As can be seen from the figure, the most sensitive channels are the $bb\gamma\gamma$ for the mass region below 500 GeV and the $bbbb$ channel for higher masses.
 
 \begin{figure}[H]%hbpt? 
 \begin{center}
 \includegraphics[width=0.65\textwidth]{HH_combo_spin0.png}
 \includegraphics[width=0.65\textwidth]{HH_combo_spin2.png}
-\caption{ Combination of $HH$ channels using 2016 data. Expected (dashed) and observed (solid line) 95\% CL exclusion limits are shown. The results describe the production cross section of a narrow width spin 0 (top) and spin 2 (bottom) resonance decaying into a pair of SM Higgs bosons. }
+\caption[Combination of $HH$ channels using 2016 data.]{Combination of $HH$ channels using 2016 data. Expected (dashed) and observed (solid line) 95\% CL exclusion limits are shown. The results describe the production cross section of a narrow width spin 0 (top) and spin 2 (bottom) resonance decaying into a pair of SM Higgs bosons. }
 \label{HH_combo}
 \end{center}
 \end{figure}
 
 While no individual channel measurement is sensitive enough to see resonant $HH$ production at the level predicted by the WED theory, the grand combination for the full data set may be able to see the process, if it exists, and approach a sensitivity to cross sections of order picobarns. With more data taken in Run 3 and the HL-LHC period, the BSM theories discussed here will be probed more stringently. However, the ability of a particle collider experiment to detect the SM production of the $HH$ system is further off into the future.
 
-A projected sensitivity for a combined $HH$ measurement based on the full data set expected to be collected with the HL-LHC (almost 3\abinv of data) shows that this amount of data is not enough to reach the discovery sensitivity ~\cite{CMS-PAS-FTR-18-019} : ``the statistical combination of the five decay channels results in an expected significance for the standard model $HH$ signal of 2.6$\sigma$''. This is a clear sign that more data are needed for both BSM and SM searches of the $HH$ production. However, many Higgs PAG analysts would agree that new statistical and MVA tools should be developed and employed. Thus, the next versions of the $HH$ analyses will most likely use a sophisticated neural network not only for signal-background separation but also for lepton reconstruction and more. At the moment, there is a strong effort in the CMS community to develop such tools and methods. 
+A projected sensitivity for a combined $HH$ measurement based on the full data set expected to be collected with the HL-LHC (almost 3\abinv of data) shows that this amount of data is not enough to reach the discovery sensitivity ~\cite{CMS-PAS-FTR-18-019}: ``the statistical combination of the five decay channels results in an expected significance for the standard model $HH$ signal of 2.6$\sigma$''. This is a clear sign that more data are needed for both BSM and SM searches of the $HH$ production. This is a sign that new statistical and MVA tools should be developed and employed. Thus, the next versions of the $HH$ analyses will most likely use a sophisticated neural network not only for signal-background separation but also for physics object reconstruction and more. At the moment, there is a strong effort in the CMS community to develop such tools and methods. 
 
 This concludes the discussion of analysis details. In the next chapter, we will summarise the main ideas that have been covered throughout this thesis. 
 

@@ -1,16 +1,22 @@
 \select@language {english}
 \addvspace {10pt}
-\contentsline {table}{\numberline {1.1}{\ignorespaces List of data sets collected by the CMS in 2016. Each era contains a unique letter identifier. Also, the date of the data processing is specified. If re-processing was run, it is labeled as ``v2''. Corresponding integrated luminosities are shown in the second column. \relax }}{5}{table.caption.3}
-\contentsline {table}{\numberline {1.2}{\ignorespaces Background Monte Carlo samples. First column is the name of the process, the second column is the name of the generator used to simulate the corresponding process. \relax }}{11}{table.caption.8}
-\contentsline {table}{\numberline {1.3}{\ignorespaces The MET requirements as a function of the mass of the $HH$ candidate. Selection values (the second column) are provided for different mass hypotheses (the first column) of the narrow resonance decaying to the $HH$ system.\relax }}{19}{table.caption.10}
-\contentsline {table}{\numberline {1.4}{\ignorespaces Fraction of events surviving the candidate selection and kinematic requirements. Efficiencies are given for $bbZZ$ and $bbWW$ contributions in the SR and are normalised to the initial event counts before any selection is applied. A di-muon channel is presented. Numbers for the di-electron channel have the same trend but lower values, because in CMS efficiencies for electrons are lower than for muons.\relax }}{23}{table.caption.12}
-\contentsline {table}{\numberline {1.6}{\ignorespaces Di-electron channel. Relative importance of the input variables in the high mass BDT training.\relax }}{51}{table.caption.31}
-\contentsline {table}{\numberline {1.5}{\ignorespaces Di-electron channel. Relative importance of the input variables in the low mass BDT training.\relax }}{51}{table.caption.30}
-\contentsline {table}{\numberline {1.8}{\ignorespaces Di-muon channel. Relative importance of the input variables in the high mass BDT training.\relax }}{52}{table.caption.33}
-\contentsline {table}{\numberline {1.7}{\ignorespaces Di-muon channel. Relative importance of the input variables in the low mass BDT training.\relax }}{52}{table.caption.32}
-\contentsline {table}{\numberline {1.9}{\ignorespaces The BDT selection values used in this measurement.\relax }}{63}{table.caption.41}
-\contentsline {table}{\numberline {1.10}{\ignorespaces Efficiency of the BDT selection requirement in two mass regions and for two channels: $ee$ channel (top) and $\mu \mu $ channel (bottom). \relax }}{64}{table.caption.42}
-\contentsline {table}{\numberline {1.11}{\ignorespaces Expected event yields and observed data counts in the SR, split by channel. 300 GeV graviton mass hypothesis. Signal is normalized to 2 pb cross section. BDT selection is 0.4 for the ee channel, and 0.7 for $\mu \mu $ channel.\relax }}{71}{table.caption.43}
-\contentsline {table}{\numberline {1.12}{\ignorespaces Expected event yields and observed data counts in the CRDY, split by channel. 300 GeV graviton mass hypothesis. Signal is normalized to 2 pb cross section. BDT selection is not applied. \relax }}{71}{table.caption.44}
-\contentsline {table}{\numberline {1.13}{\ignorespaces The expected and observed $HH$ production cross section upper limits at 95\% CL for different narrow resonance graviton (top) and radion (bottom) mass hypotheses for both dielectron and dimuon channels combined.\relax }}{82}{table.caption.52}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Triggers for dimuon and dielectron channels both at L1 and HLT levels.\relax }}{93}{table.caption.33}
+\addvspace {10pt}
+\contentsline {table}{\numberline {5.1}{\ignorespaces List of data sets collected by the CMS in 2016.}}{99}{table.caption.34}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Background Monte Carlo samples.}}{105}{table.caption.39}
+\contentsline {table}{\numberline {5.3}{\ignorespaces The MET requirements as a function of the mass of the $HH$ candidate.}}{113}{table.caption.41}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Fraction of events surviving the candidate selection and kinematic requirements.}}{117}{table.caption.43}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Di-electron channel. Relative importance of the input variables in the high mass BDT training.\relax }}{145}{table.caption.62}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Di-electron channel. Relative importance of the input variables in the low mass BDT training.\relax }}{145}{table.caption.61}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Di-muon channel. Relative importance of the input variables in the high mass BDT training.\relax }}{146}{table.caption.64}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Di-muon channel. Relative importance of the input variables in the low mass BDT training.\relax }}{146}{table.caption.63}
+\contentsline {table}{\numberline {5.9}{\ignorespaces The BDT selection values used in this measurement.\relax }}{157}{table.caption.72}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Efficiency of the BDT selection.}}{158}{table.caption.73}
+\contentsline {table}{\numberline {5.11}{\ignorespaces The effect of leading systematic uncertainties, ee channel.}}{165}{table.caption.74}
+\contentsline {table}{\numberline {5.12}{\ignorespaces The effect of leading systematic uncertainties, $\mu \mu $ channel.}}{165}{table.caption.74}
+\contentsline {table}{\numberline {5.13}{\ignorespaces Expected event yields and observed data counts in the SR.}}{166}{table.caption.75}
+\contentsline {table}{\numberline {5.14}{\ignorespaces The expected and observed limits.}}{177}{table.caption.83}
 \addvspace {10pt}

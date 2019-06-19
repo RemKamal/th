@@ -17,8 +17,20 @@ Warning--entry type for "Wertz:2632195" isn't style-file defined
 --line 2516 of file nuthesis/sections/bibl.bib
 Warning--entry type for "Cadamuro:2292733" isn't style-file defined
 --line 2525 of file nuthesis/sections/bibl.bib
+Warning--empty journal in Mangano:454171
+Warning--there's a number but no volume in Mangano:454171
+Warning--empty author in CMS-PAS-HIG-14-009
+Warning--empty journal in Sirunyan:2018iwt
 Warning--empty journal in Oliveira:2014kla
 Warning--empty journal in Xanda
+Warning--empty journal in Traczyk:2002jh
+Warning--empty journal in LHC_vacuum
+Warning--there's a number but no volume in LHC_vacuum
+Warning--empty publisher in Hauptman:2011zza
+Warning--empty author and editor in HCAL_TDR
+Warning--empty journal in Kalman_filter
+Warning--empty journal in DeterministicAnnealing
+Warning--empty author in CMS-PAS-BTV-15-001
 Warning--empty author in CMS-PAS-HIG-17-032
 Warning--empty author in CMS-PAS-SMP-18-002
 Warning--empty author in CMS-PAS-SMP-16-006
@@ -37,22 +49,10 @@ Warning--empty institution in CMS-PAS-JME-10-003
 Warning--empty note in LEPewkfits
 Warning--empty author in CMS-PAS-MUO-10-002
 Warning--empty author in lumiUnc
-Warning--empty journal in Mangano:454171
-Warning--there's a number but no volume in Mangano:454171
-Warning--empty journal in Sirunyan:2018iwt
 Warning--empty journal in Gröbner:356437
 Warning--there's a number but no volume in Gröbner:356437
 Warning--empty author in CMS-PAS-HIG-17-030
-Warning--empty author in CMS-PAS-HIG-14-009
 Warning--empty journal in Herr:941318
-Warning--empty journal in LHC_vacuum
-Warning--there's a number but no volume in LHC_vacuum
-Warning--empty publisher in Hauptman:2011zza
-Warning--empty author and editor in HCAL_TDR
-Warning--empty journal in Kalman_filter
-Warning--empty journal in DeterministicAnnealing
-Warning--empty author in CMS-PAS-BTV-15-001
-Warning--empty journal in Traczyk:2002jh
 You've used 210 entries,
             1791 wiz_defined-function locations,
             1567 strings with 36067 characters,

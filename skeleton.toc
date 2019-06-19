@@ -1,38 +1,90 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{vii}{section*.1}
-\contentsline {chapter}{List of Tables}{x}{section*.2}
-\contentsline {chapter}{\chapternumberline {1}$bbZZ$ Physics Analysis}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Physics analysis overview}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Data analysis strategy}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Data and Triggers}{4}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Data}{4}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Triggers}{4}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Simulated Samples}{9}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Signal processes simulation}{9}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Background processes simulation}{10}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Physics Objects Selection}{13}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Electrons}{13}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Muons}{14}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Jets}{14}{subsection.1.5.3}
-\contentsline {subsection}{\numberline {1.5.4}b jets}{15}{subsection.1.5.4}
-\contentsline {subsection}{\numberline {1.5.5}Missing transverse momentum}{15}{subsection.1.5.5}
-\contentsline {section}{\numberline {1.6}Event Selection}{16}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Kinematic selection of physics objects}{17}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Signal candidate construction and selection}{19}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}Signal and control kinematic regions}{21}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1.6.4}Signal region candidate selection with a multivariate technique}{23}{subsection.1.6.4}
-\contentsline {subsection}{\numberline {1.6.5}Candidate reweighting in simulated events}{23}{subsection.1.6.5}
-\contentsline {section}{\numberline {1.7}Multivariate selection in the signal region}{26}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Kinematic variables of a candidate}{26}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Multivariate discriminant: a BDT classifier}{43}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}BDT selection requirement in the signal region}{63}{subsection.1.7.3}
-\contentsline {section}{\numberline {1.8}Uncertainties of the measurement}{64}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Normalisation uncertainties}{65}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{68}{subsection.1.8.2}
-\contentsline {section}{\numberline {1.9}Statistical Analysis}{70}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}The likelihood function}{71}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}The fit results}{75}{subsection.1.9.2}
-\contentsline {section}{\numberline {1.10}Discussion}{84}{section.1.10}
-\contentsline {chapter}{\chapternumberline {2}Conclusions}{87}{chapter.2}
-\contentsline {chapter}{Bibliography}{89}{chapter.2}
-\contentsline {chapter}{References}{89}{section*.56}
+\contentsline {chapter}{List of Figures}{ix}{section*.1}
+\contentsline {chapter}{List of Tables}{xiii}{section*.2}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}``All things are made of atoms''}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}A brief history of particle physics}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Fundamental forces}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}The Brout-Englert-Higgs mechanism}{11}{section.1.4}
+\contentsline {chapter}{\chapternumberline {2}Theory}{18}{chapter.2}
+\contentsline {section}{\numberline {2.1}Lagrangian formalism of the Standard Model}{18}{section.2.1}
+\contentsline {section}{\numberline {2.2}Double Higgs in Beyond the Standard Model Theories}{24}{section.2.2}
+\contentsline {chapter}{\chapternumberline {3}The LHC and the CMS experiment}{32}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{32}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The history of the LHC}{32}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}The layout of the LHC}{33}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}LHC infrastructure}{34}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Magnets}{34}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Cooling System}{38}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.3}Radio Frequency Cavities}{40}{subsubsection.3.1.3.3}
+\contentsline {subsubsection}{\numberline {3.1.3.4}Vacuum System}{41}{subsubsection.3.1.3.4}
+\contentsline {subsection}{\numberline {3.1.4}LHC operations}{43}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Luminosity}{45}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}The CMS experiment}{46}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The CMS coordinate system}{51}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The Inner Tracker}{52}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}The ECAL}{54}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}The HCAL}{57}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}The Superconding Solenoid}{59}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}The Muon Tracker}{60}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}The Triggers and DAQ}{63}{subsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.7.1}The L1 Trigger}{63}{subsubsection.3.2.7.1}
+\contentsline {subsubsection}{\numberline {3.2.7.2}The High-Level Trigger}{66}{subsubsection.3.2.7.2}
+\contentsline {subsubsection}{\numberline {3.2.7.3}The DAQ system}{67}{subsubsection.3.2.7.3}
+\contentsline {subsection}{\numberline {3.2.8}The CMS design}{68}{subsection.3.2.8}
+\contentsline {chapter}{\chapternumberline {4}Physics Object Reconstruction in CMS}{70}{chapter.4}
+\contentsline {section}{\numberline {4.1}Track Reconstruction}{70}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Muon tracking}{73}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Electron tracking}{74}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Primary Vertex reconstruction}{75}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Particle level objects}{77}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Particle Flow links and blocks}{77}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Muons}{78}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Electrons and isolated photons}{79}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Hadrons and non-isolated photons}{81}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Jets and jet corrections}{82}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Other important physics quantities and objects}{84}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}The b tagging and secondary vertices}{84}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Missing transverse momentum}{86}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Pileup interactions}{88}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Lepton isolation}{88}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Data-Monte Carlo corrections}{89}{subsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.5.1}Lepton efficiencies and the Tag-and-Probe method}{90}{subsubsection.4.3.5.1}
+\contentsline {subsubsection}{\numberline {4.3.5.2}b tagging efficiency}{91}{subsubsection.4.3.5.2}
+\contentsline {section}{\numberline {4.4}Datasets and Trigger Paths}{92}{section.4.4}
+\contentsline {chapter}{\chapternumberline {5}$bbZZ$ Physics Analysis}{95}{chapter.5}
+\contentsline {section}{\numberline {5.1}Physics analysis overview}{95}{section.5.1}
+\contentsline {section}{\numberline {5.2}Data analysis strategy}{97}{section.5.2}
+\contentsline {section}{\numberline {5.3}Data and Triggers}{98}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Data}{98}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Triggers}{98}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Simulated Samples}{103}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Signal processes simulation}{103}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Background processes simulation}{104}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Physics Objects Selection}{107}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Electrons}{107}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Muons}{108}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Jets}{108}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}b jets}{109}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Missing transverse momentum}{109}{subsection.5.5.5}
+\contentsline {section}{\numberline {5.6}Event Selection}{110}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Kinematic selection of physics objects}{111}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Signal candidate construction and selection}{113}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Signal and control kinematic regions}{115}{subsection.5.6.3}
+\contentsline {subsection}{\numberline {5.6.4}Signal region candidate selection with a multivariate technique}{117}{subsection.5.6.4}
+\contentsline {subsection}{\numberline {5.6.5}Candidate reweighting in simulated events}{117}{subsection.5.6.5}
+\contentsline {section}{\numberline {5.7}Multivariate selection in the signal region}{120}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Kinematic variables of a candidate}{120}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Multivariate discriminant: a BDT classifier}{137}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}BDT selection requirement in the signal region}{157}{subsection.5.7.3}
+\contentsline {section}{\numberline {5.8}Uncertainties of the measurement}{158}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Normalisation uncertainties}{159}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Shape uncertainties}{162}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.3}Leading uncertainties}{164}{subsection.5.8.3}
+\contentsline {section}{\numberline {5.9}Statistical Analysis}{166}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}The likelihood function}{166}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}The fit results}{170}{subsection.5.9.2}
+\contentsline {section}{\numberline {5.10}Discussion}{179}{section.5.10}
+\contentsline {chapter}{\chapternumberline {6}Conclusions}{182}{chapter.6}
+\contentsline {chapter}{Bibliography}{184}{chapter.6}
+\contentsline {chapter}{References}{184}{section*.87}
