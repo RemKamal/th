@@ -7,23 +7,36 @@
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Optimisation of the MET selection for two $bbZZ$ analyses}}{18}{figure.caption.9}
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Analysis phase space with the signal and two control regions.}}{22}{figure.caption.11}
 \contentsline {figure}{\numberline {1.7}{\ignorespaces Data-MC comparison in CRDY.}}{30}{figure.caption.13}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Data-MC comparison in CRDY, other variables.}}{31}{figure.caption.14}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Data-MC comparison in SR.}}{32}{figure.caption.15}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Data-MC comparison in SR, other variables.}}{33}{figure.caption.16}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Data-MC comparison in CRTT.}}{34}{figure.caption.17}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Data-MC comparison in CRTT, other variables.}}{35}{figure.caption.18}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces BDT trees 1 and 2.}}{40}{figure.caption.19}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces BDT trees 400 and 401.}}{41}{figure.caption.20}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces BDT trees 799 and 800.}}{42}{figure.caption.21}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Input variable correlations of the di-electron channel, low mass training.}}{46}{figure.caption.26}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Input variable correlations of the di-electron channel, high mass training.}}{47}{figure.caption.27}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Variables used in the low mass training for di-electron channel.}}{48}{figure.caption.28}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Variables used in the high mass training for di-electron channel.}}{49}{figure.caption.29}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces BDT discriminants for di-electron channel.}}{51}{figure.caption.30}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces ROC curves for di-electron channel.}}{53}{figure.caption.31}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces BDT distributions for the radion case.}}{55}{figure.caption.32}
-\contentsline {figure}{\numberline {1.23}{\ignorespaces Transverse mass of the reconstructed $HH$ candidates for graviton hypothesis.}}{66}{figure.caption.35}
-\contentsline {figure}{\numberline {1.24}{\ignorespaces Transverse mass of the reconstructed $HH$ candidates for graviton hypothesis.}}{67}{figure.caption.36}
-\contentsline {figure}{\numberline {1.25}{\ignorespaces Expected (dashed line) and observed (solid line) limits on the cross section of a resonant $HH$ production as a function of the mass of the narrow resonance for both leptonic channels combined. The graviton case is shown at the top and radion case at the bottom. The red line shows a theoretical prediction for the production of a WED particle with certain model assumptions \cite {Oliveira:2014kla}.\relax }}{71}{figure.caption.38}
-\contentsline {figure}{\numberline {1.26}{\ignorespaces Combination of $HH$ channels using 2016 data. Expected (dashed) and observed (solid line) 95\% CL exclusion limits are shown. The results describe the production cross section of a narrow width spin 0 (top) and spin 2 (bottom) resonance decaying into a pair of SM Higgs bosons. \relax }}{73}{figure.caption.39}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Data-MC comparison in CRDY.}}{31}{figure.caption.14}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Data-MC comparison in CRDY.}}{32}{figure.caption.15}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Data-MC comparison in CRDY.}}{33}{figure.caption.16}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Data-MC comparison in CRDY.}}{34}{figure.caption.17}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Data-MC comparison in the SR BDT sideband.}}{35}{figure.caption.18}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Data-MC comparison in the SR BDT sideband.}}{36}{figure.caption.19}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Data-MC comparison in the SR BDT sideband.}}{37}{figure.caption.20}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Data-MC comparison in the SR BDT sideband.}}{38}{figure.caption.21}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Data-MC comparison in CRTT.}}{39}{figure.caption.22}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Data-MC comparison in CRTT.}}{40}{figure.caption.23}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Data-MC comparison in CRTT.}}{41}{figure.caption.24}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Data-MC comparison in CRTT.}}{42}{figure.caption.25}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Data-MC comparison in CRTT.}}{43}{figure.caption.26}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces BDT trees 1 and 2.}}{47}{figure.caption.27}
+\contentsline {figure}{\numberline {1.22}{\ignorespaces BDT trees 400 and 401.}}{48}{figure.caption.28}
+\contentsline {figure}{\numberline {1.23}{\ignorespaces BDT trees 799 and 800.}}{49}{figure.caption.29}
+\contentsline {figure}{\numberline {1.24}{\ignorespaces Input variable correlations of the di-electron channel, low mass training.}}{53}{figure.caption.34}
+\contentsline {figure}{\numberline {1.25}{\ignorespaces Input variable correlations of the di-electron channel, high mass training.}}{54}{figure.caption.35}
+\contentsline {figure}{\numberline {1.26}{\ignorespaces Variables used in the low mass training for di-electron channel.}}{55}{figure.caption.36}
+\contentsline {figure}{\numberline {1.27}{\ignorespaces Variables used in the high mass training for di-electron channel.}}{56}{figure.caption.37}
+\contentsline {figure}{\numberline {1.28}{\ignorespaces BDT discriminants for di-electron channel.}}{58}{figure.caption.38}
+\contentsline {figure}{\numberline {1.29}{\ignorespaces ROC curves for di-electron channel.}}{60}{figure.caption.39}
+\contentsline {figure}{\numberline {1.30}{\ignorespaces BDT distributions for the radion case.}}{62}{figure.caption.40}
+\contentsline {figure}{\numberline {1.31}{\ignorespaces Transverse mass of the reconstructed $HH$ candidates for graviton hypothesis.}}{74}{figure.caption.45}
+\contentsline {figure}{\numberline {1.32}{\ignorespaces Transverse mass of the reconstructed $HH$ candidates for graviton hypothesis.}}{75}{figure.caption.46}
+\contentsline {figure}{\numberline {1.33}{\ignorespaces Data-MC comparison in SR.}}{77}{figure.caption.47}
+\contentsline {figure}{\numberline {1.34}{\ignorespaces Data-MC comparison in SR.}}{78}{figure.caption.48}
+\contentsline {figure}{\numberline {1.35}{\ignorespaces Data-MC comparison in SR.}}{79}{figure.caption.49}
+\contentsline {figure}{\numberline {1.36}{\ignorespaces Data-MC comparison in SR.}}{80}{figure.caption.50}
+\contentsline {figure}{\numberline {1.37}{\ignorespaces Data-MC comparison in SR.}}{81}{figure.caption.51}
+\contentsline {figure}{\numberline {1.38}{\ignorespaces Expected (dashed line) and observed (solid line) limits on the cross section of a resonant $HH$ production as a function of the mass of the narrow resonance for both leptonic channels combined. The graviton case is shown at the top and radion case at the bottom. The red line shows a theoretical prediction for the production of a WED particle with certain model assumptions \cite {Oliveira:2014kla}.\relax }}{83}{figure.caption.53}
+\contentsline {figure}{\numberline {1.39}{\ignorespaces Combination of $HH$ channels using 2016 data. Expected (dashed) and observed (solid line) 95\% CL exclusion limits are shown. The results describe the production cross section of a narrow width spin 0 (top) and spin 2 (bottom) resonance decaying into a pair of SM Higgs bosons. \relax }}{85}{figure.caption.54}
 \addvspace {10pt}

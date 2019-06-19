@@ -44,7 +44,7 @@ The data were collected in several data taking periods and approximate values of
 \begin{center}
 \scalebox{0.8}{
 \begin{tabular}{|c|c|} \hline%\hline
-Dataset & $\int\mathcal L$ (\fbinv) \\
+Dataset & $\int\mathcal L$ dt (\fbinv) \\
 \hline
 %{\texttt Run2016B-03Feb2017-v1} & \multirow{2}{*}{$\sim$5.9} \\
 {\texttt Run2016B-03Feb2017-v2} & {$\sim$5.9} \\
@@ -274,7 +274,7 @@ We have described the kinematic selection of leptons and jets (and b jets) in th
 \begin{center}
 \caption{The MET requirements as a function of the mass of the $HH$ candidate. Selection values (the second column) are provided for different mass hypotheses (the first column) of the narrow resonance decaying to the $HH$ system.}
 \begin{tabular}{|c|c|} \hline
-{Signal mass, GeV} & \ETslash selection, GeV\\\hline
+{Signal mass (GeV)} & \ETslash selection (GeV)\\\hline
 260-300 & \textgreater~40 \\
 350-600 & \textgreater~75 \\
 650-1000 & \textgreater~100 \\
@@ -321,7 +321,7 @@ CRs are defined by inverting the SR selection. The Drell-Yan plus jets (or ``DY'
 
 CRs are used to fit the event yield of the simulated background processes to the event yield in data and, thus, to determine the relative normalizations of $t\bar{t}$ and Drell-Yan background processes, which is done using CRTT and CRDY correspondingly. 
 
-The efficiency of the candidate selection, up to this point, is summarised in Table \ref{eff_upto_bdt}, where numbers are provided for the SR. The signal contributions are split into two components: $bbZZ$ and $bbWW$, and are shown separately. The corresponding total number of events passing the selection are also given, shown in the fourth column. Note that the number of signal events surviving the BDT selection in the SR is 4 - 5 times greater than the number of all signal events present in the CRDY, while CRTT contains no signal. 
+The efficiency of the candidate selection, up to this point, is summarised in Table \ref{eff_upto_bdt}, where numbers are provided for the SR. The number of observed data events and expected signal events will be presented in the Section \ref{sec:statistics}. The signal contributions are split into two components: $bbZZ$ and $bbWW$, and are shown separately. The corresponding total number of events passing the selection are also given, shown in the fourth column. Note that the number of signal events surviving the BDT selection in the SR is 2 - 5 times greater (depending on the mass point) than the number of all signal events present in the CRDY, while CRTT contains no signal. 
 
 \begin{table}
 \begin{center}
@@ -379,7 +379,7 @@ To reduce the background contamination in the SR, we employ an MVA discriminant.
 \label{sec:BDT}
 
 \subsection{Kinematic variables of a candidate}
-\label{variables}
+\label{sec:variables}
 
 A number of kinematic quantities can be constructed out of four-vectors that are used to construct candidates of our final state. The distributions of these quantities, in general, differ for candidates originating from different background processes as opposed to for candidates from the hypothetical signal. 
 
@@ -422,120 +422,185 @@ The transverse momentum of the Z candidate ($p_T^Z$) tends to have a relatively 
 
 \end{itemize}
 
-At this stage of the analysis description, we would like to refer the reader to the pre-fit plots (figures in the left columns). The figures are shown in the following order: all nine distributions in CRDY (see Figs. \ref{MCcomparisons_mm_low_CRDY}, \ref{MCcomparisons_mm_low_CRDY_2}), in SR (see Figs. \ref{MCcomparisons_mm_low_SR}, \ref{MCcomparisons_mm_low_SR_2}), and in CRTT (see Figs. \ref{MCcomparisons_mm_low_CRTT}, \ref{MCcomparisons_mm_low_CRTT_2}). The simulated distributions are found to be in an acceptable agreement ($chi^2 \sim 2$ ) with those from the data and are judged to be adequate for use in a multivariate discriminant construction discussed next. 
+At this stage of the analysis description, we would like to refer the reader to the pre-fit plots (figures in the left columns). The figures are shown in the following order: all nine distributions in CRDY (see Figs. \ref{MCcomparisons_mm_low_CRDY_1}, \ref{MCcomparisons_mm_low_CRDY_2}, \ref{MCcomparisons_mm_low_CRDY_3}, \ref{MCcomparisons_mm_low_CRDY_4}, \ref{MCcomparisons_mm_low_CRDY_5}), in the BDT sideband \footnote{Once the BDT selection is introduced, in the SR the candidates will have to pass the BDT requirement. The region below the BDT selection is called the BDT sideband. According to CMS unblinding policy, discussed later, it is not allowed to look at the SR at this point; therefore, one checks the data-MC agreement using CRs and the BDT sideband SR.} SR (see Figs. \ref{MCcomparisons_mm_low_SR_bdt_sideband_1}, \ref{MCcomparisons_mm_low_SR_bdt_sideband_2}, \ref{MCcomparisons_mm_low_SR_bdt_sideband_3}, \ref{MCcomparisons_mm_low_SR_bdt_sideband_4}), and in CRTT (see Figs. \ref{MCcomparisons_mm_low_CRTT_1}, \ref{MCcomparisons_mm_low_CRTT_2}, \ref{MCcomparisons_mm_low_CRTT_3}, \ref{MCcomparisons_mm_low_CRTT_4}, \ref{MCcomparisons_mm_low_CRTT_5}). The simulated distributions are found to be in an acceptable agreement ($\chi^2 \sim 2$ ) with those from the data and are judged to be adequate for use in a multivariate discriminant construction discussed next. The distributions in the SR will be shown in the Section \ref{sec:fit_results}.
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRDY_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRDY_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_leps_mm_CRDY_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_leps_mm_CRDY_FullPostfit_plot_apr18.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRDY_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRDY_FullPostfit_plot_apr18.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/dR_leps_mm_CRDY_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/dR_leps_mm_CRDY_FullPostfit_plot_apr18.png}\\
 % \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hhMt_mm_CRDY_prefit_plot_apr18.png}
 % \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hhMt_mm_CRDY_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass0_mm_CRDY_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass0_mm_CRDY_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass1_mm_CRDY_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass1_mm_CRDY_FullPostfit_plot_apr18.png}\\
-\caption[Data-MC comparison in CRDY.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRDY region, $\mu\mu$ channel. Prefit plot on the left; Full Postfit plot on the right.}
-\label{MCcomparisons_mm_low_CRDY}
+\caption[Data-MC comparison in CRDY.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRDY region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_CRDY_1}
 \end{center}
 \end{figure}
 
+
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt0_mm_CRDY_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt0_mm_CRDY_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt1_mm_CRDY_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt1_mm_CRDY_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/met_pt_mm_CRDY_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/met_pt_mm_CRDY_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_mm_CRDY_prefit_plot_apr21.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_mm_CRDY_FullPostfit_plot_apr21.png}\\
-% \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_high_mm_CRDY_prefit_plot_apr18.png} 
-% \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_high_mm_CRDY_FullPostfit_plot_apr18.png}\\ 
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zpt0_mm_CRDY_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zpt0_mm_CRDY_FullPostfit_plot_apr18.png}\\
-\caption[Data-MC comparison in CRDY, other variables.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRDY region, $\mu\mu$ channel. Prefit plot on the left; Full Postfit plot on the right.}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hmass0_mm_CRDY_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hmass0_mm_CRDY_FullPostfit_plot_apr18.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hmass1_mm_CRDY_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hmass1_mm_CRDY_FullPostfit_plot_apr18.png}\\
+\caption[Data-MC comparison in CRDY.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRDY region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
 \label{MCcomparisons_mm_low_CRDY_2}
 \end{center}
 \end{figure}
 
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/dR_bjets_mm_SR_prefit_plot_apr21.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/dR_bjets_mm_SR_FullPostfit_plot_apr21.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/dR_leps_mm_SR_prefit_plot_apr21.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/dR_leps_mm_SR_FullPostfit_plot_apr21.png}\\
-% \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hhMt_mm_SR_prefit_plot_apr21.png}
-% \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hhMt_mm_SR_FullPostfit_plot_apr21.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hmass0_mm_SR_prefit_plot_apr21.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hmass0_mm_SR_FullPostfit_plot_apr21.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hmass1_mm_SR_prefit_plot_apr21.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hmass1_mm_SR_FullPostfit_plot_apr21.png}\\
-\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Prefit plot on the left; Full Postfit plot on the right.}
-\label{MCcomparisons_mm_low_SR}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hpt0_mm_CRDY_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hpt0_mm_CRDY_FullPostfit_plot_apr18.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hpt1_mm_CRDY_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hpt1_mm_CRDY_FullPostfit_plot_apr18.png}\\
+\caption[Data-MC comparison in CRDY.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRDY region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_CRDY_3}
 \end{center}
 \end{figure}
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hpt0_mm_SR_prefit_plot_apr21.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hpt0_mm_SR_FullPostfit_plot_apr21.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hpt1_mm_SR_prefit_plot_apr21.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hpt1_mm_SR_FullPostfit_plot_apr21.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/met_pt_mm_SR_prefit_plot_apr21.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/met_pt_mm_SR_FullPostfit_plot_apr21.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/zmass_mm_SR_prefit_plot_apr21.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/zmass_mm_SR_FullPostfit_plot_apr21.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/zpt0_mm_SR_prefit_plot_apr21.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/zpt0_mm_SR_FullPostfit_plot_apr21.png}\\
-\caption[Data-MC comparison in SR, other variables.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Prefit plot on the left; Full Postfit plot on the right.}
-\label{MCcomparisons_mm_low_SR_2}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/met_pt_mm_CRDY_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/met_pt_mm_CRDY_FullPostfit_plot_apr18.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/zmass_mm_CRDY_prefit_plot_apr21.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/zmass_mm_CRDY_FullPostfit_plot_apr21.png}\\
+\caption[Data-MC comparison in CRDY.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRDY region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_CRDY_4}
 \end{center}
 \end{figure}
+
+% \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_high_mm_CRDY_prefit_plot_apr18.png} 
+% \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_high_mm_CRDY_FullPostfit_plot_apr18.png}\\ 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/zpt0_mm_CRDY_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/zpt0_mm_CRDY_FullPostfit_plot_apr18.png}\\
+\caption[Data-MC comparison in CRDY.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRDY region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_CRDY_5}
+\end{center}
+\end{figure}
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                             
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/dR_bjets_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/dR_bjets_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/dR_leps_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/dR_leps_mm_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hhMt_mm_SR_prefit_plot_apr18.png}
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hhMt_mm_SR_FullPostfit_plot_apr18.png}\\
+\caption[Data-MC comparison in the SR BDT sideband.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+    \label{MCcomparisons_mm_low_SR_bdt_sideband_1}
+  \end{center}
+\end{figure}
+
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass0_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass0_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass1_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hmass1_mm_SR_FullPostfit_plot_apr18.png}\\
+\caption[Data-MC comparison in the SR BDT sideband.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+    \label{MCcomparisons_mm_low_SR_bdt_sideband_2}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt0_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt0_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt1_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/hpt1_mm_SR_FullPostfit_plot_apr18.png}\\
+    \caption[Data-MC comparison in the SR BDT sideband.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+    \label{MCcomparisons_mm_low_SR_bdt_sideband_3}
+  \end{center}
+\end{figure}
+
+    \begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/met_pt_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/met_pt_mm_SR_FullPostfit_plot_apr18.png}\\
+%    \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zmass_high_mm_SR_prefit_plot_apr18.png}
+ %   \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zmass_high_mm_SR_FullPostfit_plot_apr18.png}\\
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zpt0_mm_SR_prefit_plot_apr18.png}
+    \includegraphics[width=0.43\textwidth]{figures/mm_300_april18/mm_300_good_SR_bdt_sideBand_april18/zpt0_mm_SR_FullPostfit_plot_apr18.png}\\
+\caption[Data-MC comparison in the SR BDT sideband.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, BDT sideband SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+    \label{MCcomparisons_mm_low_SR_bdt_sideband_4}
+  \end{center}
+\end{figure}
+
+
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRTT_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRTT_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_leps_mm_CRTT_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/dR_leps_mm_CRTT_FullPostfit_plot_apr18.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRTT_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/dR_bjets_mm_CRTT_FullPostfit_plot_apr18.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/dR_leps_mm_CRTT_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/dR_leps_mm_CRTT_FullPostfit_plot_apr18.png}\\
 % \includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hhMt_mm_CRTT_prefit_plot_apr18.png}
 %\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hhMt_mm_CRTT_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass0_mm_CRTT_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass0_mm_CRTT_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass1_mm_CRTT_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hmass1_mm_CRTT_FullPostfit_plot_apr18.png}\\
-\caption[Data-MC comparison in CRTT.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRTT region, $\mu\mu$ channel. Prefit plot on the left; Full Postfit plot on the right.}
-\label{MCcomparisons_mm_low_CRTT}
+\caption[Data-MC comparison in CRTT.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRTT region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_CRTT_1}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hmass0_mm_CRTT_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hmass0_mm_CRTT_FullPostfit_plot_apr18.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hmass1_mm_CRTT_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hmass1_mm_CRTT_FullPostfit_plot_apr18.png}\\
+\caption[Data-MC comparison in CRTT.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRTT region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_CRTT_2}
 \end{center}
 \end{figure}
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt0_mm_CRTT_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt0_mm_CRTT_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt1_mm_CRTT_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/hpt1_mm_CRTT_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/met_pt_mm_CRTT_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/met_pt_mm_CRTT_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_high_mm_CRTT_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zmass_high_mm_CRTT_FullPostfit_plot_apr18.png}\\
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zpt0_mm_CRTT_prefit_plot_apr18.png}
-\includegraphics[width=0.31\textwidth]{figures/mm_300_april18/zpt0_mm_CRTT_FullPostfit_plot_apr18.png}\\
-\caption[Data-MC comparison in CRTT, other variables.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRTT region, $\mu\mu$ channel. Prefit plot on the left; Full Postfit plot on the right.}
-\label{MCcomparisons_mm_low_CRTT_2}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hpt0_mm_CRTT_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hpt0_mm_CRTT_FullPostfit_plot_apr18.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hpt1_mm_CRTT_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/hpt1_mm_CRTT_FullPostfit_plot_apr18.png}\\
+\caption[Data-MC comparison in CRTT.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRTT region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_CRTT_3}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/met_pt_mm_CRTT_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/met_pt_mm_CRTT_FullPostfit_plot_apr18.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/zmass_high_mm_CRTT_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/zmass_high_mm_CRTT_FullPostfit_plot_apr18.png}\\
+\caption[Data-MC comparison in CRTT.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRTT region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_CRTT_4}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/zpt0_mm_CRTT_prefit_plot_apr18.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_april18/zpt0_mm_CRTT_FullPostfit_plot_apr18.png}\\
+\caption[Data-MC comparison in CRTT.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, CRTT region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_CRTT_5}
 \end{center}
 \end{figure}
 
 \subsection{Multivariate discriminant: a BDT classifier}
 
-In many areas of HEP, such as object identification, a reduction of the background contribution in the signal region, etc., there are needs to discriminate a ``signal'' from one or several ``backgrounds.'' The discriminating algorithms can use a single physical variable for signal-background separation, or several variables. The way an algorithm uses the input variables can be of a sequential nature, or through some non-linear dependence. The Higgs boson discovery, in part, was possible due to an employed BDT approach, where several variables are combined into an artificial BDT score or output. The BDT output, as a higher-level construct, has no direct physical interpretation. However, due to the demostrated gain in signal-background separation performance, the BDT has been successfully used for years for the final classification decision. 
+In many areas of HEP, such as object identification, a reduction of the background contribution in the signal region, etc., there are needs to discriminate a ``signal'' from one or several ``backgrounds.'' The discriminating algorithms can use a single physical variable for signal-background separation, or several variables. The Higgs boson discovery, in part, was possible due to an employed BDT approach, where several variables are combined into an artificial BDT score or output. The BDT output, as a higher-level construct, has no direct physical interpretation. However, due to the demostrated gain in signal-background separation performance, the BDT has been successfully used for years for the final classification decision. 
 
-Multivariate discriminants (or models or classifiers) based on the BDT or other algorithms are constructed using machine learning (ML) techniques. Now, at almost every stage of the HEP data analysis, starting from the track reconstruction, through the object identification and the signal region purification, and up to the construction of the final discriminating MVA variable, physicists rely on the ML methods.
+Multivariate discriminants (or models or classifiers) based on the BDT or other algorithms are constructed using machine learning (ML) techniques. Now, at almost every stage of the HEP data analysis, starting from the physics object reconstruction, through the object identification and the signal region purification, and up to the construction of the final discriminating MVA variable, physicists rely on the ML methods.
 
 In simple terms, the ML procedure consists of training and testing stages, and sometimes a validation stage is added. First, the input data are split into two non-overlapping sets: train and test data. Then the classifier is trained when the model is learning the patterns in the train data. After that, the performance of the model is tested using independent test data. 
 
@@ -588,7 +653,7 @@ the mass of the \HBB~candidate, and the mass of the $ZZ^*$ system. The TMVA nota
 \end{center}
 \end{figure}
 
-The BDT discriminant is trained on a pure sample of signal and background events from simulation, using the train data. The properties of the discriminant are studied on an independent testing sample of pure signal and background events, using the test data. The Deep Neural Network (DNN) approach has also been studied - however, due to the lack of event statistics, the DNN approach could not offer a performance higher than the one achieved with the BDT, and thus was abandoned. Training 16 BDTs per spin hypothesis seemed impractical since our data analysis is dominated by statistical uncertainties. Instead, we follow the approach of other $HH$ analyses \cite{HH_combination}: we split the range from 250 to 1000 into two regions: low mass (250 to 450 GeV) and high mass (above 450 GeV up to 1 TeV) regions. This separation boundary at 450 GeV was optimized first using ROC curves (described later in this section), then by running the whole analysis chain all the way to the final limits. This procedure not only saves CPU cycles by training two BDTs instead of sixteen, but mostly increases the statistics and improves the robustness of the trained BDT. 
+The BDT discriminant is trained on a pure sample of signal and background events from simulation, using the train data. The properties of the discriminant are studied on an independent testing sample of pure signal and background events, using the test data. The Deep Neural Network (DNN) approach has also been studied - however, due to the lack of event statistics, the DNN approach could not offer a performance higher than the one achieved with the BDT, and thus was abandoned. Training 16 BDTs per spin hypothesis seemed impractical since our data analysis is dominated by statistical uncertainties. Instead, we follow the approach of other $HH$ analyses \cite{HH_combination}: we split the range from 250 to 1000 into two regions: low mass (250 to 450 GeV) and high mass (above 450 GeV up to 1 TeV) regions. This separation boundary at 450 GeV was optimized first using ROC curves (described later in this section), then by running the whole analysis chain all the way to the final limits. %This procedure not only saves CPU cycles by training two BDTs instead of sixteen, but mostly increases the statistics and improves the robustness of the trained BDT. 
 
 During the training procedure some variables provide more discriminating power and on average are used more often than others. The more often the variable is used, the higher its importance is. The tables below show the ranking and average importance of each of the BDT training. For the low and high mass regions, and di-electron and di-muon channels, see Tables \ref{tab:importance_ee_low}, \ref{tab:importance_ee_high}, \ref{tab:importance_mm_low}, \ref{tab:importance_mm_high}. As can be seen from these Tables, all nine selected variables are equally important, and one cannot use 1-2 single variables to perform signal-background discrimination. The ranking of variables is compatible between di-electron and di-muon channels within the statistical uncertainty of $O$(sub percent). 
 
@@ -669,7 +734,7 @@ Rank & Variable & Importance (\%) \\\hline
 \label{tab:importance_mm_high}
 \end{table}
 
-The correlations among the input variables are shown in the Figs. ~\ref{fig:ele_cors_low}, ~\ref{fig:ele_cors_high}. For low mass training, signal samples for mass hypotheses from 250 to 450 GeV are combined together and represent the ``signal''. This is done similarly for high mass training - it is a mix of signal samples for mass hypotheses from 500 to 1000 GeV. For background samples, the ``background'' is a mix of samples of two main background processes: DY in association with jets and $t\bar{t}$ production, weighted by the cross section value.
+The correlations among the input variables are shown in the Figs. ~\ref{fig:ele_cors_low}, ~\ref{fig:ele_cors_high}. For low mass training, signal samples for mass hypotheses from 250 to 450 GeV are combined together and represent the ``signal''. This is done similarly for high mass training - it is a mix of signal samples for mass hypotheses from 500 to 1000 GeV. For background samples, the ``background'' is a mix of samples of two main background processes: DY in association with jets and $t\bar{t}$ production, weighted by the cross section value. The full selection is applied except for the Z boson and \HBB~ candidate invariant mass requirements. 
 
 \begin{figure}[tbp]
 \begin{center}
@@ -712,9 +777,9 @@ Below we include figures of the BDT input variables. They are the same variables
 After the training, the BDT model is created. This model produces the BDT distribution (BDT response), see Fig. \ref{fig:ele_BDTs}. This figure overlays train and test parameters of the BDT training of the di-electron channel. The parameters of the model, such as the number of trees, the allowed number of splits per variable, the maximum tree depth and others, have been thoroughly studied. The default TMVA parameters are found to provide a good performance with this measurement. 
 
 It is difficult to get high performance during low mass training, since
-this region corresponds to the range of $HH$ masses where the kinematic properties of the background processes are similar to those of the signal, see Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:ele_highVars}. The event yield of background in this region is very high and most variables have similar distributions for signal and background processes. The BDT performance is noticeably better than what can be achieved using a simple linear discriminant method (LD), see Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}.
+in this region kinematic properties of the background processes are similar to those of the signal, see Figs. ~\ref{fig:ele_lowVars}, ~\ref{fig:ele_highVars}. The event yield of background in this region is very high and most variables have similar distributions for signal and background processes. The BDT performance is noticeably better than what can be achieved using a simple linear discriminant method (LD), see Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}.
 
-Performance of the high mass training can be considered perfect, see Fig. ~\ref{fig:ele_highVars}. Most background processes concentrate in the low mass region; therefore, for the high mass region even the linear
+Performance of the high mass training can be considered perfect, see Fig. ~\ref{fig:ele_highVars}. High mass resonances produce boosted Higgs bosons whose kinematical properties are different from those of the background processes. This is clearly seen in variables related to the boost, such as $\Delta R_{b\ jets}$, $\Delta R_{leptons}$, $p_T$ of $\HBB$~candidate, and $p_T$ of $\HZZ$~candidate. Therefore, for the high mass region even the linear
 discriminant is performing well, see Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_ROCs}.
 
 \begin{figure}[H]
@@ -741,13 +806,13 @@ The ROC can be regarded as a probability curve and, in this case, the AUC repres
 
 For two given signal efficiencies, one would prefer the model that has a lower background efficiency; or in other words, a higher background rejection efficiency. In practice, when AUCs are close to 1 and ROCs are similar, one compares AUCs directly and decides which model to use based on the AUC value. 
 
-Finally, we provide the figures of the BDT discriminant in the SR. The plots are shown for the 300 GeV radion decaying in the di-electron and di-muon channels. Both figures are of the post-fit type.
+Finally, we provide the figures of the BDT discriminant in the SR. The plots are shown for the 300 GeV radion decaying in the di-electron and di-muon channels. 
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.6\textwidth]{bdt_response_ee_SR_FullPostfit_plot_nov16_2_radion.pdf}\\
 \includegraphics[width=0.6\textwidth]{bdt_response_mm_SR_FullPostfit_plot_nov16_2_radion.pdf}\\
-\caption[BDT distributions for the radion case.]{ BDT distributions for the radion case, electron(muon) channel is shown at the top (bottom). Signal region is presented for the 300 GeV mass hypothesis. For electrons the selection is at 0.4, for muons at 0.7, as is described in Section \ref{BDT_selection_in_SR}.}
+\caption[BDT distributions for the radion case.]{ BDT distributions (post-fit) for the radion case, electron(muon) channel is shown at the top (bottom). Signal region is presented for the 300 GeV mass hypothesis. For electrons the selection is at 0.4, for muons at 0.7, as is described in Section \ref{BDT_selection_in_SR}.}
 \label{fig:BDTs}
 \end{center}
 \end{figure}
@@ -761,7 +826,7 @@ To remove the background contribution in the SR, we apply a BDT requirement to d
 \begin{center} 
 \caption{The BDT selection values used in this measurement.}
 \begin{tabular}{ |c|c|c|c|c| } \hline%\hline
-Channel & 260 and 270 GeV & 300 and 350 GeV & 400 and 450 GeV & 600 to 1000 GeV \\ \hline
+Channel & 260 and 270 GeV & 300 and 350 GeV & 400 and 450 GeV & 500 to 1000 GeV \\ \hline
 Di-muon & 0.1 & 0.7 & 0.7 & 0.99 \\ %\hline
 Di-electron & 0.4 & 0.4 & 0.925 & 0.99\\ \hline%\hline
 \end{tabular}
@@ -872,6 +937,47 @@ This is a statistical uncertainty. Out of hundreds of uncertainty sources in thi
 
 As was mentioned in Section \ref{sec:strategy}, the final variable (\mTHH) is constructed as the sum of the Lorentz vectors of the \Zll ~candidate, the \HBB~candidate, and $\vec{p}^{miss}_T$ vector. This variable, a pseudo-transverse mass of the double Higgs system, is used to extract the results in this measurement. In this section, we discuss how the distributions of the \mTHH variable are used in the statistical analysis to obtain the limits on $HH$ production multiplied by the BFs of the final state.
 
+Below we present the expected event yields and observed data counts in the SR and the CRDY, see Tables~\ref{tab:exp_yields_and_data_SR}, \ref{tab:exp_yields_and_data_CRDY}. The CRTT, dominated by the \ttbar, contains no signal and is not shown. 
+
+
+\begin{table}[H]
+\begin{center}
+\caption{Expected event yields and observed data counts in the SR, split by channel. 300 GeV graviton mass hypothesis. Signal is normalized to 2 pb cross section. BDT selection is 0.4 for the ee channel, and 0.7 for $\mu\mu$ channel.}
+\begin{tabular}{|c|c|c|} \hline
+{Process} & ee channel & $\mu\mu$ channel \\\hline
+Signal & 0.09 & 0.12\\\hline
+DY & 341.55 & 318.32\\
+\ttbar &  261.42 &  216.85\\
+ZH &  7.27 & 10.62\\
+Single top & 6.79 & 5.99\\
+Dibosons & 7.64 &  9.08\\\hline
+Data & 598 &  513\\
+\hline
+\end{tabular}
+\label{tab:exp_yields_and_data_SR}
+\end{center}
+\end{table}
+
+
+\begin{table}[H]
+\begin{center}
+\caption{Expected event yields and observed data counts in the CRDY, split by channel. 300 GeV graviton mass hypothesis. Signal is normalized to 2 pb cross section. BDT selection is not applied. }
+\begin{tabular}{|c|c|c|} \hline
+{Process} & ee channel & $\mu\mu$ channel \\\hline
+Signal & 0.04 & 0.07\\\hline
+DY &  1065.65 & 1817.53\\
+\ttbar &  2427.39 & 4291.86 \\
+ZH &  2.83 &6.47 \\
+Single top & 56.56 & 135.94\\
+Dibosons & 22.12 &  36.73\\\hline
+Data & 3589 & 6213 \\
+\hline
+\end{tabular}
+\label{tab:exp_yields_and_data_CRDY}
+\end{center}
+\end{table}
+
+
 \subsection{The likelihood function}
 \label{sec:likelihood}
 
@@ -898,6 +1004,7 @@ The parameter $r_k$ sets the normalization of the background process $k$ while $
 The fit is performed separately for each of the 16 resonance mass points in the range 250 to 1000 GeV for a radion and a graviton resonance hypothesis individually. During the fit, the values of the $r_{signal}$ and $r_k$, along with the uncertainties, are determined. 
 
 The implementation of the maximum likelihood fit is done in the Higgs Combine package, a software framework supported by the CMS experiment \cite{HiggsCombine}. The framework is based on the RooStats package \cite{RooStats} that is widely used in the HEP community. 
+
 
 Figure~\ref{MCcomparisons} shows the result of the fit for one mass point - 300 GeV. These $HH$ transverse mass distributions for the graviton hypothesis are of the post-fit type - the normalizations and shapes of all components were adjusted according to the best-fit values. A similar figure in the case of the radion hypothesis is shown in Fig. ~\ref{MCcomparisons_radion}. The signal component is very close to zero, it would not be visible on the figures. Therefore, the signal event yield is further scaled by a certain high factor for visual purposes, to make the signal contribution clearly visible. 
 
@@ -935,6 +1042,68 @@ Previous $HH$ measurements provided no evidence for $HH$ production through a na
 It is worthwhile letting the reader know that before the real data is used to derive observed limits, the toy data set is first used to optimize the expected limits. This toy data set, called the Asimov data set, is commonly used by CMS and ATLAS experiments for statistical analysis procedures. The Asimov data set (see \cite{Cowan:2010js}) represents the hypothesis, which in most cases is the expected background with no fluctuations. The signal strength is set to zero, which, in a simple counting experiment \cite{expected_limit_asimov} corresponds to the total number of events equal (if there are no fluctuations) to the number of background events (no signal events). 
 
 In this physics analysis, we follow a standard CMS practice that helps experimenters avoid bias in the measurement - a blinding procedure. First, the measurement is performed only with a simulation. The expected sensitivity and the expected limits (with the Asimov data set) on the quantity being measured are determined, and the procedure is frozen. Second, the likelihood fit is performed and a set of diagnostic figures is prepared with real data, including all kinematic distributions shown in Section \ref{sec:variables}, the BDT outputs \ref{fig:BDTs}, and \mTHH distributions in the signal region \ref{MCcomparisons}, \ref{MCcomparisons_radion}. The figures are examined by the relevant CMS groups for data and simulation agreement. In our case, they were the CMS Higgs Physics Analysis group (PAG), CMS \HZZ~PAG subgroup, and the CMS double Higgs PAG subgroup. At this stage, the results are kept blind and no real data is used. Finally, all outputs of the fit are examined, and the mentioned CMS PAGs give the ``green light'' for the unblinding procedure. Then, if the result obtained with the real data show no signs of experimental errors, the analysis reaches its final state - it is given into the hands of the Analysis Review Committee (ARC). The ARC serves several purposes: once again it verifies that the whole analysis chain is correct and helps lead the analysis towards the publication. During interactions with the ARC, additional studies and checks are performed to prove the correctness of the results. 
+
+After the unblinding procedure, we can look at the SR and check the data-MC agreement for the input variables to the BDT. This is an additional way to verify that fit results are correct, see Figs.~\ref{MCcomparisons_mm_low_SR_1}, \ref{MCcomparisons_mm_low_SR_2}, \ref{MCcomparisons_mm_low_SR_3}, \ref{MCcomparisons_mm_low_SR_4}, \ref{MCcomparisons_mm_low_SR_5}. 
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/dR_bjets_mm_SR_prefit_plot_apr21.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/dR_bjets_mm_SR_FullPostfit_plot_apr21.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/dR_leps_mm_SR_prefit_plot_apr21.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/dR_leps_mm_SR_FullPostfit_plot_apr21.png}\\
+% \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hhMt_mm_SR_prefit_plot_apr21.png}
+% \includegraphics[width=0.31\textwidth]{figures/mm_300_SR_april21/hhMt_mm_SR_FullPostfit_plot_apr21.png}\\
+\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_SR_1}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hmass0_mm_SR_prefit_plot_apr21.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hmass0_mm_SR_FullPostfit_plot_apr21.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hmass1_mm_SR_prefit_plot_apr21.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hmass1_mm_SR_FullPostfit_plot_apr21.png}\\
+\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_SR_2}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hpt0_mm_SR_prefit_plot_apr21.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hpt0_mm_SR_FullPostfit_plot_apr21.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hpt1_mm_SR_prefit_plot_apr21.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/hpt1_mm_SR_FullPostfit_plot_apr21.png}\\
+\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_SR_3}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/met_pt_mm_SR_prefit_plot_apr21.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/met_pt_mm_SR_FullPostfit_plot_apr21.png}\\
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/zmass_mm_SR_prefit_plot_apr21.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/zmass_mm_SR_FullPostfit_plot_apr21.png}\\
+\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_SR_4}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/zpt0_mm_SR_prefit_plot_apr21.png}
+\includegraphics[width=0.43\textwidth]{figures/mm_300_SR_april21/zpt0_mm_SR_FullPostfit_plot_apr21.png}\\
+\caption[Data-MC comparison in SR.]{Comparison of data and MC samples. 300 GeV graviton mass hypothesis, SR region, $\mu\mu$ channel. Pre-fit plot on the left; Post-fit plot on the right.}
+\label{MCcomparisons_mm_low_SR_5}
+\end{center}
+\end{figure}
+
 
 The observed and expected 95\% upper CL limits for the full mass range and both resonances are listed in Table~\ref{tab:finalLimits}. Produced figures of limits are shown in Fig.~\ref{fig:HHlimits}. The green and yellow bands correspond to one and two standard deviations around the expected limit respectively. Since 450 GeV is the separation boundary between two mass regions, low mass and high mass - in which different BDT discriminants are applied - the limit calculation is performed with both of the BDTs at 450 GeV, where the discontinuity is
 seen in the figure. The figure also shows the expected production cross section for an RS1 KK graviton and RS1 radion in WED models. These cross sections are computed in \cite{Oliveira:2014kla}. As seen from the figure, this measurement is not sensitive by itself to probe the chosen model of $HH$ production. The combination of this measurement with other similar measurements is necessary, as discussed in Section \ref{sec:Discussion}.

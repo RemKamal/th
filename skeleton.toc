@@ -1,6 +1,6 @@
 \select@language {english}
 \contentsline {chapter}{List of Figures}{vii}{section*.1}
-\contentsline {chapter}{List of Tables}{ix}{section*.2}
+\contentsline {chapter}{List of Tables}{x}{section*.2}
 \contentsline {chapter}{\chapternumberline {1}$bbZZ$ Physics Analysis}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Physics analysis overview}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Data analysis strategy}{3}{section.1.2}
@@ -24,15 +24,15 @@
 \contentsline {subsection}{\numberline {1.6.5}Candidate reweighting in simulated events}{23}{subsection.1.6.5}
 \contentsline {section}{\numberline {1.7}Multivariate selection in the signal region}{26}{section.1.7}
 \contentsline {subsection}{\numberline {1.7.1}Kinematic variables of a candidate}{26}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Multivariate discriminant: a BDT classifier}{36}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}BDT selection requirement in the signal region}{56}{subsection.1.7.3}
-\contentsline {section}{\numberline {1.8}Uncertainties of the measurement}{57}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Normalisation uncertainties}{58}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{61}{subsection.1.8.2}
-\contentsline {section}{\numberline {1.9}Statistical Analysis}{63}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}The likelihood function}{63}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}The fit results}{67}{subsection.1.9.2}
-\contentsline {section}{\numberline {1.10}Discussion}{72}{section.1.10}
-\contentsline {chapter}{\chapternumberline {2}Conclusions}{75}{chapter.2}
-\contentsline {chapter}{Bibliography}{77}{chapter.2}
-\contentsline {chapter}{References}{77}{section*.41}
+\contentsline {subsection}{\numberline {1.7.2}Multivariate discriminant: a BDT classifier}{43}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}BDT selection requirement in the signal region}{63}{subsection.1.7.3}
+\contentsline {section}{\numberline {1.8}Uncertainties of the measurement}{64}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Normalisation uncertainties}{65}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Shape uncertainties}{68}{subsection.1.8.2}
+\contentsline {section}{\numberline {1.9}Statistical Analysis}{70}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}The likelihood function}{71}{subsection.1.9.1}
+\contentsline {subsection}{\numberline {1.9.2}The fit results}{75}{subsection.1.9.2}
+\contentsline {section}{\numberline {1.10}Discussion}{84}{section.1.10}
+\contentsline {chapter}{\chapternumberline {2}Conclusions}{87}{chapter.2}
+\contentsline {chapter}{Bibliography}{89}{chapter.2}
+\contentsline {chapter}{References}{89}{section*.56}
