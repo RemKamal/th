@@ -1,0 +1,999 @@
+\begin{thebibliography}{100}
+
+\bibitem{statmech}
+Erwin Schrödinger.
+\newblock {\em {Statistical thermodynamics; 2nd ed.}}
+\newblock Cambridge Univ. Press, Cambridge, 1952.
+
+\bibitem{Feynman_atoms}
+Richard~Phillips Feynman, Robert~Benjamin Leighton, and Matthew Sands.
+\newblock {\em {The Feynman lectures on physics; New millennium ed.}}
+\newblock Basic Books, New York, NY, 2010.
+\newblock Originally published 1963-1965.
+
+\bibitem{griffiths_hep}
+David~J Griffiths.
+\newblock {\em {Introduction to elementary particles; 2nd rev. version}}.
+\newblock Physics textbook. Wiley, New York, NY, 2008.
+
+\bibitem{Davis:1989898}
+E~A Davis and Isabel Falconer.
+\newblock {\em {J.J. Thompson and the discovery of the electron}}.
+\newblock Taylor and Francis, Hoboken, NJ, 2002.
+
+\bibitem{Piccioni1996}
+Oreste Piccioni.
+\newblock {\em The Discovery of the Muon}, pages 143--162.
+\newblock Springer US, Boston, MA, 1996.
+
+\bibitem{Bender}
+Carl Bender.
+\newblock Mathematical physics.
+
+\bibitem{PhysRevLett.9.36}
+G.~Danby, J-M. Gaillard, K.~Goulianos, L.~M. Lederman, N.~Mistry, M.~Schwartz,
+  and J.~Steinberger.
+\newblock Observation of high-energy neutrino reactions and the existence of
+  two kinds of neutrinos.
+\newblock {\em Phys. Rev. Lett.}, 9:36--44, Jul 1962.
+
+\bibitem{PhysRevLett.35.1489}
+M.~L. Perl, G.~S. Abrams, A.~M. Boyarski, et~al.
+\newblock Evidence for anomalous lepton production in
+  ${e}^{+}\ensuremath{-}{e}^{\ensuremath{-}}$ annihilation.
+\newblock {\em Phys. Rev. Lett.}, 35:1489--1492, Dec 1975.
+
+\bibitem{Kodama:2000mp}
+K.~Kodama et~al.
+\newblock {Observation of tau neutrino interactions}.
+\newblock {\em Phys. Lett.}, B504:218--224, 2001.
+
+\bibitem{wolfram}
+Eric~W. Weisstein.
+\newblock Fundamental forces.
+
+\bibitem{Chandrasekhar:1187874}
+S~Chandrasekhar.
+\newblock {\em {Newton's principia for the common reader}}.
+\newblock Oxford Univ., Oxford, 2003.
+\newblock The book can be consulted by contacting: PH-AID: Wallet, Lionel.
+
+\bibitem{MTW_gravity}
+Charles~W. Misner, Kip~S. Thorne, and John~Archibald Wheeler.
+\newblock {\em Gravitation}.
+\newblock W. H. Freeman San Francisco, 1973.
+
+\bibitem{Gutfreund:1980674}
+Hanoch Gutfreund and Jurgen Renn.
+\newblock {\em {The road to relativity: the history and meaning of Einstein's
+  "The foundation of general relativity" : featuring the original manuscript of
+  Einstein's masterpiece}}.
+\newblock Princeton University Press, Princeton, NJ, Apr 2015.
+
+\bibitem{butterworth2014smashing}
+J.~Butterworth.
+\newblock {\em Smashing Physics}.
+\newblock Headline Publishing Group, 2014.
+
+\bibitem{Zee_qft}
+A~Zee.
+\newblock {\em {Quantum Field Theory in a Nutshell}}.
+\newblock Nutshell handbook. Princeton Univ. Press, Princeton, NJ, 2003.
+
+\bibitem{Cottingham:1026625}
+W~N Cottingham and D~A Greenwood.
+\newblock {\em {An Introduction to the Standard Model of Particle Physics; 2nd
+  ed.}}
+\newblock Cambridge Univ. Press, Cambridge, 2007.
+
+\bibitem{feynman_diagrams}
+R.~P. Feynman.
+\newblock The theory of positrons.
+\newblock {\em Phys. Rev.}, 76:749--759, Sep 1949.
+
+\bibitem{Halzen:100339}
+Francis Halzen and Alan~Douglas Martin.
+\newblock {\em {Quarks and leptons: an introductory course in modern particle
+  physics}}.
+\newblock Wiley, New York, NY, 1984.
+
+\bibitem{pdg}
+C.~Patrignani et~al.
+\newblock {Review of Particle Physics}.
+\newblock {\em Chin. Phys.}, C40(10):100001, 2016.
+
+\bibitem{qed_fathers}
+Andrew Wayne.
+\newblock {QED and the Men Who Made It: Dyson, Feynman, Schwinger, and Tomonaga
+  by Silvan S. Schweber}.
+\newblock {\em The British Journal for the Philosophy of Science},
+  46(4):624--627, 1995.
+
+\bibitem{Mangano:454171}
+Michelangelo~L Mangano.
+\newblock {Introduction to QCD}.
+\newblock (CERN-OPEN-2000-255), 1999.
+
+\bibitem{strassler}
+Matt Strassler.
+\newblock Of particular significance: Conversations about science with
+  theoretical physicist matt strassler.
+
+\bibitem{Glashow:1961tr}
+S.~L. Glashow.
+\newblock {Partial Symmetries of Weak Interactions}.
+\newblock {\em Nucl. Phys.}, 22:579--588, 1961.
+
+\bibitem{PhysRevLett.13.321}
+F.~Englert and R.~Brout.
+\newblock Broken symmetry and the mass of gauge vector mesons.
+\newblock {\em Phys. Rev. Lett.}, 13:321--323, Aug 1964.
+
+\bibitem{PhysRevLett.13.508}
+Peter~W. Higgs.
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock {\em Phys. Rev. Lett.}, 13:508--509, Oct 1964.
+
+\bibitem{PhysRevLett.13.585}
+G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble.
+\newblock Global conservation laws and massless particles.
+\newblock {\em Phys. Rev. Lett.}, 13:585--587, Nov 1964.
+
+\bibitem{who_cares}
+Pauline Gagnon.
+\newblock {\em Who cares about particle physics? : making sense of the Higgs
+  boson, the Large Hadron Collider and CERN}.
+\newblock Oxford University Press, 2016.
+
+\bibitem{CMS-PAS-HIG-14-009}
+{Precise determination of the mass of the Higgs boson and studies of the
+  compatibility of its couplings with the standard model}.
+\newblock Technical Report CMS-PAS-HIG-14-009, CERN, Geneva, 2014.
+
+\bibitem{aps_einstein}
+Jennifer Ouellette.
+\newblock Einstein's quest for a unified theory.
+\newblock {\em APS}, 2015.
+
+\bibitem{Bilenky:2014ema}
+S.~M. Bilenky.
+\newblock {Neutrino in Standard Model and beyond}.
+\newblock {\em Phys. Part. Nucl.}, 46(4):475--496, 2015.
+
+\bibitem{Mozer:2016wzi}
+Matthias~U. Mozer.
+\newblock {Electroweak Physics at the LHC}.
+\newblock {\em Springer Tracts Mod. Phys.}, 267:1--115, 2016.
+
+\bibitem{Sardanashvily:2143630}
+Gennadi Sardanashvily.
+\newblock {\em {Noether's theorems: applications in mechanics and field
+  theory}}.
+\newblock Atlantis studies in variational geometry. Springer, Paris, 2016.
+
+\bibitem{Weinberg:799984}
+Steven Weinberg.
+\newblock {The Making of the Standard Model}.
+\newblock {\em Eur. Phys. J. C}, 34(hep-ph/0401010):5--13. 21 p. ; streaming
+  video, 2003.
+
+\bibitem{Wolf:2015kua}
+Roger Wolf.
+\newblock {\em {The Higgs Boson Discovery at the Large Hadron Collider}},
+  volume 264.
+\newblock Springer, 2015.
+
+\bibitem{MonroyMontanez:2639240}
+Jose~Andres Monroy~Montanez, Kenneth Bloom, and Aaron Dominguez.
+\newblock {Search for production of a Higgs boson and a single Top quark in
+  multilepton final states in pp collisions at $\sqrt{s}=$ 13 TeV}, Jul 2018.
+\newblock Presented 23 Jul 2018.
+
+\bibitem{Huang:2017nnw}
+Peisi Huang, Aniket Joglekar, Min Li, and Carlos E.~M. Wagner.
+\newblock {Corrections to di-Higgs boson production with light stops and
+  modified Higgs couplings}.
+\newblock {\em Phys. Rev.}, D97(7):075001, 2018.
+
+\bibitem{Dolan:2012ac}
+Matthew~J. Dolan, Christoph Englert, and Michael Spannowsky.
+\newblock {New Physics in LHC Higgs boson pair production}.
+\newblock {\em Phys. Rev.}, D87(5):055002, 2013.
+
+\bibitem{Kanemura:2016tan}
+Shinya Kanemura, Kunio Kaneta, Naoki Machida, Shinya Odori, and Tetsuo Shindou.
+\newblock {Single and double production of the Higgs boson at hadron and lepton
+  colliders in minimal composite Higgs models}.
+\newblock {\em Phys. Rev.}, D94(1):015028, 2016.
+
+\bibitem{Sirunyan:2018iwt}
+Albert~M Sirunyan et~al.
+\newblock {Search for Higgs boson pair production in the
+  $\gamma\gamma\mathrm{b\overline{b}}$ final state in pp collisions at
+  $\sqrt{s}=$ 13 TeV}.
+\newblock 2018.
+
+\bibitem{Randall:1999ee}
+Lisa Randall and Raman Sundrum.
+\newblock {A Large mass hierarchy from a small extra dimension}.
+\newblock {\em Phys. Rev. Lett.}, 83:3370--3373, 1999.
+
+\bibitem{Oliveira:2014kla}
+Alexandra Oliveira.
+\newblock {Gravity particles from Warped Extra Dimensions, predictions for
+  LHC}.
+\newblock 2014.
+
+\bibitem{Xanda}
+Alexandra Oliveira.
+\newblock {Gravity particles from Warped Extra Dimensions, predictions for
+  LHC}.
+\newblock 2014.
+
+\bibitem{Uzawa:1999pg}
+Kunihito Uzawa, Yoshiyuki Morisawa, and Shinji Mukohyama.
+\newblock {Excitation of Kaluza-Klein gravitational mode}.
+\newblock {\em Phys. Rev.}, D62:064011, 2000.
+
+\bibitem{Goldberger:1999uk}
+Walter~D. Goldberger and Mark~B. Wise.
+\newblock {Modulus stabilization with bulk fields}.
+\newblock {\em Phys. Rev. Lett.}, 83:4922--4925, 1999.
+
+\bibitem{Davoudiasl:1999jd}
+H.~Davoudiasl, J.~L. Hewett, and T.~G. Rizzo.
+\newblock {Phenomenology of the Randall-Sundrum Gauge Hierarchy Model}.
+\newblock {\em Phys. Rev. Lett.}, 84:2080, 2000.
+
+\bibitem{Traczyk:2002jh}
+Piotr Traczyk and Grzegorz Wrochna.
+\newblock {Search for Randall-Sundrum graviton excitations in the CMS
+  experiment}.
+\newblock 2002.
+
+\bibitem{Goldberger:1999wh}
+Walter~D. Goldberger and Mark~B. Wise.
+\newblock {Bulk fields in the Randall-Sundrum compactification scenario}.
+\newblock {\em Phys. Rev.}, D60:107505, 1999.
+
+\bibitem{Raychaudhuri:2126967}
+Sreerup Raychaudhuri and K~Sridhar.
+\newblock {\em {Particle physics of brane worlds and extra dimensions}}.
+\newblock Cambridge monographs on mathematical physics. Cambridge University
+  Press, Cambridge, 2016.
+
+\bibitem{Forger:2003ut}
+Michael Forger and Hartmann Romer.
+\newblock {Currents and the energy momentum tensor in classical field theory: A
+  Fresh look at an old problem}.
+\newblock {\em Annals Phys.}, 309:306--389, 2004.
+
+\bibitem{WED}
+Lisa Randall and Raman Sundrum.
+\newblock Large mass hierarchy from a small extra dimension.
+\newblock {\em Phys. Rev. Lett.}, 83:3370--3373, Oct 1999.
+
+\bibitem{Contino:2012xk}
+Roberto Contino, Margherita Ghezzi, Mauro Moretti, Giuliano Panico, Fulvio
+  Piccinini, and Andrea Wulzer.
+\newblock {Anomalous Couplings in Double Higgs Production}.
+\newblock {\em JHEP}, 08:154, 2012.
+
+\bibitem{Chen:2014xra}
+Chuan-Ren Chen and Ian Low.
+\newblock {Double take on new physics in double Higgs boson production}.
+\newblock {\em Phys. Rev.}, D90(1):013018, 2014.
+
+\bibitem{HHXsec}
+Giuliano Panico.
+\newblock {Prospects for double Higgs production}.
+\newblock {\em Frascati Phys. Ser.}, 61:102, 2016.
+
+\bibitem{Wertz:2632195}
+Sebastien Wertz and Vincent Lemaitre.
+\newblock {Search for Higgs boson pair production in the $\mathrm{b\bar{b}}
+  \ell \nu \ell \nu$ final state with the CMS detector}, 2018.
+
+\bibitem{Cadamuro:2292733}
+Luca Cadamuro, Yves Sirois, and Roberto Salerno.
+\newblock {Search for Higgs boson pair production in the $b\bar{b}\tau^+\tau^-$
+  decay channel with the CMS detector at the LHC. Recherche de la production de
+  paires de bosons de Higgs dans le canal de désintégration
+  $b\bar{b}\tau^+\tau^-$ avec le détecteur CMS auprès du LHC}, Sep 2017.
+\newblock Presented 05 Oct 2017.
+
+\bibitem{Sadenius}
+Thomas Schörner-Sadenius.
+\newblock {\em {The Large Hadron Collider: harvest of run 1}}.
+\newblock Springer, Cham, 2015.
+
+\bibitem{LHC1984}
+CERN.
+\newblock {\em {Large Hadron Collider in the LEP Tunnel}}, Geneva, 1984. CERN.
+
+\bibitem{LHC_vacuum}
+Cecile Noels.
+\newblock {Literature in focus - The Large Hadron Collider: A Marvel of
+  Technology. Literature in focus - The Large Hadron Collider: A Marvel of
+  Technology}.
+\newblock (BUL-NA-2009-414. 51/2009):11, Dec 2009.
+
+\bibitem{Hauptman:2011zza}
+John Hauptman.
+\newblock {\em {Particle physics experiments at high energy colliders}}.
+\newblock 2011.
+
+\bibitem{Tracker_phase2}
+CMS Collaboration.
+\newblock {The Phase-2 Upgrade of the CMS Tracker}.
+\newblock Technical Report CERN-LHCC-2017-009. CMS-TDR-014, CERN, Geneva, Jun
+  2017.
+
+\bibitem{ECAL_attendum}
+Philippe Bloch, Robert Brown, Paul Lecoq, and Hans Rykaczewski.
+\newblock {\em {Changes to CMS ECAL electronics: addendum to the Technical
+  Design Report}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2002.
+
+\bibitem{CMS_TDR}
+G~L Bayatian, S~Chatrchyan, H~Hmayakyan, A~Poblaguev, M~E Zeller, and B~S
+  Yuldashev.
+\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
+  Performance and Software}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2006.
+\newblock There is an error on cover due to a technical problem for some items.
+
+\bibitem{HCAL_TDR}
+{\em {The CMS hadron calorimeter project: Technical Design Report}}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
+\bibitem{Baiatian_hcal}
+G~Baiatian, Albert~M Sirunyan, Virgil~E Emeliantchik, Igor~Barnes, Alvin~T
+  Laasanen, and Arnold Pompos.
+\newblock {Design, Performance, and Calibration of CMS Hadron-Barrel
+  Calorimeter Wedges}.
+\newblock Technical Report CMS-NOTE-2006-138. 1, CERN, Geneva, May 2007.
+
+\bibitem{Muon_system_TDR}
+CMS Collaboration.
+\newblock {The Phase-2 Upgrade of the CMS Muon Detectors}.
+\newblock Technical Report CERN-LHCC-2017-012. CMS-TDR-016, CERN, Geneva, Sep
+  2017.
+\newblock This is the final version, approved by the LHCC.
+
+\bibitem{Trigger}
+Vardan Khachatryan et~al.
+\newblock {The CMS trigger system}.
+\newblock {\em JINST}, 12(01):P01020, 2017.
+
+\bibitem{DAQ}
+G.~Bauer et~al.
+\newblock {The CMS data acquisition system software}.
+\newblock {\em J. Phys. Conf. Ser.}, 219:022011, 2010.
+
+\bibitem{Particle_flow}
+A.~M. Sirunyan et~al.
+\newblock {Particle-flow reconstruction and global event description with the
+  CMS detector}.
+\newblock {\em JINST}, 12(10):P10003, 2017.
+
+\bibitem{combined_track_finding}
+Serguei Chatrchyan et~al.
+\newblock {Description and performance of track and primary-vertex
+  reconstruction with the CMS tracker}.
+\newblock {\em JINST}, 9(10):P10009, 2014.
+
+\bibitem{PFalgo}
+Albert~M Sirunyan et~al.
+\newblock {Particle-flow reconstruction and global event description with the
+  CMS detector}.
+\newblock {\em JINST}, 12(10):P10003, 2017.
+
+\bibitem{Kalman_filter}
+Giuseppe Cerati et~al.
+\newblock {Parallelized and Vectorized Tracking Using Kalman Filters with CMS
+  Detector Geometry and Events}.
+\newblock 2018.
+
+\bibitem{GSF}
+Wolfgang Adam, R~Frühwirth, Are Strandlie, and T~Todor.
+\newblock {Reconstruction of Electrons with the Gaussian-Sum Filter in the CMS
+  Tracker at the LHC}.
+\newblock Technical Report CMS-NOTE-2005-001, CERN, Geneva, Jan 2005.
+
+\bibitem{DeterministicAnnealing}
+E~Chabanat and N~Estre.
+\newblock {Deterministic Annealing for Vertex Finding at CMS}.
+\newblock 2005.
+
+\bibitem{AdaptiveVertexFitting}
+R~Frühwirth, Wolfgang Waltenberger, and Pascal Vanlaer.
+\newblock {Adaptive Vertex Fitting}.
+\newblock Technical Report CMS-NOTE-2007-008, CERN, Geneva, Mar 2007.
+
+\bibitem{ParticleFlow}
+A.~M. Sirunyan et~al.
+\newblock {Particle-flow reconstruction and global event description with the
+  CMS detector}.
+\newblock {\em JINST}, 12(10):P10003, 2017.
+
+\bibitem{tight_muon_selection_PF}
+The~CMS collaboration.
+\newblock Performance of {CMS} muon reconstruction in pp collision events at
+  sqrt(s) = 7 {TeV}.
+\newblock {\em Journal of Instrumentation}, 7(10):P10002--P10002, oct 2012.
+
+\bibitem{TMVA}
+Andreas Hoecker, Peter Speckmayer, Joerg Stelzer, Jan Therhaag, Eckhard von
+  Toerne, and Helge Voss.
+\newblock {TMVA: Toolkit for Multivariate Data Analysis}.
+\newblock {\em PoS}, ACAT:040, 2007.
+
+\bibitem{antiKt}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The anti-$k_t$ jet clustering algorithm}.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{CMS-PAS-BTV-15-001}
+{Identification of b quark jets at the CMS Experiment in the LHC Run 2}.
+\newblock Technical Report CMS-PAS-BTV-15-001, CERN, Geneva, 2016.
+
+\bibitem{Sirunyan:2017ezt}
+A.~M. Sirunyan et~al.
+\newblock {Identification of heavy-flavour jets with the CMS detector in pp
+  collisions at 13 TeV}.
+\newblock {\em JINST}, 13(05):P05011, 2018.
+
+\bibitem{ensemble_learning}
+Lior Rokach.
+\newblock Ensemble-based classifiers.
+\newblock {\em Artificial Intelligence Review}, 33(1):1--39, Feb 2010.
+
+\bibitem{missing_momentum}
+{CMS e-Lab}.
+\newblock {Energy, Mass and Momentum in High-Energy Physics}.
+\newblock
+  \url{https://www.i2u2.org/elab/cms/library/ref-mass-energy-momentum.jsp}.
+
+\bibitem{PU_mitigation}
+Gregory Soyez.
+\newblock {Pileup mitigation at the LHC: a theorist's view}.
+\newblock {\em Phys. Rept.}, 803:1--158, 2019.
+
+\bibitem{TnP}
+{N. Adam, J. Berryhill, V. Halyo, A. Hunt, K. Mishra}.
+\newblock {Generic Tag and Probe Tool for Measuring Efficiency at CMS with
+  Early Data }.
+\newblock
+  \url{http://cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft&files=AN2009_111_v1.pdf}.
+
+\bibitem{bbZZAN}
+{Michele de Gruttola, Rami Kamalieddin, Ilya Kravchenko, Lesya Shchutska}.
+\newblock {Search for resonant diHiggs production with bbZZ decays with the
+  2b2l2nu signature using 35.9/fb data of 2016 pp collisions at the LHC}.
+\newblock
+  \url{http://cms.cern.ch/iCMS/jsp/openfile.jsp?tp=draft&files=AN2017_198_v17.pdf}.
+
+\bibitem{CMS-PAS-HIG-17-032}
+{Search for resonant double Higgs production with $bbZZ$ decays in the
+  $b\bar{b} \ell\ell\nu\nu$ final state}.
+\newblock Technical Report CMS-PAS-HIG-17-032, CERN, Geneva, 2018.
+
+\bibitem{Zech:1988un}
+Gunter Zech.
+\newblock {Upper Limits in Experiments with Background Or Measurement Errors}.
+\newblock {\em Nucl. Instrum. Meth.}, A277:608, 1989.
+
+\bibitem{vhbbAN}
+{Michele de Gruttola, Caterina Vernieri, Pierluigi Bortignon, David Curry, Ivan
+  Furic, Jacobo Konigsberg, Sean-Jiun Wang, Paolo Azzurri, Tommaso Boccali,
+  Andrea Rizzi, Silvio Donato, Stephane Brunet Cooperstein , James Olsen,
+  Christopher Palmer, Lorenzo Bianchini, Christoph Grab, Gael Ludovic Perrin,
+  and Luca Perrozzi}.
+\newblock {Search for the Standard Model Higgs Boson Produced in Association
+  with W and Z and Decaying to Bottom Quarks}.
+\newblock
+  \url{http://cms.cern.ch/iCMS/jsp/db_notes/noteInfo.jsp?cmsnoteid=CMS\%20AN-2015/168}.
+
+\bibitem{Alwall:2014hca}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.~S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro.
+\newblock {The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower
+  simulations}.
+\newblock {\em JHEP}, 07:079, 2014.
+
+\bibitem{CERNYR4}
+{SM Higgs Branching Ratios and Total Decay Widths (update in CERN Report4
+  2016)}.
+\newblock
+  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR\#Higgs\_2\_gauge\_bosons.
+
+\bibitem{Alwall:2007fs}
+Johan Alwall et~al.
+\newblock {Comparative study of various algorithms for the merging of parton
+  showers and matrix elements in hadronic collisions}.
+\newblock {\em Eur. Phys. J. C}, 53:473--500, 2008.
+
+\bibitem{DY_QCDnEWK}
+Stefan Kallweit, Jonas~M. Lindert, Philipp Maierhofer, Stefano Pozzorini, and
+  Marek Schonherr.
+\newblock {NLO QCD+EW predictions for V + jets including off-shell vector-boson
+  decays and multijet merging}.
+\newblock {\em JHEP}, 04:021, 2016.
+
+\bibitem{Alioli:2009je}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock {NLO single-top production matched with shower in POWHEG: s- and
+  t-channel contributions}.
+\newblock {\em JHEP}, 09:111, 2009.
+\newblock [Erratum: JHEP02,011(2010)].
+
+\bibitem{pwh1}
+Paolo Nason.
+\newblock {A New method for combining NLO QCD with shower Monte Carlo
+  algorithms}.
+\newblock {\em JHEP}, 11:040, 2004.
+
+\bibitem{pwh2}
+Stefano Frixione, Paolo Nason, and Carlo Oleari.
+\newblock {Matching NLO QCD computations with Parton Shower simulations: the
+  POWHEG method}.
+\newblock {\em JHEP}, 11:070, 2007.
+
+\bibitem{pwh3}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock {A general framework for implementing NLO calculations in shower
+  Monte Carlo programs: the POWHEG BOX}.
+\newblock {\em JHEP}, 06:043, 2010.
+
+\bibitem{Kidonakis:2012db}
+Nikolaos Kidonakis.
+\newblock {Differential and total cross sections for top pair and single top
+  production}.
+\newblock Technical Report arXiv:1205.3453, Kennesaw State University, May
+  2012.
+\newblock Comments: 4 pages, 10 figures; presented at XX International Workshop
+  on Deep-Inelastic Scattering and Related Subjects (DIS2012), Bonn, Germany,
+  March 26-30, 2012.
+
+\bibitem{Czakon:2013goa}
+Michal Czakon, Paul Fiedler, and Alexander Mitov.
+\newblock {Total Top-Quark Pair-Production Cross Section at Hadron Colliders
+  Through O($\alpha_S^4$)}.
+\newblock {\em Phys. Rev. Lett.}, 110:252004, 2013.
+
+\bibitem{Sjostrand:2007gs}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock {\em Comput. Phys. Commun.}, 178:852--867, 2008.
+
+\bibitem{Sjostrand:2014zea}
+Torbjorn Sjostrand, Stefan Ask, Jesper~R. Christiansen, Richard Corke, Nishita
+  Desai, Philip Ilten, Stephen Mrenna, Stefan Prestel, Christine~O. Rasmussen,
+  and Peter~Z. Skands.
+\newblock {An Introduction to PYTHIA 8.2}.
+\newblock {\em Comput. Phys. Commun.}, 191:159--177, 2015.
+
+\bibitem{CMS-PAS-SMP-18-002}
+{Measurements of the $\mathrm{pp}\to\mathrm{WZ}$ inclusive and differential
+  production cross section and constraints on charged anomalous triple gauge
+  couplings at $\sqrt{s} = 13~\mathrm{TeV}$.}
+\newblock Technical Report CMS-PAS-SMP-18-002, CERN, Geneva, 2018.
+
+\bibitem{CMS-PAS-SMP-16-006}
+{Measurement of the WW cross section pp collisions at sqrt(s)=13 TeV}.
+\newblock Technical Report CMS-PAS-SMP-16-006, CERN, Geneva, 2016.
+
+\bibitem{Khachatryan:2016txa}
+Vardan Khachatryan et~al.
+\newblock {Measurement of the ZZ production cross section and Z $\to
+  \ell^+\ell^-\ell'^+\ell'^-$ branching fraction in pp collisions at $\sqrt
+  s$=13 TeV}.
+\newblock {\em Phys. Lett. B}, 763:280, 2016.
+\newblock [Erratum: Phys. Lett.B772,884(2017)].
+
+\bibitem{Frederix:2012ps}
+Rikkert Frederix and Stefano Frixione.
+\newblock {Merging meets matching in MC@NLO}.
+\newblock {\em JHEP}, 12:061, 2012.
+
+\bibitem{Campbell:2010ff}
+John~M. Campbell and R.~K. Ellis.
+\newblock {MCFM for the Tevatron and the LHC}.
+\newblock {\em Nucl. Phys. Proc. Suppl.}, 205-206:10, 2010.
+
+\bibitem{xsecZH}
+{SM Higgs production cross sections at sqrt(s) = 13 TeV}.
+\newblock
+  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt13TeV\#ZHllH\_H\_l\_e\_or\_Process.
+
+\bibitem{xsecTT}
+{NNLO+NNLL top-quark-pair cross sections}.
+\newblock
+  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO\#Top\_quark\_pair\_cross\_sections\_at.
+
+\bibitem{xsecST}
+{Single Top Cross sections}.
+\newblock https://twiki.cern.ch/twiki/bin/viewauth/CMS/SingleTopSigma.
+
+\bibitem{xsecVV}
+{CMS GEN XSEC Task Force}.
+\newblock
+  https://twiki.cern.ch/twiki/bin/viewauth/CMS/GenXsecTaskForce\#Space\_for\_Various\_Processes\_Welc.
+
+\bibitem{Ball:2014uwa}
+Richard~D. Ball et~al.
+\newblock {Parton distributions for the LHC Run II}.
+\newblock {\em JHEP}, 04:040, 2015.
+
+\bibitem{Khachatryan:2015pea}
+Vardan Khachatryan et~al.
+\newblock {Event generator tunes obtained from underlying event and multiparton
+  scattering measurements}.
+\newblock {\em Eur. Phys. J. C}, 76(3):155, 2016.
+
+\bibitem{GEANT4}
+S.~Agostinelli et~al.
+\newblock {GEANT4}---a simulation toolkit.
+\newblock {\em Nucl. Instrum. Meth. A}, 506:250, 2003.
+
+\bibitem{MissingETRun2Corrections}
+{CMS MET group}.
+\newblock {MET Corrections and Uncertainties for Run-II}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/MissingETRun2Corrections}.
+
+\bibitem{MissingETOptionalFiltersRun2}
+{CMS MET group}.
+\newblock {MET Filter Recommendations for Run II}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/MissingETOptionalFiltersRun2}.
+
+\bibitem{bbWW}
+Albert~M Sirunyan et~al.
+\newblock {Search for resonant and nonresonant Higgs boson pair production in
+  the bblnulnu final state in proton-proton collisions at sqrt(s) = 13 TeV}.
+\newblock 2017.
+
+\bibitem{DYLOtoNLO}
+A.M. Sirunyan, R.~Kamalieddin, and et~al I.~Kravchenko.
+\newblock Evidence for the higgs boson decay to a bottom quarkâ€-antiquark
+  pair.
+\newblock {\em Physics Letters B}, 780:501 -- 532, 2018.
+
+\bibitem{NLO_Vjets}
+S.~Kallweit, J.~M. Lindert, P.~Maierh{\"o}fer, S.~Pozzorini, and
+  M.~Sch{\"o}nherr.
+\newblock Nlo qcd+ew predictions for v + jets including off-shell vector-boson
+  decays and multijet merging.
+\newblock {\em Journal of High Energy Physics}, 2016(4):21, Apr 2016.
+
+\bibitem{book:411471}
+Geoffrey I.~Webb Claude~Sammut.
+\newblock {\em Encyclopedia of Machine Learning}.
+\newblock Springer, 1st edition. edition, 2011.
+
+\bibitem{Hocker:2007ht}
+Helge Voss, Andreas H{\"o}cker, J{\"o}rg Stelzer, and Frerik~\ Tegenfeldt.
+\newblock {TMVA}, the toolkit for multivariate data analysis with {ROOT}.
+\newblock In {\em XIth International Workshop on Advanced Computing and
+  Analysis Techniq\ ues in Physics Research (ACAT)}, page~40, 2007.
+
+\bibitem{HH_combination}
+{Combination of searches for Higgs boson pair production in proton-proton
+  collisions at $\sqrt{s} = 13~\mathrm{TeV}$}.
+\newblock Technical Report CMS-PAS-HIG-17-030, CERN, Geneva, 2018.
+
+\bibitem{CMS-PAS-LUM-17-001}
+CMS Collaboration.
+\newblock {CMS Luminosity Measurements for the 2016 Data Taking Period}.
+\newblock CMS Physics Analysis Summary CMS-PAS-LUM-17-001, CERN, Geneva, 2017.
+
+\bibitem{Botje:2011sn}
+Michiel Botje et~al.
+\newblock {The PDF4LHC Working Group Interim Recommendations}.
+\newblock 2011.
+
+\bibitem{Alekhin:2011sk}
+Sergey Alekhin et~al.
+\newblock {The PDF4LHC Working Group Interim Report}.
+\newblock 2011.
+
+\bibitem{Butterworth:2015oua}
+Jon Butterworth et~al.
+\newblock {PDF4LHC recommendations for LHC Run II}.
+\newblock {\em J. Phys.}, G43:023001, 2016.
+
+\bibitem{Barlow-Beeston}
+Roger Barlow and Christine Beeston.
+\newblock Fitting using finite monte carlo samples.
+\newblock {\em Computer Physics Communications}, 77(2):219 -- 228, 1993.
+
+\bibitem{autoMCStats}
+J.~S. Conway.
+\newblock {Incorporating Nuisance Parameters in Likelihoods for Multisource
+  Spectra}.
+\newblock In {\em {Proceedings, PHYSTAT 2011 Workshop on Statistical Issues
+  Related to Discovery Claims in Search Experiments and Unfolding, CERN,Geneva,
+  Switzerland 17-20 January 2011}}, pages 115--120, 2011.
+
+\bibitem{HiggsCombine}
+{CMS Higgs WG}.
+\newblock {Documentation of the RooStats -based statistics tools for Higgs
+  PAG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHiggsAnalysisCombinedLimit}.
+
+\bibitem{RooStats}
+L.~Moneta, K.~Belasco, K.~S. Cranmer, A.~Lazzaro, D.~Piparo, G.~Schott,
+  W.~Verkerke, and M.~Wolf.
+\newblock The {R}oo{S}tats {P}roject.
+\newblock In {\em 13$^\text{th}$ International Workshop on Advanced Computing
+  and Analysis Techniques in Physics Research (ACAT2010)}. SISSA, 2010.
+\newblock {PoS(ACAT2010)057}.
+
+\bibitem{Junk:1999kv}
+Thomas Junk.
+\newblock {Confidence level computation for combining searches with small
+  statistics}.
+\newblock {\em Nucl.Instrum.Meth.}, A434:435, 1999.
+
+\bibitem{LEP-CLs}
+A.~L. Read.
+\newblock {Presentation of search results: the CLs technique}.
+\newblock {\em J. Phys. G: Nucl. Part. Phys.}, 28, 2002.
+
+\bibitem{HIG-11-011}
+{SM Higgs Combination}.
+\newblock Technical Report CMS-PAS-HIG-11-011, CERN, Geneva, 2011.
+
+\bibitem{Cowan:2010js}
+Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
+\newblock {Asymptotic formulae for likelihood-based tests of new physics}.
+\newblock {\em Eur. Phys. J.}, C71:1554, 2011.
+\newblock [Erratum: Eur. Phys. J.C73,2501(2013)].
+
+\bibitem{expected_limit_asimov}
+Eilam Gross.
+\newblock Practical statistics for high energy physics.
+\newblock {\em CERN Yellow Reports: School Proceedings}, 4(0):165, 2017.
+
+\bibitem{HiggsCouplings2018}
+Andres Tiko.
+\newblock {HH} resonance searches at {ATLAS} and {CMS}.
+\newblock Tokyo, Japan, November 2018. "Higgs Couplings 2018" conference.
+
+\bibitem{HH_combo}
+A.~M. Sirunyan, A.~Tumasyan, and W.~et~al. Adam.
+\newblock Combination of searches for higgs boson pair production in
+  proton-proton collisions at $\sqrt{s}=13\text{ }\text{ }\mathrm{TeV}$.
+\newblock {\em Phys. Rev. Lett.}, 122:121803, Mar 2019.
+
+\bibitem{CMS-PAS-FTR-18-019}
+{Prospects for HH measurements at the HL-LHC}.
+\newblock Technical Report CMS-PAS-FTR-18-019, CERN, Geneva, 2018.
+
+\bibitem{...}
+
+
+\bibitem{POWHEG}
+
+
+\bibitem{Luisoni:2013kna}
+
+
+\bibitem{Comparison_of_nuisances_expectedSignal0_350}
+
+
+\bibitem{Comparison_of_nuisances_expectedSignal1_350}
+
+
+\bibitem{DYkfactor}
+
+
+\bibitem{LHCHXSWG}
+
+
+\bibitem{SMxsec}
+
+
+\bibitem{Gavin:2012sy}
+
+
+\bibitem{Frixione:2007nw}
+
+
+\bibitem{cite_aMC@NLO}
+
+
+\bibitem{Frederix:2012dh}
+
+
+\bibitem{Chatrchyan:2011ds}
+
+
+\bibitem{Re:2010bp}
+
+
+\bibitem{muonIDnISO}
+
+
+\bibitem{muonTRK}
+
+
+\bibitem{muonTrigger}
+
+
+\bibitem{Dupuis:2016fda}
+
+
+\bibitem{BG3}
+
+
+\bibitem{BG2}
+
+
+\bibitem{BG1}
+
+
+\bibitem{HiggsPAGPreapprovalChecks}
+
+
+\bibitem{BTagtwiki}
+
+
+\bibitem{Salam:1961en}
+
+
+\bibitem{Weinberg:1967tq}
+
+
+\bibitem{Vhbb_inspire}
+
+
+\bibitem{CMSreco}
+
+
+\bibitem{HiggsCMS}
+
+
+\bibitem{HiggsAtlas}
+
+
+\bibitem{CMS_AN_2006-027}
+Technical report.
+
+\bibitem{CMS_NOTE_2006-106}
+Technical report.
+
+\bibitem{Brandt:1997gi}
+
+
+\bibitem{Buchmuller:1986zs}
+
+
+\bibitem{PTDR2}
+
+
+\bibitem{CMS-PAS-JME-10-003}
+Technical report.
+
+\bibitem{Chatrchyan:2008zzk}
+
+
+\bibitem{Beringer:1900zz}
+
+
+\bibitem{LEPewkfits}
+
+
+\bibitem{Bertram:2000br}
+Technical report.
+
+\bibitem{Khachatryan:2015bnx}
+
+
+\bibitem{CMS-PAS-MUO-10-002}
+Technical report.
+
+\bibitem{Chatrchyan:2012xi}
+
+
+\bibitem{CMS-PAS-PFT-09-001}
+Technical report.
+
+\bibitem{CMS-PAS-PFT-10-001}
+Technical report.
+
+\bibitem{Khachatryan:2015hwa}
+
+
+\bibitem{Khachatryan:2010mp}
+
+
+\bibitem{CMS-PAPER-MUO-10-004}
+
+
+\bibitem{ATLAS:2011aa}
+
+
+\bibitem{Cacciari:2005hq}
+
+
+\bibitem{lumiUnc}
+Technical report.
+
+\bibitem{MuonsRun2}
+
+
+\bibitem{Campbell:2014kua}
+
+
+\bibitem{Gavin:2010az}
+
+
+\bibitem{Li:2012wna}
+
+
+\bibitem{Kidonakis:2012db_first}
+
+
+\bibitem{egSF}
+
+
+\bibitem{JetMETgroup}
+
+
+\bibitem{elMVA}
+
+
+\bibitem{CombinedLimit}
+
+
+\bibitem{bbbb}
+
+
+\bibitem{Cacciari:2008gp}
+
+
+\bibitem{Sjostrand:2006za}
+
+
+\bibitem{nu2}
+
+
+\bibitem{DIMOPOULOS1982133}
+
+
+\bibitem{DellaNegra1560}
+
+
+\bibitem{Evans}
+
+
+\bibitem{Eggert:260711}
+Technical report.
+
+\bibitem{Gröbner:356437}
+
+
+\bibitem{Lenzi:2013xpa}
+Master's thesis.
+
+\bibitem{CMS-PAS-HIG-17-030}
+Technical report.
+
+\bibitem{PF_MET}
+
+
+\bibitem{Herr:941318}
+
+
+\bibitem{Misner:1974qy}
+
+
+\bibitem{PV_reco}
+
+
+\end{thebibliography}

@@ -744,10 +744,6 @@ A.~L. Read.
 \newblock {Presentation of search results: the CLs technique}.
 \newblock {\em J. Phys. G: Nucl. Part. Phys.}, 28, 2002.
 
-\bibitem{HIG-11-011}
-{SM Higgs Combination}.
-\newblock Technical Report CMS-PAS-HIG-11-011, CERN, Geneva, 2011.
-
 \bibitem{Cowan:2010js}
 Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock {Asymptotic formulae for likelihood-based tests of new physics}.
@@ -777,423 +773,226 @@ A.~M. Sirunyan, A.~Tumasyan, and W.~et~al. Adam.
 \bibitem{...}
 
 
+\bibitem{HIG-11-011}
+Technical report.
+
 \bibitem{POWHEG}
-{S. Frixione, P. Nason, and C. Oleari}.
-\newblock Matching nlo qcd computations with parton shower simulations: the
-  powheg method.
-\newblock {\em JHEP}, 11:070, 2007.
+
 
 \bibitem{Luisoni:2013kna}
-Gionata Luisoni, Paolo Nason, Carlo Oleari, and Francesco Tramontano.
-\newblock {$HW^{\pm}$/HZ + 0 and 1 jet at NLO with the POWHEG BOX interfaced to
-  GoSam and their merging within MiNLO}.
-\newblock {\em JHEP}, 10:083, 2013.
+
 
 \bibitem{Comparison_of_nuisances_expectedSignal0_350}
-{Comparison of nuisances for background only case, 350 GeV mass hypothesis}.
-\newblock
-  http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison\_of\_nuisances\_expectedSignal0\_350.html.
+
 
 \bibitem{Comparison_of_nuisances_expectedSignal1_350}
-{Comparison of nuisances for s+b case, 350 GeV mass hypothesis}.
-\newblock
-  http://rkamalie.web.cern.ch/rkamalie/feb12/Comparison\_of\_nuisances\_expectedSignal1\_350.html.
+
 
 \bibitem{DYkfactor}
-{k-factor for DY/Z}.
-\newblock
-  https://twiki.cern.ch/twiki/bin/viewauth/CMS/SummaryTable1G25ns\#DY\_Z.
+
 
 \bibitem{LHCHXSWG}
-{The LHC Higgs cross-section working group}.
-\newblock https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG.
+
 
 \bibitem{SMxsec}
-{Standard Model Cross Sections for CMS at 13 TeV}.
-\newblock
-  https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossSectionsat13TeVInclusive.
+
 
 \bibitem{Gavin:2012sy}
-Ryan Gavin, Ye~Li, Frank Petriello, and Seth Quackenbush.
-\newblock {W Physics at the LHC with FEWZ 2.1}.
-\newblock {\em Comput. Phys. Commun.}, 184:208, 2013.
+
 
 \bibitem{Frixione:2007nw}
-Stefano Frixione, Paolo Nason, and Giovanni Ridolfi.
-\newblock {A Positive-weight next-to-leading-order Monte Carlo for heavy
-  flavour hadroproduction}.
-\newblock {\em JHEP}, 09:126, 2007.
+
 
 \bibitem{cite_aMC@NLO}
-J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
-  H.~S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro.
-\newblock {The automated computation of tree-level and next-to-leading order
-  differential cross sections, and their matching to parton shower
-  simulations}.
-\newblock {\em JHEP}, 07:079, 2014.
+
 
 \bibitem{Frederix:2012dh}
-Rikkert Frederix, Emanuele Re, and Paolo Torrielli.
-\newblock {Single-top t-channel hadroproduction in the four-flavour scheme with
-  POWHEG and aMC@NLO}.
-\newblock {\em JHEP}, 09:130, 2012.
+
 
 \bibitem{Chatrchyan:2011ds}
-Serguei Chatrchyan et~al.
-\newblock {Determination of jet energy calibration and transverse momentum
-  resolution in CMS}.
-\newblock {\em JINST}, 6:P11002, 2011.
+
 
 \bibitem{Re:2010bp}
-Emanuele Re.
-\newblock {Single-top Wt-channel production matched with parton showers using
-  the POWHEG method}.
-\newblock {\em Eur. Phys. J.}, C71:1547, 2011.
+
 
 \bibitem{muonIDnISO}
-{Gael L. Perrin, Pedro Fernandez Manteca}.
-\newblock {Muon Identification and Isolation Scale-Factors on 2016 Dataset}.
-\newblock
-  \url{https://indico.cern.ch/event/611558/contributions/2465881/attachments/1407735/2151747/TnP_06_02_2017.pdf}.
+
 
 \bibitem{muonTRK}
-{CMS Muon POG}.
-\newblock {Tracking SFs on the full 2016 data}.
-\newblock
-  \url{https://twiki.cern.ch/twiki/bin/view/CMS/MuonWorkInProgressAndPagResults#Results_on_the_full_2016_data}.
+
 
 \bibitem{muonTrigger}
-{Gael L. Perrin}.
-\newblock {Double Muon trigger efficiency per-leg approach}.
-\newblock
-  \url{https://indico.cern.ch/event/636555/contributions/2577291/attachments/1453162/2241537/TnP_DoubleMuSF_03_05_17.pdf}.
+
 
 \bibitem{Dupuis:2016fda}
-Grace Dupuis.
-\newblock {Collider Constraints and Prospects of a Scalar Singlet Extension to
-  Higgs Portal Dark Matter}.
-\newblock {\em JHEP}, 07:008, 2016.
+
 
 \bibitem{BG3}
-Oleg Antipin, David Atwood, and Amarjit Soni.
-\newblock {Search for RS gravitons via W(L)W(L) decays}.
-\newblock {\em Phys. Lett.}, B666:155--161, 2008.
+
 
 \bibitem{BG2}
-A.~Liam Fitzpatrick, Jared Kaplan, Lisa Randall, and Lian-Tao Wang.
-\newblock {Searching for the Kaluza-Klein Graviton in Bulk RS Models}.
-\newblock {\em JHEP}, 09:013, 2007.
+
 
 \bibitem{BG1}
-Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
-\newblock {Warped Gravitons at the LHC and Beyond}.
-\newblock {\em Phys. Rev.}, D76:036006, 2007.
+
 
 \bibitem{HiggsPAGPreapprovalChecks}
-{CMS Higgs PAG}.
-\newblock {List of question for the preapproval checks}.
-\newblock
-  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/HiggsWG/HiggsPAGPreapprovalChecks}.
+
 
 \bibitem{BTagtwiki}
-{CMS BTV POG}.
-\newblock {Supported Algorithms and Operating Points}.
-\newblock
-  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation80XReReco#Supported_Algorithms_and_Operati}.
+
 
 \bibitem{Salam:1961en}
-Abdus Salam and John~Clive Ward.
-\newblock On a gauge theory of elementary interactions.
-\newblock {\em Nuovo Cim.}, 19:165--170, 1961.
+
 
 \bibitem{Weinberg:1967tq}
-Steven Weinberg.
-\newblock A model of leptons.
-\newblock {\em Phys.Rev.Lett.}, 19:1264--1266, 1967.
+
 
 \bibitem{Vhbb_inspire}
-Albert~M Sirunyan et~al.
-\newblock {Evidence for the Higgs boson decay to a bottom quark-antiquark
-  pair}.
-\newblock 2017.
+
 
 \bibitem{CMSreco}
-Aruna~Kumar Nayak.
-\newblock {Reconstruction of physics objects in the CMS detector}.
-\newblock {\em PoS}, CHARGED2012:010, 2012.
+
 
 \bibitem{HiggsCMS}
-Serguei Chatrchyan et~al.
-\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
-  experiment at the LHC}.
-\newblock {\em Phys. Lett.}, B716:30--61, 2012.
+
 
 \bibitem{HiggsAtlas}
-Georges Aad et~al.
-\newblock {Observation of a new particle in the search for the Standard Model
-  Higgs boson with the ATLAS detector at the LHC}.
-\newblock {\em Phys. Lett.}, B716:1--29, 2012.
+
 
 \bibitem{CMS_AN_2006-027}
-I.~Belotelov, I.~Golutvin, D.~Bourilkov, A.~Lanyov, E.~Rogalev, M.~Savina, and
-  S.~Shmatov.
-\newblock Search for {ADD} extra dimensional gravity in di-muon channel with
-  the {CMS} detector.
-\newblock CMS Note 2006/076, 2006.
+Technical report.
 
 \bibitem{CMS_NOTE_2006-106}
-M.~Aldaya, P.~Arce, J.~Caballero, B.~de~la Cruz, P.~Garcia-Abia, J.~M.
-  Hernandez, M.~I. Josa, and E.~Ruiz.
-\newblock Discovery potential and search strategy for the standard model
-  {H}iggs boson in the {$H\to ZZ^\star\to 4\mu$} decay channel using a
-  mass-independent analysis.
-\newblock CMS Note 2006/106, 2006.
+Technical report.
 
 \bibitem{Brandt:1997gi}
-A.~Brandt et~al.
-\newblock Measurements of single diffraction at $\sqrt{s} =$ 630 {GeV}:
-  Evidence for a non-linear $\alpha(t)$ of the pomeron.
-\newblock {\em Nucl. Phys. B}, 514:3, 1998.
+
 
 \bibitem{Buchmuller:1986zs}
-W.~Buchm{\"u}ller and D.~Wyler.
-\newblock Constraints on {SU(5)}-type leptoquarks.
-\newblock {\em Phys. Lett. B}, 177:377, 1986.
+
 
 \bibitem{PTDR2}
-{CMS Collaboration}.
-\newblock {CMS} technical design report, volume {II}: {Physics} performance.
-\newblock {\em J. Phys. G}, 34:995, 2007.
+
 
 \bibitem{CMS-PAS-JME-10-003}
-{CMS Collaboration}.
-\newblock Jet performance in pp collisions at $\sqrt{s}$=7 {TeV}.
-\newblock CMS Physics Analysis Summary CMS-PAS-JME-10-003, 2010.
+Technical report.
 
 \bibitem{Chatrchyan:2008zzk}
-S.~Chatrchyan et~al.
-\newblock The {CMS} experiment at the {CERN} {LHC}.
-\newblock {\em JINST}, 3:S08004, 2008.
+
 
 \bibitem{Beringer:1900zz}
-{Particle Data Group}, J.~Beringer, et~al.
-\newblock {Review of Particle Physics}.
-\newblock {\em Phys. Rev. D}, 86:010001, 2012.
+
 
 \bibitem{LEPewkfits}
-{ALEPH, CDF, D0, DELPHI, L3, OPAL, SLD Collaborations, the LEP Electroweak
-  Working Group, the Tevatron Electroweak Working Group, and the SLD
-  Electroweak and Heavy Flavour Groups}.
-\newblock Precision electroweak measurements and constraints on the {Standard
-  Model}.
-\newblock 2010.
+
 
 \bibitem{Bertram:2000br}
-I.~Bertram, G.~Landsberg, J.~Linnemann, R.~Partridge, M.~Paterno, and H.~B.
-  Prosper.
-\newblock A recipe for the construction of confidence limits.
-\newblock Technical Report {TM-2104}, Fermilab, 2000.
+Technical report.
 
 \bibitem{Khachatryan:2015bnx}
-Vardan Khachatryan et~al.
-\newblock {Search for the standard model Higgs boson produced through vector
-  boson fusion and decaying to $b \overline{b}$}.
-\newblock {\em Phys. Rev.}, D92(3):032008, 2015.
+
 
 \bibitem{CMS-PAS-MUO-10-002}
-{Performance of muon identification in pp collisions at s**0.5 = 7 TeV}.
-\newblock Technical Report CMS-PAS-MUO-10-002, CERN, Geneva, 2010.
+Technical report.
 
 \bibitem{Chatrchyan:2012xi}
-Serguei Chatrchyan et~al.
-\newblock {Performance of CMS muon reconstruction in $pp$ collision events at
-  $\sqrt{s}=7$ TeV}.
-\newblock {\em JINST}, 7:P10002, 2012.
+
 
 \bibitem{CMS-PAS-PFT-09-001}
-{CMS COLLABORATION}.
-\newblock Particle--flow event reconstruction in {CMS} and performance\ for
-  jets, taus, and {\MET}.
-\newblock CMS Physics Analysis Summary CMS-PAS-PFT-09-001, CERN, 2009.
+Technical report.
 
 \bibitem{CMS-PAS-PFT-10-001}
-{CMS COLLABORATION}.
-\newblock Commissioning of the particle-flow event reconstruction with\ the
-  first lhc collisions recorded in the cms detector.
-\newblock CMS Physics Analysis Summary CMS-PAS-PFT-10-001, CERN, 2010.
+Technical report.
 
 \bibitem{Khachatryan:2015hwa}
-Vardan Khachatryan et~al.
-\newblock {Performance of Electron Reconstruction and Selection with the CMS
-  Detector in Proton-Proton Collisions at $\sqrt{s}$ = 8 TeV}.
-\newblock {\em JINST}, 10(06):P06005, 2015.
+
 
 \bibitem{Khachatryan:2010mp}
-{CMS Collaboration}.
-\newblock Search for pair production of first-generation scalar leptoquarks in
-  pp collisions at $\sqrt{s} = 7$ {TeV}.
-\newblock Submitted to \textit{Phys. Rev. Lett.}, 2010.
+
 
 \bibitem{CMS-PAPER-MUO-10-004}
-{CMS Collaboration}.
-\newblock Performance of cms muon reconstruction in pp collision events at
-  {$\sqrt{s} = 7$\TeV}.
-\newblock Submitted to \textit{J. Inst.}, 2012.
+
 
 \bibitem{ATLAS:2011aa}
-{ATLAS Collaboration}.
-\newblock Search for the {H}iggs boson in the {$H\to$WW(*)$\to \ell^+ \nu
-  \ell^- \bar{\nu}$} decay channel in pp collisions at $\sqrt{s}$ = 7 {TeV}
-  with the {ATLAS} detector.
-\newblock Submitted to \textit{Phys. Rev. Lett.}, 2011.
+
 
 \bibitem{Cacciari:2005hq}
-Matteo Cacciari and Gavin~P. Salam.
-\newblock {Dispelling the $N^{3}$ myth for the $k_{t}$ jet-finder}.
-\newblock {\em Phys. Lett. B}, 641:57, 2006.
+
 
 \bibitem{lumiUnc}
-{CMS Luminosity Measurements for the 2016 Data Taking Period}.
-\newblock Technical Report CMS-PAS-LUM-17-001, CERN, Geneva, 2017.
+Technical report.
 
 \bibitem{MuonsRun2}
-{CMS Muon POG}.
-\newblock {Reference muon id, isolation and trigger efficiencies for Run-II}.
-\newblock
-  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/MuonReferenceEffsRun2}.
+
 
 \bibitem{Campbell:2014kua}
-John~M. Campbell, R.~Keith Ellis, Paolo Nason, and Emanuele Re.
-\newblock {Top-pair production and decay at NLO matched with parton showers}.
-\newblock {\em JHEP}, 04:114, 2015.
+
 
 \bibitem{Gavin:2010az}
-Ryan Gavin, Ye~Li, Frank Petriello, and Seth Quackenbush.
-\newblock {FEWZ 2.0: A code for hadronic Z production at
-  next-to-next-to-leading order}.
-\newblock {\em Comput. Phys. Commun.}, 182:2388, 2011.
+
 
 \bibitem{Li:2012wna}
-Ye~Li and Frank Petriello.
-\newblock {Combining QCD and electroweak corrections to dilepton production in
-  FEWZ}.
-\newblock {\em Phys. Rev. D}, 86:094034, 2012.
+
 
 \bibitem{Kidonakis:2012db_first}
-Nikolaos Kidonakis.
-\newblock {Differential and total cross sections for top pair and single top
-  production}.
-\newblock In {\em {Proceedings, 20th International Workshop on Deep-Inelastic
-  Scattering and Related Subjects (DIS 2012): Bonn, Germany, March 26-30,
-  2012}}, page 831, 2012.
-\newblock [,831(2012)].
+
 
 \bibitem{egSF}
-{Chris Palmer}.
-\newblock {VHbb Electron Trigger and ID+ISO SFs for 2016 data}.
-\newblock
-  \url{https://indico.cern.ch/event/604949/contributions/2543520/attachments/1439974/2216426/VHbb_TnP_SFs_egamma_april.pdf#search=vhbb\%20AND\%20cerntaxonomy\%3A\%22Indico\%2FExperiments\%2FCMS\%20meetings\%2FPH\%20\%2D\%20Physics\%2FEgamma\%22}.
+
 
 \bibitem{JetMETgroup}
-{CMS JetMET group}.
-\newblock {Jet Energy Resolution}.
-\newblock \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetResolution}.
+
 
 \bibitem{elMVA}
-{CMS EGM POG}.
-\newblock {Multivariate Electron Identification for Run2}.
-\newblock \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/Multivari\
-  ateElectronIdentificationRun2}.
+
 
 \bibitem{CombinedLimit}
-{CMS Higgs WG}.
-\newblock {Binned shape analysis with the Higgs Combination Tool}.
-\newblock
-  \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHiggsAnalysisCombinedLimit#Binned_shape_analysis}.
+
 
 \bibitem{bbbb}
-{bbbb team}.
-\newblock {Search for resonant pair production of Higgs bosons decaying to
-  bottom quark-antiquark pairs in proton-proton collisions at 13 TeV}.
-\newblock
-  \url{http://cms.cern.ch/iCMS/analysisadmin/get?analysis=HIG-17-009-pas-v5.pdf}.
+
 
 \bibitem{Cacciari:2008gp}
-Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
-\newblock The anti-$k_t$ jet clustering algorithm.
-\newblock {\em JHEP}, 04:063, 2008.
+
 
 \bibitem{Sjostrand:2006za}
-Torbj{\"o}rn Sj{\"o}strand, Stephen Mrenna, and Peter Skands.
-\newblock {PYTHIA} 6.4 physics and manual.
-\newblock {\em JHEP}, 05:026, 2006.
+
 
 \bibitem{nu2}
-C.~Giunti and M.~Laveder.
-\newblock Neutrino mixing.
-\newblock In F.~Columbus and V.~Krasnoholovets, editors, {\em Developments in
-  Quantum Physics}. Nova Science Publishers, Inc., 2004.
+
 
 \bibitem{DIMOPOULOS1982133}
-Savas Dimopoulos, Stuart Raby, and Frank Wilczek.
-\newblock Proton decay in supersymmetric models.
-\newblock {\em Physics Letters B}, 112(2):133 -- 136, 1982.
+
 
 \bibitem{DellaNegra1560}
-M.~Della~Negra, P.~Jenni, and T.~S. Virdee.
-\newblock Journey in the search for the higgs boson: The atlas and cms
-  experiments at the large hadron collider.
-\newblock {\em Science}, 338(6114):1560--1568, 2012.
+
 
 \bibitem{Evans}
-Lyndon~R Evans and Philip Bryant.
-\newblock {LHC Machine}.
-\newblock {\em JINST}, 3:S08001. 164 p, 2008.
-\newblock This report is an abridged version of the LHC Design Report
-  (CERN-2004-003).
+
 
 \bibitem{Eggert:260711}
-Karsten Eggert, K~Honkavaara, and Andreas Morsch.
-\newblock {Luminosity considerations for the LHC}.
-\newblock Technical Report CERN-AT-94-04-DI. CERN-LHC-Note-263. LHC-NOTE-263,
-  CERN, Geneva, Feb 1994.
+Technical report.
 
 \bibitem{Gröbner:356437}
-Oswald Gröbner.
-\newblock {The LHC Vacuum System}.
-\newblock (LHC-Project-Report-181. CERN-LHC-Project-Report-181):5 p, May 1998.
+
 
 \bibitem{Lenzi:2013xpa}
-Thomas Lenzi.
-\newblock {Development and Study of Different Muon Track Reconstruction
-  Algorithms for the Level-1 Trigger for the CMS Muon Upgrade with GEM
-  Detectors}.
-\newblock Master's thesis, U. Brussels (main), 2013.
+Master's thesis.
 
 \bibitem{CMS-PAS-HIG-17-030}
-{Combination of searches for Higgs boson pair production in proton-proton
-  collisions at $\sqrt{s} = 13~\mathrm{TeV}$}.
-\newblock Technical Report CMS-PAS-HIG-17-030, CERN, Geneva, 2018.
+Technical report.
 
 \bibitem{PF_MET}
-The~CMS collaboration.
-\newblock Missing transverse energy performance of the cms detector.
-\newblock {\em Journal of Instrumentation}, 6(09):P09001, 2011.
+
 
 \bibitem{Herr:941318}
-Werner Herr and B~Muratori.
-\newblock {Concept of luminosity}.
-\newblock 2006.
+
 
 \bibitem{Misner:1974qy}
-Charles~W. Misner, K.~S. Thorne, and J.~A. Wheeler.
-\newblock {\em {Gravitation}}.
-\newblock W. H. Freeman, San Francisco, 1973.
+
 
 \bibitem{PV_reco}
-Serguei Chatrchyan et~al.
-\newblock {Description and performance of track and primary-vertex
-  reconstruction with the CMS tracker}.
-\newblock {\em JINST}, 9(10):P10009, 2014.
+
 
 \end{thebibliography}
