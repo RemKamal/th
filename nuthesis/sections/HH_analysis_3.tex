@@ -229,6 +229,7 @@ During the reconstruction of the collisions at the CMS, data for each event are 
 
 \subsection{Electrons}\label{sec:electrons}
 Electrons are reconstructed using the GSF algorithm \cite{GSF}. The electron candidates are then selected by first applying a loose isolation requirement of 0.4, after which they have to pass the Tight ID criterion defined by the CMS $e/\gamma$ POG, see \ref{sec:cms_reco}. At the offline level, the analysis applies additionally the loose WP (WP90) ~\cite{vhbbAN}. With this WP, one achieves an electron selection efficiency of 90\% by utilizing variables such as the agreement between the position of the ECAL cluster and GSF track that forms the electron, the energy of the 3 by 3 crystal core of the electron's cluster, the ratio of electron energy measured in ECAL to the electron's momentum measured in the tracking system, the ratio of the HCAL to ECAL energy, $p_T$ and $\eta$ of the electron, etc.
+\subsection{Electrons}\label{sec:EGamma}
 
 This is a justified level of the desired identification efficiency for the $Z \to \ell \ell$ channel since we select on-shell Z boson decays to charged leptons, where produced prompt leptons are very energetic. Finally, the electrons must be isolated from other particles in the event. Numerically, a selection criterion on the isolation is imposed (see Section \ref{sec:isolation}), where the expected contribution of particles from pileup interactions is $\rho$-subtracted using the effective areas method, see Section \ref{sec:isolation}. In this measurement, the isolation (with the cone size 0.3) for electrons is required to be smaller than 0.06, which means that all other particles together in the isolation cone around the electron cannot have more than 6$\%$ of the electron's energy.
 
@@ -358,7 +359,38 @@ efficiencies between data and simulation. Additionally, since the DZ requirement
 The efficiencies and, subsequently, the scale factors are measured separately for the efficiencies of the reconstruction procedure, lepton identification, isolation requirements, and impact parameter requirements. The TnP procedure discussed in Section \ref{sec:TnP} is applied to measure all of these efficiencies. The scale factors of all listed types for both leptons are used as multiplicative factors
 to form the per-candidate lepton efficiency SF.
 
-On average, the muon ID scale factors are equal to 0.992 - 1.004, depending on the $p_t$ and $\eta$ of leptons. The muon ISO SFs are equal to 0.991-1.004. The electron ID $\cdot$ ISO SFs, computed together, are ranging from 0.832 to 1.073. For the HLT SFs, see Figs. in the subsection \ref{sec:triggers}.
+On average, the muon ID scale factors are equal to 0.992 - 1.004, depending on the $p_t$ and $\eta$ of leptons. The muon ISO SFs are equal to 0.991-1.004. The electron ID $\cdot$ ISO SFs, computed together, are ranging from 0.832 to 1.073. For an an illustration, see the Fig. \ref{fig:eleIDnISO_SF}. The HLT SFs have been discussed in the subsection \ref{sec:triggers}. 
+
+
+
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=0.55\textwidth]{muon_ID_BCDEFv2.png}
+%\bigbreak
+%\includegraphics[width=0.55\textwidth]{muon_ID_GHv2.png}
+%\caption[Muon ID scale factors as a function of the electron $p_{T}$ and $\eta$.]{ Muon ID scale factors as a function of the muon $p_{T}$ and $\eta$. Top: eras B to F. Bottom: eras G and H.}
+%\label{fig:muonID_SF}
+%\end{figure}
+%
+%
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=0.55\textwidth]{muon_ISO_BCDEFv2.png}
+%\bigbreak
+%\includegraphics[width=0.55\textwidth]{muon_ISO_GHv2.png}
+%\caption[Muon ISO scale factors as a function of the electron $p_{T}$ and $\eta$.]{ Muon ISO scale factors as a function of the electron $p_{T}$ and $\eta$. Top: runs B to F. Bottom: eras G and H.}
+%\label{fig:muonISO_SF}
+%\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{EIDISO_ZH_out.png}
+\caption[Electron ID plus ISO scale factors.]{ Electron ID plus ISO scale factors as a function of the electron $p_{T}$ and $\eta$. The x axis corresponds to $\eta$ of the electron, the y axis corresponds to $p_T$ of the electron.}
+\label{fig:eleIDnISO_SF}
+\end{figure}
+
+
+
 
 \item{\bfseries b tagging and light flavor mistagging probability scale factors} 
 
@@ -655,7 +687,7 @@ the mass of the \HBB~candidate, and the mass of the $ZZ^*$ system. The TMVA nota
 
 The BDT discriminant is trained on a pure sample of signal and background events from simulation, using the train data. The properties of the discriminant are studied on an independent testing sample of pure signal and background events, using the test data. The Deep Neural Network (DNN) approach has also been studied - however, due to the lack of event statistics, the DNN approach could not offer a performance higher than the one achieved with the BDT, and thus was abandoned. Training 16 BDTs per spin hypothesis seemed impractical since our data analysis is dominated by statistical uncertainties. Instead, we follow the approach of other $HH$ analyses \cite{HH_combination}: we split the range from 250 to 1000 into two regions: low mass (250 to 450 GeV) and high mass (above 450 GeV up to 1 TeV) regions. This separation boundary at 450 GeV was optimized first using ROC curves (described later in this section), then by running the whole analysis chain all the way to the final limits. %This procedure not only saves CPU cycles by training two BDTs instead of sixteen, but mostly increases the statistics and improves the robustness of the trained BDT. 
 
-During the training procedure some variables provide more discriminating power and on average are used more often than others. The more often the variable is used, the higher its importance is. The tables below show the ranking and average importance of each of the BDT training. For the low and high mass regions, and di-electron and di-muon channels, see Tables \ref{tab:importance_ee_low}, \ref{tab:importance_ee_high}, \ref{tab:importance_mm_low}, \ref{tab:importance_mm_high}. As can be seen from these Tables, all nine selected variables are equally important, and one cannot use 1-2 single variables to perform signal-background discrimination. The ranking of variables is compatible between di-electron and di-muon channels within the statistical uncertainty of $O$(sub percent). 
+During the training procedure some variables provide more discriminating power and on average are used more often than others. The more often the variable is used, the higher its importance is. The tables below show the ranking and average importance of each of the BDT training. For the low and high mass regions, and di-electron and di-muon channels, see Tables \ref{tab:importance_ee_low}, \ref{tab:importance_ee_high}, \ref{tab:importance_mm_low}, \ref{tab:importance_mm_high}. As can be seen from these Tables, all nine selected variables are equally important, and one cannot use 1-2 single variables to perform signal-background discrimination. The ranking of variables is compatible between di-electron and di-muon channels within the statistical uncertainty of $O$(sub percent), the graviton signal hypothesis is shown. 
 
 \noindent\begin{table}[H]
 \centering
@@ -734,7 +766,7 @@ Rank & Variable & Importance (\%) \\\hline
 \label{tab:importance_mm_high}
 \end{table}
 
-The correlations among the input variables are shown in the Figs. ~\ref{fig:ele_cors_low}, ~\ref{fig:ele_cors_high}. For low mass training, signal samples for mass hypotheses from 250 to 450 GeV are combined together and represent the ``signal''. This is done similarly for high mass training - it is a mix of signal samples for mass hypotheses from 500 to 1000 GeV. For background samples, the ``background'' is a mix of samples of two main background processes: DY in association with jets and $t\bar{t}$ production, weighted by the cross section value. The full selection is applied except for the Z boson and \HBB~ candidate invariant mass requirements. 
+The correlations among the input variables are shown in the Figs. ~\ref{fig:ele_cors_low}, ~\ref{fig:ele_cors_high} (graviton hypothesis). For low mass training, signal samples for mass hypotheses from 250 to 450 GeV are combined together and represent the ``signal''. This is done similarly for high mass training - it is a mix of signal samples for mass hypotheses from 500 to 1000 GeV. For background samples, the ``background'' is a mix of samples of two main background processes: DY in association with jets and $t\bar{t}$ production, weighted by the cross section value. The full selection is applied except for the Z boson and \HBB~ candidate invariant mass requirements. 
 
 \begin{figure}[tbp]
 \begin{center}
@@ -754,13 +786,13 @@ The correlations among the input variables are shown in the Figs. ~\ref{fig:ele_
 \end{center}
 \end{figure}
 
-Below we include figures of the BDT input variables. They are the same variables previously shown, but are produced by the TMVA package. In this style they allow for an easier visual judgment of which variables behave with greater difference between the signal and the background, see Figs. \ref{fig:ele_lowVars}, \ref{fig:ele_highVars}.
+Below we include figures of the BDT input variables. They are the same variables previously shown, but are produced by the TMVA package. In this style they allow for an easier visual judgment of which variables behave with greater difference between the signal and the background, see Figs. \ref{fig:ele_lowVars}, \ref{fig:ele_highVars} for the BDT training in the di-electron channel, graviton hypothesis. For the radion hypothesis, the separation power of the individual variables slightly varies, but overall the BDT training has a similar performance. The input variables to the BDT training of the radion signal hypothesis in the di-electron channel are shown in Figs. \ref{fig:ele_lowVars_radion}, \ref{fig:ele_highVars_radion}.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.95\textwidth]{bdtPlots_eles/low_vars1.pdf}
 \includegraphics[width=0.95\textwidth]{bdtPlots_eles/low_vars2.pdf}
-\caption[Variables used in the low mass training for di-electron channel.]{ Variables used in the low mass training for di-electron channel. Index '1' refers to \HBB~decay and index '0' refers to \HZZ~decay. The TMVA notation is explained in \ref{TMVA_notation}.}
+\caption[Variables used in the low mass training for di-electron channel, graviton hypothesis.]{ Variables used in the low mass training for di-electron channel, graviton hypothesis. Index '1' refers to \HBB~decay and index '0' refers to \HZZ~decay. The TMVA notation is explained in \ref{TMVA_notation}.}
 \label{fig:ele_lowVars}
 \end{center}
 \end{figure}
@@ -769,10 +801,31 @@ Below we include figures of the BDT input variables. They are the same variables
 \begin{center}
 \includegraphics[width=0.95\textwidth]{bdtPlots_eles/high_vars1.pdf}
 \includegraphics[width=0.95\textwidth]{bdtPlots_eles/high_vars2.pdf}
-\caption[Variables used in the high mass training for di-electron channel.]{ Variables used in the high mass training for di-electron channel. Index '1' refers to \HBB~decay and index '0' refers to \HZZ~decay. The TMVA notation is explained in \ref{TMVA_notation}.}
+\caption[Variables used in the high mass training for di-electron channel, graviton hypothesis.]{ Variables used in the high mass training for di-electron channel, graviton hypothesis. Index '1' refers to \HBB~decay and index '0' refers to \HZZ~decay. The TMVA notation is explained in \ref{TMVA_notation}.}
 \label{fig:ele_highVars}
 \end{center}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{radion_ee_low_bdt/radion_variables_id_c1.pdf}
+\includegraphics[width=0.95\textwidth]{radion_ee_low_bdt/radion_variables_id_c2.pdf}
+\caption[Variables used in the low mass training for di-electron channel, radion hypothesis.]{ Variables used in the low mass training for di-electron channel, radion hypothesis. Index '1' refers to \HBB~decay and index '0' refers to \HZZ~decay. The TMVA notation is explained in \ref{TMVA_notation}.}
+\label{fig:ele_lowVars_radion}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{radion_ee_high_bdt/radion_variables_id_c1.pdf}
+\includegraphics[width=0.95\textwidth]{radion_ee_high_bdt/radion_variables_id_c2.pdf}
+\caption[Variables used in the high mass training for di-electron channel, radion hypothesis.]{ Variables used in the high mass training for di-electron channel, radion hypothesis. Index '1' refers to \HBB~decay and index '0' refers to \HZZ~decay. The TMVA notation is explained in \ref{TMVA_notation}.}
+\label{fig:ele_highVars_radion}
+\end{center}
+\end{figure}
+
+
 
 After the training, the BDT model is created. This model produces the BDT distribution (BDT response), see Fig. \ref{fig:ele_BDTs}. This figure overlays train and test parameters of the BDT training of the di-electron channel. The parameters of the model, such as the number of trees, the allowed number of splits per variable, the maximum tree depth and others, have been thoroughly studied. The default TMVA parameters are found to provide a good performance with this measurement. 
 
@@ -786,7 +839,7 @@ discriminant is performing well, see Figs. ~\ref{fig:ele_BDTs}, ~\ref{fig:ele_RO
 \begin{center}
 \includegraphics[width=0.75\textwidth]{bdtPlots_eles/low_bdt.pdf}
 \includegraphics[width=0.75\textwidth]{bdtPlots_eles/high_bdt.pdf}
-\caption[BDT discriminants for di-electron channel.]{ BDT discriminants for di-electron channel. Top: low mass training. Bottom: high mass training. }
+\caption[BDT discriminants for di-electron channel, graviton hypothesis.]{ BDT discriminants for di-electron channel, graviton hypothesis. Top: low mass training. Bottom: high mass training. }
 \label{fig:ele_BDTs}
 \end{center}
 \end{figure}
@@ -799,7 +852,7 @@ The ROC can be regarded as a probability curve and, in this case, the AUC repres
 \begin{center}
 \includegraphics[width=0.75\textwidth]{bdtPlots_eles/low_roc.pdf}
 \includegraphics[width=0.75\textwidth]{bdtPlots_eles/high_roc.pdf}
-\caption[ROC curves for di-electron channel.]{ ROC curves for di-electron channel. Top: low mass training. Bottom: high mass training. }
+\caption[ROC curves for di-electron channel, graviton hypothesis.]{ ROC curves for di-electron channel, graviton hypothesis. Top: low mass training. Bottom: high mass training. }
 \label{fig:ele_ROCs}
 \end{center}
 \end{figure}
@@ -1039,7 +1092,7 @@ The parameter $r_k$ sets the normalization of the background process $k$ while $
 
 The fit is performed separately for each of the 16 resonance mass points in the range 250 to 1000 GeV for a radion and a graviton resonance hypothesis individually. During the fit, the values of the $r_{signal}$ and $r_k$, along with the uncertainties, are determined. 
 
-The implementation of the maximum likelihood fit is done in the Higgs Combine package, a software framework supported by the CMS experiment \cite{HiggsCombine}. The framework is based on the RooStats package \cite{RooStats} that is widely used in the HEP community. 
+The implementation of the maximum likelihood fit is done in the Higgs Combine package, a software framework supported by the CMS experiment \cite{HiggsCombine,CMS-NOTE-2011-005}. The framework is based on the RooStats package \cite{RooStats} that is widely used in the HEP community. 
 
 
 Figure~\ref{MCcomparisons} shows the result of the fit for one mass point - 300 GeV. These $HH$ transverse mass distributions for the graviton hypothesis are of the post-fit type - the normalizations and shapes of all components were adjusted according to the best-fit values. A similar figure in the case of the radion hypothesis is shown in Fig. ~\ref{MCcomparisons_radion}. The signal component is very close to zero, it would not be visible on the figures. Therefore, the signal event yield is further scaled by a certain high factor for visual purposes, to make the signal contribution clearly visible. 
@@ -1073,7 +1126,7 @@ Figure~\ref{MCcomparisons} shows the result of the fit for one mass point - 300 
 \subsection{The fit results}
 \label{sec:fit_results}
 
-Based on fit results, we proceed setting upper 95 \% confidence level limits on the $HH$ production cross section multiplied by the BF of the final state, using the modified frequentist CL$_s$ approach (asymptotic CL$_s$)~\cite{Junk:1999kv,LEP-CLs, HIG-11-011, Cowan:2010js}. 
+Based on fit results, we proceed setting upper 95 \% confidence level limits on the $HH$ production cross section multiplied by the BF of the final state, using the modified frequentist CL$_s$ approach (asymptotic CL$_s$)~\cite{Junk:1999kv, LEP-CLs, HIG-11-011, Cowan:2010js}. 
 
 It is worthwhile letting the reader know that before the real data is used to derive observed limits, the toy data set is first used to optimize the expected limits. This toy data set, called the Asimov data set, is commonly used by CMS and ATLAS experiments for statistical analysis procedures. The Asimov data set (see \cite{Cowan:2010js}) represents the hypothesis, which in most cases is the expected background with no fluctuations. The signal strength is set to zero, which, in a simple counting experiment \cite{expected_limit_asimov} corresponds to the total number of events equal (if there are no fluctuations) to the number of background events (no signal events). 
 

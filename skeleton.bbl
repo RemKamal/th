@@ -725,6 +725,11 @@ J.~S. Conway.
 \newblock
   \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHiggsAnalysisCombinedLimit}.
 
+\bibitem{CMS-NOTE-2011-005}
+{Procedure for the LHC Higgs boson search combination in Summer 2011}.
+\newblock Technical Report CMS-NOTE-2011-005. ATL-PHYS-PUB-2011-11, CERN,
+  Geneva, Aug 2011.
+
 \bibitem{RooStats}
 L.~Moneta, K.~Belasco, K.~S. Cranmer, A.~Lazzaro, D.~Piparo, G.~Schott,
   W.~Verkerke, and M.~Wolf.

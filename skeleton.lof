@@ -40,37 +40,40 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces SFs of the dZ requirement for muons.}}{103}{figure.caption.38}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Optimisation of the MET selection for two $bbZZ$ analyses}}{112}{figure.caption.40}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Analysis phase space with the signal and two control regions.}}{116}{figure.caption.42}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Data-MC comparison in CRDY.}}{124}{figure.caption.44}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Electron ID plus ISO scale factors.}}{119}{figure.caption.44}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Data-MC comparison in CRDY.}}{125}{figure.caption.45}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Data-MC comparison in CRDY.}}{126}{figure.caption.46}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Data-MC comparison in CRDY.}}{127}{figure.caption.47}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Data-MC comparison in CRDY.}}{128}{figure.caption.48}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Data-MC comparison in the BDT sideband of the SR.}}{129}{figure.caption.49}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Data-MC comparison in CRDY.}}{129}{figure.caption.49}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Data-MC comparison in the BDT sideband of the SR.}}{130}{figure.caption.50}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Data-MC comparison in the BDT sideband of the SR.}}{131}{figure.caption.51}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Data-MC comparison in the BDT sideband of the SR.}}{132}{figure.caption.52}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Data-MC comparison in CRTT.}}{133}{figure.caption.53}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Data-MC comparison in the BDT sideband of the SR.}}{133}{figure.caption.53}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Data-MC comparison in CRTT.}}{134}{figure.caption.54}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Data-MC comparison in CRTT.}}{135}{figure.caption.55}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces Data-MC comparison in CRTT.}}{136}{figure.caption.56}
 \contentsline {figure}{\numberline {5.20}{\ignorespaces Data-MC comparison in CRTT.}}{137}{figure.caption.57}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces BDT trees 1 and 2.}}{141}{figure.caption.58}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces BDT trees 400 and 401.}}{142}{figure.caption.59}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces BDT trees 799 and 800.}}{143}{figure.caption.60}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Input variable correlations of the di-electron channel, low mass training.}}{147}{figure.caption.65}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Input variable correlations of the di-electron channel, high mass training.}}{148}{figure.caption.66}
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Variables used in the low mass training for di-electron channel.}}{149}{figure.caption.67}
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Variables used in the high mass training for di-electron channel.}}{150}{figure.caption.68}
-\contentsline {figure}{\numberline {5.28}{\ignorespaces BDT discriminants for di-electron channel.}}{152}{figure.caption.69}
-\contentsline {figure}{\numberline {5.29}{\ignorespaces ROC curves for di-electron channel.}}{154}{figure.caption.70}
-\contentsline {figure}{\numberline {5.30}{\ignorespaces BDT distributions for the radion case.}}{156}{figure.caption.71}
-\contentsline {figure}{\numberline {5.31}{\ignorespaces Transverse mass of the reconstructed $HH$ candidates for graviton hypothesis.}}{169}{figure.caption.76}
-\contentsline {figure}{\numberline {5.32}{\ignorespaces Transverse mass of the reconstructed $HH$ candidates for radion hypothesis.}}{170}{figure.caption.77}
-\contentsline {figure}{\numberline {5.33}{\ignorespaces Data-MC comparison in the SR.}}{172}{figure.caption.78}
-\contentsline {figure}{\numberline {5.34}{\ignorespaces Data-MC comparison in the SR.}}{173}{figure.caption.79}
-\contentsline {figure}{\numberline {5.35}{\ignorespaces Data-MC comparison in the SR.}}{174}{figure.caption.80}
-\contentsline {figure}{\numberline {5.36}{\ignorespaces Data-MC comparison in the SR.}}{175}{figure.caption.81}
-\contentsline {figure}{\numberline {5.37}{\ignorespaces Data-MC comparison in the SR.}}{176}{figure.caption.82}
-\contentsline {figure}{\numberline {5.38}{\ignorespaces The expected and observed limits.}}{178}{figure.caption.84}
-\contentsline {figure}{\numberline {5.39}{\ignorespaces Combination of $HH$ channels using 2016 data.}}{180}{figure.caption.85}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Data-MC comparison in CRTT.}}{138}{figure.caption.58}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces BDT trees 1 and 2.}}{142}{figure.caption.59}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces BDT trees 400 and 401.}}{143}{figure.caption.60}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces BDT trees 799 and 800.}}{144}{figure.caption.61}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Input variable correlations of the di-electron channel, low mass training.}}{148}{figure.caption.66}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Input variable correlations of the di-electron channel, high mass training.}}{149}{figure.caption.67}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Variables used in the low mass training for di-electron channel, graviton hypothesis.}}{151}{figure.caption.68}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Variables used in the high mass training for di-electron channel, graviton hypothesis.}}{152}{figure.caption.69}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Variables used in the low mass training for di-electron channel, radion hypothesis.}}{153}{figure.caption.70}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Variables used in the high mass training for di-electron channel, radion hypothesis.}}{154}{figure.caption.71}
+\contentsline {figure}{\numberline {5.31}{\ignorespaces BDT discriminants for di-electron channel, graviton hypothesis.}}{156}{figure.caption.72}
+\contentsline {figure}{\numberline {5.32}{\ignorespaces ROC curves for di-electron channel, graviton hypothesis.}}{158}{figure.caption.73}
+\contentsline {figure}{\numberline {5.33}{\ignorespaces BDT distributions for the radion case.}}{160}{figure.caption.74}
+\contentsline {figure}{\numberline {5.34}{\ignorespaces Transverse mass of the reconstructed $HH$ candidates for graviton hypothesis.}}{173}{figure.caption.79}
+\contentsline {figure}{\numberline {5.35}{\ignorespaces Transverse mass of the reconstructed $HH$ candidates for radion hypothesis.}}{174}{figure.caption.80}
+\contentsline {figure}{\numberline {5.36}{\ignorespaces Data-MC comparison in the SR.}}{176}{figure.caption.81}
+\contentsline {figure}{\numberline {5.37}{\ignorespaces Data-MC comparison in the SR.}}{177}{figure.caption.82}
+\contentsline {figure}{\numberline {5.38}{\ignorespaces Data-MC comparison in the SR.}}{178}{figure.caption.83}
+\contentsline {figure}{\numberline {5.39}{\ignorespaces Data-MC comparison in the SR.}}{179}{figure.caption.84}
+\contentsline {figure}{\numberline {5.40}{\ignorespaces Data-MC comparison in the SR.}}{180}{figure.caption.85}
+\contentsline {figure}{\numberline {5.41}{\ignorespaces The expected and observed limits.}}{182}{figure.caption.87}
+\contentsline {figure}{\numberline {5.42}{\ignorespaces Combination of $HH$ channels using 2016 data.}}{184}{figure.caption.88}
 \addvspace {10pt}

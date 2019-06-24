@@ -63,10 +63,11 @@
 \contentsline {subsection}{\numberline {5.4.2}Background processes simulation}{104}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Physics Objects Selection}{107}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Electrons}{107}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Muons}{108}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Jets}{108}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}b jets}{109}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}Missing transverse momentum}{109}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.2}Electrons}{107}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Muons}{108}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Jets}{108}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}b jets}{109}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.6}Missing transverse momentum}{110}{subsection.5.5.6}
 \contentsline {section}{\numberline {5.6}Event Selection}{110}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Kinematic selection of physics objects}{111}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Signal candidate construction and selection}{113}{subsection.5.6.2}
@@ -74,17 +75,17 @@
 \contentsline {subsection}{\numberline {5.6.4}Signal region candidate selection with a multivariate technique}{117}{subsection.5.6.4}
 \contentsline {subsection}{\numberline {5.6.5}Candidate reweighting in simulated events}{117}{subsection.5.6.5}
 \contentsline {section}{\numberline {5.7}Multivariate selection in the signal region}{120}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Kinematic variables of a candidate}{120}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Multivariate discriminant: a BDT classifier}{137}{subsection.5.7.2}
-\contentsline {subsection}{\numberline {5.7.3}BDT selection requirement in the signal region}{157}{subsection.5.7.3}
-\contentsline {section}{\numberline {5.8}Uncertainties of the measurement}{158}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Normalisation uncertainties}{159}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Shape uncertainties}{162}{subsection.5.8.2}
-\contentsline {subsection}{\numberline {5.8.3}Leading uncertainties}{164}{subsection.5.8.3}
-\contentsline {section}{\numberline {5.9}Statistical Analysis}{166}{section.5.9}
-\contentsline {subsection}{\numberline {5.9.1}The likelihood function}{166}{subsection.5.9.1}
-\contentsline {subsection}{\numberline {5.9.2}The fit results}{170}{subsection.5.9.2}
-\contentsline {section}{\numberline {5.10}Discussion}{179}{section.5.10}
-\contentsline {chapter}{\chapternumberline {6}Conclusions}{182}{chapter.6}
-\contentsline {chapter}{Bibliography}{184}{chapter.6}
-\contentsline {chapter}{References}{184}{section*.87}
+\contentsline {subsection}{\numberline {5.7.1}Kinematic variables of a candidate}{121}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Multivariate discriminant: a BDT classifier}{138}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}BDT selection requirement in the signal region}{161}{subsection.5.7.3}
+\contentsline {section}{\numberline {5.8}Uncertainties of the measurement}{162}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Normalisation uncertainties}{163}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Shape uncertainties}{166}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.3}Leading uncertainties}{168}{subsection.5.8.3}
+\contentsline {section}{\numberline {5.9}Statistical Analysis}{170}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}The likelihood function}{170}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}The fit results}{174}{subsection.5.9.2}
+\contentsline {section}{\numberline {5.10}Discussion}{183}{section.5.10}
+\contentsline {chapter}{\chapternumberline {6}Conclusions}{186}{chapter.6}
+\contentsline {chapter}{Bibliography}{188}{chapter.6}
+\contentsline {chapter}{References}{188}{section*.90}
