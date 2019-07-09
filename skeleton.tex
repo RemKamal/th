@@ -156,7 +156,18 @@
 %%%%%%%%%%%   chapter styles %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\chapterstyle{bianchi}
-%\chapterstyle{bianchi}
+\renewcommand{\chapnamefont}{\normalfont\large\bfseries}
+\renewcommand{\chapnumfont}{\normalfont\large\bfseries}
+\renewcommand{\chaptitlefont}{\large\bfseries}
+\renewcommand{\partnamefont}{\normalfont\large\bfseries}
+\renewcommand{\partnumfont}{\normalfont\large\bfseries}
+\renewcommand{\parttitlefont}{\normalfont\large\bfseries}
+\renewcommand{\secheadstyle}{\large\bfseries}
+\renewcommand{\subsecheadstyle}{\normalsize\bfseries}
+\renewcommand{\paraheadstyle}{\normalsize\bfseries}
+\renewcommand{\subparaheadstyle}{\normalsize\bfseries}
+
+
 %https://tex.stackexchange.com/questions/398861/chapter-heading-size-in-bianchi
 %\renewcommand*{\chapnamefont}{\normalfont\large\rmfamily\scshape}
 %\renewcommand*{\chapnumfont}{\normalfont\large}
@@ -283,12 +294,13 @@ service consumers. For SaaS, the CP deploy
 %  \vspace{0.3\textheight}
   % \centering
 %\begin{flushright}
-  { { %\normalfont 
-  %\large	
+  { {
+  \normalfont 
+  \large	
   In the loving memory of my grandmother Raisa, who always believed in me,   
   who showed me how to never lose hope, and  who taught me 
   how to be diligent with my work,  humble with people, and tough with myself.
-}}\\{\footnotesize 8 July 1939 - 27 July 2018}\\ \ \\
+}}\\{\footnotesize \normalfont 8 July 1939 - 27 July 2018}\\ \ \\
  %\end{flushright}
  % {\huge \textit{``Here will be a quote ''}}\\{\footnotesize name, year.}\\ \ \\
   \vspace{4cm}
