@@ -53,4 +53,38 @@
 \BOOKMARK [1][-]{section.4.4}{Datasets and Trigger Paths}{chapter.4}% 53
 \BOOKMARK [0][-]{chapter.5}{bbZZ Physics Analysis}{}% 54
 \BOOKMARK [1][-]{section.5.1}{Physics analysis overview}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.2}{Data
+\BOOKMARK [1][-]{section.5.2}{Data analysis strategy}{chapter.5}% 56
+\BOOKMARK [1][-]{section.5.3}{Data and Triggers}{chapter.5}% 57
+\BOOKMARK [2][-]{subsection.5.3.1}{Data}{section.5.3}% 58
+\BOOKMARK [2][-]{subsection.5.3.2}{Triggers}{section.5.3}% 59
+\BOOKMARK [1][-]{section.5.4}{Simulated Samples}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.5.4.1}{Signal processes simulation}{section.5.4}% 61
+\BOOKMARK [2][-]{subsection.5.4.2}{Background processes simulation}{section.5.4}% 62
+\BOOKMARK [1][-]{section.5.5}{Physics Objects Selection}{chapter.5}% 63
+\BOOKMARK [2][-]{subsection.5.5.1}{Electrons}{section.5.5}% 64
+\BOOKMARK [2][-]{subsection.5.5.2}{Electrons}{section.5.5}% 65
+\BOOKMARK [2][-]{subsection.5.5.3}{Muons}{section.5.5}% 66
+\BOOKMARK [2][-]{subsection.5.5.4}{Jets}{section.5.5}% 67
+\BOOKMARK [2][-]{subsection.5.5.5}{b jets}{section.5.5}% 68
+\BOOKMARK [2][-]{subsection.5.5.6}{Missing transverse momentum}{section.5.5}% 69
+\BOOKMARK [1][-]{section.5.6}{Event Selection}{chapter.5}% 70
+\BOOKMARK [2][-]{subsection.5.6.1}{Kinematic selection of physics objects}{section.5.6}% 71
+\BOOKMARK [2][-]{subsection.5.6.2}{Signal candidate construction and selection}{section.5.6}% 72
+\BOOKMARK [2][-]{subsection.5.6.3}{Signal and control kinematic regions}{section.5.6}% 73
+\BOOKMARK [2][-]{subsection.5.6.4}{Signal region candidate selection with a multivariate technique}{section.5.6}% 74
+\BOOKMARK [2][-]{subsection.5.6.5}{Candidate reweighting in simulated events}{section.5.6}% 75
+\BOOKMARK [1][-]{section.5.7}{Multivariate selection in the signal region}{chapter.5}% 76
+\BOOKMARK [2][-]{subsection.5.7.1}{Kinematic variables of a candidate}{section.5.7}% 77
+\BOOKMARK [2][-]{subsection.5.7.2}{Multivariate discriminant: a BDT classifier}{section.5.7}% 78
+\BOOKMARK [2][-]{subsection.5.7.3}{BDT selection requirement in the signal region}{section.5.7}% 79
+\BOOKMARK [1][-]{section.5.8}{Uncertainties of the measurement}{chapter.5}% 80
+\BOOKMARK [2][-]{subsection.5.8.1}{Normalisation uncertainties}{section.5.8}% 81
+\BOOKMARK [2][-]{subsection.5.8.2}{Shape uncertainties}{section.5.8}% 82
+\BOOKMARK [2][-]{subsection.5.8.3}{Leading uncertainties}{section.5.8}% 83
+\BOOKMARK [1][-]{section.5.9}{Statistical Analysis}{chapter.5}% 84
+\BOOKMARK [2][-]{subsection.5.9.1}{The likelihood function}{section.5.9}% 85
+\BOOKMARK [2][-]{subsection.5.9.2}{The fit results}{section.5.9}% 86
+\BOOKMARK [1][-]{section.5.10}{Discussion}{chapter.5}% 87
+\BOOKMARK [0][-]{chapter.6}{Conclusions}{}% 88
+\BOOKMARK [0][-]{figure.caption.90}{Bibliography}{}% 89
+\BOOKMARK [0][-]{section*.92}{References}{}% 90
