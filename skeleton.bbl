@@ -507,7 +507,7 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
 {SM Higgs Branching Ratios and Total Decay Widths (update in CERN Report4
   2016)}.
 \newblock
-  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR\#Higgs\_2\_gauge\_bosons.
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR\#Higgs\_2\_gauge\_bosons}.
 
 \bibitem{Alwall:2007fs}
 Johan Alwall et~al.
@@ -606,21 +606,21 @@ John~M. Campbell and R.~K. Ellis.
 \bibitem{xsecZH}
 {SM Higgs production cross sections at sqrt(s) = 13 TeV}.
 \newblock
-  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt13TeV\#ZHllH\_H\_l\_e\_or\_Process.
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt13TeV\#ZHllH\_H\_l\_e\_or\_Process}.
 
 \bibitem{xsecTT}
 {NNLO+NNLL top-quark-pair cross sections}.
 \newblock
-  https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO\#Top\_quark\_pair\_cross\_sections\_at.
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO\#Top\_quark\_pair\_cross\_sections\_at}.
 
 \bibitem{xsecST}
 {Single Top Cross sections}.
-\newblock https://twiki.cern.ch/twiki/bin/viewauth/CMS/SingleTopSigma.
+\newblock \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/SingleTopSigma}.
 
 \bibitem{xsecVV}
 {CMS GEN XSEC Task Force}.
 \newblock
-  https://twiki.cern.ch/twiki/bin/viewauth/CMS/GenXsecTaskForce\#Space\_for\_Various\_Processes\_Welc.
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/GenXsecTaskForce\#Space\_for\_Various\_Processes\_Welc}.
 
 \bibitem{Ball:2014uwa}
 Richard~D. Ball et~al.
@@ -738,16 +738,16 @@ L.~Moneta, K.~Belasco, K.~S. Cranmer, A.~Lazzaro, D.~Piparo, G.~Schott,
   and Analysis Techniques in Physics Research (ACAT2010)}. SISSA, 2010.
 \newblock {PoS(ACAT2010)057}.
 
+\bibitem{LEPCLs}
+A.~L. Read.
+\newblock {Presentation of search results: the CLs technique}.
+\newblock {\em J. Phys. G: Nucl. Part. Phys.}, 28, 2002.
+
 \bibitem{Junk:1999kv}
 Thomas Junk.
 \newblock {Confidence level computation for combining searches with small
   statistics}.
 \newblock {\em Nucl.Instrum.Meth.}, A434:435, 1999.
-
-\bibitem{LEP-CLs}
-A.~L. Read.
-\newblock {Presentation of search results: the CLs technique}.
-\newblock {\em J. Phys. G: Nucl. Part. Phys.}, 28, 2002.
 
 \bibitem{Cowan:2010js}
 Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.

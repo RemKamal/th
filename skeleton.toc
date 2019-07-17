@@ -63,11 +63,10 @@
 \contentsline {subsection}{\numberline {5.4.2}Background processes simulation}{102}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Physics Objects Selection}{105}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Electrons}{105}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Electrons}{105}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Muons}{106}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Jets}{106}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}b jets}{107}{subsection.5.5.5}
-\contentsline {subsection}{\numberline {5.5.6}Missing transverse momentum}{107}{subsection.5.5.6}
+\contentsline {subsection}{\numberline {5.5.2}Muons}{106}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Jets}{106}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}b jets}{107}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Missing transverse momentum}{107}{subsection.5.5.5}
 \contentsline {section}{\numberline {5.6}Event Selection}{108}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Kinematic selection of physics objects}{109}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Signal candidate construction and selection}{111}{subsection.5.6.2}
@@ -77,15 +76,15 @@
 \contentsline {section}{\numberline {5.7}Multivariate selection in the signal region}{118}{section.5.7}
 \contentsline {subsection}{\numberline {5.7.1}Kinematic variables of a candidate}{119}{subsection.5.7.1}
 \contentsline {subsection}{\numberline {5.7.2}Multivariate discriminant: a BDT classifier}{136}{subsection.5.7.2}
-\contentsline {subsection}{\numberline {5.7.3}BDT selection requirement in the signal region}{159}{subsection.5.7.3}
-\contentsline {section}{\numberline {5.8}Uncertainties of the measurement}{160}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Normalisation uncertainties}{161}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Shape uncertainties}{164}{subsection.5.8.2}
-\contentsline {subsection}{\numberline {5.8.3}Leading uncertainties}{166}{subsection.5.8.3}
-\contentsline {section}{\numberline {5.9}Statistical Analysis}{168}{section.5.9}
-\contentsline {subsection}{\numberline {5.9.1}The likelihood function}{168}{subsection.5.9.1}
-\contentsline {subsection}{\numberline {5.9.2}The fit results}{172}{subsection.5.9.2}
-\contentsline {section}{\numberline {5.10}Discussion}{181}{section.5.10}
-\contentsline {chapter}{\chapternumberline {6}Conclusions}{184}{chapter.6}
-\contentsline {chapter}{Bibliography}{189}{figure.caption.90}
-\contentsline {chapter}{References}{189}{section*.92}
+\contentsline {subsection}{\numberline {5.7.3}BDT selection requirement in the signal region}{158}{subsection.5.7.3}
+\contentsline {section}{\numberline {5.8}Uncertainties of the measurement}{159}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Normalisation uncertainties}{160}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Shape uncertainties}{163}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.3}Leading uncertainties}{165}{subsection.5.8.3}
+\contentsline {section}{\numberline {5.9}Statistical Analysis}{167}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}The likelihood function}{167}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}The fit results}{171}{subsection.5.9.2}
+\contentsline {section}{\numberline {5.10}Discussion}{180}{section.5.10}
+\contentsline {chapter}{\chapternumberline {6}Conclusions}{183}{chapter.6}
+\contentsline {chapter}{Bibliography}{188}{figure.caption.90}
+\contentsline {chapter}{References}{188}{section*.92}

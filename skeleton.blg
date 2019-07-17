@@ -15,7 +15,6 @@ Warning--entry type for "Wertz:2632195" isn't style-file defined
 --line 1658 of file nuthesis/sections/bibl.bib
 Warning--entry type for "Cadamuro:2292733" isn't style-file defined
 --line 1667 of file nuthesis/sections/bibl.bib
-Warning--I didn't find a database entry for "HIG-11-011"
 Warning--empty journal in Mangano:454171
 Warning--there's a number but no volume in Mangano:454171
 Warning--empty author in CMS-PAS-HIG-14-009
@@ -42,15 +41,15 @@ Warning--empty booktitle in HiggsCouplings2018
 Warning--empty author in CMS-PAS-FTR-18-019
 You've used 136 entries,
             1791 wiz_defined-function locations,
-            1215 strings with 25141 characters,
-and the built_in function-call counts, 25110 in all, are:
-= -- 2164
+            1213 strings with 25149 characters,
+and the built_in function-call counts, 25120 in all, are:
+= -- 2169
 > -- 1033
 < -- 19
 + -- 411
 - -- 275
 * -- 1485
-:= -- 4090
+:= -- 4095
 add.period$ -- 408
 call.type$ -- 136
 change.case$ -- 114
@@ -59,17 +58,17 @@ cite$ -- 160
 duplicate$ -- 1168
 empty$ -- 2651
 format.name$ -- 275
-if$ -- 5616
+if$ -- 5621
 int.to.chr$ -- 0
 int.to.str$ -- 136
 missing$ -- 123
 newline$ -- 673
 num.names$ -- 121
-pop$ -- 404
+pop$ -- 389
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 460
+skip$ -- 470
 stack$ -- 0
 substring$ -- 1211
 swap$ -- 151
@@ -81,4 +80,4 @@ warning$ -- 24
 while$ -- 201
 width$ -- 139
 write$ -- 1442
-(There were 31 warnings)
+(There were 30 warnings)
